@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-29T22:15:29Z",
-    "html_samples_considered": 1520,
-    "ranking_rows_extracted": 23715,
+    "run_timestamp": "2026-06-29T22:23:32Z",
+    "html_samples_considered": 1540,
+    "ranking_rows_extracted": 24055,
     "rows_with_observed_play_counts": 8483,
-    "captures_with_rows": 1496,
+    "captures_with_rows": 1516,
     "captures_without_rows": 24,
     "ranking_types": [
       "browse",
@@ -7778,6 +7778,24 @@
     },
     {
       "date": "2016-11-06",
+      "source_url": "http://www.kongregate.com:80/tower-defense-games",
+      "capture_timestamp": "20161106193042",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161106193042_http_www.kongregate.com_80_tower-defense-games_451631ddc92333c1.html"
+    },
+    {
+      "date": "2016-11-06",
+      "source_url": "http://www.kongregate.com:80/action-games/?",
+      "capture_timestamp": "20161106204351",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161106204351_http_www.kongregate.com_80_action-games_7d9b5b21010720af.html"
+    },
+    {
+      "date": "2016-11-06",
       "source_url": "http://www.kongregate.com:80/games?",
       "capture_timestamp": "20161106213426",
       "parser": "game_browser_game_row",
@@ -7804,6 +7822,159 @@
       "html_path": "data/raw/html/20161107215831_http_www.kongregate.com_games_e519cfd708d696ca.html"
     },
     {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/action-games",
+      "capture_timestamp": "20161107215844",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107215844_http_www.kongregate.com_action-games_d3152998bad96e21.html"
+    },
+    {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/shooter-games",
+      "capture_timestamp": "20161107215858",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107215858_http_www.kongregate.com_shooter-games_e14c6e93676ae38a.html"
+    },
+    {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/tower-defense-games",
+      "capture_timestamp": "20161107215901",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107215901_http_www.kongregate.com_tower-defense-games_915ad31c969a00a6.html"
+    },
+    {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/strategy-games",
+      "capture_timestamp": "20161107221239",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107221239_http_www.kongregate.com_strategy-games_dc1e7dae596a4cca.html"
+    },
+    {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/idle-games",
+      "capture_timestamp": "20161107222610",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107222610_http_www.kongregate.com_idle-games_0d895d8f0dd8eb9c.html"
+    },
+    {
+      "date": "2016-11-07",
+      "source_url": "http://www.kongregate.com/puzzle-games",
+      "capture_timestamp": "20161107224919",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161107224919_http_www.kongregate.com_puzzle-games_2ef85b1f2e574387.html"
+    },
+    {
+      "date": "2016-11-08",
+      "source_url": "http://www.kongregate.com/tower-defense-games",
+      "capture_timestamp": "20161108120837",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161108120837_http_www.kongregate.com_tower-defense-games_80a334c154a5d862.html"
+    },
+    {
+      "date": "2016-11-08",
+      "source_url": "http://www.kongregate.com/strategy-games",
+      "capture_timestamp": "20161108155232",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161108155232_http_www.kongregate.com_strategy-games_3c701c6bbe46505b.html"
+    },
+    {
+      "date": "2016-11-08",
+      "source_url": "http://www.kongregate.com/action-games",
+      "capture_timestamp": "20161108172200",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161108172200_http_www.kongregate.com_action-games_eec58c2e13a5463f.html"
+    },
+    {
+      "date": "2016-11-08",
+      "source_url": "http://www.kongregate.com/idle-games",
+      "capture_timestamp": "20161108174619",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161108174619_http_www.kongregate.com_idle-games_a6a3eb0e0eb52297.html"
+    },
+    {
+      "date": "2016-11-08",
+      "source_url": "http://www.kongregate.com/puzzle-games",
+      "capture_timestamp": "20161108175650",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161108175650_http_www.kongregate.com_puzzle-games_42172ac80f0b9ed9.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/shooter-games?",
+      "capture_timestamp": "20161114000220",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114000220_http_www.kongregate.com_80_shooter-games_7b286772bff177d4.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/action-games",
+      "capture_timestamp": "20161114014615",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114014615_http_www.kongregate.com_80_action-games_9879af76f4987dad.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/strategy-games?",
+      "capture_timestamp": "20161114020552",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114020552_http_www.kongregate.com_80_strategy-games_4abb6f44c086ce15.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/Puzzle-games?",
+      "capture_timestamp": "20161114034509",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114034509_http_www.kongregate.com_80_Puzzle-games_f41a2db23db8eadc.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/Tower-Defense-games?",
+      "capture_timestamp": "20161114042226",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114042226_http_www.kongregate.com_80_Tower-Defense-games_e61c4e3c4b84146e.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com:80/Strategy-games?",
+      "capture_timestamp": "20161114050923",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114050923_http_www.kongregate.com_80_Strategy-games_e78fbd5012818c62.html"
+    },
+    {
       "date": "2016-11-14",
       "source_url": "http://www.kongregate.com/games",
       "capture_timestamp": "20161114225008",
@@ -7811,6 +7982,15 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20161114225008_http_www.kongregate.com_games_d828f95fa92e922f.html"
+    },
+    {
+      "date": "2016-11-14",
+      "source_url": "http://www.kongregate.com/action-games",
+      "capture_timestamp": "20161114225019",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20161114225019_http_www.kongregate.com_action-games_323255c6c3e62203.html"
     },
     {
       "date": "2016-11-18",
