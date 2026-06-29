@@ -29837,6 +29837,21 @@
     },
     {
       "date": "2022-06-18",
+      "game_name": "Battle Of Heroes",
+      "game_url": "http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes",
+      "plays_count_observed": 57018,
+      "favorites_count_observed": 528,
+      "plays_text": "57,018",
+      "favorites_text": "528",
+      "metrics_url": "http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
+      "capture_timestamp": "20220618163919",
+      "capture_url": "https://web.archive.org/web/20220618163919/http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220618163919_http_www.kongregate.com_games_Andrew_Nyers_battle-of-heroes_metrics.json_571fe24df2d2b93a.json"
+    },
+    {
+      "date": "2022-06-18",
       "game_name": "Press The Button",
       "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
       "plays_count_observed": 1197749,
@@ -42437,6 +42452,21 @@
     },
     {
       "date": "2023-11-06",
+      "game_name": "Robo Racing",
+      "game_url": "http://www.kongregate.com/games/smokoko/robo-racing",
+      "plays_count_observed": 5156,
+      "favorites_count_observed": 31,
+      "plays_text": "5,156",
+      "favorites_text": "31",
+      "metrics_url": "https://www.kongregate.com/games/smokoko/robo-racing/metrics.json",
+      "capture_timestamp": "20231106234720",
+      "capture_url": "https://web.archive.org/web/20231106234720/https://www.kongregate.com/games/smokoko/robo-racing/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106234720_https_www.kongregate.com_games_smokoko_robo-racing_metrics.json_6d9fd0caaa67c0d3.json"
+    },
+    {
+      "date": "2023-11-06",
       "game_name": "Run 3",
       "game_url": "http://www.kongregate.com/games/player_03/run-3",
       "plays_count_observed": 16705454,
@@ -45212,6 +45242,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11137,
+      "favorites_count_observed": 49,
+      "plays_text": "11,137",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240117045819",
+      "capture_url": "https://web.archive.org/web/20240117045819/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117045819_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_8254d8d71b1c3ae6.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Protector IV",
       "game_url": "https://www.kongregate.com/en/games/undefined/protector-iv",
       "plays_count_observed": 4517151,
@@ -45974,6 +46019,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119214809_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_9dbf0018a338f446.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11139,
+      "favorites_count_observed": 49,
+      "plays_text": "11,139",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240119215930",
+      "capture_url": "https://web.archive.org/web/20240119215930/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119215930_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d4e3367df868d7f5.json"
     },
     {
       "date": "2024-01-19",
@@ -48419,6 +48479,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222221224_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_21951c7b26975925.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11149,
+      "favorites_count_observed": 49,
+      "plays_text": "11,149",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240222222904",
+      "capture_url": "https://web.archive.org/web/20240222222904/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222222904_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d78f6c9c9585a20f.json"
     },
     {
       "date": "2024-02-22",

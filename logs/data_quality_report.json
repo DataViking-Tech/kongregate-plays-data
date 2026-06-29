@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-29T21:25:34Z",
+  "run_timestamp": "2026-06-29T21:47:26Z",
   "as_of": "2026-06-29",
   "ranked_rows": 22435,
   "ranked_rows_with_play_counts": 8483,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 2844,
-  "metrics_history_rows": 4829,
-  "metrics_history_games": 1272,
+  "metrics_history_rows": 4834,
+  "metrics_history_games": 1274,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-06-29"
   ],
   "zero_ranked_capture_months": 84,
-  "catalog_games_without_metrics_history": 1253,
+  "catalog_games_without_metrics_history": 1251,
   "catalog_games_need_page_history": 2172,
   "final_chart_entries_stale_over_one_year": 0,
   "invalid_cached_html_files": 0,
@@ -40,10 +40,10 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 1253,
+      "count": 1251,
       "first_date": "",
       "last_date": "",
-      "example": "Robo Racing",
+      "example": "Alexia Crow and the pandora's box",
       "recommended_action": "Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit."
     },
     {

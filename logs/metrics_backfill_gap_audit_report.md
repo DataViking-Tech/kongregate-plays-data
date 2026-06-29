@@ -1,32 +1,30 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T21:25:35Z
+Generated: 2026-06-29T21:47:26Z
 
 ## Summary
 
 - Mini-catalog games audited: 2844
-- Games without metrics rows: 1253
-- Games with fresh pending captures: 1
-- Fresh pending captures: 3
+- Games without metrics rows: 1251
+- Games with fresh pending captures: 0
+- Fresh pending captures: 0
 - Known failed captures: 715
-- Missing CDX cache files: 819
+- Missing CDX cache files: 784
 
 ## Status Counts
 
-- cdx_cache_missing: 708
-- has_metrics: 1591
+- cdx_cache_missing: 673
+- has_metrics: 1593
 - known_failures_only: 39
-- no_cdx: 506
+- no_cdx: 539
 
 ## Top Unresolved Games
 
 | Game | Status | Best rank | Metrics rows | CDX rows | Fresh pending | Known failed |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Robo Racing | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Alexia Crow and the pandora's box | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Alexia Crow and the pandora's box | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Battle Of Heroes | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Brakeless Trials Game 2014 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Brakeless Trials Game 2014 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Clash of the Races 5 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Classical Snake | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | Football Legends 2016 | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -37,9 +35,9 @@ Generated: 2026-06-29T21:25:35Z
 | LT-Breakout | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Pou Popper | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Pou Popper | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| SCP 079 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| SCP 079 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Space Breakout! | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | SpaceWarrior | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -47,6 +45,8 @@ Generated: 2026-06-29T21:25:35Z
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| The world most bugged game | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Wheelie Legend | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

@@ -1,29 +1,47 @@
 {
-  "attempted_this_run": 4,
+  "run_timestamp": "2026-06-29T21:47:14Z",
+  "mode": "fresh_pending_only",
+  "targets": 3,
+  "attempted_this_run": 5,
+  "fetched_this_run": 5,
   "cached_selected_this_run": 0,
-  "catalog_games": 2444,
-  "catalog_games_in_scope": 60,
-  "catalog_limit": 60,
-  "catalog_offset": 1600,
-  "cdx_games_considered": 60,
-  "cdx_rows": 215,
-  "cdx_urls_cached": 50,
-  "cdx_urls_failed": 7,
-  "cdx_urls_fetched": 8,
-  "collapse": "",
-  "failed_this_run": 4,
-  "fetched_this_run": 0,
-  "first_history_date": "2013-09-18",
-  "games_with_history": 1349,
-  "history_rows": 4829,
+  "failed_this_run": 0,
+  "manifest_entries": 3986,
   "known_failures": 1081,
+  "history_rows": 4834,
+  "games_with_history": 1274,
+  "first_history_date": "2013-09-18",
   "last_history_date": "2026-06-29",
-  "manifest_entries": 3981,
-  "metrics_jobs": 215,
-  "pending_before_run": 4,
-  "run_timestamp": "2026-06-29T20:49:00Z",
-  "schemes": [
-    "http",
-    "https"
+  "attempts": [
+    {
+      "game_name": "Robo Racing",
+      "timestamp": "20231106234720",
+      "ok": true,
+      "detail": "data/raw/game_metrics/json/20231106234720_https_www.kongregate.com_games_smokoko_robo-racing_metrics.json_6d9fd0caaa67c0d3.json"
+    },
+    {
+      "game_name": "Battle Of Heroes",
+      "timestamp": "20220618163919",
+      "ok": true,
+      "detail": "data/raw/game_metrics/json/20220618163919_http_www.kongregate.com_games_Andrew_Nyers_battle-of-heroes_metrics.json_571fe24df2d2b93a.json"
+    },
+    {
+      "game_name": "Necromancer's Quest Beta",
+      "timestamp": "20240117045819",
+      "ok": true,
+      "detail": "data/raw/game_metrics/json/20240117045819_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_8254d8d71b1c3ae6.json"
+    },
+    {
+      "game_name": "Necromancer's Quest Beta",
+      "timestamp": "20240119215930",
+      "ok": true,
+      "detail": "data/raw/game_metrics/json/20240119215930_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d4e3367df868d7f5.json"
+    },
+    {
+      "game_name": "Necromancer's Quest Beta",
+      "timestamp": "20240222222904",
+      "ok": true,
+      "detail": "data/raw/game_metrics/json/20240222222904_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d78f6c9c9585a20f.json"
+    }
   ]
 }

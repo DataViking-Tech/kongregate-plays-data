@@ -1,29 +1,18 @@
 {
   "catalog_games": 2844,
-  "fresh_pending_captures": 3,
-  "games_with_fresh_pending_captures": 1,
-  "games_without_metrics_rows": 1253,
-  "generated_at": "2026-06-29T21:25:35Z",
+  "fresh_pending_captures": 0,
+  "games_with_fresh_pending_captures": 0,
+  "games_without_metrics_rows": 1251,
+  "generated_at": "2026-06-29T21:47:26Z",
   "known_failed_captures": 715,
-  "missing_cdx_cache_files": 819,
+  "missing_cdx_cache_files": 784,
   "status_counts": {
-    "cdx_cache_missing": 708,
-    "has_metrics": 1591,
+    "cdx_cache_missing": 673,
+    "has_metrics": 1593,
     "known_failures_only": 39,
-    "no_cdx": 506
+    "no_cdx": 539
   },
   "top_unresolved_games": [
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Robo Racing",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3352,
-      "status": "cdx_cache_missing"
-    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -33,7 +22,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -51,22 +40,11 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Battle Of Heroes",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
       "game_name": "Brakeless Trials Game 2014",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -187,7 +165,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -209,7 +187,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -287,7 +265,29 @@
       "metrics_rows": 0,
       "priority_score": 3351,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The world most bugged game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Wheelie Legend",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8255
+  "valid_cached_captures": 8260
 }
