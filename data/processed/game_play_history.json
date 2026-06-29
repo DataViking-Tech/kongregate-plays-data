@@ -151,6 +151,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141121195641_http_www.kongregate.com_games_DJStatika_warlords-call-to-arms_metrics.json_54c42387b99fdc26.json"
     },
     {
+      "date": "2014-12-11",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 5385364,
+      "favorites_count_observed": 49761,
+      "plays_text": "5,385,364",
+      "favorites_text": "49,761",
+      "metrics_url": "http://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20141211015740",
+      "capture_url": "https://web.archive.org/web/20141211015740/http://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141211015740_http_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_002b0218694578b9.json"
+    },
+    {
       "date": "2015-02-19",
       "game_name": "Backyard Monsters",
       "game_url": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
@@ -181,6 +196,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150425205430_http_www.kongregate.com_games_tfender_contract-wars_metrics.json_d1747aeeb75c8f7b.json"
     },
     {
+      "date": "2015-05-01",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 3123811,
+      "favorites_count_observed": 58875,
+      "plays_text": "3,123,811",
+      "favorites_text": "58,875",
+      "metrics_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20150501182445",
+      "capture_url": "https://web.archive.org/web/20150501182445/http://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150501182445_http_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_cd27690c953c88db.json"
+    },
+    {
       "date": "2015-06-11",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -209,6 +239,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150616234220_http_www.kongregate.com_games_CriticalForceEt_counter-strike-web-browser-based-port-v2_metrics.json_686836cda8509b0d.json"
+    },
+    {
+      "date": "2015-08-04",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 469514,
+      "favorites_count_observed": 3265,
+      "plays_text": "469,514",
+      "favorites_text": "3,265",
+      "metrics_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20150804224021",
+      "capture_url": "https://web.archive.org/web/20150804224021/http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150804224021_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bd029662f926394e.json"
     },
     {
       "date": "2015-10-10",
@@ -254,6 +299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151105221112_http_www.kongregate.com_games_IriySoft_cursed-treasure-dont-touch-my-gems_metrics.json_8e34df0663c8602f.json"
+    },
+    {
+      "date": "2015-11-20",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 1797285,
+      "favorites_count_observed": 6529,
+      "plays_text": "1,797,285",
+      "favorites_text": "6,529",
+      "metrics_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20151120153512",
+      "capture_url": "https://web.archive.org/web/20151120153512/http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151120153512_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_078f68519cc3acfb.json"
     },
     {
       "date": "2015-11-22",
@@ -674,6 +734,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160227200617_http_www.kongregate.com_games_tfender_contract-wars_metrics.json_aa90900adc3558c1.json"
+    },
+    {
+      "date": "2016-02-28",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 5655264,
+      "favorites_count_observed": 51479,
+      "plays_text": "5,655,264",
+      "favorites_text": "51,479",
+      "metrics_url": "http://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20160228211600",
+      "capture_url": "https://web.archive.org/web/20160228211600/http://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160228211600_http_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_021ee134e417d912.json"
     },
     {
       "date": "2016-02-29",
@@ -1126,6 +1201,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160729025507_http_www.kongregate.com_games_HyperHippoGames_adventure-capitalist_metrics.json_814a1af122dfc17d.json"
     },
     {
+      "date": "2016-08-17",
+      "game_name": "TDP4 Team Battle",
+      "game_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+      "plays_count_observed": 21601521,
+      "favorites_count_observed": 134839,
+      "plays_text": "21,601,521",
+      "favorites_text": "134,839",
+      "metrics_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "capture_timestamp": "20160817231411",
+      "capture_url": "https://web.archive.org/web/20160817231411/http://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160817231411_http_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_faa4648ebdac5142.json"
+    },
+    {
       "date": "2016-09-18",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -1154,6 +1244,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160919145219_http_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_455261776e68192c.json"
+    },
+    {
+      "date": "2016-09-21",
+      "game_name": "Cardinal Quest 2",
+      "game_url": "https://www.kongregate.com/en/games/randomnine/cardinal-quest-2",
+      "plays_count_observed": 913222,
+      "favorites_count_observed": 12654,
+      "plays_text": "913,222",
+      "favorites_text": "12,654",
+      "metrics_url": "http://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "capture_timestamp": "20160921235428",
+      "capture_url": "https://web.archive.org/web/20160921235428/http://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160921235428_http_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_2f0367709ac784c5.json"
     },
     {
       "date": "2016-10-04",
@@ -1426,6 +1531,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180312145214_http_www.kongregate.com_80_games_ArmorGames_upgrade-complete_metrics.json_290d26622dbe5965.json"
     },
     {
+      "date": "2018-03-23",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1497208,
+      "favorites_count_observed": 16149,
+      "plays_text": "1,497,208",
+      "favorites_text": "16,149",
+      "metrics_url": "http://www.kongregate.com/games/herointeractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20180323133615",
+      "capture_url": "https://web.archive.org/web/20180323133615/http://www.kongregate.com/games/herointeractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180323133615_http_www.kongregate.com_games_herointeractive_bubble-tanks-3_metrics.json_11ca3a4075b7cc54.json"
+    },
+    {
       "date": "2018-04-06",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -1559,6 +1679,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190125044512_http_www.kongregate.com_games_gameinabottle_gemcraft_metrics.json_e05456b6597da396.json"
+    },
+    {
+      "date": "2019-01-26",
+      "game_name": "Flight Simulator - FlyWings 2016",
+      "game_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016",
+      "plays_count_observed": 492599,
+      "favorites_count_observed": 445,
+      "plays_text": "492,599",
+      "favorites_text": "445",
+      "metrics_url": "http://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "capture_timestamp": "20190126192720",
+      "capture_url": "https://web.archive.org/web/20190126192720/http://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190126192720_http_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_37ed37c9cd2ac56f.json"
     },
     {
       "date": "2019-02-05",
@@ -1696,6 +1831,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033145_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4264822180e70449.json"
     },
     {
+      "date": "2019-02-27",
+      "game_name": "Hero Simulator",
+      "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
+      "plays_count_observed": 1596365,
+      "favorites_count_observed": 11678,
+      "plays_text": "1,596,365",
+      "favorites_text": "11,678",
+      "metrics_url": "http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "capture_timestamp": "20190227161719",
+      "capture_url": "https://web.archive.org/web/20190227161719/http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190227161719_http_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_1d4253377e8995d5.json"
+    },
+    {
       "date": "2019-03-11",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -1709,6 +1859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190311050501_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_df65b05b8dfb1211.json"
+    },
+    {
+      "date": "2019-03-28",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 535039,
+      "favorites_count_observed": 3711,
+      "plays_text": "535,039",
+      "favorites_text": "3,711",
+      "metrics_url": "http://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20190328185431",
+      "capture_url": "https://web.archive.org/web/20190328185431/http://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190328185431_http_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_df70aeb9b6f02228.json"
     },
     {
       "date": "2019-06-15",
@@ -1741,6 +1906,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190811221715_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_d91415a36cd8bae6.json"
     },
     {
+      "date": "2019-08-14",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 6056368,
+      "favorites_count_observed": 53094,
+      "plays_text": "6,056,368",
+      "favorites_text": "53,094",
+      "metrics_url": "https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20190814142922",
+      "capture_url": "https://web.archive.org/web/20190814142922/https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190814142922_https_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_223cb50a4426c92f.json"
+    },
+    {
       "date": "2019-08-15",
       "game_name": "AdVenture Capitalist",
       "game_url": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
@@ -1756,6 +1936,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190815095356_https_www.kongregate.com_games_HyperHippoGames_adventure-capitalist_metrics.json_2ef5b51bbb4a31bc.json"
     },
     {
+      "date": "2019-09-08",
+      "game_name": "Crazy Fairies",
+      "game_url": "http://www.kongregate.com/games/Spicyhorse/crazyfairies",
+      "plays_count_observed": 2179471,
+      "favorites_count_observed": 25233,
+      "plays_text": "2,179,471",
+      "favorites_text": "25,233",
+      "metrics_url": "http://www.kongregate.com/games/Spicyhorse/crazyfairies/metrics.json",
+      "capture_timestamp": "20190908151428",
+      "capture_url": "https://web.archive.org/web/20190908151428/http://www.kongregate.com/games/Spicyhorse/crazyfairies/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190908151428_http_www.kongregate.com_games_Spicyhorse_crazyfairies_metrics.json_d06dec6aefbcd858.json"
+    },
+    {
       "date": "2019-09-28",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
@@ -1769,6 +1964,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190928175852_https_www.kongregate.com_games_arawkins_dolphin-olympics-2_metrics.json_8021d40bc36f397d.json"
+    },
+    {
+      "date": "2019-09-28",
+      "game_name": "Guppy Guard Express",
+      "game_url": "http://www.kongregate.com/games/FliplineStudios/guppy-guard-express",
+      "plays_count_observed": 37454,
+      "favorites_count_observed": 82,
+      "plays_text": "37,454",
+      "favorites_text": "82",
+      "metrics_url": "https://www.kongregate.com/games/FliplineStudios/guppy-guard-express/metrics.json",
+      "capture_timestamp": "20190928175851",
+      "capture_url": "https://web.archive.org/web/20190928175851/https://www.kongregate.com/games/FliplineStudios/guppy-guard-express/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190928175851_https_www.kongregate.com_games_FliplineStudios_guppy-guard-express_metrics.json_f5c1366b497d25ee.json"
     },
     {
       "date": "2019-09-28",
@@ -1847,6 +2057,21 @@
     },
     {
       "date": "2019-10-17",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 560396,
+      "favorites_count_observed": 3844,
+      "plays_text": "560,396",
+      "favorites_text": "3,844",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20191017183754",
+      "capture_url": "https://web.archive.org/web/20191017183754/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183754_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_4de7b2b2a9944b5d.json"
+    },
+    {
+      "date": "2019-10-17",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 32055408,
@@ -1874,6 +2099,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183759_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_d81e2ba2f029f5e8.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8171469,
+      "favorites_count_observed": 15053,
+      "plays_text": "8,171,469",
+      "favorites_text": "15,053",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20191017183746",
+      "capture_url": "https://web.archive.org/web/20191017183746/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183746_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_58aecf0093e31843.json"
     },
     {
       "date": "2019-10-17",
@@ -1919,6 +2159,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183752_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_a301d2b8f0d41268.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4834133,
+      "favorites_count_observed": 89874,
+      "plays_text": "4,834,133",
+      "favorites_text": "89,874",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20191017183755",
+      "capture_url": "https://web.archive.org/web/20191017183755/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183755_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_343000a99f2bf94f.json"
     },
     {
       "date": "2019-10-21",
@@ -2221,6 +2476,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045020_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_6e71f8960a464a8e.json"
     },
     {
+      "date": "2019-10-27",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4837968,
+      "favorites_count_observed": 89913,
+      "plays_text": "4,837,968",
+      "favorites_text": "89,913",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20191027045019",
+      "capture_url": "https://web.archive.org/web/20191027045019/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045019_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_a824132fa52116bd.json"
+    },
+    {
       "date": "2019-11-01",
       "game_name": "Sonny",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny",
@@ -2249,6 +2519,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_926f54d74bbd7b8c.json"
+    },
+    {
+      "date": "2019-11-07",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8214046,
+      "favorites_count_observed": 15090,
+      "plays_text": "8,214,046",
+      "favorites_text": "15,090",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20191107154545",
+      "capture_url": "https://web.archive.org/web/20191107154545/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154545_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_3323d3c09d67daa3.json"
     },
     {
       "date": "2019-11-07",
@@ -2417,6 +2702,21 @@
     },
     {
       "date": "2019-12-07",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 566606,
+      "favorites_count_observed": 3884,
+      "plays_text": "566,606",
+      "favorites_text": "3,884",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20191207205523",
+      "capture_url": "https://web.archive.org/web/20191207205523/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205523_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_660f1ab9aaf36be3.json"
+    },
+    {
+      "date": "2019-12-07",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 32292897,
@@ -2549,6 +2849,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205523_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_9c0d3dbc834a2eaa.json"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4854146,
+      "favorites_count_observed": 90051,
+      "plays_text": "4,854,146",
+      "favorites_text": "90,051",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20191207205643",
+      "capture_url": "https://web.archive.org/web/20191207205643/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205643_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_d3d520bfbf846b20.json"
     },
     {
       "date": "2019-12-07",
@@ -2822,6 +3137,21 @@
     },
     {
       "date": "2020-01-08",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 569514,
+      "favorites_count_observed": 3901,
+      "plays_text": "569,514",
+      "favorites_text": "3,901",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20200108214046",
+      "capture_url": "https://web.archive.org/web/20200108214046/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214046_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_1b8610a1ad625384.json"
+    },
+    {
+      "date": "2020-01-08",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 32428829,
@@ -2849,6 +3179,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214042_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_34fa250faf6f237a.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 68871,
+      "favorites_count_observed": 576,
+      "plays_text": "68,871",
+      "favorites_text": "576",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200108214037",
+      "capture_url": "https://web.archive.org/web/20200108214037/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214037_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_13f35d66e6e19e95.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8336901,
+      "favorites_count_observed": 15199,
+      "plays_text": "8,336,901",
+      "favorites_text": "15,199",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20200108214037",
+      "capture_url": "https://web.archive.org/web/20200108214037/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214037_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_91a9a23ea4b1b4fa.json"
     },
     {
       "date": "2020-01-08",
@@ -3001,6 +3361,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045140_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_4a4e3163383e74f8.json"
     },
     {
+      "date": "2020-01-21",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4870196,
+      "favorites_count_observed": 90192,
+      "plays_text": "4,870,196",
+      "favorites_text": "90,192",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20200121045139",
+      "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_82adbf506e69ac8a.json"
+    },
+    {
       "date": "2020-01-24",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
@@ -3044,6 +3419,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200129194242_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_29e0062bde9e003d.json"
+    },
+    {
+      "date": "2020-01-31",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 89424,
+      "favorites_count_observed": 704,
+      "plays_text": "89,424",
+      "favorites_text": "704",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200131124300",
+      "capture_url": "https://web.archive.org/web/20200131124300/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200131124300_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c1961406b091d978.json"
     },
     {
       "date": "2020-02-04",
@@ -3286,6 +3676,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050522_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_5b68c7a0261e13c8.json"
     },
     {
+      "date": "2020-03-24",
+      "game_name": "Turbo Golf",
+      "game_url": "https://www.kongregate.com/games/turboNuke/turbo-golf",
+      "plays_count_observed": 1437292,
+      "favorites_count_observed": 7607,
+      "plays_text": "1,437,292",
+      "favorites_text": "7,607",
+      "metrics_url": "https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "capture_timestamp": "20200324163635",
+      "capture_url": "https://web.archive.org/web/20200324163635/https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324163635_https_www.kongregate.com_games_turboNuke_turbo-golf_metrics.json_65442a3f242891e2.json"
+    },
+    {
       "date": "2020-03-25",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
@@ -3299,6 +3704,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200325193532_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_d0dfb40c32387b12.json"
+    },
+    {
+      "date": "2020-03-25",
+      "game_name": "Turbo Golf",
+      "game_url": "https://www.kongregate.com/games/turboNuke/turbo-golf",
+      "plays_count_observed": 1437511,
+      "favorites_count_observed": 7607,
+      "plays_text": "1,437,511",
+      "favorites_text": "7,607",
+      "metrics_url": "https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "capture_timestamp": "20200325193659",
+      "capture_url": "https://web.archive.org/web/20200325193659/https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200325193659_https_www.kongregate.com_games_turboNuke_turbo-golf_metrics.json_da0a178f80450eda.json"
+    },
+    {
+      "date": "2020-03-27",
+      "game_name": "Mu Complex : Episode Two",
+      "game_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-two",
+      "plays_count_observed": 293193,
+      "favorites_count_observed": 3401,
+      "plays_text": "293,193",
+      "favorites_text": "3,401",
+      "metrics_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-two/metrics.json",
+      "capture_timestamp": "20200327002425",
+      "capture_url": "https://web.archive.org/web/20200327002425/http://www.kongregate.com/games/StudioCime/mu-complex-episode-two/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200327002425_http_www.kongregate.com_games_StudioCime_mu-complex-episode-two_metrics.json_1b12c456e3e3f3c1.json"
     },
     {
       "date": "2020-03-31",
@@ -3512,6 +3947,36 @@
     },
     {
       "date": "2020-04-27",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 588435,
+      "favorites_count_observed": 3999,
+      "plays_text": "588,435",
+      "favorites_text": "3,999",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20200427132159",
+      "capture_url": "https://web.archive.org/web/20200427132159/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132159_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_46d74b7a44b31f78.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 588436,
+      "favorites_count_observed": 3999,
+      "plays_text": "588,436",
+      "favorites_text": "3,999",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20200427132202",
+      "capture_url": "https://web.archive.org/web/20200427132202/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132202_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_e6a8a2e55f5f4708.json"
+    },
+    {
+      "date": "2020-04-27",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34270691,
@@ -3524,6 +3989,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132157_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_fa628f1d782bc642.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 134989,
+      "favorites_count_observed": 966,
+      "plays_text": "134,989",
+      "favorites_text": "966",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200427132159",
+      "capture_url": "https://web.archive.org/web/20200427132159/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132159_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_ca1cca5f7693eea6.json"
     },
     {
       "date": "2020-04-27",
@@ -3569,6 +4049,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132152_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_9c6662723e0724b9.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4911428,
+      "favorites_count_observed": 90524,
+      "plays_text": "4,911,428",
+      "favorites_text": "90,524",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20200427132157",
+      "capture_url": "https://web.archive.org/web/20200427132157/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132157_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_a1828a5b1cdd1596.json"
     },
     {
       "date": "2020-04-29",
@@ -3629,6 +4124,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_284d544cac4adeaf.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 136655,
+      "favorites_count_observed": 971,
+      "plays_text": "136,655",
+      "favorites_text": "971",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200429125445",
+      "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c779f13810095aa7.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 136655,
+      "favorites_count_observed": 971,
+      "plays_text": "136,655",
+      "favorites_text": "971",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125446_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_56381a72e6c10e2d.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8484846,
+      "favorites_count_observed": 15274,
+      "plays_text": "8,484,846",
+      "favorites_text": "15,274",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125446_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_c8ae32dd0bf947d2.json"
     },
     {
       "date": "2020-04-29",
@@ -3734,6 +4274,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200524042728_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_e26c5db49dce8e90.json"
+    },
+    {
+      "date": "2020-05-24",
+      "game_name": "Protector",
+      "game_url": "http://www.kongregate.com/games/undefined/protector",
+      "plays_count_observed": 7909399,
+      "favorites_count_observed": 27561,
+      "plays_text": "7,909,399",
+      "favorites_text": "27,561",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "capture_timestamp": "20200524042728",
+      "capture_url": "https://web.archive.org/web/20200524042728/https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200524042728_https_www.kongregate.com_games_undefined_protector_metrics.json_55e1ada9f2d7f04e.json"
     },
     {
       "date": "2020-05-24",
@@ -3899,6 +4454,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172621_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_61a08b87f6da858b.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8582067,
+      "favorites_count_observed": 15331,
+      "plays_text": "8,582,067",
+      "favorites_text": "15,331",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20200716172716",
+      "capture_url": "https://web.archive.org/web/20200716172716/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172716_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_e8b811e21d4494e2.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8582095,
+      "favorites_count_observed": 15331,
+      "plays_text": "8,582,095",
+      "favorites_text": "15,331",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20200716173244",
+      "capture_url": "https://web.archive.org/web/20200716173244/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173244_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_c1d23f2c8d74cfda.json"
     },
     {
       "date": "2020-07-16",
@@ -4079,6 +4664,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172653_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_25e5c3ae556ae18d.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4937656,
+      "favorites_count_observed": 90759,
+      "plays_text": "4,937,656",
+      "favorites_text": "90,759",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20200716172809",
+      "capture_url": "https://web.archive.org/web/20200716172809/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172809_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_2f6239d96c29c2f3.json"
     },
     {
       "date": "2020-07-16",
@@ -4307,6 +4907,21 @@
     },
     {
       "date": "2020-10-15",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8720703,
+      "favorites_count_observed": 15492,
+      "plays_text": "8,720,703",
+      "favorites_text": "15,492",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20201015131243",
+      "capture_url": "https://web.archive.org/web/20201015131243/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131243_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_63a36807e4af8f1a.json"
+    },
+    {
+      "date": "2020-10-15",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21432613,
@@ -4454,6 +5069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130346_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_a9a3e3e4250f8a1a.json"
+    },
+    {
+      "date": "2020-10-17",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8723130,
+      "favorites_count_observed": 15493,
+      "plays_text": "8,723,130",
+      "favorites_text": "15,493",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20201017130328",
+      "capture_url": "https://web.archive.org/web/20201017130328/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130328_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_9965b193670666c3.json"
     },
     {
       "date": "2020-10-17",
@@ -4709,6 +5339,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201022221216_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_7288c346cbc1a16e.json"
+    },
+    {
+      "date": "2020-10-23",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4964057,
+      "favorites_count_observed": 90998,
+      "plays_text": "4,964,057",
+      "favorites_text": "90,998",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20201023183633",
+      "capture_url": "https://web.archive.org/web/20201023183633/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201023183633_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_e86c9eff7ac6ca6d.json"
     },
     {
       "date": "2020-10-23",
@@ -5011,6 +5656,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201109104525_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_ef04f1a62c2fd1a4.json"
     },
     {
+      "date": "2020-11-12",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 172034,
+      "favorites_count_observed": 1158,
+      "plays_text": "172,034",
+      "favorites_text": "1,158",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20201112205907",
+      "capture_url": "https://web.archive.org/web/20201112205907/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201112205907_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_f627f7c73c300edc.json"
+    },
+    {
       "date": "2020-11-13",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "https://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -5054,6 +5714,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201116052223_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_eec75c9c636b7493.json"
+    },
+    {
+      "date": "2020-11-17",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 172591,
+      "favorites_count_observed": 1164,
+      "plays_text": "172,591",
+      "favorites_text": "1,164",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20201117192751",
+      "capture_url": "https://web.archive.org/web/20201117192751/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201117192751_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_18cbef91a2b54c00.json"
     },
     {
       "date": "2020-11-17",
@@ -5222,6 +5897,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8777734,
+      "favorites_count_observed": 15550,
+      "plays_text": "8,777,734",
+      "favorites_text": "15,550",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20201201204408",
+      "capture_url": "https://web.archive.org/web/20201201204408/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204408_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_0b94515adff5dd82.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21473717,
@@ -5372,6 +6062,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4974008,
+      "favorites_count_observed": 91083,
+      "plays_text": "4,974,008",
+      "favorites_text": "91,083",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20201201204634",
+      "capture_url": "https://web.archive.org/web/20201201204634/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204634_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_0da4ef86c075ea1c.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4796665,
@@ -5429,6 +6134,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201203020734_https_www.kongregate.com_games_gameinabottle_gemcraft-chapter-0_metrics.json_3ceb5cd3b542c100.json"
+    },
+    {
+      "date": "2020-12-03",
+      "game_name": "Protector",
+      "game_url": "http://www.kongregate.com/games/undefined/protector",
+      "plays_count_observed": 7917487,
+      "favorites_count_observed": 27584,
+      "plays_text": "7,917,487",
+      "favorites_text": "27,584",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "capture_timestamp": "20201203020354",
+      "capture_url": "https://web.archive.org/web/20201203020354/https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201203020354_https_www.kongregate.com_games_undefined_protector_metrics.json_f97b57f9d47897f9.json"
     },
     {
       "date": "2020-12-09",
@@ -5549,6 +6269,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201341_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_ba43d8ae7901951f.json"
+    },
+    {
+      "date": "2020-12-12",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8788989,
+      "favorites_count_observed": 15554,
+      "plays_text": "8,788,989",
+      "favorites_text": "15,554",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20201212201338",
+      "capture_url": "https://web.archive.org/web/20201212201338/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201338_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_f687272a9f1cc26e.json"
     },
     {
       "date": "2020-12-12",
@@ -5714,6 +6449,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201214183838_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_efd267bef5784d7a.json"
+    },
+    {
+      "date": "2020-12-14",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 474712,
+      "favorites_count_observed": 1454,
+      "plays_text": "474,712",
+      "favorites_text": "1,454",
+      "metrics_url": "http://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20201214165045",
+      "capture_url": "https://web.archive.org/web/20201214165045/http://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201214165045_http_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_6d25dc39ff34feb1.json"
     },
     {
       "date": "2020-12-14",
@@ -5897,6 +6647,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8812661,
+      "favorites_count_observed": 15574,
+      "plays_text": "8,812,661",
+      "favorites_text": "15,574",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20210106190256",
+      "capture_url": "https://web.archive.org/web/20210106190256/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190256_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_eeb54ea61d460af7.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21499836,
@@ -6002,6 +6767,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4981509,
+      "favorites_count_observed": 91142,
+      "plays_text": "4,981,509",
+      "favorites_text": "91,142",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20210106190049",
+      "capture_url": "https://web.archive.org/web/20210106190049/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190049_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_d8d3d5ee785c1953.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 145614,
@@ -6032,6 +6812,21 @@
     },
     {
       "date": "2021-01-08",
+      "game_name": "Flight Simulator - FlyWings 2016",
+      "game_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016",
+      "plays_count_observed": 751455,
+      "favorites_count_observed": 648,
+      "plays_text": "751,455",
+      "favorites_text": "648",
+      "metrics_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "capture_timestamp": "20210108052217",
+      "capture_url": "https://web.archive.org/web/20210108052217/https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210108052217_https_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_185ea6b88f9b454b.json"
+    },
+    {
+      "date": "2021-01-08",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45392306,
@@ -6059,6 +6854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210108052233_https_www.kongregate.com_games_0rava_mutilate-a-doll-classic_metrics.json_25289aea3cad968e.json"
+    },
+    {
+      "date": "2021-01-09",
+      "game_name": "Protector",
+      "game_url": "http://www.kongregate.com/games/undefined/protector",
+      "plays_count_observed": 7918813,
+      "favorites_count_observed": 27587,
+      "plays_text": "7,918,813",
+      "favorites_text": "27,587",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "capture_timestamp": "20210109212557",
+      "capture_url": "https://web.archive.org/web/20210109212557/https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210109212557_https_www.kongregate.com_games_undefined_protector_metrics.json_2d222064bd0707af.json"
     },
     {
       "date": "2021-01-11",
@@ -6151,6 +6961,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210113231943_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_30fe40132be73d13.json"
     },
     {
+      "date": "2021-01-15",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 178089,
+      "favorites_count_observed": 1193,
+      "plays_text": "178,089",
+      "favorites_text": "1,193",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20210115181020",
+      "capture_url": "https://web.archive.org/web/20210115181020/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210115181020_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_427ae532d897be23.json"
+    },
+    {
       "date": "2021-01-19",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -6179,6 +7004,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210119054657_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_9605f18abcaf09cc.json"
+    },
+    {
+      "date": "2021-01-25",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 4984992,
+      "favorites_count_observed": 91155,
+      "plays_text": "4,984,992",
+      "favorites_text": "91,155",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20210125205324",
+      "capture_url": "https://web.archive.org/web/20210125205324/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210125205324_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_0723082334469499.json"
     },
     {
       "date": "2021-01-26",
@@ -6314,6 +7154,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210205195902_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_4e7b785d9031222d.json"
+    },
+    {
+      "date": "2021-02-08",
+      "game_name": "Three Goblets",
+      "game_url": "https://www.kongregate.com/en/games/adventale/three-goblets",
+      "plays_count_observed": 328117,
+      "favorites_count_observed": 4237,
+      "plays_text": "328,117",
+      "favorites_text": "4,237",
+      "metrics_url": "https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "capture_timestamp": "20210208162535",
+      "capture_url": "https://web.archive.org/web/20210208162535/https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210208162535_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_2324ecfe7e114c0e.json"
+    },
+    {
+      "date": "2021-02-10",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1636432,
+      "favorites_count_observed": 16552,
+      "plays_text": "1,636,432",
+      "favorites_text": "16,552",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20210210182202",
+      "capture_url": "https://web.archive.org/web/20210210182202/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210210182202_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_54e6ca303e2d4a4f.json"
     },
     {
       "date": "2021-02-12",
@@ -6617,6 +7487,21 @@
     },
     {
       "date": "2021-05-13",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8928430,
+      "favorites_count_observed": 15653,
+      "plays_text": "8,928,430",
+      "favorites_text": "15,653",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20210513080144",
+      "capture_url": "https://web.archive.org/web/20210513080144/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080144_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_cd2b1c7c50396c1f.json"
+    },
+    {
+      "date": "2021-05-13",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21568195,
@@ -6767,6 +7652,21 @@
     },
     {
       "date": "2021-05-13",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5001348,
+      "favorites_count_observed": 91192,
+      "plays_text": "5,001,348",
+      "favorites_text": "91,192",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20210513075912",
+      "capture_url": "https://web.archive.org/web/20210513075912/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513075912_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_e2c44a8e568e1071.json"
+    },
+    {
+      "date": "2021-05-13",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 176148,
@@ -6794,6 +7694,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080055_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_b013f39d4afb8c97.json"
+    },
+    {
+      "date": "2021-05-19",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 975399,
+      "favorites_count_observed": 2880,
+      "plays_text": "975,399",
+      "favorites_text": "2,880",
+      "metrics_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20210519204631",
+      "capture_url": "https://web.archive.org/web/20210519204631/http://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210519204631_http_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_371727291fb6a9c7.json"
     },
     {
       "date": "2021-05-24",
@@ -6839,6 +7754,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073104_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_c7b24c64b2fe1f88.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8936766,
+      "favorites_count_observed": 15658,
+      "plays_text": "8,936,766",
+      "favorites_text": "15,658",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20210524073208",
+      "capture_url": "https://web.archive.org/web/20210524073208/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073208_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_5aa61136bf768c2c.json"
     },
     {
       "date": "2021-05-24",
@@ -6929,6 +7859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073343_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_b42520fae37370b2.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5002905,
+      "favorites_count_observed": 91202,
+      "plays_text": "5,002,905",
+      "favorites_text": "91,202",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20210524073127",
+      "capture_url": "https://web.archive.org/web/20210524073127/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073127_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_9671d0aafa255bcb.json"
     },
     {
       "date": "2021-05-24",
@@ -7247,6 +8192,21 @@
     },
     {
       "date": "2021-06-28",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 8963140,
+      "favorites_count_observed": 15673,
+      "plays_text": "8,963,140",
+      "favorites_text": "15,673",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20210628140937",
+      "capture_url": "https://web.archive.org/web/20210628140937/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210628140937_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_d309d1c4673c265d.json"
+    },
+    {
+      "date": "2021-06-28",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45869667,
@@ -7351,6 +8311,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210723161508_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_1d2dc83c92bd73f0.json"
     },
     {
+      "date": "2021-08-06",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 195069,
+      "favorites_count_observed": 1294,
+      "plays_text": "195,069",
+      "favorites_text": "1,294",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20210806232244",
+      "capture_url": "https://web.archive.org/web/20210806232244/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210806232244_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_498c4d1c8c60abd5.json"
+    },
+    {
       "date": "2021-08-26",
       "game_name": "Strike Force Heroes 2",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
@@ -7439,6 +8414,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211001001406_https_www.kongregate.com_games_IcyLime_multitask_metrics.json_7d3c120577638dea.json"
+    },
+    {
+      "date": "2021-10-07",
+      "game_name": "Three Goblets",
+      "game_url": "https://www.kongregate.com/en/games/adventale/three-goblets",
+      "plays_count_observed": 344797,
+      "favorites_count_observed": 4427,
+      "plays_text": "344,797",
+      "favorites_text": "4,427",
+      "metrics_url": "https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "capture_timestamp": "20211007145250",
+      "capture_url": "https://web.archive.org/web/20211007145250/https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211007145250_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_178417a6f2137fae.json"
     },
     {
       "date": "2021-10-09",
@@ -7559,6 +8549,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110905_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_16316bb74465183a.json"
+    },
+    {
+      "date": "2021-10-21",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9038018,
+      "favorites_count_observed": 15708,
+      "plays_text": "9,038,018",
+      "favorites_text": "15,708",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20211021110749",
+      "capture_url": "https://web.archive.org/web/20211021110749/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110749_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_805c8fd9ec30e74b.json"
     },
     {
       "date": "2021-10-21",
@@ -8146,6 +9151,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205115_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_0d00c82164b97d41.json"
     },
     {
+      "date": "2021-10-31",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5024284,
+      "favorites_count_observed": 91285,
+      "plays_text": "5,024,284",
+      "favorites_text": "91,285",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20211031205147",
+      "capture_url": "https://web.archive.org/web/20211031205147/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205147_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_9a2d9ab2092baf86.json"
+    },
+    {
       "date": "2021-11-04",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
@@ -8264,6 +9284,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233409_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_d3901cc72c73a2b8.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9054255,
+      "favorites_count_observed": 15714,
+      "plays_text": "9,054,255",
+      "favorites_text": "15,714",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20211118233451",
+      "capture_url": "https://web.archive.org/web/20211118233451/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233451_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_e79666d181ebfd72.json"
     },
     {
       "date": "2021-11-18",
@@ -8507,6 +9542,21 @@
     },
     {
       "date": "2021-11-19",
+      "game_name": "Hero Simulator",
+      "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
+      "plays_count_observed": 1676609,
+      "favorites_count_observed": 12050,
+      "plays_text": "1,676,609",
+      "favorites_text": "12,050",
+      "metrics_url": "https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "capture_timestamp": "20211119094237",
+      "capture_url": "https://web.archive.org/web/20211119094237/https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119094237_https_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_d287bed4f83acc0e.json"
+    },
+    {
+      "date": "2021-11-19",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/en/games/somethingggg/ngu-idle",
       "plays_count_observed": 18355091,
@@ -8549,6 +9599,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111230_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_a28cb39ade36e552.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9055109,
+      "favorites_count_observed": 15715,
+      "plays_text": "9,055,109",
+      "favorites_text": "15,715",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20211120111413",
+      "capture_url": "https://web.archive.org/web/20211120111413/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111413_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_4b938337efd19db6.json"
     },
     {
       "date": "2021-11-20",
@@ -8672,6 +9737,21 @@
     },
     {
       "date": "2021-11-20",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5027057,
+      "favorites_count_observed": 91295,
+      "plays_text": "5,027,057",
+      "favorites_text": "91,295",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20211120111313",
+      "capture_url": "https://web.archive.org/web/20211120111313/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111313_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_65e36e54e4108e8e.json"
+    },
+    {
+      "date": "2021-11-20",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 5154162,
@@ -8789,6 +9869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211123060009_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_4ce16645776e7b88.json"
+    },
+    {
+      "date": "2021-11-24",
+      "game_name": "Cardinal Quest 2",
+      "game_url": "https://www.kongregate.com/en/games/randomnine/cardinal-quest-2",
+      "plays_count_observed": 1233079,
+      "favorites_count_observed": 15085,
+      "plays_text": "1,233,079",
+      "favorites_text": "15,085",
+      "metrics_url": "https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "capture_timestamp": "20211124045317",
+      "capture_url": "https://web.archive.org/web/20211124045317/https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211124045317_https_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_50df208cc6850616.json"
     },
     {
       "date": "2021-11-28",
@@ -9002,6 +10097,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9083434,
+      "favorites_count_observed": 15733,
+      "plays_text": "9,083,434",
+      "favorites_text": "15,733",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20220111080036",
+      "capture_url": "https://web.archive.org/web/20220111080036/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080036_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_f5f926170faaff1c.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21689634,
@@ -9062,6 +10172,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Protector",
+      "game_url": "http://www.kongregate.com/games/undefined/protector",
+      "plays_count_observed": 7924063,
+      "favorites_count_observed": 27579,
+      "plays_text": "7,924,063",
+      "favorites_text": "27,579",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "capture_timestamp": "20220111034328",
+      "capture_url": "https://web.archive.org/web/20220111034328/https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111034328_https_www.kongregate.com_games_undefined_protector_metrics.json_da4fbaa69a7ec69f.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
       "plays_count_observed": 4659832,
@@ -9104,6 +10229,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080225_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_8d13a8b1be25498e.json"
+    },
+    {
+      "date": "2022-01-11",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5033125,
+      "favorites_count_observed": 91323,
+      "plays_text": "5,033,125",
+      "favorites_text": "91,323",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20220111080124",
+      "capture_url": "https://web.archive.org/web/20220111080124/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080124_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_918175384b7d7cbc.json"
     },
     {
       "date": "2022-01-11",
@@ -9181,6 +10321,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220113000029_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_5bf5e600c31e3731.json"
     },
     {
+      "date": "2022-01-13",
+      "game_name": "Protector",
+      "game_url": "http://www.kongregate.com/games/undefined/protector",
+      "plays_count_observed": 7924084,
+      "favorites_count_observed": 27579,
+      "plays_text": "7,924,084",
+      "favorites_text": "27,579",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "capture_timestamp": "20220113143509",
+      "capture_url": "https://web.archive.org/web/20220113143509/https://www.kongregate.com/games/undefined/protector/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220113143509_https_www.kongregate.com_games_undefined_protector_metrics.json_373b4dac45c7e7e2.json"
+    },
+    {
       "date": "2022-01-14",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
@@ -9239,6 +10394,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220201235631_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_4a693f95e558d17e.json"
+    },
+    {
+      "date": "2022-02-03",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 206482,
+      "favorites_count_observed": 1333,
+      "plays_text": "206,482",
+      "favorites_text": "1,333",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20220203000333",
+      "capture_url": "https://web.archive.org/web/20220203000333/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220203000333_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_3ee088b18047c14b.json"
     },
     {
       "date": "2022-02-03",
@@ -9314,6 +10484,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172344_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_6eb6924423652ee9.json"
+    },
+    {
+      "date": "2022-02-15",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9101731,
+      "favorites_count_observed": 15737,
+      "plays_text": "9,101,731",
+      "favorites_text": "15,737",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20220215172501",
+      "capture_url": "https://web.archive.org/web/20220215172501/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172501_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_96e546747ca4a1ff.json"
     },
     {
       "date": "2022-02-15",
@@ -9722,6 +10907,21 @@
     },
     {
       "date": "2022-04-01",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9124872,
+      "favorites_count_observed": 15751,
+      "plays_text": "9,124,872",
+      "favorites_text": "15,751",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20220401042618",
+      "capture_url": "https://web.archive.org/web/20220401042618/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042618_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_45d0c046ab6cdf0f.json"
+    },
+    {
+      "date": "2022-04-01",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21724314,
@@ -9839,6 +11039,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042525_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_2087024addae766b.json"
+    },
+    {
+      "date": "2022-04-01",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5043113,
+      "favorites_count_observed": 91370,
+      "plays_text": "5,043,113",
+      "favorites_text": "91,370",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20220401042456",
+      "capture_url": "https://web.archive.org/web/20220401042456/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042456_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_d5d12e766a1d35e6.json"
     },
     {
       "date": "2022-04-01",
@@ -10022,6 +11237,21 @@
     },
     {
       "date": "2022-04-04",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5043532,
+      "favorites_count_observed": 91373,
+      "plays_text": "5,043,532",
+      "favorites_text": "91,373",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20220404144044",
+      "capture_url": "https://web.archive.org/web/20220404144044/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144044_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_5446086829b885df.json"
+    },
+    {
+      "date": "2022-04-04",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 225433,
@@ -10201,6 +11431,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413231555_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_7d7e274447e566b8.json"
     },
     {
+      "date": "2022-04-13",
+      "game_name": "TDP4 Team Battle",
+      "game_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+      "plays_count_observed": 22355273,
+      "favorites_count_observed": 139750,
+      "plays_text": "22,355,273",
+      "favorites_text": "139,750",
+      "metrics_url": "https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "capture_timestamp": "20220413231535",
+      "capture_url": "https://web.archive.org/web/20220413231535/https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413231535_https_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_0eaecf6dd0349ced.json"
+    },
+    {
       "date": "2022-04-16",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -10336,6 +11581,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220601152818_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_87dbd41c2ff8b814.json"
     },
     {
+      "date": "2022-06-13",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9159754,
+      "favorites_count_observed": 15757,
+      "plays_text": "9,159,754",
+      "favorites_text": "15,757",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20220613063052",
+      "capture_url": "https://web.archive.org/web/20220613063052/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220613063052_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_317f1816b52f5d7d.json"
+    },
+    {
       "date": "2022-06-16",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -10454,6 +11714,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212611_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_58d3de6e2b392cd5.json"
+    },
+    {
+      "date": "2022-06-22",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5053685,
+      "favorites_count_observed": 91409,
+      "plays_text": "5,053,685",
+      "favorites_text": "91,409",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20220622212617",
+      "capture_url": "https://web.archive.org/web/20220622212617/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212617_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_3e3f9670e2efe6ce.json"
     },
     {
       "date": "2022-06-27",
@@ -10589,6 +11864,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220820220112_https_www.kongregate.com_games_MegaLamb_everybody-edits_metrics.json_1aafa1d632ebddf1.json"
+    },
+    {
+      "date": "2022-08-23",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 217289,
+      "favorites_count_observed": 1371,
+      "plays_text": "217,289",
+      "favorites_text": "1,371",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20220823075225",
+      "capture_url": "https://web.archive.org/web/20220823075225/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220823075225_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_16fe358d73b695c7.json"
     },
     {
       "date": "2022-08-28",
@@ -10741,6 +12031,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220911194102_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_b78e733a90851c65.json"
     },
     {
+      "date": "2022-09-16",
+      "game_name": "Cursed Treasure: Level Pack!",
+      "game_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
+      "plays_count_observed": 4932020,
+      "favorites_count_observed": 44372,
+      "plays_text": "4,932,020",
+      "favorites_text": "44,372",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack/metrics.json",
+      "capture_timestamp": "20220916190901",
+      "capture_url": "https://web.archive.org/web/20220916190901/https://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220916190901_https_www.kongregate.com_games_IriySoft_cursed-treasure-level-pack_metrics.json_e353fdbba5dc11e3.json"
+    },
+    {
       "date": "2022-09-18",
       "game_name": "Sort the Court!",
       "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
@@ -10814,6 +12119,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221009233635_https_www.kongregate.com_games_ArmorGames_sonny-2_metrics.json_8c79316ea0cf11d0.json"
+    },
+    {
+      "date": "2022-10-13",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9211063,
+      "favorites_count_observed": 15777,
+      "plays_text": "9,211,063",
+      "favorites_text": "15,777",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20221013151742",
+      "capture_url": "https://web.archive.org/web/20221013151742/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221013151742_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_6638890fb183a46c.json"
     },
     {
       "date": "2022-10-16",
@@ -11147,6 +12467,21 @@
     },
     {
       "date": "2022-12-03",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 502734,
+      "favorites_count_observed": 1407,
+      "plays_text": "502,734",
+      "favorites_text": "1,407",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20221203125834",
+      "capture_url": "https://web.archive.org/web/20221203125834/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125834_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_daa83fccd190e2e1.json"
+    },
+    {
+      "date": "2022-12-03",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 251829,
@@ -11267,6 +12602,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 503256,
+      "favorites_count_observed": 1410,
+      "plays_text": "503,256",
+      "favorites_text": "1,410",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20221204231950",
+      "capture_url": "https://web.archive.org/web/20221204231950/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231950_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_ac9a0869a66eb49d.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12929093,
@@ -11324,6 +12674,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062819_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f5122ca08b598e4.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9234604,
+      "favorites_count_observed": 15427,
+      "plays_text": "9,234,604",
+      "favorites_text": "15,427",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20221205062727",
+      "capture_url": "https://web.archive.org/web/20221205062727/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062727_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_f4b96fc508a86603.json"
     },
     {
       "date": "2022-12-05",
@@ -11402,6 +12767,36 @@
     },
     {
       "date": "2022-12-05",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 503332,
+      "favorites_count_observed": 1410,
+      "plays_text": "503,332",
+      "favorites_text": "1,410",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20221205062745",
+      "capture_url": "https://web.archive.org/web/20221205062745/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062745_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_472fd5b0be1e9ab9.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5071711,
+      "favorites_count_observed": 79890,
+      "plays_text": "5,071,711",
+      "favorites_text": "79,890",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20221205062819",
+      "capture_url": "https://web.archive.org/web/20221205062819/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062819_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_f8521132b0d2bf58.json"
+    },
+    {
+      "date": "2022-12-05",
       "game_name": "UPGRADE COMPLETE!",
       "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete",
       "plays_count_observed": 6030443,
@@ -11459,6 +12854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134704_https_www.kongregate.com_games_kingk_dream-world_metrics.json_6b6e78eac759172e.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9235144,
+      "favorites_count_observed": 15427,
+      "plays_text": "9,235,144",
+      "favorites_text": "15,427",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20221206134542",
+      "capture_url": "https://web.archive.org/web/20221206134542/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134542_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_8231a2613a78fa5f.json"
     },
     {
       "date": "2022-12-06",
@@ -11549,6 +12959,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134618_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_37e4ea3e18fd1e50.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 503805,
+      "favorites_count_observed": 1411,
+      "plays_text": "503,805",
+      "favorites_text": "1,411",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20221206134717",
+      "capture_url": "https://web.archive.org/web/20221206134717/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134717_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_f56ee45e4076a666.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5071839,
+      "favorites_count_observed": 79890,
+      "plays_text": "5,071,839",
+      "favorites_text": "79,890",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20221206134634",
+      "capture_url": "https://web.archive.org/web/20221206134634/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134634_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_2839d2435fb02169.json"
     },
     {
       "date": "2022-12-23",
@@ -11881,6 +13321,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206213106_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_d332971e14c81ad1.json"
     },
     {
+      "date": "2023-02-12",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 229642,
+      "favorites_count_observed": 1393,
+      "plays_text": "229,642",
+      "favorites_text": "1,393",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230212004008",
+      "capture_url": "https://web.archive.org/web/20230212004008/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230212004008_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_29f6f9d544f2ef5d.json"
+    },
+    {
       "date": "2023-02-13",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -11969,6 +13424,66 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163320_https_www.kongregate.com_games_kingk_dream-world_metrics.json_723899b9fbc3283e.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9266805,
+      "favorites_count_observed": 15438,
+      "plays_text": "9,266,805",
+      "favorites_text": "15,438",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20230214005525",
+      "capture_url": "https://web.archive.org/web/20230214005525/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005525_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_034ffc9bbedc61e8.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9267091,
+      "favorites_count_observed": 15438,
+      "plays_text": "9,267,091",
+      "favorites_text": "15,438",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20230214163335",
+      "capture_url": "https://web.archive.org/web/20230214163335/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163335_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_6639b8719b7639b3.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 522030,
+      "favorites_count_observed": 1425,
+      "plays_text": "522,030",
+      "favorites_text": "1,425",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20230214005444",
+      "capture_url": "https://web.archive.org/web/20230214005444/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005444_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_914e40965f4b543b.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 522179,
+      "favorites_count_observed": 1425,
+      "plays_text": "522,179",
+      "favorites_text": "1,425",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20230214163325",
+      "capture_url": "https://web.archive.org/web/20230214163325/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163325_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_f2f6ee194096c84f.json"
     },
     {
       "date": "2023-02-16",
@@ -12089,6 +13604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230225144330_https_www.kongregate.com_games_kingk_dream-world_metrics.json_feed4276fce97cf2.json"
+    },
+    {
+      "date": "2023-02-25",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9272255,
+      "favorites_count_observed": 15441,
+      "plays_text": "9,272,255",
+      "favorites_text": "15,441",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20230225144417",
+      "capture_url": "https://web.archive.org/web/20230225144417/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230225144417_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_d8a03dce51f3e762.json"
     },
     {
       "date": "2023-02-25",
@@ -12257,6 +13787,21 @@
     },
     {
       "date": "2023-02-26",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 6226696,
+      "favorites_count_observed": 53078,
+      "plays_text": "6,226,696",
+      "favorites_text": "53,078",
+      "metrics_url": "https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20230226155933",
+      "capture_url": "https://web.archive.org/web/20230226155933/https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226155933_https_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_afc3b9a839ac362c.json"
+    },
+    {
+      "date": "2023-02-26",
       "game_name": "Rebuild 2",
       "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild-2",
       "plays_count_observed": 7388827,
@@ -12377,6 +13922,21 @@
     },
     {
       "date": "2023-03-07",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9276512,
+      "favorites_count_observed": 15442,
+      "plays_text": "9,276,512",
+      "favorites_text": "15,442",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20230307194917",
+      "capture_url": "https://web.archive.org/web/20230307194917/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307194917_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bd7372dfdfdcd1ab.json"
+    },
+    {
+      "date": "2023-03-07",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
       "plays_count_observed": 6669646,
@@ -12389,6 +13949,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307195222_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_2de9d740f140a6b7.json"
+    },
+    {
+      "date": "2023-03-07",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 527118,
+      "favorites_count_observed": 1430,
+      "plays_text": "527,118",
+      "favorites_text": "1,430",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20230307194835",
+      "capture_url": "https://web.archive.org/web/20230307194835/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307194835_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_35374682dea9d379.json"
     },
     {
       "date": "2023-03-10",
@@ -12587,6 +14162,21 @@
     },
     {
       "date": "2023-04-03",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 233366,
+      "favorites_count_observed": 1402,
+      "plays_text": "233,366",
+      "favorites_text": "1,402",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230403151542",
+      "capture_url": "https://web.archive.org/web/20230403151542/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230403151542_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c2c5e78826bdc9b4.json"
+    },
+    {
+      "date": "2023-04-03",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 19904126,
@@ -12599,6 +14189,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230403140045_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_be5b5c42bfef136e.json"
+    },
+    {
+      "date": "2023-04-04",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 235008,
+      "favorites_count_observed": 1404,
+      "plays_text": "235,008",
+      "favorites_text": "1,404",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230404044745",
+      "capture_url": "https://web.archive.org/web/20230404044745/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230404044745_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_a1f36ad6fa637ad7.json"
     },
     {
       "date": "2023-04-06",
@@ -12766,6 +14371,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230608172335_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_523166b62ed1840f.json"
     },
     {
+      "date": "2023-06-10",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 237422,
+      "favorites_count_observed": 1418,
+      "plays_text": "237,422",
+      "favorites_text": "1,418",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230610190715",
+      "capture_url": "https://web.archive.org/web/20230610190715/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230610190715_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_74111575832a9a0f.json"
+    },
+    {
       "date": "2023-06-11",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
@@ -12779,6 +14399,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230611050906_https_www.kongregate.com_games_kingk_dream-world_metrics.json_111dc1f7c6cfdc45.json"
+    },
+    {
+      "date": "2023-06-11",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 237450,
+      "favorites_count_observed": 1418,
+      "plays_text": "237,450",
+      "favorites_text": "1,418",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230611020802",
+      "capture_url": "https://web.archive.org/web/20230611020802/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230611020802_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_98beddbc6bc35649.json"
+    },
+    {
+      "date": "2023-06-11",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 239044,
+      "favorites_count_observed": 1418,
+      "plays_text": "239,044",
+      "favorites_text": "1,418",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230611134406",
+      "capture_url": "https://web.archive.org/web/20230611134406/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230611134406_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_18f9ca4e8134d823.json"
     },
     {
       "date": "2023-06-19",
@@ -12902,6 +14552,21 @@
     },
     {
       "date": "2023-07-28",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 242005,
+      "favorites_count_observed": 1431,
+      "plays_text": "242,005",
+      "favorites_text": "1,431",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230728050807",
+      "capture_url": "https://web.archive.org/web/20230728050807/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230728050807_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_fccd7515fbc4c58d.json"
+    },
+    {
+      "date": "2023-07-28",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 5525797,
@@ -13021,6 +14686,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230808231447_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_9cfa6030098200a7.json"
     },
     {
+      "date": "2023-08-12",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 242325,
+      "favorites_count_observed": 1431,
+      "plays_text": "242,325",
+      "favorites_text": "1,431",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230812190956",
+      "capture_url": "https://web.archive.org/web/20230812190956/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230812190956_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_df92da8c4ac0574b.json"
+    },
+    {
       "date": "2023-08-15",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
@@ -13051,6 +14731,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230815213947_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_3ab7a8745a81b5c2.json"
     },
     {
+      "date": "2023-08-15",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 1002413,
+      "favorites_count_observed": 2853,
+      "plays_text": "1,002,413",
+      "favorites_text": "2,853",
+      "metrics_url": "https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20230815214333",
+      "capture_url": "https://web.archive.org/web/20230815214333/https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230815214333_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_ec62787fefb64a1c.json"
+    },
+    {
       "date": "2023-08-16",
       "game_name": "Cursed Treasure: Level...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
@@ -13064,6 +14759,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230816221959_https_www.kongregate.com_games_IriySoft_cursed-treasure-level-pack_metrics.json_c7532bc4eb0e5a7f.json"
+    },
+    {
+      "date": "2023-08-17",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 242419,
+      "favorites_count_observed": 1432,
+      "plays_text": "242,419",
+      "favorites_text": "1,432",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20230817205008",
+      "capture_url": "https://web.archive.org/web/20230817205008/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230817205008_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_93a7435d5bfc14a3.json"
     },
     {
       "date": "2023-08-17",
@@ -13426,6 +15136,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203150_https_www.kongregate.com_games_WebCypher_sift-heads-world-act-1_metrics.json_2fe88b58de152f7b.json"
     },
     {
+      "date": "2023-09-23",
+      "game_name": "TDP4 Team Battle",
+      "game_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+      "plays_count_observed": 22369102,
+      "favorites_count_observed": 131008,
+      "plays_text": "22,369,102",
+      "favorites_text": "131,008",
+      "metrics_url": "https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "capture_timestamp": "20230923203111",
+      "capture_url": "https://web.archive.org/web/20230923203111/https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203111_https_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_185e4f8c1e6bfc5c.json"
+    },
+    {
       "date": "2023-09-24",
       "game_name": "Cursed Treasure: Level...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
@@ -13484,6 +15209,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230927144819_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_04616aba8898d483.json"
+    },
+    {
+      "date": "2023-09-29",
+      "game_name": "Hero Simulator",
+      "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
+      "plays_count_observed": 1692119,
+      "favorites_count_observed": 11715,
+      "plays_text": "1,692,119",
+      "favorites_text": "11,715",
+      "metrics_url": "https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "capture_timestamp": "20230929151558",
+      "capture_url": "https://web.archive.org/web/20230929151558/https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230929151558_https_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_71de9fa482b7c134.json"
     },
     {
       "date": "2023-10-02",
@@ -13621,6 +15361,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231018113008_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_b2eca68ac76fb8d2.json"
     },
     {
+      "date": "2023-10-20",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 6241413,
+      "favorites_count_observed": 53102,
+      "plays_text": "6,241,413",
+      "favorites_text": "53,102",
+      "metrics_url": "https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20231020163921",
+      "capture_url": "https://web.archive.org/web/20231020163921/https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231020163921_https_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_18bbbf17e9b63d87.json"
+    },
+    {
+      "date": "2023-10-28",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1665027,
+      "favorites_count_observed": 16527,
+      "plays_text": "1,665,027",
+      "favorites_text": "16,527",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20231028000835",
+      "capture_url": "https://web.archive.org/web/20231028000835/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231028000835_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_ca7a95690c161272.json"
+    },
+    {
       "date": "2023-10-31",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
@@ -13709,6 +15479,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106220439_https_www.kongregate.com_games_Dragy_echoes-operation-stranglehold_metrics.json_a1982c6226633ba5.json"
+    },
+    {
+      "date": "2023-11-11",
+      "game_name": "TDP4 Team Battle",
+      "game_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+      "plays_count_observed": 22369967,
+      "favorites_count_observed": 131008,
+      "plays_text": "22,369,967",
+      "favorites_text": "131,008",
+      "metrics_url": "https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "capture_timestamp": "20231111202041",
+      "capture_url": "https://web.archive.org/web/20231111202041/https://www.kongregate.com/games/JavelinOU/tdp4-team-battle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231111202041_https_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_369526711e9b5d47.json"
+    },
+    {
+      "date": "2023-11-17",
+      "game_name": "Three Goblets",
+      "game_url": "https://www.kongregate.com/en/games/adventale/three-goblets",
+      "plays_count_observed": 378881,
+      "favorites_count_observed": 4691,
+      "plays_text": "378,881",
+      "favorites_text": "4,691",
+      "metrics_url": "https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "capture_timestamp": "20231117193713",
+      "capture_url": "https://web.archive.org/web/20231117193713/https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231117193713_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_f57e980f545bbb05.json"
     },
     {
       "date": "2023-11-20",
@@ -13996,6 +15796,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231226145446_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_11be2543bba50221.json"
     },
     {
+      "date": "2023-12-26",
+      "game_name": "Three Goblets",
+      "game_url": "https://www.kongregate.com/en/games/adventale/three-goblets",
+      "plays_count_observed": 380270,
+      "favorites_count_observed": 4707,
+      "plays_text": "380,270",
+      "favorites_text": "4,707",
+      "metrics_url": "https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "capture_timestamp": "20231226052700",
+      "capture_url": "https://web.archive.org/web/20231226052700/https://www.kongregate.com/games/adventale/three-goblets/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231226052700_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_8fb19cbd8e393f6a.json"
+    },
+    {
       "date": "2023-12-30",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -14039,6 +15854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240103225216_https_www.kongregate.com_games_IcyLime_multitask_metrics.json_71eb2772cfa46748.json"
+    },
+    {
+      "date": "2024-01-04",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1665827,
+      "favorites_count_observed": 16531,
+      "plays_text": "1,665,827",
+      "favorites_text": "16,531",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20240104181431",
+      "capture_url": "https://web.archive.org/web/20240104181431/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240104181431_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_95c02a9e1c4b92e6.json"
     },
     {
       "date": "2024-01-13",
@@ -14132,6 +15962,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1665963,
+      "favorites_count_observed": 16529,
+      "plays_text": "1,665,963",
+      "favorites_text": "16,529",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20240117063834",
+      "capture_url": "https://web.archive.org/web/20240117063834/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117063834_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_495dda34f631c754.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Extreme Heli Boarding",
       "game_url": "http://kongregate.com/games/BubbleBox/extreme-heli-boarding",
       "plays_count_observed": 589733,
@@ -14162,6 +16007,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Medieval Chronicles 9",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-chronicles-9",
+      "plays_count_observed": 27745,
+      "favorites_count_observed": 418,
+      "plays_text": "27,745",
+      "favorites_text": "418",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9/metrics.json",
+      "capture_timestamp": "20240117074944",
+      "capture_url": "https://web.archive.org/web/20240117074944/https://www.kongregate.com/games/VasantJ/medieval-chronicles-9/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117074944_https_www.kongregate.com_games_VasantJ_medieval-chronicles-9_metrics.json_ee0b37a35baa8d89.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Medieval Cop - The Princess and The Grump",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
       "plays_count_observed": 121674,
@@ -14189,6 +16049,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117095202_https_www.kongregate.com_games_richpixel_micro-siege_metrics.json_1bc5f9d18680cb7b.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1665992,
+      "favorites_count_observed": 16529,
+      "plays_text": "1,665,992",
+      "favorites_text": "16,529",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20240119073717",
+      "capture_url": "https://web.archive.org/web/20240119073717/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119073717_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_9574f2ea58c5e046.json"
     },
     {
       "date": "2024-01-19",
@@ -14281,6 +16156,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119235735_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_149c919be2d443e4.json"
     },
     {
+      "date": "2024-01-19",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5103450,
+      "favorites_count_observed": 80021,
+      "plays_text": "5,103,450",
+      "favorites_text": "80,021",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20240119181410",
+      "capture_url": "https://web.archive.org/web/20240119181410/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119181410_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_27f1440c8ef3ec7b.json"
+    },
+    {
       "date": "2024-01-20",
       "game_name": "Crusaders of the Lost Idols",
       "game_url": "http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols",
@@ -14312,6 +16202,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "Medieval Chronicles 9",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-chronicles-9",
+      "plays_count_observed": 27762,
+      "favorites_count_observed": 418,
+      "plays_text": "27,762",
+      "favorites_text": "418",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9/metrics.json",
+      "capture_timestamp": "20240120164334",
+      "capture_url": "https://web.archive.org/web/20240120164334/https://www.kongregate.com/games/VasantJ/medieval-chronicles-9/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120164334_https_www.kongregate.com_games_VasantJ_medieval-chronicles-9_metrics.json_461298f468be184b.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Medieval Cop - The Princess and The Grump",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
       "plays_count_observed": 121690,
@@ -14339,6 +16244,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120143249_https_www.kongregate.com_games_0rava_mutilate-a-doll-classic_metrics.json_b8f31151ec4926c6.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 1006857,
+      "favorites_count_observed": 2865,
+      "plays_text": "1,006,857",
+      "favorites_text": "2,865",
+      "metrics_url": "https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20240120013708",
+      "capture_url": "https://web.archive.org/web/20240120013708/https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120013708_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_ee0e558ca97bc574.json"
     },
     {
       "date": "2024-01-20",
@@ -14429,6 +16349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121124019_https_www.kongregate.com_games_kingk_dream-world_metrics.json_cf303b764ed5f426.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Flight Simulator - FlyWings 2016",
+      "game_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016",
+      "plays_count_observed": 790603,
+      "favorites_count_observed": 378,
+      "plays_text": "790,603",
+      "favorites_text": "378",
+      "metrics_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "capture_timestamp": "20240121135013",
+      "capture_url": "https://web.archive.org/web/20240121135013/https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121135013_https_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_489a33a54b82d1bf.json"
     },
     {
       "date": "2024-01-21",
@@ -14641,6 +16576,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240204040602_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_fc5e5da53859e97e.json"
     },
     {
+      "date": "2024-02-08",
+      "game_name": "Cardinal Quest 2",
+      "game_url": "https://www.kongregate.com/en/games/randomnine/cardinal-quest-2",
+      "plays_count_observed": 1243585,
+      "favorites_count_observed": 14955,
+      "plays_text": "1,243,585",
+      "favorites_text": "14,955",
+      "metrics_url": "https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "capture_timestamp": "20240208131230",
+      "capture_url": "https://web.archive.org/web/20240208131230/https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240208131230_https_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_6b928c9d0be29efc.json"
+    },
+    {
       "date": "2024-02-10",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
@@ -14684,6 +16634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240221203945_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_b1f9d190048dd191.json"
+    },
+    {
+      "date": "2024-02-21",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1666398,
+      "favorites_count_observed": 16532,
+      "plays_text": "1,666,398",
+      "favorites_text": "16,532",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20240221212348",
+      "capture_url": "https://web.archive.org/web/20240221212348/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240221212348_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_cf961e5ec9734313.json"
     },
     {
       "date": "2024-02-21",
@@ -14759,6 +16724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222223824_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_daaf7664455f13d8.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5105643,
+      "favorites_count_observed": 80030,
+      "plays_text": "5,105,643",
+      "favorites_text": "80,030",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20240222182947",
+      "capture_url": "https://web.archive.org/web/20240222182947/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222182947_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_ca732bdd258b416c.json"
     },
     {
       "date": "2024-02-23",
@@ -14879,6 +16859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307203744_https_www.kongregate.com_games_kingk_dream-world_metrics.json_3d85aeb0d939874f.json"
+    },
+    {
+      "date": "2024-03-07",
+      "game_name": "Flight Simulator - FlyWings 2016",
+      "game_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016",
+      "plays_count_observed": 792362,
+      "favorites_count_observed": 381,
+      "plays_text": "792,362",
+      "favorites_text": "381",
+      "metrics_url": "https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "capture_timestamp": "20240307234119",
+      "capture_url": "https://web.archive.org/web/20240307234119/https://www.kongregate.com/games/ThetisGames/flight-simulator-flywings-2016/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307234119_https_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_12c6b27f04ea9f8f.json"
     },
     {
       "date": "2024-03-08",
@@ -15347,6 +17342,21 @@
     },
     {
       "date": "2024-05-05",
+      "game_name": "Bubble Tanks 3",
+      "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
+      "plays_count_observed": 1668270,
+      "favorites_count_observed": 16536,
+      "plays_text": "1,668,270",
+      "favorites_text": "16,536",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "capture_timestamp": "20240505140821",
+      "capture_url": "https://web.archive.org/web/20240505140821/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240505140821_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_c9fce5941f158a46.json"
+    },
+    {
+      "date": "2024-05-05",
       "game_name": "Multitask",
       "game_url": "https://www.kongregate.com/en/games/IcyLime/multitask",
       "plays_count_observed": 4825195,
@@ -15751,6 +17761,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240529002810_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_85899efe5d79b7ad.json"
     },
     {
+      "date": "2024-05-30",
+      "game_name": "Turbo Golf",
+      "game_url": "https://www.kongregate.com/games/turboNuke/turbo-golf",
+      "plays_count_observed": 1467557,
+      "favorites_count_observed": 7548,
+      "plays_text": "1,467,557",
+      "favorites_text": "7,548",
+      "metrics_url": "https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "capture_timestamp": "20240530204408",
+      "capture_url": "https://web.archive.org/web/20240530204408/https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240530204408_https_www.kongregate.com_games_turboNuke_turbo-golf_metrics.json_4502f065282ca3c9.json"
+    },
+    {
       "date": "2024-06-03",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
@@ -15824,6 +17849,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240612011823_https_www.kongregate.com_games_BerzerkStudio_the-peacekeeper_metrics.json_cd9607c5b333a8d9.json"
+    },
+    {
+      "date": "2024-06-16",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9419506,
+      "favorites_count_observed": 15476,
+      "plays_text": "9,419,506",
+      "favorites_text": "15,476",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20240616084830",
+      "capture_url": "https://web.archive.org/web/20240616084830/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240616084830_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bf9e8c7d6aa2a256.json"
     },
     {
       "date": "2024-06-19",
@@ -16501,6 +18541,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241009081945_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_319dfa414cf55a01.json"
     },
     {
+      "date": "2024-11-07",
+      "game_name": "Rebuild",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
+      "plays_count_observed": 6261712,
+      "favorites_count_observed": 53141,
+      "plays_text": "6,261,712",
+      "favorites_text": "53,141",
+      "metrics_url": "https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "capture_timestamp": "20241107232500",
+      "capture_url": "https://web.archive.org/web/20241107232500/https://www.kongregate.com/games/sarahnorthway/rebuild/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241107232500_https_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_c5762fd881b12455.json"
+    },
+    {
       "date": "2024-11-14",
       "game_name": "Idle Bouncer",
       "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
@@ -16981,6 +19036,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250302222800_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_3839ec10f2e70459.json"
     },
     {
+      "date": "2025-03-06",
+      "game_name": "Cardinal Quest 2",
+      "game_url": "https://www.kongregate.com/en/games/randomnine/cardinal-quest-2",
+      "plays_count_observed": 1248337,
+      "favorites_count_observed": 14962,
+      "plays_text": "1,248,337",
+      "favorites_text": "14,962",
+      "metrics_url": "https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "capture_timestamp": "20250306103337",
+      "capture_url": "https://web.archive.org/web/20250306103337/https://www.kongregate.com/games/randomnine/cardinal-quest-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250306103337_https_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_c87c69c7333e2796.json"
+    },
+    {
       "date": "2025-03-07",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
@@ -16994,6 +19064,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250307050112_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_5c734597b2a8d421.json"
+    },
+    {
+      "date": "2025-03-30",
+      "game_name": "Blockade3D",
+      "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 643074,
+      "favorites_count_observed": 3388,
+      "plays_text": "643,074",
+      "favorites_text": "3,388",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20250330125252",
+      "capture_url": "https://web.archive.org/web/20250330125252/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330125252_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_9a34ff047732e0ca.json"
     },
     {
       "date": "2025-03-30",
@@ -17056,6 +19141,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402011557_https_www.kongregate.com_games_MegaLamb_everybody-edits_metrics.json_2dfde98c3db634d3.json"
     },
     {
+      "date": "2025-04-04",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 1024831,
+      "favorites_count_observed": 2888,
+      "plays_text": "1,024,831",
+      "favorites_text": "2,888",
+      "metrics_url": "https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20250404164434",
+      "capture_url": "https://web.archive.org/web/20250404164434/https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250404164434_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_5f1ea22bcdb862e1.json"
+    },
+    {
+      "date": "2025-04-04",
+      "game_name": "Turbo Golf",
+      "game_url": "https://www.kongregate.com/games/turboNuke/turbo-golf",
+      "plays_count_observed": 1470797,
+      "favorites_count_observed": 7550,
+      "plays_text": "1,470,797",
+      "favorites_text": "7,550",
+      "metrics_url": "https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "capture_timestamp": "20250404152011",
+      "capture_url": "https://web.archive.org/web/20250404152011/https://www.kongregate.com/games/turboNuke/turbo-golf/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250404152011_https_www.kongregate.com_games_turboNuke_turbo-golf_metrics.json_74d9eed9cbeac756.json"
+    },
+    {
       "date": "2025-04-06",
       "game_name": "Crush The Castle 2",
       "game_url": "https://www.kongregate.com/en/games/ArmorGames/crush-the-castle-2",
@@ -17099,6 +19214,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250417225500_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_4526175760d03811.json"
+    },
+    {
+      "date": "2025-04-24",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 1025704,
+      "favorites_count_observed": 2888,
+      "plays_text": "1,025,704",
+      "favorites_text": "2,888",
+      "metrics_url": "https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20250424055101",
+      "capture_url": "https://web.archive.org/web/20250424055101/https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250424055101_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_7927b2ce4eb396ff.json"
     },
     {
       "date": "2025-04-26",
@@ -17311,6 +19441,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250516010517_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_6122ac49d8a712c9.json"
     },
     {
+      "date": "2025-05-18",
+      "game_name": "Supremacy 1914",
+      "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
+      "plays_count_observed": 641844,
+      "favorites_count_observed": 1527,
+      "plays_text": "641,844",
+      "favorites_text": "1,527",
+      "metrics_url": "https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "capture_timestamp": "20250518062053",
+      "capture_url": "https://web.archive.org/web/20250518062053/https://www.kongregate.com/games/bytro/supremacy-1914/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250518062053_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_066cdfa79eb3cd30.json"
+    },
+    {
+      "date": "2025-05-30",
+      "game_name": "The King's League: Odyssey",
+      "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
+      "plays_count_observed": 5141413,
+      "favorites_count_observed": 80155,
+      "plays_text": "5,141,413",
+      "favorites_text": "80,155",
+      "metrics_url": "https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "capture_timestamp": "20250530041426",
+      "capture_url": "https://web.archive.org/web/20250530041426/https://www.kongregate.com/games/kurechii/the-kings-league-odyssey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250530041426_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_6dc962f57ad608bd.json"
+    },
+    {
       "date": "2025-05-31",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
@@ -17476,6 +19636,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250717081441_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_46cdc92fdd414808.json"
     },
     {
+      "date": "2025-07-17",
+      "game_name": "Revolution Idle 2",
+      "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
+      "plays_count_observed": 1031143,
+      "favorites_count_observed": 2892,
+      "plays_text": "1,031,143",
+      "favorites_text": "2,892",
+      "metrics_url": "https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "capture_timestamp": "20250717075835",
+      "capture_url": "https://web.archive.org/web/20250717075835/https://www.kongregate.com/games/Gumrok/revolution-idle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250717075835_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_4b82968059dde42c.json"
+    },
+    {
       "date": "2025-08-02",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -17624,6 +19799,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250830181610_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_ff2bdd44799d2ebe.json"
+    },
+    {
+      "date": "2025-09-01",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 9520996,
+      "favorites_count_observed": 15487,
+      "plays_text": "9,520,996",
+      "favorites_text": "15,487",
+      "metrics_url": "https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20250901173935",
+      "capture_url": "https://web.archive.org/web/20250901173935/https://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250901173935_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_89aca0eebaf3a918.json"
     },
     {
       "date": "2025-09-02",
@@ -17804,6 +19994,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251012060737_https_www.kongregate.com_en_games_IcyLime_multitask_metrics.json_5749d1e6c80fbe48.json"
+    },
+    {
+      "date": "2025-10-25",
+      "game_name": "Burrito Bison: Launcha Libre",
+      "game_url": "https://www.kongregate.com/en/games/JuicyBeast/burrito-bison-launcha-libre",
+      "plays_count_observed": 4853553,
+      "favorites_count_observed": 19481,
+      "plays_text": "4,853,553",
+      "favorites_text": "19,481",
+      "metrics_url": "https://www.kongregate.com/en/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "capture_timestamp": "20251025213124",
+      "capture_url": "https://web.archive.org/web/20251025213124/https://www.kongregate.com/en/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251025213124_https_www.kongregate.com_en_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_5a9daeda89dc7beb.json"
     }
   ]
 }
