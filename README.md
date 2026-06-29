@@ -2,7 +2,7 @@
 
 In-progress public dataset of Kongregate game rankings and observed play counts from archived Kongregate pages and per-game Wayback `metrics.json` captures.
 
-Live chart, once GitHub Pages is enabled:
+Live chart, once GitHub Pages is enabled in repository settings:
 
 https://dataviking-tech.github.io/kongregate-plays-data/
 
@@ -11,10 +11,10 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 - Ranked-list rows: 5,442
 - Ranked-list rows with observed play counts: 2,074
 - Mini catalog: 646 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 247 across 11 games
-- Observed play-count rows used by the chart: 2,321
+- Per-game metrics history rows: 355 across 21 canonical games
+- Observed play-count rows used by the chart: 2,429
 - Ranked-list date range: 2007-01-20 to 2026-04-19
-- Metrics-history date range: 2014-08-25 to 2025-10-01
+- Metrics-history date range: 2014-08-07 to 2025-10-01
 
 This scrape is still being expanded. The processed files are coherent snapshots, but coverage is not final.
 
@@ -28,6 +28,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/mini_catalog.csv` - games that reached top 20 at least once.
 - `data/processed/game_play_history.csv` - per-game metrics JSON observations.
 - `logs/*report.*` - run reports for extraction and scrape phases.
+- `data/processed/data_quality_issues.csv` - current QA issue register.
+- `data/processed/catalog_history_priorities.csv` - prioritized metrics-history backfill queue.
 - `scripts/` - scraper, extractor, catalog, metrics-history, workbook, and chart builders.
 
 ## Rebuild Commands
