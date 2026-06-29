@@ -456,8 +456,15 @@ def main() -> None:
     write_json(MANIFEST_PATH, manifest)
     write_json(FAILURE_PATH, failures)
 
-    history_rows = rebuild_history(manifest)
-    write_history(history_rows)
+    try:
+        from rebuild_game_play_history import rebuild_history as rebuild_combined_history
+        from rebuild_game_play_history import write_history as write_combined_history
+
+        history_rows = rebuild_combined_history()
+        write_combined_history(history_rows)
+    except ImportError:
+        history_rows = rebuild_history(manifest)
+        write_history(history_rows)
 
     games_with_history = len({row["game_url"] for row in history_rows})
     report = {

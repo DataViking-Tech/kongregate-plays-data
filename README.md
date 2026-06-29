@@ -8,18 +8,18 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1ZJELiT6fE95xkhnnyqoNKt_IlHx_h1zyYuwGe9Mg_Fo
+https://docs.google.com/spreadsheets/d/1R66PGWJmkaevDvcRRbo_s52SmypzTSZjX_sWvTqQpTc
 
 ## Current Snapshot
 
 - Ranked-list rows: 8,140
 - Ranked-list rows with observed play counts: 4,685
 - Mini catalog: 743 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 3,507 across 336 canonical games
-- Observed play-count rows used by the chart: 8,192
-- Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,414 observed capture-date frames.
+- Per-game metrics history rows: 3,734 across 551 canonical games
+- Observed play-count rows used by the chart: 8,419
+- Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,415 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
-- Metrics-history date range: 2013-09-18 to 2026-05-19
+- Metrics-history date range: 2013-09-18 to 2026-06-29
 
 This scrape is still being expanded. The processed files are coherent snapshots, but coverage is not final.
 
@@ -28,8 +28,9 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 105 cached HTML captures remain empty or corrupted and are queued for retry/backfill.
 - 134 historical months still have no ranked-list captures in the processed dataset.
-- 274 mini-catalog games still need per-game metrics history backfill.
-- Metrics gap audit currently has no fresh pending captures; remaining unresolved games are mostly no-CDX or known-failure-only cases.
+- 49 mini-catalog games still need per-game metrics history backfill.
+- Metrics gap audit currently has no fresh pending captures; remaining unresolved games are no-CDX cases.
+- Final chart leaders have current live metrics observations as of 2026-06-29.
 
 ## Key Files
 
@@ -55,10 +56,11 @@ These commands assume the repository root as the working directory and Python wi
 python3 scripts/extract_ranked_games.py
 python3 scripts/build_mini_catalog.py --top-n 20
 python3 scripts/fetch_game_metrics_history.py --catalog-offset 0 --catalog-limit 100 --max-fetches 180
+python3 scripts/fetch_live_game_metrics.py --max-fetches 140
 python3 scripts/audit_metrics_backfill_gaps.py
 node scripts/build_play_count_bar_chart_race.mjs
 ```
 
-The metrics scraper is intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, and rerun with `--retry-failures` for a later pass over transient Wayback failures.
+The metrics scrapers are intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, rerun archived metrics with `--retry-failures` for transient Wayback failures, and use `fetch_live_game_metrics.py --input-csv data/processed/final_chart_staleness.csv --statuses '' --refresh` to refresh explicit chart leaders.
 
 Raw Wayback HTML/JSON caches are not committed here. This repo publishes processed data, reports, scripts, and the static visualization.
