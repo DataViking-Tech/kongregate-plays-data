@@ -403,7 +403,7 @@ def write_csv(name: str, rows: list[dict[str, object]]) -> None:
     cols = TAB_COLUMNS[name]
     path = PROCESSED / f"{name}.csv"
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=cols, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=cols, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         for row in rows:
             writer.writerow({col: row.get(col, "") for col in cols})

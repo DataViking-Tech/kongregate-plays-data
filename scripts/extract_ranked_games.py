@@ -542,7 +542,7 @@ def main() -> None:
     output_rows.sort(key=lambda row: (row["date"], row["ranking_type"], row["category"], row["source_url"], int(row["rank_on_date"])))
 
     with OUTPUT_CSV.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=RANKED_COLUMNS, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=RANKED_COLUMNS, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         for row in output_rows:
             writer.writerow(row)

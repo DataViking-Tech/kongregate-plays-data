@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1729,
+  "catalog_games": 1797,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 453,
-  "generated_at": "2026-06-29T17:14:32Z",
+  "games_without_metrics_rows": 478,
+  "generated_at": "2026-06-29T17:43:50Z",
   "known_failed_captures": 634,
-  "missing_cdx_cache_files": 273,
+  "missing_cdx_cache_files": 276,
   "status_counts": {
     "cdx_cache_missing": 182,
-    "has_metrics": 1276,
+    "has_metrics": 1319,
     "known_failures_only": 28,
-    "no_cdx": 243
+    "no_cdx": 268
   },
   "top_unresolved_games": [
     {
@@ -18,7 +18,7 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Dark Scary House Escape",
+      "game_name": "Back To Home",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -29,7 +29,18 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Kindness and PAI",
+      "game_name": "Football Legends 2016",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Good Apprentice Pelo 2021",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -41,28 +52,6 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "LT-Breakout",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Make It Fly 2.0",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "OrangeLandia",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -118,6 +107,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "The Space Commando",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Zombie Derby 2",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -205,39 +205,6 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "For USA",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "FunBox",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Harry potter Eagle eyes",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
       "game_name": "Mini Jumper",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -249,7 +216,7 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "ROYAL THIEF",
+      "game_name": "Raze 3",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -260,7 +227,18 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "WigWigWig",
+      "game_name": "SS17 Swallala Elena",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The Meat - The Game Adventure",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -287,7 +265,29 @@
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "ATV Ride 2016",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "CBS:Escape from the Mall",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8152
+  "valid_cached_captures": 8161
 }

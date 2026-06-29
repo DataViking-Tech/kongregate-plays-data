@@ -358,7 +358,7 @@ def rebuild_history(manifest: dict[str, dict[str, str]]) -> list[dict[str, objec
 
 def write_history(rows: list[dict[str, object]]) -> None:
     with HISTORY_CSV.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=HISTORY_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=HISTORY_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     HISTORY_JSON.write_text(json.dumps({"columns": HISTORY_COLUMNS, "rows": rows}, indent=2))

@@ -140,7 +140,7 @@ def main() -> None:
     rows.sort(key=lambda row: (int(row["best_rank"]), -int(row["top_n_appearances"]), row["game_name"].lower()))
 
     with CATALOG_CSV.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=CATALOG_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=CATALOG_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     CATALOG_JSON.write_text(json.dumps({"columns": CATALOG_COLUMNS, "top_n": args.top_n, "rows": rows}, indent=2))

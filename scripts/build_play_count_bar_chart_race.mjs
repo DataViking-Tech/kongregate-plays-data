@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1VNp056knbdTEG217U1xljGXJGDtU0zuJb4LXVkHrGgA";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1ith3BkE14omGWRClnl6IwIS5eAcuhdR9_yGjnPaaYWs";
 
 const topN = 12;
 
@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 1080ms;
-      --move-ease: cubic-bezier(0.22, 0.68, 0.12, 1);
+      --move-duration: 760ms;
+      --move-ease: cubic-bezier(0.2, 0.72, 0.2, 1);
     }
 
     * {
@@ -560,7 +560,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-      <label class="speed">Speed <input id="speedSlider" type="range" min="1500" max="5600" value="2200" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="900" max="3600" value="1250" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -602,9 +602,9 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 1080;
-    const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 2;
+    const transitionMs = 760;
+    const exitMs = transitionMs + 140;
+    const smoothStepsPerMonth = 4;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -703,6 +703,34 @@ function htmlDocument() {
       return monthFromNumeric(Math.round(start + ((end - start) * ratio)));
     }
 
+    function parseChartDate(dateText) {
+      const value = String(dateText || "");
+      const normalized = value.length === 7 ? \`\${value}-01\` : value;
+      const date = new Date(\`\${normalized}T00:00:00Z\`);
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function formatChartDate(date) {
+      return [
+        date.getUTCFullYear(),
+        String(date.getUTCMonth() + 1).padStart(2, "0"),
+        String(date.getUTCDate()).padStart(2, "0"),
+      ].join("-");
+    }
+
+    function interpolatedDate(startFrame, endFrame, ratio) {
+      const startDate = parseChartDate(startFrame.sourceDate || startFrame.date);
+      const endDate = parseChartDate(endFrame.sourceDate || endFrame.date);
+      if (!startDate || !endDate) {
+        const startMonth = monthIdFromDate(startFrame.displayDate || startFrame.date);
+        const endMonth = monthIdFromDate(endFrame.displayDate || endFrame.date);
+        return interpolatedMonth(startMonth, endMonth, ratio);
+      }
+      const start = startDate.getTime();
+      const end = endDate.getTime();
+      return formatChartDate(new Date(start + ((end - start) * ratio)));
+    }
+
     function interpolatedNumber(start, end, ratio) {
       const fromValue = Number(start) || 0;
       const toValue = Number(end) || fromValue;
@@ -736,13 +764,12 @@ function htmlDocument() {
           rank: index + 1,
         }));
 
-      const startMonth = monthIdFromDate(startFrame.displayDate || startFrame.date);
-      const endMonth = monthIdFromDate(endFrame.displayDate || endFrame.date);
+      const displayDate = interpolatedDate(startFrame, endFrame, ratio);
 
       return {
         ...endFrame,
-        date: interpolatedMonth(startMonth, endMonth, ratio),
-        displayDate: interpolatedMonth(startMonth, endMonth, ratio),
+        date: displayDate,
+        displayDate,
         sourceDate: startFrame.sourceDate || startFrame.date,
         fromSourceDate: startFrame.sourceDate || startFrame.date,
         toSourceDate: endFrame.sourceDate || endFrame.date,
@@ -1004,7 +1031,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 360);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 140);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);

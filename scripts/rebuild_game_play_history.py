@@ -140,7 +140,7 @@ def rebuild_history() -> list[dict[str, object]]:
 def write_history(rows: list[dict[str, object]]) -> None:
     PROCESSED.mkdir(parents=True, exist_ok=True)
     with HISTORY_CSV.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=HISTORY_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=HISTORY_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     HISTORY_JSON.write_text(json.dumps({"columns": HISTORY_COLUMNS, "rows": rows}, indent=2))
