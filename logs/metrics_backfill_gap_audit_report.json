@@ -1,16 +1,16 @@
 {
-  "catalog_games": 2172,
+  "catalog_games": 2312,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 673,
-  "generated_at": "2026-06-29T19:27:54Z",
-  "known_failed_captures": 655,
-  "missing_cdx_cache_files": 354,
+  "games_without_metrics_rows": 765,
+  "generated_at": "2026-06-29T19:47:22Z",
+  "known_failed_captures": 656,
+  "missing_cdx_cache_files": 421,
   "status_counts": {
-    "cdx_cache_missing": 239,
-    "has_metrics": 1499,
+    "cdx_cache_missing": 285,
+    "has_metrics": 1547,
     "known_failures_only": 35,
-    "no_cdx": 399
+    "no_cdx": 445
   },
   "top_unresolved_games": [
     {
@@ -107,6 +107,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Surrounded",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The Funniest Game Ever",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -276,18 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Horse Racing",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8177
+  "valid_cached_captures": 8181
 }

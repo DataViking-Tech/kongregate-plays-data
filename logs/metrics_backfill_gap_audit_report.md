@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T19:27:54Z
+Generated: 2026-06-29T19:47:22Z
 
 ## Summary
 
-- Mini-catalog games audited: 2172
-- Games without metrics rows: 673
+- Mini-catalog games audited: 2312
+- Games without metrics rows: 765
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 655
-- Missing CDX cache files: 354
+- Known failed captures: 656
+- Missing CDX cache files: 421
 
 ## Status Counts
 
-- cdx_cache_missing: 239
-- has_metrics: 1499
+- cdx_cache_missing: 285
+- has_metrics: 1547
 - known_failures_only: 35
-- no_cdx: 399
+- no_cdx: 445
 
 ## Top Unresolved Games
 
@@ -31,6 +31,7 @@ Generated: 2026-06-29T19:27:54Z
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -46,7 +47,6 @@ Generated: 2026-06-29T19:27:54Z
 | dat boi | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Dead Frontier | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Finger Spinner Online | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Horse Racing | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

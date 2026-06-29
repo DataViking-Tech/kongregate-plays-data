@@ -3,19 +3,19 @@
   "cached_selected_this_run": 0,
   "catalog_limit": 0,
   "catalog_offset": 0,
-  "failed_this_run": 70,
-  "fetched_this_run": 50,
-  "games_in_scope": 723,
-  "history_games": 1190,
-  "history_rows": 4742,
-  "known_live_failures": 129,
-  "live_manifest_entries": 770,
-  "pending_before_run": 723,
-  "run_timestamp": "2026-06-29T19:27:35Z",
+  "failed_this_run": 74,
+  "fetched_this_run": 46,
+  "games_in_scope": 811,
+  "history_games": 1238,
+  "history_rows": 4792,
+  "known_live_failures": 137,
+  "live_manifest_entries": 816,
+  "pending_before_run": 811,
+  "run_timestamp": "2026-06-29T19:47:01Z",
   "statuses": [
     "cdx_cache_missing",
     "known_failures_only",
     "no_cdx"
   ],
-  "targeted_games": 723
+  "targeted_games": 811
 }
