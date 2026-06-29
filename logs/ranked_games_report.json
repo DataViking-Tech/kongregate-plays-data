@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-29T04:46:06Z",
-    "html_samples_considered": 620,
-    "ranking_rows_extracted": 8140,
-    "rows_with_observed_play_counts": 4685,
-    "captures_with_rows": 502,
+    "run_timestamp": "2026-06-29T11:38:03Z",
+    "html_samples_considered": 640,
+    "ranking_rows_extracted": 8300,
+    "rows_with_observed_play_counts": 4845,
+    "captures_with_rows": 522,
     "captures_without_rows": 118,
     "ranking_types": [
       "browse",
@@ -964,6 +964,33 @@
       "html_path": "data/raw/html/20100914031557_http_www.kongregate.com_80_top-rated-games_3dfbd77ce18bec4a.html"
     },
     {
+      "date": "2010-09-20",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20100920055254",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20100920055254_http_www.kongregate.com_80_top-rated-games_b64cd7da4549c685.html"
+    },
+    {
+      "date": "2010-09-24",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20100924083540",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20100924083540_http_www.kongregate.com_80_top-rated-games_9e83ac66548b2505.html"
+    },
+    {
+      "date": "2010-10-07",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101007140733",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101007140733_http_www.kongregate.com_80_top-rated-games_3131087ef34e1410.html"
+    },
+    {
       "date": "2010-10-13",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20101013051149",
@@ -973,6 +1000,15 @@
       "html_path": "data/raw/html/20101013051149_http_www.kongregate.com_80_games_sort_newest_6d57d67eee503fea.html"
     },
     {
+      "date": "2010-10-13",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101013051224",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101013051224_http_www.kongregate.com_80_top-rated-games_cf2255b1815c47df.html"
+    },
+    {
       "date": "2010-10-18",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20101018190112",
@@ -980,6 +1016,15 @@
       "rows_extracted": 8,
       "confidence": "medium",
       "html_path": "data/raw/html/20101018190112_http_www.kongregate.com_80_games_sort_newest_5831cd532cf5d5e3.html"
+    },
+    {
+      "date": "2010-10-22",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101022093918",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101022093918_http_www.kongregate.com_80_top-rated-games_9e93e24ea37aebc5.html"
     },
     {
       "date": "2010-10-22",
@@ -1000,6 +1045,15 @@
       "html_path": "data/raw/html/20101108100236_http_www.kongregate.com_80_games_sort_newest_a7b5a8609506f840.html"
     },
     {
+      "date": "2010-11-08",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101108100432",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101108100432_http_www.kongregate.com_80_top-rated-games_87b4d6629018dd03.html"
+    },
+    {
       "date": "2010-11-13",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20101113043051",
@@ -1007,6 +1061,33 @@
       "rows_extracted": 8,
       "confidence": "medium",
       "html_path": "data/raw/html/20101113043051_http_www.kongregate.com_80_games_sort_newest_203e0c32bc1f38bc.html"
+    },
+    {
+      "date": "2010-11-13",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101113043056",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101113043056_http_www.kongregate.com_80_top-rated-games_b511c674ea9a5ec2.html"
+    },
+    {
+      "date": "2010-11-19",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101119222738",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101119222738_http_www.kongregate.com_80_top-rated-games_c73ec6252165d031.html"
+    },
+    {
+      "date": "2010-11-23",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101123210035",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101123210035_http_www.kongregate.com_80_top-rated-games_70121d35b25e2b5b.html"
     },
     {
       "date": "2010-11-23",
@@ -1018,6 +1099,42 @@
       "html_path": "data/raw/html/20101123210907_http_www.kongregate.com_80_games_sort_newest_edf24ebddcce0d7f.html"
     },
     {
+      "date": "2010-11-29",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101129095234",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101129095234_http_www.kongregate.com_80_top-rated-games_11fff6af147c2538.html"
+    },
+    {
+      "date": "2010-12-04",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101204084421",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101204084421_http_www.kongregate.com_80_top-rated-games_fd6618b3faa4ccf2.html"
+    },
+    {
+      "date": "2010-12-08",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101208161042",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101208161042_http_www.kongregate.com_80_top-rated-games_b16a1f7c39073f8a.html"
+    },
+    {
+      "date": "2010-12-23",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20101223080608",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20101223080608_http_www.kongregate.com_80_top-rated-games_4e8e250482407636.html"
+    },
+    {
       "date": "2010-12-23",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20101223082508",
@@ -1027,6 +1144,15 @@
       "html_path": "data/raw/html/20101223082508_http_www.kongregate.com_80_games_sort_newest_596f3cebe1cfd047.html"
     },
     {
+      "date": "2011-01-02",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110102013936",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110102013936_http_www.kongregate.com_80_top-rated-games_f5c61809739d7451.html"
+    },
+    {
       "date": "2011-01-11",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20110111210557",
@@ -1034,6 +1160,24 @@
       "rows_extracted": 8,
       "confidence": "medium",
       "html_path": "data/raw/html/20110111210557_http_www.kongregate.com_80_games_sort_newest_6c8aeda0b7643731.html"
+    },
+    {
+      "date": "2011-01-11",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110111210655",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110111210655_http_www.kongregate.com_80_top-rated-games_b62a9c74d030dbc8.html"
+    },
+    {
+      "date": "2011-01-23",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110123174904",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110123174904_http_www.kongregate.com_80_top-rated-games_b7b185084bac8ed2.html"
     },
     {
       "date": "2011-02-06",
@@ -1055,6 +1199,15 @@
     },
     {
       "date": "2011-02-09",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110209133454",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110209133454_http_www.kongregate.com_80_top-rated-games_1581616b2dc27a85.html"
+    },
+    {
+      "date": "2011-02-09",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20110209134507",
       "parser": "game_browser_game_row",
@@ -1070,6 +1223,15 @@
       "rows_extracted": 8,
       "confidence": "medium",
       "html_path": "data/raw/html/20110209205931_http_www.kongregate.com_80_idle-games_edbcd74049b1d229.html"
+    },
+    {
+      "date": "2011-02-15",
+      "source_url": "http://www.kongregate.com/top-rated-games",
+      "capture_timestamp": "20110215193109",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110215193109_http_www.kongregate.com_top-rated-games_3404166362905b00.html"
     },
     {
       "date": "2011-02-27",
@@ -1090,6 +1252,15 @@
       "html_path": "data/raw/html/20110308064805_http_www.kongregate.com_80_games_sort_newest_5efde9cddb9e6ab4.html"
     },
     {
+      "date": "2011-03-08",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110308065046",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110308065046_http_www.kongregate.com_80_top-rated-games_2fd55ff16cda566e.html"
+    },
+    {
       "date": "2011-03-11",
       "source_url": "http://www.kongregate.com:80/games?sort=newest",
       "capture_timestamp": "20110311232920",
@@ -1106,6 +1277,15 @@
       "rows_extracted": 8,
       "confidence": "medium",
       "html_path": "data/raw/html/20110315014150_http_www.kongregate.com_80_games_sort_newest_449cf4473e0829e1.html"
+    },
+    {
+      "date": "2011-03-15",
+      "source_url": "http://www.kongregate.com:80/top-rated-games",
+      "capture_timestamp": "20110315014157",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 8,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20110315014157_http_www.kongregate.com_80_top-rated-games_79eade0335fe69b7.html"
     },
     {
       "date": "2011-03-19",

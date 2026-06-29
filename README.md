@@ -8,16 +8,16 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1R66PGWJmkaevDvcRRbo_s52SmypzTSZjX_sWvTqQpTc
+https://docs.google.com/spreadsheets/d/1Zw9iDqd4-5dibNB1xihAYWkjp7LXJx2JfApT7EOjevQ
 
 ## Current Snapshot
 
-- Ranked-list rows: 8,140
-- Ranked-list rows with observed play counts: 4,685
-- Mini catalog: 743 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 3,734 across 551 canonical games
-- Observed play-count rows used by the chart: 8,419
-- Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,415 observed capture-date frames.
+- Ranked-list rows: 8,300
+- Ranked-list rows with observed play counts: 4,845
+- Mini catalog: 744 games that reached top 20 in observed rankings
+- Per-game metrics history rows: 3,736 across 552 canonical games
+- Observed play-count rows used by the chart: 8,581
+- Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,426 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-29
 
