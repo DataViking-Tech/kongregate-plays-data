@@ -1,20 +1,20 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T23:12:41Z
+Generated: 2026-06-29T23:23:51Z
 
 ## Summary
 
-- Mini-catalog games audited: 2900
-- Games without metrics rows: 1284
+- Mini-catalog games audited: 2909
+- Games without metrics rows: 1288
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 759
-- Missing CDX cache files: 817
+- Missing CDX cache files: 821
 
 ## Status Counts
 
-- cdx_cache_missing: 706
-- has_metrics: 1616
+- cdx_cache_missing: 710
+- has_metrics: 1621
 - known_failures_only: 39
 - no_cdx: 539
 
@@ -22,6 +22,8 @@ Generated: 2026-06-29T23:12:41Z
 
 | Game | Status | Best rank | Metrics rows | CDX rows | Fresh pending | Known failed |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Unpuzzle 2 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Unpuzzle 2 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | Alexia Crow and the pandora's box | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Brakeless Trials Game 2014 | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -45,8 +47,6 @@ Generated: 2026-06-29T23:12:41Z
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| The world most bugged game | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Wheelie Legend | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

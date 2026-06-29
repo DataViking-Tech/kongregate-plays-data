@@ -1,18 +1,40 @@
 {
-  "catalog_games": 2900,
+  "catalog_games": 2909,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 1284,
-  "generated_at": "2026-06-29T23:12:41Z",
+  "games_without_metrics_rows": 1288,
+  "generated_at": "2026-06-29T23:23:51Z",
   "known_failed_captures": 759,
-  "missing_cdx_cache_files": 817,
+  "missing_cdx_cache_files": 821,
   "status_counts": {
-    "cdx_cache_missing": 706,
-    "has_metrics": 1616,
+    "cdx_cache_missing": 710,
+    "has_metrics": 1621,
     "known_failures_only": 39,
     "no_cdx": 539
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Unpuzzle 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3360,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Unpuzzle 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3360,
+      "status": "cdx_cache_missing"
+    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -265,29 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3351,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "The world most bugged game",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Wheelie Legend",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8442
+  "valid_cached_captures": 8467
 }

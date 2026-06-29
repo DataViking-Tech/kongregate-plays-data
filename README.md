@@ -8,16 +8,16 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1LCClWPFrrxuiJeu9C15ZJfkFEaf6GONO6ChHalAxtx4
+https://docs.google.com/spreadsheets/d/12x7n-6ZZjEY8QC19AW9ZhafEbvZs3o2GNiZV40ioJSQ
 
 ## Current Snapshot
 
-- Ranked-list rows: 27,569
-- Ranked-list rows with observed play counts: 8,803
-- Mini catalog: 2,900 games that reached top 20 in observed rankings
+- Ranked-list rows: 28,389
+- Ranked-list rows with observed play counts: 8,963
+- Mini catalog: 2,909 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 4,834 across 1,274 canonical games
-- Observed play-count rows used by the chart: 13,637
-- Chart playback: Smooth mode uses 1,865 interpolated display frames by default; Captures mode exposes all 1,699 observed capture-date frames.
+- Observed play-count rows used by the chart: 13,797
+- Chart playback: Smooth mode uses 1,865 interpolated display frames by default; Captures mode exposes all 1,702 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-29
 
@@ -27,9 +27,9 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- 76 historical months still have no ranked-list captures in the processed dataset.
-- 1,284 mini-catalog games still have no per-game metrics rows, and 2,222 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures and 817 missing CDX cache files; remaining unresolved games include 539 no-CDX cases, 706 CDX-cache-missing cases, and 39 games with known failures only.
+- 75 historical months still have no ranked-list captures in the processed dataset.
+- 1,288 mini-catalog games still have no per-game metrics rows, and 2,230 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures and 821 missing CDX cache files; remaining unresolved games include 539 no-CDX cases, 710 CDX-cache-missing cases, and 39 games with known failures only.
 - Final chart leaders have current live metrics observations as of 2026-06-29.
 
 ## Key Files
