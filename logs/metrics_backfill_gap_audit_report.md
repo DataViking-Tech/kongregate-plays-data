@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T14:33:50Z
+Generated: 2026-06-29T14:52:11Z
 
 ## Summary
 
-- Mini-catalog games audited: 1303
-- Games without metrics rows: 380
+- Mini-catalog games audited: 1319
+- Games without metrics rows: 396
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 616
-- Missing CDX cache files: 149
+- Known failed captures: 620
+- Missing CDX cache files: 140
 
 ## Status Counts
 
-- cdx_cache_missing: 149
+- cdx_cache_missing: 140
 - has_metrics: 923
-- known_failures_only: 37
-- no_cdx: 194
+- known_failures_only: 40
+- no_cdx: 216
 
 ## Top Unresolved Games
 
@@ -34,6 +34,7 @@ Generated: 2026-06-29T14:33:50Z
 | Simple factory idle game | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Soul Shadows | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Tactical Anomaly | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | test | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -46,7 +47,6 @@ Generated: 2026-06-29T14:33:50Z
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Classical Pong | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| DOT. | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

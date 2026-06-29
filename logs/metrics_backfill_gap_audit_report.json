@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1303,
+  "catalog_games": 1319,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 380,
-  "generated_at": "2026-06-29T14:33:50Z",
-  "known_failed_captures": 616,
-  "missing_cdx_cache_files": 149,
+  "games_without_metrics_rows": 396,
+  "generated_at": "2026-06-29T14:52:11Z",
+  "known_failed_captures": 620,
+  "missing_cdx_cache_files": 140,
   "status_counts": {
-    "cdx_cache_missing": 149,
+    "cdx_cache_missing": 140,
     "has_metrics": 923,
-    "known_failures_only": 37,
-    "no_cdx": 194
+    "known_failures_only": 40,
+    "no_cdx": 216
   },
   "top_unresolved_games": [
     {
@@ -150,6 +150,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Surrounded",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Tactical Anomaly",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -272,17 +283,6 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "CountryBalls 4",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "DOT.",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
