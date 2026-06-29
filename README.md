@@ -8,13 +8,13 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1trts5XpsrpGXALT9U0EVEiHPgbEhtapMirw7u55SZMU
+https://docs.google.com/spreadsheets/d/1Qyc6WmOyOJ2GiJYaVF4PgdMNdkFGNBm_wpJ1DtDSCtQ
 
 ## Current Snapshot
 
-- Ranked-list rows: 19,193
+- Ranked-list rows: 19,533
 - Ranked-list rows with observed play counts: 7,454
-- Mini catalog: 2,374 games that reached top 20 in observed rankings
+- Mini catalog: 2,422 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 4,829 across 1,272 canonical games
 - Observed play-count rows used by the chart: 12,283
 - Chart playback: Smooth mode uses 1,399 interpolated display frames by default; Captures mode exposes all 1,627 observed capture-date frames.
@@ -27,9 +27,9 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- 98 historical months still have no ranked-list captures in the processed dataset.
-- 791 mini-catalog games still have no per-game metrics rows, and 1,929 still need deeper page-history backfill.
-- Metrics gap audit currently has 5 fresh pending captures and 367 missing CDX cache files; remaining unresolved games include 498 no-CDX cases, 256 CDX-cache-missing cases, 2 fresh-pending cases, and 35 games with known failures only.
+- 97 historical months still have no ranked-list captures in the processed dataset.
+- 839 mini-catalog games still have no per-game metrics rows, and 1,977 still need deeper page-history backfill.
+- Metrics gap audit currently has 5 fresh pending captures and 415 missing CDX cache files; remaining unresolved games include 498 no-CDX cases, 304 CDX-cache-missing cases, 2 fresh-pending cases, and 35 games with known failures only.
 - Final chart leaders have current live metrics observations as of 2026-06-29.
 
 ## Key Files

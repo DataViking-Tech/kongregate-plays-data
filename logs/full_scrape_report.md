@@ -1,13 +1,13 @@
 # Kongregate Full Ranked-Games Scrape Report
 
-- Run timestamp: 2026-06-29T20:15:16Z
-- Total manifest jobs: 193
-- Pending before run: 74
-- Attempted this run: 74
+- Run timestamp: 2026-06-29T20:36:14Z
+- Total manifest jobs: 94
+- Pending before run: 73
+- Attempted this run: 73
 - Fetched this run: 20
-- Failed this run: 54
+- Failed this run: 53
 - Remaining after run: 0
-- Manifest entries: 1166
-- Known failures: 4048
+- Manifest entries: 1186
+- Known failures: 4101
 
 CDX inputs are digest-collapsed, so duplicate archived HTML content is intentionally not fetched repeatedly.

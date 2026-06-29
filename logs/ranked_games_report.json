@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-29T20:15:27Z",
-    "html_samples_considered": 1200,
-    "ranking_rows_extracted": 19193,
+    "run_timestamp": "2026-06-29T20:36:27Z",
+    "html_samples_considered": 1220,
+    "ranking_rows_extracted": 19533,
     "rows_with_observed_play_counts": 7454,
-    "captures_with_rows": 1176,
+    "captures_with_rows": 1196,
     "captures_without_rows": 24,
     "ranking_types": [
       "browse",
@@ -4913,6 +4913,186 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20160130000156_http_www.kongregate.com_80_games_993fe0eeecf34287.html"
+    },
+    {
+      "date": "2016-02-02",
+      "source_url": "http://www.kongregate.com:80/games?",
+      "capture_timestamp": "20160202052926",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160202052926_http_www.kongregate.com_80_games_44d51c41c12203c1.html"
+    },
+    {
+      "date": "2016-02-02",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20160202054304",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160202054304_http_www.kongregate.com_80_games_sort_newest_0fa14e79a84d9096.html"
+    },
+    {
+      "date": "2016-02-02",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160202124041",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160202124041_http_www.kongregate.com_games_9271f20f50dac337.html"
+    },
+    {
+      "date": "2016-02-03",
+      "source_url": "http://www.kongregate.com/tower-defense-games",
+      "capture_timestamp": "20160203013629",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160203013629_http_www.kongregate.com_tower-defense-games_ecfb448939dabb48.html"
+    },
+    {
+      "date": "2016-02-03",
+      "source_url": "http://www.kongregate.com/puzzle-games",
+      "capture_timestamp": "20160203014714",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160203014714_http_www.kongregate.com_puzzle-games_7b6efed2e1125caa.html"
+    },
+    {
+      "date": "2016-02-03",
+      "source_url": "http://www.kongregate.com:80/shooter-games",
+      "capture_timestamp": "20160203061108",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160203061108_http_www.kongregate.com_80_shooter-games_5cfc205152335cbd.html"
+    },
+    {
+      "date": "2016-02-03",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20160203142936",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160203142936_http_www.kongregate.com_80_games_082630bc0c5f553a.html"
+    },
+    {
+      "date": "2016-02-04",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160204030828",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160204030828_http_www.kongregate.com_games_006b9c6e7548b5f8.html"
+    },
+    {
+      "date": "2016-02-05",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160205055611",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160205055611_http_www.kongregate.com_games_9d5620c9b2e14907.html"
+    },
+    {
+      "date": "2016-02-06",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20160206174809",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160206174809_http_www.kongregate.com_80_games_a33e7fc3a9da230d.html"
+    },
+    {
+      "date": "2016-02-11",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160211035610",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160211035610_http_www.kongregate.com_games_2495138a6b51366e.html"
+    },
+    {
+      "date": "2016-02-17",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20160217222252",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160217222252_http_www.kongregate.com_80_games_sort_newest_6d615151519f8e0f.html"
+    },
+    {
+      "date": "2016-02-18",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160218044137",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160218044137_http_www.kongregate.com_games_a8fd420526d10eb9.html"
+    },
+    {
+      "date": "2016-02-20",
+      "source_url": "http://www.kongregate.com:80/games?",
+      "capture_timestamp": "20160220231441",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160220231441_http_www.kongregate.com_80_games_d4edaa9d0e151df0.html"
+    },
+    {
+      "date": "2016-02-21",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20160221031508",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160221031508_http_www.kongregate.com_80_games_acb038df95565cf1.html"
+    },
+    {
+      "date": "2016-02-24",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20160224035920",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160224035920_http_www.kongregate.com_80_games_7f0dcc13232ae14a.html"
+    },
+    {
+      "date": "2016-02-25",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20160225050451",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160225050451_http_www.kongregate.com_games_9016acedaa0e6774.html"
+    },
+    {
+      "date": "2016-02-27",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20160227123749",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160227123749_http_www.kongregate.com_80_games_6b6ce96b0dda9e4a.html"
+    },
+    {
+      "date": "2016-02-28",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20160228063927",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160228063927_http_www.kongregate.com_80_games_sort_newest_52b60e97989e98b8.html"
+    },
+    {
+      "date": "2016-02-29",
+      "source_url": "http://www.kongregate.com:80/games/?",
+      "capture_timestamp": "20160229235950",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20160229235950_http_www.kongregate.com_80_games_27abc1dda8ff1c17.html"
     },
     {
       "date": "2016-03-01",
