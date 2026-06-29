@@ -3826,6 +3826,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180916062346_http_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_a28959e679139b03.json"
     },
     {
+      "date": "2018-09-22",
+      "game_name": "Excit",
+      "game_url": "http://www.kongregate.com./games/Krystman/excit",
+      "plays_count_observed": 1001474,
+      "favorites_count_observed": 5003,
+      "plays_text": "1,001,474",
+      "favorites_text": "5,003",
+      "metrics_url": "http://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "capture_timestamp": "20180922160425",
+      "capture_url": "https://web.archive.org/web/20180922160425/http://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180922160425_http_www.kongregate.com_games_Krystman_excit_metrics.json_31eb039985939d5d.json"
+    },
+    {
       "date": "2018-09-28",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
@@ -4019,6 +4034,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190112024123_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_4b5977e16aca605a.json"
+    },
+    {
+      "date": "2019-01-14",
+      "game_name": "Arcane",
+      "game_url": "http://www.kongregate.com./games/Hadar1989/arcane",
+      "plays_count_observed": 2177770,
+      "favorites_count_observed": 20525,
+      "plays_text": "2,177,770",
+      "favorites_text": "20,525",
+      "metrics_url": "http://www.kongregate.com:80/games/Hadar1989/arcane/metrics.json",
+      "capture_timestamp": "20190114141057",
+      "capture_url": "https://web.archive.org/web/20190114141057/http://www.kongregate.com:80/games/Hadar1989/arcane/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190114141057_http_www.kongregate.com_80_games_Hadar1989_arcane_metrics.json_c7ceb5b9930d003c.json"
     },
     {
       "date": "2019-01-16",
@@ -8852,6 +8882,21 @@
     },
     {
       "date": "2020-03-06",
+      "game_name": "Bubble Tanks 2",
+      "game_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-2",
+      "plays_count_observed": 4753146,
+      "favorites_count_observed": 40990,
+      "plays_text": "4,753,146",
+      "favorites_text": "40,990",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "capture_timestamp": "20200306082224",
+      "capture_url": "https://web.archive.org/web/20200306082224/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200306082224_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_46722de1d3f05368.json"
+    },
+    {
+      "date": "2020-03-06",
       "game_name": "GOSPACE",
       "game_url": "https://www.kongregate.com/games/LLGD/gospace",
       "plays_count_observed": 96967,
@@ -9119,6 +9164,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200323070014_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_abf810625e11b032.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Chronotron",
+      "game_url": "http://www.kongregate.com./games/Scarybug/chronotron",
+      "plays_count_observed": 2846796,
+      "favorites_count_observed": 11685,
+      "plays_text": "2,846,796",
+      "favorites_text": "11,685",
+      "metrics_url": "https://www.kongregate.com/games/Scarybug/chronotron/metrics.json",
+      "capture_timestamp": "20200324163606",
+      "capture_url": "https://web.archive.org/web/20200324163606/https://www.kongregate.com/games/Scarybug/chronotron/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324163606_https_www.kongregate.com_games_Scarybug_chronotron_metrics.json_512e55767f32b74a.json"
     },
     {
       "date": "2020-03-24",
@@ -12302,6 +12362,21 @@
     },
     {
       "date": "2020-07-17",
+      "game_name": "BoomsticK",
+      "game_url": "http://www.kongregate.com./games/innercircus/boomstick",
+      "plays_count_observed": 945444,
+      "favorites_count_observed": 7779,
+      "plays_text": "945,444",
+      "favorites_text": "7,779",
+      "metrics_url": "https://www.kongregate.com/games/innercircus/boomstick/metrics.json",
+      "capture_timestamp": "20200717185307",
+      "capture_url": "https://web.archive.org/web/20200717185307/https://www.kongregate.com/games/innercircus/boomstick/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200717185307_https_www.kongregate.com_games_innercircus_boomstick_metrics.json_5e41758964d39b8e.json"
+    },
+    {
+      "date": "2020-07-17",
       "game_name": "rotaZion",
       "game_url": "http://www.kongregate.com/games/pixtiz/rotazion",
       "plays_count_observed": 422855,
@@ -12464,6 +12539,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205119_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_73fd568f91a79af6.json"
+    },
+    {
+      "date": "2020-07-25",
+      "game_name": "Synapsis",
+      "game_url": "http://www.kongregate.com/games/robotJAM/synapsis",
+      "plays_count_observed": 599561,
+      "favorites_count_observed": 3041,
+      "plays_text": "599,561",
+      "favorites_text": "3,041",
+      "metrics_url": "https://www.kongregate.com/games/robotJAM/synapsis/metrics.json",
+      "capture_timestamp": "20200725205416",
+      "capture_url": "https://web.archive.org/web/20200725205416/https://www.kongregate.com/games/robotJAM/synapsis/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205416_https_www.kongregate.com_games_robotJAM_synapsis_metrics.json_67f44241c66eb83b.json"
     },
     {
       "date": "2020-07-25",
@@ -13922,6 +14012,21 @@
     },
     {
       "date": "2020-10-27",
+      "game_name": "Hedgehog Launch",
+      "game_url": "http://www.kongregate.com./games/ArmorGames/hedgehog-launch",
+      "plays_count_observed": 2621211,
+      "favorites_count_observed": 12698,
+      "plays_text": "2,621,211",
+      "favorites_text": "12,698",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/hedgehog-launch/metrics.json",
+      "capture_timestamp": "20201027182319",
+      "capture_url": "https://web.archive.org/web/20201027182319/https://www.kongregate.com/games/ArmorGames/hedgehog-launch/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201027182319_https_www.kongregate.com_games_ArmorGames_hedgehog-launch_metrics.json_5c55574a0314a815.json"
+    },
+    {
+      "date": "2020-10-27",
       "game_name": "Trimps",
       "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
       "plays_count_observed": 9731116,
@@ -15134,6 +15239,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201123232915_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_614b5526eaa63d62.json"
+    },
+    {
+      "date": "2020-11-24",
+      "game_name": "Boomshine",
+      "game_url": "http://www.kongregate.com./games/k2xl/boomshine",
+      "plays_count_observed": 787406,
+      "favorites_count_observed": 3737,
+      "plays_text": "787,406",
+      "favorites_text": "3,737",
+      "metrics_url": "http://www.kongregate.com/games/k2xl/boomshine/metrics.json",
+      "capture_timestamp": "20201124201251",
+      "capture_url": "https://web.archive.org/web/20201124201251/http://www.kongregate.com/games/k2xl/boomshine/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201124201251_http_www.kongregate.com_games_k2xl_boomshine_metrics.json_506676a8460d2b62.json"
     },
     {
       "date": "2020-11-24",
@@ -16937,6 +17057,21 @@
     },
     {
       "date": "2021-01-01",
+      "game_name": "Bubble Tanks 2",
+      "game_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-2",
+      "plays_count_observed": 4795220,
+      "favorites_count_observed": 41144,
+      "plays_text": "4,795,220",
+      "favorites_text": "41,144",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "capture_timestamp": "20210101054619",
+      "capture_url": "https://web.archive.org/web/20210101054619/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101054619_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_bca35e6f087977b2.json"
+    },
+    {
+      "date": "2021-01-01",
       "game_name": "Cat in Japan",
       "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
       "plays_count_observed": 381580,
@@ -17054,6 +17189,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210102175558_https_www.kongregate.com_games_Luts91_idle-dice_metrics.json_aa0e30975303baea.json"
+    },
+    {
+      "date": "2021-01-03",
+      "game_name": "StormWinds 1.5",
+      "game_url": "http://www.kongregate.com./games/HeroInteractive/stormwinds-1-5",
+      "plays_count_observed": 991664,
+      "favorites_count_observed": 6560,
+      "plays_text": "991,664",
+      "favorites_text": "6,560",
+      "metrics_url": "http://www.kongregate.com/games/HeroInteractive/stormwinds-1-5/metrics.json",
+      "capture_timestamp": "20210103095555",
+      "capture_url": "https://web.archive.org/web/20210103095555/http://www.kongregate.com/games/HeroInteractive/stormwinds-1-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210103095555_http_www.kongregate.com_games_HeroInteractive_stormwinds-1-5_metrics.json_eddfb722a171eebb.json"
     },
     {
       "date": "2021-01-06",
@@ -17792,6 +17942,21 @@
     },
     {
       "date": "2021-01-11",
+      "game_name": "Arcane",
+      "game_url": "http://www.kongregate.com./games/Hadar1989/arcane",
+      "plays_count_observed": 2213390,
+      "favorites_count_observed": 20782,
+      "plays_text": "2,213,390",
+      "favorites_text": "20,782",
+      "metrics_url": "https://www.kongregate.com/games/Hadar1989/arcane/metrics.json",
+      "capture_timestamp": "20210111230046",
+      "capture_url": "https://web.archive.org/web/20210111230046/https://www.kongregate.com/games/Hadar1989/arcane/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210111230046_https_www.kongregate.com_games_Hadar1989_arcane_metrics.json_de5af0c894a04225.json"
+    },
+    {
+      "date": "2021-01-11",
       "game_name": "Ayumilove HackerStory V1",
       "game_url": "http://www.kongregate.com/games/ayumilove/ayumilove-hackerstory-v1",
       "plays_count_observed": 828784,
@@ -17939,6 +18104,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210112000150_https_www.kongregate.com_games_onimatrix_sandtest_metrics.json_b4451aa8cea5b4da.json"
+    },
+    {
+      "date": "2021-01-13",
+      "game_name": "Bloons",
+      "game_url": "http://www.kongregate.com./games/Ninjakiwi/bloons",
+      "plays_count_observed": 1246901,
+      "favorites_count_observed": 8135,
+      "plays_text": "1,246,901",
+      "favorites_text": "8,135",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "capture_timestamp": "20210113231813",
+      "capture_url": "https://web.archive.org/web/20210113231813/https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210113231813_https_www.kongregate.com_games_Ninjakiwi_bloons_metrics.json_c52cc0d41c7c1353.json"
     },
     {
       "date": "2021-01-13",
@@ -21661,6 +21841,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210909175417_http_www.kongregate.com_games_webcypher_sift-heads-world-act-2-the-treacherous-return_metrics.json_1f06f48ae11b63da.json"
     },
     {
+      "date": "2021-09-11",
+      "game_name": "Boxhead: The Zombie Wars",
+      "game_url": "http://www.kongregate.com./games/SeanCooper/boxhead-the-zombie-wars",
+      "plays_count_observed": 4706196,
+      "favorites_count_observed": 22340,
+      "plays_text": "4,706,196",
+      "favorites_text": "22,340",
+      "metrics_url": "http://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "capture_timestamp": "20210911022840",
+      "capture_url": "https://web.archive.org/web/20210911022840/http://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210911022840_http_www.kongregate.com_games_SeanCooper_boxhead-the-zombie-wars_metrics.json_db8ddf69c5c259f5.json"
+    },
+    {
       "date": "2021-09-18",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -25247,6 +25442,21 @@
     },
     {
       "date": "2021-11-22",
+      "game_name": "Bloons",
+      "game_url": "http://www.kongregate.com./games/Ninjakiwi/bloons",
+      "plays_count_observed": 1250180,
+      "favorites_count_observed": 8140,
+      "plays_text": "1,250,180",
+      "favorites_text": "8,140",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "capture_timestamp": "20211122122523",
+      "capture_url": "https://web.archive.org/web/20211122122523/https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211122122523_https_www.kongregate.com_games_Ninjakiwi_bloons_metrics.json_f7da8ab25903dbf8.json"
+    },
+    {
+      "date": "2021-11-22",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34136051,
@@ -25829,6 +26039,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080210_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_dfa3132d2fa9ef39.json"
+    },
+    {
+      "date": "2022-01-11",
+      "game_name": "Boxhead: The Zombie Wars",
+      "game_url": "http://www.kongregate.com./games/SeanCooper/boxhead-the-zombie-wars",
+      "plays_count_observed": 4708633,
+      "favorites_count_observed": 22339,
+      "plays_text": "4,708,633",
+      "favorites_text": "22,339",
+      "metrics_url": "https://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "capture_timestamp": "20220111103511",
+      "capture_url": "https://web.archive.org/web/20220111103511/https://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111103511_https_www.kongregate.com_games_SeanCooper_boxhead-the-zombie-wars_metrics.json_ced3e3d0751c4def.json"
     },
     {
       "date": "2022-01-11",
@@ -30977,6 +31202,21 @@
     },
     {
       "date": "2022-10-09",
+      "game_name": "Bloons",
+      "game_url": "http://www.kongregate.com./games/Ninjakiwi/bloons",
+      "plays_count_observed": 1252333,
+      "favorites_count_observed": 7769,
+      "plays_text": "1,252,333",
+      "favorites_text": "7,769",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "capture_timestamp": "20221009004958",
+      "capture_url": "https://web.archive.org/web/20221009004958/https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221009004958_https_www.kongregate.com_games_Ninjakiwi_bloons_metrics.json_4dbfa8864b8cbc91.json"
+    },
+    {
+      "date": "2022-10-09",
       "game_name": "Sonny",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny",
       "plays_count_observed": 10691280,
@@ -33587,6 +33827,21 @@
     },
     {
       "date": "2023-01-17",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7688900,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,688,900",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230117235653",
+      "capture_url": "https://web.archive.org/web/20230117235653/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230117235653_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_a3cbb4d878956f4b.json"
+    },
+    {
+      "date": "2023-01-17",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31313887,
@@ -33599,6 +33854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230117180333_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_edf6aeb3fcebd15d.json"
+    },
+    {
+      "date": "2023-01-18",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7688923,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,688,923",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230118133304",
+      "capture_url": "https://web.archive.org/web/20230118133304/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230118133304_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_ec99bfb3183ba757.json"
     },
     {
       "date": "2023-01-18",
@@ -33629,6 +33899,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230118020209_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_f3393ebd2d573458.json"
+    },
+    {
+      "date": "2023-01-19",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7688958,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,688,958",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230119014312",
+      "capture_url": "https://web.archive.org/web/20230119014312/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230119014312_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_5ede797db534522d.json"
+    },
+    {
+      "date": "2023-01-19",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7688967,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,688,967",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230119043413",
+      "capture_url": "https://web.archive.org/web/20230119043413/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230119043413_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_8c27e69139dfa3e0.json"
+    },
+    {
+      "date": "2023-01-19",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7688999,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,688,999",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230119175323",
+      "capture_url": "https://web.archive.org/web/20230119175323/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230119175323_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_d5d262b529daa454.json"
     },
     {
       "date": "2023-01-19",
@@ -33692,6 +34007,21 @@
     },
     {
       "date": "2023-01-21",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689085,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,689,085",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230121045455",
+      "capture_url": "https://web.archive.org/web/20230121045455/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230121045455_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_c1dac284705505aa.json"
+    },
+    {
+      "date": "2023-01-21",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34929495,
@@ -33704,6 +34034,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230121045338_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_c0cf89193a2c1d56.json"
+    },
+    {
+      "date": "2023-01-23",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689180,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,689,180",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230123043443",
+      "capture_url": "https://web.archive.org/web/20230123043443/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230123043443_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_18491165a8fc64c2.json"
+    },
+    {
+      "date": "2023-01-23",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689222,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,689,222",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230123201334",
+      "capture_url": "https://web.archive.org/web/20230123201334/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230123201334_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_dc621a4f5e27dc73.json"
     },
     {
       "date": "2023-01-23",
@@ -33734,6 +34094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230123180221_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_dc9e5f55311537f7.json"
+    },
+    {
+      "date": "2023-01-24",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689252,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,689,252",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230124061447",
+      "capture_url": "https://web.archive.org/web/20230124061447/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230124061447_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_6aa8b6088ec40c2a.json"
     },
     {
       "date": "2023-01-24",
@@ -33827,6 +34202,36 @@
     },
     {
       "date": "2023-01-29",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689526,
+      "favorites_count_observed": 79381,
+      "plays_text": "7,689,526",
+      "favorites_text": "79,381",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230129082832",
+      "capture_url": "https://web.archive.org/web/20230129082832/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230129082832_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_5a6fc9f695c99d77.json"
+    },
+    {
+      "date": "2023-01-29",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689530,
+      "favorites_count_observed": 79382,
+      "plays_text": "7,689,530",
+      "favorites_text": "79,382",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230129103947",
+      "capture_url": "https://web.archive.org/web/20230129103947/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230129103947_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_7b60f497b06b5e02.json"
+    },
+    {
+      "date": "2023-01-29",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 1776620,
@@ -33854,6 +34259,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230129103959_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_a70894a0823ae9ca.json"
+    },
+    {
+      "date": "2023-01-30",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689581,
+      "favorites_count_observed": 79382,
+      "plays_text": "7,689,581",
+      "favorites_text": "79,382",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230130162252",
+      "capture_url": "https://web.archive.org/web/20230130162252/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230130162252_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_68255a89798f5b94.json"
     },
     {
       "date": "2023-01-30",
@@ -33929,6 +34349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230201223915_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_00b88d73cea14cd3.json"
+    },
+    {
+      "date": "2023-02-02",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7689749,
+      "favorites_count_observed": 79382,
+      "plays_text": "7,689,749",
+      "favorites_text": "79,382",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230202065549",
+      "capture_url": "https://web.archive.org/web/20230202065549/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230202065549_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_68e5b298f77f28b0.json"
     },
     {
       "date": "2023-02-03",
@@ -34289,6 +34724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230211194209_http_www.kongregate.com_games_Weasel_endless-zombie-rampage-2_metrics.json_a2dcd6e8e2eef3bb.json"
+    },
+    {
+      "date": "2023-02-11",
+      "game_name": "The Endless Zombie Rampage",
+      "game_url": "http://www.kongregate.com./games/Weasel/the-endless-zombie-rampage",
+      "plays_count_observed": 1506129,
+      "favorites_count_observed": 9829,
+      "plays_text": "1,506,129",
+      "favorites_text": "9,829",
+      "metrics_url": "http://www.kongregate.com/games/Weasel/the-endless-zombie-rampage/metrics.json",
+      "capture_timestamp": "20230211180825",
+      "capture_url": "https://web.archive.org/web/20230211180825/http://www.kongregate.com/games/Weasel/the-endless-zombie-rampage/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230211180825_http_www.kongregate.com_games_Weasel_the-endless-zombie-rampage_metrics.json_dd548968977aea30.json"
     },
     {
       "date": "2023-02-12",
@@ -35162,6 +35612,21 @@
     },
     {
       "date": "2023-02-26",
+      "game_name": "6 Differences",
+      "game_url": "http://www.kongregate.com./games/Ivory/6-differences",
+      "plays_count_observed": 1228959,
+      "favorites_count_observed": 6228,
+      "plays_text": "1,228,959",
+      "favorites_text": "6,228",
+      "metrics_url": "https://www.kongregate.com/games/Ivory/6-differences/metrics.json",
+      "capture_timestamp": "20230226161809",
+      "capture_url": "https://web.archive.org/web/20230226161809/https://www.kongregate.com/games/Ivory/6-differences/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226161809_https_www.kongregate.com_games_Ivory_6-differences_metrics.json_1cc1b12bab72a6cd.json"
+    },
+    {
+      "date": "2023-02-26",
       "game_name": "AdVenture Capitalist",
       "game_url": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
       "plays_count_observed": 51158495,
@@ -35177,6 +35642,21 @@
     },
     {
       "date": "2023-02-26",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7690858,
+      "favorites_count_observed": 79385,
+      "plays_text": "7,690,858",
+      "favorites_text": "79,385",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230226160347",
+      "capture_url": "https://web.archive.org/web/20230226160347/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226160347_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_3114cd32a6e08e53.json"
+    },
+    {
+      "date": "2023-02-26",
       "game_name": "Badge Master",
       "game_url": "http://www.kongregate.com/games/Senekis93/badge-master",
       "plays_count_observed": 2556991,
@@ -35189,6 +35669,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226162428_https_www.kongregate.com_games_Senekis93_badge-master_metrics.json_2f1edee4f624151b.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Boxhead: The Zombie Wars",
+      "game_url": "http://www.kongregate.com./games/SeanCooper/boxhead-the-zombie-wars",
+      "plays_count_observed": 4717357,
+      "favorites_count_observed": 21940,
+      "plays_text": "4,717,357",
+      "favorites_text": "21,940",
+      "metrics_url": "https://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "capture_timestamp": "20230226153307",
+      "capture_url": "https://web.archive.org/web/20230226153307/https://www.kongregate.com/games/SeanCooper/boxhead-the-zombie-wars/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226153307_https_www.kongregate.com_games_SeanCooper_boxhead-the-zombie-wars_metrics.json_2b92beee9e1e8d09.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Bubble Tanks 2",
+      "game_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-2",
+      "plays_count_observed": 4805871,
+      "favorites_count_observed": 40961,
+      "plays_text": "4,805,871",
+      "favorites_text": "40,961",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "capture_timestamp": "20230226160341",
+      "capture_url": "https://web.archive.org/web/20230226160341/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226160341_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_6150a5be2f8afc6f.json"
     },
     {
       "date": "2023-02-26",
@@ -35234,6 +35744,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226165431_https_www.kongregate.com_games_kingk_dream-world_metrics.json_3e157f913fae9dcc.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Excit",
+      "game_url": "http://www.kongregate.com./games/Krystman/excit",
+      "plays_count_observed": 1023028,
+      "favorites_count_observed": 4995,
+      "plays_text": "1,023,028",
+      "favorites_text": "4,995",
+      "metrics_url": "https://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "capture_timestamp": "20230226153056",
+      "capture_url": "https://web.archive.org/web/20230226153056/https://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226153056_https_www.kongregate.com_games_Krystman_excit_metrics.json_2f07c6d073ab7dee.json"
     },
     {
       "date": "2023-02-26",
@@ -36887,6 +37412,21 @@
     },
     {
       "date": "2023-05-05",
+      "game_name": "Bubble Tanks 2",
+      "game_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-2",
+      "plays_count_observed": 4806929,
+      "favorites_count_observed": 40962,
+      "plays_text": "4,806,929",
+      "favorites_text": "40,962",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "capture_timestamp": "20230505180410",
+      "capture_url": "https://web.archive.org/web/20230505180410/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230505180410_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_0c1f89fb6e18d37e.json"
+    },
+    {
+      "date": "2023-05-05",
       "game_name": "Cursed Treasure",
       "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
       "plays_count_observed": 383667,
@@ -37097,6 +37637,21 @@
     },
     {
       "date": "2023-05-14",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7694569,
+      "favorites_count_observed": 79393,
+      "plays_text": "7,694,569",
+      "favorites_text": "79,393",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230514190929",
+      "capture_url": "https://web.archive.org/web/20230514190929/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230514190929_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_3310c5a35a1cf241.json"
+    },
+    {
+      "date": "2023-05-14",
       "game_name": "Sort the Court!",
       "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
       "plays_count_observed": 2529920,
@@ -37109,6 +37664,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230514075300_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_896c74c07388963b.json"
+    },
+    {
+      "date": "2023-05-15",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7694584,
+      "favorites_count_observed": 79393,
+      "plays_text": "7,694,584",
+      "favorites_text": "79,393",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230515085751",
+      "capture_url": "https://web.archive.org/web/20230515085751/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515085751_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_6bbbc07cac9f17a5.json"
+    },
+    {
+      "date": "2023-05-15",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7694612,
+      "favorites_count_observed": 79394,
+      "plays_text": "7,694,612",
+      "favorites_text": "79,394",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230515184802",
+      "capture_url": "https://web.archive.org/web/20230515184802/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515184802_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_4f3f3f9462ab072e.json"
     },
     {
       "date": "2023-05-15",
@@ -37156,6 +37741,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515085649_https_www.kongregate.com_games_CleverApps_mergest-kingdom_metrics.json_c2fa8a1b52bb5b35.json"
     },
     {
+      "date": "2023-05-17",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7694709,
+      "favorites_count_observed": 79394,
+      "plays_text": "7,694,709",
+      "favorites_text": "79,394",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230517222725",
+      "capture_url": "https://web.archive.org/web/20230517222725/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230517222725_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_40d1bef371a600ef.json"
+    },
+    {
       "date": "2023-05-21",
       "game_name": "GemCraft - Chasing Shadows",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
@@ -37186,6 +37786,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230521004552_https_www.kongregate.com_games_xopods_oliver-the-basilisks_metrics.json_64605d32ce24e85d.json"
     },
     {
+      "date": "2023-05-22",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7694912,
+      "favorites_count_observed": 79394,
+      "plays_text": "7,694,912",
+      "favorites_text": "79,394",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230522220452",
+      "capture_url": "https://web.archive.org/web/20230522220452/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230522220452_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_bcdadb68d8e83792.json"
+    },
+    {
       "date": "2023-05-23",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
@@ -37199,6 +37814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230523044525_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_18d50d3717874730.json"
+    },
+    {
+      "date": "2023-05-25",
+      "game_name": "Amorphous+",
+      "game_url": "http://www.kongregate.com/games/innocuousGames/amorphous",
+      "plays_count_observed": 7695061,
+      "favorites_count_observed": 79394,
+      "plays_text": "7,695,061",
+      "favorites_text": "79,394",
+      "metrics_url": "https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "capture_timestamp": "20230525220936",
+      "capture_url": "https://web.archive.org/web/20230525220936/https://www.kongregate.com/games/innocuousGames/amorphous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230525220936_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_48327929331a60ad.json"
     },
     {
       "date": "2023-05-25",
@@ -38627,6 +39257,21 @@
     },
     {
       "date": "2023-08-15",
+      "game_name": "Chronotron",
+      "game_url": "http://www.kongregate.com./games/Scarybug/chronotron",
+      "plays_count_observed": 2856805,
+      "favorites_count_observed": 11626,
+      "plays_text": "2,856,805",
+      "favorites_text": "11,626",
+      "metrics_url": "https://www.kongregate.com/games/Scarybug/chronotron/metrics.json",
+      "capture_timestamp": "20230815002453",
+      "capture_url": "https://web.archive.org/web/20230815002453/https://www.kongregate.com/games/Scarybug/chronotron/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230815002453_https_www.kongregate.com_games_Scarybug_chronotron_metrics.json_2e055abcc0de4930.json"
+    },
+    {
+      "date": "2023-08-15",
       "game_name": "House Idle PRO",
       "game_url": "http://www.kongregate.com/games/lolz666/house-idle-pro",
       "plays_count_observed": 349545,
@@ -38954,6 +39599,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230825122340_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_3cfecade5c0f3bc5.json"
+    },
+    {
+      "date": "2023-08-26",
+      "game_name": "The Endless Zombie Rampage",
+      "game_url": "http://www.kongregate.com./games/Weasel/the-endless-zombie-rampage",
+      "plays_count_observed": 1506376,
+      "favorites_count_observed": 9829,
+      "plays_text": "1,506,376",
+      "favorites_text": "9,829",
+      "metrics_url": "https://www.kongregate.com/games/Weasel/the-endless-zombie-rampage/metrics.json",
+      "capture_timestamp": "20230826213240",
+      "capture_url": "https://web.archive.org/web/20230826213240/https://www.kongregate.com/games/Weasel/the-endless-zombie-rampage/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230826213240_https_www.kongregate.com_games_Weasel_the-endless-zombie-rampage_metrics.json_4d84258fa3bc7c8d.json"
     },
     {
       "date": "2023-08-26",
@@ -43202,6 +43862,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Arcane",
+      "game_url": "http://www.kongregate.com./games/Hadar1989/arcane",
+      "plays_count_observed": 2229269,
+      "favorites_count_observed": 20454,
+      "plays_text": "2,229,269",
+      "favorites_text": "20,454",
+      "metrics_url": "https://www.kongregate.com/games/Hadar1989/arcane/metrics.json",
+      "capture_timestamp": "20240117075908",
+      "capture_url": "https://web.archive.org/web/20240117075908/https://www.kongregate.com/games/Hadar1989/arcane/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117075908_https_www.kongregate.com_games_Hadar1989_arcane_metrics.json_c7cf73675412357d.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Armor Mayhem",
       "game_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem",
       "plays_count_observed": 157120,
@@ -43259,6 +43934,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117084936_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_3878fb8c9b1555e1.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Bubble Tanks",
+      "game_url": "http://www.kongregate.com./games/HeroInteractive/bubble-tanks",
+      "plays_count_observed": 742790,
+      "favorites_count_observed": 7587,
+      "plays_text": "742,790",
+      "favorites_text": "7,587",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks/metrics.json",
+      "capture_timestamp": "20240117063900",
+      "capture_url": "https://web.archive.org/web/20240117063900/https://www.kongregate.com/games/HeroInteractive/bubble-tanks/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117063900_https_www.kongregate.com_games_HeroInteractive_bubble-tanks_metrics.json_4959eda0d8eacc53.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Bubble Tanks 2",
+      "game_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-2",
+      "plays_count_observed": 4809846,
+      "favorites_count_observed": 40983,
+      "plays_text": "4,809,846",
+      "favorites_text": "40,983",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "capture_timestamp": "20240117063813",
+      "capture_url": "https://web.archive.org/web/20240117063813/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117063813_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_f8796da733ec8350.json"
     },
     {
       "date": "2024-01-17",
@@ -43889,6 +44594,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119130432_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_0186fa620a85f304.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Excit",
+      "game_url": "http://www.kongregate.com./games/Krystman/excit",
+      "plays_count_observed": 1023877,
+      "favorites_count_observed": 4994,
+      "plays_text": "1,023,877",
+      "favorites_text": "4,994",
+      "metrics_url": "https://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "capture_timestamp": "20240119130644",
+      "capture_url": "https://web.archive.org/web/20240119130644/https://www.kongregate.com/games/Krystman/excit/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119130644_https_www.kongregate.com_games_Krystman_excit_metrics.json_9287c85c6d633a2c.json"
     },
     {
       "date": "2024-01-19",
@@ -51752,6 +52472,21 @@
     },
     {
       "date": "2024-09-15",
+      "game_name": "Bloons",
+      "game_url": "http://www.kongregate.com./games/Ninjakiwi/bloons",
+      "plays_count_observed": 1257121,
+      "favorites_count_observed": 7733,
+      "plays_text": "1,257,121",
+      "favorites_text": "7,733",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "capture_timestamp": "20240915001758",
+      "capture_url": "https://web.archive.org/web/20240915001758/https://www.kongregate.com/games/Ninjakiwi/bloons/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240915001758_https_www.kongregate.com_games_Ninjakiwi_bloons_metrics.json_5be3bf857b1cff59.json"
+    },
+    {
+      "date": "2024-09-15",
       "game_name": "Factory Balls forever",
       "game_url": "https://www.kongregate.com/en/games/bontegames/factory-balls-forever",
       "plays_count_observed": 249436,
@@ -53204,6 +53939,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241216170658_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_31ffa6f26fe9408e.json"
+    },
+    {
+      "date": "2024-12-17",
+      "game_name": "Boomshine",
+      "game_url": "http://www.kongregate.com./games/k2xl/boomshine",
+      "plays_count_observed": 790739,
+      "favorites_count_observed": 3519,
+      "plays_text": "790,739",
+      "favorites_text": "3,519",
+      "metrics_url": "https://www.kongregate.com/games/k2xl/boomshine/metrics.json",
+      "capture_timestamp": "20241217060615",
+      "capture_url": "https://web.archive.org/web/20241217060615/https://www.kongregate.com/games/k2xl/boomshine/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241217060615_https_www.kongregate.com_games_k2xl_boomshine_metrics.json_2c3fa8c118584b20.json"
     },
     {
       "date": "2024-12-18",

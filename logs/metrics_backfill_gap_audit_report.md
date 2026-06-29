@@ -1,21 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T12:45:41Z
+Generated: 2026-06-29T13:03:26Z
 
 ## Summary
 
-- Mini-catalog games audited: 927
-- Games without metrics rows: 72
+- Mini-catalog games audited: 1001
+- Games without metrics rows: 97
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 542
-- Missing CDX cache files: 0
+- Known failed captures: 608
+- Missing CDX cache files: 5
 
 ## Status Counts
 
-- has_metrics: 855
-- known_failures_only: 17
-- no_cdx: 55
+- cdx_cache_missing: 5
+- has_metrics: 904
+- known_failures_only: 33
+- no_cdx: 59
 
 ## Top Unresolved Games
 
@@ -26,10 +27,13 @@ Generated: 2026-06-29T12:45:41Z
 | Bowmaster Prelude | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Bowmaster Prelude | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | BLOB KILLS BALL! | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| IndestructoCopter | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Maddening Foolishness | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Stafforb's Worst Pokemon Battle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | RPgTest | no_cdx | 6 | 0 | 0 | 0 | 0 |
 | Straw Hat Samurai: Duels | known_failures_only | 6 | 0 | 1 | 0 | 1 |
+| SHIFT 2 | known_failures_only | 2 | 0 | 3 | 0 | 3 |
+| SHIFT 2 | known_failures_only | 2 | 0 | 3 | 0 | 3 |
 | Another of Stafforb's Pokemon Battles. | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Battle For Gondor | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | First Date | no_cdx | 2 | 0 | 0 | 0 | 0 |
@@ -43,9 +47,6 @@ Generated: 2026-06-29T12:45:41Z
 | Jumbo Adventure | no_cdx | 3 | 0 | 0 | 0 | 0 |
 | Office Supply Team! | no_cdx | 3 | 0 | 0 | 0 | 0 |
 | PhysicsWars | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| Run And Monetize | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| 5 Differences | no_cdx | 4 | 0 | 0 | 0 | 0 |
-| Active Ashfield's Conversion Challenge | no_cdx | 4 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

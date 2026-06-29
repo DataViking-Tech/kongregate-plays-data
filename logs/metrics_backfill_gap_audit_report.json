@@ -1,15 +1,16 @@
 {
-  "catalog_games": 927,
+  "catalog_games": 1001,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 72,
-  "generated_at": "2026-06-29T12:45:41Z",
-  "known_failed_captures": 542,
-  "missing_cdx_cache_files": 0,
+  "games_without_metrics_rows": 97,
+  "generated_at": "2026-06-29T13:03:26Z",
+  "known_failed_captures": 608,
+  "missing_cdx_cache_files": 5,
   "status_counts": {
-    "has_metrics": 855,
-    "known_failures_only": 17,
-    "no_cdx": 55
+    "cdx_cache_missing": 5,
+    "has_metrics": 904,
+    "known_failures_only": 33,
+    "no_cdx": 59
   },
   "top_unresolved_games": [
     {
@@ -72,6 +73,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "IndestructoCopter",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Maddening Foolishness",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -109,6 +121,28 @@
       "known_failed_captures": 1,
       "metrics_rows": 0,
       "priority_score": 2851,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 3,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (6)",
+      "fresh_pending_captures": 0,
+      "game_name": "SHIFT 2",
+      "known_failed_captures": 3,
+      "metrics_rows": 0,
+      "priority_score": 2803,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 3,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (6)",
+      "fresh_pending_captures": 0,
+      "game_name": "SHIFT 2",
+      "known_failed_captures": 3,
+      "metrics_rows": 0,
+      "priority_score": 2803,
       "status": "known_failures_only"
     },
     {
@@ -253,40 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 2701,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Run And Monetize",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "5 Differences",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Active Ashfield's Conversion Challenge",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 7923
+  "valid_cached_captures": 8075
 }
