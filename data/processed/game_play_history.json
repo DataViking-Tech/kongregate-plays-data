@@ -2116,6 +2116,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160913180307_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_f78c7e4bf4156bb0.json"
     },
     {
+      "date": "2016-09-13",
+      "game_name": "Bubble Tanks Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/HeroInteractive/bubble-tanks-tower-defense",
+      "plays_count_observed": 2144962,
+      "favorites_count_observed": 15224,
+      "plays_text": "2,144,962",
+      "favorites_text": "15,224",
+      "metrics_url": "http://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "capture_timestamp": "20160913182322",
+      "capture_url": "https://web.archive.org/web/20160913182322/http://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160913182322_http_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_ca2fc05dd9eb3add.json"
+    },
+    {
       "date": "2016-09-17",
       "game_name": "Trimps",
       "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
@@ -2671,6 +2686,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170827212815_http_www.kongregate.com_80_games_Justin_wang123_rogue-fable-ii_metrics.json_2c989798cffaba99.json"
     },
     {
+      "date": "2017-08-30",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 637218,
+      "favorites_count_observed": 2647,
+      "plays_text": "637,218",
+      "favorites_text": "2,647",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20170830063550",
+      "capture_url": "https://web.archive.org/web/20170830063550/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170830063550_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_0317a30fc41d0ebc.json"
+    },
+    {
       "date": "2017-09-01",
       "game_name": "Swarm Simulator",
       "game_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator",
@@ -3151,6 +3181,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180323133615_http_www.kongregate.com_games_herointeractive_bubble-tanks-3_metrics.json_11ca3a4075b7cc54.json"
     },
     {
+      "date": "2018-04-03",
+      "game_name": "Robot Wants Kitty",
+      "game_url": "https://www.kongregate.com/en/games/Hamumu/robot-wants-kitty",
+      "plays_count_observed": 1528514,
+      "favorites_count_observed": 8607,
+      "plays_text": "1,528,514",
+      "favorites_text": "8,607",
+      "metrics_url": "http://www.kongregate.com/games/hamumu/robot-wants-kitty/metrics.json",
+      "capture_timestamp": "20180403175001",
+      "capture_url": "https://web.archive.org/web/20180403175001/http://www.kongregate.com/games/hamumu/robot-wants-kitty/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180403175001_http_www.kongregate.com_games_hamumu_robot-wants-kitty_metrics.json_29cf178ad8d7a84c.json"
+    },
+    {
       "date": "2018-04-06",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -3374,6 +3419,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181022062442_http_www.kongregate.com_80_games_RumbleGames_ballistic_metrics.json_8d17a6792633b748.json"
+    },
+    {
+      "date": "2018-10-23",
+      "game_name": "GemCraft - Chasing Shadows",
+      "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
+      "plays_count_observed": 2042887,
+      "favorites_count_observed": 10784,
+      "plays_text": "2,042,887",
+      "favorites_text": "10,784",
+      "metrics_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "capture_timestamp": "20181023204730",
+      "capture_url": "https://web.archive.org/web/20181023204730/http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181023204730_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_1cc555b642b3b4d0.json"
     },
     {
       "date": "2018-11-02",
@@ -6449,6 +6509,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135710_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_ec68962853014680.json"
+    },
+    {
+      "date": "2019-12-11",
+      "game_name": "Robot Wants Kitty",
+      "game_url": "https://www.kongregate.com/en/games/Hamumu/robot-wants-kitty",
+      "plays_count_observed": 1610481,
+      "favorites_count_observed": 8935,
+      "plays_text": "1,610,481",
+      "favorites_text": "8,935",
+      "metrics_url": "https://www.kongregate.com/games/Hamumu/robot-wants-kitty/metrics.json",
+      "capture_timestamp": "20191211135710",
+      "capture_url": "https://web.archive.org/web/20191211135710/https://www.kongregate.com/games/Hamumu/robot-wants-kitty/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135710_https_www.kongregate.com_games_Hamumu_robot-wants-kitty_metrics.json_ab1c77e76bb5db30.json"
     },
     {
       "date": "2019-12-11",
@@ -10291,6 +10366,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070324_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_31e148ca157d8070.json"
     },
     {
+      "date": "2020-06-21",
+      "game_name": "GemCraft - Chasing Shadows",
+      "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
+      "plays_count_observed": 2306055,
+      "favorites_count_observed": 11529,
+      "plays_text": "2,306,055",
+      "favorites_text": "11,529",
+      "metrics_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "capture_timestamp": "20200621070331",
+      "capture_url": "https://web.archive.org/web/20200621070331/http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070331_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_29f1b450d9fd035a.json"
+    },
+    {
       "date": "2020-06-22",
       "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
@@ -11144,6 +11234,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200719195019_https_www.kongregate.com_games_pestoforce_abobos-big-adventure_metrics.json_92bbf84a81845542.json"
+    },
+    {
+      "date": "2020-07-19",
+      "game_name": "GemCraft - Chasing Shadows",
+      "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
+      "plays_count_observed": 2337081,
+      "favorites_count_observed": 11644,
+      "plays_text": "2,337,081",
+      "favorites_text": "11,644",
+      "metrics_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "capture_timestamp": "20200719195033",
+      "capture_url": "https://web.archive.org/web/20200719195033/http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200719195033_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_988bc8b498cc65c5.json"
     },
     {
       "date": "2020-07-21",
@@ -16037,6 +16142,21 @@
     },
     {
       "date": "2021-01-11",
+      "game_name": "Falling Sands",
+      "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
+      "plays_count_observed": 1537708,
+      "favorites_count_observed": 6501,
+      "plays_text": "1,537,708",
+      "favorites_text": "6,501",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20210111233307",
+      "capture_url": "https://web.archive.org/web/20210111233307/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210111233307_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_b814f56e2554eb9f.json"
+    },
+    {
+      "date": "2021-01-11",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45426845,
@@ -18257,6 +18377,21 @@
     },
     {
       "date": "2021-06-01",
+      "game_name": "Chuck the Sheep",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/chuck-the-sheep",
+      "plays_count_observed": 1379754,
+      "favorites_count_observed": 15359,
+      "plays_text": "1,379,754",
+      "favorites_text": "15,359",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/chuck-the-sheep/metrics.json",
+      "capture_timestamp": "20210601135226",
+      "capture_url": "https://web.archive.org/web/20210601135226/https://www.kongregate.com/games/ArmorGames/chuck-the-sheep/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210601135226_https_www.kongregate.com_games_ArmorGames_chuck-the-sheep_metrics.json_8ebe5f38c1e19711.json"
+    },
+    {
+      "date": "2021-06-01",
       "game_name": "Epic Battle Fantasy 5",
       "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
       "plays_count_observed": 895297,
@@ -19199,6 +19334,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210806232244_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_498c4d1c8c60abd5.json"
+    },
+    {
+      "date": "2021-08-08",
+      "game_name": "Chuck the Sheep",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/chuck-the-sheep",
+      "plays_count_observed": 1380431,
+      "favorites_count_observed": 15363,
+      "plays_text": "1,380,431",
+      "favorites_text": "15,363",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/chuck-the-sheep/metrics.json",
+      "capture_timestamp": "20210808205420",
+      "capture_url": "https://web.archive.org/web/20210808205420/https://www.kongregate.com/games/ArmorGames/chuck-the-sheep/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210808205420_https_www.kongregate.com_games_ArmorGames_chuck-the-sheep_metrics.json_93463ea3cc7a9f6f.json"
     },
     {
       "date": "2021-08-09",
@@ -22457,6 +22607,21 @@
     },
     {
       "date": "2021-11-20",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 906021,
+      "favorites_count_observed": 2944,
+      "plays_text": "906,021",
+      "favorites_text": "2,944",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20211120111412",
+      "capture_url": "https://web.archive.org/web/20211120111412/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111412_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_fdfc9eb6b7f7e4f9.json"
+    },
+    {
+      "date": "2021-11-20",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
       "plays_count_observed": 3988011,
@@ -24167,6 +24332,21 @@
     },
     {
       "date": "2022-02-15",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 995544,
+      "favorites_count_observed": 3066,
+      "plays_text": "995,544",
+      "favorites_text": "3,066",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20220215172236",
+      "capture_url": "https://web.archive.org/web/20220215172236/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172236_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_5e13abf10a5ce219.json"
+    },
+    {
+      "date": "2022-02-15",
       "game_name": "Retro Bowl",
       "game_url": "https://www.kongregate.com/en/games/siread/retro-bowl",
       "plays_count_observed": 5009145,
@@ -24524,6 +24704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220311002317_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_40b0f616d26dae25.json"
+    },
+    {
+      "date": "2022-03-11",
+      "game_name": "Bubble Tanks Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/HeroInteractive/bubble-tanks-tower-defense",
+      "plays_count_observed": 2272143,
+      "favorites_count_observed": 15644,
+      "plays_text": "2,272,143",
+      "favorites_text": "15,644",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "capture_timestamp": "20220311002433",
+      "capture_url": "https://web.archive.org/web/20220311002433/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220311002433_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_8a74a749e89908de.json"
     },
     {
       "date": "2022-03-11",
@@ -26522,6 +26717,21 @@
     },
     {
       "date": "2022-06-27",
+      "game_name": "Falling Sands",
+      "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
+      "plays_count_observed": 1558227,
+      "favorites_count_observed": 6522,
+      "plays_text": "1,558,227",
+      "favorites_text": "6,522",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20220627181219",
+      "capture_url": "https://web.archive.org/web/20220627181219/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220627181219_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_7803c3f0ef20adf8.json"
+    },
+    {
+      "date": "2022-06-27",
       "game_name": "Idle Bouncer",
       "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
       "plays_count_observed": 1971212,
@@ -26534,6 +26744,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220627184530_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_879a53e9cabb9eee.json"
+    },
+    {
+      "date": "2022-06-30",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 1186475,
+      "favorites_count_observed": 4171,
+      "plays_text": "1,186,475",
+      "favorites_text": "4,171",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20220630060110",
+      "capture_url": "https://web.archive.org/web/20220630060110/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220630060110_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_2621b6e1c2f8e06e.json"
     },
     {
       "date": "2022-06-30",
@@ -28997,6 +29222,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1249491,
+      "favorites_count_observed": 3397,
+      "plays_text": "1,249,491",
+      "favorites_text": "3,397",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20221204231934",
+      "capture_url": "https://web.archive.org/web/20221204231934/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231934_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_0fb5ef227f658bdc.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Rush Team Free FPS Multiplayers",
       "game_url": "https://www.kongregate.com/games/rokawar/rush-team-free-fps-multiplayers",
       "plays_count_observed": 9410584,
@@ -29339,6 +29579,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062750_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_75577ee61af4c92c.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1249686,
+      "favorites_count_observed": 3397,
+      "plays_text": "1,249,686",
+      "favorites_text": "3,397",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20221205062721",
+      "capture_url": "https://web.archive.org/web/20221205062721/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062721_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_cdb9a82de18be59b.json"
     },
     {
       "date": "2022-12-05",
@@ -29714,6 +29969,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134552_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_48800f5415b68a8d.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1250834,
+      "favorites_count_observed": 3400,
+      "plays_text": "1,250,834",
+      "favorites_text": "3,400",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20221206134624",
+      "capture_url": "https://web.archive.org/web/20221206134624/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134624_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_8137eca7b0cc3098.json"
     },
     {
       "date": "2022-12-06",
@@ -30962,6 +31232,21 @@
     },
     {
       "date": "2023-02-14",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1293247,
+      "favorites_count_observed": 3450,
+      "plays_text": "1,293,247",
+      "favorites_text": "3,450",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20230214005452",
+      "capture_url": "https://web.archive.org/web/20230214005452/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005452_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_46d5a578d59eb37f.json"
+    },
+    {
+      "date": "2023-02-14",
       "game_name": "Spellstone",
       "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
       "plays_count_observed": 11361728,
@@ -31337,6 +31622,21 @@
     },
     {
       "date": "2023-02-25",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1299396,
+      "favorites_count_observed": 3451,
+      "plays_text": "1,299,396",
+      "favorites_text": "3,451",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20230225144310",
+      "capture_url": "https://web.archive.org/web/20230225144310/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230225144310_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_ee26c7e2cd68937d.json"
+    },
+    {
+      "date": "2023-02-25",
       "game_name": "Spellstone",
       "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
       "plays_count_observed": 11380663,
@@ -31394,6 +31694,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226164958_https_www.kongregate.com_games_HyperHippoGames_adventure-capitalist_metrics.json_c2ffff7879085cf2.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Badge Master",
+      "game_url": "http://www.kongregate.com/games/Senekis93/badge-master",
+      "plays_count_observed": 2556991,
+      "favorites_count_observed": 33787,
+      "plays_text": "2,556,991",
+      "favorites_text": "33,787",
+      "metrics_url": "https://www.kongregate.com/games/Senekis93/badge-master/metrics.json",
+      "capture_timestamp": "20230226162428",
+      "capture_url": "https://web.archive.org/web/20230226162428/https://www.kongregate.com/games/Senekis93/badge-master/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226162428_https_www.kongregate.com_games_Senekis93_badge-master_metrics.json_2f1edee4f624151b.json"
     },
     {
       "date": "2023-02-26",
@@ -31589,6 +31904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226163210_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_7884db630c818c9e.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Robot Wants Kitty",
+      "game_url": "https://www.kongregate.com/en/games/Hamumu/robot-wants-kitty",
+      "plays_count_observed": 1662727,
+      "favorites_count_observed": 9062,
+      "plays_text": "1,662,727",
+      "favorites_text": "9,062",
+      "metrics_url": "https://www.kongregate.com/games/Hamumu/robot-wants-kitty/metrics.json",
+      "capture_timestamp": "20230226163622",
+      "capture_url": "https://web.archive.org/web/20230226163622/https://www.kongregate.com/games/Hamumu/robot-wants-kitty/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226163622_https_www.kongregate.com_games_Hamumu_robot-wants-kitty_metrics.json_e17a4e12121f7002.json"
     },
     {
       "date": "2023-02-26",
@@ -32552,6 +32882,21 @@
     },
     {
       "date": "2023-04-10",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 1209207,
+      "favorites_count_observed": 4160,
+      "plays_text": "1,209,207",
+      "favorites_text": "4,160",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20230410112633",
+      "capture_url": "https://web.archive.org/web/20230410112633/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230410112633_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_bdb09f1d42f8bf8d.json"
+    },
+    {
+      "date": "2023-04-10",
       "game_name": "Strike Force Heroes 2",
       "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
       "plays_count_observed": 5326705,
@@ -32881,6 +33226,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515184736_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_8f49da182213a61b.json"
     },
     {
+      "date": "2023-05-21",
+      "game_name": "GemCraft - Chasing Shadows",
+      "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
+      "plays_count_observed": 2414415,
+      "favorites_count_observed": 11702,
+      "plays_text": "2,414,415",
+      "favorites_text": "11,702",
+      "metrics_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "capture_timestamp": "20230521123626",
+      "capture_url": "https://web.archive.org/web/20230521123626/http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230521123626_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_7acd73698d3cb6d6.json"
+    },
+    {
       "date": "2023-05-23",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
@@ -32894,6 +33254,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230523044525_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_18d50d3717874730.json"
+    },
+    {
+      "date": "2023-05-25",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 1216056,
+      "favorites_count_observed": 4169,
+      "plays_text": "1,216,056",
+      "favorites_text": "4,169",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20230525094258",
+      "capture_url": "https://web.archive.org/web/20230525094258/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230525094258_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_a106f26b965e1aa7.json"
     },
     {
       "date": "2023-05-30",
@@ -35911,6 +36286,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231028000827_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-td-1-5_metrics.json_849c12120496b47a.json"
     },
     {
+      "date": "2023-10-28",
+      "game_name": "Bubble Tanks Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/HeroInteractive/bubble-tanks-tower-defense",
+      "plays_count_observed": 2285218,
+      "favorites_count_observed": 15628,
+      "plays_text": "2,285,218",
+      "favorites_text": "15,628",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "capture_timestamp": "20231028000739",
+      "capture_url": "https://web.archive.org/web/20231028000739/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231028000739_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_5f44d072d8b3a1f4.json"
+    },
+    {
       "date": "2023-10-31",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
@@ -36029,6 +36419,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106220439_https_www.kongregate.com_games_Dragy_echoes-operation-stranglehold_metrics.json_a1982c6226633ba5.json"
+    },
+    {
+      "date": "2023-11-06",
+      "game_name": "Falling Sands",
+      "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
+      "plays_count_observed": 1564581,
+      "favorites_count_observed": 6165,
+      "plays_text": "1,564,581",
+      "favorites_text": "6,165",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20231106215757",
+      "capture_url": "https://web.archive.org/web/20231106215757/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106215757_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_4903fcc8a85419a7.json"
     },
     {
       "date": "2023-11-06",
@@ -37847,6 +38252,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Bubble Tanks Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/HeroInteractive/bubble-tanks-tower-defense",
+      "plays_count_observed": 2287023,
+      "favorites_count_observed": 15629,
+      "plays_text": "2,287,023",
+      "favorites_text": "15,629",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "capture_timestamp": "20240117063850",
+      "capture_url": "https://web.archive.org/web/20240117063850/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117063850_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_44b4b6d7055d2d45.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Cat in Japan",
       "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
       "plays_count_observed": 402088,
@@ -38432,6 +38852,21 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 1230132,
+      "favorites_count_observed": 4195,
+      "plays_text": "1,230,132",
+      "favorites_text": "4,195",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20240119165540",
+      "capture_url": "https://web.archive.org/web/20240119165540/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119165540_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_c52c4405ac775832.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
       "plays_count_observed": 282372,
@@ -38894,6 +39329,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120143249_https_www.kongregate.com_games_0rava_mutilate-a-doll-classic_metrics.json_b8f31151ec4926c6.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1395784,
+      "favorites_count_observed": 3532,
+      "plays_text": "1,395,784",
+      "favorites_text": "3,532",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20240120001235",
+      "capture_url": "https://web.archive.org/web/20240120001235/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120001235_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_3d67b6401d84eb12.json"
     },
     {
       "date": "2024-01-20",
@@ -40052,6 +40502,21 @@
     },
     {
       "date": "2024-02-12",
+      "game_name": "GemCraft - Chasing Shadows",
+      "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
+      "plays_count_observed": 2420626,
+      "favorites_count_observed": 11714,
+      "plays_text": "2,420,626",
+      "favorites_text": "11,714",
+      "metrics_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "capture_timestamp": "20240212041812",
+      "capture_url": "https://web.archive.org/web/20240212041812/http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240212041812_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_2471e932d1c70898.json"
+    },
+    {
+      "date": "2024-02-12",
       "game_name": "GemCraft Labyrinth",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-labyrinth",
       "plays_count_observed": 8578081,
@@ -40079,6 +40544,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240213073525_https_www.kongregate.com_games_IriySoft_cursed-treasure-dont-touch-my-gems_metrics.json_fead0d264d686517.json"
+    },
+    {
+      "date": "2024-02-15",
+      "game_name": "Bubble Tanks Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/HeroInteractive/bubble-tanks-tower-defense",
+      "plays_count_observed": 2287759,
+      "favorites_count_observed": 15630,
+      "plays_text": "2,287,759",
+      "favorites_text": "15,630",
+      "metrics_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "capture_timestamp": "20240215193252",
+      "capture_url": "https://web.archive.org/web/20240215193252/https://www.kongregate.com/games/HeroInteractive/bubble-tanks-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240215193252_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_59fd3411b5078e76.json"
     },
     {
       "date": "2024-02-15",
@@ -40367,6 +40847,21 @@
     },
     {
       "date": "2024-02-22",
+      "game_name": "Idle Raiders: Second Run",
+      "game_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run",
+      "plays_count_observed": 1232154,
+      "favorites_count_observed": 4197,
+      "plays_text": "1,232,154",
+      "favorites_text": "4,197",
+      "metrics_url": "http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "capture_timestamp": "20240222170545",
+      "capture_url": "https://web.archive.org/web/20240222170545/http://www.kongregate.com/games/pitforest/idle-raiders-second-run/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222170545_http_www.kongregate.com_games_pitforest_idle-raiders-second-run_metrics.json_ac8e5b218b3f91d4.json"
+    },
+    {
+      "date": "2024-02-22",
       "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
       "plays_count_observed": 283001,
@@ -40577,6 +41072,21 @@
     },
     {
       "date": "2024-02-23",
+      "game_name": "Poker Quest RPG",
+      "game_url": "https://www.kongregate.com/games/Playsaurus/poker-quest",
+      "plays_count_observed": 1404058,
+      "favorites_count_observed": 3537,
+      "plays_text": "1,404,058",
+      "favorites_text": "3,537",
+      "metrics_url": "https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "capture_timestamp": "20240223011348",
+      "capture_url": "https://web.archive.org/web/20240223011348/https://www.kongregate.com/games/Playsaurus/poker-quest/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223011348_https_www.kongregate.com_games_Playsaurus_poker-quest_metrics.json_a10d8dd92a924e49.json"
+    },
+    {
+      "date": "2024-02-23",
       "game_name": "Rapid Reaction Master",
       "game_url": "http://www.kongregate.com/games/tomylee/rapid-reaction-master",
       "plays_count_observed": 25639,
@@ -40604,6 +41114,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223044321_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_0fed780234727e8b.json"
+    },
+    {
+      "date": "2024-02-23",
+      "game_name": "Road Of Heroes",
+      "game_url": "http://www.kongregate.com/games/IriySoft/road-of-heroes",
+      "plays_count_observed": 331616,
+      "favorites_count_observed": 1244,
+      "plays_text": "331,616",
+      "favorites_text": "1,244",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/road-of-heroes/metrics.json",
+      "capture_timestamp": "20240223053438",
+      "capture_url": "https://web.archive.org/web/20240223053438/https://www.kongregate.com/games/IriySoft/road-of-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223053438_https_www.kongregate.com_games_IriySoft_road-of-heroes_metrics.json_0e53c3f8c1f131e0.json"
     },
     {
       "date": "2024-02-23",
@@ -45212,6 +45737,21 @@
     },
     {
       "date": "2024-09-27",
+      "game_name": "Falling Sands",
+      "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
+      "plays_count_observed": 1568623,
+      "favorites_count_observed": 6167,
+      "plays_text": "1,568,623",
+      "favorites_text": "6,167",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20240927231146",
+      "capture_url": "https://web.archive.org/web/20240927231146/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240927231146_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_5c898e834b082a70.json"
+    },
+    {
+      "date": "2024-09-27",
       "game_name": "Multitask",
       "game_url": "https://www.kongregate.com/en/games/IcyLime/multitask",
       "plays_count_observed": 4831940,
@@ -48032,6 +48572,21 @@
     },
     {
       "date": "2025-04-26",
+      "game_name": "Whack the Thief",
+      "game_url": "https://www.kongregate.com/games/box10Guys/whack-the-thief",
+      "plays_count_observed": 294575,
+      "favorites_count_observed": 893,
+      "plays_text": "294,575",
+      "favorites_text": "893",
+      "metrics_url": "https://www.kongregate.com/games/box10Guys/whack-the-thief/metrics.json",
+      "capture_timestamp": "20250426224130",
+      "capture_url": "https://web.archive.org/web/20250426224130/https://www.kongregate.com/games/box10Guys/whack-the-thief/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426224130_https_www.kongregate.com_games_box10Guys_whack-the-thief_metrics.json_5feebb56682ed2fc.json"
+    },
+    {
+      "date": "2025-04-26",
       "game_name": "Zombie Derby 2",
       "game_url": "https://www.kongregate.com/en/games/BrineMedia/zombie-derby-2",
       "plays_count_observed": 212918,
@@ -49394,6 +49949,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250908113828_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_4c4490ff13d90cb7.json"
+    },
+    {
+      "date": "2025-09-12",
+      "game_name": "HP Atk Def",
+      "game_url": "https://www.kongregate.com/en/games/Rob1221/hp-atk-def",
+      "plays_count_observed": 187281,
+      "favorites_count_observed": 756,
+      "plays_text": "187,281",
+      "favorites_text": "756",
+      "metrics_url": "https://www.kongregate.com/games/Rob1221/hp-atk-def/metrics.json",
+      "capture_timestamp": "20250912195010",
+      "capture_url": "https://web.archive.org/web/20250912195010/https://www.kongregate.com/games/Rob1221/hp-atk-def/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250912195010_https_www.kongregate.com_games_Rob1221_hp-atk-def_metrics.json_bd95748799c6b352.json"
     },
     {
       "date": "2025-09-12",
