@@ -196,6 +196,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141218120428_http_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_609f1cf6da19465a.json"
     },
     {
+      "date": "2014-12-20",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 11945243,
+      "favorites_count_observed": 40635,
+      "plays_text": "11,945,243",
+      "favorites_text": "40,635",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20141220170753",
+      "capture_url": "https://web.archive.org/web/20141220170753/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141220170753_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_5fd0b2db993cc168.json"
+    },
+    {
       "date": "2015-01-25",
       "game_name": "Tangerine Tycoon",
       "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
@@ -1381,6 +1396,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160912185613_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_125770e8b0e5f3ac.json"
     },
     {
+      "date": "2016-09-13",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 14209115,
+      "favorites_count_observed": 44968,
+      "plays_text": "14,209,115",
+      "favorites_text": "44,968",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20160913180307",
+      "capture_url": "https://web.archive.org/web/20160913180307/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160913180307_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_f78c7e4bf4156bb0.json"
+    },
+    {
       "date": "2016-09-18",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -1726,6 +1756,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180204035626_http_www.kongregate.com_games_graebor_sort-the-court_metrics.json_03132f1dcb4ff02c.json"
     },
     {
+      "date": "2018-02-12",
+      "game_name": "McDonald's Videogame",
+      "game_url": "http://kongregate.com/games/molleindustria/mcdonalds-videogame",
+      "plays_count_observed": 706824,
+      "favorites_count_observed": 3378,
+      "plays_text": "706,824",
+      "favorites_text": "3,378",
+      "metrics_url": "http://www.kongregate.com:80/games/molleindustria/mcdonalds-videogame/metrics.json",
+      "capture_timestamp": "20180212180500",
+      "capture_url": "https://web.archive.org/web/20180212180500/http://www.kongregate.com:80/games/molleindustria/mcdonalds-videogame/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180212180500_http_www.kongregate.com_80_games_molleindustria_mcdonalds-videogame_metrics.json_80e748757c975c91.json"
+    },
+    {
       "date": "2018-02-14",
       "game_name": "Shop Heroes",
       "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
@@ -1859,6 +1904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180605234907_http_www.kongregate.com_games_armorgames_upgrade-complete_metrics.json_90fd9543cd245d6d.json"
+    },
+    {
+      "date": "2018-09-16",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 2937678,
+      "favorites_count_observed": 21871,
+      "plays_text": "2,937,678",
+      "favorites_text": "21,871",
+      "metrics_url": "http://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20180916062346",
+      "capture_url": "https://web.archive.org/web/20180916062346/http://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180916062346_http_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_a28959e679139b03.json"
     },
     {
       "date": "2018-10-04",
@@ -2161,6 +2221,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033145_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4264822180e70449.json"
     },
     {
+      "date": "2019-02-05",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 1935668,
+      "favorites_count_observed": 4657,
+      "plays_text": "1,935,668",
+      "favorites_text": "4,657",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20190205033059",
+      "capture_url": "https://web.archive.org/web/20190205033059/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.json"
+    },
+    {
       "date": "2019-02-27",
       "game_name": "Hero Simulator",
       "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
@@ -2219,6 +2294,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190416183501_http_www.kongregate.com_games_joao8991_computer-evolution_metrics.json_ee6b0fe4d0f58f43.json"
+    },
+    {
+      "date": "2019-05-13",
+      "game_name": "SPLAT DEATH SALAD",
+      "game_url": "https://www.kongregate.com/games/SophieHoulden/splat-death-salad",
+      "plays_count_observed": 492621,
+      "favorites_count_observed": 5076,
+      "plays_text": "492,621",
+      "favorites_text": "5,076",
+      "metrics_url": "http://www.kongregate.com/games/SophieHoulden/splat-death-salad/metrics.json",
+      "capture_timestamp": "20190513181820",
+      "capture_url": "https://web.archive.org/web/20190513181820/http://www.kongregate.com/games/SophieHoulden/splat-death-salad/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190513181820_http_www.kongregate.com_games_SophieHoulden_splat-death-salad_metrics.json_7bb2bb92e63304f4.json"
     },
     {
       "date": "2019-06-15",
@@ -2639,6 +2729,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183755_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_b15f0bae7f28fc21.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 22355,
+      "favorites_count_observed": 303,
+      "plays_text": "22,355",
+      "favorites_text": "303",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191017183743",
+      "capture_url": "https://web.archive.org/web/20191017183743/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183743_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_70531452413ad9e7.json"
     },
     {
       "date": "2019-10-17",
@@ -3092,6 +3197,21 @@
     },
     {
       "date": "2019-11-01",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 26680,
+      "favorites_count_observed": 330,
+      "plays_text": "26,680",
+      "favorites_text": "330",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191101104343",
+      "capture_url": "https://web.archive.org/web/20191101104343/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191101104343_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_503abb445a23a771.json"
+    },
+    {
+      "date": "2019-11-01",
       "game_name": "Sonny",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny",
       "plays_count_observed": 10602209,
@@ -3194,6 +3314,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154545_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_19e66a2e00aeb7ca.json"
+    },
+    {
+      "date": "2019-11-07",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 27680,
+      "favorites_count_observed": 335,
+      "plays_text": "27,680",
+      "favorites_text": "335",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191107154545",
+      "capture_url": "https://web.archive.org/web/20191107154545/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154545_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_6bfa48845bd0c43e.json"
     },
     {
       "date": "2019-11-07",
@@ -3721,6 +3856,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135710_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_ec68962853014680.json"
     },
     {
+      "date": "2019-12-11",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2292002,
+      "favorites_count_observed": 5516,
+      "plays_text": "2,292,002",
+      "favorites_text": "5,516",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20191211135654",
+      "capture_url": "https://web.archive.org/web/20191211135654/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.json"
+    },
+    {
       "date": "2019-12-15",
       "game_name": "AdVenture Capitalist",
       "game_url": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
@@ -3734,6 +3884,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034650_https_www.kongregate.com_games_HyperHippoGames_adventure-capitalist_metrics.json_477d02b4a8171749.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 15933282,
+      "favorites_count_observed": 47452,
+      "plays_text": "15,933,282",
+      "favorites_text": "47,452",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_3ea3e017d0a32f3c.json"
     },
     {
       "date": "2019-12-15",
@@ -4126,6 +4291,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200120133544_https_www.kongregate.com_games_to_change_later_cividlization-2_metrics.json_b6d777788a8eb6b8.json"
     },
     {
+      "date": "2020-01-20",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2384315,
+      "favorites_count_observed": 5622,
+      "plays_text": "2,384,315",
+      "favorites_text": "5,622",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20200120133540",
+      "capture_url": "https://web.archive.org/web/20200120133540/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200120133540_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_7100ee20fe994491.json"
+    },
+    {
       "date": "2020-01-21",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -4319,6 +4499,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200131124300_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c1961406b091d978.json"
+    },
+    {
+      "date": "2020-02-03",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 15979335,
+      "favorites_count_observed": 47522,
+      "plays_text": "15,979,335",
+      "favorites_text": "47,522",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20200203191001",
+      "capture_url": "https://web.archive.org/web/20200203191001/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200203191001_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_35757f9832e0afa7.json"
     },
     {
       "date": "2020-02-04",
@@ -4877,6 +5072,21 @@
     },
     {
       "date": "2020-04-21",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16047490,
+      "favorites_count_observed": 47619,
+      "plays_text": "16,047,490",
+      "favorites_text": "47,619",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20200421022603",
+      "capture_url": "https://web.archive.org/web/20200421022603/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200421022603_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_0595a9e4c2b5dad8.json"
+    },
+    {
+      "date": "2020-04-21",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
       "plays_count_observed": 7648754,
@@ -4934,6 +5144,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200423042801_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_7390a29b526c1a5e.json"
+    },
+    {
+      "date": "2020-04-24",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16051074,
+      "favorites_count_observed": 47620,
+      "plays_text": "16,051,074",
+      "favorites_text": "47,620",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20200424200128",
+      "capture_url": "https://web.archive.org/web/20200424200128/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200424200128_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_cc649be37b94d743.json"
     },
     {
       "date": "2020-04-24",
@@ -6136,6 +6361,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205119_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_73fd568f91a79af6.json"
     },
     {
+      "date": "2020-07-25",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3038856,
+      "favorites_count_observed": 22259,
+      "plays_text": "3,038,856",
+      "favorites_text": "22,259",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20200725204202",
+      "capture_url": "https://web.archive.org/web/20200725204202/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725204202_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_4dd0c46bf2569482.json"
+    },
+    {
       "date": "2020-07-31",
       "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
@@ -6149,6 +6389,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200731212704_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_ea3e9faddab93e0e.json"
+    },
+    {
+      "date": "2020-08-02",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16131351,
+      "favorites_count_observed": 47721,
+      "plays_text": "16,131,351",
+      "favorites_text": "47,721",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20200802222345",
+      "capture_url": "https://web.archive.org/web/20200802222345/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200802222345_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_7cfeaf5eae0e710a.json"
     },
     {
       "date": "2020-09-01",
@@ -6944,6 +7199,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201101002105_https_www.kongregate.com_games_nerdook_cat-god-vs-sun-king_metrics.json_4e9bc856aa607599.json"
+    },
+    {
+      "date": "2020-11-02",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2685424,
+      "favorites_count_observed": 6150,
+      "plays_text": "2,685,424",
+      "favorites_text": "6,150",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20201102204118",
+      "capture_url": "https://web.archive.org/web/20201102204118/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201102204118_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c8f1ac67986da310.json"
     },
     {
       "date": "2020-11-03",
@@ -7799,6 +8069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204556_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_a9b6deb4fd21443f.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2756338,
+      "favorites_count_observed": 6311,
+      "plays_text": "2,756,338",
+      "favorites_text": "6,311",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20201201205344",
+      "capture_url": "https://web.archive.org/web/20201201205344/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201205344_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_0dce006d95c27827.json"
     },
     {
       "date": "2020-12-01",
@@ -9362,6 +9647,21 @@
     },
     {
       "date": "2021-02-18",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16237170,
+      "favorites_count_observed": 47857,
+      "plays_text": "16,237,170",
+      "favorites_text": "47,857",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20210218122858",
+      "capture_url": "https://web.archive.org/web/20210218122858/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210218122858_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_b85dcd52d21e27b1.json"
+    },
+    {
+      "date": "2021-02-18",
       "game_name": "Crusaders of the Lost Idols",
       "game_url": "http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols",
       "plays_count_observed": 23307866,
@@ -9599,6 +9899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210505121425_https_www.kongregate.com_games_to_change_later_cividlization-2_metrics.json_c8ce4e3f87c4e02f.json"
+    },
+    {
+      "date": "2021-05-05",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2892615,
+      "favorites_count_observed": 6502,
+      "plays_text": "2,892,615",
+      "favorites_text": "6,502",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20210505123625",
+      "capture_url": "https://web.archive.org/web/20210505123625/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210505123625_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_d60d3cccff930c8c.json"
     },
     {
       "date": "2021-05-09",
@@ -10621,6 +10936,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210628140827_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_8b6820bdb2629467.json"
     },
     {
+      "date": "2021-07-01",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3057880,
+      "favorites_count_observed": 22265,
+      "plays_text": "3,057,880",
+      "favorites_text": "22,265",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20210701041538",
+      "capture_url": "https://web.archive.org/web/20210701041538/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210701041538_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_6ca8a33c1d95bf34.json"
+    },
+    {
+      "date": "2021-07-02",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16253825,
+      "favorites_count_observed": 47854,
+      "plays_text": "16,253,825",
+      "favorites_text": "47,854",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20210702033604",
+      "capture_url": "https://web.archive.org/web/20210702033604/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210702033604_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_d3af39e69f41494b.json"
+    },
+    {
       "date": "2021-07-02",
       "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
@@ -10756,6 +11101,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210806232244_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_498c4d1c8c60abd5.json"
     },
     {
+      "date": "2021-08-09",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16257539,
+      "favorites_count_observed": 47856,
+      "plays_text": "16,257,539",
+      "favorites_text": "47,856",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20210809053157",
+      "capture_url": "https://web.archive.org/web/20210809053157/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210809053157_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_005056e1e39f4e95.json"
+    },
+    {
+      "date": "2021-08-15",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 46238,
+      "favorites_count_observed": 500,
+      "plays_text": "46,238",
+      "favorites_text": "500",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20210815155820",
+      "capture_url": "https://web.archive.org/web/20210815155820/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210815155820_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_9efb2ff746ef16a7.json"
+    },
+    {
       "date": "2021-08-26",
       "game_name": "Strike Force Heroes 2",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
@@ -10889,6 +11264,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211001001406_https_www.kongregate.com_games_IcyLime_multitask_metrics.json_7d3c120577638dea.json"
+    },
+    {
+      "date": "2021-10-07",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2977258,
+      "favorites_count_observed": 6612,
+      "plays_text": "2,977,258",
+      "favorites_text": "6,612",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20211007202411",
+      "capture_url": "https://web.archive.org/web/20211007202411/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211007202411_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c2dc33e69acb8502.json"
     },
     {
       "date": "2021-10-07",
@@ -11582,6 +11972,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3020299,
+      "favorites_count_observed": 6748,
+      "plays_text": "3,020,299",
+      "favorites_text": "6,748",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20211030182736",
+      "capture_url": "https://web.archive.org/web/20211030182736/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182736_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_63891994e90b0a31.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Swords and Souls",
       "game_url": "https://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12537578,
@@ -11879,6 +12284,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205311_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_655a3452f1e5a7f7.json"
+    },
+    {
+      "date": "2021-10-31",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3022892,
+      "favorites_count_observed": 6757,
+      "plays_text": "3,022,892",
+      "favorites_text": "6,757",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20211031205213",
+      "capture_url": "https://web.archive.org/web/20211031205213/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205213_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_a039f102c18e9760.json"
     },
     {
       "date": "2021-10-31",
@@ -12332,6 +12752,21 @@
     },
     {
       "date": "2021-11-18",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3066711,
+      "favorites_count_observed": 6848,
+      "plays_text": "3,066,711",
+      "favorites_text": "6,848",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20211118222630",
+      "capture_url": "https://web.archive.org/web/20211118222630/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118222630_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_1c207878c17bc216.json"
+    },
+    {
+      "date": "2021-11-18",
       "game_name": "Swords and Souls",
       "game_url": "https://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12559265,
@@ -12674,6 +13109,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111356_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_c3a90014e65b7d79.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3070432,
+      "favorites_count_observed": 6859,
+      "plays_text": "3,070,432",
+      "favorites_text": "6,859",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20211120111317",
+      "capture_url": "https://web.archive.org/web/20211120111317/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111317_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_9480dd0f40b3a95a.json"
     },
     {
       "date": "2021-11-20",
@@ -13307,6 +13757,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3184667,
+      "favorites_count_observed": 7033,
+      "plays_text": "3,184,667",
+      "favorites_text": "7,033",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20220111080156",
+      "capture_url": "https://web.archive.org/web/20220111080156/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080156_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c7cb617ed561d042.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
       "plays_count_observed": 5033125,
@@ -13754,6 +14219,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172400_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_71b16d4f2a42955c.json"
+    },
+    {
+      "date": "2022-02-15",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3257118,
+      "favorites_count_observed": 7145,
+      "plays_text": "3,257,118",
+      "favorites_text": "7,145",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20220215172359",
+      "capture_url": "https://web.archive.org/web/20220215172359/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172359_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_1fcadd830f3a6183.json"
     },
     {
       "date": "2022-02-15",
@@ -14641,6 +15121,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220408020920_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_097762bb13e71b6d.json"
     },
     {
+      "date": "2022-04-12",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16282402,
+      "favorites_count_observed": 47855,
+      "plays_text": "16,282,402",
+      "favorites_text": "47,855",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20220412090617",
+      "capture_url": "https://web.archive.org/web/20220412090617/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220412090617_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_ad623ba3c695a3f8.json"
+    },
+    {
       "date": "2022-04-13",
       "game_name": "AdVenture Capitalist",
       "game_url": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
@@ -15119,6 +15614,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212611_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_58d3de6e2b392cd5.json"
+    },
+    {
+      "date": "2022-06-22",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3472815,
+      "favorites_count_observed": 7440,
+      "plays_text": "3,472,815",
+      "favorites_text": "7,440",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20220622212626",
+      "capture_url": "https://web.archive.org/web/20220622212626/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212626_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_3e607c84d82b6535.json"
     },
     {
       "date": "2022-06-22",
@@ -15932,6 +16442,21 @@
     },
     {
       "date": "2022-11-19",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16304540,
+      "favorites_count_observed": 47566,
+      "plays_text": "16,304,540",
+      "favorites_text": "47,566",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20221119024106",
+      "capture_url": "https://web.archive.org/web/20221119024106/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221119024106_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_a4226b553c76f7bf.json"
+    },
+    {
+      "date": "2022-11-19",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21815670,
@@ -16322,6 +16847,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3658768,
+      "favorites_count_observed": 7674,
+      "plays_text": "3,658,768",
+      "favorites_text": "7,674",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20221204231809",
+      "capture_url": "https://web.archive.org/web/20221204231809/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231809_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_6ad6acde0e231043.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12929093,
@@ -16544,6 +17084,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062745_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_472fd5b0be1e9ab9.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3659035,
+      "favorites_count_observed": 7675,
+      "plays_text": "3,659,035",
+      "favorites_text": "7,675",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20221205062713",
+      "capture_url": "https://web.archive.org/web/20221205062713/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062713_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_35d9c40671ba2cca.json"
     },
     {
       "date": "2022-12-05",
@@ -16814,6 +17369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134634_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_2839d2435fb02169.json"
+    },
+    {
+      "date": "2022-12-20",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16309267,
+      "favorites_count_observed": 47571,
+      "plays_text": "16,309,267",
+      "favorites_text": "47,571",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20221220160416",
+      "capture_url": "https://web.archive.org/web/20221220160416/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221220160416_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_345604fc5f646325.json"
     },
     {
       "date": "2022-12-23",
@@ -17414,6 +17984,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163325_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_f2f6ee194096c84f.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3708879,
+      "favorites_count_observed": 7739,
+      "plays_text": "3,708,879",
+      "favorites_text": "7,739",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230214005451",
+      "capture_url": "https://web.archive.org/web/20230214005451/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005451_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_d14ed437c980f55d.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3709286,
+      "favorites_count_observed": 7739,
+      "plays_text": "3,709,286",
+      "favorites_text": "7,739",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230214163146",
+      "capture_url": "https://web.archive.org/web/20230214163146/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163146_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_fc5f79621337f0df.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3709287,
+      "favorites_count_observed": 7739,
+      "plays_text": "3,709,287",
+      "favorites_text": "7,739",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230214163325",
+      "capture_url": "https://web.archive.org/web/20230214163325/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163325_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_caa89fac290635f2.json"
     },
     {
       "date": "2023-02-16",
@@ -18151,6 +18766,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329172112_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_d9ac10cdae510875.json"
     },
     {
+      "date": "2023-03-29",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3735422,
+      "favorites_count_observed": 7768,
+      "plays_text": "3,735,422",
+      "favorites_text": "7,768",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230329172030",
+      "capture_url": "https://web.archive.org/web/20230329172030/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329172030_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c55837f8e54bdd8d.json"
+    },
+    {
       "date": "2023-03-30",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -18194,6 +18824,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330043645_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_58fb34a4bfcfa888.json"
+    },
+    {
+      "date": "2023-04-01",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 70335,
+      "favorites_count_observed": 531,
+      "plays_text": "70,335",
+      "favorites_text": "531",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20230401135853",
+      "capture_url": "https://web.archive.org/web/20230401135853/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230401135853_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_3736ff34796076b4.json"
     },
     {
       "date": "2023-04-01",
@@ -18346,6 +18991,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230410070512_https_www.kongregate.com_games_kingk_dream-world_metrics.json_25181e65e3b575cf.json"
     },
     {
+      "date": "2023-04-17",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16327743,
+      "favorites_count_observed": 47602,
+      "plays_text": "16,327,743",
+      "favorites_text": "47,602",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230417220744",
+      "capture_url": "https://web.archive.org/web/20230417220744/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230417220744_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_565b88e560a5502e.json"
+    },
+    {
       "date": "2023-05-05",
       "game_name": "Cursed Treasure 2",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-2",
@@ -18436,6 +19096,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230508193336_https_www.kongregate.com_games_fizzd_rhythm-doctor-demo_metrics.json_6a7a3e0b28cc443c.json"
     },
     {
+      "date": "2023-05-08",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3757044,
+      "favorites_count_observed": 7779,
+      "plays_text": "3,757,044",
+      "favorites_text": "7,779",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230508194223",
+      "capture_url": "https://web.archive.org/web/20230508194223/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230508194223_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ecc7fd674fbf58ba.json"
+    },
+    {
       "date": "2023-05-10",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -18479,6 +19154,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515184736_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_8f49da182213a61b.json"
+    },
+    {
+      "date": "2023-05-23",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16331707,
+      "favorites_count_observed": 47606,
+      "plays_text": "16,331,707",
+      "favorites_text": "47,606",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230523044525",
+      "capture_url": "https://web.archive.org/web/20230523044525/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230523044525_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_18d50d3717874730.json"
+    },
+    {
+      "date": "2023-05-30",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16332589,
+      "favorites_count_observed": 47606,
+      "plays_text": "16,332,589",
+      "favorites_text": "47,606",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230530075230",
+      "capture_url": "https://web.archive.org/web/20230530075230/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230530075230_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_65126e7fbde377f4.json"
     },
     {
       "date": "2023-06-01",
@@ -18601,6 +19306,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230611134406_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_18f9ca4e8134d823.json"
     },
     {
+      "date": "2023-06-11",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3781416,
+      "favorites_count_observed": 7812,
+      "plays_text": "3,781,416",
+      "favorites_text": "7,812",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230611051034",
+      "capture_url": "https://web.archive.org/web/20230611051034/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230611051034_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_8e041ffbb5fe5966.json"
+    },
+    {
+      "date": "2023-06-13",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16334301,
+      "favorites_count_observed": 47609,
+      "plays_text": "16,334,301",
+      "favorites_text": "47,609",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230613152836",
+      "capture_url": "https://web.archive.org/web/20230613152836/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230613152836_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_ad828849dc678274.json"
+    },
+    {
       "date": "2023-06-19",
       "game_name": "SAS: Zombie Assault 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
@@ -18674,6 +19409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230626173523_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_5aaa4eb78291a044.json"
+    },
+    {
+      "date": "2023-06-26",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3790758,
+      "favorites_count_observed": 7815,
+      "plays_text": "3,790,758",
+      "favorites_text": "7,815",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230626173440",
+      "capture_url": "https://web.archive.org/web/20230626173440/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230626173440_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_b0b0d9d9be4e29c3.json"
     },
     {
       "date": "2023-07-01",
@@ -18872,6 +19622,36 @@
     },
     {
       "date": "2023-07-28",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16339071,
+      "favorites_count_observed": 47619,
+      "plays_text": "16,339,071",
+      "favorites_text": "47,619",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230728064535",
+      "capture_url": "https://web.archive.org/web/20230728064535/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230728064535_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_18d6f14957efceba.json"
+    },
+    {
+      "date": "2023-07-28",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16339076,
+      "favorites_count_observed": 47619,
+      "plays_text": "16,339,076",
+      "favorites_text": "47,619",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230728075741",
+      "capture_url": "https://web.archive.org/web/20230728075741/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230728075741_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_979d0bd761806471.json"
+    },
+    {
+      "date": "2023-07-28",
       "game_name": "Factory Balls forever",
       "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
       "plays_count_observed": 242005,
@@ -19037,6 +19817,21 @@
     },
     {
       "date": "2023-08-06",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3813506,
+      "favorites_count_observed": 7844,
+      "plays_text": "3,813,506",
+      "favorites_text": "7,844",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20230806174838",
+      "capture_url": "https://web.archive.org/web/20230806174838/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230806174838_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_f6ec7db241ea840b.json"
+    },
+    {
+      "date": "2023-08-06",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 13059152,
@@ -19049,6 +19844,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230806181547_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_f8be1f8d5886a8d6.json"
+    },
+    {
+      "date": "2023-08-08",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16340088,
+      "favorites_count_observed": 47621,
+      "plays_text": "16,340,088",
+      "favorites_text": "47,621",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20230808045344",
+      "capture_url": "https://web.archive.org/web/20230808045344/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230808045344_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_d16c6fcad56993f3.json"
     },
     {
       "date": "2023-08-08",
@@ -19757,6 +20567,36 @@
     },
     {
       "date": "2023-09-24",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 73297,
+      "favorites_count_observed": 536,
+      "plays_text": "73,297",
+      "favorites_text": "536",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20230924125710",
+      "capture_url": "https://web.archive.org/web/20230924125710/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230924125710_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_21a39d4266fc9c34.json"
+    },
+    {
+      "date": "2023-09-24",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 74134,
+      "favorites_count_observed": 537,
+      "plays_text": "74,134",
+      "favorites_text": "537",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20230924190930",
+      "capture_url": "https://web.archive.org/web/20230924190930/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230924190930_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_f9082b3b54cd02bf.json"
+    },
+    {
+      "date": "2023-09-24",
       "game_name": "Realm Grinder",
       "game_url": "http://www.kongregate.com/games/DivineGames/realm-grinder",
       "plays_count_observed": 35725600,
@@ -19874,6 +20714,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231011161718_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_2af940fe8d45b5eb.json"
+    },
+    {
+      "date": "2023-10-12",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16346036,
+      "favorites_count_observed": 47638,
+      "plays_text": "16,346,036",
+      "favorites_text": "47,638",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20231012085336",
+      "capture_url": "https://web.archive.org/web/20231012085336/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231012085336_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_51b45bcbd530a55c.json"
     },
     {
       "date": "2023-10-12",
@@ -20174,6 +21029,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106220439_https_www.kongregate.com_games_Dragy_echoes-operation-stranglehold_metrics.json_a1982c6226633ba5.json"
+    },
+    {
+      "date": "2023-11-08",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 3852771,
+      "favorites_count_observed": 7891,
+      "plays_text": "3,852,771",
+      "favorites_text": "7,891",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20231108015221",
+      "capture_url": "https://web.archive.org/web/20231108015221/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231108015221_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_f406c1c92cbfea65.json"
     },
     {
       "date": "2023-11-11",
@@ -21362,6 +22232,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 75110,
+      "favorites_count_observed": 537,
+      "plays_text": "75,110",
+      "favorites_text": "537",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20240120164247",
+      "capture_url": "https://web.archive.org/web/20240120164247/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120164247_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_3908ad5167a786bd.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Medieval Chronicles 8 (Part 2)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-chronicles-8-part-2",
       "plays_count_observed": 62026,
@@ -21527,6 +22412,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3080073,
+      "favorites_count_observed": 21994,
+      "plays_text": "3,080,073",
+      "favorites_text": "21,994",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20240120074517",
+      "capture_url": "https://web.archive.org/web/20240120074517/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120074517_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_4e036345064e7692.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Time To Type",
       "game_url": "http://www.kongregate.com/games/suttree/time-to-type",
       "plays_count_observed": 19278,
@@ -21554,6 +22454,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120094612_https_www.kongregate.com_games_Arseniy_warp-forest_metrics.json_b50f3192bc248f2c.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16356619,
+      "favorites_count_observed": 47649,
+      "plays_text": "16,356,619",
+      "favorites_text": "47,649",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20240121110331",
+      "capture_url": "https://web.archive.org/web/20240121110331/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121110331_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_9ce2b5ca856dbb4c.json"
     },
     {
       "date": "2024-01-21",
@@ -22352,6 +23267,21 @@
     },
     {
       "date": "2024-02-23",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3080871,
+      "favorites_count_observed": 21993,
+      "plays_text": "3,080,871",
+      "favorites_text": "21,993",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20240223144448",
+      "capture_url": "https://web.archive.org/web/20240223144448/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223144448_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_f550764b7619fb78.json"
+    },
+    {
+      "date": "2024-02-23",
       "game_name": "Time To Type",
       "game_url": "http://www.kongregate.com/games/suttree/time-to-type",
       "plays_count_observed": 19280,
@@ -22517,6 +23447,21 @@
     },
     {
       "date": "2024-03-07",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16362412,
+      "favorites_count_observed": 47657,
+      "plays_text": "16,362,412",
+      "favorites_text": "47,657",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20240307150419",
+      "capture_url": "https://web.archive.org/web/20240307150419/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307150419_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_469d833c44d177bd.json"
+    },
+    {
+      "date": "2024-03-07",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
       "plays_count_observed": 31880303,
@@ -22559,6 +23504,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307102309_https_www.kongregate.com_games_theswain_mastermind-world-conquerer_metrics.json_cdfbf2088cdc52fe.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16362486,
+      "favorites_count_observed": 47657,
+      "plays_text": "16,362,486",
+      "favorites_text": "47,657",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20240308034855",
+      "capture_url": "https://web.archive.org/web/20240308034855/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308034855_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_535874025b814b9d.json"
     },
     {
       "date": "2024-03-08",
@@ -23174,6 +24134,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240427221025_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_0b1cbd3e483c777f.json"
+    },
+    {
+      "date": "2024-04-28",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16368836,
+      "favorites_count_observed": 47668,
+      "plays_text": "16,368,836",
+      "favorites_text": "47,668",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20240428060955",
+      "capture_url": "https://web.archive.org/web/20240428060955/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240428060955_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_8a24f97c11d07cdd.json"
     },
     {
       "date": "2024-04-30",
@@ -26251,6 +27226,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250228100120_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_638a668de155a831.json"
     },
     {
+      "date": "2025-03-01",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3087600,
+      "favorites_count_observed": 21997,
+      "plays_text": "3,087,600",
+      "favorites_text": "21,997",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20250301073331",
+      "capture_url": "https://web.archive.org/web/20250301073331/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250301073331_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_d610e4962779fbce.json"
+    },
+    {
       "date": "2025-03-02",
       "game_name": "Evo Explores",
       "game_url": "https://www.kongregate.com/games/tobeglad/evo-explores",
@@ -26294,6 +27284,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250305183129_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_7dc10e52414e0e72.json"
+    },
+    {
+      "date": "2025-03-05",
+      "game_name": "The Space Game",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/the-space-game",
+      "plays_count_observed": 3087672,
+      "favorites_count_observed": 21997,
+      "plays_text": "3,087,672",
+      "favorites_text": "21,997",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "capture_timestamp": "20250305050649",
+      "capture_url": "https://web.archive.org/web/20250305050649/https://www.kongregate.com/games/CasualCollective/the-space-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250305050649_https_www.kongregate.com_games_CasualCollective_the-space-game_metrics.json_fe0d550ba2e3d14d.json"
     },
     {
       "date": "2025-03-06",
@@ -27119,6 +28124,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250724020621_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_cd2b16b2fa9cdfc6.json"
+    },
+    {
+      "date": "2025-07-25",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 4100590,
+      "favorites_count_observed": 8201,
+      "plays_text": "4,100,590",
+      "favorites_text": "8,201",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20250725021421",
+      "capture_url": "https://web.archive.org/web/20250725021421/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250725021421_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_3900ccb1c553ea74.json"
     },
     {
       "date": "2025-07-28",
