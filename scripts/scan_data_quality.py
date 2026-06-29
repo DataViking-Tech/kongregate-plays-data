@@ -103,6 +103,16 @@ def parse_int(value: object) -> int:
         return 0
 
 
+def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, current_source: str) -> bool:
+    if current_source == "metrics_json" or current_plays <= 0:
+        return False
+    drop = previous_plays - current_plays
+    if drop <= 0:
+        return False
+    rounded_listing_value = current_plays >= 1_000_000 and current_plays % 100_000 == 0
+    return rounded_listing_value and drop <= max(100_000, int(previous_plays * 0.05))
+
+
 def canonical_game_url(game_url: str) -> str:
     if not game_url:
         return ""
@@ -335,18 +345,19 @@ def main() -> None:
         previous = None
         for row in rows:
             if previous and int(row["plays"]) < int(previous["plays"]):
-                decrease_rows.append(
-                    {
-                        "game_name": row.get("game_name", ""),
-                        "game_url": row.get("game_url", ""),
-                        "previous_date": previous.get("sort_date", ""),
-                        "previous_plays": previous.get("plays", ""),
-                        "current_date": row.get("sort_date", ""),
-                        "current_plays": row.get("plays", ""),
-                        "drop": int(previous["plays"]) - int(row["plays"]),
-                        "current_source": row.get("source", ""),
-                    }
-                )
+                if not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(row.get("source", ""))):
+                    decrease_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                        }
+                    )
             if not previous or int(row["plays"]) >= int(previous["plays"]):
                 previous = row
     decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)

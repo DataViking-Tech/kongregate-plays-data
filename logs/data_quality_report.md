@@ -1,12 +1,12 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-29T05:11:56Z
+- Run timestamp: 2026-06-29T05:26:32Z
 - As of: 2026-06-29
 - Ranked rows: 8140
 - Ranked rows with play counts: 4685
 - Ranked date range: 2007-01-20 to 2026-06-26
 - Mini catalog games: 743
-- Metrics history rows/games: 716 / 29
+- Metrics history rows/games: 861 / 41
 - Metrics date range: 2014-08-07 to 2025-10-01
 - Invalid cached HTML files: 105
 
@@ -14,7 +14,7 @@
 
 - HIGH cache/invalid_cached_html_files: 105 - Retry affected captures; these files are empty or corrupted and cannot be parsed.
 - MEDIUM coverage/months_without_ranked_captures: 134 - Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches.
-- HIGH metrics/catalog_games_without_metrics_history: 696 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+- HIGH metrics/catalog_games_without_metrics_history: 677 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 381 - Continue per-game metrics history backfill.
 - HIGH chart/final_top_chart_entries_stale_over_one_year: 9 - Prioritize metrics histories for stale high-play games still dominating final chart ranks.
 - LOW dedupe/duplicate_ranked_rows: 576 - Review duplicate key handling by date/source/rank/game.
@@ -24,9 +24,7 @@
 
 - Incremancer (score 3368, best rank 1, metrics rows 0)
 - Swarm Simulator (score 3368, best rank 1, metrics rows 0)
-- Retro Bowl (score 3366, best rank 1, metrics rows 0)
 - The King's League: Odyssey (score 3365, best rank 1, metrics rows 0)
-- Crush The Castle 2 (score 3353, best rank 1, metrics rows 0)
 - Frantic Frigates (score 3353, best rank 1, metrics rows 0)
 - Plinko Idle (score 3353, best rank 1, metrics rows 0)
 - Rush Team Free FPS Multiplayers (score 3353, best rank 1, metrics rows 0)
@@ -34,3 +32,5 @@
 - Blockade3D (score 3352, best rank 1, metrics rows 0)
 - Gravitee Wars Online (score 3352, best rank 1, metrics rows 0)
 - ChatChat (score 3351, best rank 1, metrics rows 0)
+- Robo-Jump (score 3351, best rank 1, metrics rows 0)
+- Escape Game - Computer Office Escape (score 3254, best rank 2, metrics rows 0)
