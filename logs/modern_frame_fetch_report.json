@@ -1,0 +1,12 @@
+{
+  "run_timestamp": "2026-06-29T02:37:13Z",
+  "frame_jobs_discovered": 40,
+  "pending_before_run": 20,
+  "attempted_this_run": 20,
+  "fetched_this_run": 10,
+  "failed_this_run": 10,
+  "remaining_after_run": 0,
+  "manifest_entries": 385,
+  "known_frame_failures": 10,
+  "note": "Frame rows use the actual Wayback timestamp when replay resolves to a nearby frame capture."
+}

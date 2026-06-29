@@ -1,0 +1,15 @@
+{
+  "run_timestamp": "2026-06-29T01:28:37Z",
+  "seed_url_count": 23,
+  "cdx_records_processed": 34534,
+  "patterns_discovered": 5,
+  "candidate_ranking_sources_found": 36,
+  "html_samples_cached": 95,
+  "suspected_cutovers": 13,
+  "anomalies": 42,
+  "recommended_next_queries": [
+    "Run prefix CDX queries for https://www.kongregate.com/games* without digest collapse.",
+    "Add quarterly homepage snapshots and manually verify layout_cutovers around detected boundaries.",
+    "Expand category pages with page=N and sort=rating/plays once parser signatures are confirmed."
+  ]
+}

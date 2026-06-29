@@ -1,0 +1,668 @@
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const root = path.resolve(".");
+const rankedJsonPath = path.join(root, "data", "processed", "ranked_games.json");
+const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.json");
+const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
+const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
+const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1WnTAClPOBr3TLOor2DVRIMwedcFspcHQeiT2qF13sa0";
+
+const topN = 12;
+
+async function readJsonRows(filePath) {
+  try {
+    const payload = JSON.parse(await fs.readFile(filePath, "utf8"));
+    return payload.rows ?? [];
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
+function gameUrlParts(gameUrl) {
+  if (!gameUrl) return null;
+  try {
+    const parsed = new URL(gameUrl);
+    const match = parsed.pathname.match(/^\/(?:en\/)?games\/([^/]+)\/([^/]+)/);
+    if (!match) return null;
+    return {
+      developer: decodeURIComponent(match[1]),
+      slug: decodeURIComponent(match[2]),
+    };
+  } catch {
+    return null;
+  }
+}
+
+function canonicalGameUrl(gameUrl) {
+  const parts = gameUrlParts(gameUrl);
+  if (!parts) return gameUrl || "";
+  return `www.kongregate.com/games/${parts.developer}/${parts.slug}`.toLowerCase();
+}
+
+function developerFromUrl(gameUrl) {
+  return gameUrlParts(gameUrl)?.developer ?? "";
+}
+
+function gameKey(row) {
+  if (row.game_url) return canonicalGameUrl(row.game_url);
+  return `${row.game_name ?? ""}|${row.developer ?? ""}`.toLowerCase();
+}
+
+function compactSource(row) {
+  if (row.parser === "metrics_json") return "metrics_json";
+  const parts = [];
+  if (row.ranking_type) parts.push(row.ranking_type);
+  if (row.category) parts.push(row.category);
+  return parts.join(" / ");
+}
+
+function normalizeObservedRow(row) {
+  const plays = Number(row.plays_count_observed);
+  if (!Number.isFinite(plays) || plays <= 0) return null;
+  return {
+    ...row,
+    plays_count_observed: plays,
+    rank_on_date: row.rank_on_date ?? "",
+    developer: row.developer || developerFromUrl(row.game_url) || "",
+    parser: row.parser || "",
+  };
+}
+
+function buildFrames(rows, sourceCounts) {
+  const observedRows = rows
+    .map(normalizeObservedRow)
+    .filter(Boolean)
+    .sort((a, b) => {
+      const byDate = String(a.date).localeCompare(String(b.date));
+      if (byDate !== 0) return byDate;
+      return Number(a.rank_on_date ?? 999999) - Number(b.rank_on_date ?? 999999);
+    });
+
+  const rowsByDate = new Map();
+  for (const row of observedRows) {
+    if (!rowsByDate.has(row.date)) rowsByDate.set(row.date, []);
+    rowsByDate.get(row.date).push(row);
+  }
+
+  const dates = [...rowsByDate.keys()].sort();
+  const bestByGame = new Map();
+  const frames = [];
+
+  for (const date of dates) {
+    const rowsForDate = rowsByDate.get(date);
+
+    for (const row of rowsForDate) {
+      const key = gameKey(row);
+      const plays = Number(row.plays_count_observed);
+      const previous = bestByGame.get(key);
+      if (!previous || plays >= previous.plays) {
+        bestByGame.set(key, {
+          key,
+          gameName: row.game_name,
+          developer: row.developer || "",
+          gameUrl: row.game_url || "",
+          plays,
+          lastObservedDate: row.date,
+          rankOnDate: row.rank_on_date ?? "",
+          source: compactSource(row),
+        });
+      }
+    }
+
+    const entries = [...bestByGame.values()]
+      .sort((a, b) => b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+      .slice(0, topN)
+      .map((entry, index) => ({
+        ...entry,
+        rank: index + 1,
+      }));
+
+    frames.push({
+      date,
+      observedRows: rowsForDate.length,
+      trackedGames: bestByGame.size,
+      entries,
+    });
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    sheetUrl,
+    summary: {
+      observedRows: observedRows.length,
+      ...sourceCounts,
+      frameCount: frames.length,
+      firstDate: dates[0] ?? null,
+      lastDate: dates.at(-1) ?? null,
+      topN,
+      method: "Ranks each game by the highest play count observed up to each archived ranked-list or metrics capture date.",
+    },
+    frames,
+  };
+}
+
+function htmlDocument(payload) {
+  const encoded = JSON.stringify(payload);
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kongregate Observed Plays Race</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f7f5ef;
+      --ink: #202326;
+      --muted: #687076;
+      --line: #d8d3c8;
+      --panel: #fffdf8;
+      --accent: #2364aa;
+      --track: #ebe6dc;
+      --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    main {
+      width: min(1180px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 28px 0 34px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: end;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 3.4vw, 46px);
+      line-height: 1.02;
+      font-weight: 760;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      max-width: 760px;
+    }
+
+    .dateBlock {
+      text-align: right;
+      min-width: 210px;
+    }
+
+    .dateLabel {
+      font-size: clamp(32px, 5vw, 64px);
+      line-height: 0.92;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .dateMeta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: auto minmax(180px, 1fr) auto auto;
+      gap: 12px;
+      align-items: center;
+      padding: 16px 0 18px;
+    }
+
+    button {
+      width: 42px;
+      height: 42px;
+      border: 1px solid #bfc3c7;
+      background: #ffffff;
+      color: var(--ink);
+      display: inline-grid;
+      place-items: center;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 5px 16px rgba(33, 35, 38, 0.08);
+    }
+
+    button:hover {
+      border-color: #8e969d;
+      background: #f8fafb;
+    }
+
+    button svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+    }
+
+    .speed {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .sheetLink {
+      color: var(--accent);
+      font-size: 13px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .sheetLink:hover {
+      text-decoration: underline;
+    }
+
+    .chart {
+      position: relative;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: clamp(14px, 2.2vw, 24px);
+      min-height: 690px;
+      overflow: hidden;
+    }
+
+    .axis {
+      height: 24px;
+      display: grid;
+      grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
+      gap: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 8px;
+    }
+
+    .rows {
+      position: relative;
+      display: grid;
+      gap: 8px;
+    }
+
+    .barRow {
+      height: 46px;
+      display: grid;
+      grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
+      gap: 14px;
+      align-items: center;
+      will-change: transform;
+    }
+
+    .rank {
+      color: var(--muted);
+      font-size: 18px;
+      font-weight: 760;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .name {
+      min-width: 0;
+    }
+
+    .gameName {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 15px;
+      font-weight: 740;
+    }
+
+    .developer {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .track {
+      position: relative;
+      height: 28px;
+      background: var(--track);
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .bar {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0%;
+      border-radius: 6px;
+      transition: width 680ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .value {
+      text-align: right;
+      font-size: 14px;
+      font-weight: 760;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .footerMeta {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .empty {
+      padding: 80px 24px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 780px) {
+      main {
+        width: min(100vw - 20px, 1180px);
+        padding-top: 18px;
+      }
+
+      header {
+        grid-template-columns: 1fr;
+      }
+
+      .dateBlock {
+        text-align: left;
+      }
+
+      .toolbar {
+        grid-template-columns: auto minmax(120px, 1fr);
+      }
+
+      .speed,
+      .sheetLink {
+        grid-column: span 2;
+      }
+
+      .chart {
+        min-height: 690px;
+        padding: 12px;
+      }
+
+      .axis,
+      .barRow {
+        grid-template-columns: 38px minmax(96px, 130px) minmax(112px, 1fr) 78px;
+        gap: 8px;
+      }
+
+      .gameName {
+        font-size: 13px;
+      }
+
+      .developer {
+        display: none;
+      }
+
+      .value {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <section>
+        <h1>Kongregate observed plays race</h1>
+        <p class="subtitle">Top games ranked by highest play count observed up to each archived capture date.</p>
+      </section>
+      <section class="dateBlock" aria-live="polite">
+        <div class="dateLabel" id="dateLabel">0000-00-00</div>
+        <div class="dateMeta" id="dateMeta">0 games tracked</div>
+      </section>
+    </header>
+
+    <section class="toolbar" aria-label="Animation controls">
+      <button id="playToggle" title="Play or pause" aria-label="Play or pause">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M8 5v14l11-7z"></path></svg>
+      </button>
+      <input id="frameSlider" type="range" min="0" value="0" step="1" aria-label="Date">
+      <label class="speed">Speed <input id="speedSlider" type="range" min="350" max="1600" value="950" step="50" aria-label="Speed"></label>
+      <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
+    </section>
+
+    <section class="chart" aria-label="Animated ranking chart">
+      <div class="axis">
+        <span>Rank</span>
+        <span>Game</span>
+        <span>Observed plays</span>
+        <span>Count</span>
+      </div>
+      <div class="rows" id="rows"></div>
+      <div class="footerMeta">
+        <span id="sourceMeta"></span>
+        <span id="rangeMeta"></span>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const PAYLOAD = ${encoded};
+    const frames = PAYLOAD.frames;
+    const palette = ["#2364aa", "#3da35d", "#f29e4c", "#c44536", "#5b6c5d", "#7b5ea7", "#2ca6a4", "#d8578a", "#8a6f3d", "#487d74", "#b85042", "#4b6fad"];
+    const rowsEl = document.getElementById("rows");
+    const dateLabel = document.getElementById("dateLabel");
+    const dateMeta = document.getElementById("dateMeta");
+    const sourceMeta = document.getElementById("sourceMeta");
+    const rangeMeta = document.getElementById("rangeMeta");
+    const frameSlider = document.getElementById("frameSlider");
+    const speedSlider = document.getElementById("speedSlider");
+    const playToggle = document.getElementById("playToggle");
+    const playIcon = document.getElementById("playIcon");
+    const playPath = "M8 5v14l11-7z";
+    const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
+
+    let frameIndex = 0;
+    let isPlaying = true;
+    let timer = null;
+
+    frameSlider.max = Math.max(frames.length - 1, 0);
+    rangeMeta.textContent = frames.length
+      ? \`\${PAYLOAD.summary.firstDate} to \${PAYLOAD.summary.lastDate} | \${PAYLOAD.summary.observedRows.toLocaleString()} observed rows\`
+      : "No observed play counts found";
+
+    function formatPlays(value) {
+      if (value >= 1_000_000_000) return \`\${(value / 1_000_000_000).toFixed(1)}B\`;
+      if (value >= 1_000_000) return \`\${(value / 1_000_000).toFixed(value >= 10_000_000 ? 0 : 1)}M\`;
+      if (value >= 1_000) return \`\${(value / 1_000).toFixed(value >= 100_000 ? 0 : 1)}K\`;
+      return value.toLocaleString();
+    }
+
+    function colorFor(key) {
+      let hash = 0;
+      for (let i = 0; i < key.length; i += 1) hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+      return palette[Math.abs(hash) % palette.length];
+    }
+
+    function detailText(entry) {
+      const parts = [];
+      if (entry.developer) parts.push(entry.developer);
+      if (entry.lastObservedDate) parts.push(\`seen \${entry.lastObservedDate}\`);
+      if (!parts.length && entry.source) parts.push(entry.source);
+      return parts.join(" | ") || "Kongregate";
+    }
+
+    function rowElement(entry) {
+      const row = document.createElement("div");
+      row.className = "barRow";
+      row.dataset.key = entry.key;
+
+      const rank = document.createElement("div");
+      rank.className = "rank";
+      rank.textContent = entry.rank;
+
+      const name = document.createElement("div");
+      name.className = "name";
+      const gameName = document.createElement(entry.gameUrl ? "a" : "div");
+      gameName.className = "gameName";
+      gameName.textContent = entry.gameName;
+      if (entry.gameUrl) {
+        gameName.href = entry.gameUrl;
+        gameName.target = "_blank";
+        gameName.rel = "noreferrer";
+      }
+      const developer = document.createElement("div");
+      developer.className = "developer";
+      developer.textContent = detailText(entry);
+      name.append(gameName, developer);
+
+      const track = document.createElement("div");
+      track.className = "track";
+      const bar = document.createElement("div");
+      bar.className = "bar";
+      bar.style.background = colorFor(entry.key);
+      track.append(bar);
+
+      const value = document.createElement("div");
+      value.className = "value";
+
+      row.append(rank, name, track, value);
+      return row;
+    }
+
+    function updateRow(row, entry, maxValue) {
+      row.querySelector(".rank").textContent = entry.rank;
+      row.querySelector(".gameName").textContent = entry.gameName;
+      row.querySelector(".developer").textContent = detailText(entry);
+      row.querySelector(".value").textContent = formatPlays(entry.plays);
+      row.querySelector(".bar").style.width = \`\${Math.max(1.5, (entry.plays / maxValue) * 100)}%\`;
+    }
+
+    function renderFrame(nextIndex) {
+      if (!frames.length) {
+        rowsEl.innerHTML = '<div class="empty">No observed play counts found.</div>';
+        return;
+      }
+
+      const frame = frames[nextIndex];
+      const maxValue = Math.max(...frame.entries.map((entry) => entry.plays), 1);
+      const oldPositions = new Map([...rowsEl.children].map((el) => [el.dataset.key, el.getBoundingClientRect()]));
+      const existing = new Map([...rowsEl.children].map((el) => [el.dataset.key, el]));
+
+      dateLabel.textContent = frame.date;
+      dateMeta.textContent = \`\${frame.trackedGames.toLocaleString()} games tracked\`;
+      sourceMeta.textContent = \`\${frame.observedRows.toLocaleString()} observed play rows on this date\`;
+      frameSlider.value = String(nextIndex);
+
+      const fragment = document.createDocumentFragment();
+      for (const entry of frame.entries) {
+        const row = existing.get(entry.key) || rowElement(entry);
+        updateRow(row, entry, maxValue);
+        fragment.append(row);
+      }
+      rowsEl.replaceChildren(fragment);
+
+      requestAnimationFrame(() => {
+        for (const row of rowsEl.children) {
+          const old = oldPositions.get(row.dataset.key);
+          if (!old) continue;
+          const current = row.getBoundingClientRect();
+          const deltaY = old.top - current.top;
+          if (Math.abs(deltaY) > 1) {
+            row.animate([
+              { transform: \`translateY(\${deltaY}px)\` },
+              { transform: "translateY(0)" },
+            ], {
+              duration: 620,
+              easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+        }
+      });
+    }
+
+    function schedule() {
+      clearTimeout(timer);
+      if (!isPlaying || frames.length <= 1) return;
+      timer = setTimeout(() => {
+        frameIndex = (frameIndex + 1) % frames.length;
+        renderFrame(frameIndex);
+        schedule();
+      }, Number(speedSlider.value));
+    }
+
+    playToggle.addEventListener("click", () => {
+      isPlaying = !isPlaying;
+      playIcon.setAttribute("d", isPlaying ? pausePath : playPath);
+      schedule();
+    });
+
+    frameSlider.addEventListener("input", (event) => {
+      frameIndex = Number(event.target.value);
+      renderFrame(frameIndex);
+      schedule();
+    });
+
+    speedSlider.addEventListener("input", schedule);
+
+    playIcon.setAttribute("d", pausePath);
+    renderFrame(frameIndex);
+    schedule();
+  </script>
+</body>
+</html>
+`;
+}
+
+async function main() {
+  const rankedRows = await readJsonRows(rankedJsonPath);
+  const metricsRows = await readJsonRows(metricsJsonPath);
+  const framesPayload = buildFrames([...rankedRows, ...metricsRows], {
+    rankedObservedRows: rankedRows.filter((row) => Number(row.plays_count_observed) > 0).length,
+    metricsObservedRows: metricsRows.filter((row) => Number(row.plays_count_observed) > 0).length,
+  });
+  await fs.mkdir(outputDir, { recursive: true });
+  await fs.writeFile(dataPath, `${JSON.stringify(framesPayload, null, 2)}\n`);
+  await fs.writeFile(htmlPath, htmlDocument(framesPayload));
+  console.log(JSON.stringify({
+    htmlPath,
+    dataPath,
+    ...framesPayload.summary,
+  }, null, 2));
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
