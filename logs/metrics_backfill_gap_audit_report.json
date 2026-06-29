@@ -1,16 +1,16 @@
 {
-  "catalog_games": 2070,
+  "catalog_games": 2172,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 623,
-  "generated_at": "2026-06-29T19:05:42Z",
+  "games_without_metrics_rows": 673,
+  "generated_at": "2026-06-29T19:27:54Z",
   "known_failed_captures": 655,
-  "missing_cdx_cache_files": 310,
+  "missing_cdx_cache_files": 354,
   "status_counts": {
-    "cdx_cache_missing": 207,
-    "has_metrics": 1447,
-    "known_failures_only": 36,
-    "no_cdx": 380
+    "cdx_cache_missing": 239,
+    "has_metrics": 1499,
+    "known_failures_only": 35,
+    "no_cdx": 399
   },
   "top_unresolved_games": [
     {
@@ -150,7 +150,29 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Animator Vs Animation (BETA)",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Aston Martin Hidden Wheels",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Ballamos",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -173,6 +195,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Caralhinhos Voadores - Age Of Delicia",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "changetype()",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -254,40 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "jhghj",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Mini Jumper",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Raze 3",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8174
+  "valid_cached_captures": 8177
 }
