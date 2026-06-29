@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1387,
+  "catalog_games": 1473,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 369,
-  "generated_at": "2026-06-29T15:31:54Z",
-  "known_failed_captures": 626,
-  "missing_cdx_cache_files": 167,
+  "games_without_metrics_rows": 384,
+  "generated_at": "2026-06-29T15:49:00Z",
+  "known_failed_captures": 628,
+  "missing_cdx_cache_files": 205,
   "status_counts": {
-    "cdx_cache_missing": 130,
-    "has_metrics": 1018,
-    "known_failures_only": 41,
-    "no_cdx": 198
+    "cdx_cache_missing": 145,
+    "has_metrics": 1089,
+    "known_failures_only": 37,
+    "no_cdx": 202
   },
   "top_unresolved_games": [
     {
@@ -55,6 +55,17 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Britney Spears vs Child Servisous",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
       "status": "no_cdx"
     },
     {
@@ -201,6 +212,17 @@
       "status": "cdx_cache_missing"
     },
     {
+      "best_rank": "4",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Kung Fu Adventure",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
+    },
+    {
       "best_rank": "5",
       "cdx_rows": 0,
       "failure_errors": "",
@@ -265,29 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 2901,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "IndestructoCopter",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Maddening Foolishness",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8117
+  "valid_cached_captures": 8130
 }
