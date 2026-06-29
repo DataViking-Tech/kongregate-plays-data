@@ -1,16 +1,129 @@
 {
-  "catalog_games": 749,
-  "fresh_pending_captures": 0,
-  "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 49,
-  "generated_at": "2026-06-29T11:46:13Z",
-  "known_failed_captures": 284,
-  "missing_cdx_cache_files": 0,
+  "catalog_games": 924,
+  "fresh_pending_captures": 59,
+  "games_with_fresh_pending_captures": 11,
+  "games_without_metrics_rows": 85,
+  "generated_at": "2026-06-29T12:29:25Z",
+  "known_failed_captures": 491,
+  "missing_cdx_cache_files": 14,
   "status_counts": {
-    "has_metrics": 700,
-    "no_cdx": 49
+    "cdx_cache_missing": 14,
+    "fresh_pending": 10,
+    "has_metrics": 839,
+    "known_failures_only": 7,
+    "no_cdx": 54
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "14",
+      "cdx_rows": 10,
+      "failure_errors": "",
+      "fresh_pending_captures": 10,
+      "game_name": "Mike Shadow: I paid for it!",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2051,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "14",
+      "cdx_rows": 6,
+      "failure_errors": "",
+      "fresh_pending_captures": 6,
+      "game_name": "One Among Zombies",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2051,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "13",
+      "cdx_rows": 3,
+      "failure_errors": "",
+      "fresh_pending_captures": 3,
+      "game_name": "Red Remover Player Pack",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2151,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "15",
+      "cdx_rows": 3,
+      "failure_errors": "",
+      "fresh_pending_captures": 3,
+      "game_name": "Bloons: Player Pack 1",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1501,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "15",
+      "cdx_rows": 3,
+      "failure_errors": "",
+      "fresh_pending_captures": 3,
+      "game_name": "Bot Arena 3",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1501,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "15",
+      "cdx_rows": 2,
+      "failure_errors": "",
+      "fresh_pending_captures": 2,
+      "game_name": "Endless Flight 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1951,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "13",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Zumbi Blocks",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2151,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "13",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Newgrounds Rumble",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1701,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "13",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Submachine 5: the root",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1701,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "14",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Thing-Thing 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1601,
+      "status": "fresh_pending"
+    },
     {
       "best_rank": "2",
       "cdx_rows": 0,
@@ -100,6 +213,17 @@
       "status": "no_cdx"
     },
     {
+      "best_rank": "6",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
+      "fresh_pending_captures": 0,
+      "game_name": "Straw Hat Samurai: Duels",
+      "known_failed_captures": 1,
+      "metrics_rows": 0,
+      "priority_score": 2851,
+      "status": "known_failures_only"
+    },
+    {
       "best_rank": "2",
       "cdx_rows": 0,
       "failure_errors": "",
@@ -144,15 +268,15 @@
       "status": "no_cdx"
     },
     {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
+      "best_rank": "7",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
       "fresh_pending_captures": 0,
-      "game_name": "Diaper Dash",
-      "known_failed_captures": 0,
+      "game_name": "Superfighters",
+      "known_failed_captures": 1,
       "metrics_rows": 0,
-      "priority_score": 2703,
-      "status": "no_cdx"
+      "priority_score": 2751,
+      "status": "known_failures_only"
     },
     {
       "best_rank": "3",
@@ -163,129 +287,8 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 2703,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Blozorz Hacked",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Broken World WIP",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Chocolate Rain TAY ZONDAY",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Jumbo Adventure",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Office Supply Team!",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "PhysicsWars",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Run And Monetize",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Active Ashfield's Conversion Challenge",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Fadious Dragon",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Fantasy Warriors",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Photogrounds",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2601,
       "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 6528
+  "valid_cached_captures": 7818
 }

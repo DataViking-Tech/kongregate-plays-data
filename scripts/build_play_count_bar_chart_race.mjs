@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1Fz6Rx2Yrms1yAEqg8t4bgat_uQTm4h-64iBjVapy-9U";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1Yn3Ty-RfN_zTt5fnW7H7PKHGe6OTQ9186kGFz2r-9XQ";
 
 const topN = 12;
 
@@ -49,6 +49,12 @@ function developerFromUrl(gameUrl) {
 function gameKey(row) {
   if (row.game_url) return canonicalGameUrl(row.game_url);
   return `${row.game_name ?? ""}|${row.developer ?? ""}`.toLowerCase();
+}
+
+function chartGameKey(row) {
+  const parts = gameUrlParts(row.game_url);
+  if (parts?.slug) return `kongregate-game:${parts.slug.toLowerCase()}`;
+  return gameKey(row);
 }
 
 function compactSource(row) {
@@ -96,7 +102,7 @@ function buildFrames(rows, sourceCounts) {
     const rowsForDate = rowsByDate.get(date);
 
     for (const row of rowsForDate) {
-      const key = gameKey(row);
+      const key = chartGameKey(row);
       const plays = Number(row.plays_count_observed);
       const previous = bestByGame.get(key);
       if (!previous || plays >= previous.plays) {
@@ -139,7 +145,7 @@ function buildFrames(rows, sourceCounts) {
       firstDate: dates[0] ?? null,
       lastDate: dates.at(-1) ?? null,
       topN,
-      method: "Ranks each game by the highest play count observed up to each archived ranked-list or metrics capture date.",
+      method: "Ranks each game by the highest play count observed up to each archived ranked-list or metrics capture date; developer-renamed URLs are merged by game slug for chart continuity.",
     },
     frames,
   };
@@ -164,6 +170,7 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
+      --move-duration: 1280ms;
     }
 
     * {
@@ -366,9 +373,8 @@ function htmlDocument() {
       transform: translate3d(0, 0, 0);
       z-index: 1;
       transition:
-        transform 980ms cubic-bezier(0.2, 0, 0, 1),
-        opacity 260ms ease,
-        filter 260ms ease;
+        transform var(--move-duration) cubic-bezier(0.18, 0, 0.12, 1),
+        opacity 320ms ease;
       will-change: transform, opacity;
     }
 
@@ -379,7 +385,6 @@ function htmlDocument() {
 
     .barRow.isExiting {
       opacity: 0;
-      filter: blur(0.5px);
       pointer-events: none;
       z-index: 0;
     }
@@ -438,7 +443,7 @@ function htmlDocument() {
       border-radius: 6px;
       transform: scaleX(0.015);
       transform-origin: left center;
-      transition: transform 980ms cubic-bezier(0.2, 0, 0, 1);
+      transition: transform var(--move-duration) cubic-bezier(0.18, 0, 0.12, 1);
     }
 
     .value {
@@ -518,9 +523,7 @@ function htmlDocument() {
       }
 
       .barRow {
-        transition:
-          opacity 220ms ease,
-          filter 220ms ease;
+        transition: opacity 220ms ease;
       }
     }
   </style>
@@ -547,7 +550,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-      <label class="speed">Speed <input id="speedSlider" type="range" min="1500" max="4200" value="2300" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="2000" max="5200" value="2900" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -589,7 +592,7 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 980;
+    const transitionMs = 1280;
     const exitMs = transitionMs + 180;
     const rowsByKey = new Map();
 
