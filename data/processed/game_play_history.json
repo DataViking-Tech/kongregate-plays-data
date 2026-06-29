@@ -2327,6 +2327,21 @@
     },
     {
       "date": "2019-02-05",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 484665,
+      "favorites_count_observed": 2135,
+      "plays_text": "484,665",
+      "favorites_text": "2,135",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20190205033116",
+      "capture_url": "https://web.archive.org/web/20190205033116/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033116_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_ba3d6ea241f0ff1d.json"
+    },
+    {
+      "date": "2019-02-05",
       "game_name": "Sword Fight",
       "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
       "plays_count_observed": 1935668,
@@ -2474,6 +2489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072653_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_79db8469723f0e92.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 259502,
+      "favorites_count_observed": 1727,
+      "plays_text": "259,502",
+      "favorites_text": "1,727",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20190702072803",
+      "capture_url": "https://web.archive.org/web/20190702072803/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072803_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_175a5d99e8508f74.json"
     },
     {
       "date": "2019-07-02",
@@ -3584,6 +3614,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_43a358593a1ff45e.json"
+    },
+    {
+      "date": "2019-11-07",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 292073,
+      "favorites_count_observed": 1920,
+      "plays_text": "292,073",
+      "favorites_text": "1,920",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20191107154544",
+      "capture_url": "https://web.archive.org/web/20191107154544/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_208ef899074330b2.json"
     },
     {
       "date": "2019-11-07",
@@ -5356,6 +5401,51 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184250_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_29bacd28c20ce7da.json"
     },
     {
+      "date": "2020-04-17",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 69731,
+      "favorites_count_observed": 482,
+      "plays_text": "69,731",
+      "favorites_text": "482",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200417184250",
+      "capture_url": "https://web.archive.org/web/20200417184250/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184250_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_7ff0516ac7bbdac3.json"
+    },
+    {
+      "date": "2020-04-17",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 69732,
+      "favorites_count_observed": 482,
+      "plays_text": "69,732",
+      "favorites_text": "482",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200417184303",
+      "capture_url": "https://web.archive.org/web/20200417184303/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184303_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_fecca41d45a0e4f9.json"
+    },
+    {
+      "date": "2020-04-17",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 69733,
+      "favorites_count_observed": 482,
+      "plays_text": "69,733",
+      "favorites_text": "482",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200417184304",
+      "capture_url": "https://web.archive.org/web/20200417184304/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184304_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_83f2a33ba53387e8.json"
+    },
+    {
       "date": "2020-04-18",
       "game_name": "Infectonator 2",
       "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
@@ -5369,6 +5459,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200418180344_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_578ec6bf264a4d10.json"
+    },
+    {
+      "date": "2020-04-18",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 70121,
+      "favorites_count_observed": 487,
+      "plays_text": "70,121",
+      "favorites_text": "487",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200418180327",
+      "capture_url": "https://web.archive.org/web/20200418180327/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200418180327_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_933a044bf0aac2a6.json"
+    },
+    {
+      "date": "2020-04-19",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 70377,
+      "favorites_count_observed": 489,
+      "plays_text": "70,377",
+      "favorites_text": "489",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200419085440",
+      "capture_url": "https://web.archive.org/web/20200419085440/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200419085440_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_354387ff546f8d24.json"
     },
     {
       "date": "2020-04-21",
@@ -5399,6 +5519,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200421022604_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_db8fd18e25476539.json"
+    },
+    {
+      "date": "2020-04-21",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 71056,
+      "favorites_count_observed": 491,
+      "plays_text": "71,056",
+      "favorites_text": "491",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200421022603",
+      "capture_url": "https://web.archive.org/web/20200421022603/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200421022603_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_857a13bfbb9dc537.json"
     },
     {
       "date": "2020-04-21",
@@ -5609,6 +5744,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132159_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_ca1cca5f7693eea6.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 73550,
+      "favorites_count_observed": 518,
+      "plays_text": "73,550",
+      "favorites_text": "518",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200427132202",
+      "capture_url": "https://web.archive.org/web/20200427132202/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132202_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_f840670e70d5ff79.json"
     },
     {
       "date": "2020-04-27",
@@ -6031,6 +6181,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200528073625_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_9190f559df836848.json"
     },
     {
+      "date": "2020-05-28",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 94556,
+      "favorites_count_observed": 670,
+      "plays_text": "94,556",
+      "favorites_text": "670",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200528075518",
+      "capture_url": "https://web.archive.org/web/20200528075518/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200528075518_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_0aed760007610ec6.json"
+    },
+    {
       "date": "2020-06-21",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -6269,6 +6434,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172827_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_124a3819630d5675.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 124442,
+      "favorites_count_observed": 853,
+      "plays_text": "124,442",
+      "favorites_text": "853",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200716173402",
+      "capture_url": "https://web.archive.org/web/20200716173402/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173402_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_45042ae8d3f2fc9a.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 124443,
+      "favorites_count_observed": 853,
+      "plays_text": "124,443",
+      "favorites_text": "853",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20200716173406",
+      "capture_url": "https://web.archive.org/web/20200716173406/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173406_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_6116ad30333cad47.json"
     },
     {
       "date": "2020-07-16",
@@ -7109,6 +7304,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130328_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_9965b193670666c3.json"
+    },
+    {
+      "date": "2020-10-17",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 164347,
+      "favorites_count_observed": 1005,
+      "plays_text": "164,347",
+      "favorites_text": "1,005",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20201017130729",
+      "capture_url": "https://web.archive.org/web/20201017130729/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130729_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_561e328efd6d944f.json"
     },
     {
       "date": "2020-10-17",
@@ -8087,6 +8297,21 @@
     },
     {
       "date": "2020-11-14",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 323017,
+      "favorites_count_observed": 2052,
+      "plays_text": "323,017",
+      "favorites_text": "2,052",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20201114070456",
+      "capture_url": "https://web.archive.org/web/20201114070456/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201114070456_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_c5601094af2006b4.json"
+    },
+    {
+      "date": "2020-11-14",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 127861,
@@ -8099,6 +8324,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201114065115_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_4ffec56a2f66149e.json"
+    },
+    {
+      "date": "2020-11-15",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 323072,
+      "favorites_count_observed": 2055,
+      "plays_text": "323,072",
+      "favorites_text": "2,055",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20201115234131",
+      "capture_url": "https://web.archive.org/web/20201115234131/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201115234131_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_d3f324996ee42d47.json"
+    },
+    {
+      "date": "2020-11-16",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 323084,
+      "favorites_count_observed": 2055,
+      "plays_text": "323,084",
+      "favorites_text": "2,055",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20201116063413",
+      "capture_url": "https://web.archive.org/web/20201116063413/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201116063413_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_e2b1c9837cac3a11.json"
     },
     {
       "date": "2020-11-16",
@@ -9347,6 +9602,21 @@
     },
     {
       "date": "2021-01-01",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 381580,
+      "favorites_count_observed": 2313,
+      "plays_text": "381,580",
+      "favorites_text": "2,313",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20210101053108",
+      "capture_url": "https://web.archive.org/web/20210101053108/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101053108_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_14257f043937c681.json"
+    },
+    {
+      "date": "2021-01-01",
       "game_name": "GunBlood",
       "game_url": "https://www.kongregate.com/en/games/Wolfcom/gunblood",
       "plays_count_observed": 1285673,
@@ -10096,6 +10366,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210205195902_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_4e7b785d9031222d.json"
     },
     {
+      "date": "2021-02-07",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 861317,
+      "favorites_count_observed": 3609,
+      "plays_text": "861,317",
+      "favorites_text": "3,609",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210207113549",
+      "capture_url": "https://web.archive.org/web/20210207113549/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210207113549_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_c0bc89ac27deb08d.json"
+    },
+    {
+      "date": "2021-02-08",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 861651,
+      "favorites_count_observed": 3611,
+      "plays_text": "861,651",
+      "favorites_text": "3,611",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210208111038",
+      "capture_url": "https://web.archive.org/web/20210208111038/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210208111038_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_4e9373193d40cede.json"
+    },
+    {
       "date": "2021-02-08",
       "game_name": "Three Goblets",
       "game_url": "https://www.kongregate.com/en/games/adventale/three-goblets",
@@ -10111,6 +10411,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210208162535_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_2324ecfe7e114c0e.json"
     },
     {
+      "date": "2021-02-09",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 862072,
+      "favorites_count_observed": 3614,
+      "plays_text": "862,072",
+      "favorites_text": "3,614",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210209134038",
+      "capture_url": "https://web.archive.org/web/20210209134038/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210209134038_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_be594c9add4180c8.json"
+    },
+    {
       "date": "2021-02-10",
       "game_name": "Bubble Tanks 3",
       "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
@@ -10124,6 +10439,81 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210210182202_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_54e6ca303e2d4a4f.json"
+    },
+    {
+      "date": "2021-02-10",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 862426,
+      "favorites_count_observed": 3616,
+      "plays_text": "862,426",
+      "favorites_text": "3,616",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210210135523",
+      "capture_url": "https://web.archive.org/web/20210210135523/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210210135523_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_a132407f0ff64aa4.json"
+    },
+    {
+      "date": "2021-02-10",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 862463,
+      "favorites_count_observed": 3616,
+      "plays_text": "862,463",
+      "favorites_text": "3,616",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210210155254",
+      "capture_url": "https://web.archive.org/web/20210210155254/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210210155254_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_b497ca7590470124.json"
+    },
+    {
+      "date": "2021-02-10",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 862503,
+      "favorites_count_observed": 3616,
+      "plays_text": "862,503",
+      "favorites_text": "3,616",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210210175332",
+      "capture_url": "https://web.archive.org/web/20210210175332/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210210175332_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_5b518745937e8b29.json"
+    },
+    {
+      "date": "2021-02-11",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 862648,
+      "favorites_count_observed": 3617,
+      "plays_text": "862,648",
+      "favorites_text": "3,617",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210211062303",
+      "capture_url": "https://web.archive.org/web/20210211062303/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210211062303_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_496d633fcc1765e7.json"
+    },
+    {
+      "date": "2021-02-12",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 863202,
+      "favorites_count_observed": 3617,
+      "plays_text": "863,202",
+      "favorites_text": "3,617",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20210212184803",
+      "capture_url": "https://web.archive.org/web/20210212184803/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210212184803_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_9e5cae090e4d07e3.json"
     },
     {
       "date": "2021-02-12",
@@ -11326,6 +11716,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210618215809_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_7161f1c7615ac0ad.json"
     },
     {
+      "date": "2021-06-18",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 336527,
+      "favorites_count_observed": 2100,
+      "plays_text": "336,527",
+      "favorites_text": "2,100",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20210618230831",
+      "capture_url": "https://web.archive.org/web/20210618230831/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210618230831_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_9d3b8d892c7244c5.json"
+    },
+    {
       "date": "2021-06-20",
       "game_name": "Crush The Castle 2",
       "game_url": "https://www.kongregate.com/en/games/ArmorGames/crush-the-castle-2",
@@ -11684,6 +12089,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210723161508_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_1d2dc83c92bd73f0.json"
+    },
+    {
+      "date": "2021-07-24",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 177278,
+      "favorites_count_observed": 1064,
+      "plays_text": "177,278",
+      "favorites_text": "1,064",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20210724150055",
+      "capture_url": "https://web.archive.org/web/20210724150055/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210724150055_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_c2c5464b45330104.json"
     },
     {
       "date": "2021-08-06",
@@ -12539,6 +12959,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182739_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_cd7af974cda6d137.json"
+    },
+    {
+      "date": "2021-10-30",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 189745,
+      "favorites_count_observed": 1101,
+      "plays_text": "189,745",
+      "favorites_text": "1,101",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20211030182547",
+      "capture_url": "https://web.archive.org/web/20211030182547/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182547_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_c44b745337045584.json"
     },
     {
       "date": "2021-10-30",
@@ -15707,6 +16142,21 @@
     },
     {
       "date": "2022-04-02",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 204863,
+      "favorites_count_observed": 1125,
+      "plays_text": "204,863",
+      "favorites_text": "1,125",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20220402010501",
+      "capture_url": "https://web.archive.org/web/20220402010501/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220402010501_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_7cfd8f45afb0d154.json"
+    },
+    {
+      "date": "2022-04-02",
       "game_name": "Sort the Court!",
       "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
       "plays_count_observed": 2428392,
@@ -16124,6 +16574,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413231529_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_6fbef6532f24eaa9.json"
+    },
+    {
+      "date": "2022-04-13",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 993054,
+      "favorites_count_observed": 4033,
+      "plays_text": "993,054",
+      "favorites_text": "4,033",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20220413131527",
+      "capture_url": "https://web.archive.org/web/20220413131527/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413131527_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_494de4a3f6eedcdc.json"
     },
     {
       "date": "2022-04-13",
@@ -17132,6 +17597,21 @@
     },
     {
       "date": "2022-10-11",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 396003,
+      "favorites_count_observed": 2332,
+      "plays_text": "396,003",
+      "favorites_text": "2,332",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20221011180700",
+      "capture_url": "https://web.archive.org/web/20221011180700/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221011180700_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_36651c47361b7830.json"
+    },
+    {
+      "date": "2022-10-11",
       "game_name": "Strikeforce Kitty 2",
       "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
       "plays_count_observed": 915577,
@@ -17386,6 +17866,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221102154915_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_bef9f640ff5106f3.json"
     },
     {
+      "date": "2022-11-04",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 215963,
+      "favorites_count_observed": 1156,
+      "plays_text": "215,963",
+      "favorites_text": "1,156",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20221104233724",
+      "capture_url": "https://web.archive.org/web/20221104233724/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221104233724_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_3b91e4aa15bd8cd1.json"
+    },
+    {
+      "date": "2022-11-04",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 1041550,
+      "favorites_count_observed": 4146,
+      "plays_text": "1,041,550",
+      "favorites_text": "4,146",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20221104231032",
+      "capture_url": "https://web.archive.org/web/20221104231032/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221104231032_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_9e55e8325cdf5304.json"
+    },
+    {
       "date": "2022-11-14",
       "game_name": "Rebuild 2",
       "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild-2",
@@ -17519,6 +18029,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221129164045_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_91256b94db1490c4.json"
+    },
+    {
+      "date": "2022-12-02",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 220216,
+      "favorites_count_observed": 1162,
+      "plays_text": "220,216",
+      "favorites_text": "1,162",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20221202180801",
+      "capture_url": "https://web.archive.org/web/20221202180801/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202180801_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_f47b9c18315c4df7.json"
     },
     {
       "date": "2022-12-02",
@@ -18839,6 +19364,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206212526_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_fd768097e3576149.json"
+    },
+    {
+      "date": "2023-02-09",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 397788,
+      "favorites_count_observed": 2314,
+      "plays_text": "397,788",
+      "favorites_text": "2,314",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20230209214623",
+      "capture_url": "https://web.archive.org/web/20230209214623/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230209214623_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_5055a08156f632f9.json"
     },
     {
       "date": "2023-02-12",
@@ -20191,6 +20731,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230417220744_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_565b88e560a5502e.json"
     },
     {
+      "date": "2023-04-17",
+      "game_name": "Idle Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/tbiz5270/idle-tower-defense",
+      "plays_count_observed": 822314,
+      "favorites_count_observed": 3001,
+      "plays_text": "822,314",
+      "favorites_text": "3,001",
+      "metrics_url": "https://www.kongregate.com/games/tbiz5270/idle-tower-defense/metrics.json",
+      "capture_timestamp": "20230417065427",
+      "capture_url": "https://web.archive.org/web/20230417065427/https://www.kongregate.com/games/tbiz5270/idle-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230417065427_https_www.kongregate.com_games_tbiz5270_idle-tower-defense_metrics.json_948df9ebc21ae1ae.json"
+    },
+    {
       "date": "2023-04-18",
       "game_name": "Crush Crush",
       "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
@@ -21286,6 +21841,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821125313_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_84387435a36a37b8.json"
     },
     {
+      "date": "2023-08-21",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 374385,
+      "favorites_count_observed": 2181,
+      "plays_text": "374,385",
+      "favorites_text": "2,181",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20230821084612",
+      "capture_url": "https://web.archive.org/web/20230821084612/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821084612_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_d4b7e8022f2deb0d.json"
+    },
+    {
+      "date": "2023-08-21",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 374386,
+      "favorites_count_observed": 2181,
+      "plays_text": "374,386",
+      "favorites_text": "2,181",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20230821084729",
+      "capture_url": "https://web.archive.org/web/20230821084729/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821084729_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_1639e66cecdad924.json"
+    },
+    {
       "date": "2023-08-22",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -21316,6 +21901,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230822060928_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_4c1d34a3a5219a71.json"
     },
     {
+      "date": "2023-08-24",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 375016,
+      "favorites_count_observed": 2184,
+      "plays_text": "375,016",
+      "favorites_text": "2,184",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20230824075459",
+      "capture_url": "https://web.archive.org/web/20230824075459/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230824075459_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_26f234a3adf16b12.json"
+    },
+    {
       "date": "2023-08-31",
       "game_name": "Computer Evolution",
       "game_url": "http://www.kongregate.com/games/joao8991/computer-evolution",
@@ -21329,6 +21929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230831224130_https_www.kongregate.com_games_joao8991_computer-evolution_metrics.json_5edec3ba8995aebc.json"
+    },
+    {
+      "date": "2023-08-31",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 378711,
+      "favorites_count_observed": 2188,
+      "plays_text": "378,711",
+      "favorites_text": "2,188",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20230831153901",
+      "capture_url": "https://web.archive.org/web/20230831153901/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230831153901_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_9c8f01cd4904f855.json"
     },
     {
       "date": "2023-09-01",
@@ -22936,6 +23551,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231218031409_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_875e9b180c243bd4.json"
     },
     {
+      "date": "2023-12-19",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 1124314,
+      "favorites_count_observed": 4367,
+      "plays_text": "1,124,314",
+      "favorites_text": "4,367",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20231219024958",
+      "capture_url": "https://web.archive.org/web/20231219024958/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231219024958_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_42012d6319384e72.json"
+    },
+    {
       "date": "2023-12-20",
       "game_name": "Monster Clearer",
       "game_url": "https://www.kongregate.com/en/games/adventale/monster-clearer",
@@ -22979,6 +23609,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231221004346_https_www.kongregate.com_games_arawkins_dolphin-olympics-2_metrics.json_cfe8b653ddeb0d1b.json"
+    },
+    {
+      "date": "2023-12-21",
+      "game_name": "Idle Tower Defense",
+      "game_url": "https://www.kongregate.com/en/games/tbiz5270/idle-tower-defense",
+      "plays_count_observed": 826785,
+      "favorites_count_observed": 3016,
+      "plays_text": "826,785",
+      "favorites_text": "3,016",
+      "metrics_url": "https://www.kongregate.com/games/tbiz5270/idle-tower-defense/metrics.json",
+      "capture_timestamp": "20231221001452",
+      "capture_url": "https://web.archive.org/web/20231221001452/https://www.kongregate.com/games/tbiz5270/idle-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231221001452_https_www.kongregate.com_games_tbiz5270_idle-tower-defense_metrics.json_3dd9290949144acb.json"
     },
     {
       "date": "2023-12-21",
@@ -23054,6 +23699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231226052700_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_8fb19cbd8e393f6a.json"
+    },
+    {
+      "date": "2023-12-28",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 235693,
+      "favorites_count_observed": 1201,
+      "plays_text": "235,693",
+      "favorites_text": "1,201",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20231228190148",
+      "capture_url": "https://web.archive.org/web/20231228190148/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231228190148_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_e946e42463192624.json"
     },
     {
       "date": "2023-12-28",
@@ -23414,6 +24074,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117063834_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-3_metrics.json_495dda34f631c754.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 402088,
+      "favorites_count_observed": 2330,
+      "plays_text": "402,088",
+      "favorites_text": "2,330",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20240117041157",
+      "capture_url": "https://web.archive.org/web/20240117041157/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117041157_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_f46c3366847fa97a.json"
     },
     {
       "date": "2024-01-17",
@@ -23849,6 +24524,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119181410_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_27f1440c8ef3ec7b.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 402111,
+      "favorites_count_observed": 2330,
+      "plays_text": "402,111",
+      "favorites_text": "2,330",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20240120164007",
+      "capture_url": "https://web.archive.org/web/20240120164007/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120164007_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_421fe922d8b5de2d.json"
     },
     {
       "date": "2024-01-20",
@@ -25801,6 +26491,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406140133_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_b5b3a2d0a0a96413.json"
     },
     {
+      "date": "2024-04-06",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 1166727,
+      "favorites_count_observed": 4478,
+      "plays_text": "1,166,727",
+      "favorites_text": "4,478",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20240406140227",
+      "capture_url": "https://web.archive.org/web/20240406140227/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406140227_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_9db384ea64a24123.json"
+    },
+    {
       "date": "2024-04-13",
       "game_name": "Spiral Knights",
       "game_url": "http://www.kongregate.com/games/SpiralKnights/spiral-knights",
@@ -26641,6 +27346,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240604064517_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_f0f73e66d98a1457.json"
     },
     {
+      "date": "2024-06-04",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 382615,
+      "favorites_count_observed": 2197,
+      "plays_text": "382,615",
+      "favorites_text": "2,197",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20240604155542",
+      "capture_url": "https://web.archive.org/web/20240604155542/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240604155542_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_fddb6785b9102779.json"
+    },
+    {
       "date": "2024-06-07",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
@@ -26909,6 +27629,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240705131313_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_d18459fcf90dd6df.json"
+    },
+    {
+      "date": "2024-07-09",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 1191703,
+      "favorites_count_observed": 4524,
+      "plays_text": "1,191,703",
+      "favorites_text": "4,524",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20240709190839",
+      "capture_url": "https://web.archive.org/web/20240709190839/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240709190839_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_8c74e9411339baf9.json"
     },
     {
       "date": "2024-07-10",
@@ -29431,6 +30166,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250215173648_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_939c47fa6aa8dd69.json"
     },
     {
+      "date": "2025-02-21",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 393062,
+      "favorites_count_observed": 2217,
+      "plays_text": "393,062",
+      "favorites_text": "2,217",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20250221183759",
+      "capture_url": "https://web.archive.org/web/20250221183759/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250221183759_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_b78f9760258b7e07.json"
+    },
+    {
       "date": "2025-02-24",
       "game_name": "Cosmos Quest",
       "game_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest",
@@ -30256,6 +31006,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250616093845_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_4d5f7629f243f270.json"
     },
     {
+      "date": "2025-06-16",
+      "game_name": "Rhomb",
+      "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
+      "plays_count_observed": 401775,
+      "favorites_count_observed": 2227,
+      "plays_text": "401,775",
+      "favorites_text": "2,227",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "capture_timestamp": "20250616093204",
+      "capture_url": "https://web.archive.org/web/20250616093204/https://www.kongregate.com/games/KekGames/rhomb/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250616093204_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_0f975b084ae51b97.json"
+    },
+    {
       "date": "2025-06-18",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -30466,6 +31231,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250728142336_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_4b69b2dd89be613e.json"
     },
     {
+      "date": "2025-08-01",
+      "game_name": "Pixels Filling Squares 3.0",
+      "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
+      "plays_count_observed": 1277575,
+      "favorites_count_observed": 4678,
+      "plays_text": "1,277,575",
+      "favorites_text": "4,678",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "capture_timestamp": "20250801200527",
+      "capture_url": "https://web.archive.org/web/20250801200527/https://www.kongregate.com/games/Moczan/pixels-filling-squares-3-0/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250801200527_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_b1668c2c4bd32233.json"
+    },
+    {
       "date": "2025-08-02",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -30644,6 +31424,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250828042432_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_b15ba2e8420d3eed.json"
+    },
+    {
+      "date": "2025-08-30",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 407760,
+      "favorites_count_observed": 2352,
+      "plays_text": "407,760",
+      "favorites_text": "2,352",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20250830181611",
+      "capture_url": "https://web.archive.org/web/20250830181611/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250830181611_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_01b26f0056cf0afb.json"
     },
     {
       "date": "2025-08-30",
