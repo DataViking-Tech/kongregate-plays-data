@@ -271,6 +271,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150425205430_http_www.kongregate.com_games_tfender_contract-wars_metrics.json_d1747aeeb75c8f7b.json"
     },
     {
+      "date": "2015-04-26",
+      "game_name": "Bloons Tower Defense 2",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2",
+      "plays_count_observed": 1500512,
+      "favorites_count_observed": 7333,
+      "plays_text": "1,500,512",
+      "favorites_text": "7,333",
+      "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "capture_timestamp": "20150426015502",
+      "capture_url": "https://web.archive.org/web/20150426015502/http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150426015502_http_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-2_metrics.json_5b1dfb790c2e333f.json"
+    },
+    {
       "date": "2015-05-01",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
@@ -1756,6 +1771,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180204035626_http_www.kongregate.com_games_graebor_sort-the-court_metrics.json_03132f1dcb4ff02c.json"
     },
     {
+      "date": "2018-02-08",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 1692647,
+      "favorites_count_observed": 9551,
+      "plays_text": "1,692,647",
+      "favorites_text": "9,551",
+      "metrics_url": "http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20180208151607",
+      "capture_url": "https://web.archive.org/web/20180208151607/http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180208151607_http_www.kongregate.com_games_cael_reactor-incremental_metrics.json_a7989c7f25aee9cb.json"
+    },
+    {
       "date": "2018-02-12",
       "game_name": "McDonald's Videogame",
       "game_url": "http://kongregate.com/games/molleindustria/mcdonalds-videogame",
@@ -1934,6 +1964,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181004155124_http_www.kongregate.com_games_tonyrecchia_wasd_metrics.json_fac59d6b2ebcb74d.json"
+    },
+    {
+      "date": "2018-10-21",
+      "game_name": "Onslaught2",
+      "game_url": "http://www.kongregate.com/games/gaby/onslaught2",
+      "plays_count_observed": 3096044,
+      "favorites_count_observed": 19399,
+      "plays_text": "3,096,044",
+      "favorites_text": "19,399",
+      "metrics_url": "http://www.kongregate.com:80/games/gaby/onslaught2/metrics.json",
+      "capture_timestamp": "20181021003854",
+      "capture_url": "https://web.archive.org/web/20181021003854/http://www.kongregate.com:80/games/gaby/onslaught2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181021003854_http_www.kongregate.com_80_games_gaby_onslaught2_metrics.json_55a9446a0e32ffe0.json"
+    },
+    {
+      "date": "2018-11-04",
+      "game_name": "Wartune",
+      "game_url": "http://www.kongregate.com/games/R2Games/wartune",
+      "plays_count_observed": 24963986,
+      "favorites_count_observed": 45089,
+      "plays_text": "24,963,986",
+      "favorites_text": "45,089",
+      "metrics_url": "http://www.kongregate.com:80/games/R2Games/wartune/metrics.json",
+      "capture_timestamp": "20181104022114",
+      "capture_url": "https://web.archive.org/web/20181104022114/http://www.kongregate.com:80/games/R2Games/wartune/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181104022114_http_www.kongregate.com_80_games_R2Games_wartune_metrics.json_3d97ab3e16e2063a.json"
     },
     {
       "date": "2018-12-17",
@@ -4697,6 +4757,21 @@
     },
     {
       "date": "2020-03-10",
+      "game_name": "Bloons Tower Defense 2",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2",
+      "plays_count_observed": 1583150,
+      "favorites_count_observed": 7658,
+      "plays_text": "1,583,150",
+      "favorites_text": "7,658",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "capture_timestamp": "20200310024803",
+      "capture_url": "https://web.archive.org/web/20200310024803/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200310024803_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-2_metrics.json_54969ff4e8f4dc50.json"
+    },
+    {
+      "date": "2020-03-10",
       "game_name": "Bloons Tower Defense 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
       "plays_count_observed": 16109229,
@@ -4724,6 +4799,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200323070014_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_9405e26c0d76eeff.json"
+    },
+    {
+      "date": "2020-03-23",
+      "game_name": "Bloons Tower Defense 2",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2",
+      "plays_count_observed": 1583380,
+      "favorites_count_observed": 7659,
+      "plays_text": "1,583,380",
+      "favorites_text": "7,659",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "capture_timestamp": "20200323070016",
+      "capture_url": "https://web.archive.org/web/20200323070016/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200323070016_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-2_metrics.json_994289b3af64c351.json"
     },
     {
       "date": "2020-03-23",
@@ -6256,6 +6346,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172727_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_dd362f4aba53d96d.json"
     },
     {
+      "date": "2020-07-17",
+      "game_name": "rotaZion",
+      "game_url": "http://www.kongregate.com/games/pixtiz/rotazion",
+      "plays_count_observed": 422855,
+      "favorites_count_observed": 1825,
+      "plays_text": "422,855",
+      "favorites_text": "1,825",
+      "metrics_url": "https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "capture_timestamp": "20200717185235",
+      "capture_url": "https://web.archive.org/web/20200717185235/https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200717185235_https_www.kongregate.com_games_pixtiz_rotazion_metrics.json_8b2761ad5d14359d.json"
+    },
+    {
       "date": "2020-07-21",
       "game_name": "Sonny",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny",
@@ -6809,6 +6914,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130551_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_1a69def333198947.json"
+    },
+    {
+      "date": "2020-10-17",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2231694,
+      "favorites_count_observed": 11562,
+      "plays_text": "2,231,694",
+      "favorites_text": "11,562",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20201017130652",
+      "capture_url": "https://web.archive.org/web/20201017130652/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130652_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_1b37db5ab385a6e3.json"
     },
     {
       "date": "2020-10-17",
@@ -7502,6 +7622,21 @@
     },
     {
       "date": "2020-11-07",
+      "game_name": "GrindCraft",
+      "game_url": "http://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1927945,
+      "favorites_count_observed": 14963,
+      "plays_text": "1,927,945",
+      "favorites_text": "14,963",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20201107014416",
+      "capture_url": "https://web.archive.org/web/20201107014416/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107014416_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_906949e62977e747.json"
+    },
+    {
+      "date": "2020-11-07",
       "game_name": "The Peacekeeper",
       "game_url": "https://www.kongregate.com/en/games/BerzerkStudio/the-peacekeeper",
       "plays_count_observed": 1454362,
@@ -7634,6 +7769,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201113095955_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_4d75804836b46260.json"
+    },
+    {
+      "date": "2020-11-14",
+      "game_name": "Onslaught2",
+      "game_url": "http://www.kongregate.com/games/gaby/onslaught2",
+      "plays_count_observed": 3170293,
+      "favorites_count_observed": 19640,
+      "plays_text": "3,170,293",
+      "favorites_text": "19,640",
+      "metrics_url": "https://www.kongregate.com/games/gaby/onslaught2/metrics.json",
+      "capture_timestamp": "20201114005200",
+      "capture_url": "https://web.archive.org/web/20201114005200/https://www.kongregate.com/games/gaby/onslaught2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201114005200_https_www.kongregate.com_games_gaby_onslaught2_metrics.json_b503c377233bd010.json"
     },
     {
       "date": "2020-11-14",
@@ -8324,6 +8474,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201210112827_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_96ad4093cb0268da.json"
+    },
+    {
+      "date": "2020-12-11",
+      "game_name": "GrindCraft",
+      "game_url": "http://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1939920,
+      "favorites_count_observed": 15052,
+      "plays_text": "1,939,920",
+      "favorites_text": "15,052",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20201211020659",
+      "capture_url": "https://web.archive.org/web/20201211020659/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201211020659_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_37f72ab412d32f6f.json"
     },
     {
       "date": "2020-12-11",
@@ -9271,6 +9436,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210109212557_https_www.kongregate.com_games_undefined_protector_metrics.json_2d222064bd0707af.json"
     },
     {
+      "date": "2021-01-09",
+      "game_name": "rotaZion",
+      "game_url": "http://www.kongregate.com/games/pixtiz/rotazion",
+      "plays_count_observed": 423198,
+      "favorites_count_observed": 1825,
+      "plays_text": "423,198",
+      "favorites_text": "1,825",
+      "metrics_url": "https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "capture_timestamp": "20210109212559",
+      "capture_url": "https://web.archive.org/web/20210109212559/https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210109212559_https_www.kongregate.com_games_pixtiz_rotazion_metrics.json_832c130d50336f45.json"
+    },
+    {
       "date": "2021-01-11",
       "game_name": "Ayumilove HackerStory V1",
       "game_url": "http://www.kongregate.com/games/ayumilove/ayumilove-hackerstory-v1",
@@ -9344,6 +9524,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210113231844_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_28874502fdcafd2b.json"
+    },
+    {
+      "date": "2021-01-13",
+      "game_name": "Bloons Tower Defense 2",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2",
+      "plays_count_observed": 1588178,
+      "favorites_count_observed": 7675,
+      "plays_text": "1,588,178",
+      "favorites_text": "7,675",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "capture_timestamp": "20210113231653",
+      "capture_url": "https://web.archive.org/web/20210113231653/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210113231653_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-2_metrics.json_4557bf8ff6fabffe.json"
     },
     {
       "date": "2021-01-13",
@@ -11041,6 +11236,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210717154222_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_042c8a0c66981300.json"
     },
     {
+      "date": "2021-07-18",
+      "game_name": "rotaZion",
+      "game_url": "http://www.kongregate.com/games/pixtiz/rotazion",
+      "plays_count_observed": 423303,
+      "favorites_count_observed": 1825,
+      "plays_text": "423,303",
+      "favorites_text": "1,825",
+      "metrics_url": "https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "capture_timestamp": "20210718191728",
+      "capture_url": "https://web.archive.org/web/20210718191728/https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210718191728_https_www.kongregate.com_games_pixtiz_rotazion_metrics.json_13f2b0ac7886ba9b.json"
+    },
+    {
       "date": "2021-07-21",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/en/games/somethingggg/ngu-idle",
@@ -11189,6 +11399,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210907112142_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_7035c4a521ae905b.json"
+    },
+    {
+      "date": "2021-09-09",
+      "game_name": "Sift Heads World Act 2 - The Treacherous Return",
+      "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-2-the-treacherous-return",
+      "plays_count_observed": 222893,
+      "favorites_count_observed": 2778,
+      "plays_text": "222,893",
+      "favorites_text": "2,778",
+      "metrics_url": "http://www.kongregate.com/games/webcypher/sift-heads-world-act-2-the-treacherous-return/metrics.json",
+      "capture_timestamp": "20210909175417",
+      "capture_url": "https://web.archive.org/web/20210909175417/http://www.kongregate.com/games/webcypher/sift-heads-world-act-2-the-treacherous-return/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210909175417_http_www.kongregate.com_games_webcypher_sift-heads-world-act-2-the-treacherous-return_metrics.json_1f06f48ae11b63da.json"
     },
     {
       "date": "2021-09-18",
@@ -13229,6 +13454,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211122122555_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_3d7baea265ad4c02.json"
+    },
+    {
+      "date": "2021-11-22",
+      "game_name": "Bloons Tower Defense 2",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2",
+      "plays_count_observed": 1591247,
+      "favorites_count_observed": 7679,
+      "plays_text": "1,591,247",
+      "favorites_text": "7,679",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "capture_timestamp": "20211122122515",
+      "capture_url": "https://web.archive.org/web/20211122122515/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211122122515_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-2_metrics.json_c0c1ed3382a9ab65.json"
     },
     {
       "date": "2021-11-22",
@@ -15361,6 +15601,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220505135728_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_b7ce476affbdc89e.json"
     },
     {
+      "date": "2022-05-15",
+      "game_name": "Prehistoric.",
+      "game_url": "http://www.kongregate.com/games/TrueDarkness/prehistoric",
+      "plays_count_observed": 58384,
+      "favorites_count_observed": 171,
+      "plays_text": "58,384",
+      "favorites_text": "171",
+      "metrics_url": "http://www.kongregate.com/games/TrueDarkness/prehistoric/metrics.json",
+      "capture_timestamp": "20220515214343",
+      "capture_url": "https://web.archive.org/web/20220515214343/http://www.kongregate.com/games/TrueDarkness/prehistoric/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220515214343_http_www.kongregate.com_games_TrueDarkness_prehistoric_metrics.json_81d47dd06bf219ab.json"
+    },
+    {
+      "date": "2022-05-18",
+      "game_name": "Balloon in a Wasteland",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/balloon-in-a-wasteland",
+      "plays_count_observed": 1793413,
+      "favorites_count_observed": 22389,
+      "plays_text": "1,793,413",
+      "favorites_text": "22,389",
+      "metrics_url": "http://www.kongregate.com/games/armorgames/balloon-in-a-wasteland/metrics.json",
+      "capture_timestamp": "20220518140653",
+      "capture_url": "https://web.archive.org/web/20220518140653/http://www.kongregate.com/games/armorgames/balloon-in-a-wasteland/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220518140653_http_www.kongregate.com_games_armorgames_balloon-in-a-wasteland_metrics.json_740b2f6384165da0.json"
+    },
+    {
       "date": "2022-05-19",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -16034,6 +16304,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220912151431_https_www.kongregate.com_games_to_change_later_cividlization-2_metrics.json_def597a039a4972c.json"
+    },
+    {
+      "date": "2022-09-14",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2466690,
+      "favorites_count_observed": 12135,
+      "plays_text": "2,466,690",
+      "favorites_text": "12,135",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20220914204202",
+      "capture_url": "https://web.archive.org/web/20220914204202/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220914204202_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_2ac56b7a5b8da9c6.json"
     },
     {
       "date": "2022-09-16",
@@ -20026,6 +20311,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821012844_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_cd0c7de562251f44.json"
     },
     {
+      "date": "2023-08-21",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "plays_count_observed": 144385,
+      "favorites_count_observed": 1290,
+      "plays_text": "144,385",
+      "favorites_text": "1,290",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "capture_timestamp": "20230821084613",
+      "capture_url": "https://web.archive.org/web/20230821084613/https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821084613_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_d9b191834a6e07a0.json"
+    },
+    {
+      "date": "2023-08-21",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "plays_count_observed": 145144,
+      "favorites_count_observed": 1290,
+      "plays_text": "145,144",
+      "favorites_text": "1,290",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "capture_timestamp": "20230821125313",
+      "capture_url": "https://web.archive.org/web/20230821125313/https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821125313_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_84387435a36a37b8.json"
+    },
+    {
       "date": "2023-08-22",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -20699,6 +21014,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231002162528_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_74b9248591a2bea2.json"
+    },
+    {
+      "date": "2023-10-03",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2567281,
+      "favorites_count_observed": 11780,
+      "plays_text": "2,567,281",
+      "favorites_text": "11,780",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20231003130542",
+      "capture_url": "https://web.archive.org/web/20231003130542/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231003130542_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_2330998c3c377912.json"
     },
     {
       "date": "2023-10-11",
@@ -21932,6 +22262,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "plays_count_observed": 147528,
+      "favorites_count_observed": 1294,
+      "plays_text": "147,528",
+      "favorites_text": "1,294",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "capture_timestamp": "20240117074919",
+      "capture_url": "https://web.archive.org/web/20240117074919/https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117074919_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_934dd7a8b0ae5002.json"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Medieval Cop - The Princess and The Grump",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
       "plays_count_observed": 121674,
@@ -22112,6 +22457,21 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "plays_count_observed": 147532,
+      "favorites_count_observed": 1294,
+      "plays_text": "147,532",
+      "favorites_text": "1,294",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "capture_timestamp": "20240119201402",
+      "capture_url": "https://web.archive.org/web/20240119201402/https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119201402_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_d625fd9177c89910.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Medieval Cop 9 -Song & Silence- (Part 1)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-9-song-silence-part-1",
       "plays_count_observed": 67104,
@@ -22184,6 +22544,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119220826_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_21c1aaeb32ed5d2e.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Onslaught2",
+      "game_url": "http://www.kongregate.com/games/gaby/onslaught2",
+      "plays_count_observed": 3195739,
+      "favorites_count_observed": 19479,
+      "plays_text": "3,195,739",
+      "favorites_text": "19,479",
+      "metrics_url": "https://www.kongregate.com/games/gaby/onslaught2/metrics.json",
+      "capture_timestamp": "20240119224747",
+      "capture_url": "https://web.archive.org/web/20240119224747/https://www.kongregate.com/games/gaby/onslaught2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119224747_https_www.kongregate.com_games_gaby_onslaught2_metrics.json_1e00c36d200a9583.json"
     },
     {
       "date": "2024-01-19",
@@ -22337,6 +22712,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2594616,
+      "favorites_count_observed": 11823,
+      "plays_text": "2,594,616",
+      "favorites_text": "11,823",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20240120011832",
+      "capture_url": "https://web.archive.org/web/20240120011832/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120011832_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_11fa7750119e3074.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Revolution Idle 2",
       "game_url": "http://www.kongregate.com/games/Gumrok/revolution-idle-2",
       "plays_count_observed": 1006857,
@@ -22349,6 +22739,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120013708_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_ee0e558ca97bc574.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "rotaZion",
+      "game_url": "http://www.kongregate.com/games/pixtiz/rotazion",
+      "plays_count_observed": 423521,
+      "favorites_count_observed": 1817,
+      "plays_text": "423,521",
+      "favorites_text": "1,817",
+      "metrics_url": "https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "capture_timestamp": "20240120020331",
+      "capture_url": "https://web.archive.org/web/20240120020331/https://www.kongregate.com/games/pixtiz/rotazion/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120020331_https_www.kongregate.com_games_pixtiz_rotazion_metrics.json_d5e53b14aadb004b.json"
     },
     {
       "date": "2024-01-20",
@@ -23117,6 +23522,21 @@
     },
     {
       "date": "2024-02-22",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "plays_count_observed": 147594,
+      "favorites_count_observed": 1295,
+      "plays_text": "147,594",
+      "favorites_text": "1,295",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "capture_timestamp": "20240222204104",
+      "capture_url": "https://web.archive.org/web/20240222204104/https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222204104_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_918ea92eff76d7b4.json"
+    },
+    {
+      "date": "2024-02-22",
       "game_name": "Medieval Cop 9 -Song & Silence- (Part 1)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-9-song-silence-part-1",
       "plays_count_observed": 67180,
@@ -23219,6 +23639,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223043720_https_www.kongregate.com_games_tomylee_rapid-reaction-master_metrics.json_30b2347098d3a666.json"
+    },
+    {
+      "date": "2024-02-23",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2603525,
+      "favorites_count_observed": 11833,
+      "plays_text": "2,603,525",
+      "favorites_text": "11,833",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20240223044321",
+      "capture_url": "https://web.archive.org/web/20240223044321/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223044321_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_0fed780234727e8b.json"
     },
     {
       "date": "2024-02-23",
@@ -28544,6 +28979,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250920220355_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_aaecb64a1c91733e.json"
+    },
+    {
+      "date": "2025-09-27",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2735885,
+      "favorites_count_observed": 12089,
+      "plays_text": "2,735,885",
+      "favorites_text": "12,089",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20250927113520",
+      "capture_url": "https://web.archive.org/web/20250927113520/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250927113520_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_7f50a03e98cfb8b8.json"
     },
     {
       "date": "2025-09-30",
