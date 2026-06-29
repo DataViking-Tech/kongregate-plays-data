@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-06-29T22:07:00Z",
+  "run_timestamp": "2026-06-29T22:15:49Z",
   "as_of": "2026-06-29",
-  "ranked_rows": 23395,
+  "ranked_rows": 23715,
   "ranked_rows_with_play_counts": 8483,
   "ranked_date_range": [
     "2007-01-20",
@@ -14,7 +14,7 @@
     "2013-09-18",
     "2026-06-29"
   ],
-  "zero_ranked_capture_months": 82,
+  "zero_ranked_capture_months": 80,
   "catalog_games_without_metrics_history": 1258,
   "catalog_games_need_page_history": 2186,
   "final_chart_entries_stale_over_one_year": 0,
@@ -22,7 +22,7 @@
   "invalid_cached_html_examples": [],
   "bad_title_rows": 0,
   "missing_url_rows": 0,
-  "duplicate_ranked_rows": 2173,
+  "duplicate_ranked_rows": 2221,
   "games_with_multiple_url_variants": 305,
   "play_count_decreases": 0,
   "issues": [
@@ -30,7 +30,7 @@
       "severity": "medium",
       "area": "coverage",
       "issue_type": "months_without_ranked_captures",
-      "count": 82,
+      "count": 80,
       "first_date": "2007-04",
       "last_date": "2025-12",
       "example": "2007-04, 2007-05, 2007-06, 2007-07, 2007-08, 2007-09, 2007-10, 2007-12",
@@ -60,7 +60,7 @@
       "severity": "low",
       "area": "dedupe",
       "issue_type": "duplicate_ranked_rows",
-      "count": 2173,
+      "count": 2221,
       "first_date": "",
       "last_date": "",
       "example": "",
