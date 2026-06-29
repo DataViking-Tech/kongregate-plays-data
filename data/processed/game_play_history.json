@@ -166,6 +166,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140924143015_http_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_1c2d0d053f03de0f.json"
     },
     {
+      "date": "2014-09-24",
+      "game_name": "The Gun Game 2",
+      "game_url": "https://www.kongregate.com/games/Chazsan/the-gun-game-2",
+      "plays_count_observed": 1124224,
+      "favorites_count_observed": 15494,
+      "plays_text": "1,124,224",
+      "favorites_text": "15,494",
+      "metrics_url": "http://www.kongregate.com/games/Chazsan/the-gun-game-2/metrics.json",
+      "capture_timestamp": "20140924122914",
+      "capture_url": "https://web.archive.org/web/20140924122914/http://www.kongregate.com/games/Chazsan/the-gun-game-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140924122914_http_www.kongregate.com_games_Chazsan_the-gun-game-2_metrics.json_dcd6125664a51b79.json"
+    },
+    {
+      "date": "2014-09-24",
+      "game_name": "The Gun Game 2",
+      "game_url": "https://www.kongregate.com/games/Chazsan/the-gun-game-2",
+      "plays_count_observed": 1124224,
+      "favorites_count_observed": 15494,
+      "plays_text": "1,124,224",
+      "favorites_text": "15,494",
+      "metrics_url": "http://www.kongregate.com/games/Chazsan/the-gun-game-2/metrics.json",
+      "capture_timestamp": "20140924122915",
+      "capture_url": "https://web.archive.org/web/20140924122915/http://www.kongregate.com/games/Chazsan/the-gun-game-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140924122915_http_www.kongregate.com_games_Chazsan_the-gun-game-2_metrics.json_4156074f52c4db27.json"
+    },
+    {
       "date": "2014-10-09",
       "game_name": "Mud and Blood 2",
       "game_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2",
@@ -2161,6 +2191,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171124231755_http_www.kongregate.com_games_jetspice_grindcraft_metrics.json_d123b60954970c73.json"
     },
     {
+      "date": "2017-12-19",
+      "game_name": "The Last Stand: Union ...",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city",
+      "plays_count_observed": 4892956,
+      "favorites_count_observed": 70607,
+      "plays_text": "4,892,956",
+      "favorites_text": "70,607",
+      "metrics_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "capture_timestamp": "20171219005551",
+      "capture_url": "https://web.archive.org/web/20171219005551/http://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171219005551_http_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_92f3c2588bfe9b43.json"
+    },
+    {
+      "date": "2017-12-19",
+      "game_name": "The Last Stand: Union ...",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city",
+      "plays_count_observed": 4892956,
+      "favorites_count_observed": 70607,
+      "plays_text": "4,892,956",
+      "favorites_text": "70,607",
+      "metrics_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "capture_timestamp": "20171219010450",
+      "capture_url": "https://web.archive.org/web/20171219010450/http://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171219010450_http_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_995cdbce869dcc62.json"
+    },
+    {
       "date": "2018-01-08",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
@@ -3181,6 +3241,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190917170430_http_www.kongregate.com_games_robscherer123_helmet-heroes_metrics.json_3a537db731aa20d5.json"
     },
     {
+      "date": "2019-09-27",
+      "game_name": "The Last Stand: Union ...",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city",
+      "plays_count_observed": 5138099,
+      "favorites_count_observed": 73287,
+      "plays_text": "5,138,099",
+      "favorites_text": "73,287",
+      "metrics_url": "https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "capture_timestamp": "20190927193704",
+      "capture_url": "https://web.archive.org/web/20190927193704/https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190927193704_https_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_1b113bdf4f4bcd63.json"
+    },
+    {
       "date": "2019-09-28",
       "game_name": "Cactus McCoy 2",
       "game_url": "https://www.kongregate.com/games/FliplineStudios/cactus-mccoy-2",
@@ -3344,6 +3419,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191005060430_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_94ffb45197df8e7a.json"
+    },
+    {
+      "date": "2019-10-09",
+      "game_name": "The Last Stand: Union ...",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city",
+      "plays_count_observed": 5141464,
+      "favorites_count_observed": 73332,
+      "plays_text": "5,141,464",
+      "favorites_text": "73,332",
+      "metrics_url": "https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "capture_timestamp": "20191009150240",
+      "capture_url": "https://web.archive.org/web/20191009150240/https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191009150240_https_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_da4c22c2db50b18e.json"
     },
     {
       "date": "2019-10-11",
@@ -3644,6 +3734,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183755_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_343000a99f2bf94f.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "The Last Stand: Union ...",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-union-city",
+      "plays_count_observed": 5143930,
+      "favorites_count_observed": 73358,
+      "plays_text": "5,143,930",
+      "favorites_text": "73,358",
+      "metrics_url": "https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "capture_timestamp": "20191017183838",
+      "capture_url": "https://web.archive.org/web/20191017183838/https://www.kongregate.com/games/ConArtists/the-last-stand-union-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183838_https_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_c1b5c5b38ba5bd92.json"
     },
     {
       "date": "2019-10-17",
@@ -5176,6 +5281,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_Avaloid_tap-adventure_metrics.json_2a59c3673c246bf6.json"
     },
     {
+      "date": "2019-12-15",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9034179,
+      "favorites_count_observed": 21746,
+      "plays_text": "9,034,179",
+      "favorites_text": "21,746",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20191215034653",
+      "capture_url": "https://web.archive.org/web/20191215034653/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034653_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_04f70bcf416507ce.json"
+    },
+    {
       "date": "2020-01-01",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -5476,6 +5596,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214038_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_f041f6aa951a06c7.json"
     },
     {
+      "date": "2020-01-08",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9087225,
+      "favorites_count_observed": 21799,
+      "plays_text": "9,087,225",
+      "favorites_text": "21,799",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20200108214044",
+      "capture_url": "https://web.archive.org/web/20200108214044/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214044_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_b58481422fbfa7b6.json"
+    },
+    {
       "date": "2020-01-16",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -5609,6 +5744,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045140_http_www.kongregate.com_games_tfender_contract-wars_metrics.json_1a42d84f21732534.json"
+    },
+    {
+      "date": "2020-01-21",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 3146,
+      "favorites_count_observed": 121,
+      "plays_text": "3,146",
+      "favorites_text": "121",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200121045139",
+      "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_3dfb6af0553d9944.json"
     },
     {
       "date": "2020-01-21",
@@ -5822,6 +5972,21 @@
     },
     {
       "date": "2020-02-04",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 108922,
+      "favorites_count_observed": 1953,
+      "plays_text": "108,922",
+      "favorites_text": "1,953",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200204024510",
+      "capture_url": "https://web.archive.org/web/20200204024510/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200204024510_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_41e39dfdcebe4d27.json"
+    },
+    {
+      "date": "2020-02-04",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 41262159,
@@ -6029,6 +6194,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200310024803_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_974bb1c92acfb9c8.json"
+    },
+    {
+      "date": "2020-03-20",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 313657,
+      "favorites_count_observed": 3940,
+      "plays_text": "313,657",
+      "favorites_text": "3,940",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200320021915",
+      "capture_url": "https://web.archive.org/web/20200320021915/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200320021915_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_1c20e1a878f23910.json"
+    },
+    {
+      "date": "2020-03-23",
+      "game_name": "Bloons Super Monkey",
+      "game_url": "https://www.kongregate.com/en/games/Ninjakiwi/bloons-super-monkey",
+      "plays_count_observed": 1764268,
+      "favorites_count_observed": 19422,
+      "plays_text": "1,764,268",
+      "favorites_text": "19,422",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "capture_timestamp": "20200323070014",
+      "capture_url": "https://web.archive.org/web/20200323070014/https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200323070014_https_www.kongregate.com_games_Ninjakiwi_bloons-super-monkey_metrics.json_331034c2486a38cd.json"
     },
     {
       "date": "2020-03-23",
@@ -6392,6 +6587,21 @@
     },
     {
       "date": "2020-04-15",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 409725,
+      "favorites_count_observed": 4821,
+      "plays_text": "409,725",
+      "favorites_text": "4,821",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200415181416",
+      "capture_url": "https://web.archive.org/web/20200415181416/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200415181416_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_1fc432ddf90f50ff.json"
+    },
+    {
+      "date": "2020-04-15",
       "game_name": "There is no game",
       "game_url": "https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game",
       "plays_count_observed": 1237967,
@@ -6467,6 +6677,21 @@
     },
     {
       "date": "2020-04-18",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 423231,
+      "favorites_count_observed": 4941,
+      "plays_text": "423,231",
+      "favorites_text": "4,941",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200418180330",
+      "capture_url": "https://web.archive.org/web/20200418180330/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200418180330_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_030d76407481da90.json"
+    },
+    {
+      "date": "2020-04-18",
       "game_name": "Infectonator 2",
       "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
       "plays_count_observed": 6088739,
@@ -6539,6 +6764,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200421022604_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_db8fd18e25476539.json"
+    },
+    {
+      "date": "2020-04-21",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 432810,
+      "favorites_count_observed": 5036,
+      "plays_text": "432,810",
+      "favorites_text": "5,036",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200421022603",
+      "capture_url": "https://web.archive.org/web/20200421022603/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200421022603_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_75f08f709e7fcfb4.json"
     },
     {
       "date": "2020-04-21",
@@ -6659,6 +6899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200424200122_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_c460b129bb85f1f0.json"
+    },
+    {
+      "date": "2020-04-24",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 446662,
+      "favorites_count_observed": 5155,
+      "plays_text": "446,662",
+      "favorites_text": "5,155",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200424200125",
+      "capture_url": "https://web.archive.org/web/20200424200125/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200424200125_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_e54e985271019190.json"
     },
     {
       "date": "2020-04-24",
@@ -6809,6 +7064,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132148_https_www.kongregate.com_games_GeronimoApps_dead-land-survival_metrics.json_e67c7a529491663c.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 455983,
+      "favorites_count_observed": 5246,
+      "plays_text": "455,983",
+      "favorites_text": "5,246",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200427132157",
+      "capture_url": "https://web.archive.org/web/20200427132157/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132157_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_15e9c5c73dfdb7ab.json"
     },
     {
       "date": "2020-04-27",
@@ -7052,6 +7322,21 @@
     },
     {
       "date": "2020-04-29",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 465015,
+      "favorites_count_observed": 5338,
+      "plays_text": "465,015",
+      "favorites_text": "5,338",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200429125445",
+      "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_38cf8a4aaadddbb3.json"
+    },
+    {
+      "date": "2020-04-29",
       "game_name": "Factory Balls forever",
       "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
       "plays_count_observed": 136655,
@@ -7289,6 +7574,81 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125446_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_4f69e9adfc2a0567.json"
+    },
+    {
+      "date": "2020-04-30",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 468127,
+      "favorites_count_observed": 5371,
+      "plays_text": "468,127",
+      "favorites_text": "5,371",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200430040406",
+      "capture_url": "https://web.archive.org/web/20200430040406/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200430040406_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_d480579f4c7ebb96.json"
+    },
+    {
+      "date": "2020-05-07",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 508903,
+      "favorites_count_observed": 5746,
+      "plays_text": "508,903",
+      "favorites_text": "5,746",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200507105114",
+      "capture_url": "https://web.archive.org/web/20200507105114/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200507105114_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_7f2b546ac01b69d0.json"
+    },
+    {
+      "date": "2020-05-08",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 512447,
+      "favorites_count_observed": 5775,
+      "plays_text": "512,447",
+      "favorites_text": "5,775",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200508154757",
+      "capture_url": "https://web.archive.org/web/20200508154757/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200508154757_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_8819bcaea7aacf08.json"
+    },
+    {
+      "date": "2020-05-08",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 512450,
+      "favorites_count_observed": 5775,
+      "plays_text": "512,450",
+      "favorites_text": "5,775",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200508154805",
+      "capture_url": "https://web.archive.org/web/20200508154805/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200508154805_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_4e1117644a738b6b.json"
+    },
+    {
+      "date": "2020-05-08",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 512879,
+      "favorites_count_observed": 5779,
+      "plays_text": "512,879",
+      "favorites_text": "5,779",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20200508183035",
+      "capture_url": "https://web.archive.org/web/20200508183035/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200508183035_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_05c7a80d278dc72f.json"
     },
     {
       "date": "2020-05-24",
@@ -8222,6 +8582,21 @@
     },
     {
       "date": "2020-07-16",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9538655,
+      "favorites_count_observed": 22512,
+      "plays_text": "9,538,655",
+      "favorites_text": "22,512",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20200716172907",
+      "capture_url": "https://web.archive.org/web/20200716172907/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172907_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_9b3eba8bb0cbb413.json"
+    },
+    {
+      "date": "2020-07-16",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 71991,
@@ -8819,6 +9194,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131130_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_541ce38d7d50c66a.json"
+    },
+    {
+      "date": "2020-10-15",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9710553,
+      "favorites_count_observed": 22724,
+      "plays_text": "9,710,553",
+      "favorites_text": "22,724",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20201015131231",
+      "capture_url": "https://web.archive.org/web/20201015131231/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131231_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_e5f78765402065bf.json"
     },
     {
       "date": "2020-10-15",
@@ -9959,6 +10349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201105202546_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_7538952e63c334d0.json"
+    },
+    {
+      "date": "2020-11-06",
+      "game_name": "Bloons Super Monkey",
+      "game_url": "https://www.kongregate.com/en/games/Ninjakiwi/bloons-super-monkey",
+      "plays_count_observed": 1771642,
+      "favorites_count_observed": 19459,
+      "plays_text": "1,771,642",
+      "favorites_text": "19,459",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "capture_timestamp": "20201106031036",
+      "capture_url": "https://web.archive.org/web/20201106031036/https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201106031036_https_www.kongregate.com_games_Ninjakiwi_bloons-super-monkey_metrics.json_f0fddfad9bd94d58.json"
     },
     {
       "date": "2020-11-07",
@@ -13172,6 +13577,21 @@
     },
     {
       "date": "2021-04-04",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 823712,
+      "favorites_count_observed": 8556,
+      "plays_text": "823,712",
+      "favorites_text": "8,556",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20210404001432",
+      "capture_url": "https://web.archive.org/web/20210404001432/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210404001432_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_410f6b1067475d8f.json"
+    },
+    {
+      "date": "2021-04-04",
       "game_name": "Sonny",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny",
       "plays_count_observed": 10658919,
@@ -13439,6 +13859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513075927_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_ad16aff2707f88fc.json"
+    },
+    {
+      "date": "2021-05-13",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 887321,
+      "favorites_count_observed": 8863,
+      "plays_text": "887,321",
+      "favorites_text": "8,863",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20210513080038",
+      "capture_url": "https://web.archive.org/web/20210513080038/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080038_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_aed33351c5d7934b.json"
     },
     {
       "date": "2021-05-13",
@@ -13892,6 +14327,21 @@
     },
     {
       "date": "2021-05-24",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 892124,
+      "favorites_count_observed": 8882,
+      "plays_text": "892,124",
+      "favorites_text": "8,882",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20210524073228",
+      "capture_url": "https://web.archive.org/web/20210524073228/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073228_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_ab843eb5bfa24383.json"
+    },
+    {
+      "date": "2021-05-24",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1530053,
@@ -14267,6 +14717,21 @@
     },
     {
       "date": "2021-06-01",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 895297,
+      "favorites_count_observed": 8899,
+      "plays_text": "895,297",
+      "favorites_text": "8,899",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20210601134317",
+      "capture_url": "https://web.archive.org/web/20210601134317/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210601134317_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_aabeebc577ca863a.json"
+    },
+    {
+      "date": "2021-06-01",
       "game_name": "Infectonator : World D...",
       "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-world-dominator",
       "plays_count_observed": 8948326,
@@ -14324,6 +14789,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210601135256_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_a07eb96d399a062c.json"
+    },
+    {
+      "date": "2021-06-02",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 895544,
+      "favorites_count_observed": 8898,
+      "plays_text": "895,544",
+      "favorites_text": "8,898",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20210602034901",
+      "capture_url": "https://web.archive.org/web/20210602034901/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210602034901_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_b7e5bf5ae8ba683e.json"
     },
     {
       "date": "2021-06-02",
@@ -14939,6 +15419,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210724150055_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_c2c5464b45330104.json"
+    },
+    {
+      "date": "2021-07-25",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 354727,
+      "favorites_count_observed": 1416,
+      "plays_text": "354,727",
+      "favorites_text": "1,416",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20210725225237",
+      "capture_url": "https://web.archive.org/web/20210725225237/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210725225237_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_e40ec24ddfb1a8ea.json"
+    },
+    {
+      "date": "2021-07-26",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 354733,
+      "favorites_count_observed": 1416,
+      "plays_text": "354,733",
+      "favorites_text": "1,416",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20210726002154",
+      "capture_url": "https://web.archive.org/web/20210726002154/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210726002154_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_c88c0510b99cf954.json"
     },
     {
       "date": "2021-08-06",
@@ -16112,6 +16622,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 951013,
+      "favorites_count_observed": 9149,
+      "plays_text": "951,013",
+      "favorites_text": "9,149",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20211030182724",
+      "capture_url": "https://web.archive.org/web/20211030182724/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182724_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_85697e4bd2a2854b.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 252156,
@@ -17012,6 +17537,21 @@
     },
     {
       "date": "2021-11-18",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 957908,
+      "favorites_count_observed": 9184,
+      "plays_text": "957,908",
+      "favorites_text": "9,184",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20211118222521",
+      "capture_url": "https://web.archive.org/web/20211118222521/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118222521_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_31f9d3ed2cce7059.json"
+    },
+    {
+      "date": "2021-11-18",
       "game_name": "Gravitee Wars Online",
       "game_url": "https://www.kongregate.com/en/games/FunkyPear/gravitee-wars-online",
       "plays_count_observed": 2141782,
@@ -17684,6 +18224,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111348_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_80e3b26e6c107f4f.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 958388,
+      "favorites_count_observed": 9185,
+      "plays_text": "958,388",
+      "favorites_text": "9,185",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20211120111416",
+      "capture_url": "https://web.archive.org/web/20211120111416/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111416_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_55ab57a0c9281d11.json"
     },
     {
       "date": "2021-11-20",
@@ -18467,6 +19022,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 973897,
+      "favorites_count_observed": 9228,
+      "plays_text": "973,897",
+      "favorites_text": "9,228",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20220111080146",
+      "capture_url": "https://web.archive.org/web/20220111080146/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080146_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_7f98f8e39b3a417d.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 260382,
@@ -19112,6 +19682,21 @@
     },
     {
       "date": "2022-02-15",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 984578,
+      "favorites_count_observed": 9264,
+      "plays_text": "984,578",
+      "favorites_text": "9,264",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20220215172549",
+      "capture_url": "https://web.archive.org/web/20220215172549/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172549_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_616e466b921fc8f2.json"
+    },
+    {
+      "date": "2022-02-15",
       "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 264188,
@@ -19471,6 +20056,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220223012446_http_www.kongregate.com_games_kingk_dream-world_metrics.json_6401d33b29500a94.json"
     },
     {
+      "date": "2022-02-26",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 895293,
+      "favorites_count_observed": 9005,
+      "plays_text": "895,293",
+      "favorites_text": "9,005",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20220226152750",
+      "capture_url": "https://web.archive.org/web/20220226152750/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220226152750_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_f93a316d85a86259.json"
+    },
+    {
       "date": "2022-03-02",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -19814,6 +20414,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042519_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_f4f76d97ba6830fa.json"
+    },
+    {
+      "date": "2022-04-01",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 997253,
+      "favorites_count_observed": 9303,
+      "plays_text": "997,253",
+      "favorites_text": "9,303",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20220401042632",
+      "capture_url": "https://web.archive.org/web/20220401042632/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042632_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_1a9509c686105434.json"
     },
     {
       "date": "2022-04-01",
@@ -20971,6 +21586,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220601152818_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_87dbd41c2ff8b814.json"
     },
     {
+      "date": "2022-06-01",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 380329,
+      "favorites_count_observed": 1479,
+      "plays_text": "380,329",
+      "favorites_text": "1,479",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20220601084201",
+      "capture_url": "https://web.archive.org/web/20220601084201/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220601084201_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_d517b4a0c0ae9c77.json"
+    },
+    {
       "date": "2022-06-02",
       "game_name": "Dino Run : Marathon of...",
       "game_url": "http://www.kongregate.com/games/pixeljamgames/dino-run-marathon-of-doom",
@@ -21436,6 +22066,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706043135_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_0288d273d0c327e5.json"
     },
     {
+      "date": "2022-07-16",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1022863,
+      "favorites_count_observed": 9417,
+      "plays_text": "1,022,863",
+      "favorites_text": "9,417",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20220716161323",
+      "capture_url": "https://web.archive.org/web/20220716161323/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220716161323_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_bb7ec576e2dcbb43.json"
+    },
+    {
       "date": "2022-08-06",
       "game_name": "Wonderputt",
       "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
@@ -21449,6 +22094,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220806105309_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_968d98e92975cd0e.json"
+    },
+    {
+      "date": "2022-08-14",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 394894,
+      "favorites_count_observed": 1494,
+      "plays_text": "394,894",
+      "favorites_text": "1,494",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20220814162310",
+      "capture_url": "https://web.archive.org/web/20220814162310/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220814162310_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_d07d0ae6c3a0b8e3.json"
+    },
+    {
+      "date": "2022-08-14",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 394905,
+      "favorites_count_observed": 1494,
+      "plays_text": "394,905",
+      "favorites_text": "1,494",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20220814190519",
+      "capture_url": "https://web.archive.org/web/20220814190519/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220814190519_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_aea59799a9484d8a.json"
     },
     {
       "date": "2022-08-15",
@@ -21614,6 +22289,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220831061223_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_661cbe5ee825d858.json"
+    },
+    {
+      "date": "2022-08-31",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1032793,
+      "favorites_count_observed": 2864,
+      "plays_text": "1,032,793",
+      "favorites_text": "2,864",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20220831125226",
+      "capture_url": "https://web.archive.org/web/20220831125226/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220831125226_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_36a2fa8fb8e9042d.json"
     },
     {
       "date": "2022-08-31",
@@ -22441,6 +23131,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140519_https_www.kongregate.com_games_siread_new-star-soccer_metrics.json_0765e31967747d60.json"
     },
     {
+      "date": "2022-10-26",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1045851,
+      "favorites_count_observed": 9505,
+      "plays_text": "1,045,851",
+      "favorites_text": "9,505",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221026025354",
+      "capture_url": "https://web.archive.org/web/20221026025354/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221026025354_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_5fb346bb4e3c0a12.json"
+    },
+    {
       "date": "2022-10-27",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -22544,6 +23249,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221104231032_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_9e55e8325cdf5304.json"
+    },
+    {
+      "date": "2022-11-04",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 399837,
+      "favorites_count_observed": 1504,
+      "plays_text": "399,837",
+      "favorites_text": "1,504",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20221104231803",
+      "capture_url": "https://web.archive.org/web/20221104231803/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221104231803_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_3aa087c7ffdd8dbf.json"
+    },
+    {
+      "date": "2022-11-11",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1049264,
+      "favorites_count_observed": 9514,
+      "plays_text": "1,049,264",
+      "favorites_text": "9,514",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221111043727",
+      "capture_url": "https://web.archive.org/web/20221111043727/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221111043727_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_2a0e4e7a5fe62ec5.json"
     },
     {
       "date": "2022-11-14",
@@ -22666,6 +23401,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221119171522_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_772ec30d4ec1eba1.json"
     },
     {
+      "date": "2022-11-20",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1051141,
+      "favorites_count_observed": 9516,
+      "plays_text": "1,051,141",
+      "favorites_text": "9,516",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221120055711",
+      "capture_url": "https://web.archive.org/web/20221120055711/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221120055711_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_f54db2162f88cd5e.json"
+    },
+    {
       "date": "2022-11-21",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -22709,6 +23459,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221129164045_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_91256b94db1490c4.json"
+    },
+    {
+      "date": "2022-12-02",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1053779,
+      "favorites_count_observed": 9526,
+      "plays_text": "1,053,779",
+      "favorites_text": "9,526",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221202180728",
+      "capture_url": "https://web.archive.org/web/20221202180728/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202180728_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_f50e2bcd21342f39.json"
+    },
+    {
+      "date": "2022-12-02",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1053856,
+      "favorites_count_observed": 9527,
+      "plays_text": "1,053,856",
+      "favorites_text": "9,527",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221202235857",
+      "capture_url": "https://web.archive.org/web/20221202235857/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202235857_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_b654b755493afc63.json"
     },
     {
       "date": "2022-12-02",
@@ -22799,6 +23579,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125809_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_85264955a527128b.json"
+    },
+    {
+      "date": "2022-12-03",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1053985,
+      "favorites_count_observed": 9527,
+      "plays_text": "1,053,985",
+      "favorites_text": "9,527",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221203125950",
+      "capture_url": "https://web.archive.org/web/20221203125950/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125950_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_a16895564e2dc429.json"
     },
     {
       "date": "2022-12-03",
@@ -23207,6 +24002,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 10687944,
+      "favorites_count_observed": 23412,
+      "plays_text": "10,687,944",
+      "favorites_text": "23,412",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20221204231949",
+      "capture_url": "https://web.archive.org/web/20221204231949/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231949_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_7443cb356fa7750b.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Tyrant Unleashed",
       "game_url": "http://www.kongregate.com/games/synapticon/tyrant-unleashed-web",
       "plays_count_observed": 13214005,
@@ -23294,6 +24104,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062819_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f5122ca08b598e4.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1054429,
+      "favorites_count_observed": 9531,
+      "plays_text": "1,054,429",
+      "favorites_text": "9,531",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20221205062747",
+      "capture_url": "https://web.archive.org/web/20221205062747/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062747_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_35d1a0f590dbf1b7.json"
     },
     {
       "date": "2022-12-05",
@@ -24136,6 +24961,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230119182006_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_07d488b808ae4b8e.json"
     },
     {
+      "date": "2023-01-20",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 10732962,
+      "favorites_count_observed": 23465,
+      "plays_text": "10,732,962",
+      "favorites_text": "23,465",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20230120124252",
+      "capture_url": "https://web.archive.org/web/20230120124252/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230120124252_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_34df42d3b2df7430.json"
+    },
+    {
       "date": "2023-01-21",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -24286,6 +25126,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230131165042_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_e9e711ead8565c8d.json"
     },
     {
+      "date": "2023-02-01",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1066770,
+      "favorites_count_observed": 9598,
+      "plays_text": "1,066,770",
+      "favorites_text": "9,598",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20230201223915",
+      "capture_url": "https://web.archive.org/web/20230201223915/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230201223915_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_00b88d73cea14cd3.json"
+    },
+    {
       "date": "2023-02-03",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -24389,6 +25244,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204051532_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_96d59c56d527a563.json"
+    },
+    {
+      "date": "2023-02-04",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 10748769,
+      "favorites_count_observed": 23480,
+      "plays_text": "10,748,769",
+      "favorites_text": "23,480",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20230204215852",
+      "capture_url": "https://web.archive.org/web/20230204215852/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204215852_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_e1a0df10963d105c.json"
     },
     {
       "date": "2023-02-06",
@@ -25637,6 +26507,21 @@
     },
     {
       "date": "2023-03-29",
+      "game_name": "Bloons Super Monkey",
+      "game_url": "https://www.kongregate.com/en/games/Ninjakiwi/bloons-super-monkey",
+      "plays_count_observed": 1790561,
+      "favorites_count_observed": 19218,
+      "plays_text": "1,790,561",
+      "favorites_text": "19,218",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "capture_timestamp": "20230329172929",
+      "capture_url": "https://web.archive.org/web/20230329172929/https://www.kongregate.com/games/Ninjakiwi/bloons-super-monkey/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329172929_https_www.kongregate.com_games_Ninjakiwi_bloons-super-monkey_metrics.json_f1d90b8a0eabb2cc.json"
+    },
+    {
+      "date": "2023-03-29",
       "game_name": "Bloons Tower Defense 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
       "plays_count_observed": 16307520,
@@ -26836,6 +27721,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230724222724_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_fcf08724ddc1f0f8.json"
     },
     {
+      "date": "2023-07-24",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 414283,
+      "favorites_count_observed": 1525,
+      "plays_text": "414,283",
+      "favorites_text": "1,525",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20230724222006",
+      "capture_url": "https://web.archive.org/web/20230724222006/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230724222006_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_c2160c116110a03b.json"
+    },
+    {
       "date": "2023-07-26",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
@@ -27794,6 +28694,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913211006_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_128463f5fc88bb31.json"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "Epic Battle Fantasy 5",
+      "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
+      "plays_count_observed": 1092713,
+      "favorites_count_observed": 9712,
+      "plays_text": "1,092,713",
+      "favorites_text": "9,712",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "capture_timestamp": "20230914034832",
+      "capture_url": "https://web.archive.org/web/20230914034832/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914034832_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_2161f02738de1d22.json"
     },
     {
       "date": "2023-09-14",
@@ -28921,6 +29836,51 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231114190413_https_www.kongregate.com_games_terra0nova_aground_metrics.json_d28451ef2cf08987.json"
     },
     {
+      "date": "2023-11-14",
+      "game_name": "When he jump, he go up like this",
+      "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
+      "plays_count_observed": 421748,
+      "favorites_count_observed": 1536,
+      "plays_text": "421,748",
+      "favorites_text": "1,536",
+      "metrics_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "capture_timestamp": "20231114174354",
+      "capture_url": "https://web.archive.org/web/20231114174354/https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231114174354_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_3ff51b67f6126d3a.json"
+    },
+    {
+      "date": "2023-11-17",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 980777,
+      "favorites_count_observed": 9288,
+      "plays_text": "980,777",
+      "favorites_text": "9,288",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20231117210843",
+      "capture_url": "https://web.archive.org/web/20231117210843/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231117210843_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_86b9beebd6c16197.json"
+    },
+    {
+      "date": "2023-11-17",
+      "game_name": "klocki",
+      "game_url": "https://www.kongregate.com/games/targaciej/klocki",
+      "plays_count_observed": 732983,
+      "favorites_count_observed": 3747,
+      "plays_text": "732,983",
+      "favorites_text": "3,747",
+      "metrics_url": "https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "capture_timestamp": "20231117192825",
+      "capture_url": "https://web.archive.org/web/20231117192825/https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231117192825_https_www.kongregate.com_games_targaciej_klocki_metrics.json_e249a66aaf289a19.json"
+    },
+    {
       "date": "2023-11-17",
       "game_name": "Tangerine Tycoon",
       "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
@@ -28949,6 +29909,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231117193713_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_f57e980f545bbb05.json"
+    },
+    {
+      "date": "2023-11-19",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 982602,
+      "favorites_count_observed": 9293,
+      "plays_text": "982,602",
+      "favorites_text": "9,293",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20231119144153",
+      "capture_url": "https://web.archive.org/web/20231119144153/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231119144153_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_bc29c0b0d070d26b.json"
+    },
+    {
+      "date": "2023-11-19",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 982879,
+      "favorites_count_observed": 9293,
+      "plays_text": "982,879",
+      "favorites_text": "9,293",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20231119160501",
+      "capture_url": "https://web.archive.org/web/20231119160501/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231119160501_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_1a1be6a1e102ee5d.json"
     },
     {
       "date": "2023-11-19",
@@ -29461,6 +30451,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217011658_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_d9326364d297d431.json"
     },
     {
+      "date": "2023-12-17",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 10978330,
+      "favorites_count_observed": 23681,
+      "plays_text": "10,978,330",
+      "favorites_text": "23,681",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20231217011650",
+      "capture_url": "https://web.archive.org/web/20231217011650/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217011650_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_c2765d958e82cfdf.json"
+    },
+    {
       "date": "2023-12-18",
       "game_name": "GrindCraft",
       "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
@@ -29939,6 +30944,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240109231022_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_6c06d38245f4c651.json"
+    },
+    {
+      "date": "2024-01-09",
+      "game_name": "Gragyriss, Captor of Princesses",
+      "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
+      "plays_count_observed": 987625,
+      "favorites_count_observed": 9325,
+      "plays_text": "987,625",
+      "favorites_text": "9,325",
+      "metrics_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "capture_timestamp": "20240109203548",
+      "capture_url": "https://web.archive.org/web/20240109203548/https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240109203548_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_901d88d363e58464.json"
     },
     {
       "date": "2024-01-09",
@@ -30599,6 +31619,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119175919_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_530e9b88b7f1b789.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "klocki",
+      "game_url": "https://www.kongregate.com/games/targaciej/klocki",
+      "plays_count_observed": 734212,
+      "favorites_count_observed": 3756,
+      "plays_text": "734,212",
+      "favorites_text": "3,756",
+      "metrics_url": "https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "capture_timestamp": "20240119181839",
+      "capture_url": "https://web.archive.org/web/20240119181839/https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119181839_https_www.kongregate.com_games_targaciej_klocki_metrics.json_bb23179ee01b709e.json"
     },
     {
       "date": "2024-01-19",
@@ -32087,6 +33122,21 @@
     },
     {
       "date": "2024-02-22",
+      "game_name": "klocki",
+      "game_url": "https://www.kongregate.com/games/targaciej/klocki",
+      "plays_count_observed": 734914,
+      "favorites_count_observed": 3757,
+      "plays_text": "734,914",
+      "favorites_text": "3,757",
+      "metrics_url": "https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "capture_timestamp": "20240222183502",
+      "capture_url": "https://web.archive.org/web/20240222183502/https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222183502_https_www.kongregate.com_games_targaciej_klocki_metrics.json_a6de271f69f07b81.json"
+    },
+    {
+      "date": "2024-02-22",
       "game_name": "Learn to Fly",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly",
       "plays_count_observed": 12357519,
@@ -33046,6 +34096,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240331135248_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_eed2fe0178170148.json"
     },
     {
+      "date": "2024-04-03",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 11048242,
+      "favorites_count_observed": 23761,
+      "plays_text": "11,048,242",
+      "favorites_text": "23,761",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20240403134230",
+      "capture_url": "https://web.archive.org/web/20240403134230/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240403134230_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_ac5c9a1db540f6b7.json"
+    },
+    {
       "date": "2024-04-04",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -33539,6 +34604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240505140811_https_www.kongregate.com_games_Zamol_the-black-box_metrics.json_a639e1ac6e75d4f1.json"
+    },
+    {
+      "date": "2024-05-05",
+      "game_name": "Trimps",
+      "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 11072401,
+      "favorites_count_observed": 23785,
+      "plays_text": "11,072,401",
+      "favorites_text": "23,785",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20240505140801",
+      "capture_url": "https://web.archive.org/web/20240505140801/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240505140801_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_4061c0795e8bcaec.json"
     },
     {
       "date": "2024-05-06",
@@ -34771,6 +35851,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240801142634_https_www.kongregate.com_games_kingk_dream-world_metrics.json_f2e38553e2d10171.json"
     },
     {
+      "date": "2024-08-01",
+      "game_name": "klocki",
+      "game_url": "https://www.kongregate.com/games/targaciej/klocki",
+      "plays_count_observed": 738497,
+      "favorites_count_observed": 3774,
+      "plays_text": "738,497",
+      "favorites_text": "3,774",
+      "metrics_url": "https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "capture_timestamp": "20240801202305",
+      "capture_url": "https://web.archive.org/web/20240801202305/https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240801202305_https_www.kongregate.com_games_targaciej_klocki_metrics.json_64f737beda1402f2.json"
+    },
+    {
       "date": "2024-08-02",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -34844,6 +35939,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240803155140_https_www.kongregate.com_games_kingk_dream-world_metrics.json_8fb8140249cb6cde.json"
+    },
+    {
+      "date": "2024-08-03",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1060559,
+      "favorites_count_observed": 2837,
+      "plays_text": "1,060,559",
+      "favorites_text": "2,837",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20240803215702",
+      "capture_url": "https://web.archive.org/web/20240803215702/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240803215702_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_e9eb2cbd41306f07.json"
     },
     {
       "date": "2024-08-04",
@@ -35009,6 +36119,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240810220022_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_f92167c392e6346d.json"
+    },
+    {
+      "date": "2024-08-11",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1060852,
+      "favorites_count_observed": 2838,
+      "plays_text": "1,060,852",
+      "favorites_text": "2,838",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20240811164820",
+      "capture_url": "https://web.archive.org/web/20240811164820/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240811164820_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_2667af22d4ebd7f7.json"
     },
     {
       "date": "2024-08-12",
@@ -35296,6 +36421,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240818225923_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_0801b143a14925c7.json"
     },
     {
+      "date": "2024-08-18",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1061130,
+      "favorites_count_observed": 2839,
+      "plays_text": "1,061,130",
+      "favorites_text": "2,839",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20240818181050",
+      "capture_url": "https://web.archive.org/web/20240818181050/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240818181050_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_6ef7e98f1800a68d.json"
+    },
+    {
       "date": "2024-08-19",
       "game_name": "Elephant Quest",
       "game_url": "http://www.kongregate.com/games/ArmorGames/elephant-quest",
@@ -35309,6 +36449,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819083536_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_91ed89dbf9c303d5.json"
+    },
+    {
+      "date": "2024-08-19",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1061146,
+      "favorites_count_observed": 2839,
+      "plays_text": "1,061,146",
+      "favorites_text": "2,839",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20240819064518",
+      "capture_url": "https://web.archive.org/web/20240819064518/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819064518_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_41019c7e4a589860.json"
     },
     {
       "date": "2024-08-19",
@@ -36676,6 +37831,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241124003004_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4a41fe268e2676ed.json"
     },
     {
+      "date": "2024-11-24",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1071315,
+      "favorites_count_observed": 2857,
+      "plays_text": "1,071,315",
+      "favorites_text": "2,857",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20241124024249",
+      "capture_url": "https://web.archive.org/web/20241124024249/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241124024249_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_fce0eca6acb51f81.json"
+    },
+    {
       "date": "2024-11-29",
       "game_name": "Wonderputt",
       "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
@@ -37396,6 +38566,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250208110846_https_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_224d930b1467d5cb.json"
     },
     {
+      "date": "2025-02-10",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1075791,
+      "favorites_count_observed": 2861,
+      "plays_text": "1,075,791",
+      "favorites_text": "2,861",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20250210192854",
+      "capture_url": "https://web.archive.org/web/20250210192854/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250210192854_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_93b0c61569a9bd69.json"
+    },
+    {
+      "date": "2025-02-11",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1077860,
+      "favorites_count_observed": 2865,
+      "plays_text": "1,077,860",
+      "favorites_text": "2,865",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20250211162504",
+      "capture_url": "https://web.archive.org/web/20250211162504/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250211162504_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_6ca5a42613606154.json"
+    },
+    {
       "date": "2025-02-11",
       "game_name": "Reactor idle",
       "game_url": "https://www.kongregate.com/games/Baldurans/reactor-idle",
@@ -38101,6 +39301,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250415174112_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_08de94c728d1825e.json"
     },
     {
+      "date": "2025-04-15",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1083951,
+      "favorites_count_observed": 2874,
+      "plays_text": "1,083,951",
+      "favorites_text": "2,874",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20250415174014",
+      "capture_url": "https://web.archive.org/web/20250415174014/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250415174014_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_7083feb7dcf74f74.json"
+    },
+    {
       "date": "2025-04-17",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
@@ -38654,6 +39869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250601105442_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_8ab1cbeaf76ff91e.json"
+    },
+    {
+      "date": "2025-06-01",
+      "game_name": "Race Time",
+      "game_url": "https://www.kongregate.com/games/PeopleFun/race-time",
+      "plays_count_observed": 1094309,
+      "favorites_count_observed": 2888,
+      "plays_text": "1,094,309",
+      "favorites_text": "2,888",
+      "metrics_url": "https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "capture_timestamp": "20250601105446",
+      "capture_url": "https://web.archive.org/web/20250601105446/https://www.kongregate.com/games/PeopleFun/race-time/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250601105446_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_0bae351a6c863646.json"
     },
     {
       "date": "2025-06-10",
@@ -39571,6 +40801,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250920220355_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_aaecb64a1c91733e.json"
     },
     {
+      "date": "2025-09-24",
+      "game_name": "klocki",
+      "game_url": "https://www.kongregate.com/games/targaciej/klocki",
+      "plays_count_observed": 747639,
+      "favorites_count_observed": 3807,
+      "plays_text": "747,639",
+      "favorites_text": "3,807",
+      "metrics_url": "https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "capture_timestamp": "20250924081155",
+      "capture_url": "https://web.archive.org/web/20250924081155/https://www.kongregate.com/games/targaciej/klocki/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250924081155_https_www.kongregate.com_games_targaciej_klocki_metrics.json_28cf7d08c47fd6d0.json"
+    },
+    {
       "date": "2025-09-27",
       "game_name": "Reactor Incremental",
       "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
@@ -39779,6 +41024,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251026003932_https_www.kongregate.com_en_games_ArmorGames_crush-the-castle-2_metrics.json_ab527995aeecb856.json"
+    },
+    {
+      "date": "2025-10-28",
+      "game_name": "Everybody Edits",
+      "game_url": "https://www.kongregate.com/en/games/MegaLamb/everybody-edits",
+      "plays_count_observed": 6418759,
+      "favorites_count_observed": 87890,
+      "plays_text": "6,418,759",
+      "favorites_text": "87,890",
+      "metrics_url": "https://www.kongregate.com/en/games/MegaLamb/everybody-edits/metrics.json",
+      "capture_timestamp": "20251028231522",
+      "capture_url": "https://web.archive.org/web/20251028231522/https://www.kongregate.com/en/games/MegaLamb/everybody-edits/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251028231522_https_www.kongregate.com_en_games_MegaLamb_everybody-edits_metrics.json_116e36bcf15a317c.json"
     },
     {
       "date": "2025-10-29",
