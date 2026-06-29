@@ -422,6 +422,36 @@
     },
     {
       "date": "2015-09-18",
+      "game_name": "Epic Battle Fantasy 4",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
+      "plays_count_observed": 5676305,
+      "favorites_count_observed": 65922,
+      "plays_text": "5,676,305",
+      "favorites_text": "65,922",
+      "metrics_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "capture_timestamp": "20150918160708",
+      "capture_url": "https://web.archive.org/web/20150918160708/http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150918160708_http_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_0b2d6ac6882aeb33.json"
+    },
+    {
+      "date": "2015-09-18",
+      "game_name": "Epic Battle Fantasy 4",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
+      "plays_count_observed": 5676305,
+      "favorites_count_observed": 65922,
+      "plays_text": "5,676,305",
+      "favorites_text": "65,922",
+      "metrics_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "capture_timestamp": "20150918160709",
+      "capture_url": "https://web.archive.org/web/20150918160709/http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150918160709_http_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_62a775e8dac987ee.json"
+    },
+    {
+      "date": "2015-09-18",
       "game_name": "The Enchanted Cave 2",
       "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
       "plays_count_observed": 1545521,
@@ -794,6 +824,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160126034726_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_28c908f4c927ab44.json"
+    },
+    {
+      "date": "2016-01-29",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10312830,
+      "favorites_count_observed": 70266,
+      "plays_text": "10,312,830",
+      "favorites_text": "70,266",
+      "metrics_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20160129210349",
+      "capture_url": "https://web.archive.org/web/20160129210349/http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160129210349_http_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_9601a092ba7ee82f.json"
     },
     {
       "date": "2016-02-02",
@@ -2071,6 +2116,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181021003854_http_www.kongregate.com_80_games_gaby_onslaught2_metrics.json_55a9446a0e32ffe0.json"
     },
     {
+      "date": "2018-11-02",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2365707,
+      "favorites_count_observed": 6924,
+      "plays_text": "2,365,707",
+      "favorites_text": "6,924",
+      "metrics_url": "http://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20181102205055",
+      "capture_url": "https://web.archive.org/web/20181102205055/http://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181102205055_http_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_2a9cd9be21e752b0.json"
+    },
+    {
       "date": "2018-11-04",
       "game_name": "Wartune",
       "game_url": "http://www.kongregate.com/games/R2Games/wartune",
@@ -2249,6 +2309,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033040_https_www.kongregate.com_games_mythicowl_hexologic_metrics.json_3ee5ec0466550e81.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Kuja",
+      "game_url": "https://www.kongregate.com/en/games/filthsu/kuja",
+      "plays_count_observed": 421186,
+      "favorites_count_observed": 2897,
+      "plays_text": "421,186",
+      "favorites_text": "2,897",
+      "metrics_url": "https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "capture_timestamp": "20190205032940",
+      "capture_url": "https://web.archive.org/web/20190205032940/https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032940_https_www.kongregate.com_games_filthsu_kuja_metrics.json_44ac2d7c823e0d4b.json"
     },
     {
       "date": "2019-02-05",
@@ -2714,6 +2789,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190928175852_https_www.kongregate.com_games_FliplineStudios_cactus-mccoy-2_metrics.json_301e6eb9e13035d6.json"
+    },
+    {
+      "date": "2019-09-28",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 87813,
+      "favorites_count_observed": 637,
+      "plays_text": "87,813",
+      "favorites_text": "637",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20190928175851",
+      "capture_url": "https://web.archive.org/web/20190928175851/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190928175851_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_2799a7c54278d9db.json"
     },
     {
       "date": "2019-09-28",
@@ -6467,6 +6557,21 @@
     },
     {
       "date": "2020-05-30",
+      "game_name": "Crazy Climber",
+      "game_url": "http://www.kongregate.com/games/richpixel/crazy-climber",
+      "plays_count_observed": 67731,
+      "favorites_count_observed": 210,
+      "plays_text": "67,731",
+      "favorites_text": "210",
+      "metrics_url": "https://www.kongregate.com/games/richpixel/crazy-climber/metrics.json",
+      "capture_timestamp": "20200530022754",
+      "capture_url": "https://web.archive.org/web/20200530022754/https://www.kongregate.com/games/richpixel/crazy-climber/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200530022754_https_www.kongregate.com_games_richpixel_crazy-climber_metrics.json_ecaa6fbd28a363cd.json"
+    },
+    {
+      "date": "2020-05-30",
       "game_name": "Frantic Frigates",
       "game_url": "https://www.kongregate.com/games/BerzerkStudio/frantic-frigates",
       "plays_count_observed": 3168629,
@@ -6494,6 +6599,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070243_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_66f622e3ebcff78f.json"
+    },
+    {
+      "date": "2020-06-21",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 112505,
+      "favorites_count_observed": 811,
+      "plays_text": "112,505",
+      "favorites_text": "811",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200621070256",
+      "capture_url": "https://web.archive.org/web/20200621070256/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070256_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0826fbad85d45278.json"
+    },
+    {
+      "date": "2020-06-21",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 112506,
+      "favorites_count_observed": 811,
+      "plays_text": "112,506",
+      "favorites_text": "811",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200621070324",
+      "capture_url": "https://web.archive.org/web/20200621070324/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070324_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_31e148ca157d8070.json"
+    },
+    {
+      "date": "2020-06-22",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 113536,
+      "favorites_count_observed": 818,
+      "plays_text": "113,536",
+      "favorites_text": "818",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200622071946",
+      "capture_url": "https://web.archive.org/web/20200622071946/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200622071946_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0ae31ef053fcb94c.json"
     },
     {
       "date": "2020-06-22",
@@ -6644,6 +6794,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172621_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_61a08b87f6da858b.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 127520,
+      "favorites_count_observed": 901,
+      "plays_text": "127,520",
+      "favorites_text": "901",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200716172805",
+      "capture_url": "https://web.archive.org/web/20200716172805/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172805_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_7abd1aca6333f526.json"
     },
     {
       "date": "2020-07-16",
@@ -7124,6 +7289,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205246_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_365ded5393925558.json"
+    },
+    {
+      "date": "2020-07-25",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2434813,
+      "favorites_count_observed": 7120,
+      "plays_text": "2,434,813",
+      "favorites_text": "7,120",
+      "metrics_url": "http://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20200725205230",
+      "capture_url": "https://web.archive.org/web/20200725205230/http://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205230_http_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_c2b6af0d6bd0ac00.json"
     },
     {
       "date": "2020-07-25",
@@ -8522,6 +8702,36 @@
     },
     {
       "date": "2020-11-07",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 179562,
+      "favorites_count_observed": 1181,
+      "plays_text": "179,562",
+      "favorites_text": "1,181",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201107014207",
+      "capture_url": "https://web.archive.org/web/20201107014207/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107014207_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_49617a4f86f7a52f.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 179588,
+      "favorites_count_observed": 1181,
+      "plays_text": "179,588",
+      "favorites_text": "1,181",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201107024802",
+      "capture_url": "https://web.archive.org/web/20201107024802/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107024802_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_41e44db3c52aa843.json"
+    },
+    {
+      "date": "2020-11-07",
       "game_name": "GrindCraft",
       "game_url": "http://www.kongregate.com/games/jetspice/grindcraft",
       "plays_count_observed": 1927945,
@@ -8594,6 +8804,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201109104525_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_ef04f1a62c2fd1a4.json"
+    },
+    {
+      "date": "2020-11-10",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 180767,
+      "favorites_count_observed": 1190,
+      "plays_text": "180,767",
+      "favorites_text": "1,190",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201110031124",
+      "capture_url": "https://web.archive.org/web/20201110031124/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201110031124_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_9980907f1a7d24a5.json"
     },
     {
       "date": "2020-11-10",
@@ -10067,6 +10292,21 @@
     },
     {
       "date": "2020-12-30",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10912082,
+      "favorites_count_observed": 74183,
+      "plays_text": "10,912,082",
+      "favorites_text": "74,183",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20201230192846",
+      "capture_url": "https://web.archive.org/web/20201230192846/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201230192846_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_b70f667de9074313.json"
+    },
+    {
+      "date": "2020-12-30",
       "game_name": "The Fancy Pants Adventures",
       "game_url": "http://www.kongregate.com/games/DrNeroCF/the-fancy-pants-adventures",
       "plays_count_observed": 3661925,
@@ -10169,6 +10409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101203900_https_www.kongregate.com_games_Wolfcom_gunblood_metrics.json_506b992a8e82b8d9.json"
+    },
+    {
+      "date": "2021-01-01",
+      "game_name": "Kuja",
+      "game_url": "https://www.kongregate.com/en/games/filthsu/kuja",
+      "plays_count_observed": 475102,
+      "favorites_count_observed": 3072,
+      "plays_text": "475,102",
+      "favorites_text": "3,072",
+      "metrics_url": "https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "capture_timestamp": "20210101203721",
+      "capture_url": "https://web.archive.org/web/20210101203721/https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101203721_https_www.kongregate.com_games_filthsu_kuja_metrics.json_df6c0a132446a5fe.json"
     },
     {
       "date": "2021-01-01",
@@ -10562,6 +10817,21 @@
     },
     {
       "date": "2021-01-08",
+      "game_name": "Kuja",
+      "game_url": "https://www.kongregate.com/en/games/filthsu/kuja",
+      "plays_count_observed": 475413,
+      "favorites_count_observed": 3072,
+      "plays_text": "475,413",
+      "favorites_text": "3,072",
+      "metrics_url": "https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "capture_timestamp": "20210108052418",
+      "capture_url": "https://web.archive.org/web/20210108052418/https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210108052418_https_www.kongregate.com_games_filthsu_kuja_metrics.json_94b651c81126e194.json"
+    },
+    {
+      "date": "2021-01-08",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45392306,
@@ -10934,6 +11204,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210205195902_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_4e7b785d9031222d.json"
+    },
+    {
+      "date": "2021-02-06",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 503741,
+      "favorites_count_observed": 4167,
+      "plays_text": "503,741",
+      "favorites_text": "4,167",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20210206213007",
+      "capture_url": "https://web.archive.org/web/20210206213007/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210206213007_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_e82b79ca9c0a8207.json"
     },
     {
       "date": "2021-02-07",
@@ -12152,6 +12437,21 @@
     },
     {
       "date": "2021-05-29",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 231860,
+      "favorites_count_observed": 1407,
+      "plays_text": "231,860",
+      "favorites_text": "1,407",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20210529205412",
+      "capture_url": "https://web.archive.org/web/20210529205412/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210529205412_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_96e904eadf643b69.json"
+    },
+    {
+      "date": "2021-05-29",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1530770,
@@ -12464,6 +12764,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210621194017_https_www.kongregate.com_games_ArmorGames_sonny_metrics.json_d0484a75ee07643e.json"
+    },
+    {
+      "date": "2021-06-22",
+      "game_name": "New Star Soccer",
+      "game_url": "http://www.kongregate.com/games/siread/new-star-soccer",
+      "plays_count_observed": 15816834,
+      "favorites_count_observed": 45389,
+      "plays_text": "15,816,834",
+      "favorites_text": "45,389",
+      "metrics_url": "http://www.kongregate.com/games/siread/new-star-soccer/metrics.json",
+      "capture_timestamp": "20210622140333",
+      "capture_url": "https://web.archive.org/web/20210622140333/http://www.kongregate.com/games/siread/new-star-soccer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210622140333_http_www.kongregate.com_games_siread_new-star-soccer_metrics.json_8eeb5d8534a14c01.json"
     },
     {
       "date": "2021-06-24",
@@ -13247,6 +13562,21 @@
     },
     {
       "date": "2021-10-21",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 250861,
+      "favorites_count_observed": 1481,
+      "plays_text": "250,861",
+      "favorites_text": "1,481",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20211021110705",
+      "capture_url": "https://web.archive.org/web/20211021110705/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110705_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_7f0505825494855b.json"
+    },
+    {
+      "date": "2021-10-21",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1545149,
@@ -13546,6 +13876,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211023192335_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_b9654f115b1a250e.json"
     },
     {
+      "date": "2021-10-25",
+      "game_name": "Bloons Tower Defense 4",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
+      "plays_count_observed": 16253828,
+      "favorites_count_observed": 107383,
+      "plays_text": "16,253,828",
+      "favorites_text": "107,383",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "capture_timestamp": "20211025012118",
+      "capture_url": "https://web.archive.org/web/20211025012118/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211025012118_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_98d80569fbac5bd0.json"
+    },
+    {
       "date": "2021-10-28",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -13634,6 +13979,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182658_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_9672d95bf5497dcf.json"
+    },
+    {
+      "date": "2021-10-30",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 252156,
+      "favorites_count_observed": 1488,
+      "plays_text": "252,156",
+      "favorites_text": "1,488",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20211030182453",
+      "capture_url": "https://web.archive.org/web/20211030182453/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182453_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_61b596939c6e2520.json"
     },
     {
       "date": "2021-10-30",
@@ -14039,6 +14399,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205155_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_ea4850ffed7edbae.json"
+    },
+    {
+      "date": "2021-10-31",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 252337,
+      "favorites_count_observed": 1490,
+      "plays_text": "252,337",
+      "favorites_text": "1,490",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20211031205429",
+      "capture_url": "https://web.archive.org/web/20211031205429/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205429_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_741d10197e9068c3.json"
     },
     {
       "date": "2021-10-31",
@@ -14462,6 +14837,21 @@
     },
     {
       "date": "2021-11-18",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2141786,
+      "favorites_count_observed": 25824,
+      "plays_text": "2,141,786",
+      "favorites_text": "25,824",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20211118233453",
+      "capture_url": "https://web.archive.org/web/20211118233453/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233453_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_8591e990358500d4.json"
+    },
+    {
+      "date": "2021-11-18",
       "game_name": "Idle Online Universe",
       "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
       "plays_count_observed": 9054255,
@@ -14864,6 +15254,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233345_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_3f35c3e1af38db14.json"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2455619,
+      "favorites_count_observed": 7178,
+      "plays_text": "2,455,619",
+      "favorites_text": "7,178",
+      "metrics_url": "https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20211119084939",
+      "capture_url": "https://web.archive.org/web/20211119084939/https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119084939_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_e32a6e9f1bb61590.json"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2141798,
+      "favorites_count_observed": 25824,
+      "plays_text": "2,141,798",
+      "favorites_text": "25,824",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20211119084512",
+      "capture_url": "https://web.archive.org/web/20211119084512/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119084512_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_7220d9e38cccf48c.json"
     },
     {
       "date": "2021-11-19",
@@ -15272,6 +15692,21 @@
     },
     {
       "date": "2021-11-22",
+      "game_name": "Bloons Tower Defense 4",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
+      "plays_count_observed": 16257774,
+      "favorites_count_observed": 107389,
+      "plays_text": "16,257,774",
+      "favorites_text": "107,389",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "capture_timestamp": "20211122122702",
+      "capture_url": "https://web.archive.org/web/20211122122702/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211122122702_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_2117a7202c461726.json"
+    },
+    {
+      "date": "2021-11-22",
       "game_name": "Sort the Court!",
       "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
       "plays_count_observed": 2379122,
@@ -15659,6 +16094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080042_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_fddb7372d5afebb0.json"
+    },
+    {
+      "date": "2022-01-11",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 260382,
+      "favorites_count_observed": 1527,
+      "plays_text": "260,382",
+      "favorites_text": "1,527",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20220111075834",
+      "capture_url": "https://web.archive.org/web/20220111075834/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111075834_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_c90b5d18e21e9f34.json"
     },
     {
       "date": "2022-01-11",
@@ -16202,6 +16652,21 @@
     },
     {
       "date": "2022-02-15",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 264188,
+      "favorites_count_observed": 1539,
+      "plays_text": "264,188",
+      "favorites_text": "1,539",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20220215172455",
+      "capture_url": "https://web.archive.org/web/20220215172455/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172455_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_018759dcfa6fa332.json"
+    },
+    {
+      "date": "2022-02-15",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1555714,
@@ -16499,6 +16964,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220302192519_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_7e71b8a3a6d41764.json"
+    },
+    {
+      "date": "2022-03-09",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 272004,
+      "favorites_count_observed": 1581,
+      "plays_text": "272,004",
+      "favorites_text": "1,581",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20220309071125",
+      "capture_url": "https://web.archive.org/web/20220309071125/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220309071125_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_fa4183c3366f62d2.json"
     },
     {
       "date": "2022-03-09",
@@ -16817,6 +17297,21 @@
     },
     {
       "date": "2022-04-01",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 274498,
+      "favorites_count_observed": 1599,
+      "plays_text": "274,498",
+      "favorites_text": "1,599",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20220401042825",
+      "capture_url": "https://web.archive.org/web/20220401042825/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042825_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_a3bd60e6a2af19f3.json"
+    },
+    {
+      "date": "2022-04-01",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1559264,
@@ -16829,6 +17324,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042730_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_029b56dd4b4c147b.json"
+    },
+    {
+      "date": "2022-04-01",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2146861,
+      "favorites_count_observed": 25835,
+      "plays_text": "2,146,861",
+      "favorites_text": "25,835",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20220401042724",
+      "capture_url": "https://web.archive.org/web/20220401042724/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042724_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_de656b143c4b51bc.json"
     },
     {
       "date": "2022-04-01",
@@ -17174,6 +17684,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144147_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f295fd05bdec298.json"
+    },
+    {
+      "date": "2022-04-04",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 274788,
+      "favorites_count_observed": 1599,
+      "plays_text": "274,788",
+      "favorites_text": "1,599",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20220404144059",
+      "capture_url": "https://web.archive.org/web/20220404144059/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144059_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_2e19305ae4b35972.json"
     },
     {
       "date": "2022-04-04",
@@ -18452,6 +18977,21 @@
     },
     {
       "date": "2022-09-16",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 343799,
+      "favorites_count_observed": 2041,
+      "plays_text": "343,799",
+      "favorites_text": "2,041",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20220916190751",
+      "capture_url": "https://web.archive.org/web/20220916190751/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220916190751_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_758390a185612d90.json"
+    },
+    {
+      "date": "2022-09-16",
       "game_name": "Cursed Treasure 2",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-2",
       "plays_count_observed": 7103065,
@@ -18856,6 +19396,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140556_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_d4c1eda500de20d3.json"
     },
     {
+      "date": "2022-10-23",
+      "game_name": "New Star Soccer",
+      "game_url": "http://www.kongregate.com/games/siread/new-star-soccer",
+      "plays_count_observed": 15863674,
+      "favorites_count_observed": 44406,
+      "plays_text": "15,863,674",
+      "favorites_text": "44,406",
+      "metrics_url": "https://www.kongregate.com/games/siread/new-star-soccer/metrics.json",
+      "capture_timestamp": "20221023140519",
+      "capture_url": "https://web.archive.org/web/20221023140519/https://www.kongregate.com/games/siread/new-star-soccer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140519_https_www.kongregate.com_games_siread_new-star-soccer_metrics.json_0765e31967747d60.json"
+    },
+    {
       "date": "2022-10-27",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -19067,6 +19622,36 @@
     },
     {
       "date": "2022-12-02",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 315122,
+      "favorites_count_observed": 1685,
+      "plays_text": "315,122",
+      "favorites_text": "1,685",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20221202180817",
+      "capture_url": "https://web.archive.org/web/20221202180817/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202180817_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_ad9a7d7e72a994d5.json"
+    },
+    {
+      "date": "2022-12-02",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 315184,
+      "favorites_count_observed": 1685,
+      "plays_text": "315,184",
+      "favorites_text": "1,685",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20221202235908",
+      "capture_url": "https://web.archive.org/web/20221202235908/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202235908_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_73f29489a3f9716f.json"
+    },
+    {
+      "date": "2022-12-02",
       "game_name": "Knight-errant",
       "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
       "plays_count_observed": 220216,
@@ -19139,6 +19724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125917_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_fe9fffed10968d38.json"
+    },
+    {
+      "date": "2022-12-03",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2155755,
+      "favorites_count_observed": 24399,
+      "plays_text": "2,155,755",
+      "favorites_text": "24,399",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20221203125856",
+      "capture_url": "https://web.archive.org/web/20221203125856/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125856_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_44fbee1774c9b898.json"
     },
     {
       "date": "2022-12-03",
@@ -19319,6 +19919,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231757_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_0e6d825c497b85b2.json"
+    },
+    {
+      "date": "2022-12-04",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 315593,
+      "favorites_count_observed": 1685,
+      "plays_text": "315,593",
+      "favorites_text": "1,685",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20221204231939",
+      "capture_url": "https://web.archive.org/web/20221204231939/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231939_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_cba1be066e237644.json"
     },
     {
       "date": "2022-12-04",
@@ -19559,6 +20174,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062819_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f5122ca08b598e4.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 315657,
+      "favorites_count_observed": 1685,
+      "plays_text": "315,657",
+      "favorites_text": "1,685",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20221205062827",
+      "capture_url": "https://web.archive.org/web/20221205062827/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062827_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_38f1152dcd59b35c.json"
     },
     {
       "date": "2022-12-05",
@@ -19862,6 +20492,21 @@
     },
     {
       "date": "2022-12-06",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 315860,
+      "favorites_count_observed": 1685,
+      "plays_text": "315,860",
+      "favorites_text": "1,685",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20221206134515",
+      "capture_url": "https://web.archive.org/web/20221206134515/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134515_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_42137fe5e141ed76.json"
+    },
+    {
+      "date": "2022-12-06",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1576460,
@@ -19874,6 +20519,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134600_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_67b96346892dec5d.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2155875,
+      "favorites_count_observed": 24399,
+      "plays_text": "2,155,875",
+      "favorites_text": "24,399",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20221206134540",
+      "capture_url": "https://web.archive.org/web/20221206134540/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134540_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_481e390f17a47870.json"
     },
     {
       "date": "2022-12-06",
@@ -20084,6 +20744,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221223061145_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_74fe06797d205c6a.json"
+    },
+    {
+      "date": "2022-12-24",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2465011,
+      "favorites_count_observed": 4861,
+      "plays_text": "2,465,011",
+      "favorites_text": "4,861",
+      "metrics_url": "https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20221224071041",
+      "capture_url": "https://web.archive.org/web/20221224071041/https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221224071041_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_3398d053484f0360.json"
+    },
+    {
+      "date": "2022-12-24",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2465015,
+      "favorites_count_observed": 4861,
+      "plays_text": "2,465,015",
+      "favorites_text": "4,861",
+      "metrics_url": "https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20221224125918",
+      "capture_url": "https://web.archive.org/web/20221224125918/https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221224125918_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_665d65ced47f2a0c.json"
+    },
+    {
+      "date": "2022-12-28",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 675067,
+      "favorites_count_observed": 4548,
+      "plays_text": "675,067",
+      "favorites_text": "4,548",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20221228202405",
+      "capture_url": "https://web.archive.org/web/20221228202405/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221228202405_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_0262f14cfe145013.json"
     },
     {
       "date": "2022-12-31",
@@ -21511,6 +22216,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230321113649_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_2d28f0517b58bdd6.json"
     },
     {
+      "date": "2023-03-24",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 377051,
+      "favorites_count_observed": 2156,
+      "plays_text": "377,051",
+      "favorites_text": "2,156",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20230324154252",
+      "capture_url": "https://web.archive.org/web/20230324154252/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230324154252_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_26dc7da8b80141d5.json"
+    },
+    {
       "date": "2023-03-26",
       "game_name": "Learn to Fly 3",
       "game_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
@@ -21584,6 +22304,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329173044_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_5bb45ca9be3ace7d.json"
+    },
+    {
+      "date": "2023-03-29",
+      "game_name": "Bloons Tower Defense 4",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
+      "plays_count_observed": 16307520,
+      "favorites_count_observed": 105923,
+      "plays_text": "16,307,520",
+      "favorites_text": "105,923",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "capture_timestamp": "20230329173040",
+      "capture_url": "https://web.archive.org/web/20230329173040/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329173040_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_ba110902629fb20b.json"
     },
     {
       "date": "2023-03-29",
@@ -21992,6 +22727,21 @@
     },
     {
       "date": "2023-05-05",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 383667,
+      "favorites_count_observed": 2182,
+      "plays_text": "383,667",
+      "favorites_text": "2,182",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20230505151156",
+      "capture_url": "https://web.archive.org/web/20230505151156/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230505151156_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_97ba5b5cc7fb3685.json"
+    },
+    {
+      "date": "2023-05-05",
       "game_name": "Cursed Treasure 2",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-2",
       "plays_count_observed": 7127974,
@@ -22381,6 +23131,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230620195058_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_4c026ad6961d68ce.json"
     },
     {
+      "date": "2023-06-22",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10938148,
+      "favorites_count_observed": 73134,
+      "plays_text": "10,938,148",
+      "favorites_text": "73,134",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20230622021323",
+      "capture_url": "https://web.archive.org/web/20230622021323/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230622021323_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_2dd2f0797a7ee169.json"
+    },
+    {
+      "date": "2023-06-22",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10938158,
+      "favorites_count_observed": 73134,
+      "plays_text": "10,938,158",
+      "favorites_text": "73,134",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20230622143053",
+      "capture_url": "https://web.archive.org/web/20230622143053/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230622143053_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_63e93575c15bfe1a.json"
+    },
+    {
       "date": "2023-06-24",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
@@ -22439,6 +23219,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230626173440_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_b0b0d9d9be4e29c3.json"
+    },
+    {
+      "date": "2023-06-30",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10938310,
+      "favorites_count_observed": 73133,
+      "plays_text": "10,938,310",
+      "favorites_text": "73,133",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20230630201230",
+      "capture_url": "https://web.archive.org/web/20230630201230/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230630201230_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_d35c626678f17de1.json"
     },
     {
       "date": "2023-07-01",
@@ -22589,6 +23384,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230718171156_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_5c004451a868e040.json"
+    },
+    {
+      "date": "2023-07-19",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10938602,
+      "favorites_count_observed": 73134,
+      "plays_text": "10,938,602",
+      "favorites_text": "73,134",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20230719003250",
+      "capture_url": "https://web.archive.org/web/20230719003250/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230719003250_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_f350c7b5085dc11e.json"
     },
     {
       "date": "2023-07-20",
@@ -22801,6 +23611,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230804182303_https_www.kongregate.com_games_DrNeroCF_the-fancy-pants-adventures_metrics.json_53e709b3e6eee771.json"
     },
     {
+      "date": "2023-08-05",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 341965,
+      "favorites_count_observed": 1748,
+      "plays_text": "341,965",
+      "favorites_text": "1,748",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20230805165335",
+      "capture_url": "https://web.archive.org/web/20230805165335/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230805165335_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_3948c055fe5f0afb.json"
+    },
+    {
+      "date": "2023-08-05",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 342288,
+      "favorites_count_observed": 1751,
+      "plays_text": "342,288",
+      "favorites_text": "1,751",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20230805191547",
+      "capture_url": "https://web.archive.org/web/20230805191547/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230805191547_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_1127e463c90605d5.json"
+    },
+    {
       "date": "2023-08-06",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -22964,6 +23804,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230813092607_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_00348e405f6e5284.json"
+    },
+    {
+      "date": "2023-08-15",
+      "game_name": "Bloons Tower Defense 4",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
+      "plays_count_observed": 16316188,
+      "favorites_count_observed": 105929,
+      "plays_text": "16,316,188",
+      "favorites_text": "105,929",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "capture_timestamp": "20230815002502",
+      "capture_url": "https://web.archive.org/web/20230815002502/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230815002502_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_f08d6c2760b6a03b.json"
     },
     {
       "date": "2023-08-15",
@@ -23444,6 +24299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913221023_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_4a38f9ee7657ff2a.json"
+    },
+    {
+      "date": "2023-09-13",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 345360,
+      "favorites_count_observed": 1754,
+      "plays_text": "345,360",
+      "favorites_text": "1,754",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20230913211006",
+      "capture_url": "https://web.archive.org/web/20230913211006/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913211006_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_128463f5fc88bb31.json"
     },
     {
       "date": "2023-09-14",
@@ -25697,6 +26567,21 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Bloons Tower Defense 4",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
+      "plays_count_observed": 16324182,
+      "favorites_count_observed": 105933,
+      "plays_text": "16,324,182",
+      "favorites_text": "105,933",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "capture_timestamp": "20240119065957",
+      "capture_url": "https://web.archive.org/web/20240119065957/https://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119065957_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_4270c4a9ec88b5b0.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Bubble Tanks 3",
       "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
       "plays_count_observed": 1665992,
@@ -25724,6 +26609,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119074945_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_32df61941c6a54b3.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2469580,
+      "favorites_count_observed": 4875,
+      "plays_text": "2,469,580",
+      "favorites_text": "4,875",
+      "metrics_url": "https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20240119090815",
+      "capture_url": "https://web.archive.org/web/20240119090815/https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119090815_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_763aeb680fa1e366.json"
     },
     {
       "date": "2024-01-19",
@@ -25772,6 +26672,36 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Epic Battle Fantasy 3",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-3",
+      "plays_count_observed": 10942313,
+      "favorites_count_observed": 73148,
+      "plays_text": "10,942,313",
+      "favorites_text": "73,148",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "capture_timestamp": "20240119124347",
+      "capture_url": "https://web.archive.org/web/20240119124347/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119124347_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_18e1bfb50928fb3b.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Epic Battle Fantasy 4",
+      "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
+      "plays_count_observed": 7802616,
+      "favorites_count_observed": 76556,
+      "plays_text": "7,802,616",
+      "favorites_text": "76,556",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "capture_timestamp": "20240119124329",
+      "capture_url": "https://web.archive.org/web/20240119124329/https://www.kongregate.com/games/kupo707/epic-battle-fantasy-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119124329_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_58bedb9c76119024.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Evo Explores",
       "game_url": "https://www.kongregate.com/games/tobeglad/evo-explores",
       "plays_count_observed": 407017,
@@ -25799,6 +26729,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119142049_https_www.kongregate.com_games_BerzerkStudio_frantic-frigates_metrics.json_3f15e56d03c06255.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2166218,
+      "favorites_count_observed": 24426,
+      "plays_text": "2,166,218",
+      "favorites_text": "24,426",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20240119152049",
+      "capture_url": "https://web.archive.org/web/20240119152049/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119152049_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_b3dc6b5a7efe29df.json"
     },
     {
       "date": "2024-01-19",
@@ -26417,6 +27362,36 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 407052,
+      "favorites_count_observed": 2293,
+      "plays_text": "407,052",
+      "favorites_text": "2,293",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20240121124815",
+      "capture_url": "https://web.archive.org/web/20240121124815/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121124815_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_57ff73da609b7464.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Cursed Treasure 2 Remastered",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure-2-remastered",
+      "plays_count_observed": 1532389,
+      "favorites_count_observed": 4820,
+      "plays_text": "1,532,389",
+      "favorites_text": "4,820",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "capture_timestamp": "20240121124814",
+      "capture_url": "https://web.archive.org/web/20240121124814/https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121124814_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_cf016e04faece258.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Cursed Treasure: Level...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
       "plays_count_observed": 4989501,
@@ -27002,6 +27977,21 @@
     },
     {
       "date": "2024-02-21",
+      "game_name": "ChatChat",
+      "game_url": "https://www.kongregate.com/en/games/TerryCavanagh_B/chatchat",
+      "plays_count_observed": 2469916,
+      "favorites_count_observed": 4878,
+      "plays_text": "2,469,916",
+      "favorites_text": "4,878",
+      "metrics_url": "https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "capture_timestamp": "20240221225520",
+      "capture_url": "https://web.archive.org/web/20240221225520/https://www.kongregate.com/games/TerryCavanagh_B/chatchat/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240221225520_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_5821e3280e249698.json"
+    },
+    {
+      "date": "2024-02-21",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 20569231,
@@ -27089,6 +28079,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222141056_https_www.kongregate.com_games_BerzerkStudio_frantic-frigates_metrics.json_7a2f6185887a8a66.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2166673,
+      "favorites_count_observed": 24426,
+      "plays_text": "2,166,673",
+      "favorites_text": "24,426",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20240222152231",
+      "capture_url": "https://web.archive.org/web/20240222152231/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222152231_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_ef42443d681d3aff.json"
     },
     {
       "date": "2024-02-22",
@@ -27542,6 +28547,21 @@
     },
     {
       "date": "2024-03-07",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 410575,
+      "favorites_count_observed": 2308,
+      "plays_text": "410,575",
+      "favorites_text": "2,308",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20240307205615",
+      "capture_url": "https://web.archive.org/web/20240307205615/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307205615_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_c096b373b9cf5662.json"
+    },
+    {
+      "date": "2024-03-07",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
       "plays_count_observed": 31880303,
@@ -27659,6 +28679,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308212437_https_www.kongregate.com_games_Talon88_convergence_metrics.json_27f7a0b3c1120022.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 410601,
+      "favorites_count_observed": 2308,
+      "plays_text": "410,601",
+      "favorites_text": "2,308",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20240308055124",
+      "capture_url": "https://web.archive.org/web/20240308055124/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308055124_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_1a731e31e560c565.json"
     },
     {
       "date": "2024-03-08",
@@ -28514,6 +29549,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240508010755_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_07aafe6a83bd0146.json"
+    },
+    {
+      "date": "2024-05-08",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 417082,
+      "favorites_count_observed": 2330,
+      "plays_text": "417,082",
+      "favorites_text": "2,330",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20240508140723",
+      "capture_url": "https://web.archive.org/web/20240508140723/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240508140723_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_cdfffa173cbc17d3.json"
+    },
+    {
+      "date": "2024-05-09",
+      "game_name": "Cursed Treasure",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure",
+      "plays_count_observed": 417398,
+      "favorites_count_observed": 2333,
+      "plays_text": "417,398",
+      "favorites_text": "2,333",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "capture_timestamp": "20240509183336",
+      "capture_url": "https://web.archive.org/web/20240509183336/https://www.kongregate.com/games/IriySoft/cursed-treasure/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240509183336_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_f7330bdfa05be6ea.json"
     },
     {
       "date": "2024-05-10",
@@ -29386,6 +30451,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240723135340_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_bed62c2e5a14fd19.json"
     },
     {
+      "date": "2024-07-23",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 362994,
+      "favorites_count_observed": 1828,
+      "plays_text": "362,994",
+      "favorites_text": "1,828",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20240723041629",
+      "capture_url": "https://web.archive.org/web/20240723041629/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240723041629_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_d9df6b5785ca3573.json"
+    },
+    {
       "date": "2024-07-26",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -29912,6 +30992,21 @@
     },
     {
       "date": "2024-08-16",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 368142,
+      "favorites_count_observed": 1845,
+      "plays_text": "368,142",
+      "favorites_text": "1,845",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20240816073328",
+      "capture_url": "https://web.archive.org/web/20240816073328/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816073328_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_804f12b3accd3b51.json"
+    },
+    {
+      "date": "2024-08-16",
       "game_name": "GrindCraft",
       "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
       "plays_count_observed": 2084385,
@@ -30029,6 +31124,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819083536_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_91ed89dbf9c303d5.json"
+    },
+    {
+      "date": "2024-08-19",
+      "game_name": "Rebuild 2",
+      "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild-2",
+      "plays_count_observed": 7445015,
+      "favorites_count_observed": 66343,
+      "plays_text": "7,445,015",
+      "favorites_text": "66,343",
+      "metrics_url": "https://www.kongregate.com/games/sarahnorthway/rebuild-2/metrics.json",
+      "capture_timestamp": "20240819162800",
+      "capture_url": "https://web.archive.org/web/20240819162800/https://www.kongregate.com/games/sarahnorthway/rebuild-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819162800_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_395c9b9cd51d00a9.json"
     },
     {
       "date": "2024-08-19",
@@ -31456,6 +32566,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241215040403_https_www.kongregate.com_games_mythicowl_hexologic_metrics.json_0cc5eed6185e3b22.json"
     },
     {
+      "date": "2024-12-16",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 380303,
+      "favorites_count_observed": 1869,
+      "plays_text": "380,303",
+      "favorites_text": "1,869",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20241216020034",
+      "capture_url": "https://web.archive.org/web/20241216020034/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241216020034_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_2b0283eb0e24523f.json"
+    },
+    {
       "date": "2024-12-18",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/games/Tukkun/anti-idle-the-game",
@@ -32281,6 +33406,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250312164504_https_www.kongregate.com_games_synapticon_tyrant-unleashed-web_metrics.json_c410017d9988844b.json"
     },
     {
+      "date": "2025-03-15",
+      "game_name": "Cursed Treasure 2 Remastered",
+      "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure-2-remastered",
+      "plays_count_observed": 1759653,
+      "favorites_count_observed": 5282,
+      "plays_text": "1,759,653",
+      "favorites_text": "5,282",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "capture_timestamp": "20250315211328",
+      "capture_url": "https://web.archive.org/web/20250315211328/https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250315211328_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_68f8ff74ed710d70.json"
+    },
+    {
       "date": "2025-03-18",
       "game_name": "Anti-Idle: The Game",
       "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
@@ -32534,6 +33674,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250411012434_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_a6c53b74131d8c9b.json"
+    },
+    {
+      "date": "2025-04-11",
+      "game_name": "Sort the Court!",
+      "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
+      "plays_count_observed": 2679389,
+      "favorites_count_observed": 22068,
+      "plays_text": "2,679,389",
+      "favorites_text": "22,068",
+      "metrics_url": "https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "capture_timestamp": "20250411003823",
+      "capture_url": "https://web.archive.org/web/20250411003823/https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250411003823_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_6c3568b5f88694f6.json"
     },
     {
       "date": "2025-04-13",
@@ -33197,6 +34352,21 @@
     },
     {
       "date": "2025-06-24",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16425045,
+      "favorites_count_observed": 47732,
+      "plays_text": "16,425,045",
+      "favorites_text": "47,732",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20250624083241",
+      "capture_url": "https://web.archive.org/web/20250624083241/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250624083241_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_5cb1cc8e2192b0a9.json"
+    },
+    {
+      "date": "2025-06-24",
       "game_name": "Crush Crush",
       "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
       "plays_count_observed": 7936754,
@@ -33284,6 +34454,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250714205402_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_8ecca6778a180e0e.json"
+    },
+    {
+      "date": "2025-07-15",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16427212,
+      "favorites_count_observed": 47734,
+      "plays_text": "16,427,212",
+      "favorites_text": "47,734",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20250715073457",
+      "capture_url": "https://web.archive.org/web/20250715073457/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250715073457_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_346f42497a45e366.json"
     },
     {
       "date": "2025-07-17",
@@ -33374,6 +34559,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250801200527_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_b1668c2c4bd32233.json"
+    },
+    {
+      "date": "2025-08-02",
+      "game_name": "Kuja",
+      "game_url": "https://www.kongregate.com/en/games/filthsu/kuja",
+      "plays_count_observed": 489645,
+      "favorites_count_observed": 2836,
+      "plays_text": "489,645",
+      "favorites_text": "2,836",
+      "metrics_url": "https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "capture_timestamp": "20250802212112",
+      "capture_url": "https://web.archive.org/web/20250802212112/https://www.kongregate.com/games/filthsu/kuja/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250802212112_https_www.kongregate.com_games_filthsu_kuja_metrics.json_a350f622609c2c04.json"
     },
     {
       "date": "2025-08-02",
@@ -33539,6 +34739,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250824225546_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_52033faf8e62e67f.json"
+    },
+    {
+      "date": "2025-08-28",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16434258,
+      "favorites_count_observed": 47746,
+      "plays_text": "16,434,258",
+      "favorites_text": "47,746",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20250828042536",
+      "capture_url": "https://web.archive.org/web/20250828042536/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250828042536_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_604d04e5e5c83fe8.json"
     },
     {
       "date": "2025-08-28",
@@ -33812,6 +35027,21 @@
     },
     {
       "date": "2025-09-30",
+      "game_name": "Anti-Idle: The Game",
+      "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
+      "plays_count_observed": 16437973,
+      "favorites_count_observed": 47752,
+      "plays_text": "16,437,973",
+      "favorites_text": "47,752",
+      "metrics_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "capture_timestamp": "20250930195348",
+      "capture_url": "https://web.archive.org/web/20250930195348/http://www.kongregate.com/games/Tukkun/anti-idle-the-game/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250930195348_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_5d3f0ba470f41e65.json"
+    },
+    {
+      "date": "2025-09-30",
       "game_name": "Warlords: Call to Arms",
       "game_url": "http://www.kongregate.com/games/DJStatika/warlords-call-to-arms",
       "plays_count_observed": 21482816,
@@ -33902,6 +35132,21 @@
     },
     {
       "date": "2025-10-25",
+      "game_name": "Bit Heroes",
+      "game_url": "https://www.kongregate.com/en/games/Juppiomenz/bit-heroes",
+      "plays_count_observed": 22899343,
+      "favorites_count_observed": 92561,
+      "plays_text": "22,899,343",
+      "favorites_text": "92,561",
+      "metrics_url": "https://www.kongregate.com/en/games/Juppiomenz/bit-heroes/metrics.json",
+      "capture_timestamp": "20251025213159",
+      "capture_url": "https://web.archive.org/web/20251025213159/https://www.kongregate.com/en/games/Juppiomenz/bit-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251025213159_https_www.kongregate.com_en_games_Juppiomenz_bit-heroes_metrics.json_2a86ca246700e5c2.json"
+    },
+    {
+      "date": "2025-10-25",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/en/games/JuicyBeast/burrito-bison-launcha-libre",
       "plays_count_observed": 4853553,
@@ -33914,6 +35159,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251025213124_https_www.kongregate.com_en_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_5a9daeda89dc7beb.json"
+    },
+    {
+      "date": "2025-10-26",
+      "game_name": "Crush The Castle 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/crush-the-castle-2",
+      "plays_count_observed": 3226066,
+      "favorites_count_observed": 29515,
+      "plays_text": "3,226,066",
+      "favorites_text": "29,515",
+      "metrics_url": "https://www.kongregate.com/en/games/ArmorGames/crush-the-castle-2/metrics.json",
+      "capture_timestamp": "20251026003932",
+      "capture_url": "https://web.archive.org/web/20251026003932/https://www.kongregate.com/en/games/ArmorGames/crush-the-castle-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251026003932_https_www.kongregate.com_en_games_ArmorGames_crush-the-castle-2_metrics.json_ab527995aeecb856.json"
     },
     {
       "date": "2025-10-29",
