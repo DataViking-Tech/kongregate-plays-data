@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
 LOGS = ROOT / "logs"
+RAW_HTML = ROOT / "data" / "raw" / "html"
 CHART_JSON = ROOT / "outputs" / "kongregate_ranked_games" / "play_count_bar_chart_race_data.json"
 
 RANKED_CSV = PROCESSED / "ranked_games.csv"
@@ -113,6 +114,31 @@ def canonical_game_url(game_url: str) -> str:
     return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
 
 
+def html_text_is_valid(text: str) -> bool:
+    if not text.strip():
+        return False
+    prefix = text[:4096]
+    cleaned = prefix.lstrip("\ufeff\x00\x1f\ufffd\r\n\t ")
+    lowered = cleaned[:1200].lower()
+    return (
+        lowered.startswith("<!doctype")
+        or lowered.startswith("<html")
+        or lowered.startswith("<turbo-frame")
+        or "<html" in lowered
+        or "<body" in lowered
+    )
+
+
+def invalid_cached_html_files() -> list[Path]:
+    if not RAW_HTML.exists():
+        return []
+    invalid = []
+    for path in sorted(RAW_HTML.glob("*.html")):
+        if path.stat().st_size <= 0 or not html_text_is_valid(path.read_text(errors="replace")):
+            invalid.append(path)
+    return invalid
+
+
 def month_range(start: date, end: date) -> list[str]:
     months = []
     year, month = start.year, start.month
@@ -147,6 +173,7 @@ def main() -> None:
     ranked_rows = read_csv(RANKED_CSV)
     catalog_rows = read_csv(CATALOG_CSV)
     history_rows = read_csv(HISTORY_CSV)
+    invalid_html_paths = invalid_cached_html_files()
 
     ranked_dates = [parse_date(row.get("date", "")) for row in ranked_rows]
     ranked_dates = [value for value in ranked_dates if value]
@@ -330,6 +357,8 @@ def main() -> None:
         days_since_ranked = (as_of - last_ranked_date).days
         if days_since_ranked > 45:
             issues.append(issue("high", "coverage", "ranked_capture_lag", days_since_ranked, last_ranked_date.isoformat(), as_of.isoformat(), "latest ranked row", "Run modern ranked-page discovery/fetch for the newest Wayback captures."))
+    if invalid_html_paths:
+        issues.append(issue("high", "cache", "invalid_cached_html_files", len(invalid_html_paths), "", "", str(invalid_html_paths[0].relative_to(ROOT)), "Retry affected captures; these files are empty or corrupted and cannot be parsed."))
     if zero_months:
         issues.append(issue("medium", "coverage", "months_without_ranked_captures", len(zero_months), zero_months[0], zero_months[-1], ", ".join(zero_months[:8]), "Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."))
     games_without_metrics = [row for row in priority_rows if int(row["metrics_rows"]) == 0]
@@ -375,6 +404,8 @@ def main() -> None:
         "catalog_games_without_metrics_history": len(games_without_metrics),
         "catalog_games_need_page_history": len(partial_or_missing_listing),
         "final_chart_entries_stale_over_one_year": len(stale_final),
+        "invalid_cached_html_files": len(invalid_html_paths),
+        "invalid_cached_html_examples": [str(path.relative_to(ROOT)) for path in invalid_html_paths[:12]],
         "bad_title_rows": len(bad_title_rows),
         "missing_url_rows": len(missing_url_rows),
         "duplicate_ranked_rows": duplicate_count,
@@ -413,6 +444,7 @@ def main() -> None:
                 f"- Mini catalog games: {report['catalog_games']}",
                 f"- Metrics history rows/games: {report['metrics_history_rows']} / {report['metrics_history_games']}",
                 f"- Metrics date range: {report['metrics_history_date_range'][0]} to {report['metrics_history_date_range'][1]}",
+                f"- Invalid cached HTML files: {report['invalid_cached_html_files']}",
                 "",
                 "## Top Issues",
                 "",

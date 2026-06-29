@@ -92,10 +92,10 @@ def cdx_url(original: str, collapse: str = "digest") -> str:
     return f"{CDX_ENDPOINT}?{urllib.parse.urlencode(params)}"
 
 
-def fetch_cdx(seed_id: str, original: str, sleep_s: float) -> list[dict[str, str]]:
+def fetch_cdx(seed_id: str, original: str, sleep_s: float, refresh: bool = False) -> list[dict[str, str]]:
     RAW_CDX.mkdir(parents=True, exist_ok=True)
     cache = RAW_CDX / f"{seed_id}.json"
-    if cache.exists():
+    if cache.exists() and not refresh:
         return json.loads(cache.read_text())
     request = urllib.request.Request(cdx_url(original), headers={"User-Agent": "KongregateRankedGamesFullScrape/0.1"})
     try:
@@ -161,14 +161,12 @@ def save_failures(failures: dict[str, dict[str, str]]) -> None:
     FAILURE_MANIFEST_PATH.write_text(json.dumps(failures, indent=2, sort_keys=True))
 
 
-def load_jobs(refresh_cdx: bool, sleep_s: float) -> list[CaptureJob]:
+def load_jobs(refresh_cdx: bool, sleep_s: float, source_ids: set[str] | None = None) -> list[CaptureJob]:
     jobs: list[CaptureJob] = []
     for seed_id, original in CDX_SEEDS.items():
-        cdx_path = RAW_CDX / f"{seed_id}.json"
-        if refresh_cdx and cdx_path.exists():
-            rows = json.loads(cdx_path.read_text())
-        else:
-            rows = fetch_cdx(seed_id, original, sleep_s)
+        if source_ids and seed_id not in source_ids:
+            continue
+        rows = fetch_cdx(seed_id, original, sleep_s, refresh=refresh_cdx)
         for row in rows:
             ranking_type, _category = infer_source_fields(row.get("original", ""))
             if ranking_type in {"unknown", "homepage_module"}:
@@ -204,7 +202,7 @@ def fetch_html(job: CaptureJob, timeout_s: int) -> tuple[bool, str]:
         return True, "cached"
     request = urllib.request.Request(
         WAYBACK_RAW.format(timestamp=job.timestamp, original=job.original),
-        headers={"User-Agent": "KongregateRankedGamesFullScrape/0.1"},
+        headers={"User-Agent": "KongregateRankedGamesFullScrape/0.1", "Accept-Encoding": "gzip"},
     )
     try:
         with urllib.request.urlopen(request, timeout=timeout_s) as response:
@@ -217,16 +215,31 @@ def fetch_html(job: CaptureJob, timeout_s: int) -> tuple[bool, str]:
         return False, str(exc)
     if not payload.strip():
         return False, "empty"
-    target.write_text(payload)
+    if not html_text_is_valid(payload):
+        return False, "non_html_or_corrupt"
+    target.write_text(payload, encoding="utf-8")
     return True, str(target.relative_to(ROOT))
+
+
+def html_text_is_valid(text: str) -> bool:
+    if not text.strip():
+        return False
+    prefix = text[:4096]
+    cleaned = prefix.lstrip("\ufeff\x00\x1f\ufffd\r\n\t ")
+    lowered = cleaned[:1200].lower()
+    return (
+        lowered.startswith("<!doctype")
+        or lowered.startswith("<html")
+        or lowered.startswith("<turbo-frame")
+        or "<html" in lowered
+        or "<body" in lowered
+    )
 
 
 def cached_html_is_valid(path: Path) -> bool:
     if not path.exists() or path.stat().st_size <= 0:
         return False
-    prefix = path.read_text(errors="replace")[:4096]
-    cleaned = prefix.lstrip("\ufeff\x00\x1f\ufffd\r\n\t ")
-    return cleaned.startswith("<!") or cleaned.lower().startswith("<html") or "<html" in cleaned[:1000].lower()
+    return html_text_is_valid(path.read_text(errors="replace"))
 
 
 def decode_payload(payload: bytes, headers) -> str:
@@ -247,6 +260,10 @@ def main() -> None:
     parser.add_argument("--refresh-cdx", action="store_true", help="Use cached CDX files where present and fetch missing seed files.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry captures that previously failed instead of skipping them.")
     parser.add_argument("--source-id", action="append", default=[], help="Only process one or more source IDs from CDX_SEEDS. May be repeated.")
+    parser.add_argument("--from-year", type=int, default=0, help="Only process captures from this year or later.")
+    parser.add_argument("--to-year", type=int, default=0, help="Only process captures from this year or earlier.")
+    parser.add_argument("--from-timestamp", default="", help="Only process captures at or after this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
+    parser.add_argument("--to-timestamp", default="", help="Only process captures at or before this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
     args = parser.parse_args()
 
     for directory in (RAW_CDX, RAW_HTML, LOGS):
@@ -254,10 +271,18 @@ def main() -> None:
 
     manifest = load_manifest()
     failures = load_failures()
-    jobs = load_jobs(refresh_cdx=args.refresh_cdx, sleep_s=args.cdx_sleep)
+    selected_source_ids = set(args.source_id)
+    jobs = load_jobs(refresh_cdx=args.refresh_cdx, sleep_s=args.cdx_sleep, source_ids=selected_source_ids or None)
     if args.source_id:
-        selected_source_ids = set(args.source_id)
         jobs = [job for job in jobs if job.source_id in selected_source_ids]
+    if args.from_year:
+        jobs = [job for job in jobs if job.timestamp[:4].isdigit() and int(job.timestamp[:4]) >= args.from_year]
+    if args.to_year:
+        jobs = [job for job in jobs if job.timestamp[:4].isdigit() and int(job.timestamp[:4]) <= args.to_year]
+    if args.from_timestamp:
+        jobs = [job for job in jobs if job.timestamp >= args.from_timestamp.ljust(14, "0")]
+    if args.to_timestamp:
+        jobs = [job for job in jobs if job.timestamp <= args.to_timestamp.ljust(14, "9")]
     pending = [
         job
         for job in jobs
@@ -273,6 +298,7 @@ def main() -> None:
         if ok:
             fetched += 1
             cache_path = html_cache_path(job.timestamp, job.original)
+            failures.pop(job_key(job), None)
             manifest[str(cache_path.relative_to(ROOT))] = {
                 "capture_timestamp": job.timestamp,
                 "original_url": job.original,

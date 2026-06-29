@@ -22,7 +22,18 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from extract_ranked_games import infer_original_from_filename, infer_source_fields
-from full_ranked_games_scrape import ROOT, RAW_HTML, LOGS, WAYBACK_RAW, decode_payload, html_cache_path, load_manifest, save_manifest
+from full_ranked_games_scrape import (
+    ROOT,
+    RAW_HTML,
+    LOGS,
+    WAYBACK_RAW,
+    cached_html_is_valid,
+    decode_payload,
+    html_cache_path,
+    html_text_is_valid,
+    load_manifest,
+    save_manifest,
+)
 
 
 FRAME_FAILURES_PATH = RAW_HTML / "frame_failures.json"
@@ -96,7 +107,7 @@ def discover_frame_jobs(from_year: int) -> list[FrameJob]:
 
 def fetch_frame(job: FrameJob, timeout_s: int) -> tuple[bool, str, str]:
     target = html_cache_path(job.parent_timestamp, job.frame_original)
-    if target.exists() and target.stat().st_size > 0:
+    if target.exists() and cached_html_is_valid(target):
         return True, "cached", job.parent_timestamp
     request = urllib.request.Request(
         WAYBACK_RAW.format(timestamp=job.parent_timestamp, original=job.frame_original),
@@ -115,7 +126,9 @@ def fetch_frame(job: FrameJob, timeout_s: int) -> tuple[bool, str, str]:
         return False, str(exc), job.parent_timestamp
     if not payload.strip():
         return False, "empty", actual_timestamp
-    target.write_text(payload)
+    if not html_text_is_valid(payload):
+        return False, "non_html_or_corrupt", actual_timestamp
+    target.write_text(payload, encoding="utf-8")
     return True, str(target.relative_to(ROOT)), actual_timestamp
 
 
@@ -135,12 +148,12 @@ def main() -> None:
     failures = load_json(FRAME_FAILURES_PATH)
     jobs = discover_frame_jobs(args.from_year)
     for job in jobs:
-        if html_cache_path(job.parent_timestamp, job.frame_original).exists():
+        if cached_html_is_valid(html_cache_path(job.parent_timestamp, job.frame_original)):
             failures.pop(frame_key(job), None)
     pending = [
         job
         for job in jobs
-        if not html_cache_path(job.parent_timestamp, job.frame_original).exists()
+        if not cached_html_is_valid(html_cache_path(job.parent_timestamp, job.frame_original))
         and (args.retry_failures or frame_key(job) not in failures)
     ]
     selected = pending if args.max_fetches == 0 else pending[: args.max_fetches]
@@ -185,7 +198,7 @@ def main() -> None:
     remaining_after = len([
         job
         for job in jobs
-        if not html_cache_path(job.parent_timestamp, job.frame_original).exists()
+        if not cached_html_is_valid(html_cache_path(job.parent_timestamp, job.frame_original))
         and frame_key(job) not in failures
     ])
     report = {
