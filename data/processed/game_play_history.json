@@ -40801,6 +40801,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230921151506_https_www.kongregate.com_games_TwoWizards_idle-wizard_metrics.json_2c7987c51776fd30.json"
     },
     {
+      "date": "2023-09-21",
+      "game_name": "Space Defender YM",
+      "game_url": "http://www.kongregate.com/games/Yellowmen_Kit/space-defender-ym",
+      "plays_count_observed": 180,
+      "favorites_count_observed": 0,
+      "plays_text": "180",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Yellowmen_Kit/space-defender-ym/metrics.json",
+      "capture_timestamp": "20230921184140",
+      "capture_url": "https://web.archive.org/web/20230921184140/https://www.kongregate.com/games/Yellowmen_Kit/space-defender-ym/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230921184140_https_www.kongregate.com_games_Yellowmen_Kit_space-defender-ym_metrics.json_c4a0caaa5be910d5.json"
+    },
+    {
       "date": "2023-09-22",
       "game_name": "Crush Crush",
       "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
@@ -59507,6 +59522,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Abcd Edu Kids",
+      "game_url": "http://www.kongregate.com/games/Nsrgames/abcd-edu-kids",
+      "plays_count_observed": 159,
+      "favorites_count_observed": 0,
+      "plays_text": "159",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Nsrgames/abcd-edu-kids/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Nsrgames/abcd-edu-kids/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_nsrgames_abcd-edu-kids_ea05d01825b0a733.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Abyssal Depths",
       "game_url": "https://www.kongregate.com/en/games/AartformGames/abyssal-depths",
       "plays_count_observed": 926,
@@ -59912,6 +59942,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "ASTEROIDS CL",
+      "game_url": "http://www.kongregate.com/games/PinedaMR/asteroids-cl",
+      "plays_count_observed": 397,
+      "favorites_count_observed": 2,
+      "plays_text": "397",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/PinedaMR/asteroids-cl/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/PinedaMR/asteroids-cl/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_pinedamr_asteroids-cl_0e2b7beb6d706ce5.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Asylum Murder House",
       "game_url": "http://www.kongregate.com/games/CrazyEscapeGames/asylum-murder-house",
       "plays_count_observed": 748,
@@ -60062,6 +60107,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Back To Home",
+      "game_url": "http://www.kongregate.com/games/spacegrid/back-to-home",
+      "plays_count_observed": 127,
+      "favorites_count_observed": 1,
+      "plays_text": "127",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/spacegrid/back-to-home/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/spacegrid/back-to-home/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_spacegrid_back-to-home_fac4bbe9001d017a.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Backyard Monsters",
       "game_url": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
       "plays_count_observed": 40156446,
@@ -60119,6 +60179,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_tackypoop111_ball-roller_1828e41c28787023.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Ball Temere",
+      "game_url": "http://www.kongregate.com/games/Miancky/ball-temere",
+      "plays_count_observed": 105,
+      "favorites_count_observed": 0,
+      "plays_text": "105",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Miancky/ball-temere/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Miancky/ball-temere/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_miancky_ball-temere_02886e990179547e.json"
     },
     {
       "date": "2026-06-29",
@@ -60842,6 +60917,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Catch all the Mushrooms",
+      "game_url": "http://www.kongregate.com/games/mushroomfanlol/catch-all-the-mushrooms",
+      "plays_count_observed": 106,
+      "favorites_count_observed": 0,
+      "plays_text": "106",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/mushroomfanlol/catch-all-the-mushrooms/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/mushroomfanlol/catch-all-the-mushrooms/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_mushroomfanlol_catch-all-the-mushrooms_d9ba6e06b6c8af67.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Catch the Rain",
       "game_url": "http://www.kongregate.com/games/javi10jedf/catch-the-rain",
       "plays_count_observed": 522,
@@ -61037,6 +61127,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Cobras",
+      "game_url": "http://www.kongregate.com/games/AlunosI/cobras",
+      "plays_count_observed": 77,
+      "favorites_count_observed": 0,
+      "plays_text": "77",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/AlunosI/cobras/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/AlunosI/cobras/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_alunosi_cobras_3b3e7a22c5fede16.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Color Bubbles",
       "game_url": "http://www.kongregate.com/games/dustOnPc/color-bubbles",
       "plays_count_observed": 614,
@@ -61217,6 +61322,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Cute Bear Caring",
+      "game_url": "http://www.kongregate.com/games/gamesforgirlz/cute-bear-caring",
+      "plays_count_observed": 121,
+      "favorites_count_observed": 0,
+      "plays_text": "121",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/gamesforgirlz/cute-bear-caring/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/gamesforgirlz/cute-bear-caring/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamesforgirlz_cute-bear-caring_e969e1ea9af213d8.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Cute Dino Coloring",
       "game_url": "http://www.kongregate.com/games/5xplay/cute-dino-coloring",
       "plays_count_observed": 189,
@@ -61229,6 +61349,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_5xplay_cute-dino-coloring_318bb588f8248767.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Dam",
+      "game_url": "http://www.kongregate.com/games/Enagamess/dam",
+      "plays_count_observed": 1361,
+      "favorites_count_observed": 0,
+      "plays_text": "1,361",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Enagamess/dam/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Enagamess/dam/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_dam_ae72b5c852bb4b13.json"
     },
     {
       "date": "2026-06-29",
@@ -61772,6 +61907,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Elarasi",
+      "game_url": "http://www.kongregate.com/games/billorko/elarasi",
+      "plays_count_observed": 80,
+      "favorites_count_observed": 0,
+      "plays_text": "80",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/billorko/elarasi/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/billorko/elarasi/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_billorko_elarasi_26736502f5f68e7a.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Elsa and Anna landing on Mars",
       "game_url": "http://www.kongregate.com/games/gamesforgirlz/elsa-and-anna-landing-on-mars",
       "plays_count_observed": 79,
@@ -61844,6 +61994,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_vermillion_gd_ensemble_336a1a52ce55f3b9.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Escape From Artist Room",
+      "game_url": "http://www.kongregate.com/games/top10newgames/escape-from-artist-room",
+      "plays_count_observed": 1527,
+      "favorites_count_observed": 1,
+      "plays_text": "1,527",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/top10newgames/escape-from-artist-room/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/top10newgames/escape-from-artist-room/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_top10newgames_escape-from-artist-room_8737dea7c134abe2.json"
     },
     {
       "date": "2026-06-29",
@@ -62054,6 +62219,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_vegarius_fantasy-pyramid-solitaire_e0c7d87cdef53fa9.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Fashionistas Boho vs Grunge",
+      "game_url": "http://www.kongregate.com/games/IdeaStudio/fashionistas-boho-vs-grunge",
+      "plays_count_observed": 200,
+      "favorites_count_observed": 0,
+      "plays_text": "200",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/IdeaStudio/fashionistas-boho-vs-grunge/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/IdeaStudio/fashionistas-boho-vs-grunge/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_ideastudio_fashionistas-boho-vs-grunge_0d44688d260f1a37.json"
     },
     {
       "date": "2026-06-29",
@@ -62807,6 +62987,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Good Apprentice Pelo 2021",
+      "game_url": "http://www.kongregate.com/games/stewardhklarlove/good-apprentice-pelo-2021",
+      "plays_count_observed": 89,
+      "favorites_count_observed": 0,
+      "plays_text": "89",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/stewardhklarlove/good-apprentice-pelo-2021/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/stewardhklarlove/good-apprentice-pelo-2021/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_stewardhklarlove_good-apprentice-pelo-2021_5685a474d042de5b.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Grab the Penicals",
       "game_url": "http://www.kongregate.com/games/Brett893/grab-the-penicals",
       "plays_count_observed": 1636,
@@ -63362,6 +63557,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Hunter House Escape",
+      "game_url": "http://www.kongregate.com/games/Nsrgames/hunter-house-escape",
+      "plays_count_observed": 731,
+      "favorites_count_observed": 0,
+      "plays_text": "731",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Nsrgames/hunter-house-escape/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Nsrgames/hunter-house-escape/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_nsrgames_hunter-house-escape_f1c3e236cb76fbb6.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Hyundai RN 30",
       "game_url": "http://www.kongregate.com/games/newgamess/hyundai-rn-30",
       "plays_count_observed": 114,
@@ -63494,6 +63704,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_armorgames_indestruct2tank_52ba0b5f531dfd94.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Indian Forest",
+      "game_url": "http://www.kongregate.com/games/spacegrid/indian-forest",
+      "plays_count_observed": 147,
+      "favorites_count_observed": 1,
+      "plays_text": "147",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/spacegrid/indian-forest/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/spacegrid/indian-forest/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_spacegrid_indian-forest_fd7cdd0fab649a27.json"
     },
     {
       "date": "2026-06-29",
@@ -63899,6 +64124,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_lake-city_b81e9a35c5dd0a2e.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Last Man Alive",
+      "game_url": "http://www.kongregate.com/games/storm_howard/last-man-alive",
+      "plays_count_observed": 392,
+      "favorites_count_observed": 0,
+      "plays_text": "392",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/storm_howard/last-man-alive/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/storm_howard/last-man-alive/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_storm_howard_last-man-alive_5860fbc0564070be.json"
     },
     {
       "date": "2026-06-29",
@@ -64742,6 +64982,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Mushroom Clicker",
+      "game_url": "http://www.kongregate.com/games/mushroomfanlol/mushroom-clicker",
+      "plays_count_observed": 692,
+      "favorites_count_observed": 0,
+      "plays_text": "692",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/mushroomfanlol/mushroom-clicker/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/mushroomfanlol/mushroom-clicker/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_mushroomfanlol_mushroom-clicker_4ded6903f3103232.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Mushroom Madness 2",
       "game_url": "http://www.kongregate.com/games/KingDotCom/mushroom-madness-2",
       "plays_count_observed": 2632833,
@@ -64904,6 +65159,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_games2rule_new-year-shopping-dress-up_d5f8902521015b91.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Ninja Game Teste",
+      "game_url": "http://www.kongregate.com/games/AlunosI/ninja-game-teste",
+      "plays_count_observed": 206,
+      "favorites_count_observed": 0,
+      "plays_text": "206",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/AlunosI/ninja-game-teste/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/AlunosI/ninja-game-teste/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_alunosi_ninja-game-teste_c4803a2cda454db7.json"
     },
     {
       "date": "2026-06-29",
@@ -65687,6 +65957,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "RET",
+      "game_url": "http://www.kongregate.com/games/EveGames/ret",
+      "plays_count_observed": 657,
+      "favorites_count_observed": 1,
+      "plays_text": "657",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/EveGames/ret/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/EveGames/ret/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_evegames_ret_33dbfbc978ac3218.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Rio Match Up",
       "game_url": "http://www.kongregate.com/games/games2rule/rio-match-up",
       "plays_count_observed": 503,
@@ -66152,6 +66437,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Silencer Escape",
+      "game_url": "http://www.kongregate.com/games/CrazyEscapeGames/silencer-escape",
+      "plays_count_observed": 1103,
+      "favorites_count_observed": 1,
+      "plays_text": "1,103",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/CrazyEscapeGames/silencer-escape/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/CrazyEscapeGames/silencer-escape/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_crazyescapegames_silencer-escape_92bb9ce13257a759.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Simple factory idle game",
       "game_url": "http://www.kongregate.com/games/jopimpas/simple-factory-idle-game",
       "plays_count_observed": 964,
@@ -66497,6 +66797,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Spaceman's Adventures",
+      "game_url": "http://www.kongregate.com/games/KennyC415/spacemans-adventures",
+      "plays_count_observed": 143,
+      "favorites_count_observed": 0,
+      "plays_text": "143",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/KennyC415/spacemans-adventures/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/KennyC415/spacemans-adventures/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_kennyc415_spacemans-adventures_ad928b656b6538ee.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Spaceship Hero",
       "game_url": "http://www.kongregate.com/games/danshockgames/spaceship-hero",
       "plays_count_observed": 342,
@@ -66509,6 +66824,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_danshockgames_spaceship-hero_154afc796c3391cd.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "SpaceSymbols.io",
+      "game_url": "http://www.kongregate.com/games/iromano/spacesymbols-io",
+      "plays_count_observed": 72,
+      "favorites_count_observed": 0,
+      "plays_text": "72",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/iromano/spacesymbols-io/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/iromano/spacesymbols-io/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_iromano_spacesymbols-io_03e343b30578aa98.json"
     },
     {
       "date": "2026-06-29",
@@ -66617,6 +66947,51 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "SS17 Marta Pons",
+      "game_url": "http://www.kongregate.com/games/lionel_ict/ss17-marta-pons",
+      "plays_count_observed": 65,
+      "favorites_count_observed": 2,
+      "plays_text": "65",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/lionel_ict/ss17-marta-pons/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/lionel_ict/ss17-marta-pons/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_lionel_ict_ss17-marta-pons_3760f229b7022594.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "SS17 SuperCarla",
+      "game_url": "http://www.kongregate.com/games/lionel_ict/ss17-supercarla",
+      "plays_count_observed": 71,
+      "favorites_count_observed": 1,
+      "plays_text": "71",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/lionel_ict/ss17-supercarla/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/lionel_ict/ss17-supercarla/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_lionel_ict_ss17-supercarla_863247130f3fef25.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "SS17 Swallala Elena",
+      "game_url": "http://www.kongregate.com/games/lionel_ict/ss17-swallala-elena",
+      "plays_count_observed": 319,
+      "favorites_count_observed": 1,
+      "plays_text": "319",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/lionel_ict/ss17-swallala-elena/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/lionel_ict/ss17-swallala-elena/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_lionel_ict_ss17-swallala-elena_489748431b6f6844.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Starbomb",
       "game_url": "http://www.kongregate.com/games/HappyWhippings/starbomb",
       "plays_count_observed": 234,
@@ -66629,6 +67004,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_happywhippings_starbomb_0c5193d2803d5826.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Stardust",
+      "game_url": "http://www.kongregate.com/games/voidExec/stardust",
+      "plays_count_observed": 354,
+      "favorites_count_observed": 0,
+      "plays_text": "354",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/voidExec/stardust/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/voidExec/stardust/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_voidexec_stardust_114bee08634424d5.json"
     },
     {
       "date": "2026-06-29",
@@ -67202,6 +67592,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "The Elder Bones",
+      "game_url": "http://www.kongregate.com/games/PolakX3/the-elder-bones",
+      "plays_count_observed": 698,
+      "favorites_count_observed": 3,
+      "plays_text": "698",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/PolakX3/the-elder-bones/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/PolakX3/the-elder-bones/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_polakx3_the-elder-bones_602f11eca3fef77a.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "The Forest Mirror",
       "game_url": "http://www.kongregate.com/games/JosephMoonGolf/the-forest-mirror",
       "plays_count_observed": 145,
@@ -67277,6 +67682,36 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "The Locker - Bullet Factory",
+      "game_url": "http://www.kongregate.com/games/Enagamess/the-locker-bullet-factory",
+      "plays_count_observed": 166,
+      "favorites_count_observed": 0,
+      "plays_text": "166",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Enagamess/the-locker-bullet-factory/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Enagamess/the-locker-bullet-factory/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_the-locker-bullet-factory_0e9a7171ae7c457e.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "The Locker - Scientist House 5",
+      "game_url": "http://www.kongregate.com/games/Enagamess/the-locker-scientist-house-5",
+      "plays_count_observed": 228,
+      "favorites_count_observed": 0,
+      "plays_text": "228",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Enagamess/the-locker-scientist-house-5/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/Enagamess/the-locker-scientist-house-5/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_the-locker-scientist-house-5_3857ce362b699c9e.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "The Mansion Tour!!",
       "game_url": "http://www.kongregate.com/games/del9901705_39278/the-mansion-tour",
       "plays_count_observed": 244,
@@ -67304,6 +67739,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_slidinghappens_the-maze-stalker_ca5fcd7ae20c2e2b.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "The Meat - The Game Adventure",
+      "game_url": "http://www.kongregate.com/games/ALT_Games/the-meat-the-game-adventure",
+      "plays_count_observed": 88,
+      "favorites_count_observed": 0,
+      "plays_text": "88",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/ALT_Games/the-meat-the-game-adventure/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/ALT_Games/the-meat-the-game-adventure/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_alt_games_the-meat-the-game-adventure_5bab7079603ece5e.json"
     },
     {
       "date": "2026-06-29",
@@ -67697,6 +68147,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Try This Room Escape",
+      "game_url": "http://www.kongregate.com/games/8bgames/try-this-room-escape",
+      "plays_count_observed": 1732,
+      "favorites_count_observed": 3,
+      "plays_text": "1,732",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/8bgames/try-this-room-escape/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/8bgames/try-this-room-escape/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_8bgames_try-this-room-escape_3b11dede72da1101.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Twist",
       "game_url": "http://www.kongregate.com/games/LovattoStudio/twist",
       "plays_count_observed": 139,
@@ -67754,6 +68219,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_chasegames_twisting-puzzle-christmas_ea51bc13371bea92.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "TwoLands Clickers",
+      "game_url": "http://www.kongregate.com/games/LudosProject/twolands-clickers",
+      "plays_count_observed": 5686,
+      "favorites_count_observed": 49,
+      "plays_text": "5,686",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/LudosProject/twolands-clickers/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/LudosProject/twolands-clickers/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_ludosproject_twolands-clickers_fc5c4fa5eb748b2f.json"
     },
     {
       "date": "2026-06-29",
@@ -68222,6 +68702,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Zebras Connect",
+      "game_url": "http://www.kongregate.com/games/mosso70/zebras-connect",
+      "plays_count_observed": 446,
+      "favorites_count_observed": 2,
+      "plays_text": "446",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/mosso70/zebras-connect/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/mosso70/zebras-connect/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_mosso70_zebras-connect_6a951c3d18a8575d.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Zig Zag",
       "game_url": "http://www.kongregate.com/games/LovattoStudio/zig-zag",
       "plays_count_observed": 591,
@@ -68339,6 +68834,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_headmeatgames_zombowling_2db659673edde800.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "\u30af\u30fc\u30eb\u30ab\u30c4 AMV God Of The New World",
+      "game_url": "http://www.kongregate.com/games/neal867/amv-god-of-the-new-world",
+      "plays_count_observed": 207,
+      "favorites_count_observed": 0,
+      "plays_text": "207",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/neal867/amv-god-of-the-new-world/metrics.json",
+      "capture_timestamp": "20260629180440",
+      "capture_url": "https://www.kongregate.com/games/neal867/amv-god-of-the-new-world/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_neal867_amv-god-of-the-new-world_3b41b2981827d37a.json"
     }
   ]
 }

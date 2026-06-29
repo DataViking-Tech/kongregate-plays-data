@@ -8,15 +8,15 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1ith3BkE14omGWRClnl6IwIS5eAcuhdR9_yGjnPaaYWs
+https://docs.google.com/spreadsheets/d/1y9XBV6ugYLwWH372q9FzQFI6Bl83EyYJSTu25VqGCVE
 
 ## Current Snapshot
 
-- Ranked-list rows: 16,513
+- Ranked-list rows: 16,853
 - Ranked-list rows with observed play counts: 7,154
-- Mini catalog: 1,797 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 4,555 across 1,010 canonical games
-- Observed play-count rows used by the chart: 11,709
+- Mini catalog: 1,865 games that reached top 20 in observed rankings
+- Per-game metrics history rows: 4,589 across 1,044 canonical games
+- Observed play-count rows used by the chart: 11,743
 - Chart playback: Smooth mode uses 933 interpolated display frames by default; Captures mode exposes all 1,617 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-29
@@ -28,8 +28,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - 99 historical months still have no ranked-list captures in the processed dataset.
-- 478 mini-catalog games still have no per-game metrics rows, and 1,359 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures and 276 missing CDX cache files; remaining unresolved games include 268 no-CDX cases, 182 CDX-cache-missing cases, and 28 games with known failures only.
+- 512 mini-catalog games still have no per-game metrics rows, and 1,427 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures and 279 missing CDX cache files; remaining unresolved games include 302 no-CDX cases, 179 CDX-cache-missing cases, and 31 games with known failures only.
 - Final chart leaders have current live metrics observations as of 2026-06-29.
 
 ## Key Files
