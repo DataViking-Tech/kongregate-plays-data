@@ -520,7 +520,9 @@ function htmlDocument() {
       let lastError = null;
       for (const candidate of candidates) {
         try {
-          const response = await fetch(candidate, { cache: "no-cache" });
+          const separator = candidate.includes("?") ? "&" : "?";
+          const dataUrl = \`\${candidate}\${separator}v=\${Date.now()}\`;
+          const response = await fetch(dataUrl, { cache: "no-store" });
           if (response.ok) {
             document.documentElement.dataset.chartDataSource = response.url;
             return response.json();
