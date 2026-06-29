@@ -1,7 +1,7 @@
 severity,area,issue_type,count,first_date,last_date,example,recommended_action
 high,cache,invalid_cached_html_files,105,,,data/raw/html/20080222160305_http_www.kongregate.com_80_action-games_05981415ac02d75f.html,Retry affected captures; these files are empty or corrupted and cannot be parsed.
 medium,coverage,months_without_ranked_captures,134,2007-04,2025-12,"2007-04, 2007-05, 2007-06, 2007-07, 2007-08, 2007-09, 2007-10, 2007-12","Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."
-high,metrics,catalog_games_without_metrics_history,500,,,Incremancer,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+high,metrics,catalog_games_without_metrics_history,493,,,Incremancer,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 high,metrics,catalog_games_need_page_history,381,,,Learn to Fly 2,Continue per-game metrics history backfill.
 high,chart,final_top_chart_entries_stale_over_one_year,9,,,Dawn of the Dragons,Prioritize metrics histories for stale high-play games still dominating final chart ranks.
 low,dedupe,duplicate_ranked_rows,576,,,,Review duplicate key handling by date/source/rank/game.

@@ -103,14 +103,16 @@ def parse_int(value: object) -> int:
         return 0
 
 
-def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, current_source: str) -> bool:
-    if current_source == "metrics_json" or current_plays <= 0:
+def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, previous_source: str, current_source: str) -> bool:
+    if current_plays <= 0:
         return False
     drop = previous_plays - current_plays
     if drop <= 0:
         return False
-    rounded_listing_value = current_plays >= 1_000_000 and current_plays % 100_000 == 0
-    return rounded_listing_value and drop <= max(100_000, int(previous_plays * 0.05))
+    tolerance = max(100_000, int(previous_plays * 0.05))
+    current_is_rounded_listing = current_source != "metrics_json" and current_plays >= 1_000_000 and current_plays % 100_000 == 0
+    previous_is_rounded_listing = previous_source != "metrics_json" and previous_plays >= 1_000_000 and previous_plays % 100_000 == 0
+    return (current_is_rounded_listing or previous_is_rounded_listing) and drop <= tolerance
 
 
 def canonical_game_url(game_url: str) -> str:
@@ -345,7 +347,7 @@ def main() -> None:
         previous = None
         for row in rows:
             if previous and int(row["plays"]) < int(previous["plays"]):
-                if not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(row.get("source", ""))):
+                if not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(previous.get("source", "")), str(row.get("source", ""))):
                     decrease_rows.append(
                         {
                             "game_name": row.get("game_name", ""),
