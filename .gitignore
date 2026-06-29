@@ -6,3 +6,4 @@ data/raw/
 logs/*errors.log
 publish/
 *.inspect.ndjson
+outputs/kongregate_ranked_games/*.png

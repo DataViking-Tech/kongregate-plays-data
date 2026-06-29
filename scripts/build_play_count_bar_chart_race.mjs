@@ -170,7 +170,7 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 940ms;
+      --move-duration: 620ms;
       --move-ease: cubic-bezier(0.2, 0.72, 0.2, 1);
     }
 
@@ -381,7 +381,7 @@ function htmlDocument() {
       z-index: 1;
       transition:
         transform var(--move-duration) var(--move-ease),
-        opacity 360ms ease;
+        opacity 240ms ease;
       will-change: transform;
       backface-visibility: hidden;
     }
@@ -533,7 +533,7 @@ function htmlDocument() {
       .barRow {
         transition:
           transform var(--move-duration) var(--move-ease),
-          opacity 240ms ease;
+          opacity 180ms ease;
       }
     }
   </style>
@@ -560,7 +560,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="1150" max="3800" value="1450" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="650" max="3000" value="750" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -602,9 +602,9 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 940;
-    const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 6;
+    const transitionMs = 620;
+    const exitMs = transitionMs + 100;
+    const smoothStepsPerMonth = 8;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -1033,7 +1033,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 210);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 100);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
