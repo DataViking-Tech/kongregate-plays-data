@@ -8,13 +8,13 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1Zw9iDqd4-5dibNB1xihAYWkjp7LXJx2JfApT7EOjevQ
+https://docs.google.com/spreadsheets/d/1Fz6Rx2Yrms1yAEqg8t4bgat_uQTm4h-64iBjVapy-9U
 
 ## Current Snapshot
 
-- Ranked-list rows: 8,300
+- Ranked-list rows: 8,625
 - Ranked-list rows with observed play counts: 4,845
-- Mini catalog: 744 games that reached top 20 in observed rankings
+- Mini catalog: 749 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 3,736 across 552 canonical games
 - Observed play-count rows used by the chart: 8,581
 - Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,426 observed capture-date frames.
@@ -26,8 +26,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 ## Current QA Focus
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
-- 105 cached HTML captures remain empty or corrupted and are queued for retry/backfill.
-- 134 historical months still have no ranked-list captures in the processed dataset.
+- 85 cached HTML captures remain empty or corrupted and are queued for retry/backfill.
+- 132 historical months still have no ranked-list captures in the processed dataset.
 - 49 mini-catalog games still need per-game metrics history backfill.
 - Metrics gap audit currently has no fresh pending captures; remaining unresolved games are no-CDX cases.
 - Final chart leaders have current live metrics observations as of 2026-06-29.

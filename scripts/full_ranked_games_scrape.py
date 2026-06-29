@@ -259,6 +259,7 @@ def main() -> None:
     parser.add_argument("--timeout", type=int, default=25, help="Per-request timeout in seconds.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Use cached CDX files where present and fetch missing seed files.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry captures that previously failed instead of skipping them.")
+    parser.add_argument("--invalid-only", action="store_true", help="Only retry jobs whose HTML cache file exists but is currently invalid.")
     parser.add_argument("--source-id", action="append", default=[], help="Only process one or more source IDs from CDX_SEEDS. May be repeated.")
     parser.add_argument("--from-year", type=int, default=0, help="Only process captures from this year or later.")
     parser.add_argument("--to-year", type=int, default=0, help="Only process captures from this year or earlier.")
@@ -283,12 +284,18 @@ def main() -> None:
         jobs = [job for job in jobs if job.timestamp >= args.from_timestamp.ljust(14, "0")]
     if args.to_timestamp:
         jobs = [job for job in jobs if job.timestamp <= args.to_timestamp.ljust(14, "9")]
-    pending = [
-        job
-        for job in jobs
-        if not cached_html_is_valid(html_cache_path(job.timestamp, job.original))
-        and (args.retry_failures or job_key(job) not in failures)
-    ]
+    pending = []
+    for job in jobs:
+        cache_path = html_cache_path(job.timestamp, job.original)
+        cache_exists = cache_path.exists()
+        cache_valid = cached_html_is_valid(cache_path)
+        if cache_valid:
+            continue
+        if args.invalid_only and not cache_exists:
+            continue
+        if not args.retry_failures and job_key(job) in failures:
+            continue
+        pending.append(job)
     selected = pending if args.max_fetches == 0 else pending[: args.max_fetches]
 
     fetched = 0
