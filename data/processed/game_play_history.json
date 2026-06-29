@@ -181,6 +181,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141211015740_http_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_002b0218694578b9.json"
     },
     {
+      "date": "2014-12-18",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 5288720,
+      "favorites_count_observed": 43184,
+      "plays_text": "5,288,720",
+      "favorites_text": "43,184",
+      "metrics_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20141218120428",
+      "capture_url": "https://web.archive.org/web/20141218120428/http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141218120428_http_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_609f1cf6da19465a.json"
+    },
+    {
+      "date": "2015-01-25",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 100809,
+      "favorites_count_observed": 1387,
+      "plays_text": "100,809",
+      "favorites_text": "1,387",
+      "metrics_url": "http://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20150125210106",
+      "capture_url": "https://web.archive.org/web/20150125210106/http://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150125210106_http_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_6ced33e4cb0a069c.json"
+    },
+    {
       "date": "2015-02-19",
       "game_name": "Backyard Monsters",
       "game_url": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
@@ -226,6 +256,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150501182445_http_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_cd27690c953c88db.json"
     },
     {
+      "date": "2015-05-19",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 4455531,
+      "favorites_count_observed": 67544,
+      "plays_text": "4,455,531",
+      "favorites_text": "67,544",
+      "metrics_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20150519230729",
+      "capture_url": "https://web.archive.org/web/20150519230729/http://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150519230729_http_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_17728cc2d54927c6.json"
+    },
+    {
       "date": "2015-06-11",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -256,6 +301,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150616234220_http_www.kongregate.com_games_CriticalForceEt_counter-strike-web-browser-based-port-v2_metrics.json_686836cda8509b0d.json"
     },
     {
+      "date": "2015-06-18",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 4506822,
+      "favorites_count_observed": 68280,
+      "plays_text": "4,506,822",
+      "favorites_text": "68,280",
+      "metrics_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20150618113110",
+      "capture_url": "https://web.archive.org/web/20150618113110/http://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150618113110_http_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_103ab1818ce85d52.json"
+    },
+    {
       "date": "2015-08-04",
       "game_name": "Idle Online Universe",
       "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
@@ -269,6 +329,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150804224021_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bd029662f926394e.json"
+    },
+    {
+      "date": "2015-09-18",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 1545521,
+      "favorites_count_observed": 29708,
+      "plays_text": "1,545,521",
+      "favorites_text": "29,708",
+      "metrics_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20150918160715",
+      "capture_url": "https://web.archive.org/web/20150918160715/http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150918160715_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_13cb7a09d24e767a.json"
+    },
+    {
+      "date": "2015-09-18",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 1545521,
+      "favorites_count_observed": 29708,
+      "plays_text": "1,545,521",
+      "favorites_text": "29,708",
+      "metrics_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20150918160716",
+      "capture_url": "https://web.archive.org/web/20150918160716/http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150918160716_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_0572fcaec0a2a2e7.json"
     },
     {
       "date": "2015-10-10",
@@ -811,6 +901,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160229170240_http_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_23c52d846ecf9b7b.json"
     },
     {
+      "date": "2016-02-29",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 5594130,
+      "favorites_count_observed": 45437,
+      "plays_text": "5,594,130",
+      "favorites_text": "45,437",
+      "metrics_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20160229170608",
+      "capture_url": "https://web.archive.org/web/20160229170608/http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160229170608_http_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_e4045e3e4c679b2e.json"
+    },
+    {
       "date": "2016-03-01",
       "game_name": "AdVenture Capitalist",
       "game_url": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
@@ -1246,6 +1351,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160817231411_http_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_faa4648ebdac5142.json"
     },
     {
+      "date": "2016-09-12",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 2289374,
+      "favorites_count_observed": 45999,
+      "plays_text": "2,289,374",
+      "favorites_text": "45,999",
+      "metrics_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20160912185613",
+      "capture_url": "https://web.archive.org/web/20160912185613/http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160912185613_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_125770e8b0e5f3ac.json"
+    },
+    {
       "date": "2016-09-18",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -1304,6 +1424,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161004190604_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_63e8568c6ab36c65.json"
+    },
+    {
+      "date": "2016-10-04",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 5695655,
+      "favorites_count_observed": 46094,
+      "plays_text": "5,695,655",
+      "favorites_text": "46,094",
+      "metrics_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20161004190916",
+      "capture_url": "https://web.archive.org/web/20161004190916/http://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161004190916_http_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_853122541be3ce9c.json"
     },
     {
       "date": "2016-10-14",
@@ -1951,6 +2086,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072653_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_79db8469723f0e92.json"
     },
     {
+      "date": "2019-07-02",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 5987525,
+      "favorites_count_observed": 47401,
+      "plays_text": "5,987,525",
+      "favorites_text": "47,401",
+      "metrics_url": "https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20190702072651",
+      "capture_url": "https://web.archive.org/web/20190702072651/https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072651_https_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_d10e6ad35c163958.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3402628,
+      "favorites_count_observed": 63385,
+      "plays_text": "3,402,628",
+      "favorites_text": "63,385",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20190702072654",
+      "capture_url": "https://web.archive.org/web/20190702072654/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072654_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_6abe056af8aef58d.json"
+    },
+    {
       "date": "2019-08-11",
       "game_name": "Realm Grinder",
       "game_url": "https://www.kongregate.com/games/DivineGames/realm-grinder",
@@ -2192,6 +2357,21 @@
     },
     {
       "date": "2019-10-17",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6003399,
+      "favorites_count_observed": 84936,
+      "plays_text": "6,003,399",
+      "favorites_text": "84,936",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20191017183758",
+      "capture_url": "https://web.archive.org/web/20191017183758/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183758_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_5dfad4df2c52bb04.json"
+    },
+    {
+      "date": "2019-10-17",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 9970442,
@@ -2234,6 +2414,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183752_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_a301d2b8f0d41268.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3486075,
+      "favorites_count_observed": 64101,
+      "plays_text": "3,486,075",
+      "favorites_text": "64,101",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20191017183739",
+      "capture_url": "https://web.archive.org/web/20191017183739/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183739_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_a739ece210bc896e.json"
     },
     {
       "date": "2019-10-17",
@@ -2552,6 +2747,21 @@
     },
     {
       "date": "2019-10-27",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3491977,
+      "favorites_count_observed": 64143,
+      "plays_text": "3,491,977",
+      "favorites_text": "64,143",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20191027045019",
+      "capture_url": "https://web.archive.org/web/20191027045019/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045019_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_c40886b07ddae938.json"
+    },
+    {
+      "date": "2019-10-27",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
       "plays_count_observed": 4837968,
@@ -2686,6 +2896,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_aa8dd6950a9292d3.json"
     },
     {
+      "date": "2019-11-07",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3498393,
+      "favorites_count_observed": 64213,
+      "plays_text": "3,498,393",
+      "favorites_text": "64,213",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20191107154544",
+      "capture_url": "https://web.archive.org/web/20191107154544/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_0aa4121942e3f4e8.json"
+    },
+    {
       "date": "2019-11-12",
       "game_name": "Monsters' Den: Book of...",
       "game_url": "http://www.kongregate.com/games/garin/monsters-den-book-of-dread",
@@ -2744,6 +2969,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191125185329_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_f1da7b55ffcbd5a5.json"
+    },
+    {
+      "date": "2019-11-25",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6020190,
+      "favorites_count_observed": 85069,
+      "plays_text": "6,020,190",
+      "favorites_text": "85,069",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20191125185330",
+      "capture_url": "https://web.archive.org/web/20191125185330/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191125185330_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_a82083354ec77750.json"
     },
     {
       "date": "2019-12-02",
@@ -2942,6 +3182,21 @@
     },
     {
       "date": "2019-12-07",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3516399,
+      "favorites_count_observed": 64378,
+      "plays_text": "3,516,399",
+      "favorites_text": "64,378",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20191207205527",
+      "capture_url": "https://web.archive.org/web/20191207205527/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205527_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_a80436c82caa250a.json"
+    },
+    {
+      "date": "2019-12-07",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
       "plays_count_observed": 4854146,
@@ -2984,6 +3239,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191208114331_https_www.kongregate.com_games_5thPlanetGames_dawn-of-the-dragons_metrics.json_6bb23de9f9259e45.json"
+    },
+    {
+      "date": "2019-12-08",
+      "game_name": "Idle Dancing",
+      "game_url": "http://www.kongregate.com/games/HeroicHero/idle-dancing",
+      "plays_count_observed": 398695,
+      "favorites_count_observed": 3526,
+      "plays_text": "398,695",
+      "favorites_text": "3,526",
+      "metrics_url": "https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "capture_timestamp": "20191208062258",
+      "capture_url": "https://web.archive.org/web/20191208062258/https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191208062258_https_www.kongregate.com_games_HeroicHero_idle-dancing_metrics.json_72fe87a567924f73.json"
     },
     {
       "date": "2019-12-08",
@@ -3134,6 +3404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034650_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_7d7c05d65aaf084f.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3265312,
+      "favorites_count_observed": 23456,
+      "plays_text": "3,265,312",
+      "favorites_text": "23,456",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_295ba3306053033c.json"
     },
     {
       "date": "2020-01-01",
@@ -3302,6 +3587,21 @@
     },
     {
       "date": "2020-01-08",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6037009,
+      "favorites_count_observed": 85159,
+      "plays_text": "6,037,009",
+      "favorites_text": "85,159",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20200108214038",
+      "capture_url": "https://web.archive.org/web/20200108214038/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214038_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_93a3778a757faa2f.json"
+    },
+    {
+      "date": "2020-01-08",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 30420693,
@@ -3449,6 +3749,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045140_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_4a4e3163383e74f8.json"
+    },
+    {
+      "date": "2020-01-21",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3541942,
+      "favorites_count_observed": 64575,
+      "plays_text": "3,541,942",
+      "favorites_text": "64,575",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20200121045138",
+      "capture_url": "https://web.archive.org/web/20200121045138/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045138_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_7e7197ab5c76ab20.json"
     },
     {
       "date": "2020-01-21",
@@ -3767,6 +4082,96 @@
     },
     {
       "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255892,
+      "favorites_count_observed": 4389,
+      "plays_text": "255,892",
+      "favorites_text": "4,389",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324044609",
+      "capture_url": "https://web.archive.org/web/20200324044609/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324044609_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_351816f514f5c77f.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255962,
+      "favorites_count_observed": 4391,
+      "plays_text": "255,962",
+      "favorites_text": "4,391",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324050454",
+      "capture_url": "https://web.archive.org/web/20200324050454/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050454_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_c1b3d8c543d5a7d6.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255963,
+      "favorites_count_observed": 4391,
+      "plays_text": "255,963",
+      "favorites_text": "4,391",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324050500",
+      "capture_url": "https://web.archive.org/web/20200324050500/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050500_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_971696cb87a94147.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255963,
+      "favorites_count_observed": 4391,
+      "plays_text": "255,963",
+      "favorites_text": "4,391",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324050501",
+      "capture_url": "https://web.archive.org/web/20200324050501/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050501_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_2a92ae9e3fc2fb11.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255965,
+      "favorites_count_observed": 4391,
+      "plays_text": "255,965",
+      "favorites_text": "4,391",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324050511",
+      "capture_url": "https://web.archive.org/web/20200324050511/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050511_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_3751794cec467959.json"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 255970,
+      "favorites_count_observed": 4391,
+      "plays_text": "255,970",
+      "favorites_text": "4,391",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200324050526",
+      "capture_url": "https://web.archive.org/web/20200324050526/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324050526_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_56074c2ee0635b43.json"
+    },
+    {
+      "date": "2020-03-24",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 41881595,
@@ -3929,6 +4334,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184250_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_29bacd28c20ce7da.json"
+    },
+    {
+      "date": "2020-04-18",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6088739,
+      "favorites_count_observed": 85461,
+      "plays_text": "6,088,739",
+      "favorites_text": "85,461",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20200418180344",
+      "capture_url": "https://web.archive.org/web/20200418180344/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200418180344_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_578ec6bf264a4d10.json"
     },
     {
       "date": "2020-04-21",
@@ -4411,6 +4831,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125501_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_e8cd04272794205a.json"
     },
     {
+      "date": "2020-04-29",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3604475,
+      "favorites_count_observed": 65102,
+      "plays_text": "3,604,475",
+      "favorites_text": "65,102",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125446_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_28b9dba54564d104.json"
+    },
+    {
       "date": "2020-05-24",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -4637,6 +5072,21 @@
     },
     {
       "date": "2020-07-16",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6121918,
+      "favorites_count_observed": 85714,
+      "plays_text": "6,121,918",
+      "favorites_text": "85,714",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20200716172631",
+      "capture_url": "https://web.archive.org/web/20200716172631/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172631_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_484b029f5d962fe7.json"
+    },
+    {
+      "date": "2020-07-16",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21358318,
@@ -4772,6 +5222,21 @@
     },
     {
       "date": "2020-07-16",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11211291,
+      "favorites_count_observed": 92592,
+      "plays_text": "11,211,291",
+      "favorites_text": "92,592",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20200716172747",
+      "capture_url": "https://web.archive.org/web/20200716172747/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172747_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_e6f13948e98497a8.json"
+    },
+    {
+      "date": "2020-07-16",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4200478,
@@ -4814,6 +5279,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172653_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_25e5c3ae556ae18d.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3646564,
+      "favorites_count_observed": 65495,
+      "plays_text": "3,646,564",
+      "favorites_text": "65,495",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20200716172642",
+      "capture_url": "https://web.archive.org/web/20200716172642/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172642_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_bd0653b6db2dedb7.json"
     },
     {
       "date": "2020-07-16",
@@ -4996,6 +5476,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200725205119_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_73fd568f91a79af6.json"
     },
     {
+      "date": "2020-07-31",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 263358,
+      "favorites_count_observed": 4438,
+      "plays_text": "263,358",
+      "favorites_text": "4,438",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20200731212704",
+      "capture_url": "https://web.archive.org/web/20200731212704/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200731212704_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_ea3e9faddab93e0e.json"
+    },
+    {
+      "date": "2020-09-01",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3667568,
+      "favorites_count_observed": 65678,
+      "plays_text": "3,667,568",
+      "favorites_text": "65,678",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20200901135022",
+      "capture_url": "https://web.archive.org/web/20200901135022/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200901135022_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_af4199970b31d2c8.json"
+    },
+    {
       "date": "2020-10-15",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -5072,6 +5582,21 @@
     },
     {
       "date": "2020-10-15",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6153122,
+      "favorites_count_observed": 85939,
+      "plays_text": "6,153,122",
+      "favorites_text": "85,939",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20201015131339",
+      "capture_url": "https://web.archive.org/web/20201015131339/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131339_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_36a07ae50c0b0d33.json"
+    },
+    {
+      "date": "2020-10-15",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21432613,
@@ -5132,6 +5657,21 @@
     },
     {
       "date": "2020-10-15",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11248446,
+      "favorites_count_observed": 92693,
+      "plays_text": "11,248,446",
+      "favorites_text": "92,693",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20201015131140",
+      "capture_url": "https://web.archive.org/web/20201015131140/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131140_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_50719ed93ec59185.json"
+    },
+    {
+      "date": "2020-10-15",
       "game_name": "Strike Force Heroes 2",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
       "plays_count_observed": 4940812,
@@ -5159,6 +5699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131151_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_43b51596d2cfb011.json"
+    },
+    {
+      "date": "2020-10-15",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3686927,
+      "favorites_count_observed": 65818,
+      "plays_text": "3,686,927",
+      "favorites_text": "65,818",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20201015131142",
+      "capture_url": "https://web.archive.org/web/20201015131142/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131142_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_57455de6fb6b3a2a.json"
     },
     {
       "date": "2020-10-15",
@@ -5777,6 +6332,21 @@
     },
     {
       "date": "2020-11-03",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3407950,
+      "favorites_count_observed": 24283,
+      "plays_text": "3,407,950",
+      "favorites_text": "24,283",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20201103042244",
+      "capture_url": "https://web.archive.org/web/20201103042244/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201103042244_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_7b5977e2e9084e59.json"
+    },
+    {
+      "date": "2020-11-03",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4752019,
@@ -6272,6 +6842,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11265357,
+      "favorites_count_observed": 92737,
+      "plays_text": "11,265,357",
+      "favorites_text": "92,737",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20201201204511",
+      "capture_url": "https://web.archive.org/web/20201201204511/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204511_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_55f82bce6ebafa93.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4228008,
@@ -6314,6 +6899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204316_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_31d21bcdb5721d20.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3707759,
+      "favorites_count_observed": 65989,
+      "plays_text": "3,707,759",
+      "favorites_text": "65,989",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20201201204312",
+      "capture_url": "https://web.archive.org/web/20201201204312/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204312_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_6b9c4ba4985941fa.json"
     },
     {
       "date": "2020-12-01",
@@ -6496,6 +7096,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201209031722_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_19cd330c7451be69.json"
     },
     {
+      "date": "2020-12-10",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 104089,
+      "favorites_count_observed": 854,
+      "plays_text": "104,089",
+      "favorites_text": "854",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20201210112827",
+      "capture_url": "https://web.archive.org/web/20201210112827/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201210112827_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_96ad4093cb0268da.json"
+    },
+    {
       "date": "2020-12-11",
       "game_name": "Insectonator: Zombie mode",
       "game_url": "https://www.kongregate.com/games/FlyAnvil/insectonator-zombie-mode",
@@ -6602,6 +7217,21 @@
     },
     {
       "date": "2020-12-12",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6174945,
+      "favorites_count_observed": 86073,
+      "plays_text": "6,174,945",
+      "favorites_text": "86,073",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20201212201452",
+      "capture_url": "https://web.archive.org/web/20201212201452/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201452_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_7e49d2fa283954d1.json"
+    },
+    {
+      "date": "2020-12-12",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21482548,
@@ -6662,6 +7292,21 @@
     },
     {
       "date": "2020-12-12",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11269172,
+      "favorites_count_observed": 92744,
+      "plays_text": "11,269,172",
+      "favorites_text": "92,744",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20201212201441",
+      "capture_url": "https://web.archive.org/web/20201212201441/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201441_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_37c1e05657c79f40.json"
+    },
+    {
+      "date": "2020-12-12",
       "game_name": "Supermechs",
       "game_url": "http://www.kongregate.com/games/Tacticsoft/supermechs",
       "plays_count_observed": 4314254,
@@ -6674,6 +7319,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201428_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_0ce33ca31b7d3121.json"
+    },
+    {
+      "date": "2020-12-12",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3724781,
+      "favorites_count_observed": 66063,
+      "plays_text": "3,724,781",
+      "favorites_text": "66,063",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20201212201534",
+      "capture_url": "https://web.archive.org/web/20201212201534/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201534_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_5bee4ee7fac81b70.json"
     },
     {
       "date": "2020-12-12",
@@ -6901,6 +7561,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101203742_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_c4a373cf008ab427.json"
     },
     {
+      "date": "2021-01-01",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11274891,
+      "favorites_count_observed": 92752,
+      "plays_text": "11,274,891",
+      "favorites_text": "92,752",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20210101203937",
+      "capture_url": "https://web.archive.org/web/20210101203937/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101203937_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_8ddf3581351b0ab4.json"
+    },
+    {
       "date": "2021-01-06",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -6974,6 +7649,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190256_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_eeb54ea61d460af7.json"
+    },
+    {
+      "date": "2021-01-06",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6181470,
+      "favorites_count_observed": 86106,
+      "plays_text": "6,181,470",
+      "favorites_text": "86,106",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20210106190012",
+      "capture_url": "https://web.archive.org/web/20210106190012/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190012_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_b915193bb0763ac5.json"
     },
     {
       "date": "2021-01-06",
@@ -7052,6 +7742,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11276190,
+      "favorites_count_observed": 92753,
+      "plays_text": "11,276,190",
+      "favorites_text": "92,753",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20210106190331",
+      "capture_url": "https://web.archive.org/web/20210106190331/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190331_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_7f97d14e88381b25.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4234498,
@@ -7079,6 +7784,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190213_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_fec6fdc3ee40bd88.json"
+    },
+    {
+      "date": "2021-01-06",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3734724,
+      "favorites_count_observed": 66119,
+      "plays_text": "3,734,724",
+      "favorites_text": "66,119",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20210106190253",
+      "capture_url": "https://web.archive.org/web/20210106190253/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190253_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_4c926749300b146e.json"
     },
     {
       "date": "2021-01-06",
@@ -7502,6 +8222,21 @@
     },
     {
       "date": "2021-02-12",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3746458,
+      "favorites_count_observed": 66144,
+      "plays_text": "3,746,458",
+      "favorites_text": "66,144",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20210212105936",
+      "capture_url": "https://web.archive.org/web/20210212105936/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210212105936_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_822379a896d48a32.json"
+    },
+    {
+      "date": "2021-02-12",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4892939,
@@ -7817,6 +8552,21 @@
     },
     {
       "date": "2021-05-13",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6218255,
+      "favorites_count_observed": 86160,
+      "plays_text": "6,218,255",
+      "favorites_text": "86,160",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20210513075946",
+      "capture_url": "https://web.archive.org/web/20210513075946/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513075946_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_2038e739d5e48892.json"
+    },
+    {
+      "date": "2021-05-13",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21568195,
@@ -7919,6 +8669,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513075931_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_17107da2e2f03371.json"
+    },
+    {
+      "date": "2021-05-13",
+      "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11299119,
+      "favorites_count_observed": 92784,
+      "plays_text": "11,299,119",
+      "favorites_text": "92,784",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20210513075926",
+      "capture_url": "https://web.archive.org/web/20210513075926/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513075926_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_da436436cf40b647.json"
     },
     {
       "date": "2021-05-13",
@@ -8189,6 +8954,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073343_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_b42520fae37370b2.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3769902,
+      "favorites_count_observed": 66222,
+      "plays_text": "3,769,902",
+      "favorites_text": "66,222",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20210524073244",
+      "capture_url": "https://web.archive.org/web/20210524073244/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073244_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_8a2875d18fabdc58.json"
     },
     {
       "date": "2021-05-24",
@@ -8521,6 +9301,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210621194017_https_www.kongregate.com_games_ArmorGames_sonny_metrics.json_d0484a75ee07643e.json"
     },
     {
+      "date": "2021-06-24",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6225296,
+      "favorites_count_observed": 86171,
+      "plays_text": "6,225,296",
+      "favorites_text": "86,171",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20210624125916",
+      "capture_url": "https://web.archive.org/web/20210624125916/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210624125916_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_d326b856136e3e53.json"
+    },
+    {
       "date": "2021-06-26",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
@@ -8564,6 +9359,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210628140827_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_8b6820bdb2629467.json"
+    },
+    {
+      "date": "2021-07-02",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 271476,
+      "favorites_count_observed": 4445,
+      "plays_text": "271,476",
+      "favorites_text": "4,445",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20210702002215",
+      "capture_url": "https://web.archive.org/web/20210702002215/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210702002215_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_a9181552c240c5f9.json"
     },
     {
       "date": "2021-07-13",
@@ -8684,6 +9494,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210826151825_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_4c065774660bc11f.json"
+    },
+    {
+      "date": "2021-08-27",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 117405,
+      "favorites_count_observed": 926,
+      "plays_text": "117,405",
+      "favorites_text": "926",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20210827175917",
+      "capture_url": "https://web.archive.org/web/20210827175917/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210827175917_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_8f64395b5d5ddd0d.json"
+    },
+    {
+      "date": "2021-08-28",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 118714,
+      "favorites_count_observed": 930,
+      "plays_text": "118,714",
+      "favorites_text": "930",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20210828021759",
+      "capture_url": "https://web.archive.org/web/20210828021759/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210828021759_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_0819256ed937349c.json"
     },
     {
       "date": "2021-09-07",
@@ -8912,6 +9752,21 @@
     },
     {
       "date": "2021-10-21",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6244886,
+      "favorites_count_observed": 86218,
+      "plays_text": "6,244,886",
+      "favorites_text": "86,218",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20211021110743",
+      "capture_url": "https://web.archive.org/web/20211021110743/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110743_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_bdc9824cd9856a28.json"
+    },
+    {
+      "date": "2021-10-21",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21648683,
@@ -9106,6 +9961,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110955_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_cecd0276acd563a1.json"
     },
     {
+      "date": "2021-10-23",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6245308,
+      "favorites_count_observed": 86221,
+      "plays_text": "6,245,308",
+      "favorites_text": "86,221",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20211023192335",
+      "capture_url": "https://web.archive.org/web/20211023192335/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211023192335_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_b9654f115b1a250e.json"
+    },
+    {
       "date": "2021-10-28",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -9164,6 +10034,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182658_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_9672d95bf5497dcf.json"
+    },
+    {
+      "date": "2021-10-30",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6246591,
+      "favorites_count_observed": 86225,
+      "plays_text": "6,246,591",
+      "favorites_text": "86,225",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20211030182750",
+      "capture_url": "https://web.archive.org/web/20211030182750/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182750_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_1417aca78687b39f.json"
     },
     {
       "date": "2021-10-30",
@@ -9527,6 +10412,21 @@
     },
     {
       "date": "2021-10-31",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3799487,
+      "favorites_count_observed": 66308,
+      "plays_text": "3,799,487",
+      "favorites_text": "66,308",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20211031205347",
+      "capture_url": "https://web.archive.org/web/20211031205347/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205347_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_0324136ef3564fde.json"
+    },
+    {
+      "date": "2021-10-31",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
       "plays_count_observed": 5024284,
@@ -9692,6 +10592,21 @@
     },
     {
       "date": "2021-11-18",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6250243,
+      "favorites_count_observed": 86232,
+      "plays_text": "6,250,243",
+      "favorites_text": "86,232",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20211118233447",
+      "capture_url": "https://web.archive.org/web/20211118233447/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233447_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_3db7afbdde04dd93.json"
+    },
+    {
+      "date": "2021-11-18",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31085240,
@@ -9813,6 +10728,21 @@
     {
       "date": "2021-11-18",
       "game_name": "SAS: Zombie Assault 4",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
+      "plays_count_observed": 11324162,
+      "favorites_count_observed": 92815,
+      "plays_text": "11,324,162",
+      "favorites_text": "92,815",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "capture_timestamp": "20211118222611",
+      "capture_url": "https://web.archive.org/web/20211118222611/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118222611_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_918bfc6a7167378d.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "SAS: Zombie Assault 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
       "plays_count_observed": 11324172,
       "favorites_count_observed": 92815,
@@ -9884,6 +10814,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233428_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_9edd5f4bc07dcb3e.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3802719,
+      "favorites_count_observed": 66318,
+      "plays_text": "3,802,719",
+      "favorites_text": "66,318",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20211118222549",
+      "capture_url": "https://web.archive.org/web/20211118222549/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118222549_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_187dbb4d20d818b2.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3802727,
+      "favorites_count_observed": 66318,
+      "plays_text": "3,802,727",
+      "favorites_text": "66,318",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20211118233433",
+      "capture_url": "https://web.archive.org/web/20211118233433/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233433_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_f05540ee0e583c5e.json"
     },
     {
       "date": "2021-11-18",
@@ -10004,6 +10964,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111413_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_4b938337efd19db6.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6250536,
+      "favorites_count_observed": 86233,
+      "plays_text": "6,250,536",
+      "favorites_text": "86,233",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20211120111349",
+      "capture_url": "https://web.archive.org/web/20211120111349/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111349_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_a49b02f0758eb4d6.json"
     },
     {
       "date": "2021-11-20",
@@ -10771,6 +11746,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220117150333_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_658b07dd58f8fff1.json"
     },
     {
+      "date": "2022-01-24",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 6069726,
+      "favorites_count_observed": 47822,
+      "plays_text": "6,069,726",
+      "favorites_text": "47,822",
+      "metrics_url": "https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20220124220750",
+      "capture_url": "https://web.archive.org/web/20220124220750/https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220124220750_https_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_dc6a790a9c30ca49.json"
+    },
+    {
       "date": "2022-01-25",
       "game_name": "Realm Grinder",
       "game_url": "http://www.kongregate.com/games/DivineGames/realm-grinder",
@@ -10904,6 +11894,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172501_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_96e546747ca4a1ff.json"
+    },
+    {
+      "date": "2022-02-15",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6265064,
+      "favorites_count_observed": 86264,
+      "plays_text": "6,265,064",
+      "favorites_text": "86,264",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20220215172346",
+      "capture_url": "https://web.archive.org/web/20220215172346/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172346_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_89721d601744aca0.json"
     },
     {
       "date": "2022-02-15",
@@ -11102,6 +12107,21 @@
     },
     {
       "date": "2022-03-09",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6268671,
+      "favorites_count_observed": 86285,
+      "plays_text": "6,268,671",
+      "favorites_text": "86,285",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20220309071056",
+      "capture_url": "https://web.archive.org/web/20220309071056/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220309071056_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_caa87f61221e55f7.json"
+    },
+    {
+      "date": "2022-03-09",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21714705,
@@ -11234,6 +12254,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220312142744_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_dcf429f98a86cdd3.json"
+    },
+    {
+      "date": "2022-03-15",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 133142,
+      "favorites_count_observed": 958,
+      "plays_text": "133,142",
+      "favorites_text": "958",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20220315195936",
+      "capture_url": "https://web.archive.org/web/20220315195936/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220315195936_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_1d07525c0333c662.json"
     },
     {
       "date": "2022-03-15",
@@ -11462,6 +12497,21 @@
     },
     {
       "date": "2022-04-01",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3827040,
+      "favorites_count_observed": 66402,
+      "plays_text": "3,827,040",
+      "favorites_text": "66,402",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20220401042735",
+      "capture_url": "https://web.archive.org/web/20220401042735/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042735_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_4ea45cb1a90e0fb1.json"
+    },
+    {
+      "date": "2022-04-01",
       "game_name": "The King's League: Odyssey",
       "game_url": "http://www.kongregate.com/games/kurechii/the-kings-league-odyssey",
       "plays_count_observed": 5043113,
@@ -11594,6 +12644,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144147_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f295fd05bdec298.json"
+    },
+    {
+      "date": "2022-04-04",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6272857,
+      "favorites_count_observed": 86295,
+      "plays_text": "6,272,857",
+      "favorites_text": "86,295",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20220404144055",
+      "capture_url": "https://web.archive.org/web/20220404144055/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144055_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_a41cd5ef5e46cb77.json"
     },
     {
       "date": "2022-04-04",
@@ -12122,6 +13187,21 @@
     },
     {
       "date": "2022-06-22",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6286043,
+      "favorites_count_observed": 86339,
+      "plays_text": "6,286,043",
+      "favorites_text": "86,339",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20220622212630",
+      "capture_url": "https://web.archive.org/web/20220622212630/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212630_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_d2829a9691983848.json"
+    },
+    {
+      "date": "2022-06-22",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21757597,
@@ -12299,6 +13379,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706043135_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_0288d273d0c327e5.json"
+    },
+    {
+      "date": "2022-08-15",
+      "game_name": "Commando Assault",
+      "game_url": "https://www.kongregate.com/games/miniclip/commando-assault",
+      "plays_count_observed": 93676,
+      "favorites_count_observed": 816,
+      "plays_text": "93,676",
+      "favorites_text": "816",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/commando-assault/metrics.json",
+      "capture_timestamp": "20220815175957",
+      "capture_url": "https://web.archive.org/web/20220815175957/http://www.kongregate.com/games/miniclip/commando-assault/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220815175957_http_www.kongregate.com_games_miniclip_commando-assault_metrics.json_ebf9e03e79152b3f.json"
     },
     {
       "date": "2022-08-17",
@@ -12781,6 +13876,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140637_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_7881388e15824409.json"
     },
     {
+      "date": "2022-10-23",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6304237,
+      "favorites_count_observed": 85636,
+      "plays_text": "6,304,237",
+      "favorites_text": "85,636",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20221023140556",
+      "capture_url": "https://web.archive.org/web/20221023140556/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140556_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_d4c1eda500de20d3.json"
+    },
+    {
       "date": "2022-10-27",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -13082,6 +14192,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6312111,
+      "favorites_count_observed": 85252,
+      "plays_text": "6,312,111",
+      "favorites_text": "85,252",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20221204231923",
+      "capture_url": "https://web.archive.org/web/20221204231923/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231923_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_9118239e68d27723.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Kingdom Rush",
       "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush",
       "plays_count_observed": 21823020,
@@ -13334,6 +14459,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062745_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_472fd5b0be1e9ab9.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3868780,
+      "favorites_count_observed": 53764,
+      "plays_text": "3,868,780",
+      "favorites_text": "53,764",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20221205062839",
+      "capture_url": "https://web.archive.org/web/20221205062839/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062839_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_556dbbaf25544005.json"
     },
     {
       "date": "2022-12-05",
@@ -13847,6 +14987,21 @@
     },
     {
       "date": "2023-02-06",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 167492,
+      "favorites_count_observed": 991,
+      "plays_text": "167,492",
+      "favorites_text": "991",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230206203126",
+      "capture_url": "https://web.archive.org/web/20230206203126/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206203126_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_774bc7d9f87f9ad0.json"
+    },
+    {
+      "date": "2023-02-06",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
       "plays_count_observed": 13033887,
@@ -13889,6 +15044,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206213106_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_d332971e14c81ad1.json"
+    },
+    {
+      "date": "2023-02-06",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3877738,
+      "favorites_count_observed": 53796,
+      "plays_text": "3,877,738",
+      "favorites_text": "53,796",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20230206212526",
+      "capture_url": "https://web.archive.org/web/20230206212526/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206212526_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_fd768097e3576149.json"
     },
     {
       "date": "2023-02-12",
@@ -13979,6 +15149,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163204_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_b1483c5535703b66.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 172251,
+      "favorites_count_observed": 1001,
+      "plays_text": "172,251",
+      "favorites_text": "1,001",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230214163203",
+      "capture_url": "https://web.archive.org/web/20230214163203/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163203_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_1cc167c2342d82ec.json"
     },
     {
       "date": "2023-02-14",
@@ -14596,6 +15781,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230317233233_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_c283e2bbb64d83df.json"
     },
     {
+      "date": "2023-03-19",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6323966,
+      "favorites_count_observed": 85281,
+      "plays_text": "6,323,966",
+      "favorites_text": "85,281",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20230319224314",
+      "capture_url": "https://web.archive.org/web/20230319224314/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230319224314_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_003fb8b00d2df441.json"
+    },
+    {
       "date": "2023-03-21",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -14639,6 +15839,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329172037_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_d4d8d57fa76abce1.json"
+    },
+    {
+      "date": "2023-03-29",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 177516,
+      "favorites_count_observed": 1004,
+      "plays_text": "177,516",
+      "favorites_text": "1,004",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230329171938",
+      "capture_url": "https://web.archive.org/web/20230329171938/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329171938_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_05671ec419a30ee6.json"
     },
     {
       "date": "2023-03-29",
@@ -14894,6 +16109,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230506222320_https_www.kongregate.com_games_IriySoft_cursed-treasure-level-pack_metrics.json_21b01420fec967f1.json"
+    },
+    {
+      "date": "2023-05-08",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 183436,
+      "favorites_count_observed": 1011,
+      "plays_text": "183,436",
+      "favorites_text": "1,011",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230508154415",
+      "capture_url": "https://web.archive.org/web/20230508154415/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230508154415_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_717837ade10ba079.json"
     },
     {
       "date": "2023-05-08",
@@ -15736,6 +16966,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230912210636_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_330d7d372b30504a.json"
     },
     {
+      "date": "2023-09-13",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 195509,
+      "favorites_count_observed": 1022,
+      "plays_text": "195,509",
+      "favorites_text": "1,022",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230913221023",
+      "capture_url": "https://web.archive.org/web/20230913221023/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913221023_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_4a38f9ee7657ff2a.json"
+    },
+    {
       "date": "2023-09-14",
       "game_name": "Idle Bouncer",
       "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
@@ -15916,6 +17161,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203111_https_www.kongregate.com_games_JavelinOU_tdp4-team-battle_metrics.json_185e4f8c1e6bfc5c.json"
     },
     {
+      "date": "2023-09-23",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 6082804,
+      "favorites_count_observed": 47120,
+      "plays_text": "6,082,804",
+      "favorites_text": "47,120",
+      "metrics_url": "https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20230923203126",
+      "capture_url": "https://web.archive.org/web/20230923203126/https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203126_https_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_2b830d35bba8174e.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3896841,
+      "favorites_count_observed": 53840,
+      "plays_text": "3,896,841",
+      "favorites_text": "53,840",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20230923203112",
+      "capture_url": "https://web.archive.org/web/20230923203112/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203112_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_f63c4694b6a45b3d.json"
+    },
+    {
       "date": "2023-09-24",
       "game_name": "Cursed Treasure: Level...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
@@ -15944,6 +17219,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230924205058_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_bb83ec76e82a6d4e.json"
+    },
+    {
+      "date": "2023-09-27",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 197777,
+      "favorites_count_observed": 1024,
+      "plays_text": "197,777",
+      "favorites_text": "1,024",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20230927112950",
+      "capture_url": "https://web.archive.org/web/20230927112950/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230927112950_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_4f31f3ae819ac61a.json"
     },
     {
       "date": "2023-09-27",
@@ -15989,6 +17279,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230929151558_https_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_71de9fa482b7c134.json"
+    },
+    {
+      "date": "2023-10-01",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 280809,
+      "favorites_count_observed": 4435,
+      "plays_text": "280,809",
+      "favorites_text": "4,435",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20231001131256",
+      "capture_url": "https://web.archive.org/web/20231001131256/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231001131256_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_10e0c4dc930bb1f8.json"
     },
     {
       "date": "2023-10-02",
@@ -16097,6 +17402,21 @@
     },
     {
       "date": "2023-10-17",
+      "game_name": "Infectonator 2",
+      "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
+      "plays_count_observed": 6342250,
+      "favorites_count_observed": 85314,
+      "plays_text": "6,342,250",
+      "favorites_text": "85,314",
+      "metrics_url": "https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "capture_timestamp": "20231017221807",
+      "capture_url": "https://web.archive.org/web/20231017221807/https://www.kongregate.com/games/TogeProductions/infectonator-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231017221807_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_a6a99887bb24c942.json"
+    },
+    {
+      "date": "2023-10-17",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 46652451,
@@ -16169,6 +17489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231020163921_https_www.kongregate.com_games_sarahnorthway_rebuild_metrics.json_18bbbf17e9b63d87.json"
+    },
+    {
+      "date": "2023-10-21",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 204593,
+      "favorites_count_observed": 1029,
+      "plays_text": "204,593",
+      "favorites_text": "1,029",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20231021153420",
+      "capture_url": "https://web.archive.org/web/20231021153420/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231021153420_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_4b31a0213799e781.json"
     },
     {
       "date": "2023-10-28",
@@ -16319,6 +17654,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231112021324_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_47fd75dda01e90a1.json"
+    },
+    {
+      "date": "2023-11-17",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3558134,
+      "favorites_count_observed": 23353,
+      "plays_text": "3,558,134",
+      "favorites_text": "23,353",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20231117211020",
+      "capture_url": "https://web.archive.org/web/20231117211020/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231117211020_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_62e651a49c0d69f7.json"
     },
     {
       "date": "2023-11-17",
@@ -16589,6 +17939,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217100811_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_d4948e235bf80939.json"
+    },
+    {
+      "date": "2023-12-17",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3561667,
+      "favorites_count_observed": 23370,
+      "plays_text": "3,561,667",
+      "favorites_text": "23,370",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20231217021026",
+      "capture_url": "https://web.archive.org/web/20231217021026/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217021026_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_ae01b2ae223c7369.json"
     },
     {
       "date": "2023-12-17",
@@ -17012,6 +18377,21 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 210670,
+      "favorites_count_observed": 1030,
+      "plays_text": "210,670",
+      "favorites_text": "1,030",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20240119102552",
+      "capture_url": "https://web.archive.org/web/20240119102552/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119102552_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_3a954df08df72ffe.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Evo Explores",
       "game_url": "https://www.kongregate.com/games/tobeglad/evo-explores",
       "plays_count_observed": 407017,
@@ -17039,6 +18419,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119163401_https_www.kongregate.com_games_lolz666_house-idle-v-4_metrics.json_382d14ec34f50072.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Idle Dancing",
+      "game_url": "http://www.kongregate.com/games/HeroicHero/idle-dancing",
+      "plays_count_observed": 402479,
+      "favorites_count_observed": 3472,
+      "plays_text": "402,479",
+      "favorites_text": "3,472",
+      "metrics_url": "https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "capture_timestamp": "20240119165254",
+      "capture_url": "https://web.archive.org/web/20240119165254/https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119165254_https_www.kongregate.com_games_HeroicHero_idle-dancing_metrics.json_e336fb6889d1c7f1.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 282372,
+      "favorites_count_observed": 4439,
+      "plays_text": "282,372",
+      "favorites_text": "4,439",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240119175919",
+      "capture_url": "https://web.archive.org/web/20240119175919/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119175919_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_530e9b88b7f1b789.json"
     },
     {
       "date": "2024-01-19",
@@ -17417,6 +18827,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3908610,
+      "favorites_count_observed": 53870,
+      "plays_text": "3,908,610",
+      "favorites_text": "53,870",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20240121161334",
+      "capture_url": "https://web.archive.org/web/20240121161334/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121161334_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_588a5a534bda384d.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 280302,
@@ -17444,6 +18869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122010454_https_www.kongregate.com_games_Talon88_convergence_metrics.json_a1c90740a0804543.json"
+    },
+    {
+      "date": "2024-01-22",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 210992,
+      "favorites_count_observed": 1031,
+      "plays_text": "210,992",
+      "favorites_text": "1,031",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20240122171259",
+      "capture_url": "https://web.archive.org/web/20240122171259/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122171259_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_0ff6536007eb140a.json"
     },
     {
       "date": "2024-01-22",
@@ -17626,6 +19066,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240204040602_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_fc5e5da53859e97e.json"
     },
     {
+      "date": "2024-02-06",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 214272,
+      "favorites_count_observed": 1031,
+      "plays_text": "214,272",
+      "favorites_text": "1,031",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20240206150916",
+      "capture_url": "https://web.archive.org/web/20240206150916/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240206150916_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_d0edaa445d980554.json"
+    },
+    {
       "date": "2024-02-08",
       "game_name": "Cardinal Quest 2",
       "game_url": "https://www.kongregate.com/en/games/randomnine/cardinal-quest-2",
@@ -17732,6 +19187,21 @@
     },
     {
       "date": "2024-02-22",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 217269,
+      "favorites_count_observed": 1032,
+      "plays_text": "217,269",
+      "favorites_text": "1,032",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20240222003359",
+      "capture_url": "https://web.archive.org/web/20240222003359/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222003359_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_b3217a07d607c13e.json"
+    },
+    {
+      "date": "2024-02-22",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
       "plays_count_observed": 7804787,
@@ -17774,6 +19244,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222163840_https_www.kongregate.com_games_lolz666_house-idle-v-4_metrics.json_d8b8a593e0e13b48.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 283001,
+      "favorites_count_observed": 4439,
+      "plays_text": "283,001",
+      "favorites_text": "4,439",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240222181639",
+      "capture_url": "https://web.archive.org/web/20240222181639/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222181639_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_17bd7a2033249002.json"
     },
     {
       "date": "2024-02-22",
@@ -17956,6 +19441,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240226081721_https_www.kongregate.com_games_synapticon_tyrant-unleashed-web_metrics.json_afa86c763267ba7b.json"
     },
     {
+      "date": "2024-03-01",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 283141,
+      "favorites_count_observed": 4440,
+      "plays_text": "283,141",
+      "favorites_text": "4,440",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240301191627",
+      "capture_url": "https://web.archive.org/web/20240301191627/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240301191627_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_0b07d5811f2e56b4.json"
+    },
+    {
       "date": "2024-03-02",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -18121,6 +19621,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308081950_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_a5680b3b0d8c281d.json"
     },
     {
+      "date": "2024-03-08",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3912337,
+      "favorites_count_observed": 53876,
+      "plays_text": "3,912,337",
+      "favorites_text": "53,876",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20240308101214",
+      "capture_url": "https://web.archive.org/web/20240308101214/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308101214_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_1130f47663b9f776.json"
+    },
+    {
       "date": "2024-03-12",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
@@ -18134,6 +19649,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240312115502_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_e083f7929673c13b.json"
+    },
+    {
+      "date": "2024-03-17",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 283389,
+      "favorites_count_observed": 4442,
+      "plays_text": "283,389",
+      "favorites_text": "4,442",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240317075844",
+      "capture_url": "https://web.archive.org/web/20240317075844/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240317075844_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_bf0cf8ad0eba89d2.json"
     },
     {
       "date": "2024-03-19",
@@ -18556,6 +20086,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240501062038_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_eb293f3f52e03c58.json"
     },
     {
+      "date": "2024-05-03",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 284059,
+      "favorites_count_observed": 4441,
+      "plays_text": "284,059",
+      "favorites_text": "4,441",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240503021109",
+      "capture_url": "https://web.archive.org/web/20240503021109/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240503021109_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_1614f71d97d28a46.json"
+    },
+    {
       "date": "2024-05-04",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -18766,6 +20311,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240511065555_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_e6e21df91f7f02b6.json"
     },
     {
+      "date": "2024-05-14",
+      "game_name": "Commando Assault",
+      "game_url": "https://www.kongregate.com/games/miniclip/commando-assault",
+      "plays_count_observed": 107165,
+      "favorites_count_observed": 805,
+      "plays_text": "107,165",
+      "favorites_text": "805",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/commando-assault/metrics.json",
+      "capture_timestamp": "20240514221529",
+      "capture_url": "https://web.archive.org/web/20240514221529/http://www.kongregate.com/games/miniclip/commando-assault/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240514221529_http_www.kongregate.com_games_miniclip_commando-assault_metrics.json_6010534a7b33f774.json"
+    },
+    {
       "date": "2024-05-16",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -18824,6 +20384,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240519062349_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_bb60d03fdac3e8d0.json"
+    },
+    {
+      "date": "2024-05-19",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 284257,
+      "favorites_count_observed": 4440,
+      "plays_text": "284,257",
+      "favorites_text": "4,440",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240519204223",
+      "capture_url": "https://web.archive.org/web/20240519204223/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240519204223_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_8b61f6829b41c02b.json"
     },
     {
       "date": "2024-05-20",
@@ -19651,6 +21226,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240906134239_https_www.kongregate.com_games_HyperHippoGames_adventure-capitalist_metrics.json_9a83595f21a1d0d4.json"
     },
     {
+      "date": "2024-09-06",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 285838,
+      "favorites_count_observed": 4443,
+      "plays_text": "285,838",
+      "favorites_text": "4,443",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20240906121306",
+      "capture_url": "https://web.archive.org/web/20240906121306/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240906121306_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_56c509aff96830a1.json"
+    },
+    {
       "date": "2024-09-08",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -19741,6 +21331,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240930124612_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_54804a5ca184dd58.json"
     },
     {
+      "date": "2024-09-30",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3580311,
+      "favorites_count_observed": 23413,
+      "plays_text": "3,580,311",
+      "favorites_text": "23,413",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20240930180244",
+      "capture_url": "https://web.archive.org/web/20240930180244/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240930180244_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_e82a5c53dee1db10.json"
+    },
+    {
       "date": "2024-10-01",
       "game_name": "GemCraft",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft",
@@ -19771,6 +21376,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241001163949_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_9aa44df90566c72f.json"
     },
     {
+      "date": "2024-10-01",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3580396,
+      "favorites_count_observed": 23413,
+      "plays_text": "3,580,396",
+      "favorites_text": "23,413",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20241001213259",
+      "capture_url": "https://web.archive.org/web/20241001213259/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241001213259_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_ee4a5f7b5920e5a4.json"
+    },
+    {
       "date": "2024-10-04",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
@@ -19784,6 +21404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241004232655_https_www.kongregate.com_games_kingk_dream-world_metrics.json_9c046581634385c6.json"
+    },
+    {
+      "date": "2024-10-04",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3580558,
+      "favorites_count_observed": 23414,
+      "plays_text": "3,580,558",
+      "favorites_text": "23,414",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20241004203939",
+      "capture_url": "https://web.archive.org/web/20241004203939/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241004203939_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_b070890b98cba12c.json"
     },
     {
       "date": "2024-10-05",
@@ -19874,6 +21509,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241008221642_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_a4b49f1b7945260b.json"
+    },
+    {
+      "date": "2024-10-08",
+      "game_name": "Tangerine Tycoon",
+      "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
+      "plays_count_observed": 3580687,
+      "favorites_count_observed": 23413,
+      "plays_text": "3,580,687",
+      "favorites_text": "23,413",
+      "metrics_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "capture_timestamp": "20241008005540",
+      "capture_url": "https://web.archive.org/web/20241008005540/https://www.kongregate.com/games/GazThomas/tangerine-tycoon/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241008005540_https_www.kongregate.com_games_GazThomas_tangerine-tycoon_metrics.json_3118dd6d415212dc.json"
     },
     {
       "date": "2024-10-09",
@@ -20581,6 +22231,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330125321_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_2cdb39ad3bc77ab5.json"
     },
     {
+      "date": "2025-03-30",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3923484,
+      "favorites_count_observed": 53922,
+      "plays_text": "3,923,484",
+      "favorites_text": "53,922",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20250330125148",
+      "capture_url": "https://web.archive.org/web/20250330125148/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330125148_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_630364ab319e63c5.json"
+    },
+    {
       "date": "2025-03-31",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
@@ -20684,6 +22349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250417225500_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_4526175760d03811.json"
+    },
+    {
+      "date": "2025-04-18",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 247972,
+      "favorites_count_observed": 1056,
+      "plays_text": "247,972",
+      "favorites_text": "1,056",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20250418213719",
+      "capture_url": "https://web.archive.org/web/20250418213719/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250418213719_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_8ec45368f8f88a3a.json"
     },
     {
       "date": "2025-04-24",
@@ -20837,6 +22517,21 @@
     },
     {
       "date": "2025-05-05",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 251847,
+      "favorites_count_observed": 1056,
+      "plays_text": "251,847",
+      "favorites_text": "1,056",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20250505003136",
+      "capture_url": "https://web.archive.org/web/20250505003136/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250505003136_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_b1fedee7426b065e.json"
+    },
+    {
+      "date": "2025-05-05",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31832190,
@@ -20939,6 +22634,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250530041426_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_6dc962f57ad608bd.json"
+    },
+    {
+      "date": "2025-05-31",
+      "game_name": "The Company of Myself",
+      "game_url": "http://www.kongregate.com/games/2DArray/the-company-of-myself",
+      "plays_count_observed": 6089067,
+      "favorites_count_observed": 47136,
+      "plays_text": "6,089,067",
+      "favorites_text": "47,136",
+      "metrics_url": "https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "capture_timestamp": "20250531170817",
+      "capture_url": "https://web.archive.org/web/20250531170817/https://www.kongregate.com/games/2DArray/the-company-of-myself/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250531170817_https_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_e7fe86ab2ccae572.json"
+    },
+    {
+      "date": "2025-05-31",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 3925064,
+      "favorites_count_observed": 53928,
+      "plays_text": "3,925,064",
+      "favorites_text": "53,928",
+      "metrics_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20250531170806",
+      "capture_url": "https://web.archive.org/web/20250531170806/https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250531170806_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_c5c2296d8960468f.json"
     },
     {
       "date": "2025-05-31",
@@ -21272,6 +22997,21 @@
     },
     {
       "date": "2025-08-30",
+      "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
+      "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
+      "plays_count_observed": 290964,
+      "favorites_count_observed": 4451,
+      "plays_text": "290,964",
+      "favorites_text": "4,451",
+      "metrics_url": "https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "capture_timestamp": "20250830181616",
+      "capture_url": "https://web.archive.org/web/20250830181616/https://www.kongregate.com/games/Tukkun/kana-warrior/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250830181616_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_05d8b9cd7e341601.json"
+    },
+    {
+      "date": "2025-08-30",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 46846739,
@@ -21314,6 +23054,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250902151000_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_c7ebb91c30d9ed52.json"
+    },
+    {
+      "date": "2025-09-04",
+      "game_name": "Cubito Mayhem",
+      "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
+      "plays_count_observed": 263501,
+      "favorites_count_observed": 1066,
+      "plays_text": "263,501",
+      "favorites_text": "1,066",
+      "metrics_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "capture_timestamp": "20250904123658",
+      "capture_url": "https://web.archive.org/web/20250904123658/https://www.kongregate.com/games/oultrox/cubito-mayhem/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250904123658_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_04035e01b9e0af3c.json"
     },
     {
       "date": "2025-09-08",
@@ -21464,6 +23219,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251001174235_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_688b3b92537ff12e.json"
+    },
+    {
+      "date": "2025-10-01",
+      "game_name": "Idle Dancing",
+      "game_url": "http://www.kongregate.com/games/HeroicHero/idle-dancing",
+      "plays_count_observed": 403183,
+      "favorites_count_observed": 3474,
+      "plays_text": "403,183",
+      "favorites_text": "3,474",
+      "metrics_url": "https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "capture_timestamp": "20251001174303",
+      "capture_url": "https://web.archive.org/web/20251001174303/https://www.kongregate.com/games/HeroicHero/idle-dancing/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251001174303_https_www.kongregate.com_games_HeroicHero_idle-dancing_metrics.json_a143d7e6de5be241.json"
     },
     {
       "date": "2025-10-11",
