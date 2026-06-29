@@ -631,6 +631,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151021153035_http_www.kongregate.com_games_TogeProductions_infectonator-world-dominator_metrics.json_1c2f686ac4542d03.json"
     },
     {
+      "date": "2015-10-23",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 112695,
+      "favorites_count_observed": 971,
+      "plays_text": "112,695",
+      "favorites_text": "971",
+      "metrics_url": "http://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20151023135943",
+      "capture_url": "https://web.archive.org/web/20151023135943/http://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151023135943_http_www.kongregate.com_games_synapticon_spellstone_metrics.json_fee0fc5e18386cda.json"
+    },
+    {
       "date": "2015-11-05",
       "game_name": "Cursed Treasure: Don't...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-dont-touch-my-gems",
@@ -1514,6 +1529,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160330203018_http_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_749d44bf5ea86460.json"
+    },
+    {
+      "date": "2016-04-02",
+      "game_name": "Medieval Cop",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop",
+      "plays_count_observed": 8050,
+      "favorites_count_observed": 117,
+      "plays_text": "8,050",
+      "favorites_text": "117",
+      "metrics_url": "http://www.kongregate.com/games/VasantJ/medieval-cop/metrics.json",
+      "capture_timestamp": "20160402081530",
+      "capture_url": "https://web.archive.org/web/20160402081530/http://www.kongregate.com/games/VasantJ/medieval-cop/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160402081530_http_www.kongregate.com_games_VasantJ_medieval-cop_metrics.json_1671e09c3250a3bb.json"
     },
     {
       "date": "2016-04-14",
@@ -2731,6 +2761,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181104022114_http_www.kongregate.com_80_games_R2Games_wartune_metrics.json_3d97ab3e16e2063a.json"
     },
     {
+      "date": "2018-11-18",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 553186,
+      "favorites_count_observed": 6004,
+      "plays_text": "553,186",
+      "favorites_text": "6,004",
+      "metrics_url": "http://www.kongregate.com:80/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20181118151631",
+      "capture_url": "https://web.archive.org/web/20181118151631/http://www.kongregate.com:80/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181118151631_http_www.kongregate.com_80_games_nutcasenightmare_we-become-what-we-behold_metrics.json_9343fcb2e3d5ba1f.json"
+    },
+    {
       "date": "2018-12-17",
       "game_name": "Idle Bouncer",
       "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
@@ -2819,6 +2864,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190116070336_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_475a2264172e77af.json"
+    },
+    {
+      "date": "2019-01-16",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7858705,
+      "favorites_count_observed": 19946,
+      "plays_text": "7,858,705",
+      "favorites_text": "19,946",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190116070220",
+      "capture_url": "https://web.archive.org/web/20190116070220/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190116070220_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_028197348cde14ea.json"
     },
     {
       "date": "2019-01-16",
@@ -3119,6 +3179,66 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032852_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_6c743e63591a4571.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7949709,
+      "favorites_count_observed": 20123,
+      "plays_text": "7,949,709",
+      "favorites_text": "20,123",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190205032904",
+      "capture_url": "https://web.archive.org/web/20190205032904/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032904_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_42f80344d04c1089.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7949709,
+      "favorites_count_observed": 20123,
+      "plays_text": "7,949,709",
+      "favorites_text": "20,123",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190205032930",
+      "capture_url": "https://web.archive.org/web/20190205032930/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032930_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_300cba7dfc55907b.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7949711,
+      "favorites_count_observed": 20123,
+      "plays_text": "7,949,711",
+      "favorites_text": "20,123",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190205032957",
+      "capture_url": "https://web.archive.org/web/20190205032957/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032957_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_6327d8feb4d80176.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7949713,
+      "favorites_count_observed": 20123,
+      "plays_text": "7,949,713",
+      "favorites_text": "20,123",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190205033045",
+      "capture_url": "https://web.archive.org/web/20190205033045/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033045_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_86419ada35e4e6e4.json"
     },
     {
       "date": "2019-02-05",
@@ -3434,6 +3554,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190917170430_http_www.kongregate.com_games_robscherer123_helmet-heroes_metrics.json_3a537db731aa20d5.json"
+    },
+    {
+      "date": "2019-09-23",
+      "game_name": "Villainous",
+      "game_url": "http://www.kongregate.com/games/Rete/villainous",
+      "plays_count_observed": 3582828,
+      "favorites_count_observed": 44290,
+      "plays_text": "3,582,828",
+      "favorites_text": "44,290",
+      "metrics_url": "http://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "capture_timestamp": "20190923001917",
+      "capture_url": "https://web.archive.org/web/20190923001917/http://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190923001917_http_www.kongregate.com_games_Rete_villainous_metrics.json_755a5910603d277c.json"
     },
     {
       "date": "2019-09-27",
@@ -3914,6 +4049,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183752_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_a301d2b8f0d41268.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 8895320,
+      "favorites_count_observed": 22015,
+      "plays_text": "8,895,320",
+      "favorites_text": "22,015",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20191017183745",
+      "capture_url": "https://web.archive.org/web/20191017183745/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183745_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_f85a8f0f3ad2c23d.json"
     },
     {
       "date": "2019-10-17",
@@ -6241,6 +6391,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_63a438f3b02888cd.json"
     },
     {
+      "date": "2020-01-21",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 148305,
+      "favorites_count_observed": 829,
+      "plays_text": "148,305",
+      "favorites_text": "829",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200121074348",
+      "capture_url": "https://web.archive.org/web/20200121074348/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121074348_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_a276bbe04c2857c0.json"
+    },
+    {
       "date": "2020-01-24",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
@@ -6481,6 +6646,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200302081335_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_3bb111ae163a6b9c.json"
     },
     {
+      "date": "2020-03-02",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 252510,
+      "favorites_count_observed": 985,
+      "plays_text": "252,510",
+      "favorites_text": "985",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200302081344",
+      "capture_url": "https://web.archive.org/web/20200302081344/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200302081344_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_471449e1a92b0547.json"
+    },
+    {
+      "date": "2020-03-03",
+      "game_name": "Adventure Story",
+      "game_url": "http://www.kongregate.com/games/kupo707/adventure-story",
+      "plays_count_observed": 1880853,
+      "favorites_count_observed": 21385,
+      "plays_text": "1,880,853",
+      "favorites_text": "21,385",
+      "metrics_url": "http://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "capture_timestamp": "20200303232947",
+      "capture_url": "https://web.archive.org/web/20200303232947/http://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200303232947_http_www.kongregate.com_games_kupo707_adventure-story_metrics.json_5617b9fb54c56572.json"
+    },
+    {
       "date": "2020-03-05",
       "game_name": "Learn to Fly 3",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
@@ -6509,6 +6704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200305142216_http_www.kongregate.com_games_Addisonr_raze_metrics.json_704a63ee89d6130e.json"
+    },
+    {
+      "date": "2020-03-05",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 258075,
+      "favorites_count_observed": 993,
+      "plays_text": "258,075",
+      "favorites_text": "993",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200305101440",
+      "capture_url": "https://web.archive.org/web/20200305101440/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200305101440_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_97cc065a87b79402.json"
     },
     {
       "date": "2020-03-10",
@@ -7006,6 +7216,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200403061415_https_www.kongregate.com_games_terra0nova_aground_metrics.json_40d25e64989b9291.json"
     },
     {
+      "date": "2020-04-07",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 308189,
+      "favorites_count_observed": 1061,
+      "plays_text": "308,189",
+      "favorites_text": "1,061",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200407022343",
+      "capture_url": "https://web.archive.org/web/20200407022343/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200407022343_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_8fb413637b01f546.json"
+    },
+    {
       "date": "2020-04-15",
       "game_name": "Epic Battle Fantasy 5",
       "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
@@ -7094,6 +7319,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184304_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_83f2a33ba53387e8.json"
+    },
+    {
+      "date": "2020-04-17",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 321966,
+      "favorites_count_observed": 1084,
+      "plays_text": "321,966",
+      "favorites_text": "1,084",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200417184250",
+      "capture_url": "https://web.archive.org/web/20200417184250/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200417184250_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_0e4e86c722244e22.json"
     },
     {
       "date": "2020-04-18",
@@ -7364,6 +7604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200424200123_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_64932c792e2debe6.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 527552,
+      "favorites_count_observed": 1860,
+      "plays_text": "527,552",
+      "favorites_text": "1,860",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20200427132155",
+      "capture_url": "https://web.archive.org/web/20200427132155/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132155_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_77319abc67140ab5.json"
     },
     {
       "date": "2020-04-27",
@@ -8011,6 +8266,51 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200430040406_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_d480579f4c7ebb96.json"
     },
     {
+      "date": "2020-04-30",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 336464,
+      "favorites_count_observed": 1101,
+      "plays_text": "336,464",
+      "favorites_text": "1,101",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200430040310",
+      "capture_url": "https://web.archive.org/web/20200430040310/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200430040310_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_746995dcf7df878a.json"
+    },
+    {
+      "date": "2020-04-30",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 336466,
+      "favorites_count_observed": 1101,
+      "plays_text": "336,466",
+      "favorites_text": "1,101",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200430040342",
+      "capture_url": "https://web.archive.org/web/20200430040342/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200430040342_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_3737d5856131c219.json"
+    },
+    {
+      "date": "2020-04-30",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 336467,
+      "favorites_count_observed": 1101,
+      "plays_text": "336,467",
+      "favorites_text": "1,101",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20200430040417",
+      "capture_url": "https://web.archive.org/web/20200430040417/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200430040417_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_5f8be8d2bd2ca111.json"
+    },
+    {
       "date": "2020-05-07",
       "game_name": "Epic Battle Fantasy 5",
       "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
@@ -8399,6 +8699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200622000926_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_bc309a54db97aa79.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 547664,
+      "favorites_count_observed": 1895,
+      "plays_text": "547,664",
+      "favorites_text": "1,895",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20200716172910",
+      "capture_url": "https://web.archive.org/web/20200716172910/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172910_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_695f2d217251c893.json"
     },
     {
       "date": "2020-07-16",
@@ -9329,6 +9644,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200901135022_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_af4199970b31d2c8.json"
+    },
+    {
+      "date": "2020-10-15",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 568115,
+      "favorites_count_observed": 1921,
+      "plays_text": "568,115",
+      "favorites_text": "1,921",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20201015131225",
+      "capture_url": "https://web.archive.org/web/20201015131225/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131225_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_dd3ad01ddae0cbe8.json"
     },
     {
       "date": "2020-10-15",
@@ -10517,6 +10847,21 @@
     },
     {
       "date": "2020-11-03",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 571568,
+      "favorites_count_observed": 1927,
+      "plays_text": "571,568",
+      "favorites_text": "1,927",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20201103041528",
+      "capture_url": "https://web.archive.org/web/20201103041528/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201103041528_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_6fa110f6e0dcebd5.json"
+    },
+    {
+      "date": "2020-11-03",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 10259025,
@@ -11507,6 +11852,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 578502,
+      "favorites_count_observed": 1939,
+      "plays_text": "578,502",
+      "favorites_text": "1,939",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20201201204840",
+      "capture_url": "https://web.archive.org/web/20201201204840/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204840_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_dba4b19fcc876be6.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 10401147,
@@ -11939,6 +12299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204426_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_7a50e42570899622.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 604049,
+      "favorites_count_observed": 1650,
+      "plays_text": "604,049",
+      "favorites_text": "1,650",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20201201205358",
+      "capture_url": "https://web.archive.org/web/20201201205358/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201205358_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_2b92479b7b6d7804.json"
     },
     {
       "date": "2020-12-03",
@@ -12902,6 +13277,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 585614,
+      "favorites_count_observed": 1951,
+      "plays_text": "585,614",
+      "favorites_text": "1,951",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20210106185951",
+      "capture_url": "https://web.archive.org/web/20210106185951/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106185951_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_0c3f3f029f92a64f.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 10573569,
@@ -13334,6 +13724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106185945_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_3fb2ce9160ae1882.json"
+    },
+    {
+      "date": "2021-01-06",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 667544,
+      "favorites_count_observed": 1748,
+      "plays_text": "667,544",
+      "favorites_text": "1,748",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20210106190029",
+      "capture_url": "https://web.archive.org/web/20210106190029/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190029_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_52ddfa116ba1b410.json"
     },
     {
       "date": "2021-01-08",
@@ -14251,6 +14656,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210413215005_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_0d9988dcde7a15bc.json"
     },
     {
+      "date": "2021-04-13",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 10236126,
+      "favorites_count_observed": 23840,
+      "plays_text": "10,236,126",
+      "favorites_text": "23,840",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20210413214736",
+      "capture_url": "https://web.archive.org/web/20210413214736/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210413214736_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_a78fe71b19742556.json"
+    },
+    {
+      "date": "2021-04-18",
+      "game_name": "Adventure Story",
+      "game_url": "http://www.kongregate.com/games/kupo707/adventure-story",
+      "plays_count_observed": 1896768,
+      "favorites_count_observed": 21488,
+      "plays_text": "1,896,768",
+      "favorites_text": "21,488",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "capture_timestamp": "20210418022241",
+      "capture_url": "https://web.archive.org/web/20210418022241/https://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210418022241_https_www.kongregate.com_games_kupo707_adventure-story_metrics.json_b2692c7690eda7ec.json"
+    },
+    {
       "date": "2021-04-18",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
@@ -14444,6 +14879,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210510022355_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_281e4f9b941085be.json"
+    },
+    {
+      "date": "2021-05-13",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 616499,
+      "favorites_count_observed": 1998,
+      "plays_text": "616,499",
+      "favorites_text": "1,998",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20210513080016",
+      "capture_url": "https://web.archive.org/web/20210513080016/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080016_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_14c0e3be2f997393.json"
     },
     {
       "date": "2021-05-13",
@@ -14897,6 +15347,21 @@
     },
     {
       "date": "2021-05-24",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 618817,
+      "favorites_count_observed": 2000,
+      "plays_text": "618,817",
+      "favorites_text": "2,000",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20210524073328",
+      "capture_url": "https://web.archive.org/web/20210524073328/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073328_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_cfa516ec51dc738a.json"
+    },
+    {
+      "date": "2021-05-24",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 11187818,
@@ -15256,6 +15721,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073348_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_a43e8ea6dcc2c275.json"
     },
     {
+      "date": "2021-05-24",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 805289,
+      "favorites_count_observed": 1881,
+      "plays_text": "805,289",
+      "favorites_text": "1,881",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20210524073130",
+      "capture_url": "https://web.archive.org/web/20210524073130/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073130_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_d51467bd6034b5d5.json"
+    },
+    {
       "date": "2021-05-29",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -15526,6 +16006,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210611201758_http_www.kongregate.com_games_ExciteMike_pushy-elephant-a-diversion-for-a-pair-of-brave-persons-constructed-for-miniature-ludum-dare-one-score-and-five-playable-on-inform_46c5c9db9b8f6886.json"
     },
     {
+      "date": "2021-06-11",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 682053,
+      "favorites_count_observed": 7134,
+      "plays_text": "682,053",
+      "favorites_text": "7,134",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20210611173559",
+      "capture_url": "https://web.archive.org/web/20210611173559/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210611173559_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_b9a35f552784d62a.json"
+    },
+    {
+      "date": "2021-06-12",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 682081,
+      "favorites_count_observed": 7134,
+      "plays_text": "682,081",
+      "favorites_text": "7,134",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20210612002825",
+      "capture_url": "https://web.archive.org/web/20210612002825/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210612002825_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_682aec0b103cba6d.json"
+    },
+    {
       "date": "2021-06-13",
       "game_name": "Sort the Court!",
       "game_url": "http://www.kongregate.com/games/graebor/sort-the-court",
@@ -15719,6 +16229,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620202507_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_63030b4a9c350ec6.json"
+    },
+    {
+      "date": "2021-06-20",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 682771,
+      "favorites_count_observed": 7138,
+      "plays_text": "682,771",
+      "favorites_text": "7,138",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20210620202530",
+      "capture_url": "https://web.archive.org/web/20210620202530/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620202530_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_fadc22846e13ddef.json"
     },
     {
       "date": "2021-06-21",
@@ -16079,6 +16604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210724150055_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_c2c5464b45330104.json"
+    },
+    {
+      "date": "2021-07-24",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 10420062,
+      "favorites_count_observed": 23947,
+      "plays_text": "10,420,062",
+      "favorites_text": "23,947",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20210724145948",
+      "capture_url": "https://web.archive.org/web/20210724145948/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210724145948_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_4e2f7eb4dee36433.json"
     },
     {
       "date": "2021-07-25",
@@ -16621,6 +17161,51 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211012033503_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_c26242fb3f573d5d.json"
     },
     {
+      "date": "2021-10-12",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 695015,
+      "favorites_count_observed": 7205,
+      "plays_text": "695,015",
+      "favorites_text": "7,205",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20211012034635",
+      "capture_url": "https://web.archive.org/web/20211012034635/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211012034635_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_78fee6133cb3abf3.json"
+    },
+    {
+      "date": "2021-10-13",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 700494,
+      "favorites_count_observed": 7222,
+      "plays_text": "700,494",
+      "favorites_text": "7,222",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20211013010322",
+      "capture_url": "https://web.archive.org/web/20211013010322/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211013010322_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_cd8068fe3611cb6d.json"
+    },
+    {
+      "date": "2021-10-13",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 700722,
+      "favorites_count_observed": 7222,
+      "plays_text": "700,722",
+      "favorites_text": "7,222",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20211013030322",
+      "capture_url": "https://web.archive.org/web/20211013030322/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211013030322_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_2b3bc459512ef97a.json"
+    },
+    {
       "date": "2021-10-14",
       "game_name": "Demon War: Idle Rebellion",
       "game_url": "http://www.kongregate.com/games/ColdCoreStudios/demon-war-idle-rebellion",
@@ -16784,6 +17369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211017123413_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_a880f4b05cde7dc3.json"
+    },
+    {
+      "date": "2021-10-21",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 648423,
+      "favorites_count_observed": 2047,
+      "plays_text": "648,423",
+      "favorites_text": "2,047",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20211021110814",
+      "capture_url": "https://web.archive.org/web/20211021110814/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110814_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_eb71d0fa6a337e2c.json"
     },
     {
       "date": "2021-10-21",
@@ -17222,6 +17822,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 650325,
+      "favorites_count_observed": 2052,
+      "plays_text": "650,325",
+      "favorites_text": "2,052",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20211030182455",
+      "capture_url": "https://web.archive.org/web/20211030182455/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182455_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_a26f1ae7376c5b70.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 11926003,
@@ -17552,6 +18167,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 10601927,
+      "favorites_count_observed": 24121,
+      "plays_text": "10,601,927",
+      "favorites_text": "24,121",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20211030182556",
+      "capture_url": "https://web.archive.org/web/20211030182556/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182556_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_a83deab3aa00ef8d.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4322911,
@@ -17669,6 +18299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182639_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_50e06efd693d1087.json"
+    },
+    {
+      "date": "2021-10-31",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 650477,
+      "favorites_count_observed": 2052,
+      "plays_text": "650,477",
+      "favorites_text": "2,052",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20211031205143",
+      "capture_url": "https://web.archive.org/web/20211031205143/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205143_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_56173a121f409c65.json"
     },
     {
       "date": "2021-10-31",
@@ -17942,6 +18587,21 @@
     },
     {
       "date": "2021-10-31",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 10603745,
+      "favorites_count_observed": 24121,
+      "plays_text": "10,603,745",
+      "favorites_text": "24,121",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20211031205311",
+      "capture_url": "https://web.archive.org/web/20211031205311/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205311_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_dbbba658c4da9d85.json"
+    },
+    {
+      "date": "2021-10-31",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4324105,
@@ -18104,6 +18764,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211116235117_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_0c3775a9576ac0e5.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 653751,
+      "favorites_count_observed": 2055,
+      "plays_text": "653,751",
+      "favorites_text": "2,055",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20211118233614",
+      "capture_url": "https://web.archive.org/web/20211118233614/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233614_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_1ad4c925591abb5d.json"
     },
     {
       "date": "2021-11-18",
@@ -18839,6 +19514,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119023726_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_80855077ed3d8cda.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 654007,
+      "favorites_count_observed": 2055,
+      "plays_text": "654,007",
+      "favorites_text": "2,055",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20211120111217",
+      "capture_url": "https://web.archive.org/web/20211120111217/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111217_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_35f4374459dbe3e9.json"
     },
     {
       "date": "2021-11-20",
@@ -19952,6 +20642,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 10735481,
+      "favorites_count_observed": 24210,
+      "plays_text": "10,735,481",
+      "favorites_text": "24,210",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20220111080112",
+      "capture_url": "https://web.archive.org/web/20220111080112/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080112_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_6b6220f10998ecd3.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
       "plays_count_observed": 4363238,
@@ -21062,6 +21767,21 @@
     },
     {
       "date": "2022-04-01",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 676709,
+      "favorites_count_observed": 2080,
+      "plays_text": "676,709",
+      "favorites_text": "2,080",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20220401042625",
+      "capture_url": "https://web.archive.org/web/20220401042625/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042625_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_fa74a5ed3d8f0f31.json"
+    },
+    {
+      "date": "2022-04-01",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 12602467,
@@ -21854,6 +22574,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144212_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_d70189e57c581d4a.json"
+    },
+    {
+      "date": "2022-04-04",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 948979,
+      "favorites_count_observed": 1931,
+      "plays_text": "948,979",
+      "favorites_text": "1,931",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20220404143941",
+      "capture_url": "https://web.archive.org/web/20220404143941/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404143941_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_2d0e141ad3051ca2.json"
     },
     {
       "date": "2022-04-07",
@@ -22816,6 +23551,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706043135_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_0288d273d0c327e5.json"
     },
     {
+      "date": "2022-07-06",
+      "game_name": "Storm the House 3",
+      "game_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3",
+      "plays_count_observed": 6668529,
+      "favorites_count_observed": 22553,
+      "plays_text": "6,668,529",
+      "favorites_text": "22,553",
+      "metrics_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "capture_timestamp": "20220706031242",
+      "capture_url": "https://web.archive.org/web/20220706031242/https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706031242_https_www.kongregate.com_games_Ivory_storm-the-house-3_metrics.json_cdab6d787f103f95.json"
+    },
+    {
       "date": "2022-07-16",
       "game_name": "Epic Battle Fantasy 5",
       "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
@@ -23009,6 +23759,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220828163155_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_95960766f6551c60.json"
+    },
+    {
+      "date": "2022-08-29",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 181844,
+      "favorites_count_observed": 1553,
+      "plays_text": "181,844",
+      "favorites_text": "1,553",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20220829175519",
+      "capture_url": "https://web.archive.org/web/20220829175519/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220829175519_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_921e05894b721ed4.json"
     },
     {
       "date": "2022-08-30",
@@ -24331,6 +25096,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202190735_https_www.kongregate.com_games_urbz_mud-and-blood-2_metrics.json_f45aee5de425a642.json"
     },
     {
+      "date": "2022-12-02",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 189868,
+      "favorites_count_observed": 1596,
+      "plays_text": "189,868",
+      "favorites_text": "1,596",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20221202180900",
+      "capture_url": "https://web.archive.org/web/20221202180900/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202180900_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_de04282b25564cf3.json"
+    },
+    {
+      "date": "2022-12-03",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 709324,
+      "favorites_count_observed": 2055,
+      "plays_text": "709,324",
+      "favorites_text": "2,055",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20221203125805",
+      "capture_url": "https://web.archive.org/web/20221203125805/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125805_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_a6912f8e0b971fc0.json"
+    },
+    {
       "date": "2022-12-03",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -24467,6 +25262,21 @@
     },
     {
       "date": "2022-12-03",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 189881,
+      "favorites_count_observed": 1596,
+      "plays_text": "189,881",
+      "favorites_text": "1,596",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20221203005913",
+      "capture_url": "https://web.archive.org/web/20221203005913/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203005913_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_d5f2269ab479b54f.json"
+    },
+    {
+      "date": "2022-12-03",
       "game_name": "SAS: Zombie Assault 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-4",
       "plays_count_observed": 11365884,
@@ -24554,6 +25364,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203130012_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_9d282bbcf06e6ff3.json"
+    },
+    {
+      "date": "2022-12-04",
+      "game_name": "Age of Rivals",
+      "game_url": "https://www.kongregate.com/en/games/RobotoGames/age-of-rivals",
+      "plays_count_observed": 709410,
+      "favorites_count_observed": 2054,
+      "plays_text": "709,410",
+      "favorites_text": "2,054",
+      "metrics_url": "https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "capture_timestamp": "20221204231819",
+      "capture_url": "https://web.archive.org/web/20221204231819/https://www.kongregate.com/games/RobotoGames/age-of-rivals/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231819_https_www.kongregate.com_games_RobotoGames_age-of-rivals_metrics.json_2130ab957316ead0.json"
     },
     {
       "date": "2022-12-04",
@@ -26191,6 +27016,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206212526_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_fd768097e3576149.json"
     },
     {
+      "date": "2023-02-06",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 749852,
+      "favorites_count_observed": 7210,
+      "plays_text": "749,852",
+      "favorites_text": "7,210",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20230206203045",
+      "capture_url": "https://web.archive.org/web/20230206203045/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206203045_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_8337530941ed9b61.json"
+    },
+    {
+      "date": "2023-02-06",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 749854,
+      "favorites_count_observed": 7210,
+      "plays_text": "749,854",
+      "favorites_text": "7,210",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20230206213008",
+      "capture_url": "https://web.archive.org/web/20230206213008/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230206213008_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_56ca692b45c1c566.json"
+    },
+    {
       "date": "2023-02-09",
       "game_name": "Cat in Japan",
       "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
@@ -26462,6 +27317,36 @@
     },
     {
       "date": "2023-02-14",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11361728,
+      "favorites_count_observed": 24248,
+      "plays_text": "11,361,728",
+      "favorites_text": "24,248",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230214005532",
+      "capture_url": "https://web.archive.org/web/20230214005532/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005532_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_f6195b8d020edafd.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11363205,
+      "favorites_count_observed": 24251,
+      "plays_text": "11,363,205",
+      "favorites_text": "24,251",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230214163327",
+      "capture_url": "https://web.archive.org/web/20230214163327/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163327_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_dbb86945e8fae147.json"
+    },
+    {
+      "date": "2023-02-14",
       "game_name": "Supremacy 1914",
       "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
       "plays_count_observed": 522030,
@@ -26626,6 +27511,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230221075925_https_www.kongregate.com_games_kingk_dream-world_metrics.json_6a79d9a37b6b46e6.json"
     },
     {
+      "date": "2023-02-21",
+      "game_name": "Storm the House 3",
+      "game_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3",
+      "plays_count_observed": 6671214,
+      "favorites_count_observed": 22090,
+      "plays_text": "6,671,214",
+      "favorites_text": "22,090",
+      "metrics_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "capture_timestamp": "20230221070005",
+      "capture_url": "https://web.archive.org/web/20230221070005/https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230221070005_https_www.kongregate.com_games_Ivory_storm-the-house-3_metrics.json_dc76deae7e7a6700.json"
+    },
+    {
       "date": "2023-02-24",
       "game_name": "Sort the Court!",
       "game_url": "http://www.kongregate.com/games/graebor/sort-the-court",
@@ -26759,6 +27659,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230225144314_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4b6034288c0d23d6.json"
+    },
+    {
+      "date": "2023-02-25",
+      "game_name": "Spellstone",
+      "game_url": "http://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11380663,
+      "favorites_count_observed": 24261,
+      "plays_text": "11,380,663",
+      "favorites_text": "24,261",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230225144439",
+      "capture_url": "https://web.archive.org/web/20230225144439/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230225144439_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_ece213c5bac59393.json"
     },
     {
       "date": "2023-02-25",
@@ -27029,6 +27944,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226160245_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_4c911f21575a422b.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Villainous",
+      "game_url": "http://www.kongregate.com/games/Rete/villainous",
+      "plays_count_observed": 3636799,
+      "favorites_count_observed": 44377,
+      "plays_text": "3,636,799",
+      "favorites_text": "44,377",
+      "metrics_url": "https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "capture_timestamp": "20230226161323",
+      "capture_url": "https://web.archive.org/web/20230226161323/https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226161323_https_www.kongregate.com_games_Rete_villainous_metrics.json_33e576b5abe1e673.json"
     },
     {
       "date": "2023-02-26",
@@ -27992,6 +28922,21 @@
     },
     {
       "date": "2023-05-08",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 706043,
+      "favorites_count_observed": 4607,
+      "plays_text": "706,043",
+      "favorites_text": "4,607",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20230508203521",
+      "capture_url": "https://web.archive.org/web/20230508203521/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230508203521_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_2d298fe3ef738558.json"
+    },
+    {
+      "date": "2023-05-08",
       "game_name": "Cubito Mayhem",
       "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
       "plays_count_observed": 183436,
@@ -28124,6 +29069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230601043248_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_0b97d9f3206c339d.json"
+    },
+    {
+      "date": "2023-06-02",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 715270,
+      "favorites_count_observed": 4618,
+      "plays_text": "715,270",
+      "favorites_text": "4,618",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20230602145410",
+      "capture_url": "https://web.archive.org/web/20230602145410/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230602145410_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_47a4ee6fef29e4af.json"
     },
     {
       "date": "2023-06-07",
@@ -28742,6 +29702,21 @@
     },
     {
       "date": "2023-07-28",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 198098,
+      "favorites_count_observed": 1639,
+      "plays_text": "198,098",
+      "favorites_text": "1,639",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20230728040132",
+      "capture_url": "https://web.archive.org/web/20230728040132/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230728040132_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_9e682c1e166f9202.json"
+    },
+    {
+      "date": "2023-07-28",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 5525797,
@@ -29056,6 +30031,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230808231447_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_9cfa6030098200a7.json"
     },
     {
+      "date": "2023-08-09",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 757343,
+      "favorites_count_observed": 7248,
+      "plays_text": "757,343",
+      "favorites_text": "7,248",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20230809162704",
+      "capture_url": "https://web.archive.org/web/20230809162704/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230809162704_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_269c315b8d38d105.json"
+    },
+    {
       "date": "2023-08-11",
       "game_name": "Learn to Fly 3",
       "game_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
@@ -29204,6 +30194,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230817204719_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_91a7d32a512ed206.json"
+    },
+    {
+      "date": "2023-08-18",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 201637,
+      "favorites_count_observed": 1654,
+      "plays_text": "201,637",
+      "favorites_text": "1,654",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20230818172213",
+      "capture_url": "https://web.archive.org/web/20230818172213/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230818172213_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_4b6dd0b479881d02.json"
     },
     {
       "date": "2023-08-19",
@@ -30602,6 +31607,21 @@
     },
     {
       "date": "2023-10-18",
+      "game_name": "Adventure Story",
+      "game_url": "http://www.kongregate.com/games/kupo707/adventure-story",
+      "plays_count_observed": 1909760,
+      "favorites_count_observed": 21402,
+      "plays_text": "1,909,760",
+      "favorites_text": "21,402",
+      "metrics_url": "https://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "capture_timestamp": "20231018113026",
+      "capture_url": "https://web.archive.org/web/20231018113026/https://www.kongregate.com/games/kupo707/adventure-story/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231018113026_https_www.kongregate.com_games_kupo707_adventure-story_metrics.json_52f3a7eddc9b06a5.json"
+    },
+    {
+      "date": "2023-10-18",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
       "plays_count_observed": 4284095,
@@ -30779,6 +31799,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231101031319_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_b2fff41cf05fca23.json"
+    },
+    {
+      "date": "2023-11-01",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 764904,
+      "favorites_count_observed": 7272,
+      "plays_text": "764,904",
+      "favorites_text": "7,272",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20231101114831",
+      "capture_url": "https://web.archive.org/web/20231101114831/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231101114831_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_d0023de8eb16bf52.json"
+    },
+    {
+      "date": "2023-11-01",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 765122,
+      "favorites_count_observed": 7272,
+      "plays_text": "765,122",
+      "favorites_text": "7,272",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20231101123622",
+      "capture_url": "https://web.archive.org/web/20231101123622/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231101123622_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_eb505a30f41bce33.json"
     },
     {
       "date": "2023-11-03",
@@ -31304,6 +32354,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231204200223_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_a8ab7d8c4b35a30b.json"
+    },
+    {
+      "date": "2023-12-06",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 770208,
+      "favorites_count_observed": 7280,
+      "plays_text": "770,208",
+      "favorites_text": "7,280",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20231206230112",
+      "capture_url": "https://web.archive.org/web/20231206230112/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231206230112_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_e22c45a6d2f04df1.json"
     },
     {
       "date": "2023-12-10",
@@ -32506,6 +33571,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117080510_https_www.kongregate.com_games_undefined_protector-iv_metrics.json_d8a8514f1eb89a80.json"
     },
     {
+      "date": "2024-01-17",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 771748,
+      "favorites_count_observed": 7283,
+      "plays_text": "771,748",
+      "favorites_text": "7,283",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240117035855",
+      "capture_url": "https://web.archive.org/web/20240117035855/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117035855_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_6023ed6aaf4b1e16.json"
+    },
+    {
       "date": "2024-01-19",
       "game_name": "Bloons Tower Defense 4",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4",
@@ -33422,6 +34502,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 771805,
+      "favorites_count_observed": 7283,
+      "plays_text": "771,805",
+      "favorites_text": "7,283",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240120095230",
+      "capture_url": "https://web.archive.org/web/20240120095230/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120095230_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_e38d77572e772692.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Zombidle",
       "game_url": "http://www.kongregate.com/games/BerzerkStudio/zombidle",
       "plays_count_observed": 6936579,
@@ -33722,6 +34817,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Villainous",
+      "game_url": "http://www.kongregate.com/games/Rete/villainous",
+      "plays_count_observed": 3641812,
+      "favorites_count_observed": 44370,
+      "plays_text": "3,641,812",
+      "favorites_text": "44,370",
+      "metrics_url": "https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "capture_timestamp": "20240121134625",
+      "capture_url": "https://web.archive.org/web/20240121134625/https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121134625_https_www.kongregate.com_games_Rete_villainous_metrics.json_e63b34d098d198b7.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Woodclicker",
       "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
       "plays_count_observed": 1410056,
@@ -33824,6 +34934,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122224450_https_www.kongregate.com_games_Aiursrage2k_smooth-bowling_metrics.json_90e8dcc99385b5b2.json"
+    },
+    {
+      "date": "2024-01-22",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 771960,
+      "favorites_count_observed": 7283,
+      "plays_text": "771,960",
+      "favorites_text": "7,283",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240122171221",
+      "capture_url": "https://web.archive.org/web/20240122171221/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122171221_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_0101f452f6a275da.json"
+    },
+    {
+      "date": "2024-01-23",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 774914,
+      "favorites_count_observed": 7285,
+      "plays_text": "774,914",
+      "favorites_text": "7,285",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240123192319",
+      "capture_url": "https://web.archive.org/web/20240123192319/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240123192319_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_447a8323d3095cd6.json"
+    },
+    {
+      "date": "2024-01-23",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 775266,
+      "favorites_count_observed": 7285,
+      "plays_text": "775,266",
+      "favorites_text": "7,285",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240123213855",
+      "capture_url": "https://web.archive.org/web/20240123213855/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240123213855_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_527fad2dd1d9000d.json"
     },
     {
       "date": "2024-01-24",
@@ -34697,6 +35852,21 @@
     },
     {
       "date": "2024-02-23",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 776935,
+      "favorites_count_observed": 7291,
+      "plays_text": "776,935",
+      "favorites_text": "7,291",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240223171509",
+      "capture_url": "https://web.archive.org/web/20240223171509/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223171509_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_582cdede9846b672.json"
+    },
+    {
+      "date": "2024-02-23",
       "game_name": "Zombidle",
       "game_url": "http://www.kongregate.com/games/BerzerkStudio/zombidle",
       "plays_count_observed": 6937263,
@@ -34739,6 +35909,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240226204129_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_75f83f9c8fd2ac50.json"
+    },
+    {
+      "date": "2024-02-26",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 212856,
+      "favorites_count_observed": 1682,
+      "plays_text": "212,856",
+      "favorites_text": "1,682",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20240226204112",
+      "capture_url": "https://web.archive.org/web/20240226204112/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240226204112_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_93886433dd62c575.json"
     },
     {
       "date": "2024-02-26",
@@ -35009,6 +36194,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307232032_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_fe622ab7d3388d7e.json"
+    },
+    {
+      "date": "2024-03-07",
+      "game_name": "Villainous",
+      "game_url": "http://www.kongregate.com/games/Rete/villainous",
+      "plays_count_observed": 3642601,
+      "favorites_count_observed": 44373,
+      "plays_text": "3,642,601",
+      "favorites_text": "44,373",
+      "metrics_url": "https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "capture_timestamp": "20240307233317",
+      "capture_url": "https://web.archive.org/web/20240307233317/https://www.kongregate.com/games/Rete/villainous/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307233317_https_www.kongregate.com_games_Rete_villainous_metrics.json_d0c60b1374c1ef4c.json"
     },
     {
       "date": "2024-03-07",
@@ -35386,6 +36586,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240328092643_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_dbb47d5a6476ed50.json"
     },
     {
+      "date": "2024-03-29",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 778486,
+      "favorites_count_observed": 7305,
+      "plays_text": "778,486",
+      "favorites_text": "7,305",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240329092220",
+      "capture_url": "https://web.archive.org/web/20240329092220/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240329092220_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_faa5be54a3b45d6c.json"
+    },
+    {
       "date": "2024-03-30",
       "game_name": "Everybody Edits",
       "game_url": "https://www.kongregate.com/en/games/MegaLamb/everybody-edits",
@@ -35399,6 +36614,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240330232414_https_www.kongregate.com_games_MegaLamb_everybody-edits_metrics.json_c10d9c7def5b5475.json"
+    },
+    {
+      "date": "2024-03-30",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 780436,
+      "favorites_count_observed": 7309,
+      "plays_text": "780,436",
+      "favorites_text": "7,309",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240330145657",
+      "capture_url": "https://web.archive.org/web/20240330145657/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240330145657_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_8de535e1e4cfcbd0.json"
     },
     {
       "date": "2024-03-31",
@@ -36061,6 +37291,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240509183336_https_www.kongregate.com_games_IriySoft_cursed-treasure_metrics.json_f7330bdfa05be6ea.json"
     },
     {
+      "date": "2024-05-09",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 783484,
+      "favorites_count_observed": 7320,
+      "plays_text": "783,484",
+      "favorites_text": "7,320",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240509231945",
+      "capture_url": "https://web.archive.org/web/20240509231945/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240509231945_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_05ce46c4b33b112f.json"
+    },
+    {
       "date": "2024-05-10",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -36676,6 +37921,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240616084645_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_3800d72e94ddf8a1.json"
     },
     {
+      "date": "2024-06-16",
+      "game_name": "WORLDS Builder: Farm & Craft",
+      "game_url": "https://www.kongregate.com/games/JoyBits/worlds-builder",
+      "plays_count_observed": 1108689,
+      "favorites_count_observed": 2064,
+      "plays_text": "1,108,689",
+      "favorites_text": "2,064",
+      "metrics_url": "https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "capture_timestamp": "20240616073034",
+      "capture_url": "https://web.archive.org/web/20240616073034/https://www.kongregate.com/games/JoyBits/worlds-builder/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240616073034_https_www.kongregate.com_games_JoyBits_worlds-builder_metrics.json_1ab15aa3905bf009.json"
+    },
+    {
       "date": "2024-06-18",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/games/Iurii1/shoot-sow",
@@ -37184,6 +38444,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240730172026_https_www.kongregate.com_games_kingk_dream-world_metrics.json_561848595750722f.json"
+    },
+    {
+      "date": "2024-07-30",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 786638,
+      "favorites_count_observed": 7343,
+      "plays_text": "786,638",
+      "favorites_text": "7,343",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240730181950",
+      "capture_url": "https://web.archive.org/web/20240730181950/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240730181950_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_dad34601d627fe5c.json"
     },
     {
       "date": "2024-08-01",
@@ -37801,6 +39076,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816073422_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_318c279b9a9e6dea.json"
     },
     {
+      "date": "2024-08-16",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 790862,
+      "favorites_count_observed": 7354,
+      "plays_text": "790,862",
+      "favorites_text": "7,354",
+      "metrics_url": "https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20240816074017",
+      "capture_url": "https://web.archive.org/web/20240816074017/https://www.kongregate.com/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816074017_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_02610d7808ee5dcf.json"
+    },
+    {
       "date": "2024-08-17",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -38279,6 +39569,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240905070925_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_13559004e353ff84.json"
+    },
+    {
+      "date": "2024-09-05",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 235967,
+      "favorites_count_observed": 1810,
+      "plays_text": "235,967",
+      "favorites_text": "1,810",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20240905225617",
+      "capture_url": "https://web.archive.org/web/20240905225617/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240905225617_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_0508806574f202de.json"
     },
     {
       "date": "2024-09-06",
@@ -40366,6 +41671,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250224105126_https_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_122292a96293aa3b.json"
     },
     {
+      "date": "2025-02-24",
+      "game_name": "Rogue Isles",
+      "game_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles",
+      "plays_count_observed": 253132,
+      "favorites_count_observed": 1892,
+      "plays_text": "253,132",
+      "favorites_text": "1,892",
+      "metrics_url": "https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "capture_timestamp": "20250224003028",
+      "capture_url": "https://web.archive.org/web/20250224003028/https://www.kongregate.com/games/ConnorBohan/rogue-isles/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250224003028_https_www.kongregate.com_games_ConnorBohan_rogue-isles_metrics.json_744fe049673c453a.json"
+    },
+    {
       "date": "2025-02-27",
       "game_name": "Learn to Fly",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly",
@@ -40679,6 +41999,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250326104900_https_www.kongregate.com_games_Asriel343_madnes-project-nexus-party-mod-iii_metrics.json_44d7d857d63b127c.json"
+    },
+    {
+      "date": "2025-03-27",
+      "game_name": "Storm the House 3",
+      "game_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3",
+      "plays_count_observed": 6682583,
+      "favorites_count_observed": 22125,
+      "plays_text": "6,682,583",
+      "favorites_text": "22,125",
+      "metrics_url": "https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "capture_timestamp": "20250327052903",
+      "capture_url": "https://web.archive.org/web/20250327052903/https://www.kongregate.com/games/Ivory/storm-the-house-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250327052903_https_www.kongregate.com_games_Ivory_storm-the-house-3_metrics.json_7ab9beb69b906c2e.json"
     },
     {
       "date": "2025-03-30",
@@ -41627,6 +42962,21 @@
     },
     {
       "date": "2025-06-16",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 747635,
+      "favorites_count_observed": 4685,
+      "plays_text": "747,635",
+      "favorites_text": "4,685",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20250616093148",
+      "capture_url": "https://web.archive.org/web/20250616093148/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250616093148_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_ff287c893aa11d95.json"
+    },
+    {
+      "date": "2025-06-16",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
       "plays_count_observed": 7823900,
@@ -41684,6 +43034,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250617192124_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_9f7d772acfa676b6.json"
+    },
+    {
+      "date": "2025-06-18",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 748998,
+      "favorites_count_observed": 4691,
+      "plays_text": "748,998",
+      "favorites_text": "4,691",
+      "metrics_url": "https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20250618095226",
+      "capture_url": "https://web.archive.org/web/20250618095226/https://www.kongregate.com/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250618095226_https_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_ea91733e36612b79.json"
     },
     {
       "date": "2025-06-18",
@@ -42676,6 +44041,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251011223000_https_www.kongregate.com_en_games_Raius__the-journey-home_metrics.json_4cc9ac0d53d26f4d.json"
     },
     {
+      "date": "2025-10-11",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 811142,
+      "favorites_count_observed": 7434,
+      "plays_text": "811,142",
+      "favorites_text": "7,434",
+      "metrics_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20251011222437",
+      "capture_url": "https://web.archive.org/web/20251011222437/https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251011222437_https_www.kongregate.com_en_games_nutcasenightmare_we-become-what-we-behold_metrics.json_0b29a0f247be82d5.json"
+    },
+    {
       "date": "2025-10-12",
       "game_name": "Multitask",
       "game_url": "https://www.kongregate.com/en/games/IcyLime/multitask",
@@ -42766,6 +44146,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251026003932_https_www.kongregate.com_en_games_ArmorGames_crush-the-castle-2_metrics.json_ab527995aeecb856.json"
     },
     {
+      "date": "2025-10-27",
+      "game_name": "A Dance of Fire and Ice",
+      "game_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice",
+      "plays_count_observed": 754710,
+      "favorites_count_observed": 4706,
+      "plays_text": "754,710",
+      "favorites_text": "4,706",
+      "metrics_url": "https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "capture_timestamp": "20251027140158",
+      "capture_url": "https://web.archive.org/web/20251027140158/https://www.kongregate.com/en/games/fizzd/a-dance-of-fire-and-ice/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251027140158_https_www.kongregate.com_en_games_fizzd_a-dance-of-fire-and-ice_metrics.json_9bffa5f1a5ab6631.json"
+    },
+    {
       "date": "2025-10-28",
       "game_name": "Everybody Edits",
       "game_url": "https://www.kongregate.com/en/games/MegaLamb/everybody-edits",
@@ -42779,6 +44174,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251028231522_https_www.kongregate.com_en_games_MegaLamb_everybody-edits_metrics.json_116e36bcf15a317c.json"
+    },
+    {
+      "date": "2025-10-28",
+      "game_name": "We Become What We Behold",
+      "game_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold",
+      "plays_count_observed": 812827,
+      "favorites_count_observed": 7437,
+      "plays_text": "812,827",
+      "favorites_text": "7,437",
+      "metrics_url": "https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "capture_timestamp": "20251028231609",
+      "capture_url": "https://web.archive.org/web/20251028231609/https://www.kongregate.com/en/games/nutcasenightmare/we-become-what-we-behold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251028231609_https_www.kongregate.com_en_games_nutcasenightmare_we-become-what-we-behold_metrics.json_01adb0ac6e3b3e78.json"
     },
     {
       "date": "2025-10-29",
