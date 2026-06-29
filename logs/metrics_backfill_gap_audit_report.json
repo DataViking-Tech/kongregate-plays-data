@@ -1,18 +1,40 @@
 {
-  "catalog_games": 2916,
+  "catalog_games": 2922,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 1292,
-  "generated_at": "2026-06-29T23:33:49Z",
+  "games_without_metrics_rows": 1298,
+  "generated_at": "2026-06-29T23:45:49Z",
   "known_failed_captures": 760,
-  "missing_cdx_cache_files": 825,
+  "missing_cdx_cache_files": 831,
   "status_counts": {
-    "cdx_cache_missing": 714,
+    "cdx_cache_missing": 720,
     "has_metrics": 1624,
     "known_failures_only": 39,
     "no_cdx": 539
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Unpuzzle 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3353,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Unpuzzle 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3353,
+      "status": "cdx_cache_missing"
+    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -265,28 +287,6 @@
       "metrics_rows": 0,
       "priority_score": 3351,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "The world most bugged game",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Unpuzzle 2",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "cdx_cache_missing"
     }
   ],
   "valid_cached_captures": 8476

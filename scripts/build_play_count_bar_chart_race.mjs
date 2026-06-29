@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1qNFYrJ7DtOyt2LymEPcjDcve2oGPQhmrcbQtVxErPeo";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/16ib7P0Y4x0xRqajD0IaP8VQn-5dREAhqlEi4jGqHF1A";
 
 const topN = 12;
 
@@ -561,7 +561,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="850" max="3200" value="1050" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="1100" max="3600" value="1300" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -603,9 +603,9 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 760;
+    const transitionMs = 920;
     const exitMs = transitionMs + 100;
-    const smoothStepsPerMonth = 8;
+    const smoothStepsPerMonth = 10;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
