@@ -1,29 +1,18 @@
 {
-  "catalog_games": 1524,
+  "catalog_games": 1592,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 379,
-  "generated_at": "2026-06-29T16:13:09Z",
-  "known_failed_captures": 631,
-  "missing_cdx_cache_files": 207,
+  "games_without_metrics_rows": 397,
+  "generated_at": "2026-06-29T16:32:13Z",
+  "known_failed_captures": 632,
+  "missing_cdx_cache_files": 231,
   "status_counts": {
-    "cdx_cache_missing": 147,
-    "has_metrics": 1145,
+    "cdx_cache_missing": 148,
+    "has_metrics": 1195,
     "known_failures_only": 28,
-    "no_cdx": 204
+    "no_cdx": 221
   },
   "top_unresolved_games": [
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Escape From Ghost House 3",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "no_cdx"
-    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -40,7 +29,40 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Melon Madness",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Nature Hidden Objects",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Run Bird Run Online",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Spell Sorter",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -77,17 +99,6 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Booga",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
       "status": "no_cdx"
     },
     {
@@ -150,6 +161,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Dead Frontier",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Finger Spinner Online",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -172,7 +194,18 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "PlaneQuests",
+      "game_name": "Parkour Legends",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Tittu And Annie 16",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -205,6 +238,28 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "ATV Ride 2016",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Bobcat Theft Escape",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "CBS:Escape from the Mall",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -227,67 +282,12 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Dr. Steward 75K's Intergalactic Darryl Naturam 2021",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Marble Duel: Old-school match 3 blasting",
+      "game_name": "Soy Luna Pac-Man",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Space Stranger",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "SUV Car Cartoon Puzzle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "18 Wheeler Trucks Differences",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "1p.Story: Death",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8139
+  "valid_cached_captures": 8144
 }
