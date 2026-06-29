@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1933,
+  "catalog_games": 2001,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 547,
-  "generated_at": "2026-06-29T18:26:42Z",
-  "known_failed_captures": 646,
-  "missing_cdx_cache_files": 284,
+  "games_without_metrics_rows": 586,
+  "generated_at": "2026-06-29T18:45:23Z",
+  "known_failed_captures": 653,
+  "missing_cdx_cache_files": 298,
   "status_counts": {
-    "cdx_cache_missing": 180,
-    "has_metrics": 1386,
-    "known_failures_only": 35,
-    "no_cdx": 332
+    "cdx_cache_missing": 196,
+    "has_metrics": 1415,
+    "known_failures_only": 34,
+    "no_cdx": 356
   },
   "top_unresolved_games": [
     {
@@ -40,7 +40,40 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Key to Success",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "LT-Breakout",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Make Me 10",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Missiles Again",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -194,6 +227,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Horse Racing",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "jhghj",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -223,6 +267,17 @@
       "status": "no_cdx"
     },
     {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Sky Knight",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
@@ -232,62 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "as3 Shootorial #1",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "ATV Ride 2016",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "CBS:Escape from the Mall",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Defense Math",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Dot Snap Battle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8164
+  "valid_cached_captures": 8168
 }

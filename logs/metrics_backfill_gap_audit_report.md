@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T18:26:42Z
+Generated: 2026-06-29T18:45:23Z
 
 ## Summary
 
-- Mini-catalog games audited: 1933
-- Games without metrics rows: 547
+- Mini-catalog games audited: 2001
+- Games without metrics rows: 586
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 646
-- Missing CDX cache files: 284
+- Known failed captures: 653
+- Missing CDX cache files: 298
 
 ## Status Counts
 
-- cdx_cache_missing: 180
-- has_metrics: 1386
-- known_failures_only: 35
-- no_cdx: 332
+- cdx_cache_missing: 196
+- has_metrics: 1415
+- known_failures_only: 34
+- no_cdx: 356
 
 ## Top Unresolved Games
 
@@ -24,7 +24,10 @@ Generated: 2026-06-29T18:26:42Z
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Football Legends 2016 | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Key to Success | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | LT-Breakout | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -38,15 +41,12 @@ Generated: 2026-06-29T18:26:42Z
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Dead Frontier | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Finger Spinner Online | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Horse Racing | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | jhghj | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Mini Jumper | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Raze 3 | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Sky Knight | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| as3 Shootorial #1 | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| ATV Ride 2016 | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| CBS:Escape from the Mall | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| Defense Math | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| Dot Snap Battle | no_cdx | 3 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
