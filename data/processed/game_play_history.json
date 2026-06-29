@@ -346,6 +346,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150219030612_http_www.kongregate.com_games_KIXEYE_backyard-monsters_metrics.json_d028dd755a0f3bdb.json"
     },
     {
+      "date": "2015-03-04",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 647464,
+      "favorites_count_observed": 4171,
+      "plays_text": "647,464",
+      "favorites_text": "4,171",
+      "metrics_url": "http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20150304142752",
+      "capture_url": "https://web.archive.org/web/20150304142752/http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150304142752_http_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_5f05977b29c5b381.json"
+    },
+    {
       "date": "2015-04-21",
       "game_name": "Learn to Fly 3",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
@@ -496,6 +511,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150826111232_http_www.kongregate.com_games_fizzd_a-dance-of-fire-and-ice_metrics.json_cc7ad6965b7587e4.json"
     },
     {
+      "date": "2015-08-29",
+      "game_name": "Super Crazy Guitar Maniac Deluxe 2",
+      "game_url": "http://www.kongregate.com/games/Shinki/super-crazy-guitar-maniac-deluxe-2",
+      "plays_count_observed": 7649208,
+      "favorites_count_observed": 29725,
+      "plays_text": "7,649,208",
+      "favorites_text": "29,725",
+      "metrics_url": "http://www.kongregate.com/games/Shinki/super-crazy-guitar-maniac-deluxe-2/metrics.json",
+      "capture_timestamp": "20150829120915",
+      "capture_url": "https://web.archive.org/web/20150829120915/http://www.kongregate.com/games/Shinki/super-crazy-guitar-maniac-deluxe-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150829120915_http_www.kongregate.com_games_Shinki_super-crazy-guitar-maniac-deluxe-2_metrics.json_60358e8e36b8200a.json"
+    },
+    {
       "date": "2015-09-18",
       "game_name": "Epic Battle Fantasy 4",
       "game_url": "http://www.kongregate.com/games/kupo707/epic-battle-fantasy-4",
@@ -569,6 +599,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151010031805_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_dda2bce9950be562.json"
+    },
+    {
+      "date": "2015-10-21",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 843129,
+      "favorites_count_observed": 5139,
+      "plays_text": "843,129",
+      "favorites_text": "5,139",
+      "metrics_url": "http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20151021201500",
+      "capture_url": "https://web.archive.org/web/20151021201500/http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151021201500_http_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_8111b82557da1501.json"
     },
     {
       "date": "2015-10-21",
@@ -989,6 +1034,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160202135015_http_www.kongregate.com_games_CriticalForceEt_counter-strike-web-browser-based-port-v2_metrics.json_e7c584702b2a1004.json"
+    },
+    {
+      "date": "2016-02-02",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 3891985,
+      "favorites_count_observed": 25398,
+      "plays_text": "3,891,985",
+      "favorites_text": "25,398",
+      "metrics_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20160202134932",
+      "capture_url": "https://web.archive.org/web/20160202134932/http://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160202134932_http_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_343004d24c7d88f2.json"
     },
     {
       "date": "2016-02-10",
@@ -1454,6 +1514,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160330203018_http_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_749d44bf5ea86460.json"
+    },
+    {
+      "date": "2016-04-14",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 886263,
+      "favorites_count_observed": 6703,
+      "plays_text": "886,263",
+      "favorites_text": "6,703",
+      "metrics_url": "http://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20160414155019",
+      "capture_url": "https://web.archive.org/web/20160414155019/http://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160414155019_http_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_d5ff845f43c4cc0f.json"
     },
     {
       "date": "2016-04-20",
@@ -2071,6 +2146,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161220153958_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_5c0ba9970296d355.json"
     },
     {
+      "date": "2017-02-02",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 973465,
+      "favorites_count_observed": 7257,
+      "plays_text": "973,465",
+      "favorites_text": "7,257",
+      "metrics_url": "http://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20170202183129",
+      "capture_url": "https://web.archive.org/web/20170202183129/http://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170202183129_http_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_26a1771636cb3c14.json"
+    },
+    {
       "date": "2017-02-17",
       "game_name": "Realm Grinder",
       "game_url": "https://www.kongregate.com/games/DivineGames/realm-grinder",
@@ -2189,6 +2279,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171124231755_http_www.kongregate.com_games_jetspice_grindcraft_metrics.json_d123b60954970c73.json"
+    },
+    {
+      "date": "2017-12-16",
+      "game_name": "Factory idle",
+      "game_url": "http://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 2134092,
+      "favorites_count_observed": 13398,
+      "plays_text": "2,134,092",
+      "favorites_text": "13,398",
+      "metrics_url": "http://www.kongregate.com/games/baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20171216142030",
+      "capture_url": "https://web.archive.org/web/20171216142030/http://www.kongregate.com/games/baldurans/factory-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171216142030_http_www.kongregate.com_games_baldurans_factory-idle_metrics.json_27506807b0f0a834.json"
     },
     {
       "date": "2017-12-19",
@@ -2341,6 +2446,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180221184255_http_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_b133eb4755fa60e2.json"
     },
     {
+      "date": "2018-02-22",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1140904,
+      "favorites_count_observed": 9748,
+      "plays_text": "1,140,904",
+      "favorites_text": "9,748",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20180222175103",
+      "capture_url": "https://web.archive.org/web/20180222175103/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180222175103_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_89918a3c5c8d963d.json"
+    },
+    {
       "date": "2018-03-12",
       "game_name": "Accelerator",
       "game_url": "https://www.kongregate.com/games/TenebrousP/accelerator",
@@ -2369,6 +2489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180312145214_http_www.kongregate.com_80_games_ArmorGames_upgrade-complete_metrics.json_290d26622dbe5965.json"
+    },
+    {
+      "date": "2018-03-16",
+      "game_name": "Defender's Quest (lengthy!) Demo",
+      "game_url": "https://www.kongregate.com/en/games/LevelUpLabs/defenders-quest-prelude",
+      "plays_count_observed": 1055120,
+      "favorites_count_observed": 12431,
+      "plays_text": "1,055,120",
+      "favorites_text": "12,431",
+      "metrics_url": "http://www.kongregate.com:80/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "capture_timestamp": "20180316131933",
+      "capture_url": "https://web.archive.org/web/20180316131933/http://www.kongregate.com:80/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180316131933_http_www.kongregate.com_80_games_LevelUpLabs_defenders-quest-prelude_metrics.json_318b348bb5bd188e.json"
     },
     {
       "date": "2018-03-16",
@@ -2489,6 +2624,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180509182842_http_www.kongregate.com_games_wixgames_ducklife3-evolution_metrics.json_e4c4e243989d8416.json"
+    },
+    {
+      "date": "2018-05-12",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1107903,
+      "favorites_count_observed": 21429,
+      "plays_text": "1,107,903",
+      "favorites_text": "21,429",
+      "metrics_url": "http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20180512033149",
+      "capture_url": "https://web.archive.org/web/20180512033149/http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180512033149_http_www.kongregate.com_80_games_Puffballs_United_fleeing-the-complex_metrics.json_e2556a896c29ba08.json"
     },
     {
       "date": "2018-06-05",
@@ -2942,6 +3092,36 @@
     },
     {
       "date": "2019-02-05",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 478697,
+      "favorites_count_observed": 2698,
+      "plays_text": "478,697",
+      "favorites_text": "2,698",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20190205032802",
+      "capture_url": "https://web.archive.org/web/20190205032802/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032802_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_edbc17731433a0e7.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 478700,
+      "favorites_count_observed": 2698,
+      "plays_text": "478,700",
+      "favorites_text": "2,698",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20190205032852",
+      "capture_url": "https://web.archive.org/web/20190205032852/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032852_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_6c743e63591a4571.json"
+    },
+    {
+      "date": "2019-02-05",
       "game_name": "Sword Fight",
       "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
       "plays_count_observed": 1935668,
@@ -3014,6 +3194,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190328185431_http_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_df70aeb9b6f02228.json"
+    },
+    {
+      "date": "2019-03-29",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 2992615,
+      "favorites_count_observed": 32605,
+      "plays_text": "2,992,615",
+      "favorites_text": "32,605",
+      "metrics_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20190329153249",
+      "capture_url": "https://web.archive.org/web/20190329153249/http://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190329153249_http_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_e39e217bb12a46c2.json"
     },
     {
       "date": "2019-04-16",
@@ -3527,6 +3722,21 @@
     },
     {
       "date": "2019-10-17",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1364806,
+      "favorites_count_observed": 23631,
+      "plays_text": "1,364,806",
+      "favorites_text": "23,631",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20191017183748",
+      "capture_url": "https://web.archive.org/web/20191017183748/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183748_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_78c52d9c1567d333.json"
+    },
+    {
+      "date": "2019-10-17",
       "game_name": "GunBlood",
       "game_url": "https://www.kongregate.com/en/games/Wolfcom/gunblood",
       "plays_count_observed": 1273718,
@@ -3931,6 +4141,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040559_https_www.kongregate.com_games_Shinezone_thekingoftowers_metrics.json_595ef5075b335993.json"
     },
     {
+      "date": "2019-10-25",
+      "game_name": "Treasure Arena",
+      "game_url": "https://www.kongregate.com/en/games/Vennril/treasure-arena",
+      "plays_count_observed": 102157,
+      "favorites_count_observed": 748,
+      "plays_text": "102,157",
+      "favorites_text": "748",
+      "metrics_url": "http://www.kongregate.com/games/Vennril/treasure-arena/metrics.json",
+      "capture_timestamp": "20191025122045",
+      "capture_url": "https://web.archive.org/web/20191025122045/http://www.kongregate.com/games/Vennril/treasure-arena/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191025122045_http_www.kongregate.com_games_Vennril_treasure-arena_metrics.json_de7621313a939f90.json"
+    },
+    {
       "date": "2019-10-27",
       "game_name": "Accelerator",
       "game_url": "https://www.kongregate.com/games/TenebrousP/accelerator",
@@ -4034,6 +4259,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045019_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_3bd3a358d6f36a84.json"
+    },
+    {
+      "date": "2019-10-27",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1368613,
+      "favorites_count_observed": 23669,
+      "plays_text": "1,368,613",
+      "favorites_text": "23,669",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20191027045019",
+      "capture_url": "https://web.archive.org/web/20191027045019/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045019_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_8049c8a0ba1b8c15.json"
     },
     {
       "date": "2019-10-27",
@@ -4307,6 +4547,21 @@
     },
     {
       "date": "2019-11-07",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1372862,
+      "favorites_count_observed": 23700,
+      "plays_text": "1,372,862",
+      "favorites_text": "23,700",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20191107154544",
+      "capture_url": "https://web.archive.org/web/20191107154544/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_eaee8ee8f79e0338.json"
+    },
+    {
+      "date": "2019-11-07",
       "game_name": "GunBlood",
       "game_url": "https://www.kongregate.com/en/games/Wolfcom/gunblood",
       "plays_count_observed": 1274739,
@@ -4576,6 +4831,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191121220215_http_www.kongregate.com_games_5thPlanetGames_clash-of-the-dragons_metrics.json_b323345f797cdefd.json"
     },
     {
+      "date": "2019-11-22",
+      "game_name": "Defender's Quest (lengthy!) Demo",
+      "game_url": "https://www.kongregate.com/en/games/LevelUpLabs/defenders-quest-prelude",
+      "plays_count_observed": 1085804,
+      "favorites_count_observed": 12660,
+      "plays_text": "1,085,804",
+      "favorites_text": "12,660",
+      "metrics_url": "https://www.kongregate.com/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "capture_timestamp": "20191122185420",
+      "capture_url": "https://web.archive.org/web/20191122185420/https://www.kongregate.com/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191122185420_https_www.kongregate.com_games_LevelUpLabs_defenders-quest-prelude_metrics.json_7e5131929cbecc73.json"
+    },
+    {
       "date": "2019-11-25",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -4754,6 +5024,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205523_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_8c1627fd0f93ccaa.json"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1383681,
+      "favorites_count_observed": 23783,
+      "plays_text": "1,383,681",
+      "favorites_text": "23,783",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20191207205641",
+      "capture_url": "https://web.archive.org/web/20191207205641/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205641_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_90d20fee9ebbdb70.json"
     },
     {
       "date": "2019-12-07",
@@ -5177,6 +5462,36 @@
     },
     {
       "date": "2019-12-15",
+      "game_name": "Factory idle",
+      "game_url": "http://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 3001044,
+      "favorites_count_observed": 17657,
+      "plays_text": "3,001,044",
+      "favorites_text": "17,657",
+      "metrics_url": "https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_Baldurans_factory-idle_metrics.json_34379199c4f617f9.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1793686,
+      "favorites_count_observed": 14130,
+      "plays_text": "1,793,686",
+      "favorites_text": "14,130",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_fa4d178a8140a8fe.json"
+    },
+    {
+      "date": "2019-12-15",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 400445,
@@ -5372,6 +5687,21 @@
     },
     {
       "date": "2020-01-02",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1392373,
+      "favorites_count_observed": 23845,
+      "plays_text": "1,392,373",
+      "favorites_text": "23,845",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20200102204221",
+      "capture_url": "https://web.archive.org/web/20200102204221/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200102204221_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_6528109070e9b79a.json"
+    },
+    {
+      "date": "2020-01-02",
       "game_name": "Medieval Cop - The Princess and The Grump",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
       "plays_count_observed": 104247,
@@ -5489,6 +5819,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214037_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_13f35d66e6e19e95.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1394062,
+      "favorites_count_observed": 23854,
+      "plays_text": "1,394,062",
+      "favorites_text": "23,854",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20200108214038",
+      "capture_url": "https://web.archive.org/web/20200108214038/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214038_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_9e2d90694dab0784.json"
     },
     {
       "date": "2020-01-08",
@@ -6151,6 +6496,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200305101440_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_098e4e863a4f8ba9.json"
     },
     {
+      "date": "2020-03-05",
+      "game_name": "Raze",
+      "game_url": "https://www.kongregate.com/games/Addisonr/raze",
+      "plays_count_observed": 4120175,
+      "favorites_count_observed": 43805,
+      "plays_text": "4,120,175",
+      "favorites_text": "43,805",
+      "metrics_url": "http://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "capture_timestamp": "20200305142216",
+      "capture_url": "https://web.archive.org/web/20200305142216/http://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200305142216_http_www.kongregate.com_games_Addisonr_raze_metrics.json_704a63ee89d6130e.json"
+    },
+    {
       "date": "2020-03-10",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -6437,6 +6797,21 @@
     },
     {
       "date": "2020-03-24",
+      "game_name": "The Tickler",
+      "game_url": "https://www.kongregate.com/games/xpndsprt/the-tickler",
+      "plays_count_observed": 1235150,
+      "favorites_count_observed": 9640,
+      "plays_text": "1,235,150",
+      "favorites_text": "9,640",
+      "metrics_url": "https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "capture_timestamp": "20200324163607",
+      "capture_url": "https://web.archive.org/web/20200324163607/https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324163607_https_www.kongregate.com_games_xpndsprt_the-tickler_metrics.json_041c101e0e9224d6.json"
+    },
+    {
+      "date": "2020-03-24",
       "game_name": "Turbo Golf",
       "game_url": "https://www.kongregate.com/games/turboNuke/turbo-golf",
       "plays_count_observed": 1437292,
@@ -6509,6 +6884,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200331183255_https_www.kongregate.com_games_Dragy_echoes-operation-stranglehold_metrics.json_88d139770d5a66f2.json"
+    },
+    {
+      "date": "2020-03-31",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4103444,
+      "favorites_count_observed": 26184,
+      "plays_text": "4,103,444",
+      "favorites_text": "26,184",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20200331183218",
+      "capture_url": "https://web.archive.org/web/20200331183218/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200331183218_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_9b0b535d3598b7e2.json"
+    },
+    {
+      "date": "2020-03-31",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4103445,
+      "favorites_count_observed": 26184,
+      "plays_text": "4,103,445",
+      "favorites_text": "26,184",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20200331183258",
+      "capture_url": "https://web.archive.org/web/20200331183258/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200331183258_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_8d2722ac9409f71c.json"
+    },
+    {
+      "date": "2020-03-31",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4103446,
+      "favorites_count_observed": 26184,
+      "plays_text": "4,103,446",
+      "favorites_text": "26,184",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20200331183315",
+      "capture_url": "https://web.archive.org/web/20200331183315/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200331183315_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_3a7379637b18e5b1.json"
     },
     {
       "date": "2020-04-02",
@@ -8147,6 +8567,21 @@
     },
     {
       "date": "2020-07-16",
+      "game_name": "Factory idle",
+      "game_url": "http://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 3195250,
+      "favorites_count_observed": 18492,
+      "plays_text": "3,195,250",
+      "favorites_text": "18,492",
+      "metrics_url": "https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20200716173019",
+      "capture_url": "https://web.archive.org/web/20200716173019/https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173019_https_www.kongregate.com_games_Baldurans_factory-idle_metrics.json_ca07709af5fc7005.json"
+    },
+    {
+      "date": "2020-07-16",
       "game_name": "Fleeing the Complex",
       "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
       "plays_count_observed": 1454853,
@@ -8534,6 +8969,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172653_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_25e5c3ae556ae18d.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 509506,
+      "favorites_count_observed": 2359,
+      "plays_text": "509,506",
+      "favorites_text": "2,359",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20200716173634",
+      "capture_url": "https://web.archive.org/web/20200716173634/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173634_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_4e2a13ddff86efd1.json"
     },
     {
       "date": "2020-07-16",
@@ -9437,6 +9887,21 @@
     },
     {
       "date": "2020-10-17",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 513065,
+      "favorites_count_observed": 2379,
+      "plays_text": "513,065",
+      "favorites_text": "2,379",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20201017131006",
+      "capture_url": "https://web.archive.org/web/20201017131006/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017131006_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_ce35b5bac4837832.json"
+    },
+    {
+      "date": "2020-10-17",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4726682,
@@ -9464,6 +9929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201019220857_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_d397381d402b8daf.json"
+    },
+    {
+      "date": "2020-10-19",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 1319731,
+      "favorites_count_observed": 9231,
+      "plays_text": "1,319,731",
+      "favorites_text": "9,231",
+      "metrics_url": "https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20201019220956",
+      "capture_url": "https://web.archive.org/web/20201019220956/https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201019220956_https_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_20759ec771b4d6e4.json"
     },
     {
       "date": "2020-10-20",
@@ -9509,6 +9989,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201020163235_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_87112a7229d86e7f.json"
+    },
+    {
+      "date": "2020-10-20",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 1320477,
+      "favorites_count_observed": 9233,
+      "plays_text": "1,320,477",
+      "favorites_text": "9,233",
+      "metrics_url": "https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20201020000826",
+      "capture_url": "https://web.archive.org/web/20201020000826/https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201020000826_https_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_cac2d6f5249fd06b.json"
+    },
+    {
+      "date": "2020-10-20",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 1320598,
+      "favorites_count_observed": 9234,
+      "plays_text": "1,320,598",
+      "favorites_text": "9,234",
+      "metrics_url": "https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20201020002923",
+      "capture_url": "https://web.archive.org/web/20201020002923/https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201020002923_https_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_979cc69ffd0dca77.json"
     },
     {
       "date": "2020-10-20",
@@ -9584,6 +10094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201021014822_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_e8745c48f676f28b.json"
+    },
+    {
+      "date": "2020-10-21",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3069497,
+      "favorites_count_observed": 33082,
+      "plays_text": "3,069,497",
+      "favorites_text": "33,082",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20201021195015",
+      "capture_url": "https://web.archive.org/web/20201021195015/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201021195015_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_34db3a0653a7d59e.json"
     },
     {
       "date": "2020-10-21",
@@ -9869,6 +10394,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201024021434_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_f9f4108e284a13aa.json"
+    },
+    {
+      "date": "2020-10-26",
+      "game_name": "Monster Clearer",
+      "game_url": "https://www.kongregate.com/games/adventale/monster-clearer",
+      "plays_count_observed": 523258,
+      "favorites_count_observed": 5684,
+      "plays_text": "523,258",
+      "favorites_text": "5,684",
+      "metrics_url": "https://www.kongregate.com/games/adventale/monster-clearer/metrics.json",
+      "capture_timestamp": "20201026142011",
+      "capture_url": "https://web.archive.org/web/20201026142011/https://www.kongregate.com/games/adventale/monster-clearer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201026142011_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_8f958802e82d4a9b.json"
     },
     {
       "date": "2020-10-26",
@@ -10364,6 +10904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201106031036_https_www.kongregate.com_games_Ninjakiwi_bloons-super-monkey_metrics.json_f0fddfad9bd94d58.json"
+    },
+    {
+      "date": "2020-11-06",
+      "game_name": "SPACEPLAN Prototype",
+      "game_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype",
+      "plays_count_observed": 579394,
+      "favorites_count_observed": 5510,
+      "plays_text": "579,394",
+      "favorites_text": "5,510",
+      "metrics_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype/metrics.json",
+      "capture_timestamp": "20201106221501",
+      "capture_url": "https://web.archive.org/web/20201106221501/http://www.kongregate.com/games/jhollands/spaceplan-prototype/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201106221501_http_www.kongregate.com_games_jhollands_spaceplan-prototype_metrics.json_54b8a0f12a3621d7.json"
     },
     {
       "date": "2020-11-07",
@@ -12557,6 +13112,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Learn to Fly 3",
+      "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
+      "plays_count_observed": 5723754,
+      "favorites_count_observed": 50593,
+      "plays_text": "5,723,754",
+      "favorites_text": "50,593",
+      "metrics_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "capture_timestamp": "20210106190311",
+      "capture_url": "https://web.archive.org/web/20210106190311/https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190311_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_739e518d5ef8c58b.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "https://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45377420,
@@ -12932,6 +13502,21 @@
     },
     {
       "date": "2021-01-12",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/en/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 6687813,
+      "favorites_count_observed": 22855,
+      "plays_text": "6,687,813",
+      "favorites_text": "22,855",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20210112185147",
+      "capture_url": "https://web.archive.org/web/20210112185147/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210112185147_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_d79e35335f6df3f5.json"
+    },
+    {
+      "date": "2021-01-12",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45433878,
@@ -13199,6 +13784,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210202022818_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_a20bad9d1b8a01fa.json"
+    },
+    {
+      "date": "2021-02-03",
+      "game_name": "Pretty Pretty Bang Bang",
+      "game_url": "http://www.kongregate.com/games/luvcraft/pretty-pretty-bang-bang",
+      "plays_count_observed": 29087,
+      "favorites_count_observed": 116,
+      "plays_text": "29,087",
+      "favorites_text": "116",
+      "metrics_url": "https://www.kongregate.com/games/luvcraft/pretty-pretty-bang-bang/metrics.json",
+      "capture_timestamp": "20210203140112",
+      "capture_url": "https://web.archive.org/web/20210203140112/https://www.kongregate.com/games/luvcraft/pretty-pretty-bang-bang/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210203140112_https_www.kongregate.com_games_luvcraft_pretty-pretty-bang-bang_metrics.json_067a4c4abf952d28.json"
     },
     {
       "date": "2021-02-05",
@@ -13576,6 +14176,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210317232252_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_c98e208fefb519b1.json"
     },
     {
+      "date": "2021-04-01",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 361493,
+      "favorites_count_observed": 3343,
+      "plays_text": "361,493",
+      "favorites_text": "3,343",
+      "metrics_url": "http://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20210401033358",
+      "capture_url": "https://web.archive.org/web/20210401033358/http://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210401033358_http_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_c30ccf1bbbd375fc.json"
+    },
+    {
+      "date": "2021-04-01",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 361494,
+      "favorites_count_observed": 3343,
+      "plays_text": "361,494",
+      "favorites_text": "3,343",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20210401035740",
+      "capture_url": "https://web.archive.org/web/20210401035740/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210401035740_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_1dab2231bac5e41e.json"
+    },
+    {
       "date": "2021-04-04",
       "game_name": "Gragyriss, Captor of Princesses",
       "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
@@ -13682,6 +14312,21 @@
     },
     {
       "date": "2021-04-28",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4137810,
+      "favorites_count_observed": 26259,
+      "plays_text": "4,137,810",
+      "favorites_text": "26,259",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20210428231457",
+      "capture_url": "https://web.archive.org/web/20210428231457/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210428231457_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_9feb527de817ebb4.json"
+    },
+    {
+      "date": "2021-04-28",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4975405,
@@ -13739,6 +14384,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210505121425_https_www.kongregate.com_games_to_change_later_cividlization-2_metrics.json_c8ce4e3f87c4e02f.json"
+    },
+    {
+      "date": "2021-05-05",
+      "game_name": "Reach the core",
+      "game_url": "https://www.kongregate.com/games/mmx95/reach-the-core",
+      "plays_count_observed": 1334031,
+      "favorites_count_observed": 9278,
+      "plays_text": "1,334,031",
+      "favorites_text": "9,278",
+      "metrics_url": "https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "capture_timestamp": "20210505122842",
+      "capture_url": "https://web.archive.org/web/20210505122842/https://www.kongregate.com/games/mmx95/reach-the-core/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210505122842_https_www.kongregate.com_games_mmx95_reach-the-core_metrics.json_6bd7f49e3bccb4b7.json"
     },
     {
       "date": "2021-05-05",
@@ -15437,6 +16097,21 @@
     },
     {
       "date": "2021-07-26",
+      "game_name": "Defender's Quest (lengthy!) Demo",
+      "game_url": "https://www.kongregate.com/en/games/LevelUpLabs/defenders-quest-prelude",
+      "plays_count_observed": 1103469,
+      "favorites_count_observed": 12776,
+      "plays_text": "1,103,469",
+      "favorites_text": "12,776",
+      "metrics_url": "https://www.kongregate.com/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "capture_timestamp": "20210726003153",
+      "capture_url": "https://web.archive.org/web/20210726003153/https://www.kongregate.com/games/LevelUpLabs/defenders-quest-prelude/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210726003153_https_www.kongregate.com_games_LevelUpLabs_defenders-quest-prelude_metrics.json_731646f9a9936889.json"
+    },
+    {
+      "date": "2021-07-26",
       "game_name": "When he jump, he go up like this",
       "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
       "plays_count_observed": 354733,
@@ -16019,6 +16694,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211015004536_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_61786264fdbc1d88.json"
+    },
+    {
+      "date": "2021-10-15",
+      "game_name": "Raze",
+      "game_url": "https://www.kongregate.com/games/Addisonr/raze",
+      "plays_count_observed": 4158287,
+      "favorites_count_observed": 44026,
+      "plays_text": "4,158,287",
+      "favorites_text": "44,026",
+      "metrics_url": "https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "capture_timestamp": "20211015233637",
+      "capture_url": "https://web.archive.org/web/20211015233637/https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211015233637_https_www.kongregate.com_games_Addisonr_raze_metrics.json_33c407a86f383954.json"
     },
     {
       "date": "2021-10-15",
@@ -18901,6 +19591,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220105101504_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_b01a1206acd818db.json"
     },
     {
+      "date": "2022-01-10",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 10973560,
+      "favorites_count_observed": 20252,
+      "plays_text": "10,973,560",
+      "favorites_text": "20,252",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220110180110",
+      "capture_url": "https://web.archive.org/web/20220110180110/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220110180110_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_83459de013ebaac7.json"
+    },
+    {
       "date": "2022-01-11",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -20069,6 +20774,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220226152750_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_f93a316d85a86259.json"
+    },
+    {
+      "date": "2022-02-26",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 11004298,
+      "favorites_count_observed": 20258,
+      "plays_text": "11,004,298",
+      "favorites_text": "20,258",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220226011715",
+      "capture_url": "https://web.archive.org/web/20220226011715/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220226011715_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_75289387a2b0a509.json"
     },
     {
       "date": "2022-03-02",
@@ -21362,6 +22082,21 @@
     },
     {
       "date": "2022-04-13",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 11033217,
+      "favorites_count_observed": 20272,
+      "plays_text": "11,033,217",
+      "favorites_text": "20,272",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220413131458",
+      "capture_url": "https://web.archive.org/web/20220413131458/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413131458_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_793b8714517d60b9.json"
+    },
+    {
+      "date": "2022-04-13",
       "game_name": "TDP4 Team Battle",
       "game_url": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
       "plays_count_observed": 22355273,
@@ -21629,6 +22364,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220603062317_http_www.kongregate.com_games_FlyAnvil_decision_metrics.json_debbd7e575cd948b.json"
+    },
+    {
+      "date": "2022-06-03",
+      "game_name": "Decision 2",
+      "game_url": "http://www.kongregate.com/games/FlyAnvil/decision-2",
+      "plays_count_observed": 3005489,
+      "favorites_count_observed": 35135,
+      "plays_text": "3,005,489",
+      "favorites_text": "35,135",
+      "metrics_url": "http://www.kongregate.com/games/FlyAnvil/decision-2/metrics.json",
+      "capture_timestamp": "20220603062532",
+      "capture_url": "https://web.archive.org/web/20220603062532/http://www.kongregate.com/games/FlyAnvil/decision-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220603062532_http_www.kongregate.com_games_FlyAnvil_decision-2_metrics.json_5e92681883127a62.json"
     },
     {
       "date": "2022-06-03",
@@ -22786,6 +23536,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220925213339_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_9de62ca1c3190917.json"
     },
     {
+      "date": "2022-09-25",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2339070,
+      "favorites_count_observed": 5883,
+      "plays_text": "2,339,070",
+      "favorites_text": "5,883",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20220925213350",
+      "capture_url": "https://web.archive.org/web/20220925213350/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220925213350_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_2ffd9b771333eaed.json"
+    },
+    {
       "date": "2022-09-26",
       "game_name": "Learn to Fly 3",
       "game_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
@@ -23129,6 +23894,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140519_https_www.kongregate.com_games_siread_new-star-soccer_metrics.json_0765e31967747d60.json"
+    },
+    {
+      "date": "2022-10-23",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 401481,
+      "favorites_count_observed": 3561,
+      "plays_text": "401,481",
+      "favorites_text": "3,561",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20221023140735",
+      "capture_url": "https://web.archive.org/web/20221023140735/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140735_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_5a2eb919640d4ef2.json"
     },
     {
       "date": "2022-10-26",
@@ -23639,6 +24419,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125922_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_fa2a51cb6ed58cab.json"
+    },
+    {
+      "date": "2022-12-03",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 220221,
+      "favorites_count_observed": 1162,
+      "plays_text": "220,221",
+      "favorites_text": "1,162",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20221203010101",
+      "capture_url": "https://web.archive.org/web/20221203010101/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203010101_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_9b8e12a117d0facb.json"
     },
     {
       "date": "2022-12-03",
@@ -24962,6 +25757,21 @@
     },
     {
       "date": "2023-01-20",
+      "game_name": "RCM",
+      "game_url": "http://www.kongregate.com/games/groupsky/rcm",
+      "plays_count_observed": 803421,
+      "favorites_count_observed": 3006,
+      "plays_text": "803,421",
+      "favorites_text": "3,006",
+      "metrics_url": "https://www.kongregate.com/games/groupsky/rcm/metrics.json",
+      "capture_timestamp": "20230120172339",
+      "capture_url": "https://web.archive.org/web/20230120172339/https://www.kongregate.com/games/groupsky/rcm/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230120172339_https_www.kongregate.com_games_groupsky_rcm_metrics.json_71b50cd61ae5142a.json"
+    },
+    {
+      "date": "2023-01-20",
       "game_name": "Trimps",
       "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
       "plays_count_observed": 10732962,
@@ -25081,6 +25891,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230129004911_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_b16f879cef19d719.json"
     },
     {
+      "date": "2023-01-29",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2469605,
+      "favorites_count_observed": 5961,
+      "plays_text": "2,469,605",
+      "favorites_text": "5,961",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20230129103959",
+      "capture_url": "https://web.archive.org/web/20230129103959/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230129103959_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_a70894a0823ae9ca.json"
+    },
+    {
       "date": "2023-01-30",
       "game_name": "Strike Force Heroes 2",
       "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
@@ -25124,6 +25949,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230131165042_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_e9e711ead8565c8d.json"
+    },
+    {
+      "date": "2023-01-31",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 417202,
+      "favorites_count_observed": 3632,
+      "plays_text": "417,202",
+      "favorites_text": "3,632",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20230131222155",
+      "capture_url": "https://web.archive.org/web/20230131222155/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230131222155_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_e086c21ff62def95.json"
     },
     {
       "date": "2023-02-01",
@@ -25244,6 +26084,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204051532_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_96d59c56d527a563.json"
+    },
+    {
+      "date": "2023-02-04",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 418645,
+      "favorites_count_observed": 3639,
+      "plays_text": "418,645",
+      "favorites_text": "3,639",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20230204215730",
+      "capture_url": "https://web.archive.org/web/20230204215730/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204215730_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_a3d4f1f015df6d4e.json"
     },
     {
       "date": "2023-02-04",
@@ -25502,6 +26357,21 @@
     },
     {
       "date": "2023-02-14",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/en/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7120723,
+      "favorites_count_observed": 21086,
+      "plays_text": "7,120,723",
+      "favorites_text": "21,086",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230214005456",
+      "capture_url": "https://web.archive.org/web/20230214005456/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214005456_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_4407abbe2a052c75.json"
+    },
+    {
+      "date": "2023-02-14",
       "game_name": "Cubito Mayhem",
       "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
       "plays_count_observed": 172251,
@@ -25664,6 +26534,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163325_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_caa89fac290635f2.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 419880,
+      "favorites_count_observed": 3642,
+      "plays_text": "419,880",
+      "favorites_text": "3,642",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20230214163040",
+      "capture_url": "https://web.archive.org/web/20230214163040/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163040_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_3c849bbf2ec7c910.json"
     },
     {
       "date": "2023-02-16",
@@ -26042,6 +26927,36 @@
     },
     {
       "date": "2023-02-26",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4141845,
+      "favorites_count_observed": 26072,
+      "plays_text": "4,141,845",
+      "favorites_text": "26,072",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20230226152003",
+      "capture_url": "https://web.archive.org/web/20230226152003/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226152003_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_579df069d47fad4f.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Raze",
+      "game_url": "https://www.kongregate.com/games/Addisonr/raze",
+      "plays_count_observed": 4190886,
+      "favorites_count_observed": 42287,
+      "plays_text": "4,190,886",
+      "favorites_text": "42,287",
+      "metrics_url": "https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "capture_timestamp": "20230226154327",
+      "capture_url": "https://web.archive.org/web/20230226154327/https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226154327_https_www.kongregate.com_games_Addisonr_raze_metrics.json_3d9f3ebf24384f30.json"
+    },
+    {
+      "date": "2023-02-26",
       "game_name": "Rebuild",
       "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
       "plays_count_observed": 6226696,
@@ -26084,6 +26999,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226153539_https_www.kongregate.com_games_DrNeroCF_the-fancy-pants-adventures_metrics.json_9c06bed5df4432eb.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "The Tickler",
+      "game_url": "https://www.kongregate.com/games/xpndsprt/the-tickler",
+      "plays_count_observed": 1241339,
+      "favorites_count_observed": 9620,
+      "plays_text": "1,241,339",
+      "favorites_text": "9,620",
+      "metrics_url": "https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "capture_timestamp": "20230226160001",
+      "capture_url": "https://web.archive.org/web/20230226160001/https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226160001_https_www.kongregate.com_games_xpndsprt_the-tickler_metrics.json_0d032eedfb60aca5.json"
     },
     {
       "date": "2023-02-26",
@@ -27541,6 +28471,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230703141639_https_www.kongregate.com_games_CasualCollective_desktop-td-pro_metrics.json_2f573d98bb1e0875.json"
     },
     {
+      "date": "2023-07-08",
+      "game_name": "Portal: The Flash Version",
+      "game_url": "http://www.kongregate.com/games/Dragy/portal-the-flash-version",
+      "plays_count_observed": 4142358,
+      "favorites_count_observed": 26076,
+      "plays_text": "4,142,358",
+      "favorites_text": "26,076",
+      "metrics_url": "https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "capture_timestamp": "20230708102639",
+      "capture_url": "https://web.archive.org/web/20230708102639/https://www.kongregate.com/games/Dragy/portal-the-flash-version/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230708102639_https_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_d36c32017f2c059d.json"
+    },
+    {
       "date": "2023-07-10",
       "game_name": "Konkr.io",
       "game_url": "https://www.kongregate.com/games/Embair/konkr-io",
@@ -27976,6 +28921,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230805191547_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_1127e463c90605d5.json"
     },
     {
+      "date": "2023-08-05",
+      "game_name": "Learn to Fly 3",
+      "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
+      "plays_count_observed": 6238558,
+      "favorites_count_observed": 46221,
+      "plays_text": "6,238,558",
+      "favorites_text": "46,221",
+      "metrics_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "capture_timestamp": "20230805150605",
+      "capture_url": "https://web.archive.org/web/20230805150605/https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230805150605_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_c1beefe91ac4e176.json"
+    },
+    {
       "date": "2023-08-06",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -28336,6 +29296,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821084729_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_1639e66cecdad924.json"
     },
     {
+      "date": "2023-08-21",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2642153,
+      "favorites_count_observed": 6081,
+      "plays_text": "2,642,153",
+      "favorites_text": "6,081",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20230821084614",
+      "capture_url": "https://web.archive.org/web/20230821084614/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230821084614_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_7992b1c47b6e6269.json"
+    },
+    {
       "date": "2023-08-22",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -28394,6 +29369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230824075459_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_26f234a3adf16b12.json"
+    },
+    {
+      "date": "2023-08-25",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2647123,
+      "favorites_count_observed": 6087,
+      "plays_text": "2,647,123",
+      "favorites_text": "6,087",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20230825122340",
+      "capture_url": "https://web.archive.org/web/20230825122340/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230825122340_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_3cfecade5c0f3bc5.json"
     },
     {
       "date": "2023-08-30",
@@ -28514,6 +29504,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230905124543_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_ba83365a4efcb371.json"
+    },
+    {
+      "date": "2023-09-06",
+      "game_name": "Blang",
+      "game_url": "http://www.kongregate.com/games/redux/blang",
+      "plays_count_observed": 27008,
+      "favorites_count_observed": 71,
+      "plays_text": "27,008",
+      "favorites_text": "71",
+      "metrics_url": "https://www.kongregate.com/games/redux/blang/metrics.json",
+      "capture_timestamp": "20230906005734",
+      "capture_url": "https://web.archive.org/web/20230906005734/https://www.kongregate.com/games/redux/blang/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230906005734_https_www.kongregate.com_games_redux_blang_metrics.json_34a974ba686f2bae.json"
+    },
+    {
+      "date": "2023-09-06",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2658005,
+      "favorites_count_observed": 6103,
+      "plays_text": "2,658,005",
+      "favorites_text": "6,103",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20230906010532",
+      "capture_url": "https://web.archive.org/web/20230906010532/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230906010532_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_b0fef05d4acaaad1.json"
     },
     {
       "date": "2023-09-07",
@@ -28742,6 +29762,21 @@
     },
     {
       "date": "2023-09-14",
+      "game_name": "SPACEPLAN Prototype",
+      "game_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype",
+      "plays_count_observed": 638084,
+      "favorites_count_observed": 5751,
+      "plays_text": "638,084",
+      "favorites_text": "5,751",
+      "metrics_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype/metrics.json",
+      "capture_timestamp": "20230914142715",
+      "capture_url": "https://web.archive.org/web/20230914142715/http://www.kongregate.com/games/jhollands/spaceplan-prototype/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914142715_http_www.kongregate.com_games_jhollands_spaceplan-prototype_metrics.json_6fd35d8c6acef911.json"
+    },
+    {
+      "date": "2023-09-14",
       "game_name": "Swarm Simulator",
       "game_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator",
       "plays_count_observed": 12178520,
@@ -28769,6 +29804,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914134836_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_dcc6cc859e76a1a9.json"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1405687,
+      "favorites_count_observed": 11030,
+      "plays_text": "1,405,687",
+      "favorites_text": "11,030",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20230914154934",
+      "capture_url": "https://web.archive.org/web/20230914154934/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914154934_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_5251547a48cc7b4e.json"
     },
     {
       "date": "2023-09-15",
@@ -29057,6 +30107,21 @@
     },
     {
       "date": "2023-09-23",
+      "game_name": "Raze",
+      "game_url": "https://www.kongregate.com/games/Addisonr/raze",
+      "plays_count_observed": 4203414,
+      "favorites_count_observed": 42325,
+      "plays_text": "4,203,414",
+      "favorites_text": "42,325",
+      "metrics_url": "https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "capture_timestamp": "20230923203158",
+      "capture_url": "https://web.archive.org/web/20230923203158/https://www.kongregate.com/games/Addisonr/raze/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203158_https_www.kongregate.com_games_Addisonr_raze_metrics.json_13c20e8ac00bb5bb.json"
+    },
+    {
+      "date": "2023-09-23",
       "game_name": "Sift Heads World Act 1",
       "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-1",
       "plays_count_observed": 590552,
@@ -29324,6 +30389,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231003130542_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_2330998c3c377912.json"
+    },
+    {
+      "date": "2023-10-03",
+      "game_name": "Rogue Fable III",
+      "game_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii",
+      "plays_count_observed": 2680373,
+      "favorites_count_observed": 6117,
+      "plays_text": "2,680,373",
+      "favorites_text": "6,117",
+      "metrics_url": "https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "capture_timestamp": "20231003122736",
+      "capture_url": "https://web.archive.org/web/20231003122736/https://www.kongregate.com/games/Justin_wang123/rogue-fable-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231003122736_https_www.kongregate.com_games_Justin_wang123_rogue-fable-iii_metrics.json_bf68089aa4fc1948.json"
     },
     {
       "date": "2023-10-10",
@@ -30016,6 +31096,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231122232910_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_cc918c3c7871335e.json"
     },
     {
+      "date": "2023-11-22",
+      "game_name": "Learn to Fly 3",
+      "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
+      "plays_count_observed": 6271131,
+      "favorites_count_observed": 46372,
+      "plays_text": "6,271,131",
+      "favorites_text": "46,372",
+      "metrics_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "capture_timestamp": "20231122234004",
+      "capture_url": "https://web.archive.org/web/20231122234004/https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231122234004_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_7a429b09c18fa4dc.json"
+    },
+    {
       "date": "2023-11-23",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -30691,6 +31786,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231226052700_https_www.kongregate.com_games_adventale_three-goblets_metrics.json_8fb19cbd8e393f6a.json"
     },
     {
+      "date": "2023-12-27",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 233123,
+      "favorites_count_observed": 1193,
+      "plays_text": "233,123",
+      "favorites_text": "1,193",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20231227221122",
+      "capture_url": "https://web.archive.org/web/20231227221122/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231227221122_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_2a5da2e03cb898f5.json"
+    },
+    {
+      "date": "2023-12-28",
+      "game_name": "Knight-errant",
+      "game_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant",
+      "plays_count_observed": 234181,
+      "favorites_count_observed": 1194,
+      "plays_text": "234,181",
+      "favorites_text": "1,194",
+      "metrics_url": "https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "capture_timestamp": "20231228110900",
+      "capture_url": "https://web.archive.org/web/20231228110900/https://www.kongregate.com/games/FractalSunrise/knight-errant/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231228110900_https_www.kongregate.com_games_FractalSunrise_knight-errant_metrics.json_fd253110f562a368.json"
+    },
+    {
       "date": "2023-12-28",
       "game_name": "Knight-errant",
       "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
@@ -30779,6 +31904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240101173623_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_fcee14037e5f567c.json"
+    },
+    {
+      "date": "2024-01-02",
+      "game_name": "Robot Butler",
+      "game_url": "http://www.kongregate.com/games/RUSTLTD/robot-butler",
+      "plays_count_observed": 9202,
+      "favorites_count_observed": 51,
+      "plays_text": "9,202",
+      "favorites_text": "51",
+      "metrics_url": "http://www.kongregate.com/games/RUSTLTD/robot-butler/metrics.json",
+      "capture_timestamp": "20240102221731",
+      "capture_url": "https://web.archive.org/web/20240102221731/http://www.kongregate.com/games/RUSTLTD/robot-butler/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240102221731_http_www.kongregate.com_games_RUSTLTD_robot-butler_metrics.json_e93303db364f6602.json"
     },
     {
       "date": "2024-01-03",
@@ -31229,6 +32369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117041222_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_7eb52cb4889ebfd6.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Factory idle",
+      "game_url": "http://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 3739380,
+      "favorites_count_observed": 19619,
+      "plays_text": "3,739,380",
+      "favorites_text": "19,619",
+      "metrics_url": "https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20240117003056",
+      "capture_url": "https://web.archive.org/web/20240117003056/https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117003056_https_www.kongregate.com_games_Baldurans_factory-idle_metrics.json_21d905799f546260.json"
     },
     {
       "date": "2024-01-17",
@@ -31877,6 +33032,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 1510298,
+      "favorites_count_observed": 8315,
+      "plays_text": "1,510,298",
+      "favorites_text": "8,315",
+      "metrics_url": "https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20240120225637",
+      "capture_url": "https://web.archive.org/web/20240120225637/https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120225637_https_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_022646fc887badab.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 1949561,
@@ -32132,6 +33302,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 441762,
+      "favorites_count_observed": 3717,
+      "plays_text": "441,762",
+      "favorites_text": "3,717",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20240120070604",
+      "capture_url": "https://web.archive.org/web/20240120070604/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120070604_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_cd12e41c29b970eb.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "The Journey Home",
       "game_url": "https://www.kongregate.com/en/games/Raius_/the-journey-home",
       "plays_count_observed": 342581,
@@ -32204,6 +33389,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120083953_http_www.kongregate.com_games_IDNoise_transport-defender_metrics.json_1275b6117630cfb5.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3108367,
+      "favorites_count_observed": 33008,
+      "plays_text": "3,108,367",
+      "favorites_text": "33,008",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20240120091727",
+      "capture_url": "https://web.archive.org/web/20240120091727/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120091727_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_991a4c0b9f858ae3.json"
     },
     {
       "date": "2024-01-20",
@@ -32521,6 +33721,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121041127_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_7432a14c235b4854.json"
     },
     {
+      "date": "2024-01-21",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1410056,
+      "favorites_count_observed": 11054,
+      "plays_text": "1,410,056",
+      "favorites_text": "11,054",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20240121130733",
+      "capture_url": "https://web.archive.org/web/20240121130733/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121130733_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_e51d5c19aee4b559.json"
+    },
+    {
       "date": "2024-01-22",
       "game_name": "Convergence",
       "game_url": "http://www.kongregate.com/games/Talon88/convergence",
@@ -32594,6 +33809,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122150317_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_6cdd2b483650616b.json"
+    },
+    {
+      "date": "2024-01-22",
+      "game_name": "Smooth Bowling",
+      "game_url": "http://www.kongregate.com/games/Aiursrage2k/smooth-bowling",
+      "plays_count_observed": 1028,
+      "favorites_count_observed": 1,
+      "plays_text": "1,028",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/Aiursrage2k/smooth-bowling/metrics.json",
+      "capture_timestamp": "20240122224450",
+      "capture_url": "https://web.archive.org/web/20240122224450/https://www.kongregate.com/games/Aiursrage2k/smooth-bowling/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122224450_https_www.kongregate.com_games_Aiursrage2k_smooth-bowling_metrics.json_90e8dcc99385b5b2.json"
     },
     {
       "date": "2024-01-24",
@@ -32849,6 +34079,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240208131230_https_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_6b928c9d0be29efc.json"
+    },
+    {
+      "date": "2024-02-08",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8057945,
+      "favorites_count_observed": 10633,
+      "plays_text": "8,057,945",
+      "favorites_text": "10,633",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20240208131127",
+      "capture_url": "https://web.archive.org/web/20240208131127/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240208131127_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_7cf7222c0ce0f9c2.json"
     },
     {
       "date": "2024-02-10",
@@ -33332,6 +34577,21 @@
     },
     {
       "date": "2024-02-23",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 442179,
+      "favorites_count_observed": 3722,
+      "plays_text": "442,179",
+      "favorites_text": "3,722",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20240223135016",
+      "capture_url": "https://web.archive.org/web/20240223135016/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223135016_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_37cee16f1c6d5b33.json"
+    },
+    {
+      "date": "2024-02-23",
       "game_name": "The Journey Home",
       "game_url": "https://www.kongregate.com/en/games/Raius_/the-journey-home",
       "plays_count_observed": 342723,
@@ -33404,6 +34664,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223155021_http_www.kongregate.com_games_IDNoise_transport-defender_metrics.json_31bf8f8fbabdbb9b.json"
+    },
+    {
+      "date": "2024-02-23",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3109281,
+      "favorites_count_observed": 33013,
+      "plays_text": "3,109,281",
+      "favorites_text": "33,013",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20240223163331",
+      "capture_url": "https://web.archive.org/web/20240223163331/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223163331_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_bf7051857c958fe7.json"
     },
     {
       "date": "2024-02-23",
@@ -33494,6 +34769,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240227211306_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_da50b646cef3f672.json"
+    },
+    {
+      "date": "2024-02-29",
+      "game_name": "Learn to Fly 3",
+      "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
+      "plays_count_observed": 6305201,
+      "favorites_count_observed": 46581,
+      "plays_text": "6,305,201",
+      "favorites_text": "46,581",
+      "metrics_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "capture_timestamp": "20240229033159",
+      "capture_url": "https://web.archive.org/web/20240229033159/https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240229033159_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_1be069e96ef415cd.json"
     },
     {
       "date": "2024-03-01",
@@ -33719,6 +35009,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307232032_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_fe622ab7d3388d7e.json"
+    },
+    {
+      "date": "2024-03-07",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1412085,
+      "favorites_count_observed": 11060,
+      "plays_text": "1,412,085",
+      "favorites_text": "11,060",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20240307220545",
+      "capture_url": "https://web.archive.org/web/20240307220545/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307220545_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_2151d963353fb3e1.json"
     },
     {
       "date": "2024-03-08",
@@ -34064,6 +35369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240327112138_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_7f28621591dbe222.json"
+    },
+    {
+      "date": "2024-03-28",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 444636,
+      "favorites_count_observed": 3736,
+      "plays_text": "444,636",
+      "favorites_text": "3,736",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20240328092643",
+      "capture_url": "https://web.archive.org/web/20240328092643/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240328092643_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_dbb47d5a6476ed50.json"
     },
     {
       "date": "2024-03-30",
@@ -35341,6 +36661,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240616084830_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bf9e8c7d6aa2a256.json"
     },
     {
+      "date": "2024-06-16",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8167866,
+      "favorites_count_observed": 10693,
+      "plays_text": "8,167,866",
+      "favorites_text": "10,693",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20240616084645",
+      "capture_url": "https://web.archive.org/web/20240616084645/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240616084645_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_3800d72e94ddf8a1.json"
+    },
+    {
       "date": "2024-06-18",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/games/Iurii1/shoot-sow",
@@ -35581,6 +36916,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240710191744_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_bfb585457883b7e2.json"
     },
     {
+      "date": "2024-07-14",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1417769,
+      "favorites_count_observed": 11089,
+      "plays_text": "1,417,769",
+      "favorites_text": "11,089",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20240714033251",
+      "capture_url": "https://web.archive.org/web/20240714033251/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240714033251_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_3c32d599d0cd794d.json"
+    },
+    {
+      "date": "2024-07-14",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1417772,
+      "favorites_count_observed": 11089,
+      "plays_text": "1,417,772",
+      "favorites_text": "11,089",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20240714053211",
+      "capture_url": "https://web.archive.org/web/20240714053211/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240714053211_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_07ff43005bdc231f.json"
+    },
+    {
       "date": "2024-07-16",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
@@ -35639,6 +37004,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240718053330_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_1ef9e251ed44e7f6.json"
+    },
+    {
+      "date": "2024-07-18",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1417928,
+      "favorites_count_observed": 11091,
+      "plays_text": "1,417,928",
+      "favorites_text": "11,091",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20240718100524",
+      "capture_url": "https://web.archive.org/web/20240718100524/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240718100524_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_b8bd048de8e642fc.json"
     },
     {
       "date": "2024-07-21",
@@ -36046,6 +37426,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240807141156_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_9ba3c45f71eabe1d.json"
     },
     {
+      "date": "2024-08-07",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3110646,
+      "favorites_count_observed": 33016,
+      "plays_text": "3,110,646",
+      "favorites_text": "33,016",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20240807141137",
+      "capture_url": "https://web.archive.org/web/20240807141137/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240807141137_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_9f335a57627542bc.json"
+    },
+    {
       "date": "2024-08-08",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
@@ -36181,6 +37576,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240812005137_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_0b052c62112af607.json"
     },
     {
+      "date": "2024-08-12",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3110684,
+      "favorites_count_observed": 33017,
+      "plays_text": "3,110,684",
+      "favorites_text": "33,017",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20240812140122",
+      "capture_url": "https://web.archive.org/web/20240812140122/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240812140122_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_ae6c829ff7671c5a.json"
+    },
+    {
       "date": "2024-08-13",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
@@ -36194,6 +37604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240813141947_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_34100957eb6147b1.json"
+    },
+    {
+      "date": "2024-08-13",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8214663,
+      "favorites_count_observed": 10728,
+      "plays_text": "8,214,663",
+      "favorites_text": "10,728",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20240813173226",
+      "capture_url": "https://web.archive.org/web/20240813173226/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240813173226_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_e1ac621016754785.json"
     },
     {
       "date": "2024-08-13",
@@ -36224,6 +37649,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240814025515_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_c86012aabd42d9db.json"
+    },
+    {
+      "date": "2024-08-14",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8214914,
+      "favorites_count_observed": 10728,
+      "plays_text": "8,214,914",
+      "favorites_text": "10,728",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20240814025520",
+      "capture_url": "https://web.archive.org/web/20240814025520/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240814025520_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_8534b078c6b54831.json"
     },
     {
       "date": "2024-08-14",
@@ -36511,6 +37951,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819002109_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_5d0f1c139917772e.json"
     },
     {
+      "date": "2024-08-19",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3110751,
+      "favorites_count_observed": 33017,
+      "plays_text": "3,110,751",
+      "favorites_text": "33,017",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20240819083527",
+      "capture_url": "https://web.archive.org/web/20240819083527/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240819083527_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_73816a7f8f6facd6.json"
+    },
+    {
       "date": "2024-08-20",
       "game_name": "RPG MO Sandbox",
       "game_url": "https://www.kongregate.com/games/MarxGames/rpg-mo-sandbox",
@@ -36646,6 +38101,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240828173427_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_70a5e00013b23170.json"
     },
     {
+      "date": "2024-08-30",
+      "game_name": "Shoot & Sow",
+      "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
+      "plays_count_observed": 39346,
+      "favorites_count_observed": 222,
+      "plays_text": "39,346",
+      "favorites_text": "222",
+      "metrics_url": "https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "capture_timestamp": "20240830192742",
+      "capture_url": "https://web.archive.org/web/20240830192742/https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240830192742_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_b07d9b16fcffb76a.json"
+    },
+    {
       "date": "2024-08-31",
       "game_name": "Sort the Court!",
       "game_url": "http://www.kongregate.com/games/graebor/sort-the-court",
@@ -36674,6 +38144,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240901040450_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_3df5a265da6a76e4.json"
+    },
+    {
+      "date": "2024-09-01",
+      "game_name": "Shoot & Sow",
+      "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
+      "plays_count_observed": 39417,
+      "favorites_count_observed": 222,
+      "plays_text": "39,417",
+      "favorites_text": "222",
+      "metrics_url": "https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "capture_timestamp": "20240901231403",
+      "capture_url": "https://web.archive.org/web/20240901231403/https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240901231403_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_feafe323801896f7.json"
     },
     {
       "date": "2024-09-02",
@@ -36719,6 +38204,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903231137_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_8ae127077a573430.json"
+    },
+    {
+      "date": "2024-09-03",
+      "game_name": "Shoot & Sow",
+      "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
+      "plays_count_observed": 39483,
+      "favorites_count_observed": 222,
+      "plays_text": "39,483",
+      "favorites_text": "222",
+      "metrics_url": "https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "capture_timestamp": "20240903190721",
+      "capture_url": "https://web.archive.org/web/20240903190721/https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903190721_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_418153686523d3a3.json"
     },
     {
       "date": "2024-09-04",
@@ -36809,6 +38309,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240906121306_https_www.kongregate.com_games_Tukkun_kana-warrior_metrics.json_56c509aff96830a1.json"
+    },
+    {
+      "date": "2024-09-06",
+      "game_name": "Shoot & Sow",
+      "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
+      "plays_count_observed": 39556,
+      "favorites_count_observed": 222,
+      "plays_text": "39,556",
+      "favorites_text": "222",
+      "metrics_url": "https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "capture_timestamp": "20240906173131",
+      "capture_url": "https://web.archive.org/web/20240906173131/https://www.kongregate.com/games/Iurii1/shoot-sow/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240906173131_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_de957d95fc63cfc1.json"
     },
     {
       "date": "2024-09-08",
@@ -36947,6 +38462,21 @@
     },
     {
       "date": "2024-09-15",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8239142,
+      "favorites_count_observed": 10741,
+      "plays_text": "8,239,142",
+      "favorites_text": "10,741",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20240915091709",
+      "capture_url": "https://web.archive.org/web/20240915091709/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240915091709_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_2f46134f4dd57d4f.json"
+    },
+    {
+      "date": "2024-09-15",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/games/Iurii1/shoot-sow",
       "plays_count_observed": 39739,
@@ -37034,6 +38564,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240921182641_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_569e07b7f65ffa4a.json"
+    },
+    {
+      "date": "2024-09-22",
+      "game_name": "Learn to Fly 3",
+      "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
+      "plays_count_observed": 6354363,
+      "favorites_count_observed": 46896,
+      "plays_text": "6,354,363",
+      "favorites_text": "46,896",
+      "metrics_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "capture_timestamp": "20240922092417",
+      "capture_url": "https://web.archive.org/web/20240922092417/https://www.kongregate.com/games/light_bringer777/learn-to-fly-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240922092417_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_5cc91a9cb73d750b.json"
     },
     {
       "date": "2024-09-23",
@@ -37636,6 +39181,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241110234333_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_7e8abe20be5ce4e5.json"
     },
     {
+      "date": "2024-11-12",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8289402,
+      "favorites_count_observed": 10768,
+      "plays_text": "8,289,402",
+      "favorites_text": "10,768",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20241112192748",
+      "capture_url": "https://web.archive.org/web/20241112192748/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241112192748_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_0b95f75cfda47344.json"
+    },
+    {
       "date": "2024-11-14",
       "game_name": "Idle Bouncer",
       "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
@@ -37754,6 +39314,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241117004245_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_afd55690c96360e2.json"
+    },
+    {
+      "date": "2024-11-17",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 458842,
+      "favorites_count_observed": 3808,
+      "plays_text": "458,842",
+      "favorites_text": "3,808",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20241117091629",
+      "capture_url": "https://web.archive.org/web/20241117091629/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241117091629_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_d5c31f4577092672.json"
     },
     {
       "date": "2024-11-20",
@@ -38009,6 +39584,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241216020034_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_2b0283eb0e24523f.json"
+    },
+    {
+      "date": "2024-12-16",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 459943,
+      "favorites_count_observed": 3815,
+      "plays_text": "459,943",
+      "favorites_text": "3,815",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20241216170658",
+      "capture_url": "https://web.archive.org/web/20241216170658/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241216170658_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_31ffa6f26fe9408e.json"
     },
     {
       "date": "2024-12-18",
@@ -38506,6 +40096,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250124225510_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_209f7ba8d62174d2.json"
     },
     {
+      "date": "2025-01-29",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "game_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra",
+      "plays_count_observed": 8352164,
+      "favorites_count_observed": 10785,
+      "plays_text": "8,352,164",
+      "favorites_text": "10,785",
+      "metrics_url": "https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "capture_timestamp": "20250129173817",
+      "capture_url": "https://web.archive.org/web/20250129173817/https://www.kongregate.com/games/kanoapps/mob-wars-la-cosa-nostra/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250129173817_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_b366d26eee075804.json"
+    },
+    {
       "date": "2025-02-03",
       "game_name": "Anti-Idle: The Game",
       "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
@@ -38551,6 +40156,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250205214854_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_c4302be481c8348d.json"
     },
     {
+      "date": "2025-02-06",
+      "game_name": "Monster Clearer",
+      "game_url": "https://www.kongregate.com/games/adventale/monster-clearer",
+      "plays_count_observed": 648855,
+      "favorites_count_observed": 6327,
+      "plays_text": "648,855",
+      "favorites_text": "6,327",
+      "metrics_url": "https://www.kongregate.com/games/adventale/monster-clearer/metrics.json",
+      "capture_timestamp": "20250206150424",
+      "capture_url": "https://web.archive.org/web/20250206150424/https://www.kongregate.com/games/adventale/monster-clearer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250206150424_https_www.kongregate.com_games_adventale_monster-clearer_metrics.json_930a43b15da3d797.json"
+    },
+    {
       "date": "2025-02-08",
       "game_name": "Cosmos Quest",
       "game_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest",
@@ -38579,6 +40199,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250210192854_https_www.kongregate.com_games_PeopleFun_race-time_metrics.json_93b0c61569a9bd69.json"
+    },
+    {
+      "date": "2025-02-10",
+      "game_name": "Woodclicker",
+      "game_url": "http://www.kongregate.com/games/Exception_e/woodclicker",
+      "plays_count_observed": 1426853,
+      "favorites_count_observed": 11131,
+      "plays_text": "1,426,853",
+      "favorites_text": "11,131",
+      "metrics_url": "http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "capture_timestamp": "20250210204105",
+      "capture_url": "https://web.archive.org/web/20250210204105/http://www.kongregate.com/games/Exception_e/woodclicker/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250210204105_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_ef918a841f0effc0.json"
     },
     {
       "date": "2025-02-11",
@@ -38807,6 +40442,21 @@
     },
     {
       "date": "2025-03-02",
+      "game_name": "Upgrade Complete 2",
+      "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete-2",
+      "plays_count_observed": 3112458,
+      "favorites_count_observed": 33022,
+      "plays_text": "3,112,458",
+      "favorites_text": "33,022",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "capture_timestamp": "20250302222757",
+      "capture_url": "https://web.archive.org/web/20250302222757/https://www.kongregate.com/games/ArmorGames/upgrade-complete-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250302222757_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_3d326876b3c855cc.json"
+    },
+    {
+      "date": "2025-03-02",
       "game_name": "UPGRADE COMPLETE!",
       "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete",
       "plays_count_observed": 6056007,
@@ -38924,6 +40574,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250312150105_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_5fa8ef0619d88157.json"
+    },
+    {
+      "date": "2025-03-12",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 466858,
+      "favorites_count_observed": 3842,
+      "plays_text": "466,858",
+      "favorites_text": "3,842",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20250312140132",
+      "capture_url": "https://web.archive.org/web/20250312140132/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250312140132_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_fd1d232559c3f7ae.json"
     },
     {
       "date": "2025-03-12",
@@ -39149,6 +40814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402011557_https_www.kongregate.com_games_MegaLamb_everybody-edits_metrics.json_2dfde98c3db634d3.json"
+    },
+    {
+      "date": "2025-04-02",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 533442,
+      "favorites_count_observed": 2447,
+      "plays_text": "533,442",
+      "favorites_text": "2,447",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20250402214657",
+      "capture_url": "https://web.archive.org/web/20250402214657/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402214657_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_36271fdf6c847f92.json"
     },
     {
       "date": "2025-04-04",
@@ -39524,6 +41204,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426224514_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_089c2abc09f9a243.json"
+    },
+    {
+      "date": "2025-04-26",
+      "game_name": "The Tickler",
+      "game_url": "https://www.kongregate.com/games/xpndsprt/the-tickler",
+      "plays_count_observed": 1245939,
+      "favorites_count_observed": 9621,
+      "plays_text": "1,245,939",
+      "favorites_text": "9,621",
+      "metrics_url": "https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "capture_timestamp": "20250426235731",
+      "capture_url": "https://web.archive.org/web/20250426235731/https://www.kongregate.com/games/xpndsprt/the-tickler/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426235731_https_www.kongregate.com_games_xpndsprt_the-tickler_metrics.json_30f8d0f80c4d2771.json"
     },
     {
       "date": "2025-04-27",
@@ -40094,6 +41789,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250630085159_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_25930bb1a2cb09bc.json"
+    },
+    {
+      "date": "2025-06-30",
+      "game_name": "The Final Earth 2",
+      "game_url": "https://www.kongregate.com/games/flori9/the-final-earth-2",
+      "plays_count_observed": 475118,
+      "favorites_count_observed": 3875,
+      "plays_text": "475,118",
+      "favorites_text": "3,875",
+      "metrics_url": "https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "capture_timestamp": "20250630085140",
+      "capture_url": "https://web.archive.org/web/20250630085140/https://www.kongregate.com/games/flori9/the-final-earth-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250630085140_https_www.kongregate.com_games_flori9_the-final-earth-2_metrics.json_2b00172c12ae18c4.json"
     },
     {
       "date": "2025-07-10",
@@ -40936,6 +42646,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251003165234_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_670b2fa0a7dd6943.json"
     },
     {
+      "date": "2025-10-07",
+      "game_name": "Plinko Idle",
+      "game_url": "https://www.kongregate.com/en/games/Zamol/the-black-box",
+      "plays_count_observed": 524337,
+      "favorites_count_observed": 839,
+      "plays_text": "524,337",
+      "favorites_text": "839",
+      "metrics_url": "https://www.kongregate.com/en/games/Zamol/the-black-box/metrics.json",
+      "capture_timestamp": "20251007045823",
+      "capture_url": "https://web.archive.org/web/20251007045823/https://www.kongregate.com/en/games/Zamol/the-black-box/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251007045823_https_www.kongregate.com_en_games_Zamol_the-black-box_metrics.json_4d577bac2935ec5b.json"
+    },
+    {
       "date": "2025-10-11",
       "game_name": "The Journey Home",
       "game_url": "https://www.kongregate.com/en/games/Raius_/the-journey-home",
@@ -40979,6 +42704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251023173828_https_www.kongregate.com_en_games_JamesG466_incremancer_metrics.json_5d8fb74dbe5e5256.json"
+    },
+    {
+      "date": "2025-10-24",
+      "game_name": "Shoot & Sow",
+      "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
+      "plays_count_observed": 57985,
+      "favorites_count_observed": 288,
+      "plays_text": "57,985",
+      "favorites_text": "288",
+      "metrics_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow/metrics.json",
+      "capture_timestamp": "20251024170709",
+      "capture_url": "https://web.archive.org/web/20251024170709/https://www.kongregate.com/en/games/Iurii1/shoot-sow/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251024170709_https_www.kongregate.com_en_games_Iurii1_shoot-sow_metrics.json_0c266bdadeb4dfc0.json"
     },
     {
       "date": "2025-10-25",
