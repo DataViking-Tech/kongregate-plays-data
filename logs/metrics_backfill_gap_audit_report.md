@@ -1,20 +1,20 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T10:39:06Z
+Generated: 2026-06-29T10:54:29Z
 
 ## Summary
 
 - Mini-catalog games audited: 743
-- Games without metrics rows: 282
+- Games without metrics rows: 278
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 411
-- Missing CDX cache files: 2
+- Known failed captures: 312
+- Missing CDX cache files: 0
 
 ## Status Counts
 
-- has_metrics: 461
-- known_failures_only: 46
+- has_metrics: 465
+- known_failures_only: 42
 - no_cdx: 236
 
 ## Top Unresolved Games
@@ -23,9 +23,7 @@ Generated: 2026-06-29T10:39:06Z
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Robo-Jump | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Pre-Civilization Bronze Age | known_failures_only | 2 | 0 | 2 | 0 | 2 |
 | A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| SandTest | known_failures_only | 3 | 0 | 4 | 0 | 4 |
 | Wave1 | no_cdx | 4 | 0 | 0 | 0 | 0 |
 | Holyday City | known_failures_only | 5 | 0 | 1 | 0 | 1 |
 | Footie Fight | no_cdx | 5 | 0 | 0 | 0 | 0 |
@@ -46,6 +44,8 @@ Generated: 2026-06-29T10:39:06Z
 | Eggplant Dress-up | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | facebook example | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Hidden Bee | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Hidden Deer | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Hidden Objects-Messy H... | no_cdx | 1 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
