@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1219,
+  "catalog_games": 1303,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 297,
-  "generated_at": "2026-06-29T14:18:03Z",
-  "known_failed_captures": 615,
-  "missing_cdx_cache_files": 101,
+  "games_without_metrics_rows": 380,
+  "generated_at": "2026-06-29T14:33:50Z",
+  "known_failed_captures": 616,
+  "missing_cdx_cache_files": 149,
   "status_counts": {
-    "cdx_cache_missing": 101,
-    "has_metrics": 922,
-    "known_failures_only": 36,
-    "no_cdx": 160
+    "cdx_cache_missing": 149,
+    "has_metrics": 923,
+    "known_failures_only": 37,
+    "no_cdx": 194
   },
   "top_unresolved_games": [
     {
@@ -19,6 +19,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "[Future Mode] The Warriors Way 0.2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Digimon Pyramid Adventure",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -52,6 +63,28 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Halloween Spooky Motocross",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Journey through Wind and Fire I",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Roller Ball Plat",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -96,6 +129,28 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Soul Shadows",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "SuperBall Idle",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Tactical Anomaly",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -169,6 +224,17 @@
     },
     {
       "best_rank": "2",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
+      "fresh_pending_captures": 0,
+      "game_name": "Cat around the world - Alipne Lakes",
+      "known_failed_captures": 1,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "2",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
@@ -194,100 +260,34 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Classical Pong",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "CountryBalls 4",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "DOT.",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Ensemble",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Halloween Creepy Cemetry",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Halloween Search For History",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Jumpocat",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Swordz.io",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Toy Drop",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Triangle Hero",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "A Kongergate Special",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8114
+  "valid_cached_captures": 8116
 }
