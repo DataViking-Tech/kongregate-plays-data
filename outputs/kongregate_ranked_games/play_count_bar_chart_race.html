@@ -16,8 +16,8 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 1580ms;
-      --move-ease: cubic-bezier(0.32, 0.72, 0, 1);
+      --move-duration: 1080ms;
+      --move-ease: cubic-bezier(0.22, 0.68, 0.12, 1);
     }
 
     * {
@@ -406,7 +406,7 @@
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-      <label class="speed">Speed <input id="speedSlider" type="range" min="2600" max="6800" value="3800" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="1500" max="5600" value="2200" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1rQ1hGXvCtbzd_4PXXPe4aSGg7-EmuXZZSxcKloUqPC4" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -448,8 +448,9 @@
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 1280;
+    const transitionMs = 1080;
     const exitMs = transitionMs + 180;
+    const smoothStepsPerMonth = 2;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -494,7 +495,7 @@
       return String(frame.sourceDate || frame.date).localeCompare(String(targetDate));
     }
 
-    function buildMonthlyFrames(sourceFrames) {
+    function buildMonthlyKeyframes(sourceFrames) {
       if (!sourceFrames.length) return [];
 
       const byMonth = new Map();
@@ -523,6 +524,103 @@
       return monthlyFrames;
     }
 
+    function frameEntryMap(frame) {
+      return new Map((frame.entries || []).map((entry) => [entry.key, entry]));
+    }
+
+    function smoothRatio(ratio) {
+      return ratio * ratio * (3 - (2 * ratio));
+    }
+
+    function numericMonth(monthId) {
+      const [year, month] = String(monthId).split("-").map(Number);
+      return (year * 12) + month - 1;
+    }
+
+    function monthFromNumeric(value) {
+      const year = Math.floor(value / 12);
+      const month = (value % 12) + 1;
+      return `${year}-${String(month).padStart(2, "0")}`;
+    }
+
+    function interpolatedMonth(startMonth, endMonth, ratio) {
+      const start = numericMonth(startMonth);
+      const end = numericMonth(endMonth);
+      return monthFromNumeric(Math.round(start + ((end - start) * ratio)));
+    }
+
+    function interpolatedNumber(start, end, ratio) {
+      const fromValue = Number(start) || 0;
+      const toValue = Number(end) || fromValue;
+      return Math.round(fromValue + ((toValue - fromValue) * ratio));
+    }
+
+    function interpolateFrame(startFrame, endFrame, ratio) {
+      const eased = smoothRatio(ratio);
+      const startEntries = frameEntryMap(startFrame);
+      const endEntries = frameEntryMap(endFrame);
+      const keys = new Set([...startEntries.keys(), ...endEntries.keys()]);
+      const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
+      const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
+      const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
+      const entries = [...keys]
+        .map((key) => {
+          const startEntry = startEntries.get(key);
+          const endEntry = endEntries.get(key);
+          const baseEntry = endEntry || startEntry;
+          const startPlays = startEntry ? startEntry.plays : Math.min(endEntry.plays, joinFloor);
+          const endPlays = endEntry ? endEntry.plays : startEntry.plays;
+          return {
+            ...baseEntry,
+            plays: interpolatedNumber(startPlays, endPlays, eased),
+          };
+        })
+        .sort((a, b) => b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+        .slice(0, visibleRows)
+        .map((entry, index) => ({
+          ...entry,
+          rank: index + 1,
+        }));
+
+      const startMonth = monthIdFromDate(startFrame.displayDate || startFrame.date);
+      const endMonth = monthIdFromDate(endFrame.displayDate || endFrame.date);
+
+      return {
+        ...endFrame,
+        date: interpolatedMonth(startMonth, endMonth, ratio),
+        displayDate: interpolatedMonth(startMonth, endMonth, ratio),
+        sourceDate: startFrame.sourceDate || startFrame.date,
+        fromSourceDate: startFrame.sourceDate || startFrame.date,
+        toSourceDate: endFrame.sourceDate || endFrame.date,
+        interpolated: true,
+        observedRows: interpolatedNumber(startFrame.observedRows, endFrame.observedRows, eased),
+        trackedGames: interpolatedNumber(startFrame.trackedGames, endFrame.trackedGames, eased),
+        entries,
+      };
+    }
+
+    function buildSmoothFrames(sourceFrames) {
+      const keyframes = buildMonthlyKeyframes(sourceFrames);
+      if (keyframes.length <= 1) return keyframes;
+
+      const smoothFrames = [keyframes[0]];
+      for (let index = 1; index < keyframes.length; index += 1) {
+        const startFrame = keyframes[index - 1];
+        const endFrame = keyframes[index];
+        for (let step = 1; step < smoothStepsPerMonth; step += 1) {
+          smoothFrames.push(interpolateFrame(startFrame, endFrame, step / smoothStepsPerMonth));
+        }
+        smoothFrames.push(endFrame);
+      }
+
+      return smoothFrames;
+    }
+
+    function frameScaleMax(entries) {
+      const topValue = Math.max(1, ...entries.map((entry) => entry.plays || 0));
+      return topValue * 1.08;
+    }
+
     function updateModeButtons() {
       for (const button of modeButtons) {
         const active = button.dataset.mode === playbackMode;
@@ -536,7 +634,7 @@
         rangeMeta.textContent = "No observed play counts found";
         return;
       }
-      const cadence = playbackMode === "smooth" ? "monthly frames" : "capture frames";
+      const cadence = playbackMode === "smooth" ? "smooth frames" : "capture frames";
       rangeMeta.textContent = `${PAYLOAD.summary.firstDate} to ${PAYLOAD.summary.lastDate} | ${PAYLOAD.summary.observedRows.toLocaleString()} observed rows | ${frames.length.toLocaleString()} ${cadence}`;
     }
 
@@ -548,7 +646,7 @@
 
     function setPlaybackMode(mode, targetDate) {
       playbackMode = mode;
-      frames = playbackMode === "smooth" ? buildMonthlyFrames(rawFrames) : rawFrames;
+      frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
       frameIndex = closestFrameIndex(targetDate);
       frameSlider.max = Math.max(frames.length - 1, 0);
       frameSlider.value = String(frameIndex);
@@ -567,14 +665,6 @@
       let hash = 0;
       for (let i = 0; i < key.length; i += 1) hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
       return palette[Math.abs(hash) % palette.length];
-    }
-
-    function niceScaleMax(value) {
-      if (!Number.isFinite(value) || value <= 0) return 1;
-      const magnitude = 10 ** Math.floor(Math.log10(value));
-      const normalized = value / magnitude;
-      const ceiling = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
-      return ceiling * magnitude;
     }
 
     function detailText(entry) {
@@ -665,6 +755,7 @@
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
+      row.style.transform = `translate3d(0, ${rowStep * visibleRows}px, 0)`;
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -682,12 +773,14 @@
 
       const frame = frames[nextIndex];
       const entries = frame.entries.slice(0, visibleRows);
-      const maxValue = niceScaleMax(Math.max(...entries.map((entry) => entry.plays), 1));
+      const maxValue = frameScaleMax(entries);
       const activeKeys = new Set();
 
       dateLabel.textContent = frame.displayDate || frame.date;
       dateMeta.textContent = `${frame.trackedGames.toLocaleString()} games tracked`;
-      sourceMeta.textContent = frame.sourceDate && frame.sourceDate !== frame.date
+      sourceMeta.textContent = frame.interpolated
+        ? `between ${frame.fromSourceDate} and ${frame.toSourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
+        : frame.sourceDate && frame.sourceDate !== frame.date
         ? `source capture ${frame.sourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
         : `${frame.observedRows.toLocaleString()} observed rows on this date`;
       frameSlider.value = String(nextIndex);
@@ -704,7 +797,7 @@
           row = rowElement(entry);
           rowsByKey.set(entry.key, row);
           row.style.transition = "none";
-          row.style.transform = `translate3d(0, ${index * rowStep}px, 0)`;
+          row.style.transform = `translate3d(0, ${rowStep * visibleRows}px, 0)`;
           rowsEl.append(row);
           row.getBoundingClientRect();
           row.style.transition = "";
@@ -713,10 +806,17 @@
         row.dataset.exiting = "false";
         clearTimeout(row._removeTimer);
         row.classList.remove("isExiting");
-        row.style.transform = `translate3d(0, ${index * rowStep}px, 0)`;
+        const targetTransform = `translate3d(0, ${index * rowStep}px, 0)`;
         activeKeys.add(entry.key);
-        if (isNew) requestAnimationFrame(() => row.classList.add("isVisible"));
-        else row.classList.add("isVisible");
+        if (isNew) {
+          requestAnimationFrame(() => {
+            row.style.transform = targetTransform;
+            row.classList.add("isVisible");
+          });
+        } else {
+          row.style.transform = targetTransform;
+          row.classList.add("isVisible");
+        }
       });
 
       for (const [key, row] of rowsByKey) {
@@ -750,7 +850,7 @@
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 650);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 360);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
