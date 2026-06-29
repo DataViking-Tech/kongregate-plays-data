@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-29T04:46:25Z",
+  "run_timestamp": "2026-06-29T05:11:56Z",
   "as_of": "2026-06-29",
   "ranked_rows": 8140,
   "ranked_rows_with_play_counts": 4685,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 743,
-  "metrics_history_rows": 355,
-  "metrics_history_games": 21,
+  "metrics_history_rows": 716,
+  "metrics_history_games": 29,
   "metrics_history_date_range": [
     "2014-08-07",
     "2025-10-01"
   ],
   "zero_ranked_capture_months": 134,
-  "catalog_games_without_metrics_history": 711,
+  "catalog_games_without_metrics_history": 696,
   "catalog_games_need_page_history": 381,
   "final_chart_entries_stale_over_one_year": 9,
   "invalid_cached_html_files": 105,
@@ -63,10 +63,10 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 711,
+      "count": 696,
       "first_date": "",
       "last_date": "",
-      "example": "Crusaders of the Lost Idols",
+      "example": "Incremancer",
       "recommended_action": "Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit."
     },
     {
