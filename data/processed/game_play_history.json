@@ -676,6 +676,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150519230729_http_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_17728cc2d54927c6.json"
     },
     {
+      "date": "2015-05-27",
+      "game_name": "Ballistic",
+      "game_url": "http://www.kongregate.com/games/aquiris/ballistic",
+      "plays_count_observed": 4655446,
+      "favorites_count_observed": 77852,
+      "plays_text": "4,655,446",
+      "favorites_text": "77,852",
+      "metrics_url": "http://www.kongregate.com/games/aquiris/ballistic/metrics.json",
+      "capture_timestamp": "20150527143319",
+      "capture_url": "https://web.archive.org/web/20150527143319/http://www.kongregate.com/games/aquiris/ballistic/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150527143319_http_www.kongregate.com_games_aquiris_ballistic_metrics.json_fbb65f9d99b1a86c.json"
+    },
+    {
       "date": "2015-06-11",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -31816,6 +31831,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221021171117_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_1164b58594b1acbd.json"
     },
     {
+      "date": "2022-10-21",
+      "game_name": "Feed The D (Christian-Friendly)",
+      "game_url": "http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly",
+      "plays_count_observed": 296,
+      "favorites_count_observed": 2,
+      "plays_text": "296",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "capture_timestamp": "20221021092500",
+      "capture_url": "https://web.archive.org/web/20221021092500/https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221021092500_https_www.kongregate.com_games_AnAlt_Ver3_feed-the-d-christian-friendly_metrics.json_a56e49761c38fa62.json"
+    },
+    {
       "date": "2022-10-22",
       "game_name": "Accelerator",
       "game_url": "https://www.kongregate.com/games/TenebrousP/accelerator",
@@ -38146,6 +38176,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230517222725_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_40d1bef371a600ef.json"
     },
     {
+      "date": "2023-05-18",
+      "game_name": "Blaze Hidden Stars",
+      "game_url": "http://www.kongregate.com/games/blazejuegos/blaze-hidden-stars",
+      "plays_count_observed": 33,
+      "favorites_count_observed": 0,
+      "plays_text": "33",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/blazejuegos/blaze-hidden-stars/metrics.json",
+      "capture_timestamp": "20230518224821",
+      "capture_url": "https://web.archive.org/web/20230518224821/https://www.kongregate.com/games/blazejuegos/blaze-hidden-stars/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230518224821_https_www.kongregate.com_games_blazejuegos_blaze-hidden-stars_metrics.json_72670b370dd9bbef.json"
+    },
+    {
+      "date": "2023-05-20",
+      "game_name": "Las Vegas Casino Bar Escape",
+      "game_url": "http://www.kongregate.com/games/yolkgamez/las-vegas-casino-bar-escape",
+      "plays_count_observed": 218,
+      "favorites_count_observed": 0,
+      "plays_text": "218",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/yolkgamez/las-vegas-casino-bar-escape/metrics.json",
+      "capture_timestamp": "20230520012128",
+      "capture_url": "https://web.archive.org/web/20230520012128/https://www.kongregate.com/games/yolkgamez/las-vegas-casino-bar-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230520012128_https_www.kongregate.com_games_yolkgamez_las-vegas-casino-bar-escape_metrics.json_2e4609c7dd4f9a3d.json"
+    },
+    {
       "date": "2023-05-21",
       "game_name": "GemCraft - Chasing Shadows",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
@@ -39329,6 +39389,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230802145637_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_862f55381fc76384.json"
+    },
+    {
+      "date": "2023-08-02",
+      "game_name": "Feed The D (Christian-Friendly)",
+      "game_url": "http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly",
+      "plays_count_observed": 304,
+      "favorites_count_observed": 2,
+      "plays_text": "304",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "capture_timestamp": "20230802011150",
+      "capture_url": "https://web.archive.org/web/20230802011150/https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230802011150_https_www.kongregate.com_games_AnAlt_Ver3_feed-the-d-christian-friendly_metrics.json_890914991ced7815.json"
     },
     {
       "date": "2023-08-03",
@@ -40559,6 +40634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914154938_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_7e745c864d5a5770.json"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "IdlePixelGemMiner",
+      "game_url": "http://www.kongregate.com/games/Andrei9900/idlepixelgemminer",
+      "plays_count_observed": 4705,
+      "favorites_count_observed": 9,
+      "plays_text": "4,705",
+      "favorites_text": "9",
+      "metrics_url": "https://www.kongregate.com/games/Andrei9900/idlepixelgemminer/metrics.json",
+      "capture_timestamp": "20230914003402",
+      "capture_url": "https://web.archive.org/web/20230914003402/https://www.kongregate.com/games/Andrei9900/idlepixelgemminer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914003402_https_www.kongregate.com_games_Andrei9900_idlepixelgemminer_metrics.json_8be0f51609823e4a.json"
     },
     {
       "date": "2023-09-14",
@@ -59822,6 +59912,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Aliens Hurry Home 2",
+      "game_url": "http://www.kongregate.com/games/BenGAMEn/aliens-hurry-home-2",
+      "plays_count_observed": 2216,
+      "favorites_count_observed": 9,
+      "plays_text": "2,216",
+      "favorites_text": "9",
+      "metrics_url": "https://www.kongregate.com/games/BenGAMEn/aliens-hurry-home-2/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/BenGAMEn/aliens-hurry-home-2/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_bengamen_aliens-hurry-home-2_fa02dfd3142753ba.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Alpha Force",
       "game_url": "http://kongregate.com/games/Happinesssam/alpha-force",
       "plays_count_observed": 48047,
@@ -59987,6 +60092,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Army Parking Mania",
+      "game_url": "http://www.kongregate.com/games/vitalitygames/army-parking-mania",
+      "plays_count_observed": 122,
+      "favorites_count_observed": 0,
+      "plays_text": "122",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/vitalitygames/army-parking-mania/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/vitalitygames/army-parking-mania/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_vitalitygames_army-parking-mania_dec4245e2df53706.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Army Speeder",
       "game_url": "http://www.kongregate.com/games/allpremiumgames/army-speeder",
       "plays_count_observed": 1884,
@@ -60137,6 +60257,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Atomic Level",
+      "game_url": "http://www.kongregate.com/games/nolina/atomic-level",
+      "plays_count_observed": 208,
+      "favorites_count_observed": 0,
+      "plays_text": "208",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/nolina/atomic-level/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/nolina/atomic-level/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_nolina_atomic-level_586975e19466547a.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Atomic Supercars",
       "game_url": "http://www.kongregate.com/games/allpremiumgames/atomic-supercars",
       "plays_count_observed": 1235,
@@ -60179,6 +60314,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_aldrinsalazar_attraction_53c394e5108876bb.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Atv Mashup",
+      "game_url": "http://www.kongregate.com/games/win1game/atv-mashup",
+      "plays_count_observed": 287,
+      "favorites_count_observed": 0,
+      "plays_text": "287",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/win1game/atv-mashup/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/win1game/atv-mashup/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_win1game_atv-mashup_8aeb075a21fca8c3.json"
     },
     {
       "date": "2026-06-29",
@@ -60254,6 +60404,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_loludeaded_avoidr_9a2a3cfadf90bd2f.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "AXG",
+      "game_url": "http://www.kongregate.com/games/gameartdevguy/axg",
+      "plays_count_observed": 116,
+      "favorites_count_observed": 0,
+      "plays_text": "116",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/gameartdevguy/axg/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/gameartdevguy/axg/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gameartdevguy_axg_b700ebf3ae7e0382.json"
     },
     {
       "date": "2026-06-29",
@@ -60902,6 +61067,36 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Brothers Treasure Recovery 14",
+      "game_url": "http://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-14",
+      "plays_count_observed": 440,
+      "favorites_count_observed": 0,
+      "plays_text": "440",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-14/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-14/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_brothers-treasure-recovery-14_4409a35377855815.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Brothers Treasure Recovery 15",
+      "game_url": "http://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-15",
+      "plays_count_observed": 427,
+      "favorites_count_observed": 0,
+      "plays_text": "427",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-15/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/Enagamess/brothers-treasure-recovery-15/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_enagamess_brothers-treasure-recovery-15_5839214edd532429.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Buggie",
       "game_url": "http://www.kongregate.com/games/del7400618/buggie",
       "plays_count_observed": 149,
@@ -61097,6 +61292,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Car Transporter Jigsaw",
+      "game_url": "http://www.kongregate.com/games/newgamess/car-transporter-jigsaw",
+      "plays_count_observed": 41,
+      "favorites_count_observed": 0,
+      "plays_text": "41",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/newgamess/car-transporter-jigsaw/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/newgamess/car-transporter-jigsaw/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_newgamess_car-transporter-jigsaw_17440915dd10b6cf.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Card game",
       "game_url": "http://www.kongregate.com/games/badfitz100/card-game",
       "plays_count_observed": 258,
@@ -61244,6 +61454,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_primebitgames_caveman-chuck_6c5b9a79a3f93270.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Caverns of Delirium",
+      "game_url": "http://www.kongregate.com/games/flowlab/caverns-of-delirium",
+      "plays_count_observed": 222,
+      "favorites_count_observed": 0,
+      "plays_text": "222",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/flowlab/caverns-of-delirium/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/flowlab/caverns-of-delirium/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_flowlab_caverns-of-delirium_607bc141f0369a07.json"
     },
     {
       "date": "2026-06-29",
@@ -62237,6 +62462,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Easter with Family",
+      "game_url": "http://www.kongregate.com/games/SandraKim/easter-with-family",
+      "plays_count_observed": 64,
+      "favorites_count_observed": 1,
+      "plays_text": "64",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/SandraKim/easter-with-family/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/SandraKim/easter-with-family/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_sandrakim_easter-with-family_00178d928f76a8c6.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Easy Notepad",
       "game_url": "http://www.kongregate.com/games/dw817/easy-notepad",
       "plays_count_observed": 215,
@@ -62864,6 +63104,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_neal867_flash-vs-arrow-vs-supergirl_a5773a5d2ae20de1.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Flieger",
+      "game_url": "http://www.kongregate.com/games/born2drill/flieger",
+      "plays_count_observed": 65,
+      "favorites_count_observed": 0,
+      "plays_text": "65",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/born2drill/flieger/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/born2drill/flieger/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_born2drill_flieger_2acab9f3bc164bb4.json"
     },
     {
       "date": "2026-06-29",
@@ -64052,6 +64307,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Hurdle Jump",
+      "game_url": "http://www.kongregate.com/games/gamer70008000/hurdle-jump",
+      "plays_count_observed": 7335,
+      "favorites_count_observed": 0,
+      "plays_text": "7,335",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/gamer70008000/hurdle-jump/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/gamer70008000/hurdle-jump/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamer70008000_hurdle-jump_73950e04482fcb53.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Hyundai RN 30",
       "game_url": "http://www.kongregate.com/games/newgamess/hyundai-rn-30",
       "plays_count_observed": 114,
@@ -64352,6 +64622,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Juggernaut Jigsaw",
+      "game_url": "http://www.kongregate.com/games/newgamess/juggernaut-jigsaw",
+      "plays_count_observed": 103,
+      "favorites_count_observed": 1,
+      "plays_text": "103",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/newgamess/juggernaut-jigsaw/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/newgamess/juggernaut-jigsaw/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_newgamess_juggernaut-jigsaw_9bf7daf21d7d41a2.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Juggle Sim",
       "game_url": "http://www.kongregate.com/games/FriggyStudios/juggle-sim",
       "plays_count_observed": 90,
@@ -64409,6 +64694,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_frees_jumpocat_4626bbe6563896f5.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Just Bounce",
+      "game_url": "http://www.kongregate.com/games/asyncrobot/just-bounce",
+      "plays_count_observed": 45,
+      "favorites_count_observed": 0,
+      "plays_text": "45",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/asyncrobot/just-bounce/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/asyncrobot/just-bounce/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_asyncrobot_just-bounce_fadcd87e002b9b74.json"
     },
     {
       "date": "2026-06-29",
@@ -64967,6 +65267,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Lost Ethereal",
+      "game_url": "http://www.kongregate.com/games/theLucre/lost-ethereal",
+      "plays_count_observed": 50890,
+      "favorites_count_observed": 321,
+      "plays_text": "50,890",
+      "favorites_text": "321",
+      "metrics_url": "https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_thelucre_lost-ethereal_f4c97dded77ed17b.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "LoucoLandia",
       "game_url": "https://www.kongregate.com/games/BarbaraE17/loucolandia",
       "plays_count_observed": 895,
@@ -65417,6 +65732,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Mini J Cooper Jigsaw",
+      "game_url": "http://www.kongregate.com/games/newgamess/mini-j-cooper-jigsaw",
+      "plays_count_observed": 41,
+      "favorites_count_observed": 0,
+      "plays_text": "41",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/newgamess/mini-j-cooper-jigsaw/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/newgamess/mini-j-cooper-jigsaw/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_newgamess_mini-j-cooper-jigsaw_5333e906c3ee9f1e.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Mino-War",
       "game_url": "http://www.kongregate.com/games/MPCDS/mino-war",
       "plays_count_observed": 86,
@@ -65504,6 +65834,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_garin_monsters-den_0ecbfd841e147f9b.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Morton the Monkey",
+      "game_url": "http://www.kongregate.com/games/flowlab/morton-the-monkey",
+      "plays_count_observed": 89,
+      "favorites_count_observed": 0,
+      "plays_text": "89",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/flowlab/morton-the-monkey/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/flowlab/morton-the-monkey/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_flowlab_morton-the-monkey_65541a93eae71bfb.json"
     },
     {
       "date": "2026-06-29",
@@ -66062,6 +66407,36 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Pacman Star Adventure 2",
+      "game_url": "http://www.kongregate.com/games/Gamesdeveloper/pacman-star-adventure-2",
+      "plays_count_observed": 282,
+      "favorites_count_observed": 0,
+      "plays_text": "282",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/Gamesdeveloper/pacman-star-adventure-2/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/Gamesdeveloper/pacman-star-adventure-2/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamesdeveloper_pacman-star-adventure-2_31f5915aa0637582.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Paint Box",
+      "game_url": "http://www.kongregate.com/games/qkygames/paint-box",
+      "plays_count_observed": 251,
+      "favorites_count_observed": 0,
+      "plays_text": "251",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/qkygames/paint-box/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/qkygames/paint-box/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_qkygames_paint-box_07e9579ac4521bb8.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Panda Jigsaw Puzzle",
       "game_url": "http://www.kongregate.com/games/waykale/panda-jigsaw-puzzle",
       "plays_count_observed": 219,
@@ -66119,6 +66494,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_robertwgames_parkour-legends_72a42d77d908fb45.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Penalty Shooters 2",
+      "game_url": "http://www.kongregate.com/games/vladetam/penalty-shooters-2",
+      "plays_count_observed": 379,
+      "favorites_count_observed": 2,
+      "plays_text": "379",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/vladetam/penalty-shooters-2/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/vladetam/penalty-shooters-2/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_vladetam_penalty-shooters-2_5ae1530a5cca571c.json"
     },
     {
       "date": "2026-06-29",
@@ -66389,6 +66779,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamesforgirlz_princesses-grill-party_7909ac94d5e83680.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Prismatic Momentum",
+      "game_url": "http://www.kongregate.com/games/insigniolabs/prismatic-momentum",
+      "plays_count_observed": 313,
+      "favorites_count_observed": 3,
+      "plays_text": "313",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/insigniolabs/prismatic-momentum/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/insigniolabs/prismatic-momentum/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_insigniolabs_prismatic-momentum_5585e80bdd97e8ef.json"
     },
     {
       "date": "2026-06-29",
@@ -66677,6 +67082,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Retribution",
+      "game_url": "http://www.kongregate.com/games/HongKhaV/retribution",
+      "plays_count_observed": 229,
+      "favorites_count_observed": 1,
+      "plays_text": "229",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/HongKhaV/retribution/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/HongKhaV/retribution/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_hongkhav_retribution_b0ead1201021427b.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Rio Match Up",
       "game_url": "http://www.kongregate.com/games/games2rule/rio-match-up",
       "plays_count_observed": 503,
@@ -66749,6 +67169,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gr33ngunner007_robo-jump_f5b5847ccfa5e977.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Rock Sweeper",
+      "game_url": "http://www.kongregate.com/games/coconutloverrr/rock-sweeper",
+      "plays_count_observed": 147,
+      "favorites_count_observed": 0,
+      "plays_text": "147",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/coconutloverrr/rock-sweeper/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/coconutloverrr/rock-sweeper/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_coconutloverrr_rock-sweeper_c2e0abfab60331e6.json"
     },
     {
       "date": "2026-06-29",
@@ -67697,6 +68132,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Special Strike: DLC 4",
+      "game_url": "http://www.kongregate.com/games/brvasil/special-strike-dlc-4",
+      "plays_count_observed": 700,
+      "favorites_count_observed": 0,
+      "plays_text": "700",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/brvasil/special-strike-dlc-4/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/brvasil/special-strike-dlc-4/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_brvasil_special-strike-dlc-4_f5d0f9bab80b979f.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Speed Square",
       "game_url": "http://www.kongregate.com/games/SnipeShot360/speed-square",
       "plays_count_observed": 237,
@@ -67829,6 +68279,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_lionel_ict_ss17-swallala-elena_489748431b6f6844.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "star Match",
+      "game_url": "http://www.kongregate.com/games/gamebazar99/star-match",
+      "plays_count_observed": 1349,
+      "favorites_count_observed": 1,
+      "plays_text": "1,349",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/gamebazar99/star-match/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/gamebazar99/star-match/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamebazar99_star-match_21b68e8c6fe9fe73.json"
     },
     {
       "date": "2026-06-29",
@@ -68027,6 +68492,21 @@
     },
     {
       "date": "2026-06-29",
+      "game_name": "Super Monkey Adventure",
+      "game_url": "http://www.kongregate.com/games/flowlab/super-monkey-adventure",
+      "plays_count_observed": 135,
+      "favorites_count_observed": 0,
+      "plays_text": "135",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/flowlab/super-monkey-adventure/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/flowlab/super-monkey-adventure/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_flowlab_super-monkey-adventure_f286aea29c2d1ad5.json"
+    },
+    {
+      "date": "2026-06-29",
       "game_name": "Superfighters",
       "game_url": "http://www.kongregate.com/games/Gurt01/superfighters",
       "plays_count_observed": 1076789,
@@ -68039,6 +68519,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gurt01_superfighters_ac4a05f984f16625.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "SuperHeroes Crossy Road",
+      "game_url": "http://www.kongregate.com/games/gamer70008000/superheroes-crossy-road",
+      "plays_count_observed": 7751,
+      "favorites_count_observed": 0,
+      "plays_text": "7,751",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/gamer70008000/superheroes-crossy-road/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/gamer70008000/superheroes-crossy-road/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_gamer70008000_superheroes-crossy-road_4c60bdb0cd1ca26c.json"
     },
     {
       "date": "2026-06-29",
@@ -68444,6 +68939,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_retrograzer_the-compound_73f4521cfaf8ed1a.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "The Donald Trump Dating Simulator from Hell",
+      "game_url": "http://www.kongregate.com/games/Codemonkey77/the-donald-trump-dating-simulator-from-hell",
+      "plays_count_observed": 682,
+      "favorites_count_observed": 1,
+      "plays_text": "682",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/Codemonkey77/the-donald-trump-dating-simulator-from-hell/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/Codemonkey77/the-donald-trump-dating-simulator-from-hell/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_codemonkey77_the-donald-trump-dating-simulator-from-hell_d4fff202608ac106.json"
     },
     {
       "date": "2026-06-29",
@@ -69764,6 +70274,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_cameronmcl_zombie-head-zmash_01af1561195d918d.json"
+    },
+    {
+      "date": "2026-06-29",
+      "game_name": "Zombie Kentaur 2",
+      "game_url": "http://www.kongregate.com/games/TheronK71/zombie-kentaur-2",
+      "plays_count_observed": 54,
+      "favorites_count_observed": 1,
+      "plays_text": "54",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/TheronK71/zombie-kentaur-2/metrics.json",
+      "capture_timestamp": "20260629190442",
+      "capture_url": "https://www.kongregate.com/games/TheronK71/zombie-kentaur-2/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_theronk71_zombie-kentaur-2_a75e6edbf61b3274.json"
     },
     {
       "date": "2026-06-29",

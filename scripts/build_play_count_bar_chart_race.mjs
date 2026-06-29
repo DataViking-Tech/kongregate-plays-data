@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1HBFhyIY-1GNNCBGGD5PK52ioscNYpfngx-gN0vJ-VPk";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1Fh-qsivU92MD15pc32pYI1JIPmXk00_3_DLzkemVHjw";
 
 const topN = 12;
 
@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 760ms;
-      --move-ease: cubic-bezier(0.2, 0.72, 0.2, 1);
+      --move-duration: 860ms;
+      --move-ease: cubic-bezier(0.22, 0.8, 0.22, 1);
     }
 
     * {
@@ -602,8 +602,8 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 760;
-    const exitMs = transitionMs + 140;
+    const transitionMs = 860;
+    const exitMs = transitionMs + 180;
     const smoothStepsPerMonth = 4;
     const rowsByKey = new Map();
 
@@ -943,7 +943,7 @@ function htmlDocument() {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, Math.min(exitMs, 460));
+      }, exitMs);
     }
 
     function renderFrame(nextIndex) {
@@ -960,7 +960,9 @@ function htmlDocument() {
       dateLabel.textContent = frame.displayDate || frame.date;
       dateMeta.textContent = \`\${frame.trackedGames.toLocaleString()} games tracked\`;
       sourceMeta.textContent = frame.interpolated
-        ? \`between \${frame.fromSourceDate} and \${frame.toSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
+        ? frame.fromSourceDate === frame.toSourceDate
+          ? \`holding latest capture \${frame.fromSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
+          : \`between \${frame.fromSourceDate} and \${frame.toSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
         : frame.sourceDate && frame.sourceDate !== frame.date
         ? \`source capture \${frame.sourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
         : \`\${frame.observedRows.toLocaleString()} observed rows on this date\`;

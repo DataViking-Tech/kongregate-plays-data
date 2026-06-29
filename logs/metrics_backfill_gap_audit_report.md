@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T18:45:23Z
+Generated: 2026-06-29T19:05:42Z
 
 ## Summary
 
-- Mini-catalog games audited: 2001
-- Games without metrics rows: 586
+- Mini-catalog games audited: 2070
+- Games without metrics rows: 623
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 653
-- Missing CDX cache files: 298
+- Known failed captures: 655
+- Missing CDX cache files: 310
 
 ## Status Counts
 
-- cdx_cache_missing: 196
-- has_metrics: 1415
-- known_failures_only: 34
-- no_cdx: 356
+- cdx_cache_missing: 207
+- has_metrics: 1447
+- known_failures_only: 36
+- no_cdx: 380
 
 ## Top Unresolved Games
 
@@ -34,19 +34,19 @@ Generated: 2026-06-29T18:45:23Z
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Aston Martin Hidden Wheels | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Britney Spears vs Child Servisous | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| dat boi | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Dead Frontier | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Finger Spinner Online | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Horse Racing | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | jhghj | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Mini Jumper | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Raze 3 | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Sky Knight | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
