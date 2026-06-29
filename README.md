@@ -8,13 +8,13 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1XUFhTL5npPO_waLF7MaD5-bqKQe6PYjIHIyc37MRwTY
+https://docs.google.com/spreadsheets/d/1ytmi9neSll2v8FNDFi5jCIMuSUHgykYkd0xgRK6XQuQ
 
 ## Current Snapshot
 
-- Ranked-list rows: 25,076
+- Ranked-list rows: 25,736
 - Ranked-list rows with observed play counts: 8,643
-- Mini catalog: 2,875 games that reached top 20 in observed rankings
+- Mini catalog: 2,878 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 4,834 across 1,274 canonical games
 - Observed play-count rows used by the chart: 13,477
 - Chart playback: Smooth mode uses 1,865 interpolated display frames by default; Captures mode exposes all 1,690 observed capture-date frames.
@@ -27,9 +27,9 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- 79 historical months still have no ranked-list captures in the processed dataset.
-- 1,267 mini-catalog games still have no per-game metrics rows, and 2,197 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures and 800 missing CDX cache files; remaining unresolved games include 539 no-CDX cases, 689 CDX-cache-missing cases, and 39 games with known failures only.
+- 78 historical months still have no ranked-list captures in the processed dataset.
+- 1,268 mini-catalog games still have no per-game metrics rows, and 2,200 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures and 801 missing CDX cache files; remaining unresolved games include 539 no-CDX cases, 690 CDX-cache-missing cases, and 39 games with known failures only.
 - Final chart leaders have current live metrics observations as of 2026-06-29.
 
 ## Key Files
