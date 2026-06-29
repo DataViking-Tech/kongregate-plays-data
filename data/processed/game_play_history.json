@@ -511,6 +511,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150219030612_http_www.kongregate.com_games_KIXEYE_backyard-monsters_metrics.json_d028dd755a0f3bdb.json"
     },
     {
+      "date": "2015-02-24",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 588553,
+      "favorites_count_observed": 12445,
+      "plays_text": "588,553",
+      "favorites_text": "12,445",
+      "metrics_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20150224175009",
+      "capture_url": "https://web.archive.org/web/20150224175009/http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150224175009_http_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_068bda79c6a11246.json"
+    },
+    {
+      "date": "2015-02-24",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 588553,
+      "favorites_count_observed": 12445,
+      "plays_text": "588,553",
+      "favorites_text": "12,445",
+      "metrics_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20150224175010",
+      "capture_url": "https://web.archive.org/web/20150224175010/http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150224175010_http_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_f96ae469bb3b4918.json"
+    },
+    {
       "date": "2015-03-02",
       "game_name": "Epic Boss Fighter 2",
       "game_url": "http://www.kongregate.com/games/EntForge/epic-boss-fighter-2",
@@ -3226,6 +3256,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180110030034_http_www.kongregate.com_80_games_Justin_wang123_rogue-fable-ii_metrics.json_135ef2cfa458868a.json"
     },
     {
+      "date": "2018-01-19",
+      "game_name": "Infectonator : Christmas Edition",
+      "game_url": "http://www.kongregate.com/en/games/TogeProductions/infectonator-christmas-edition",
+      "plays_count_observed": 819478,
+      "favorites_count_observed": 6790,
+      "plays_text": "819,478",
+      "favorites_text": "6,790",
+      "metrics_url": "http://www.kongregate.com/games/TogeProductions/infectonator-christmas-edition/metrics.json",
+      "capture_timestamp": "20180119010342",
+      "capture_url": "https://web.archive.org/web/20180119010342/http://www.kongregate.com/games/TogeProductions/infectonator-christmas-edition/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180119010342_http_www.kongregate.com_games_TogeProductions_infectonator-christmas-edition_metrics.json_47cfbacc5211cf6c.json"
+    },
+    {
       "date": "2018-02-02",
       "game_name": "Achievement Unlocked 2",
       "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
@@ -3421,6 +3466,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180308163821_http_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_6402a88e7e25acf1.json"
     },
     {
+      "date": "2018-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 411295,
+      "favorites_count_observed": 4598,
+      "plays_text": "411,295",
+      "favorites_text": "4,598",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20180308154703",
+      "capture_url": "https://web.archive.org/web/20180308154703/http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180308154703_http_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_14402d920c12d6c0.json"
+    },
+    {
+      "date": "2018-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 411296,
+      "favorites_count_observed": 4598,
+      "plays_text": "411,296",
+      "favorites_text": "4,598",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20180308160036",
+      "capture_url": "https://web.archive.org/web/20180308160036/http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180308160036_http_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_0974884f27b42e0a.json"
+    },
+    {
       "date": "2018-03-12",
       "game_name": "Accelerator",
       "game_url": "https://www.kongregate.com/games/TenebrousP/accelerator",
@@ -3509,6 +3584,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180322130436_http_www.kongregate.com_games_terra0nova_aground_metrics.json_8d5ff3a36254d279.json"
+    },
+    {
+      "date": "2018-03-22",
+      "game_name": "Armed with Wings 3",
+      "game_url": "http://www.kongregate.com/games/danielsun/armed-with-wings-3",
+      "plays_count_observed": 1185507,
+      "favorites_count_observed": 17156,
+      "plays_text": "1,185,507",
+      "favorites_text": "17,156",
+      "metrics_url": "http://www.kongregate.com:80/games/danielsun/armed-with-wings-3/metrics.json",
+      "capture_timestamp": "20180322021022",
+      "capture_url": "https://web.archive.org/web/20180322021022/http://www.kongregate.com:80/games/danielsun/armed-with-wings-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180322021022_http_www.kongregate.com_80_games_danielsun_armed-with-wings-3_metrics.json_ca5881f35ba80b81.json"
     },
     {
       "date": "2018-03-23",
@@ -3992,6 +4082,21 @@
     },
     {
       "date": "2019-01-16",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 7858717,
+      "favorites_count_observed": 19946,
+      "plays_text": "7,858,717",
+      "favorites_text": "19,946",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20190116070512",
+      "capture_url": "https://web.archive.org/web/20190116070512/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190116070512_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_1521bdc56abbea53.json"
+    },
+    {
+      "date": "2019-01-16",
       "game_name": "Strikeforce Kitty 2",
       "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
       "plays_count_observed": 887006,
@@ -4124,6 +4229,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032940_https_www.kongregate.com_games_filthsu_kuja_metrics.json_44ac2d7c823e0d4b.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Mighty Knight",
+      "game_url": "http://www.kongregate.com/en/games/swartag/mighty-knight",
+      "plays_count_observed": 1096849,
+      "favorites_count_observed": 14935,
+      "plays_text": "1,096,849",
+      "favorites_text": "14,935",
+      "metrics_url": "https://www.kongregate.com/games/swartag/mighty-knight/metrics.json",
+      "capture_timestamp": "20190205032824",
+      "capture_url": "https://web.archive.org/web/20190205032824/https://www.kongregate.com/games/swartag/mighty-knight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032824_https_www.kongregate.com_games_swartag_mighty-knight_metrics.json_b1035b098e2d29d9.json"
     },
     {
       "date": "2019-02-05",
@@ -8371,6 +8491,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200128093857_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_69b1bec19754d071.json"
     },
     {
+      "date": "2020-01-28",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 889520,
+      "favorites_count_observed": 4916,
+      "plays_text": "889,520",
+      "favorites_text": "4,916",
+      "metrics_url": "http://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20200128200648",
+      "capture_url": "https://web.archive.org/web/20200128200648/http://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200128200648_http_www.kongregate.com_games_truefire_press-the-button_metrics.json_b7c31df2204eefc9.json"
+    },
+    {
       "date": "2020-01-29",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -12419,6 +12554,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200901135022_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_af4199970b31d2c8.json"
+    },
+    {
+      "date": "2020-09-05",
+      "game_name": "Run 3",
+      "game_url": "https://www.kongregate.com/games/player_03/run-3",
+      "plays_count_observed": 16504228,
+      "favorites_count_observed": 26478,
+      "plays_text": "16,504,228",
+      "favorites_text": "26,478",
+      "metrics_url": "https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "capture_timestamp": "20200905172748",
+      "capture_url": "https://web.archive.org/web/20200905172748/https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200905172748_https_www.kongregate.com_games_player_03_run-3_metrics.json_21e2cce02ed6eaca.json"
     },
     {
       "date": "2020-10-15",
@@ -17717,6 +17867,21 @@
     },
     {
       "date": "2021-01-12",
+      "game_name": "Armed with Wings 3",
+      "game_url": "http://www.kongregate.com/games/danielsun/armed-with-wings-3",
+      "plays_count_observed": 1223952,
+      "favorites_count_observed": 17567,
+      "plays_text": "1,223,952",
+      "favorites_text": "17,567",
+      "metrics_url": "https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "capture_timestamp": "20210112043525",
+      "capture_url": "https://web.archive.org/web/20210112043525/https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210112043525_https_www.kongregate.com_games_danielsun_armed-with-wings-3_metrics.json_99e7afd71232c1a7.json"
+    },
+    {
+      "date": "2021-01-12",
       "game_name": "Crush Crush",
       "game_url": "https://www.kongregate.com/en/games/SadPandaStudios/crush-crush",
       "plays_count_observed": 6687813,
@@ -17999,6 +18164,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210201215351_https_www.kongregate.com_games_JuicyBeast_knightmare-tower_metrics.json_a14e238f74bb7bc5.json"
+    },
+    {
+      "date": "2021-02-02",
+      "game_name": "Mighty Knight",
+      "game_url": "http://www.kongregate.com/en/games/swartag/mighty-knight",
+      "plays_count_observed": 1146188,
+      "favorites_count_observed": 15220,
+      "plays_text": "1,146,188",
+      "favorites_text": "15,220",
+      "metrics_url": "https://www.kongregate.com/games/swartag/mighty-knight/metrics.json",
+      "capture_timestamp": "20210202022747",
+      "capture_url": "https://web.archive.org/web/20210202022747/https://www.kongregate.com/games/swartag/mighty-knight/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210202022747_https_www.kongregate.com_games_swartag_mighty-knight_metrics.json_0ef1dd588b98bdc1.json"
     },
     {
       "date": "2021-02-02",
@@ -18524,6 +18704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210317232252_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_c98e208fefb519b1.json"
+    },
+    {
+      "date": "2021-03-25",
+      "game_name": "Run 3",
+      "game_url": "https://www.kongregate.com/games/player_03/run-3",
+      "plays_count_observed": 16611653,
+      "favorites_count_observed": 26750,
+      "plays_text": "16,611,653",
+      "favorites_text": "26,750",
+      "metrics_url": "https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "capture_timestamp": "20210325210947",
+      "capture_url": "https://web.archive.org/web/20210325210947/https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210325210947_https_www.kongregate.com_games_player_03_run-3_metrics.json_8414f2369c94c903.json"
     },
     {
       "date": "2021-04-01",
@@ -20477,6 +20672,21 @@
     },
     {
       "date": "2021-06-20",
+      "game_name": "Armed with Wings 3",
+      "game_url": "http://www.kongregate.com/games/danielsun/armed-with-wings-3",
+      "plays_count_observed": 1226418,
+      "favorites_count_observed": 17567,
+      "plays_text": "1,226,418",
+      "favorites_text": "17,567",
+      "metrics_url": "https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "capture_timestamp": "20210620202435",
+      "capture_url": "https://web.archive.org/web/20210620202435/https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620202435_https_www.kongregate.com_games_danielsun_armed-with-wings-3_metrics.json_ec242bc1ed6aa7b0.json"
+    },
+    {
+      "date": "2021-06-20",
       "game_name": "Bloons Tower Defense 3",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-3",
       "plays_count_observed": 8773794,
@@ -21256,6 +21466,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210809053157_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_005056e1e39f4e95.json"
     },
     {
+      "date": "2021-08-11",
+      "game_name": "Newgrounds Rumble",
+      "game_url": "http://www.kongregate.com/games/NegativeONE/newgrounds-rumble",
+      "plays_count_observed": 1398612,
+      "favorites_count_observed": 8256,
+      "plays_text": "1,398,612",
+      "favorites_text": "8,256",
+      "metrics_url": "http://www.kongregate.com/games/NegativeONE/newgrounds-rumble/metrics.json",
+      "capture_timestamp": "20210811180543",
+      "capture_url": "https://web.archive.org/web/20210811180543/http://www.kongregate.com/games/NegativeONE/newgrounds-rumble/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210811180543_http_www.kongregate.com_games_NegativeONE_newgrounds-rumble_metrics.json_dfbce286325d05a5.json"
+    },
+    {
       "date": "2021-08-13",
       "game_name": "Accelerator",
       "game_url": "https://www.kongregate.com/games/TenebrousP/accelerator",
@@ -21374,6 +21599,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210904013730_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_9eba2b1f764e2860.json"
+    },
+    {
+      "date": "2021-09-06",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1128337,
+      "favorites_count_observed": 17830,
+      "plays_text": "1,128,337",
+      "favorites_text": "17,830",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20210906165353",
+      "capture_url": "https://web.archive.org/web/20210906165353/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210906165353_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_03bd84cd4a5c9f30.json"
     },
     {
       "date": "2021-09-07",
@@ -23536,6 +23776,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211104190007_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_73fd1bba1ee67516.json"
     },
     {
+      "date": "2021-11-06",
+      "game_name": "Run 3",
+      "game_url": "https://www.kongregate.com/games/player_03/run-3",
+      "plays_count_observed": 16641845,
+      "favorites_count_observed": 26788,
+      "plays_text": "16,641,845",
+      "favorites_text": "26,788",
+      "metrics_url": "https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "capture_timestamp": "20211106053115",
+      "capture_url": "https://web.archive.org/web/20211106053115/https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211106053115_https_www.kongregate.com_games_player_03_run-3_metrics.json_762865be4fe83f2f.json"
+    },
+    {
       "date": "2021-11-10",
       "game_name": "Burrito Bison: Launcha Libre",
       "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
@@ -25426,6 +25681,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211225133501_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_c6dccc7159be12be.json"
     },
     {
+      "date": "2022-01-01",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1170162,
+      "favorites_count_observed": 6221,
+      "plays_text": "1,170,162",
+      "favorites_text": "6,221",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220101184206",
+      "capture_url": "https://web.archive.org/web/20220101184206/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220101184206_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c5ffaf213b77e1b9.json"
+    },
+    {
       "date": "2022-01-04",
       "game_name": "Desktop TD Pro",
       "game_url": "http://www.kongregate.com/games/CasualCollective/desktop-td-pro",
@@ -25454,6 +25724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220105101504_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_b01a1206acd818db.json"
+    },
+    {
+      "date": "2022-01-10",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1171469,
+      "favorites_count_observed": 6223,
+      "plays_text": "1,171,469",
+      "favorites_text": "6,223",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220110130831",
+      "capture_url": "https://web.archive.org/web/20220110130831/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220110130831_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_0149477ad851a4b4.json"
     },
     {
       "date": "2022-01-10",
@@ -26204,6 +26489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220126195555_https_www.kongregate.com_games_IceNineCZ_monkey-freak_metrics.json_3670b435a21f5256.json"
+    },
+    {
+      "date": "2022-01-31",
+      "game_name": "Manifold",
+      "game_url": "http://www.kongregate.com/games/joelesler/manifold",
+      "plays_count_observed": 492884,
+      "favorites_count_observed": 872,
+      "plays_text": "492,884",
+      "favorites_text": "872",
+      "metrics_url": "http://www.kongregate.com/games/joelesler/manifold/metrics.json",
+      "capture_timestamp": "20220131122455",
+      "capture_url": "https://web.archive.org/web/20220131122455/http://www.kongregate.com/games/joelesler/manifold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220131122455_http_www.kongregate.com_games_joelesler_manifold_metrics.json_67f2d53fd90e1e1b.json"
     },
     {
       "date": "2022-02-01",
@@ -28651,6 +28951,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220505135728_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_b7ce476affbdc89e.json"
     },
     {
+      "date": "2022-05-12",
+      "game_name": "Run 3",
+      "game_url": "https://www.kongregate.com/games/player_03/run-3",
+      "plays_count_observed": 16660352,
+      "favorites_count_observed": 26840,
+      "plays_text": "16,660,352",
+      "favorites_text": "26,840",
+      "metrics_url": "https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "capture_timestamp": "20220512150319",
+      "capture_url": "https://web.archive.org/web/20220512150319/https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220512150319_https_www.kongregate.com_games_player_03_run-3_metrics.json_45a18695e9021114.json"
+    },
+    {
       "date": "2022-05-15",
       "game_name": "Prehistoric.",
       "game_url": "http://www.kongregate.com/games/TrueDarkness/prehistoric",
@@ -28739,6 +29054,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220525055254_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_7d1cffd5d4e56f31.json"
+    },
+    {
+      "date": "2022-05-25",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1193821,
+      "favorites_count_observed": 6273,
+      "plays_text": "1,193,821",
+      "favorites_text": "6,273",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220525202551",
+      "capture_url": "https://web.archive.org/web/20220525202551/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220525202551_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c99f3487a34a86c1.json"
     },
     {
       "date": "2022-05-30",
@@ -28937,6 +29267,21 @@
     },
     {
       "date": "2022-06-18",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1197749,
+      "favorites_count_observed": 6282,
+      "plays_text": "1,197,749",
+      "favorites_text": "6,282",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220618213520",
+      "capture_url": "https://web.archive.org/web/20220618213520/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220618213520_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_934a39b7df3bd252.json"
+    },
+    {
+      "date": "2022-06-18",
       "game_name": "Time Clickers",
       "game_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers",
       "plays_count_observed": 2108993,
@@ -28949,6 +29294,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220618000443_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_865537aafd0e7d49.json"
+    },
+    {
+      "date": "2022-06-19",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1197869,
+      "favorites_count_observed": 6282,
+      "plays_text": "1,197,869",
+      "favorites_text": "6,282",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220619125158",
+      "capture_url": "https://web.archive.org/web/20220619125158/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220619125158_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_ca0c41c17126438e.json"
     },
     {
       "date": "2022-06-19",
@@ -29416,6 +29776,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706031242_https_www.kongregate.com_games_Ivory_storm-the-house-3_metrics.json_cdab6d787f103f95.json"
     },
     {
+      "date": "2022-07-15",
+      "game_name": "Run 3",
+      "game_url": "https://www.kongregate.com/games/player_03/run-3",
+      "plays_count_observed": 16665964,
+      "favorites_count_observed": 26855,
+      "plays_text": "16,665,964",
+      "favorites_text": "26,855",
+      "metrics_url": "https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "capture_timestamp": "20220715030726",
+      "capture_url": "https://web.archive.org/web/20220715030726/https://www.kongregate.com/games/player_03/run-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220715030726_https_www.kongregate.com_games_player_03_run-3_metrics.json_768395b5d94ac854.json"
+    },
+    {
       "date": "2022-07-16",
       "game_name": "Epic Battle Fantasy 5",
       "game_url": "https://www.kongregate.com/games/kupo707/epic-battle-fantasy-5",
@@ -29474,6 +29849,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220721112735_https_www.kongregate.com_games_rudy_sudarto_epic-war-3_metrics.json_c333bf737fbb2965.json"
+    },
+    {
+      "date": "2022-07-21",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1202890,
+      "favorites_count_observed": 6291,
+      "plays_text": "1,202,890",
+      "favorites_text": "6,291",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220721175727",
+      "capture_url": "https://web.archive.org/web/20220721175727/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220721175727_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c591ea7953d57c54.json"
     },
     {
       "date": "2022-08-06",
@@ -29669,6 +30059,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220826121550_https_www.kongregate.com_games_Baldurans_reactor-idle_metrics.json_b94a2ecd5297669b.json"
+    },
+    {
+      "date": "2022-08-26",
+      "game_name": "Zumbi Blocks",
+      "game_url": "http://www.kongregate.com/games/adrianks47/zumbi-blocks",
+      "plays_count_observed": 1202466,
+      "favorites_count_observed": 10067,
+      "plays_text": "1,202,466",
+      "favorites_text": "10,067",
+      "metrics_url": "http://www.kongregate.com/games/adrianks47/zumbi-blocks/metrics.json",
+      "capture_timestamp": "20220826063129",
+      "capture_url": "https://web.archive.org/web/20220826063129/http://www.kongregate.com/games/adrianks47/zumbi-blocks/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220826063129_http_www.kongregate.com_games_adrianks47_zumbi-blocks_metrics.json_ae48f7bc86e88ec3.json"
     },
     {
       "date": "2022-08-27",
@@ -30239,6 +30644,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220910143643_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_43be5edb61936981.json"
+    },
+    {
+      "date": "2022-09-11",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1144097,
+      "favorites_count_observed": 17857,
+      "plays_text": "1,144,097",
+      "favorites_text": "17,857",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20220911215210",
+      "capture_url": "https://web.archive.org/web/20220911215210/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220911215210_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_d9d41d8b719374a4.json"
     },
     {
       "date": "2022-09-11",
@@ -35402,6 +35822,21 @@
     },
     {
       "date": "2023-03-07",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11398105,
+      "favorites_count_observed": 24269,
+      "plays_text": "11,398,105",
+      "favorites_text": "24,269",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230307204812",
+      "capture_url": "https://web.archive.org/web/20230307204812/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307204812_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_0d070b510624b816.json"
+    },
+    {
+      "date": "2023-03-07",
       "game_name": "Supremacy 1914",
       "game_url": "https://www.kongregate.com/games/bytro/supremacy-1914",
       "plays_count_observed": 527118,
@@ -35699,6 +36134,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230328211008_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_d6dcd21c5a1cf7eb.json"
+    },
+    {
+      "date": "2023-03-28",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1150604,
+      "favorites_count_observed": 17163,
+      "plays_text": "1,150,604",
+      "favorites_text": "17,163",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20230328082811",
+      "capture_url": "https://web.archive.org/web/20230328082811/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230328082811_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_7b849c54007dbadd.json"
     },
     {
       "date": "2023-03-29",
@@ -36194,6 +36644,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230404044745_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_a1f36ad6fa637ad7.json"
+    },
+    {
+      "date": "2023-04-04",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11437130,
+      "favorites_count_observed": 24296,
+      "plays_text": "11,437,130",
+      "favorites_text": "24,296",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230404044759",
+      "capture_url": "https://web.archive.org/web/20230404044759/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230404044759_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_40744b4a80b05291.json"
     },
     {
       "date": "2023-04-06",
@@ -37501,6 +37966,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230716105149_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_1d51ad365f4b0268.json"
     },
     {
+      "date": "2023-07-17",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1152757,
+      "favorites_count_observed": 17166,
+      "plays_text": "1,152,757",
+      "favorites_text": "17,166",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20230717184830",
+      "capture_url": "https://web.archive.org/web/20230717184830/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230717184830_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_d6694d65800c2de1.json"
+    },
+    {
       "date": "2023-07-18",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -37562,6 +38042,21 @@
     },
     {
       "date": "2023-07-24",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1246212,
+      "favorites_count_observed": 6150,
+      "plays_text": "1,246,212",
+      "favorites_text": "6,150",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20230724211204",
+      "capture_url": "https://web.archive.org/web/20230724211204/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230724211204_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_419976b6ee9b1c62.json"
+    },
+    {
+      "date": "2023-07-24",
       "game_name": "The Perfect Tower",
       "game_url": "http://www.kongregate.com/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 5524174,
@@ -37589,6 +38084,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230724222006_https_www.kongregate.com_games_Gun_Safety_when-he-jump-he-go-up-like-this_metrics.json_c2160c116110a03b.json"
+    },
+    {
+      "date": "2023-07-25",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1246273,
+      "favorites_count_observed": 6150,
+      "plays_text": "1,246,273",
+      "favorites_text": "6,150",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20230725145054",
+      "capture_url": "https://web.archive.org/web/20230725145054/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230725145054_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_91a8fe35f349b287.json"
     },
     {
       "date": "2023-07-26",
@@ -38581,6 +39091,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230901233718_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_ab829941c1eecb7f.json"
     },
     {
+      "date": "2023-09-01",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11630799,
+      "favorites_count_observed": 24367,
+      "plays_text": "11,630,799",
+      "favorites_text": "24,367",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230901215100",
+      "capture_url": "https://web.archive.org/web/20230901215100/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230901215100_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_0570a1f3a762dc1e.json"
+    },
+    {
       "date": "2023-09-04",
       "game_name": "Konkr.io",
       "game_url": "https://www.kongregate.com/games/Embair/konkr-io",
@@ -38684,6 +39209,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230909203801_https_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_df54a5a3efc41050.json"
+    },
+    {
+      "date": "2023-09-09",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11643809,
+      "favorites_count_observed": 24376,
+      "plays_text": "11,643,809",
+      "favorites_text": "24,376",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20230909180533",
+      "capture_url": "https://web.archive.org/web/20230909180533/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230909180533_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_9e09fb4e45451330.json"
     },
     {
       "date": "2023-09-10",
@@ -39329,6 +39869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923000103_https_www.kongregate.com_games_CleverApps_mergest-kingdom_metrics.json_88f4c3b97a1caf25.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1154016,
+      "favorites_count_observed": 17171,
+      "plays_text": "1,154,016",
+      "favorites_text": "17,171",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20230923203156",
+      "capture_url": "https://web.archive.org/web/20230923203156/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203156_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_a527c2814c3e29a7.json"
     },
     {
       "date": "2023-09-23",
@@ -40367,6 +40922,21 @@
     },
     {
       "date": "2023-11-06",
+      "game_name": "Manifold",
+      "game_url": "http://www.kongregate.com/games/joelesler/manifold",
+      "plays_count_observed": 492990,
+      "favorites_count_observed": 854,
+      "plays_text": "492,990",
+      "favorites_text": "854",
+      "metrics_url": "https://www.kongregate.com/games/joelesler/manifold/metrics.json",
+      "capture_timestamp": "20231106234010",
+      "capture_url": "https://web.archive.org/web/20231106234010/https://www.kongregate.com/games/joelesler/manifold/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106234010_https_www.kongregate.com_games_joelesler_manifold_metrics.json_df5c09288697cc08.json"
+    },
+    {
+      "date": "2023-11-06",
       "game_name": "Run 3",
       "game_url": "http://www.kongregate.com/games/player_03/run-3",
       "plays_count_observed": 16705454,
@@ -41072,6 +41642,21 @@
     },
     {
       "date": "2023-12-09",
+      "game_name": "Armed with Wings 3",
+      "game_url": "http://www.kongregate.com/games/danielsun/armed-with-wings-3",
+      "plays_count_observed": 1233611,
+      "favorites_count_observed": 17152,
+      "plays_text": "1,233,611",
+      "favorites_text": "17,152",
+      "metrics_url": "https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "capture_timestamp": "20231209211044",
+      "capture_url": "https://web.archive.org/web/20231209211044/https://www.kongregate.com/games/danielsun/armed-with-wings-3/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231209211044_https_www.kongregate.com_games_danielsun_armed-with-wings-3_metrics.json_3144e0b907bbab86.json"
+    },
+    {
+      "date": "2023-12-09",
       "game_name": "Run 3",
       "game_url": "http://www.kongregate.com/games/player_03/run-3",
       "plays_count_observed": 16708201,
@@ -41414,6 +41999,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231218065245_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_2ddc97297f30c9f3.json"
+    },
+    {
+      "date": "2023-12-18",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1260277,
+      "favorites_count_observed": 6223,
+      "plays_text": "1,260,277",
+      "favorites_text": "6,223",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20231218030858",
+      "capture_url": "https://web.archive.org/web/20231218030858/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231218030858_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_f190654d97f67951.json"
     },
     {
       "date": "2023-12-18",
@@ -42242,6 +42842,21 @@
     },
     {
       "date": "2024-01-08",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 11777231,
+      "favorites_count_observed": 24427,
+      "plays_text": "11,777,231",
+      "favorites_text": "24,427",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20240108131228",
+      "capture_url": "https://web.archive.org/web/20240108131228/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240108131228_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_99bec3f62dd6b82c.json"
+    },
+    {
+      "date": "2024-01-08",
       "game_name": "Warlords: Call to Arms",
       "game_url": "http://www.kongregate.com/games/DJStatika/warlords-call-to-arms",
       "plays_count_observed": 21402971,
@@ -42779,6 +43394,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117052245_https_www.kongregate.com_games_bontegames_factory-balls_metrics.json_ee22014c0190467b.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Factory Balls 2",
+      "game_url": "http://www.kongregate.com/games/bontegames/factory-balls-2",
+      "plays_count_observed": 2360270,
+      "favorites_count_observed": 11451,
+      "plays_text": "2,360,270",
+      "favorites_text": "11,451",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-2/metrics.json",
+      "capture_timestamp": "20240117041137",
+      "capture_url": "https://web.archive.org/web/20240117041137/https://www.kongregate.com/games/bontegames/factory-balls-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117041137_https_www.kongregate.com_games_bontegames_factory-balls-2_metrics.json_1fde1aa08e3e1ec6.json"
     },
     {
       "date": "2024-01-17",
@@ -43922,6 +44552,21 @@
     },
     {
       "date": "2024-01-20",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1155978,
+      "favorites_count_observed": 17177,
+      "plays_text": "1,155,978",
+      "favorites_text": "17,177",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20240120130433",
+      "capture_url": "https://web.archive.org/web/20240120130433/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120130433_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_1c0ada936af5be00.json"
+    },
+    {
+      "date": "2024-01-20",
       "game_name": "Mutilate-a-Doll: Classic",
       "game_url": "https://www.kongregate.com/games/0rava/mutilate-a-doll-classic",
       "plays_count_observed": 577130,
@@ -44522,6 +45167,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 461868,
+      "favorites_count_observed": 4790,
+      "plays_text": "461,868",
+      "favorites_text": "4,790",
+      "metrics_url": "https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20240121225120",
+      "capture_url": "https://web.archive.org/web/20240121225120/https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121225120_https_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_5f188983dc0443b4.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Mastermind: World Conquerer",
       "game_url": "http://www.kongregate.com/games/theswain/mastermind-world-conquerer",
       "plays_count_observed": 3945349,
@@ -44534,6 +45194,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121093919_https_www.kongregate.com_games_theswain_mastermind-world-conquerer_metrics.json_58d9d0ac7229f3a8.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Momentum Missile Mayhem 2",
+      "game_url": "http://www.kongregate.com/games/dz2001/momentum-missile-mayhem-2",
+      "plays_count_observed": 568522,
+      "favorites_count_observed": 3773,
+      "plays_text": "568,522",
+      "favorites_text": "3,773",
+      "metrics_url": "https://www.kongregate.com/games/dz2001/momentum-missile-mayhem-2/metrics.json",
+      "capture_timestamp": "20240121145530",
+      "capture_url": "https://web.archive.org/web/20240121145530/https://www.kongregate.com/games/dz2001/momentum-missile-mayhem-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121145530_https_www.kongregate.com_games_dz2001_momentum-missile-mayhem-2_metrics.json_744190e25b27ebab.json"
     },
     {
       "date": "2024-01-21",
@@ -45269,6 +45944,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240205074511_https_www.kongregate.com_games_FreeWorldGroup_electricman2hs_metrics.json_59e02565a0e6ffc4.json"
+    },
+    {
+      "date": "2024-02-05",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1156236,
+      "favorites_count_observed": 17179,
+      "plays_text": "1,156,236",
+      "favorites_text": "17,179",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20240205074929",
+      "capture_url": "https://web.archive.org/web/20240205074929/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240205074929_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_4c12136a7e7feb5f.json"
     },
     {
       "date": "2024-02-06",
@@ -46382,6 +47072,21 @@
     },
     {
       "date": "2024-02-25",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1156558,
+      "favorites_count_observed": 17180,
+      "plays_text": "1,156,558",
+      "favorites_text": "17,180",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20240225112029",
+      "capture_url": "https://web.archive.org/web/20240225112029/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240225112029_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_58dd30562a1ff26b.json"
+    },
+    {
+      "date": "2024-02-25",
       "game_name": "UPGRADE COMPLETE!",
       "game_url": "http://www.kongregate.com/games/ArmorGames/upgrade-complete",
       "plays_count_observed": 6050220,
@@ -46994,6 +47699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308071432_https_www.kongregate.com_games_TogeProductions_infectonator-world-dominator_metrics.json_b60f07463a13453e.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 462049,
+      "favorites_count_observed": 4790,
+      "plays_text": "462,049",
+      "favorites_text": "4,790",
+      "metrics_url": "https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20240308184906",
+      "capture_url": "https://web.archive.org/web/20240308184906/https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308184906_https_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_acd46364becec991.json"
     },
     {
       "date": "2024-03-08",
@@ -47627,6 +48347,21 @@
     },
     {
       "date": "2024-04-06",
+      "game_name": "Mighty Party",
+      "game_url": "https://www.kongregate.com/games/Panoramik/mighty-party",
+      "plays_count_observed": 6261211,
+      "favorites_count_observed": 10725,
+      "plays_text": "6,261,211",
+      "favorites_text": "10,725",
+      "metrics_url": "https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "capture_timestamp": "20240406135952",
+      "capture_url": "https://web.archive.org/web/20240406135952/https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406135952_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_0ec2dcf77b1ccc46.json"
+    },
+    {
+      "date": "2024-04-06",
       "game_name": "Pixels Filling Squares 3.0",
       "game_url": "https://www.kongregate.com/en/games/Moczan/pixels-filling-squares-3-0",
       "plays_count_observed": 1166727,
@@ -48104,6 +48839,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240506035746_https_www.kongregate.com_games_DrNeroCF_fancy-pants-adventure-world-2_metrics.json_4a5ebc96aa9c8b1a.json"
+    },
+    {
+      "date": "2024-05-06",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 635225,
+      "favorites_count_observed": 4471,
+      "plays_text": "635,225",
+      "favorites_text": "4,471",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20240506065439",
+      "capture_url": "https://web.archive.org/web/20240506065439/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240506065439_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_66c68792ce5e05eb.json"
     },
     {
       "date": "2024-05-06",
@@ -49064,6 +49814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240701013135_https_www.kongregate.com_games_TwoWizards_idle-wizard_metrics.json_4f13c4120d9621c4.json"
+    },
+    {
+      "date": "2024-07-01",
+      "game_name": "Mighty Party",
+      "game_url": "https://www.kongregate.com/games/Panoramik/mighty-party",
+      "plays_count_observed": 6366522,
+      "favorites_count_observed": 10783,
+      "plays_text": "6,366,522",
+      "favorites_text": "10,783",
+      "metrics_url": "https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "capture_timestamp": "20240701013144",
+      "capture_url": "https://web.archive.org/web/20240701013144/https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240701013144_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_34758e6c06b83fc1.json"
     },
     {
       "date": "2024-07-03",
@@ -50446,6 +51211,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240825040535_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_2b4f9d1734c790d9.json"
     },
     {
+      "date": "2024-08-26",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8482155,
+      "favorites_count_observed": 17236,
+      "plays_text": "8,482,155",
+      "favorites_text": "17,236",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240826235554",
+      "capture_url": "https://web.archive.org/web/20240826235554/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240826235554_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_c56f4c2f308467ab.json"
+    },
+    {
       "date": "2024-08-27",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -50506,6 +51286,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240828173427_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_70a5e00013b23170.json"
     },
     {
+      "date": "2024-08-29",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8484691,
+      "favorites_count_observed": 17239,
+      "plays_text": "8,484,691",
+      "favorites_text": "17,239",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240829151634",
+      "capture_url": "https://web.archive.org/web/20240829151634/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240829151634_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_4b1664922f54732a.json"
+    },
+    {
       "date": "2024-08-30",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
@@ -50519,6 +51314,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240830192742_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_b07d9b16fcffb76a.json"
+    },
+    {
+      "date": "2024-08-31",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8486743,
+      "favorites_count_observed": 17241,
+      "plays_text": "8,486,743",
+      "favorites_text": "17,241",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240831181709",
+      "capture_url": "https://web.archive.org/web/20240831181709/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240831181709_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_5c6610bf5e5773a2.json"
     },
     {
       "date": "2024-08-31",
@@ -50612,6 +51422,21 @@
     },
     {
       "date": "2024-09-03",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8489745,
+      "favorites_count_observed": 17245,
+      "plays_text": "8,489,745",
+      "favorites_text": "17,245",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240903202906",
+      "capture_url": "https://web.archive.org/web/20240903202906/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903202906_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_20ad0befd4848c8b.json"
+    },
+    {
+      "date": "2024-09-03",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/en/games/Iurii1/shoot-sow",
       "plays_count_observed": 39483,
@@ -50639,6 +51464,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240904185953_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_fb89348f01144a59.json"
+    },
+    {
+      "date": "2024-09-04",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8490813,
+      "favorites_count_observed": 17245,
+      "plays_text": "8,490,813",
+      "favorites_text": "17,245",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240904215318",
+      "capture_url": "https://web.archive.org/web/20240904215318/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240904215318_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_310c627375dd292e.json"
     },
     {
       "date": "2024-09-05",
@@ -50777,6 +51617,21 @@
     },
     {
       "date": "2024-09-09",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8495388,
+      "favorites_count_observed": 17244,
+      "plays_text": "8,495,388",
+      "favorites_text": "17,244",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240909191208",
+      "capture_url": "https://web.archive.org/web/20240909191208/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240909191208_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_db0f1a74fc27584e.json"
+    },
+    {
+      "date": "2024-09-09",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 46761577,
@@ -50851,6 +51706,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240912172106_https_www.kongregate.com_games_Iurii1_shoot-sow_metrics.json_6c32ba71895703a9.json"
     },
     {
+      "date": "2024-09-13",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8499505,
+      "favorites_count_observed": 17252,
+      "plays_text": "8,499,505",
+      "favorites_text": "17,252",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240913202035",
+      "capture_url": "https://web.archive.org/web/20240913202035/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240913202035_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_60f87b48f47cbbfc.json"
+    },
+    {
       "date": "2024-09-14",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
@@ -50894,6 +51764,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240915001617_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_b262c1a18ba74841.json"
+    },
+    {
+      "date": "2024-09-15",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8500581,
+      "favorites_count_observed": 17254,
+      "plays_text": "8,500,581",
+      "favorites_text": "17,254",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240915001102",
+      "capture_url": "https://web.archive.org/web/20240915001102/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240915001102_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_c1141e168a2d778c.json"
     },
     {
       "date": "2024-09-15",
@@ -50986,6 +51871,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240919041913_https_www.kongregate.com_games_TwoWizards_idle-wizard_metrics.json_b279581c4b0e79e1.json"
     },
     {
+      "date": "2024-09-19",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8504526,
+      "favorites_count_observed": 17254,
+      "plays_text": "8,504,526",
+      "favorites_text": "17,254",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240919025002",
+      "capture_url": "https://web.archive.org/web/20240919025002/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240919025002_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_d5aa61c8c60e65bb.json"
+    },
+    {
       "date": "2024-09-21",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -51014,6 +51914,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240921182641_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_569e07b7f65ffa4a.json"
+    },
+    {
+      "date": "2024-09-21",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8506440,
+      "favorites_count_observed": 17254,
+      "plays_text": "8,506,440",
+      "favorites_text": "17,254",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240921022110",
+      "capture_url": "https://web.archive.org/web/20240921022110/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240921022110_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_a2de2b27ddd8b9d5.json"
     },
     {
       "date": "2024-09-22",
@@ -51059,6 +51974,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240923112002_https_www.kongregate.com_games_ArmorGames_crush-the-castle-2_metrics.json_375935b5f3c70d52.json"
+    },
+    {
+      "date": "2024-09-24",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8510219,
+      "favorites_count_observed": 17254,
+      "plays_text": "8,510,219",
+      "favorites_text": "17,254",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20240924233604",
+      "capture_url": "https://web.archive.org/web/20240924233604/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240924233604_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_440d29fdfde266aa.json"
     },
     {
       "date": "2024-09-24",
@@ -51227,6 +52157,21 @@
     },
     {
       "date": "2024-09-30",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 636582,
+      "favorites_count_observed": 4474,
+      "plays_text": "636,582",
+      "favorites_text": "4,474",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20240930180018",
+      "capture_url": "https://web.archive.org/web/20240930180018/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240930180018_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_644c584bc21450e2.json"
+    },
+    {
+      "date": "2024-09-30",
       "game_name": "Tangerine Tycoon",
       "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
       "plays_count_observed": 3580311,
@@ -51329,6 +52274,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241004232655_https_www.kongregate.com_games_kingk_dream-world_metrics.json_9c046581634385c6.json"
+    },
+    {
+      "date": "2024-10-04",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 12033162,
+      "favorites_count_observed": 24552,
+      "plays_text": "12,033,162",
+      "favorites_text": "24,552",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20241004022032",
+      "capture_url": "https://web.archive.org/web/20241004022032/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241004022032_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_050578b582ba43d2.json"
     },
     {
       "date": "2024-10-04",
@@ -52157,6 +53117,21 @@
     },
     {
       "date": "2024-12-13",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 637316,
+      "favorites_count_observed": 4476,
+      "plays_text": "637,316",
+      "favorites_text": "4,476",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20241213063655",
+      "capture_url": "https://web.archive.org/web/20241213063655/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241213063655_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_224843bb18306f02.json"
+    },
+    {
+      "date": "2024-12-13",
       "game_name": "Shoot & Sow",
       "game_url": "https://www.kongregate.com/games/Iurii1/shoot-sow",
       "plays_count_observed": 45271,
@@ -52259,6 +53234,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241218051754_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_1a3d86a2a5993ab2.json"
+    },
+    {
+      "date": "2024-12-19",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 12099583,
+      "favorites_count_observed": 24595,
+      "plays_text": "12,099,583",
+      "favorites_text": "24,595",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20241219032609",
+      "capture_url": "https://web.archive.org/web/20241219032609/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241219032609_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_dd75c21d37522553.json"
     },
     {
       "date": "2024-12-20",
@@ -52769,6 +53759,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250120174820_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_3925ef40abb79679.json"
+    },
+    {
+      "date": "2025-01-20",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8639129,
+      "favorites_count_observed": 17319,
+      "plays_text": "8,639,129",
+      "favorites_text": "17,319",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20250120174446",
+      "capture_url": "https://web.archive.org/web/20250120174446/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250120174446_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_3d022f88a484dd36.json"
     },
     {
       "date": "2025-01-23",
@@ -54226,6 +55231,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250419064430_https_www.kongregate.com_games_e_cha_underworld-idle_metrics.json_60fb3db6b1763dc8.json"
     },
     {
+      "date": "2025-04-20",
+      "game_name": "Submachine 5: the root",
+      "game_url": "http://www.kongregate.com/games/MateuszSkutnik/submachine-5-the-root",
+      "plays_count_observed": 170756,
+      "favorites_count_observed": 1413,
+      "plays_text": "170,756",
+      "favorites_text": "1,413",
+      "metrics_url": "https://www.kongregate.com/games/MateuszSkutnik/submachine-5-the-root/metrics.json",
+      "capture_timestamp": "20250420145124",
+      "capture_url": "https://web.archive.org/web/20250420145124/https://www.kongregate.com/games/MateuszSkutnik/submachine-5-the-root/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250420145124_https_www.kongregate.com_games_MateuszSkutnik_submachine-5-the-root_metrics.json_ee16152627c5770f.json"
+    },
+    {
       "date": "2025-04-21",
       "game_name": "Gragyriss, Captor of Princesses",
       "game_url": "https://www.kongregate.com/games/snowroadgames/gragyriss-captor-of-princesses",
@@ -54239,6 +55259,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250421185938_https_www.kongregate.com_games_snowroadgames_gragyriss-captor-of-princesses_metrics.json_a6870d6d49aae3f4.json"
+    },
+    {
+      "date": "2025-04-22",
+      "game_name": "Idling to Rule the Gods",
+      "game_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god",
+      "plays_count_observed": 8752318,
+      "favorites_count_observed": 17409,
+      "plays_text": "8,752,318",
+      "favorites_text": "17,409",
+      "metrics_url": "https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "capture_timestamp": "20250422164900",
+      "capture_url": "https://web.archive.org/web/20250422164900/https://www.kongregate.com/games/Ryu82/idling-to-become-god/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250422164900_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_0f4dbaa168a92eef.json"
     },
     {
       "date": "2025-04-24",
@@ -54781,6 +55816,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250518062000_https_www.kongregate.com_games_locos_youkongregate_metrics.json_6cbe4e94ca04c963.json"
     },
     {
+      "date": "2025-05-19",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 12230364,
+      "favorites_count_observed": 24664,
+      "plays_text": "12,230,364",
+      "favorites_text": "24,664",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20250519134123",
+      "capture_url": "https://web.archive.org/web/20250519134123/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250519134123_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_fe73a77029fafa42.json"
+    },
+    {
       "date": "2025-05-21",
       "game_name": "Anti-Idle: The Game",
       "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
@@ -55289,6 +56339,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250620180802_https_www.kongregate.com_games_kingk_dream-world_metrics.json_1c50c7ed0271b63a.json"
+    },
+    {
+      "date": "2025-06-20",
+      "game_name": "Gravitee Wars",
+      "game_url": "http://www.kongregate.com/games/FunkyPear/gravitee-wars",
+      "plays_count_observed": 4475376,
+      "favorites_count_observed": 40432,
+      "plays_text": "4,475,376",
+      "favorites_text": "40,432",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars/metrics.json",
+      "capture_timestamp": "20250620133809",
+      "capture_url": "https://web.archive.org/web/20250620133809/https://www.kongregate.com/games/FunkyPear/gravitee-wars/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250620133809_https_www.kongregate.com_games_FunkyPear_gravitee-wars_metrics.json_3adfe6652f51d0db.json"
     },
     {
       "date": "2025-06-22",
@@ -55994,6 +57059,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250901173935_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_89aca0eebaf3a918.json"
+    },
+    {
+      "date": "2025-09-01",
+      "game_name": "Spellstone",
+      "game_url": "https://www.kongregate.com/games/synapticon/spellstone",
+      "plays_count_observed": 12317546,
+      "favorites_count_observed": 24720,
+      "plays_text": "12,317,546",
+      "favorites_text": "24,720",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "capture_timestamp": "20250901181713",
+      "capture_url": "https://web.archive.org/web/20250901181713/https://www.kongregate.com/games/synapticon/spellstone/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250901181713_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_7095663d5ebb8b00.json"
     },
     {
       "date": "2025-09-02",
