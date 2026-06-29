@@ -150,6 +150,7 @@ function htmlDocument() {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>Kongregate Observed Plays Race</title>
   <style>
     :root {
@@ -322,15 +323,22 @@ function htmlDocument() {
       gap: 14px;
       align-items: center;
       opacity: 0;
-      transform: translateY(0);
+      transform: translate3d(0, 0, 0);
       transition:
-        transform 540ms cubic-bezier(0.22, 1, 0.36, 1),
-        opacity 180ms ease;
-      will-change: transform;
+        transform 820ms cubic-bezier(0.2, 0, 0, 1),
+        opacity 260ms ease,
+        filter 260ms ease;
+      will-change: transform, opacity;
     }
 
     .barRow.isVisible {
       opacity: 1;
+    }
+
+    .barRow.isExiting {
+      opacity: 0;
+      filter: blur(1px);
+      pointer-events: none;
     }
 
     .rank {
@@ -351,6 +359,16 @@ function htmlDocument() {
       white-space: nowrap;
       font-size: 15px;
       font-weight: 740;
+    }
+
+    a.gameName {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    a.gameName:hover {
+      color: var(--accent);
+      text-decoration: underline;
     }
 
     .developer {
@@ -377,7 +395,7 @@ function htmlDocument() {
       border-radius: 6px;
       transform: scaleX(0.015);
       transform-origin: left center;
-      transition: transform 540ms cubic-bezier(0.22, 1, 0.36, 1);
+      transition: transform 820ms cubic-bezier(0.2, 0, 0, 1);
     }
 
     .value {
@@ -471,7 +489,7 @@ function htmlDocument() {
         <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M8 5v14l11-7z"></path></svg>
       </button>
       <input id="frameSlider" type="range" min="0" value="0" step="1" aria-label="Date">
-      <label class="speed">Speed <input id="speedSlider" type="range" min="700" max="2200" value="1250" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="1100" max="2800" value="1700" step="50" aria-label="Speed"></label>
       <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
     </section>
 
@@ -506,6 +524,9 @@ function htmlDocument() {
     const playPath = "M8 5v14l11-7z";
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
+    const visibleRows = 12;
+    const transitionMs = 820;
+    const exitMs = transitionMs + 180;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -560,6 +581,7 @@ function htmlDocument() {
       const row = document.createElement("div");
       row.className = "barRow";
       row.dataset.key = entry.key;
+      row.style.transform = \`translate3d(0, \${rowStep * visibleRows}px, 0)\`;
 
       const rank = document.createElement("div");
       rank.className = "rank";
@@ -594,14 +616,55 @@ function htmlDocument() {
       return row;
     }
 
+    function animateValue(valueEl, nextValue) {
+      const previousValue = Number(valueEl.dataset.rawValue || nextValue);
+      const targetValue = Number(nextValue);
+      valueEl.dataset.rawValue = String(targetValue);
+
+      if (!Number.isFinite(previousValue) || previousValue === targetValue) {
+        valueEl.textContent = formatPlays(targetValue);
+        return;
+      }
+
+      const startedAt = performance.now();
+      const animationToken = String(startedAt);
+      valueEl.dataset.animationToken = animationToken;
+
+      function tick(now) {
+        if (valueEl.dataset.animationToken !== animationToken) return;
+        const progress = Math.min((now - startedAt) / transitionMs, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const displayValue = Math.round(previousValue + ((targetValue - previousValue) * eased));
+        valueEl.textContent = formatPlays(displayValue);
+        if (progress < 1) requestAnimationFrame(tick);
+      }
+
+      requestAnimationFrame(tick);
+    }
+
     function updateRow(row, entry, maxValue) {
       row.querySelector(".rank").textContent = entry.rank;
       const gameName = row.querySelector(".gameName");
       gameName.textContent = entry.gameName;
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
       row.querySelector(".developer").textContent = detailText(entry);
-      row.querySelector(".value").textContent = formatPlays(entry.plays);
+      animateValue(row.querySelector(".value"), entry.plays);
       row.querySelector(".bar").style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
+    }
+
+    function removeInactiveRow(key, row) {
+      if (row.dataset.exiting === "true") return;
+      row.dataset.exiting = "true";
+      row.classList.remove("isVisible");
+      row.classList.add("isExiting");
+      row.style.transform = \`translate3d(0, \${rowStep * visibleRows}px, 0)\`;
+
+      clearTimeout(row._removeTimer);
+      row._removeTimer = setTimeout(() => {
+        if (row.dataset.exiting !== "true") return;
+        rowsByKey.delete(key);
+        row.remove();
+      }, exitMs);
     }
 
     function renderFrame(nextIndex) {
@@ -611,7 +674,8 @@ function htmlDocument() {
       }
 
       const frame = frames[nextIndex];
-      const maxValue = Math.max(...frame.entries.map((entry) => entry.plays), 1);
+      const entries = frame.entries.slice(0, visibleRows);
+      const maxValue = Math.max(...entries.map((entry) => entry.plays), 1);
       const activeKeys = new Set();
 
       dateLabel.textContent = frame.date;
@@ -624,23 +688,28 @@ function htmlDocument() {
         rowsEl.dataset.ready = "true";
       }
 
-      frame.entries.forEach((entry, index) => {
+      entries.forEach((entry, index) => {
         let row = rowsByKey.get(entry.key);
+        const isNew = !row;
         if (!row) {
           row = rowElement(entry);
           rowsByKey.set(entry.key, row);
           rowsEl.append(row);
+          row.getBoundingClientRect();
         }
         updateRow(row, entry, maxValue);
-        row.style.transform = \`translateY(\${index * rowStep}px)\`;
+        row.dataset.exiting = "false";
+        clearTimeout(row._removeTimer);
+        row.classList.remove("isExiting");
+        row.style.transform = \`translate3d(0, \${index * rowStep}px, 0)\`;
         activeKeys.add(entry.key);
-        row.classList.add("isVisible");
+        if (isNew) requestAnimationFrame(() => row.classList.add("isVisible"));
+        else row.classList.add("isVisible");
       });
 
       for (const [key, row] of rowsByKey) {
         if (activeKeys.has(key)) continue;
-        row.remove();
-        rowsByKey.delete(key);
+        removeInactiveRow(key, row);
       }
     }
 
@@ -669,11 +738,12 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 220);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
         schedule();
-      }, Number(speedSlider.value));
+      }, delay);
     }
 
     playToggle.addEventListener("click", () => {
