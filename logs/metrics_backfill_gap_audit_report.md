@@ -1,27 +1,30 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T20:08:36Z
+Generated: 2026-06-29T20:26:32Z
 
 ## Summary
 
-- Mini-catalog games audited: 2367
-- Games without metrics rows: 786
-- Games with fresh pending captures: 0
-- Fresh pending captures: 0
-- Known failed captures: 656
-- Missing CDX cache files: 411
+- Mini-catalog games audited: 2374
+- Games without metrics rows: 791
+- Games with fresh pending captures: 3
+- Fresh pending captures: 5
+- Known failed captures: 682
+- Missing CDX cache files: 367
 
 ## Status Counts
 
-- cdx_cache_missing: 276
-- has_metrics: 1581
+- cdx_cache_missing: 256
+- fresh_pending: 2
+- has_metrics: 1583
 - known_failures_only: 35
-- no_cdx: 475
+- no_cdx: 498
 
 ## Top Unresolved Games
 
 | Game | Status | Best rank | Metrics rows | CDX rows | Fresh pending | Known failed |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Clear Vision 2 | fresh_pending | 11 | 0 | 1 | 1 | 0 |
+| Clear Vision 2 | fresh_pending | 11 | 0 | 1 | 1 | 0 |
 | as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Football Legends 2016 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Key to Success | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -45,8 +48,6 @@ Generated: 2026-06-29T20:08:36Z
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | dat boi | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Dead Frontier | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Finger Spinner Online | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

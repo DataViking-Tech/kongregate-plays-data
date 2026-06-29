@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-29T19:54:47Z",
-    "html_samples_considered": 1180,
-    "ranking_rows_extracted": 18893,
-    "rows_with_observed_play_counts": 7154,
-    "captures_with_rows": 1156,
+    "run_timestamp": "2026-06-29T20:15:27Z",
+    "html_samples_considered": 1200,
+    "ranking_rows_extracted": 19193,
+    "rows_with_observed_play_counts": 7454,
+    "captures_with_rows": 1176,
     "captures_without_rows": 24,
     "ranking_types": [
       "browse",
@@ -773,6 +773,186 @@
       "rows_extracted": 15,
       "confidence": "high",
       "html_path": "data/raw/html/20080806060948_http_www.kongregate.com_80_puzzle-games_2c6c290b37a51fbf.html"
+    },
+    {
+      "date": "2008-08-13",
+      "source_url": "http://www.kongregate.com:80/puzzle-games",
+      "capture_timestamp": "20080813041055",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080813041055_http_www.kongregate.com_80_puzzle-games_c73c4a2f0c761c41.html"
+    },
+    {
+      "date": "2008-08-13",
+      "source_url": "http://www.kongregate.com:80/puzzle-games?",
+      "capture_timestamp": "20080813073854",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080813073854_http_www.kongregate.com_80_puzzle-games_e73132d894bb0be2.html"
+    },
+    {
+      "date": "2008-08-13",
+      "source_url": "http://www.kongregate.com:80/action-games?",
+      "capture_timestamp": "20080813074309",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080813074309_http_www.kongregate.com_80_action-games_6774808752d3fd95.html"
+    },
+    {
+      "date": "2008-08-13",
+      "source_url": "http://www.kongregate.com:80/shooter-games",
+      "capture_timestamp": "20080813154740",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080813154740_http_www.kongregate.com_80_shooter-games_800ce7c4cd2de8ea.html"
+    },
+    {
+      "date": "2008-08-14",
+      "source_url": "http://www.kongregate.com:80/action-games",
+      "capture_timestamp": "20080814031220",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080814031220_http_www.kongregate.com_80_action-games_0010df2cb7b92196.html"
+    },
+    {
+      "date": "2008-08-14",
+      "source_url": "http://www.kongregate.com:80/puzzle-games?",
+      "capture_timestamp": "20080814122822",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080814122822_http_www.kongregate.com_80_puzzle-games_3b0d6b6f92b25c88.html"
+    },
+    {
+      "date": "2008-08-14",
+      "source_url": "http://www.kongregate.com:80/action-games?",
+      "capture_timestamp": "20080814123006",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080814123006_http_www.kongregate.com_80_action-games_237f5e9fd022fce5.html"
+    },
+    {
+      "date": "2008-08-14",
+      "source_url": "http://www.kongregate.com.:80/shooter-games",
+      "capture_timestamp": "20080814161901",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080814161901_http_www.kongregate.com._80_shooter-games_5be5b23c782c4c1f.html"
+    },
+    {
+      "date": "2008-08-15",
+      "source_url": "http://www.kongregate.com:80/action-games",
+      "capture_timestamp": "20080815031508",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080815031508_http_www.kongregate.com_80_action-games_7b7d4f630769f2ee.html"
+    },
+    {
+      "date": "2008-08-15",
+      "source_url": "http://www.kongregate.com:80/puzzle-games",
+      "capture_timestamp": "20080815123403",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080815123403_http_www.kongregate.com_80_puzzle-games_6eb2e16e1125bfe2.html"
+    },
+    {
+      "date": "2008-08-15",
+      "source_url": "http://www.kongregate.com:80/action-games?",
+      "capture_timestamp": "20080815160436",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080815160436_http_www.kongregate.com_80_action-games_f10afa6aa6130865.html"
+    },
+    {
+      "date": "2008-08-15",
+      "source_url": "http://www.kongregate.com:80/puzzle-games?",
+      "capture_timestamp": "20080815160623",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080815160623_http_www.kongregate.com_80_puzzle-games_925ce8e81b4cbab2.html"
+    },
+    {
+      "date": "2008-08-15",
+      "source_url": "http://www.kongregate.com:80/shooter-games",
+      "capture_timestamp": "20080815200645",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080815200645_http_www.kongregate.com_80_shooter-games_ba2e86d469fcd98b.html"
+    },
+    {
+      "date": "2008-08-16",
+      "source_url": "http://www.kongregate.com.:80/action-games",
+      "capture_timestamp": "20080816031515",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080816031515_http_www.kongregate.com._80_action-games_9fb341dcec0b0f8b.html"
+    },
+    {
+      "date": "2008-08-16",
+      "source_url": "http://www.kongregate.com:80/action-games?",
+      "capture_timestamp": "20080816192355",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080816192355_http_www.kongregate.com_80_action-games_05147213af7857f1.html"
+    },
+    {
+      "date": "2008-08-16",
+      "source_url": "http://www.kongregate.com:80/puzzle-games?",
+      "capture_timestamp": "20080816192716",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080816192716_http_www.kongregate.com_80_puzzle-games_41c47fd8f36615da.html"
+    },
+    {
+      "date": "2008-08-17",
+      "source_url": "http://www.kongregate.com.:80/action-games",
+      "capture_timestamp": "20080817032743",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080817032743_http_www.kongregate.com._80_action-games_d69c6f8afa9864fe.html"
+    },
+    {
+      "date": "2008-08-17",
+      "source_url": "http://www.kongregate.com:80/shooter-games",
+      "capture_timestamp": "20080817033829",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080817033829_http_www.kongregate.com_80_shooter-games_a46bed12b8d944a3.html"
+    },
+    {
+      "date": "2008-08-17",
+      "source_url": "http://www.kongregate.com:80/puzzle-games",
+      "capture_timestamp": "20080817212038",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080817212038_http_www.kongregate.com_80_puzzle-games_f27c3897dcd9c2c8.html"
+    },
+    {
+      "date": "2008-08-17",
+      "source_url": "http://www.kongregate.com.:80/action-games?",
+      "capture_timestamp": "20080817213123",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20080817213123_http_www.kongregate.com._80_action-games_b7c0130f27cfa68c.html"
     },
     {
       "date": "2008-08-20",

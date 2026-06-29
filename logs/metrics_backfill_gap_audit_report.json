@@ -1,18 +1,41 @@
 {
-  "catalog_games": 2367,
-  "fresh_pending_captures": 0,
-  "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 786,
-  "generated_at": "2026-06-29T20:08:36Z",
-  "known_failed_captures": 656,
-  "missing_cdx_cache_files": 411,
+  "catalog_games": 2374,
+  "fresh_pending_captures": 5,
+  "games_with_fresh_pending_captures": 3,
+  "games_without_metrics_rows": 791,
+  "generated_at": "2026-06-29T20:26:32Z",
+  "known_failed_captures": 682,
+  "missing_cdx_cache_files": 367,
   "status_counts": {
-    "cdx_cache_missing": 276,
-    "has_metrics": 1581,
+    "cdx_cache_missing": 256,
+    "fresh_pending": 2,
+    "has_metrics": 1583,
     "known_failures_only": 35,
-    "no_cdx": 475
+    "no_cdx": 498
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "11",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Clear Vision 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1901,
+      "status": "fresh_pending"
+    },
+    {
+      "best_rank": "11",
+      "cdx_rows": 1,
+      "failure_errors": "",
+      "fresh_pending_captures": 1,
+      "game_name": "Clear Vision 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 1901,
+      "status": "fresh_pending"
+    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -265,29 +288,7 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Dead Frontier",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Finger Spinner Online",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8186
+  "valid_cached_captures": 8211
 }
