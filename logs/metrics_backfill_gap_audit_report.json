@@ -1,18 +1,95 @@
 {
-  "catalog_games": 1002,
+  "catalog_games": 1104,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 98,
-  "generated_at": "2026-06-29T13:12:57Z",
+  "games_without_metrics_rows": 199,
+  "generated_at": "2026-06-29T13:37:27Z",
   "known_failed_captures": 608,
-  "missing_cdx_cache_files": 6,
+  "missing_cdx_cache_files": 87,
   "status_counts": {
-    "cdx_cache_missing": 6,
-    "has_metrics": 904,
+    "cdx_cache_missing": 87,
+    "has_metrics": 905,
     "known_failures_only": 33,
-    "no_cdx": 59
+    "no_cdx": 79
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "[Future Mode] The Warriors Way 0.2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Energy Bay",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Filler Snake",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Halloween Spooky Motocross",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Simple factory idle game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Soul Shadows",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Another Platform Game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
     {
       "best_rank": "2",
       "cdx_rows": 0,
@@ -23,6 +100,61 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Chevrolet Cruze Puzzle",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Halloween Creepy Cemetry",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Halloween Search For History",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Jumpocat",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Triangle Hero",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
@@ -36,258 +168,126 @@
       "status": "no_cdx"
     },
     {
-      "best_rank": "1",
+      "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Bowmaster Prelude",
+      "game_name": "Bisectors with different distance functions",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2905,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Bowmaster Prelude",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2905,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "BLOB KILLS BALL!",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "IndestructoCopter",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Maddening Foolishness",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Stafforb's Worst Pokemon Battle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "6",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "RPgTest",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2851,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "6",
-      "cdx_rows": 1,
-      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
-      "fresh_pending_captures": 0,
-      "game_name": "Straw Hat Samurai: Duels",
-      "known_failed_captures": 1,
-      "metrics_rows": 0,
-      "priority_score": 2851,
-      "status": "known_failures_only"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 3,
-      "failure_errors": "<urlopen error [Errno 61] Connection refused> (6)",
-      "fresh_pending_captures": 0,
-      "game_name": "SHIFT 2",
-      "known_failed_captures": 3,
-      "metrics_rows": 0,
-      "priority_score": 2803,
-      "status": "known_failures_only"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 3,
-      "failure_errors": "<urlopen error [Errno 61] Connection refused> (6)",
-      "fresh_pending_captures": 0,
-      "game_name": "SHIFT 2",
-      "known_failed_captures": 3,
-      "metrics_rows": 0,
-      "priority_score": 2803,
-      "status": "known_failures_only"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Another of Stafforb's Pokemon Battles.",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2801,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Battle For Gondor",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2801,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "First Date",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2801,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Murloc RPG: Strangleth...",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2801,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "7",
-      "cdx_rows": 1,
-      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
-      "fresh_pending_captures": 0,
-      "game_name": "Superfighters",
-      "known_failed_captures": 1,
-      "metrics_rows": 0,
-      "priority_score": 2751,
-      "status": "known_failures_only"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Diaper Dash",
+      "game_name": "Halloween Brightness Paves The Path",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2703,
-      "status": "no_cdx"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Diaper Dash",
+      "game_name": "Hallowwen Escape Games - 10 Turnips",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2703,
-      "status": "no_cdx"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Blozorz Hacked",
+      "game_name": "Heroes vs Devil",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Broken World WIP",
+      "game_name": "Seize the Saucers!",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Chocolate Rain TAY ZONDAY",
+      "game_name": "SUV Car Cartoon Puzzle",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
     },
     {
-      "best_rank": "3",
+      "best_rank": "4",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Jumbo Adventure",
+      "game_name": "Brick Trip Runner",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
     },
     {
-      "best_rank": "3",
+      "best_rank": "4",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Office Supply Team!",
+      "game_name": "Fractals [kinda math stuff?]",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
     },
     {
-      "best_rank": "3",
+      "best_rank": "4",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "PhysicsWars",
+      "game_name": "IdlePixelGemMiner",
       "known_failed_captures": 0,
       "metrics_rows": 0,
-      "priority_score": 2701,
-      "status": "no_cdx"
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "4",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Little Johny House Escape",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "4",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Princess Lilly Dark Forest Escape",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8075
+  "valid_cached_captures": 8076
 }

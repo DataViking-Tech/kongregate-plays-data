@@ -40097,6 +40097,21 @@
     },
     {
       "date": "2023-09-14",
+      "game_name": "Salvavidas",
+      "game_url": "http://www.kongregate.com/games/srikaran_p/salvavidas",
+      "plays_count_observed": 47,
+      "favorites_count_observed": 0,
+      "plays_text": "47",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/srikaran_p/salvavidas/metrics.json",
+      "capture_timestamp": "20230914003826",
+      "capture_url": "https://web.archive.org/web/20230914003826/https://www.kongregate.com/games/srikaran_p/salvavidas/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914003826_https_www.kongregate.com_games_srikaran_p_salvavidas_metrics.json_af7b121eca15fbae.json"
+    },
+    {
+      "date": "2023-09-14",
       "game_name": "SPACEPLAN Prototype",
       "game_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype",
       "plays_count_observed": 638084,
