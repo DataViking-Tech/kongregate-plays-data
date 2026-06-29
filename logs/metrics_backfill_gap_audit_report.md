@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T13:37:27Z
+Generated: 2026-06-29T13:49:24Z
 
 ## Summary
 
-- Mini-catalog games audited: 1104
-- Games without metrics rows: 199
+- Mini-catalog games audited: 1190
+- Games without metrics rows: 281
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 608
-- Missing CDX cache files: 87
+- Known failed captures: 609
+- Missing CDX cache files: 139
 
 ## Status Counts
 
-- cdx_cache_missing: 87
-- has_metrics: 905
+- cdx_cache_missing: 139
+- has_metrics: 909
 - known_failures_only: 33
-- no_cdx: 79
+- no_cdx: 109
 
 ## Top Unresolved Games
 
@@ -26,27 +26,27 @@ Generated: 2026-06-29T13:37:27Z
 | Energy Bay | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Filler Snake | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Halloween Spooky Motocross | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Shootrio | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Simple factory idle game | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Soul Shadows | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Zombie Cannon Attack! | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Another Platform Game | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| DOT. | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Ensemble | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Halloween Creepy Cemetry | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Halloween Search For History | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Jumpocat | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| Jumpocat | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Swordz.io | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Toy Drop | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
 | Triangle Hero | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| Medieval Cop 8 -DeathWish- (Part 3) | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
 | A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| Bisectors with different distance functions | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| Halloween Brightness Paves The Path | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| Hallowwen Escape Games - 10 Turnips | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| Heroes vs Devil | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| Seize the Saucers! | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| SUV Car Cartoon Puzzle | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
-| Brick Trip Runner | cdx_cache_missing | 4 | 0 | 0 | 0 | 0 |
-| Fractals [kinda math stuff?] | cdx_cache_missing | 4 | 0 | 0 | 0 | 0 |
-| IdlePixelGemMiner | cdx_cache_missing | 4 | 0 | 0 | 0 | 0 |
-| Little Johny House Escape | cdx_cache_missing | 4 | 0 | 0 | 0 | 0 |
-| Princess Lilly Dark Forest Escape | cdx_cache_missing | 4 | 0 | 0 | 0 | 0 |
+| as3 Shootorial #1 | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

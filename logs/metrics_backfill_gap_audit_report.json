@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1104,
+  "catalog_games": 1190,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 199,
-  "generated_at": "2026-06-29T13:37:27Z",
-  "known_failed_captures": 608,
-  "missing_cdx_cache_files": 87,
+  "games_without_metrics_rows": 281,
+  "generated_at": "2026-06-29T13:49:24Z",
+  "known_failed_captures": 609,
+  "missing_cdx_cache_files": 139,
   "status_counts": {
-    "cdx_cache_missing": 87,
-    "has_metrics": 905,
+    "cdx_cache_missing": 139,
+    "has_metrics": 909,
     "known_failures_only": 33,
-    "no_cdx": 79
+    "no_cdx": 109
   },
   "top_unresolved_games": [
     {
@@ -62,6 +62,28 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Run Bird Run Online",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Shootrio",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Simple factory idle game",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -74,6 +96,28 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Soul Shadows",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The Space Commando",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Zombie Cannon Attack!",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -106,7 +150,40 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Cherrie New Spring Trends",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Chevrolet Cruze Puzzle",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "DOT.",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Ensemble",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -143,6 +220,28 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Swordz.io",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Toy Drop",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
       "status": "cdx_cache_missing"
     },
     {
@@ -161,6 +260,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 3)",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3152,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "A Kongergate Special",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -172,122 +282,12 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Bisectors with different distance functions",
+      "game_name": "as3 Shootorial #1",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Halloween Brightness Paves The Path",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Hallowwen Escape Games - 10 Turnips",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Heroes vs Devil",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Seize the Saucers!",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "SUV Car Cartoon Puzzle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Brick Trip Runner",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Fractals [kinda math stuff?]",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "IdlePixelGemMiner",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Little Johny House Escape",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Princess Lilly Dark Forest Escape",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
       "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8076
+  "valid_cached_captures": 8080
 }

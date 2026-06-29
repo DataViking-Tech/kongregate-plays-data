@@ -40037,6 +40037,21 @@
     },
     {
       "date": "2023-09-13",
+      "game_name": "Desert Bus 3D",
+      "game_url": "http://www.kongregate.com/games/firkinstudios/desert-bus-3d",
+      "plays_count_observed": 1350,
+      "favorites_count_observed": 1,
+      "plays_text": "1,350",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "capture_timestamp": "20230913221812",
+      "capture_url": "https://web.archive.org/web/20230913221812/https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913221812_https_www.kongregate.com_games_firkinstudios_desert-bus-3d_metrics.json_5521ed3844752197.json"
+    },
+    {
+      "date": "2023-09-13",
       "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 345360,
@@ -40112,6 +40127,21 @@
     },
     {
       "date": "2023-09-14",
+      "game_name": "Snake Cuby",
+      "game_url": "http://www.kongregate.com/games/sevencolorsapps/snake-cuby",
+      "plays_count_observed": 28,
+      "favorites_count_observed": 0,
+      "plays_text": "28",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/sevencolorsapps/snake-cuby/metrics.json",
+      "capture_timestamp": "20230914004046",
+      "capture_url": "https://web.archive.org/web/20230914004046/https://www.kongregate.com/games/sevencolorsapps/snake-cuby/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914004046_https_www.kongregate.com_games_sevencolorsapps_snake-cuby_metrics.json_c4535a1a210aa5e5.json"
+    },
+    {
+      "date": "2023-09-14",
       "game_name": "SPACEPLAN Prototype",
       "game_url": "http://www.kongregate.com/games/jhollands/spaceplan-prototype",
       "plays_count_observed": 638084,
@@ -40124,6 +40154,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914142715_http_www.kongregate.com_games_jhollands_spaceplan-prototype_metrics.json_6fd35d8c6acef911.json"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "Spin It",
+      "game_url": "http://www.kongregate.com/games/NaiveGames/spin-it",
+      "plays_count_observed": 64,
+      "favorites_count_observed": 1,
+      "plays_text": "64",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/NaiveGames/spin-it/metrics.json",
+      "capture_timestamp": "20230914003634",
+      "capture_url": "https://web.archive.org/web/20230914003634/https://www.kongregate.com/games/NaiveGames/spin-it/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914003634_https_www.kongregate.com_games_NaiveGames_spin-it_metrics.json_4f1fe09a688d8f5b.json"
     },
     {
       "date": "2023-09-14",
@@ -55544,6 +55589,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402214657_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_36271fdf6c847f92.json"
+    },
+    {
+      "date": "2025-04-02",
+      "game_name": "The depths idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle",
+      "plays_count_observed": 265969,
+      "favorites_count_observed": 688,
+      "plays_text": "265,969",
+      "favorites_text": "688",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "capture_timestamp": "20250402214527",
+      "capture_url": "https://web.archive.org/web/20250402214527/https://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402214527_https_www.kongregate.com_games_omgnoob191_the-depths-idle_metrics.json_839170726c6e195c.json"
     },
     {
       "date": "2025-04-02",
