@@ -1666,6 +1666,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170904091750_http_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_2a6cdb5251059498.json"
     },
     {
+      "date": "2017-11-24",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 1387061,
+      "favorites_count_observed": 10920,
+      "plays_text": "1,387,061",
+      "favorites_text": "10,920",
+      "metrics_url": "http://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20171124231755",
+      "capture_url": "https://web.archive.org/web/20171124231755/http://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171124231755_http_www.kongregate.com_games_jetspice_grindcraft_metrics.json_d123b60954970c73.json"
+    },
+    {
       "date": "2018-01-08",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
@@ -1696,6 +1711,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180204035626_http_www.kongregate.com_games_graebor_sort-the-court_metrics.json_03132f1dcb4ff02c.json"
     },
     {
+      "date": "2018-02-14",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 7949314,
+      "favorites_count_observed": 17274,
+      "plays_text": "7,949,314",
+      "favorites_text": "17,274",
+      "metrics_url": "http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20180214171839",
+      "capture_url": "https://web.archive.org/web/20180214171839/http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180214171839_http_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_abfe2d11d6435f45.json"
+    },
+    {
       "date": "2018-02-15",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -1709,6 +1739,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180215134357_http_www.kongregate.com_games_throwdown_animation-throwdown_metrics.json_4bc613d4cc99cf7d.json"
+    },
+    {
+      "date": "2018-02-21",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 12681018,
+      "favorites_count_observed": 68837,
+      "plays_text": "12,681,018",
+      "favorites_text": "68,837",
+      "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20180221184255",
+      "capture_url": "https://web.archive.org/web/20180221184255/http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180221184255_http_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_b133eb4755fa60e2.json"
     },
     {
       "date": "2018-03-12",
@@ -5102,6 +5147,21 @@
     },
     {
       "date": "2020-04-29",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1431425,
+      "favorites_count_observed": 24149,
+      "plays_text": "1,431,425",
+      "favorites_text": "24,149",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20200429125445",
+      "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_ab9b005d917491ed.json"
+    },
+    {
+      "date": "2020-04-29",
       "game_name": "Idle Online Universe",
       "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
       "plays_count_observed": 8484846,
@@ -5444,6 +5504,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172621_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_61a08b87f6da858b.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1454853,
+      "favorites_count_observed": 24391,
+      "plays_text": "1,454,853",
+      "favorites_text": "24,391",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20200716172641",
+      "capture_url": "https://web.archive.org/web/20200716172641/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172641_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_b0696b8f743735d7.json"
     },
     {
       "date": "2020-07-16",
@@ -7022,6 +7097,21 @@
     },
     {
       "date": "2020-11-11",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14584355,
+      "favorites_count_observed": 74525,
+      "plays_text": "14,584,355",
+      "favorites_text": "74,525",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20201111052005",
+      "capture_url": "https://web.archive.org/web/20201111052005/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201111052005_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_d7d29d9e43b41a86.json"
+    },
+    {
+      "date": "2020-11-11",
       "game_name": "Mastermind: World Conquerer",
       "game_url": "http://www.kongregate.com/games/theswain/mastermind-world-conquerer",
       "plays_count_observed": 3916005,
@@ -7307,6 +7397,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14594480,
+      "favorites_count_observed": 74537,
+      "plays_text": "14,594,480",
+      "favorites_text": "74,537",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20201201204707",
+      "capture_url": "https://web.archive.org/web/20201201204707/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204707_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_499386b01325f461.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34587922,
@@ -7319,6 +7424,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204732_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_e518b652f4443e76.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1499356,
+      "favorites_count_observed": 24856,
+      "plays_text": "1,499,356",
+      "favorites_text": "24,856",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20201201204232",
+      "capture_url": "https://web.archive.org/web/20201201204232/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204232_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_ad37f8db53de2d6e.json"
     },
     {
       "date": "2020-12-01",
@@ -7787,6 +7907,21 @@
     },
     {
       "date": "2020-12-12",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14599052,
+      "favorites_count_observed": 74543,
+      "plays_text": "14,599,052",
+      "favorites_text": "74,543",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20201212201638",
+      "capture_url": "https://web.archive.org/web/20201212201638/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201638_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_295570f872e9ea06.json"
+    },
+    {
+      "date": "2020-12-12",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 33498331,
@@ -8192,6 +8327,21 @@
     },
     {
       "date": "2021-01-01",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14606150,
+      "favorites_count_observed": 74555,
+      "plays_text": "14,606,150",
+      "favorites_text": "74,555",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20210101203751",
+      "capture_url": "https://web.archive.org/web/20210101203751/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101203751_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_98091b4a52734b40.json"
+    },
+    {
+      "date": "2021-01-01",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 33535367,
@@ -8252,6 +8402,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14607815,
+      "favorites_count_observed": 74558,
+      "plays_text": "14,607,815",
+      "favorites_text": "74,558",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20210106190333",
+      "capture_url": "https://web.archive.org/web/20210106190333/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190333_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_1da461fad46cb779.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 33545330,
@@ -8294,6 +8459,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106185959_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_6ec6d86443abd1df.json"
+    },
+    {
+      "date": "2021-01-06",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1508137,
+      "favorites_count_observed": 24909,
+      "plays_text": "1,508,137",
+      "favorites_text": "24,909",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20210106190146",
+      "capture_url": "https://web.archive.org/web/20210106190146/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190146_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_fdcd121dacaac22d.json"
     },
     {
       "date": "2021-01-06",
@@ -8942,6 +9122,21 @@
     },
     {
       "date": "2021-02-18",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 1958624,
+      "favorites_count_observed": 15117,
+      "plays_text": "1,958,624",
+      "favorites_text": "15,117",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20210218121957",
+      "capture_url": "https://web.archive.org/web/20210218121957/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210218121957_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_2547dabc053ce6e2.json"
+    },
+    {
+      "date": "2021-02-18",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 16426965,
@@ -9557,6 +9752,21 @@
     },
     {
       "date": "2021-05-24",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14635693,
+      "favorites_count_observed": 74546,
+      "plays_text": "14,635,693",
+      "favorites_text": "74,546",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20210524073311",
+      "capture_url": "https://web.archive.org/web/20210524073311/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073311_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_42d69b9078a40a9c.json"
+    },
+    {
+      "date": "2021-05-24",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 33793543,
@@ -9584,6 +9794,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073104_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_c7b24c64b2fe1f88.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1530053,
+      "favorites_count_observed": 24931,
+      "plays_text": "1,530,053",
+      "favorites_text": "24,931",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20210524073103",
+      "capture_url": "https://web.archive.org/web/20210524073103/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073103_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_ea888c0002f63678.json"
     },
     {
       "date": "2021-05-24",
@@ -9794,6 +10019,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210529202414_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_4389ae675fe4b6a3.json"
+    },
+    {
+      "date": "2021-05-29",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1530770,
+      "favorites_count_observed": 24932,
+      "plays_text": "1,530,770",
+      "favorites_text": "24,932",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20210529205316",
+      "capture_url": "https://web.archive.org/web/20210529205316/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210529205316_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_4d9c7c8c252ef025.json"
     },
     {
       "date": "2021-05-29",
@@ -10171,6 +10411,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210715143455_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_e7a794adfe63d506.json"
     },
     {
+      "date": "2021-07-16",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 1980587,
+      "favorites_count_observed": 15155,
+      "plays_text": "1,980,587",
+      "favorites_text": "15,155",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20210716005425",
+      "capture_url": "https://web.archive.org/web/20210716005425/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210716005425_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_959c6d04f70aee65.json"
+    },
+    {
       "date": "2021-07-17",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
@@ -10516,6 +10771,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211015050311_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_d77be2615709d14d.json"
     },
     {
+      "date": "2021-10-17",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 1992050,
+      "favorites_count_observed": 15176,
+      "plays_text": "1,992,050",
+      "favorites_text": "15,176",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20211017123413",
+      "capture_url": "https://web.archive.org/web/20211017123413/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211017123413_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_a880f4b05cde7dc3.json"
+    },
+    {
       "date": "2021-10-21",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -10544,6 +10814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110905_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_16316bb74465183a.json"
+    },
+    {
+      "date": "2021-10-21",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1545149,
+      "favorites_count_observed": 24957,
+      "plays_text": "1,545,149",
+      "favorites_text": "24,957",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20211021110756",
+      "capture_url": "https://web.archive.org/web/20211021110756/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110756_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_817c24e3807e230d.json"
     },
     {
       "date": "2021-10-21",
@@ -10847,6 +11132,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14655765,
+      "favorites_count_observed": 74547,
+      "plays_text": "14,655,765",
+      "favorites_text": "74,547",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20211030182558",
+      "capture_url": "https://web.archive.org/web/20211030182558/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182558_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_333ad458dc0fde51.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34079461,
@@ -10874,6 +11174,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182658_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_9672d95bf5497dcf.json"
+    },
+    {
+      "date": "2021-10-30",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1546203,
+      "favorites_count_observed": 24958,
+      "plays_text": "1,546,203",
+      "favorites_text": "24,958",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20211030182533",
+      "capture_url": "https://web.archive.org/web/20211030182533/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182533_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_fccd654836a43bd2.json"
     },
     {
       "date": "2021-10-30",
@@ -11117,6 +11432,21 @@
     },
     {
       "date": "2021-10-31",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14655968,
+      "favorites_count_observed": 74547,
+      "plays_text": "14,655,968",
+      "favorites_text": "74,547",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20211031205142",
+      "capture_url": "https://web.archive.org/web/20211031205142/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205142_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_82a5ecb46c4ae0d2.json"
+    },
+    {
+      "date": "2021-10-31",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34082164,
@@ -11159,6 +11489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205155_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_ea4850ffed7edbae.json"
+    },
+    {
+      "date": "2021-10-31",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1546329,
+      "favorites_count_observed": 24959,
+      "plays_text": "1,546,329",
+      "favorites_text": "24,959",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20211031205348",
+      "capture_url": "https://web.archive.org/web/20211031205348/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205348_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_746d2b9d19120586.json"
     },
     {
       "date": "2021-10-31",
@@ -11882,6 +12227,21 @@
     },
     {
       "date": "2021-11-20",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14658960,
+      "favorites_count_observed": 74547,
+      "plays_text": "14,658,960",
+      "favorites_text": "74,547",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20211120111532",
+      "capture_url": "https://web.archive.org/web/20211120111532/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111532_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_f2a153dc76f4766b.json"
+    },
+    {
+      "date": "2021-11-20",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34132641,
@@ -11894,6 +12254,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111230_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_a28cb39ade36e552.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1548492,
+      "favorites_count_observed": 24963,
+      "plays_text": "1,548,492",
+      "favorites_text": "24,963",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20211120111227",
+      "capture_url": "https://web.archive.org/web/20211120111227/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111227_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_13fe825671bd8702.json"
     },
     {
       "date": "2021-11-20",
@@ -12437,6 +12812,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14665430,
+      "favorites_count_observed": 74547,
+      "plays_text": "14,665,430",
+      "favorites_text": "74,547",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20220111080019",
+      "capture_url": "https://web.archive.org/web/20220111080019/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080019_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_b768076a826f4f2c.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34227157,
@@ -12479,6 +12869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080042_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_fddb7372d5afebb0.json"
+    },
+    {
+      "date": "2022-01-11",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1552672,
+      "favorites_count_observed": 24967,
+      "plays_text": "1,552,672",
+      "favorites_text": "24,967",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20220111080253",
+      "capture_url": "https://web.archive.org/web/20220111080253/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111080253_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_154e07123c9d4335.json"
     },
     {
       "date": "2022-01-11",
@@ -12872,6 +13277,21 @@
     },
     {
       "date": "2022-02-15",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14669618,
+      "favorites_count_observed": 74547,
+      "plays_text": "14,669,618",
+      "favorites_text": "74,547",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20220215172532",
+      "capture_url": "https://web.archive.org/web/20220215172532/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172532_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_4d19fd9d79ed7430.json"
+    },
+    {
+      "date": "2022-02-15",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34301293,
@@ -12899,6 +13319,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172344_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_6eb6924423652ee9.json"
+    },
+    {
+      "date": "2022-02-15",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1555714,
+      "favorites_count_observed": 24975,
+      "plays_text": "1,555,714",
+      "favorites_text": "24,975",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20220215172443",
+      "capture_url": "https://web.archive.org/web/20220215172443/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172443_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_1bb591476e30a64f.json"
     },
     {
       "date": "2022-02-15",
@@ -13424,6 +13859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042519_https_www.kongregate.com_games_ArmorGames_elephant-quest_metrics.json_f4f76d97ba6830fa.json"
+    },
+    {
+      "date": "2022-04-01",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1559264,
+      "favorites_count_observed": 24990,
+      "plays_text": "1,559,264",
+      "favorites_text": "24,990",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20220401042730",
+      "capture_url": "https://web.archive.org/web/20220401042730/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042730_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_029b56dd4b4c147b.json"
     },
     {
       "date": "2022-04-01",
@@ -14219,6 +14669,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220601152818_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_87dbd41c2ff8b814.json"
+    },
+    {
+      "date": "2022-06-05",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2016343,
+      "favorites_count_observed": 15229,
+      "plays_text": "2,016,343",
+      "favorites_text": "15,229",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20220605191754",
+      "capture_url": "https://web.archive.org/web/20220605191754/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220605191754_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_2a3ce39270309e0d.json"
     },
     {
       "date": "2022-06-13",
@@ -15092,6 +15557,21 @@
     },
     {
       "date": "2022-10-23",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1573258,
+      "favorites_count_observed": 25011,
+      "plays_text": "1,573,258",
+      "favorites_text": "25,011",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20221023140655",
+      "capture_url": "https://web.archive.org/web/20221023140655/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221023140655_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_2e5185dfef2faa51.json"
+    },
+    {
+      "date": "2022-10-23",
       "game_name": "Infectonator 2",
       "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
       "plays_count_observed": 6304237,
@@ -15287,6 +15767,21 @@
     },
     {
       "date": "2022-12-03",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1576211,
+      "favorites_count_observed": 17772,
+      "plays_text": "1,576,211",
+      "favorites_text": "17,772",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20221203125917",
+      "capture_url": "https://web.archive.org/web/20221203125917/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221203125917_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_fe9fffed10968d38.json"
+    },
+    {
+      "date": "2022-12-03",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 19574212,
@@ -15392,6 +15887,21 @@
     },
     {
       "date": "2022-12-04",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14700821,
+      "favorites_count_observed": 60256,
+      "plays_text": "14,700,821",
+      "favorites_text": "60,256",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20221204231836",
+      "capture_url": "https://web.archive.org/web/20221204231836/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231836_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_bdc5a893700850ac.json"
+    },
+    {
+      "date": "2022-12-04",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34851992,
@@ -15419,6 +15929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231757_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_0e6d825c497b85b2.json"
+    },
+    {
+      "date": "2022-12-04",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1576312,
+      "favorites_count_observed": 17772,
+      "plays_text": "1,576,312",
+      "favorites_text": "17,772",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20221204231844",
+      "capture_url": "https://web.archive.org/web/20221204231844/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221204231844_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_eead55300efb5910.json"
     },
     {
       "date": "2022-12-04",
@@ -15572,6 +16097,21 @@
     },
     {
       "date": "2022-12-05",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14700854,
+      "favorites_count_observed": 60256,
+      "plays_text": "14,700,854",
+      "favorites_text": "60,256",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20221205062902",
+      "capture_url": "https://web.archive.org/web/20221205062902/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062902_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_c4b3f8de2e799633.json"
+    },
+    {
+      "date": "2022-12-05",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34852535,
@@ -15599,6 +16139,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062819_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_2f5122ca08b598e4.json"
+    },
+    {
+      "date": "2022-12-05",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1576337,
+      "favorites_count_observed": 17773,
+      "plays_text": "1,576,337",
+      "favorites_text": "17,773",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20221205062729",
+      "capture_url": "https://web.archive.org/web/20221205062729/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221205062729_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_3e00bb90b206581d.json"
     },
     {
       "date": "2022-12-05",
@@ -15767,6 +16322,21 @@
     },
     {
       "date": "2022-12-06",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14701085,
+      "favorites_count_observed": 60256,
+      "plays_text": "14,701,085",
+      "favorites_text": "60,256",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20221206134532",
+      "capture_url": "https://web.archive.org/web/20221206134532/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134532_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_4521ef991e151b07.json"
+    },
+    {
+      "date": "2022-12-06",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 34854749,
@@ -15809,6 +16379,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134704_https_www.kongregate.com_games_kingk_dream-world_metrics.json_6b6e78eac759172e.json"
+    },
+    {
+      "date": "2022-12-06",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1576460,
+      "favorites_count_observed": 17773,
+      "plays_text": "1,576,460",
+      "favorites_text": "17,773",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20221206134600",
+      "capture_url": "https://web.archive.org/web/20221206134600/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134600_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_67b96346892dec5d.json"
     },
     {
       "date": "2022-12-06",
@@ -17192,6 +17777,21 @@
     },
     {
       "date": "2023-03-29",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14715114,
+      "favorites_count_observed": 60259,
+      "plays_text": "14,715,114",
+      "favorites_text": "60,259",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20230329173044",
+      "capture_url": "https://web.archive.org/web/20230329173044/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329173044_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_5bb45ca9be3ace7d.json"
+    },
+    {
+      "date": "2023-03-29",
       "game_name": "Cubito Mayhem",
       "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
       "plays_count_observed": 177516,
@@ -17279,6 +17879,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330175724_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_762e5694ef388665.json"
+    },
+    {
+      "date": "2023-03-30",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2047144,
+      "favorites_count_observed": 14036,
+      "plays_text": "2,047,144",
+      "favorites_text": "14,036",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20230330043634",
+      "capture_url": "https://web.archive.org/web/20230330043634/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330043634_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_2a5a077bca4044e8.json"
     },
     {
       "date": "2023-03-30",
@@ -18452,6 +19067,21 @@
     },
     {
       "date": "2023-09-11",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2058322,
+      "favorites_count_observed": 14089,
+      "plays_text": "2,058,322",
+      "favorites_text": "14,089",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20230911131430",
+      "capture_url": "https://web.archive.org/web/20230911131430/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230911131430_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_7d263b900a7f899a.json"
+    },
+    {
+      "date": "2023-09-11",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31505995,
@@ -18662,6 +19292,21 @@
     },
     {
       "date": "2023-09-23",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14727733,
+      "favorites_count_observed": 60257,
+      "plays_text": "14,727,733",
+      "favorites_text": "60,257",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20230923005258",
+      "capture_url": "https://web.archive.org/web/20230923005258/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923005258_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_85b01a2865953ef3.json"
+    },
+    {
+      "date": "2023-09-23",
       "game_name": "Elephant Quest",
       "game_url": "http://www.kongregate.com/games/ArmorGames/elephant-quest",
       "plays_count_observed": 5145205,
@@ -18689,6 +19334,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203124_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-4_metrics.json_8a74fc66d76ba578.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Fleeing the Complex",
+      "game_url": "http://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1594422,
+      "favorites_count_observed": 17872,
+      "plays_text": "1,594,422",
+      "favorites_text": "17,872",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20230923203102",
+      "capture_url": "https://web.archive.org/web/20230923203102/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203102_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_1604c1014939415d.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2059414,
+      "favorites_count_observed": 14093,
+      "plays_text": "2,059,414",
+      "favorites_text": "14,093",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20230923023935",
+      "capture_url": "https://web.archive.org/web/20230923023935/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923023935_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_f6ddd6156227a8fe.json"
     },
     {
       "date": "2023-09-23",
@@ -19396,6 +20071,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231125075420_https_www.kongregate.com_games_theswain_mastermind-world-conquerer_metrics.json_5991e8cdde4107a0.json"
     },
     {
+      "date": "2023-11-27",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2064883,
+      "favorites_count_observed": 14121,
+      "plays_text": "2,064,883",
+      "favorites_text": "14,121",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20231127233229",
+      "capture_url": "https://web.archive.org/web/20231127233229/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231127233229_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_670be76b5afc38f7.json"
+    },
+    {
       "date": "2023-11-30",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
@@ -19547,6 +20237,21 @@
     },
     {
       "date": "2023-12-17",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2066245,
+      "favorites_count_observed": 14131,
+      "plays_text": "2,066,245",
+      "favorites_text": "14,131",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20231217060623",
+      "capture_url": "https://web.archive.org/web/20231217060623/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217060623_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_fb7ee5b465817576.json"
+    },
+    {
+      "date": "2023-12-17",
       "game_name": "Tangerine Tycoon",
       "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
       "plays_count_observed": 3561667,
@@ -19574,6 +20279,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231217011658_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_d9326364d297d431.json"
+    },
+    {
+      "date": "2023-12-18",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2066310,
+      "favorites_count_observed": 14134,
+      "plays_text": "2,066,310",
+      "favorites_text": "14,134",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20231218065245",
+      "capture_url": "https://web.archive.org/web/20231218065245/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231218065245_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_2ddc97297f30c9f3.json"
     },
     {
       "date": "2023-12-18",
@@ -20447,6 +21167,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14734301,
+      "favorites_count_observed": 60257,
+      "plays_text": "14,734,301",
+      "favorites_text": "60,257",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20240121200227",
+      "capture_url": "https://web.archive.org/web/20240121200227/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121200227_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_ba0812823c8cd95e.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Cursed Treasure: Level...",
       "game_url": "http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack",
       "plays_count_observed": 4989501,
@@ -20489,6 +21224,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121135013_https_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_489a33a54b82d1bf.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2068462,
+      "favorites_count_observed": 14144,
+      "plays_text": "2,068,462",
+      "favorites_text": "14,144",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240121182424",
+      "capture_url": "https://web.archive.org/web/20240121182424/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121182424_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_25ae4e8bc5012afd.json"
     },
     {
       "date": "2024-01-21",
@@ -21377,6 +22127,21 @@
     },
     {
       "date": "2024-03-08",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14736058,
+      "favorites_count_observed": 60257,
+      "plays_text": "14,736,058",
+      "favorites_text": "60,257",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20240308144227",
+      "capture_url": "https://web.archive.org/web/20240308144227/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308144227_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_c0347e85ddf7ba0b.json"
+    },
+    {
+      "date": "2024-03-08",
       "game_name": "Convergence",
       "game_url": "http://www.kongregate.com/games/Talon88/convergence",
       "plays_count_observed": 203458,
@@ -21419,6 +22184,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308054404_https_www.kongregate.com_games_kingk_dream-world_metrics.json_465b4031b2985cbb.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2072048,
+      "favorites_count_observed": 14156,
+      "plays_text": "2,072,048",
+      "favorites_text": "14,156",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240308124309",
+      "capture_url": "https://web.archive.org/web/20240308124309/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308124309_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_0ef48f99908d597f.json"
     },
     {
       "date": "2024-03-08",
@@ -21766,6 +22546,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406140557_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_0189295ab42ba6b0.json"
     },
     {
+      "date": "2024-04-06",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2074724,
+      "favorites_count_observed": 14166,
+      "plays_text": "2,074,724",
+      "favorites_text": "14,166",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240406140133",
+      "capture_url": "https://web.archive.org/web/20240406140133/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406140133_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_b5b3a2d0a0a96413.json"
+    },
+    {
       "date": "2024-04-13",
       "game_name": "Spiral Knights",
       "game_url": "http://www.kongregate.com/games/SpiralKnights/spiral-knights",
@@ -21809,6 +22604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240420220928_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_ca80653f8740787b.json"
+    },
+    {
+      "date": "2024-04-21",
+      "game_name": "Sift Heads World - Act 6",
+      "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-6",
+      "plays_count_observed": 278808,
+      "favorites_count_observed": 3168,
+      "plays_text": "278,808",
+      "favorites_text": "3,168",
+      "metrics_url": "http://www.kongregate.com/games/WebCypher/sift-heads-world-act-6/metrics.json",
+      "capture_timestamp": "20240421123052",
+      "capture_url": "https://web.archive.org/web/20240421123052/http://www.kongregate.com/games/WebCypher/sift-heads-world-act-6/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240421123052_http_www.kongregate.com_games_WebCypher_sift-heads-world-act-6_metrics.json_be0d5d9ed94da265.json"
     },
     {
       "date": "2024-04-22",
@@ -23177,6 +23987,21 @@
     },
     {
       "date": "2024-08-16",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2084385,
+      "favorites_count_observed": 14200,
+      "plays_text": "2,084,385",
+      "favorites_text": "14,200",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240816204555",
+      "capture_url": "https://web.archive.org/web/20240816204555/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816204555_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_8d58258b59260f7a.json"
+    },
+    {
+      "date": "2024-08-16",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 46755193,
@@ -23371,6 +24196,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240827050604_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_b630b9132f1b23ea.json"
     },
     {
+      "date": "2024-09-01",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2085498,
+      "favorites_count_observed": 14207,
+      "plays_text": "2,085,498",
+      "favorites_text": "14,207",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240901040450",
+      "capture_url": "https://web.archive.org/web/20240901040450/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240901040450_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_3df5a265da6a76e4.json"
+    },
+    {
+      "date": "2024-09-03",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2085701,
+      "favorites_count_observed": 14207,
+      "plays_text": "2,085,701",
+      "favorites_text": "14,207",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240903231137",
+      "capture_url": "https://web.archive.org/web/20240903231137/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903231137_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_8ae127077a573430.json"
+    },
+    {
       "date": "2024-09-05",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -23504,6 +24359,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240921235730_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_93734794a65d2393.json"
+    },
+    {
+      "date": "2024-09-21",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2087188,
+      "favorites_count_observed": 14214,
+      "plays_text": "2,087,188",
+      "favorites_text": "14,214",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20240921182641",
+      "capture_url": "https://web.archive.org/web/20240921182641/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240921182641_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_569e07b7f65ffa4a.json"
     },
     {
       "date": "2024-09-23",
@@ -24421,6 +25291,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250120174820_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_3925ef40abb79679.json"
     },
     {
+      "date": "2025-01-24",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2095593,
+      "favorites_count_observed": 14243,
+      "plays_text": "2,095,593",
+      "favorites_text": "14,243",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20250124232540",
+      "capture_url": "https://web.archive.org/web/20250124232540/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250124232540_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_63f9d17395b135b6.json"
+    },
+    {
       "date": "2025-02-08",
       "game_name": "Cosmos Quest",
       "game_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest",
@@ -25306,6 +26191,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250711184044_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_e38b3e8c286e2a1a.json"
     },
     {
+      "date": "2025-07-14",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14742266,
+      "favorites_count_observed": 60250,
+      "plays_text": "14,742,266",
+      "favorites_text": "60,250",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20250714205402",
+      "capture_url": "https://web.archive.org/web/20250714205402/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250714205402_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_8ecca6778a180e0e.json"
+    },
+    {
       "date": "2025-07-17",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -25814,6 +26714,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251025213124_https_www.kongregate.com_en_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_5a9daeda89dc7beb.json"
+    },
+    {
+      "date": "2025-10-29",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
+      "plays_count_observed": 2112379,
+      "favorites_count_observed": 14300,
+      "plays_text": "2,112,379",
+      "favorites_text": "14,300",
+      "metrics_url": "https://www.kongregate.com/en/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20251029053826",
+      "capture_url": "https://web.archive.org/web/20251029053826/https://www.kongregate.com/en/games/jetspice/grindcraft/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251029053826_https_www.kongregate.com_en_games_jetspice_grindcraft_metrics.json_1482e1c9f8cd35fb.json"
     }
   ]
 }
