@@ -121,6 +121,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140924143015_http_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_1c2d0d053f03de0f.json"
     },
     {
+      "date": "2014-10-09",
+      "game_name": "Mud and Blood 2",
+      "game_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2",
+      "plays_count_observed": 8631828,
+      "favorites_count_observed": 42223,
+      "plays_text": "8,631,828",
+      "favorites_text": "42,223",
+      "metrics_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "capture_timestamp": "20141009131849",
+      "capture_url": "https://web.archive.org/web/20141009131849/http://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20141009131849_http_www.kongregate.com_games_urbz_mud-and-blood-2_metrics.json_921466428e8ec6df.json"
+    },
+    {
       "date": "2014-10-20",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
@@ -2072,6 +2087,21 @@
     },
     {
       "date": "2019-01-16",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1804310,
+      "favorites_count_observed": 19258,
+      "plays_text": "1,804,310",
+      "favorites_text": "19,258",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20190116070336",
+      "capture_url": "https://web.archive.org/web/20190116070336/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190116070336_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_475a2264172e77af.json"
+    },
+    {
+      "date": "2019-01-16",
       "game_name": "Strikeforce Kitty 2",
       "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
       "plays_count_observed": 887006,
@@ -2477,6 +2507,36 @@
     },
     {
       "date": "2019-08-14",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1832329,
+      "favorites_count_observed": 19411,
+      "plays_text": "1,832,329",
+      "favorites_text": "19,411",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20190814142923",
+      "capture_url": "https://web.archive.org/web/20190814142923/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190814142923_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_3c261cbf070d9b38.json"
+    },
+    {
+      "date": "2019-08-14",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1832330,
+      "favorites_count_observed": 19411,
+      "plays_text": "1,832,330",
+      "favorites_text": "19,411",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20190814142924",
+      "capture_url": "https://web.archive.org/web/20190814142924/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190814142924_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_6650df07ab135a24.json"
+    },
+    {
+      "date": "2019-08-14",
       "game_name": "Rebuild",
       "game_url": "http://www.kongregate.com/games/sarahnorthway/rebuild",
       "plays_count_observed": 6056368,
@@ -2822,6 +2882,21 @@
     },
     {
       "date": "2019-10-17",
+      "game_name": "Mud and Blood 2",
+      "game_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2",
+      "plays_count_observed": 9695066,
+      "favorites_count_observed": 46363,
+      "plays_text": "9,695,066",
+      "favorites_text": "46,363",
+      "metrics_url": "https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "capture_timestamp": "20191017183845",
+      "capture_url": "https://web.archive.org/web/20191017183845/https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183845_https_www.kongregate.com_games_urbz_mud-and-blood-2_metrics.json_198a04718d8e95cb.json"
+    },
+    {
+      "date": "2019-10-17",
       "game_name": "NGU IDLE",
       "game_url": "https://www.kongregate.com/games/somethingggg/ngu-idle",
       "plays_count_observed": 9970442,
@@ -2924,6 +2999,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040559_https_www.kongregate.com_games_Playsaurus_clicker-heroes_metrics.json_33fd5074d1475cb7.json"
+    },
+    {
+      "date": "2019-10-21",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1853718,
+      "favorites_count_observed": 19502,
+      "plays_text": "1,853,718",
+      "favorites_text": "19,502",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20191021040558",
+      "capture_url": "https://web.archive.org/web/20191021040558/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040558_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_aaadf601d54ba149.json"
     },
     {
       "date": "2019-10-21",
@@ -4004,6 +4094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034651_http_www.kongregate.com_games_Codename_Enter_crusaders-of-the-lost-idols_metrics.json_e81493e768289d53.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 6169607,
+      "favorites_count_observed": 21114,
+      "plays_text": "6,169,607",
+      "favorites_text": "21,114",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_ef530e4cf146b693.json"
     },
     {
       "date": "2019-12-15",
@@ -5836,6 +5941,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200528073813_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_177e7952df621ae6.json"
     },
     {
+      "date": "2020-05-28",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1880175,
+      "favorites_count_observed": 19612,
+      "plays_text": "1,880,175",
+      "favorites_text": "19,612",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20200528073625",
+      "capture_url": "https://web.archive.org/web/20200528073625/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200528073625_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_9190f559df836848.json"
+    },
+    {
       "date": "2020-06-21",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -7336,6 +7456,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201026134037_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_2ed1b75a8e0e5339.json"
     },
     {
+      "date": "2020-10-29",
+      "game_name": "Desktop TD Pro",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/desktop-td-pro",
+      "plays_count_observed": 5030827,
+      "favorites_count_observed": 22910,
+      "plays_text": "5,030,827",
+      "favorites_text": "22,910",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "capture_timestamp": "20201029203215",
+      "capture_url": "https://web.archive.org/web/20201029203215/https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201029203215_https_www.kongregate.com_games_CasualCollective_desktop-td-pro_metrics.json_6cdf755f4bad28a1.json"
+    },
+    {
       "date": "2020-10-30",
       "game_name": "Strike Force Heroes 2",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
@@ -7679,6 +7814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201105202546_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_7538952e63c334d0.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 6617556,
+      "favorites_count_observed": 22652,
+      "plays_text": "6,617,556",
+      "favorites_text": "22,652",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20201107015530",
+      "capture_url": "https://web.archive.org/web/20201107015530/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107015530_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_32d8c90f22587d01.json"
     },
     {
       "date": "2020-11-07",
@@ -13936,6 +14086,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211225133501_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_c6dccc7159be12be.json"
     },
     {
+      "date": "2022-01-04",
+      "game_name": "Desktop TD Pro",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/desktop-td-pro",
+      "plays_count_observed": 5049287,
+      "favorites_count_observed": 22929,
+      "plays_text": "5,049,287",
+      "favorites_text": "22,929",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "capture_timestamp": "20220104124253",
+      "capture_url": "https://web.archive.org/web/20220104124253/https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220104124253_https_www.kongregate.com_games_CasualCollective_desktop-td-pro_metrics.json_7df8fd007729866f.json"
+    },
+    {
       "date": "2022-01-05",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
@@ -17176,6 +17341,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221129164045_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_91256b94db1490c4.json"
     },
     {
+      "date": "2022-12-02",
+      "game_name": "Mud and Blood 2",
+      "game_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2",
+      "plays_count_observed": 9878653,
+      "favorites_count_observed": 46115,
+      "plays_text": "9,878,653",
+      "favorites_text": "46,115",
+      "metrics_url": "https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "capture_timestamp": "20221202190735",
+      "capture_url": "https://web.archive.org/web/20221202190735/https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221202190735_https_www.kongregate.com_games_urbz_mud-and-blood-2_metrics.json_f45aee5de425a642.json"
+    },
+    {
       "date": "2022-12-03",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -19412,6 +19592,21 @@
     },
     {
       "date": "2023-03-29",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7265044,
+      "favorites_count_observed": 21274,
+      "plays_text": "7,265,044",
+      "favorites_text": "21,274",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230329172019",
+      "capture_url": "https://web.archive.org/web/20230329172019/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230329172019_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_3e2a185bc912ab05.json"
+    },
+    {
+      "date": "2023-03-29",
       "game_name": "Cubito Mayhem",
       "game_url": "https://www.kongregate.com/games/oultrox/cubito-mayhem",
       "plays_count_observed": 177516,
@@ -19769,6 +19964,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230417220744_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_565b88e560a5502e.json"
+    },
+    {
+      "date": "2023-04-18",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7304131,
+      "favorites_count_observed": 21301,
+      "plays_text": "7,304,131",
+      "favorites_text": "21,301",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230418024455",
+      "capture_url": "https://web.archive.org/web/20230418024455/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230418024455_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_f83b16d8e165c9bf.json"
     },
     {
       "date": "2023-05-05",
@@ -20204,6 +20414,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230701214617_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_f65bfc64a460d54a.json"
+    },
+    {
+      "date": "2023-07-03",
+      "game_name": "Desktop TD Pro",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/desktop-td-pro",
+      "plays_count_observed": 5057076,
+      "favorites_count_observed": 22768,
+      "plays_text": "5,057,076",
+      "favorites_text": "22,768",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "capture_timestamp": "20230703141639",
+      "capture_url": "https://web.archive.org/web/20230703141639/https://www.kongregate.com/games/CasualCollective/desktop-td-pro/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230703141639_https_www.kongregate.com_games_CasualCollective_desktop-td-pro_metrics.json_2f573d98bb1e0875.json"
     },
     {
       "date": "2023-07-10",
@@ -20941,6 +21166,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230904144042_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_4fceced4169734e8.json"
     },
     {
+      "date": "2023-09-05",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7478152,
+      "favorites_count_observed": 21487,
+      "plays_text": "7,478,152",
+      "favorites_text": "21,487",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230905124543",
+      "capture_url": "https://web.archive.org/web/20230905124543/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230905124543_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_ba83365a4efcb371.json"
+    },
+    {
       "date": "2023-09-07",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
@@ -21211,6 +21451,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230919134154_https_www.kongregate.com_games_sarahnorthway_rebuild-2_metrics.json_fe56ddeee3e5835b.json"
     },
     {
+      "date": "2023-09-22",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7498062,
+      "favorites_count_observed": 21504,
+      "plays_text": "7,498,062",
+      "favorites_text": "21,504",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230922140457",
+      "capture_url": "https://web.archive.org/web/20230922140457/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230922140457_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_120c2be1b746e026.json"
+    },
+    {
       "date": "2023-09-23",
       "game_name": "Bloons Monkey City",
       "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
@@ -21224,6 +21479,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923005258_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_85b01a2865953ef3.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7500087,
+      "favorites_count_observed": 21507,
+      "plays_text": "7,500,087",
+      "favorites_text": "21,507",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230923020119",
+      "capture_url": "https://web.archive.org/web/20230923020119/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923020119_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_da3df40087aaa700.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7500208,
+      "favorites_count_observed": 21507,
+      "plays_text": "7,500,208",
+      "favorites_text": "21,507",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230923030738",
+      "capture_url": "https://web.archive.org/web/20230923030738/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923030738_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_915a8e229452c818.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7500209,
+      "favorites_count_observed": 21507,
+      "plays_text": "7,500,209",
+      "favorites_text": "21,507",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20230923030742",
+      "capture_url": "https://web.archive.org/web/20230923030742/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923030742_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_c03f66f9c6835cbc.json"
     },
     {
       "date": "2023-09-23",
@@ -21734,6 +22034,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231018035141_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4e7516682a4bb9d7.json"
+    },
+    {
+      "date": "2023-10-19",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7524630,
+      "favorites_count_observed": 21522,
+      "plays_text": "7,524,630",
+      "favorites_text": "21,522",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20231019130749",
+      "capture_url": "https://web.archive.org/web/20231019130749/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231019130749_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_692664d850d16d29.json"
     },
     {
       "date": "2023-10-20",
@@ -22352,6 +22667,21 @@
     },
     {
       "date": "2023-12-21",
+      "game_name": "Creeper World: User Space",
+      "game_url": "http://www.kongregate.com/games/whiteboardwar/creeper-world-user-space",
+      "plays_count_observed": 1955239,
+      "favorites_count_observed": 19699,
+      "plays_text": "1,955,239",
+      "favorites_text": "19,699",
+      "metrics_url": "https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "capture_timestamp": "20231221204655",
+      "capture_url": "https://web.archive.org/web/20231221204655/https://www.kongregate.com/games/whiteboardwar/creeper-world-user-space/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231221204655_https_www.kongregate.com_games_whiteboardwar_creeper-world-user-space_metrics.json_89229361021b1d67.json"
+    },
+    {
+      "date": "2023-12-21",
       "game_name": "Dolphin Olympics 2",
       "game_url": "http://www.kongregate.com/games/arawkins/dolphin-olympics-2",
       "plays_count_observed": 13036996,
@@ -22649,6 +22979,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240113091339_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_b38e81b62fca9f8a.json"
+    },
+    {
+      "date": "2024-01-13",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7591796,
+      "favorites_count_observed": 21629,
+      "plays_text": "7,591,796",
+      "favorites_text": "21,629",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240113091328",
+      "capture_url": "https://web.archive.org/web/20240113091328/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240113091328_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_a2ace77c1986b2ea.json"
     },
     {
       "date": "2024-01-13",
@@ -22964,6 +23309,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119100153_https_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_027ff9f610c43ece.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7596169,
+      "favorites_count_observed": 21640,
+      "plays_text": "7,596,169",
+      "favorites_text": "21,640",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240119101943",
+      "capture_url": "https://web.archive.org/web/20240119101943/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119101943_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_c76571bb4b2c5f76.json"
     },
     {
       "date": "2024-01-19",
@@ -24074,6 +24434,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240221044014_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_193a63d2adf4844f.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7618888,
+      "favorites_count_observed": 21666,
+      "plays_text": "7,618,888",
+      "favorites_text": "21,666",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240222002448",
+      "capture_url": "https://web.archive.org/web/20240222002448/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222002448_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_fc3f157e01db729f.json"
     },
     {
       "date": "2024-02-22",
@@ -25997,6 +26372,21 @@
     },
     {
       "date": "2024-06-19",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7700216,
+      "favorites_count_observed": 21759,
+      "plays_text": "7,700,216",
+      "favorites_text": "21,759",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240619161026",
+      "capture_url": "https://web.archive.org/web/20240619161026/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240619161026_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_a961e5827d33f944.json"
+    },
+    {
+      "date": "2024-06-19",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 46740351,
@@ -26024,6 +26414,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240620090448_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_0a1ae8f9ecd3126c.json"
+    },
+    {
+      "date": "2024-06-21",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7701544,
+      "favorites_count_observed": 21761,
+      "plays_text": "7,701,544",
+      "favorites_text": "21,761",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240621021741",
+      "capture_url": "https://web.archive.org/web/20240621021741/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240621021741_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_c9b6c58bd431193d.json"
+    },
+    {
+      "date": "2024-06-21",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7704280,
+      "favorites_count_observed": 21762,
+      "plays_text": "7,704,280",
+      "favorites_text": "21,762",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240621173441",
+      "capture_url": "https://web.archive.org/web/20240621173441/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240621173441_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_3ba3fc40cc016743.json"
     },
     {
       "date": "2024-06-23",
@@ -26219,6 +26639,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240721202243_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_023c667d8b8ca59d.json"
+    },
+    {
+      "date": "2024-07-23",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7728609,
+      "favorites_count_observed": 21802,
+      "plays_text": "7,728,609",
+      "favorites_text": "21,802",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240723135340",
+      "capture_url": "https://web.archive.org/web/20240723135340/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240723135340_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_bed62c2e5a14fd19.json"
     },
     {
       "date": "2024-07-26",
@@ -26474,6 +26909,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240807160830_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_df7cb76d6960f4ee.json"
+    },
+    {
+      "date": "2024-08-07",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7740993,
+      "favorites_count_observed": 21816,
+      "plays_text": "7,740,993",
+      "favorites_text": "21,816",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20240807164606",
+      "capture_url": "https://web.archive.org/web/20240807164606/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240807164606_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_1a66a9da45e45d73.json"
     },
     {
       "date": "2024-08-07",
@@ -27392,6 +27842,21 @@
     },
     {
       "date": "2024-10-04",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7780288,
+      "favorites_count_observed": 21857,
+      "plays_text": "7,780,288",
+      "favorites_text": "21,857",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20241004150601",
+      "capture_url": "https://web.archive.org/web/20241004150601/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241004150601_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_88aa52870fc5b9a3.json"
+    },
+    {
+      "date": "2024-10-04",
       "game_name": "Dream World",
       "game_url": "http://www.kongregate.com/games/kingk/dream-world",
       "plays_count_observed": 32017367,
@@ -27899,6 +28364,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241120152027_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_73ac09619ae6de80.json"
+    },
+    {
+      "date": "2024-11-21",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7811451,
+      "favorites_count_observed": 21893,
+      "plays_text": "7,811,451",
+      "favorites_text": "21,893",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20241121112744",
+      "capture_url": "https://web.archive.org/web/20241121112744/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241121112744_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_6e502c93f4012fe1.json"
     },
     {
       "date": "2024-11-22",
@@ -28711,6 +29191,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250312164504_https_www.kongregate.com_games_synapticon_tyrant-unleashed-web_metrics.json_c410017d9988844b.json"
     },
     {
+      "date": "2025-03-24",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7885711,
+      "favorites_count_observed": 21983,
+      "plays_text": "7,885,711",
+      "favorites_text": "21,983",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20250324164554",
+      "capture_url": "https://web.archive.org/web/20250324164554/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250324164554_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_5091648ee8742b12.json"
+    },
+    {
       "date": "2025-03-30",
       "game_name": "Blockade3D",
       "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
@@ -28979,6 +29474,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426230043_https_www.kongregate.com_games_arawkins_dolphin-olympics-2_metrics.json_26d1d8f43920354a.json"
+    },
+    {
+      "date": "2025-04-26",
+      "game_name": "Mud and Blood 2",
+      "game_url": "http://www.kongregate.com/games/urbz/mud-and-blood-2",
+      "plays_count_observed": 10104997,
+      "favorites_count_observed": 46410,
+      "plays_text": "10,104,997",
+      "favorites_text": "46,410",
+      "metrics_url": "https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "capture_timestamp": "20250426234215",
+      "capture_url": "https://web.archive.org/web/20250426234215/https://www.kongregate.com/games/urbz/mud-and-blood-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426234215_https_www.kongregate.com_games_urbz_mud-and-blood-2_metrics.json_1c49f124bef1e28f.json"
     },
     {
       "date": "2025-04-26",
@@ -29384,6 +29894,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250620180802_https_www.kongregate.com_games_kingk_dream-world_metrics.json_1c50c7ed0271b63a.json"
+    },
+    {
+      "date": "2025-06-24",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 7936754,
+      "favorites_count_observed": 22055,
+      "plays_text": "7,936,754",
+      "favorites_text": "22,055",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20250624002152",
+      "capture_url": "https://web.archive.org/web/20250624002152/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250624002152_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_826bb3d1fa7c731c.json"
     },
     {
       "date": "2025-06-30",
