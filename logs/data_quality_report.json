@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-29T08:37:35Z",
+  "run_timestamp": "2026-06-29T08:50:36Z",
   "as_of": "2026-06-29",
   "ranked_rows": 8140,
   "ranked_rows_with_play_counts": 4685,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 743,
-  "metrics_history_rows": 2556,
-  "metrics_history_games": 206,
+  "metrics_history_rows": 2655,
+  "metrics_history_games": 218,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-05-19"
   ],
   "zero_ranked_capture_months": 134,
-  "catalog_games_without_metrics_history": 424,
+  "catalog_games_without_metrics_history": 405,
   "catalog_games_need_page_history": 381,
   "final_chart_entries_stale_over_one_year": 9,
   "invalid_cached_html_files": 105,
@@ -63,7 +63,7 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 424,
+      "count": 405,
       "first_date": "",
       "last_date": "",
       "example": "Robo-Jump",
