@@ -46,6 +46,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140218090145_http_www.kongregate.com_80_games_Ironhidegames_kingdom-rush_metrics.json_aa7a05722b6f86a9.json"
     },
     {
+      "date": "2014-07-22",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 7610879,
+      "favorites_count_observed": 79201,
+      "plays_text": "7,610,879",
+      "favorites_text": "79,201",
+      "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20140722155020",
+      "capture_url": "https://web.archive.org/web/20140722155020/http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140722155020_http_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_ce565fa6eaae6baa.json"
+    },
+    {
       "date": "2014-08-07",
       "game_name": "Sonny 2",
       "game_url": "http://www.kongregate.com/games/ArmorGames/sonny-2",
@@ -1532,6 +1547,21 @@
     },
     {
       "date": "2016-09-18",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 9729438,
+      "favorites_count_observed": 100070,
+      "plays_text": "9,729,438",
+      "favorites_text": "100,070",
+      "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20160918190808",
+      "capture_url": "https://web.archive.org/web/20160918190808/http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160918190808_http_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_fe21a6c40907fabe.json"
+    },
+    {
+      "date": "2016-09-18",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 5507264,
@@ -1741,6 +1771,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161215164200_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_6965a79e93dc145d.json"
     },
     {
+      "date": "2016-12-19",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 9893207,
+      "favorites_count_observed": 101203,
+      "plays_text": "9,893,207",
+      "favorites_text": "101,203",
+      "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20161219142152",
+      "capture_url": "https://web.archive.org/web/20161219142152/http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161219142152_http_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_3fff5bbe647fde4d.json"
+    },
+    {
       "date": "2016-12-20",
       "game_name": "Realm Grinder",
       "game_url": "http://www.kongregate.com/games/DivineGames/realm-grinder",
@@ -1876,6 +1921,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180108174400_http_www.kongregate.com_games_playsaurus_clicker-heroes_metrics.json_9009f6f782d5a8e1.json"
     },
     {
+      "date": "2018-02-02",
+      "game_name": "Achievement Unlocked 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
+      "plays_count_observed": 1961487,
+      "favorites_count_observed": 14993,
+      "plays_text": "1,961,487",
+      "favorites_text": "14,993",
+      "metrics_url": "http://www.kongregate.com/games/armorgames/achievement-unlocked-2/metrics.json",
+      "capture_timestamp": "20180202172728",
+      "capture_url": "https://web.archive.org/web/20180202172728/http://www.kongregate.com/games/armorgames/achievement-unlocked-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180202172728_http_www.kongregate.com_games_armorgames_achievement-unlocked-2_metrics.json_cb946aa4551818d2.json"
+    },
+    {
       "date": "2018-02-04",
       "game_name": "Sort the Court!",
       "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
@@ -1996,6 +2056,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180316171621_http_www.kongregate.com_games_EdgebeeStudios_swords-and-potions-2_metrics.json_f1ab457c227aa4b7.json"
     },
     {
+      "date": "2018-03-22",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 581065,
+      "favorites_count_observed": 7789,
+      "plays_text": "581,065",
+      "favorites_text": "7,789",
+      "metrics_url": "http://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20180322130436",
+      "capture_url": "https://web.archive.org/web/20180322130436/http://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180322130436_http_www.kongregate.com_games_terra0nova_aground_metrics.json_8d5ff3a36254d279.json"
+    },
+    {
       "date": "2018-03-23",
       "game_name": "Bubble Tanks 3",
       "game_url": "https://www.kongregate.com/games/HeroInteractive/bubble-tanks-3",
@@ -2024,6 +2099,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180406143856_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_fc6c60b05bedf60f.json"
+    },
+    {
+      "date": "2018-04-08",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 8416169,
+      "favorites_count_observed": 102115,
+      "plays_text": "8,416,169",
+      "favorites_text": "102,115",
+      "metrics_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20180408203238",
+      "capture_url": "https://web.archive.org/web/20180408203238/http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180408203238_http_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_2d1a864ed87456cc.json"
     },
     {
       "date": "2018-04-19",
@@ -3077,6 +3167,21 @@
     },
     {
       "date": "2019-10-17",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9488111,
+      "favorites_count_observed": 107774,
+      "plays_text": "9,488,111",
+      "favorites_text": "107,774",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20191017183756",
+      "capture_url": "https://web.archive.org/web/20191017183756/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183756_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_1011f2b2fee17862.json"
+    },
+    {
+      "date": "2019-10-17",
       "game_name": "Learn to Fly 3",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
       "plays_count_observed": 5236507,
@@ -3464,6 +3569,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045018_https_www.kongregate.com_games_Wolfcom_gunblood_metrics.json_25ade103f3332918.json"
+    },
+    {
+      "date": "2019-10-27",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9502665,
+      "favorites_count_observed": 107837,
+      "plays_text": "9,502,665",
+      "favorites_text": "107,837",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20191027045023",
+      "capture_url": "https://web.archive.org/web/20191027045023/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045023_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_44b377efb0e03260.json"
     },
     {
       "date": "2019-10-27",
@@ -3871,6 +3991,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_0aa4121942e3f4e8.json"
     },
     {
+      "date": "2019-11-07",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3591187,
+      "favorites_count_observed": 19255,
+      "plays_text": "3,591,187",
+      "favorites_text": "19,255",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20191107154544",
+      "capture_url": "https://web.archive.org/web/20191107154544/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_7806108737d92928.json"
+    },
+    {
       "date": "2019-11-12",
       "game_name": "Monsters' Den: Book of...",
       "game_url": "http://www.kongregate.com/games/garin/monsters-den-book-of-dread",
@@ -3944,6 +4079,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191125185329_https_www.kongregate.com_games_Ninjakiwi_bloons-td-5_metrics.json_f1da7b55ffcbd5a5.json"
+    },
+    {
+      "date": "2019-11-25",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 10924365,
+      "favorites_count_observed": 108402,
+      "plays_text": "10,924,365",
+      "favorites_text": "108,402",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20191125185330",
+      "capture_url": "https://web.archive.org/web/20191125185330/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191125185330_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_65a2a5e4fb804314.json"
     },
     {
       "date": "2019-11-25",
@@ -4244,6 +4394,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205520_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_90abc7effb722520.json"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3596372,
+      "favorites_count_observed": 19267,
+      "plays_text": "3,596,372",
+      "favorites_text": "19,267",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20191207205522",
+      "capture_url": "https://web.archive.org/web/20191207205522/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205522_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_85e63c96b3f15865.json"
     },
     {
       "date": "2019-12-08",
@@ -4562,6 +4727,21 @@
     },
     {
       "date": "2020-01-02",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1337982,
+      "favorites_count_observed": 16279,
+      "plays_text": "1,337,982",
+      "favorites_text": "16,279",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20200102204223",
+      "capture_url": "https://web.archive.org/web/20200102204223/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200102204223_https_www.kongregate.com_games_terra0nova_aground_metrics.json_10b863f0aa1dd3ca.json"
+    },
+    {
+      "date": "2020-01-02",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
       "plays_count_observed": 16068377,
@@ -4724,6 +4904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214038_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_93a3778a757faa2f.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9613473,
+      "favorites_count_observed": 108283,
+      "plays_text": "9,613,473",
+      "favorites_text": "108,283",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20200108214041",
+      "capture_url": "https://web.archive.org/web/20200108214041/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214041_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_1f21d38e8e205e04.json"
     },
     {
       "date": "2020-01-08",
@@ -4949,6 +5144,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_7964ac802e30a00a.json"
+    },
+    {
+      "date": "2020-01-21",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9631230,
+      "favorites_count_observed": 108355,
+      "plays_text": "9,631,230",
+      "favorites_text": "108,355",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20200121045139",
+      "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_c84b4b4f3208ca54.json"
     },
     {
       "date": "2020-01-21",
@@ -5656,6 +5866,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200402130328_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_6e532ce99dd56a8c.json"
     },
     {
+      "date": "2020-04-03",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1389551,
+      "favorites_count_observed": 16778,
+      "plays_text": "1,389,551",
+      "favorites_text": "16,778",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20200403061415",
+      "capture_url": "https://web.archive.org/web/20200403061415/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200403061415_https_www.kongregate.com_games_terra0nova_aground_metrics.json_40d25e64989b9291.json"
+    },
+    {
       "date": "2020-04-17",
       "game_name": "Bit Heroes",
       "game_url": "http://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -6017,6 +6242,21 @@
     },
     {
       "date": "2020-04-27",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11016014,
+      "favorites_count_observed": 108923,
+      "plays_text": "11,016,014",
+      "favorites_text": "108,923",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20200427132204",
+      "capture_url": "https://web.archive.org/web/20200427132204/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132204_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_f9c647a5c5b41e38.json"
+    },
+    {
+      "date": "2020-04-27",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34270691,
@@ -6212,6 +6452,21 @@
     },
     {
       "date": "2020-04-29",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11016988,
+      "favorites_count_observed": 108927,
+      "plays_text": "11,016,988",
+      "favorites_text": "108,927",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20200429125445",
+      "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_41e63e1a53d991a8.json"
+    },
+    {
+      "date": "2020-04-29",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34273931,
@@ -6344,6 +6599,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125448_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_3cb1f88b7c7a1d66.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9793820,
+      "favorites_count_observed": 109056,
+      "plays_text": "9,793,820",
+      "favorites_text": "109,056",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20200429125447",
+      "capture_url": "https://web.archive.org/web/20200429125447/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125447_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_bcbb42a1752e62b0.json"
     },
     {
       "date": "2020-04-29",
@@ -6767,6 +7037,21 @@
     },
     {
       "date": "2020-07-16",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11049350,
+      "favorites_count_observed": 109163,
+      "plays_text": "11,049,350",
+      "favorites_text": "109,163",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20200716172635",
+      "capture_url": "https://web.archive.org/web/20200716172635/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172635_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_5db20d305d78053d.json"
+    },
+    {
+      "date": "2020-07-16",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34412108,
@@ -6914,6 +7199,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172827_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_124a3819630d5675.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 9909218,
+      "favorites_count_observed": 109568,
+      "plays_text": "9,909,218",
+      "favorites_text": "109,568",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20200716172828",
+      "capture_url": "https://web.archive.org/web/20200716172828/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172828_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_209a9f954b94d391.json"
     },
     {
       "date": "2020-07-16",
@@ -7109,6 +7409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172731_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_85afab027935c9c1.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 4905198,
+      "favorites_count_observed": 65092,
+      "plays_text": "4,905,198",
+      "favorites_text": "65,092",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20200716172742",
+      "capture_url": "https://web.archive.org/web/20200716172742/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172742_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_5e88e39d1cad6a11.json"
     },
     {
       "date": "2020-07-16",
@@ -7397,6 +7712,21 @@
     },
     {
       "date": "2020-07-31",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11068207,
+      "favorites_count_observed": 109235,
+      "plays_text": "11,068,207",
+      "favorites_text": "109,235",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20200731212711",
+      "capture_url": "https://web.archive.org/web/20200731212711/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200731212711_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_c5bd2eddc55f38a6.json"
+    },
+    {
+      "date": "2020-07-31",
       "game_name": "Kana Warrior / \u304b\u306a\u30a6\u30a9\u30ea\u30a2\u30fc",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/kana-warrior",
       "plays_count_observed": 263358,
@@ -7604,6 +7934,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131251_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_a20c461020e5887f.json"
+    },
+    {
+      "date": "2020-10-15",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10008662,
+      "favorites_count_observed": 109996,
+      "plays_text": "10,008,662",
+      "favorites_text": "109,996",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20201015131127",
+      "capture_url": "https://web.archive.org/web/20201015131127/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201015131127_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_281af651e69e6c1d.json"
     },
     {
       "date": "2020-10-15",
@@ -8087,6 +8432,21 @@
     },
     {
       "date": "2020-10-21",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1482104,
+      "favorites_count_observed": 17826,
+      "plays_text": "1,482,104",
+      "favorites_text": "17,826",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20201021172923",
+      "capture_url": "https://web.archive.org/web/20201021172923/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201021172923_https_www.kongregate.com_games_terra0nova_aground_metrics.json_f7ff1ac46b039878.json"
+    },
+    {
+      "date": "2020-10-21",
       "game_name": "The Perfect Tower",
       "game_url": "https://www.kongregate.com/en/games/XmmmX99/the-perfect-tower",
       "plays_count_observed": 4732096,
@@ -8474,6 +8834,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201103041437_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_d0dbca520be906b6.json"
+    },
+    {
+      "date": "2020-11-03",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10030646,
+      "favorites_count_observed": 110078,
+      "plays_text": "10,030,646",
+      "favorites_text": "110,078",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20201103041405",
+      "capture_url": "https://web.archive.org/web/20201103041405/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201103041405_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_ffc4aed97fae6dac.json"
     },
     {
       "date": "2020-11-03",
@@ -9257,6 +9632,21 @@
     },
     {
       "date": "2020-12-01",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11118390,
+      "favorites_count_observed": 109484,
+      "plays_text": "11,118,390",
+      "favorites_text": "109,484",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20201201204212",
+      "capture_url": "https://web.archive.org/web/20201201204212/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204212_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_d28ded3c6a3a0c03.json"
+    },
+    {
+      "date": "2020-12-01",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34587922,
@@ -9602,6 +9992,21 @@
     },
     {
       "date": "2020-12-03",
+      "game_name": "Desktop Tower Defense",
+      "game_url": "http://www.kongregate.com/games/preecep/desktop-tower-defense",
+      "plays_count_observed": 3283378,
+      "favorites_count_observed": 8355,
+      "plays_text": "3,283,378",
+      "favorites_text": "8,355",
+      "metrics_url": "https://www.kongregate.com/games/preecep/desktop-tower-defense/metrics.json",
+      "capture_timestamp": "20201203020535",
+      "capture_url": "https://web.archive.org/web/20201203020535/https://www.kongregate.com/games/preecep/desktop-tower-defense/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201203020535_https_www.kongregate.com_games_preecep_desktop-tower-defense_metrics.json_a9bcedc3713396e3.json"
+    },
+    {
+      "date": "2020-12-03",
       "game_name": "GemCraft chapter 0",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chapter-0",
       "plays_count_observed": 7780469,
@@ -9887,6 +10292,21 @@
     },
     {
       "date": "2020-12-12",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11122517,
+      "favorites_count_observed": 109513,
+      "plays_text": "11,122,517",
+      "favorites_text": "109,513",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20201212201606",
+      "capture_url": "https://web.archive.org/web/20201212201606/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201606_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_e418357aae176d69.json"
+    },
+    {
+      "date": "2020-12-12",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34601197,
@@ -9977,6 +10397,21 @@
     },
     {
       "date": "2020-12-12",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10076614,
+      "favorites_count_observed": 110239,
+      "plays_text": "10,076,614",
+      "favorites_text": "110,239",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20201212201505",
+      "capture_url": "https://web.archive.org/web/20201212201505/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201505_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_287c9afb6b95d938.json"
+    },
+    {
+      "date": "2020-12-12",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 30790617,
@@ -10049,6 +10484,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201441_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_37c1e05657c79f40.json"
+    },
+    {
+      "date": "2020-12-12",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 4964866,
+      "favorites_count_observed": 65594,
+      "plays_text": "4,964,866",
+      "favorites_text": "65,594",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20201212201431",
+      "capture_url": "https://web.archive.org/web/20201212201431/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201212201431_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_9667dec2b79e9ecc.json"
     },
     {
       "date": "2020-12-12",
@@ -10502,6 +10952,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11130344,
+      "favorites_count_observed": 109553,
+      "plays_text": "11,130,344",
+      "favorites_text": "109,553",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20210106190142",
+      "capture_url": "https://web.archive.org/web/20210106190142/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190142_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_add344eb461663ad.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34624748,
@@ -10622,6 +11087,21 @@
     },
     {
       "date": "2021-01-06",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10097455,
+      "favorites_count_observed": 110299,
+      "plays_text": "10,097,455",
+      "favorites_text": "110,299",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20210106190000",
+      "capture_url": "https://web.archive.org/web/20210106190000/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190000_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_8040a6260c182386.json"
+    },
+    {
+      "date": "2021-01-06",
       "game_name": "Mutilate-a-Doll 2",
       "game_url": "https://www.kongregate.com/games/0rava/mutilate-a-doll-2",
       "plays_count_observed": 45377420,
@@ -10709,6 +11189,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190343_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_f4f8b63b138db7a1.json"
+    },
+    {
+      "date": "2021-01-06",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 4972741,
+      "favorites_count_observed": 65648,
+      "plays_text": "4,972,741",
+      "favorites_text": "65,648",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20210106190357",
+      "capture_url": "https://web.archive.org/web/20210106190357/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210106190357_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_3b736c55d63d0ee1.json"
     },
     {
       "date": "2021-01-06",
@@ -10859,6 +11354,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210108052233_https_www.kongregate.com_games_0rava_mutilate-a-doll-classic_metrics.json_25289aea3cad968e.json"
+    },
+    {
+      "date": "2021-01-09",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11131078,
+      "favorites_count_observed": 109552,
+      "plays_text": "11,131,078",
+      "favorites_text": "109,552",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20210109004531",
+      "capture_url": "https://web.archive.org/web/20210109004531/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210109004531_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_b2b0fbefbcde75cf.json"
     },
     {
       "date": "2021-01-09",
@@ -11777,6 +12287,21 @@
     },
     {
       "date": "2021-05-13",
+      "game_name": "Burrito Bison Revenge",
+      "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge",
+      "plays_count_observed": 11174650,
+      "favorites_count_observed": 109620,
+      "plays_text": "11,174,650",
+      "favorites_text": "109,620",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "capture_timestamp": "20210513080155",
+      "capture_url": "https://web.archive.org/web/20210513080155/https://www.kongregate.com/games/JuicyBeast/burrito-bison-revenge/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080155_https_www.kongregate.com_games_JuicyBeast_burrito-bison-revenge_metrics.json_8411040deca1f7fe.json"
+    },
+    {
+      "date": "2021-05-13",
       "game_name": "Clicker Heroes",
       "game_url": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
       "plays_count_observed": 34679201,
@@ -11879,6 +12404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080126_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_4eacc5b9f0c709e8.json"
+    },
+    {
+      "date": "2021-05-13",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10185683,
+      "favorites_count_observed": 110431,
+      "plays_text": "10,185,683",
+      "favorites_text": "110,431",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20210513080123",
+      "capture_url": "https://web.archive.org/web/20210513080123/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210513080123_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_6e4ad0a1c2c8b346.json"
     },
     {
       "date": "2021-05-13",
@@ -12254,6 +12794,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073118_http_www.kongregate.com_games_Ironhidegames_kingdom-rush_metrics.json_52c4743e10fb7f60.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10192614,
+      "favorites_count_observed": 110440,
+      "plays_text": "10,192,614",
+      "favorites_text": "110,440",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20210524073107",
+      "capture_url": "https://web.archive.org/web/20210524073107/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073107_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_ef759f8b8a9d2c83.json"
     },
     {
       "date": "2021-05-24",
@@ -12782,6 +13337,21 @@
     },
     {
       "date": "2021-06-24",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1551914,
+      "favorites_count_observed": 18508,
+      "plays_text": "1,551,914",
+      "favorites_text": "18,508",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20210624125917",
+      "capture_url": "https://web.archive.org/web/20210624125917/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210624125917_https_www.kongregate.com_games_terra0nova_aground_metrics.json_0d27dd1f2bc45c28.json"
+    },
+    {
+      "date": "2021-06-24",
       "game_name": "Infectonator 2",
       "game_url": "http://www.kongregate.com/games/TogeProductions/infectonator-2",
       "plays_count_observed": 6225296,
@@ -12977,6 +13547,21 @@
     },
     {
       "date": "2021-07-17",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1559260,
+      "favorites_count_observed": 18561,
+      "plays_text": "1,559,260",
+      "favorites_text": "18,561",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20210717153143",
+      "capture_url": "https://web.archive.org/web/20210717153143/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210717153143_https_www.kongregate.com_games_terra0nova_aground_metrics.json_0e65ec1a962273b8.json"
+    },
+    {
+      "date": "2021-07-17",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
       "plays_count_observed": 187837,
@@ -13004,6 +13589,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210718191728_https_www.kongregate.com_games_pixtiz_rotazion_metrics.json_13f2b0ac7886ba9b.json"
+    },
+    {
+      "date": "2021-07-19",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1562201,
+      "favorites_count_observed": 18576,
+      "plays_text": "1,562,201",
+      "favorites_text": "18,576",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20210719041737",
+      "capture_url": "https://web.archive.org/web/20210719041737/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210719041737_https_www.kongregate.com_games_terra0nova_aground_metrics.json_a61809ffe4ae4861.json"
     },
     {
       "date": "2021-07-21",
@@ -13154,6 +13754,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210828021759_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_0819256ed937349c.json"
+    },
+    {
+      "date": "2021-09-04",
+      "game_name": "The Journey Home",
+      "game_url": "https://www.kongregate.com/games/Raius_/the-journey-home",
+      "plays_count_observed": 312405,
+      "favorites_count_observed": 3784,
+      "plays_text": "312,405",
+      "favorites_text": "3,784",
+      "metrics_url": "https://www.kongregate.com/games/Raius_/the-journey-home/metrics.json",
+      "capture_timestamp": "20210904013730",
+      "capture_url": "https://web.archive.org/web/20210904013730/https://www.kongregate.com/games/Raius_/the-journey-home/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210904013730_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_9eba2b1f764e2860.json"
     },
     {
       "date": "2021-09-07",
@@ -13652,6 +14267,21 @@
     },
     {
       "date": "2021-10-21",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10285188,
+      "favorites_count_observed": 110583,
+      "plays_text": "10,285,188",
+      "favorites_text": "110,583",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20211021110946",
+      "capture_url": "https://web.archive.org/web/20211021110946/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211021110946_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_fa4f975de850e368.json"
+    },
+    {
+      "date": "2021-10-21",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31060425,
@@ -14072,6 +14702,21 @@
     },
     {
       "date": "2021-10-30",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10291947,
+      "favorites_count_observed": 110588,
+      "plays_text": "10,291,947",
+      "favorites_text": "110,588",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20211030182437",
+      "capture_url": "https://web.archive.org/web/20211030182437/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211030182437_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_8dd1a794cf186488.json"
+    },
+    {
+      "date": "2021-10-30",
       "game_name": "Knight-errant",
       "game_url": "https://www.kongregate.com/en/games/FractalSunrise/knight-errant",
       "plays_count_observed": 189745,
@@ -14462,6 +15107,21 @@
     },
     {
       "date": "2021-10-31",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10292726,
+      "favorites_count_observed": 110591,
+      "plays_text": "10,292,726",
+      "favorites_text": "110,591",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20211031205124",
+      "capture_url": "https://web.archive.org/web/20211031205124/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211031205124_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_818f38a0f6529a40.json"
+    },
+    {
+      "date": "2021-10-31",
       "game_name": "Medieval Chronicles 8 (Part 2)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-chronicles-8-part-2",
       "plays_count_observed": 46976,
@@ -14701,6 +15361,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211110143059_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_4b8729cbee94e351.json"
     },
     {
+      "date": "2021-11-16",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3689798,
+      "favorites_count_observed": 19429,
+      "plays_text": "3,689,798",
+      "favorites_text": "19,429",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20211116235117",
+      "capture_url": "https://web.archive.org/web/20211116235117/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211116235117_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_0c3775a9576ac0e5.json"
+    },
+    {
       "date": "2021-11-18",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -14879,6 +15554,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233447_https_www.kongregate.com_games_TogeProductions_infectonator-2_metrics.json_3db7afbdde04dd93.json"
+    },
+    {
+      "date": "2021-11-18",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10305687,
+      "favorites_count_observed": 110614,
+      "plays_text": "10,305,687",
+      "favorites_text": "110,614",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20211118233535",
+      "capture_url": "https://web.archive.org/web/20211118233535/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233535_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_6bd5e8f832182bfd.json"
     },
     {
       "date": "2021-11-18",
@@ -15137,6 +15827,21 @@
     },
     {
       "date": "2021-11-18",
+      "game_name": "Supermechs",
+      "game_url": "https://www.kongregate.com/games/Tacticsoft/supermechs",
+      "plays_count_observed": 4385245,
+      "favorites_count_observed": 39793,
+      "plays_text": "4,385,245",
+      "favorites_text": "39,793",
+      "metrics_url": "https://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "capture_timestamp": "20211118233429",
+      "capture_url": "https://web.archive.org/web/20211118233429/https://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211118233429_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_dbe9c1b61d26682a.json"
+    },
+    {
+      "date": "2021-11-18",
       "game_name": "Sword Fight",
       "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
       "plays_count_observed": 3066711,
@@ -15331,6 +16036,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119074645_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_45a03dccbb54acae.json"
     },
     {
+      "date": "2021-11-19",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3690085,
+      "favorites_count_observed": 19429,
+      "plays_text": "3,690,085",
+      "favorites_text": "19,429",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20211119023726",
+      "capture_url": "https://web.archive.org/web/20211119023726/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119023726_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_80855077ed3d8cda.json"
+    },
+    {
       "date": "2021-11-20",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -15452,6 +16172,21 @@
     },
     {
       "date": "2021-11-20",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10306504,
+      "favorites_count_observed": 110614,
+      "plays_text": "10,306,504",
+      "favorites_text": "110,614",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20211120111245",
+      "capture_url": "https://web.archive.org/web/20211120111245/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111245_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_8793dba2b7bfe8fa.json"
+    },
+    {
+      "date": "2021-11-20",
       "game_name": "Learn to Fly 3",
       "game_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
       "plays_count_observed": 5938709,
@@ -15554,6 +16289,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111356_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_c3a90014e65b7d79.json"
+    },
+    {
+      "date": "2021-11-20",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5095978,
+      "favorites_count_observed": 65964,
+      "plays_text": "5,095,978",
+      "favorites_text": "65,964",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20211120111334",
+      "capture_url": "https://web.archive.org/web/20211120111334/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111334_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_4bc9c28afae13fcc.json"
     },
     {
       "date": "2021-11-20",
@@ -15811,6 +16561,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211130145619_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_2edc428719b11a70.json"
     },
     {
+      "date": "2021-11-30",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5100658,
+      "favorites_count_observed": 65973,
+      "plays_text": "5,100,658",
+      "favorites_text": "65,973",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20211130135519",
+      "capture_url": "https://web.archive.org/web/20211130135519/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211130135519_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_43cf228a8ea1d49c.json"
+    },
+    {
       "date": "2021-12-04",
       "game_name": "Platform Racing 2",
       "game_url": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
@@ -15914,6 +16679,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211223211608_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_16de7945bde6abb2.json"
+    },
+    {
+      "date": "2021-12-23",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3693646,
+      "favorites_count_observed": 19435,
+      "plays_text": "3,693,646",
+      "favorites_text": "19,435",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20211223084050",
+      "capture_url": "https://web.archive.org/web/20211223084050/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211223084050_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_b30ea83da2895e2f.json"
     },
     {
       "date": "2021-12-24",
@@ -16307,6 +17087,21 @@
     },
     {
       "date": "2022-01-11",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5118793,
+      "favorites_count_observed": 66016,
+      "plays_text": "5,118,793",
+      "favorites_text": "66,016",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220111075951",
+      "capture_url": "https://web.archive.org/web/20220111075951/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111075951_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_45c23a5fc977593b.json"
+    },
+    {
+      "date": "2022-01-11",
       "game_name": "Supermechs",
       "game_url": "http://www.kongregate.com/games/Tacticsoft/supermechs",
       "plays_count_observed": 4389947,
@@ -16576,6 +17371,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220203225914_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_738d84e52aa82dae.json"
     },
     {
+      "date": "2022-02-05",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3698100,
+      "favorites_count_observed": 19438,
+      "plays_text": "3,698,100",
+      "favorites_text": "19,438",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20220205193802",
+      "capture_url": "https://web.archive.org/web/20220205193802/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220205193802_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_16b02098d343177a.json"
+    },
+    {
       "date": "2022-02-07",
       "game_name": "Strike Force Heroes",
       "game_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes",
@@ -16742,6 +17552,21 @@
     },
     {
       "date": "2022-02-15",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10359614,
+      "favorites_count_observed": 110678,
+      "plays_text": "10,359,614",
+      "favorites_text": "110,678",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20220215172350",
+      "capture_url": "https://web.archive.org/web/20220215172350/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172350_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_9328d32dccd52688.json"
+    },
+    {
+      "date": "2022-02-15",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
       "plays_count_observed": 31132930,
@@ -16859,6 +17684,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172400_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-4_metrics.json_71b16d4f2a42955c.json"
+    },
+    {
+      "date": "2022-02-15",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5137124,
+      "favorites_count_observed": 66056,
+      "plays_text": "5,137,124",
+      "favorites_text": "66,056",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220215172529",
+      "capture_url": "https://web.archive.org/web/20220215172529/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220215172529_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_1921c0ebafbed774.json"
     },
     {
       "date": "2022-02-15",
@@ -17492,6 +18332,21 @@
     },
     {
       "date": "2022-04-01",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5158928,
+      "favorites_count_observed": 66115,
+      "plays_text": "5,158,928",
+      "favorites_text": "66,115",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220401042819",
+      "capture_url": "https://web.archive.org/web/20220401042819/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220401042819_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_f77e5c62043dd33c.json"
+    },
+    {
+      "date": "2022-04-01",
       "game_name": "Swords and Souls",
       "game_url": "https://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12689165,
@@ -17822,6 +18677,21 @@
     },
     {
       "date": "2022-04-04",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5160588,
+      "favorites_count_observed": 66117,
+      "plays_text": "5,160,588",
+      "favorites_text": "66,117",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220404144018",
+      "capture_url": "https://web.archive.org/web/20220404144018/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220404144018_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_e7e861e79dfedd76.json"
+    },
+    {
+      "date": "2022-04-04",
       "game_name": "Swords and Souls",
       "game_url": "https://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12692131,
@@ -17909,6 +18779,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220408020920_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_097762bb13e71b6d.json"
+    },
+    {
+      "date": "2022-04-08",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3705366,
+      "favorites_count_observed": 19440,
+      "plays_text": "3,705,366",
+      "favorites_text": "19,440",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20220408013000",
+      "capture_url": "https://web.archive.org/web/20220408013000/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220408013000_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_eae55e34225a28b1.json"
     },
     {
       "date": "2022-04-12",
@@ -18302,6 +19187,21 @@
     },
     {
       "date": "2022-06-03",
+      "game_name": "Decision",
+      "game_url": "https://www.kongregate.com/games/FlyAnvil/decision",
+      "plays_count_observed": 1514619,
+      "favorites_count_observed": 20890,
+      "plays_text": "1,514,619",
+      "favorites_text": "20,890",
+      "metrics_url": "http://www.kongregate.com/games/FlyAnvil/decision/metrics.json",
+      "capture_timestamp": "20220603062317",
+      "capture_url": "https://web.archive.org/web/20220603062317/http://www.kongregate.com/games/FlyAnvil/decision/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220603062317_http_www.kongregate.com_games_FlyAnvil_decision_metrics.json_debbd7e575cd948b.json"
+    },
+    {
+      "date": "2022-06-03",
       "game_name": "Incursion",
       "game_url": "http://www.kongregate.com/games/booblycCom/incursion",
       "plays_count_observed": 3102209,
@@ -18542,6 +19442,21 @@
     },
     {
       "date": "2022-06-22",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5199723,
+      "favorites_count_observed": 66201,
+      "plays_text": "5,199,723",
+      "favorites_text": "66,201",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220622212625",
+      "capture_url": "https://web.archive.org/web/20220622212625/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220622212625_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_5b580b115a6afe52.json"
+    },
+    {
+      "date": "2022-06-22",
       "game_name": "Sword Fight",
       "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
       "plays_count_observed": 3472815,
@@ -18689,6 +19604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220706043135_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_0288d273d0c327e5.json"
+    },
+    {
+      "date": "2022-08-06",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3716716,
+      "favorites_count_observed": 19444,
+      "plays_text": "3,716,716",
+      "favorites_text": "19,444",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20220806105309",
+      "capture_url": "https://web.archive.org/web/20220806105309/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220806105309_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_968d98e92975cd0e.json"
     },
     {
       "date": "2022-08-15",
@@ -18929,6 +19859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220908152524_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_3d9c90b9688b58ee.json"
+    },
+    {
+      "date": "2022-09-10",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5233919,
+      "favorites_count_observed": 66282,
+      "plays_text": "5,233,919",
+      "favorites_text": "66,282",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20220910143643",
+      "capture_url": "https://web.archive.org/web/20220910143643/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220910143643_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_43be5edb61936981.json"
     },
     {
       "date": "2022-09-11",
@@ -19424,6 +20369,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221027220212_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_1e526df895463ce0.json"
+    },
+    {
+      "date": "2022-10-31",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1664751,
+      "favorites_count_observed": 19202,
+      "plays_text": "1,664,751",
+      "favorites_text": "19,202",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20221031235425",
+      "capture_url": "https://web.archive.org/web/20221031235425/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221031235425_https_www.kongregate.com_games_terra0nova_aground_metrics.json_b5aeda7f8132e08c.json"
+    },
+    {
+      "date": "2022-11-01",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1665013,
+      "favorites_count_observed": 19203,
+      "plays_text": "1,665,013",
+      "favorites_text": "19,203",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20221101025632",
+      "capture_url": "https://web.archive.org/web/20221101025632/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221101025632_https_www.kongregate.com_games_terra0nova_aground_metrics.json_2a2aee508e8b6b1c.json"
+    },
+    {
+      "date": "2022-11-01",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1665080,
+      "favorites_count_observed": 19203,
+      "plays_text": "1,665,080",
+      "favorites_text": "19,203",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20221101034856",
+      "capture_url": "https://web.archive.org/web/20221101034856/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221101034856_https_www.kongregate.com_games_terra0nova_aground_metrics.json_f019b831dee6096c.json"
     },
     {
       "date": "2022-11-02",
@@ -20672,6 +21662,21 @@
     },
     {
       "date": "2022-12-06",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5277671,
+      "favorites_count_observed": 63738,
+      "plays_text": "5,277,671",
+      "favorites_text": "63,738",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20221206134715",
+      "capture_url": "https://web.archive.org/web/20221206134715/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221206134715_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_bb32cac6e28e022c.json"
+    },
+    {
+      "date": "2022-12-06",
       "game_name": "Supermechs",
       "game_url": "http://www.kongregate.com/games/Tacticsoft/supermechs",
       "plays_count_observed": 4420564,
@@ -21062,6 +22067,21 @@
     },
     {
       "date": "2023-01-30",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5303416,
+      "favorites_count_observed": 63803,
+      "plays_text": "5,303,416",
+      "favorites_text": "63,803",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20230130210218",
+      "capture_url": "https://web.archive.org/web/20230130210218/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230130210218_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_c33c5ceeb8ba7d8e.json"
+    },
+    {
+      "date": "2023-01-30",
       "game_name": "Swords and Souls",
       "game_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls",
       "plays_count_observed": 12969523,
@@ -21164,6 +22184,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204215734_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_781f1856bb8ba5d9.json"
+    },
+    {
+      "date": "2023-02-04",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10575343,
+      "favorites_count_observed": 95411,
+      "plays_text": "10,575,343",
+      "favorites_text": "95,411",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20230204215808",
+      "capture_url": "https://web.archive.org/web/20230204215808/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230204215808_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_ae500b44156610ca.json"
     },
     {
       "date": "2023-02-04",
@@ -21449,6 +22484,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214163335_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_6639b8719b7639b3.json"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10580958,
+      "favorites_count_observed": 95417,
+      "plays_text": "10,580,958",
+      "favorites_text": "95,417",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20230214164533",
+      "capture_url": "https://web.archive.org/web/20230214164533/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230214164533_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_edb81b36d95aec99.json"
     },
     {
       "date": "2023-02-14",
@@ -21961,6 +23011,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226160245_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_4c911f21575a422b.json"
     },
     {
+      "date": "2023-02-26",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3730762,
+      "favorites_count_observed": 19199,
+      "plays_text": "3,730,762",
+      "favorites_text": "19,199",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20230226162243",
+      "capture_url": "https://web.archive.org/web/20230226162243/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226162243_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_2ce28b64600f84ad.json"
+    },
+    {
       "date": "2023-02-28",
       "game_name": "UnpuzzleX",
       "game_url": "https://www.kongregate.com/games/KekGames/unpuzzlex",
@@ -21974,6 +23039,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230228034052_https_www.kongregate.com_games_KekGames_unpuzzlex_metrics.json_ca547c4461010632.json"
+    },
+    {
+      "date": "2023-03-03",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5315604,
+      "favorites_count_observed": 63823,
+      "plays_text": "5,315,604",
+      "favorites_text": "63,823",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20230303162727",
+      "capture_url": "https://web.archive.org/web/20230303162727/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230303162727_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_d447c7995e4e7460.json"
     },
     {
       "date": "2023-03-05",
@@ -22141,6 +23221,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230310190008_https_www.kongregate.com_games_0rava_mutilate-a-doll-classic_metrics.json_a35ae83d6258f416.json"
     },
     {
+      "date": "2023-03-11",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1683774,
+      "favorites_count_observed": 19268,
+      "plays_text": "1,683,774",
+      "favorites_text": "19,268",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20230311094542",
+      "capture_url": "https://web.archive.org/web/20230311094542/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230311094542_https_www.kongregate.com_games_terra0nova_aground_metrics.json_87f0d67b01c7aaba.json"
+    },
+    {
       "date": "2023-03-17",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
@@ -22169,6 +23264,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230318001235_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_fbce7a2dde123395.json"
+    },
+    {
+      "date": "2023-03-19",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1688885,
+      "favorites_count_observed": 19291,
+      "plays_text": "1,688,885",
+      "favorites_text": "19,291",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20230319224305",
+      "capture_url": "https://web.archive.org/web/20230319224305/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230319224305_https_www.kongregate.com_games_terra0nova_aground_metrics.json_13bc35864c44a66b.json"
     },
     {
       "date": "2023-03-19",
@@ -22679,6 +23789,51 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230410070512_https_www.kongregate.com_games_kingk_dream-world_metrics.json_25181e65e3b575cf.json"
+    },
+    {
+      "date": "2023-04-10",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5326705,
+      "favorites_count_observed": 63839,
+      "plays_text": "5,326,705",
+      "favorites_text": "63,839",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20230410141832",
+      "capture_url": "https://web.archive.org/web/20230410141832/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230410141832_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_69af3e74434ae69f.json"
+    },
+    {
+      "date": "2023-04-15",
+      "game_name": "Kingdom Rush Frontiers",
+      "game_url": "http://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers",
+      "plays_count_observed": 10598477,
+      "favorites_count_observed": 95435,
+      "plays_text": "10,598,477",
+      "favorites_text": "95,435",
+      "metrics_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "capture_timestamp": "20230415035741",
+      "capture_url": "https://web.archive.org/web/20230415035741/https://www.kongregate.com/games/Ironhidegames/kingdom-rush-frontiers/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230415035741_https_www.kongregate.com_games_Ironhidegames_kingdom-rush-frontiers_metrics.json_3371012281d0cbff.json"
+    },
+    {
+      "date": "2023-04-16",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3733102,
+      "favorites_count_observed": 19204,
+      "plays_text": "3,733,102",
+      "favorites_text": "19,204",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20230416233100",
+      "capture_url": "https://web.archive.org/web/20230416233100/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230416233100_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_ac68011db28c423d.json"
     },
     {
       "date": "2023-04-17",
@@ -24031,6 +25186,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230822060928_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_4c1d34a3a5219a71.json"
     },
     {
+      "date": "2023-08-22",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5351294,
+      "favorites_count_observed": 63888,
+      "plays_text": "5,351,294",
+      "favorites_text": "63,888",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20230822060822",
+      "capture_url": "https://web.archive.org/web/20230822060822/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230822060822_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_0759841328700c37.json"
+    },
+    {
       "date": "2023-08-24",
       "game_name": "Rhomb",
       "game_url": "https://www.kongregate.com/en/games/KekGames/rhomb",
@@ -24479,6 +25649,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230922170329_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_2a2aed22c715de32.json"
+    },
+    {
+      "date": "2023-09-23",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1713889,
+      "favorites_count_observed": 19419,
+      "plays_text": "1,713,889",
+      "favorites_text": "19,419",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20230923203144",
+      "capture_url": "https://web.archive.org/web/20230923203144/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230923203144_https_www.kongregate.com_games_terra0nova_aground_metrics.json_da340b1bc1ac1dae.json"
     },
     {
       "date": "2023-09-23",
@@ -25336,6 +26521,36 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231112021324_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_47fd75dda01e90a1.json"
     },
     {
+      "date": "2023-11-14",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1720876,
+      "favorites_count_observed": 19468,
+      "plays_text": "1,720,876",
+      "favorites_text": "19,468",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20231114171712",
+      "capture_url": "https://web.archive.org/web/20231114171712/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231114171712_https_www.kongregate.com_games_terra0nova_aground_metrics.json_c158b096233f4126.json"
+    },
+    {
+      "date": "2023-11-14",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1721218,
+      "favorites_count_observed": 19469,
+      "plays_text": "1,721,218",
+      "favorites_text": "19,469",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20231114190413",
+      "capture_url": "https://web.archive.org/web/20231114190413/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231114190413_https_www.kongregate.com_games_terra0nova_aground_metrics.json_d28451ef2cf08987.json"
+    },
+    {
       "date": "2023-11-17",
       "game_name": "Tangerine Tycoon",
       "game_url": "https://www.kongregate.com/games/GazThomas/tangerine-tycoon",
@@ -25516,6 +26731,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231125075420_https_www.kongregate.com_games_theswain_mastermind-world-conquerer_metrics.json_5991e8cdde4107a0.json"
     },
     {
+      "date": "2023-11-25",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3740331,
+      "favorites_count_observed": 19211,
+      "plays_text": "3,740,331",
+      "favorites_text": "19,211",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20231125044936",
+      "capture_url": "https://web.archive.org/web/20231125044936/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231125044936_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_90ab2229ad9c6be0.json"
+    },
+    {
       "date": "2023-11-27",
       "game_name": "GrindCraft",
       "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
@@ -25529,6 +26759,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231127233229_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_670be76b5afc38f7.json"
+    },
+    {
+      "date": "2023-11-29",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3740451,
+      "favorites_count_observed": 19213,
+      "plays_text": "3,740,451",
+      "favorites_text": "19,213",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20231129133706",
+      "capture_url": "https://web.archive.org/web/20231129133706/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231129133706_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_3cc1a686b75f9337.json"
     },
     {
       "date": "2023-11-30",
@@ -25664,6 +26909,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231215191649_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_98c687be0eeb9680.json"
+    },
+    {
+      "date": "2023-12-16",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1725307,
+      "favorites_count_observed": 19495,
+      "plays_text": "1,725,307",
+      "favorites_text": "19,495",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20231216033207",
+      "capture_url": "https://web.archive.org/web/20231216033207/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231216033207_https_www.kongregate.com_games_terra0nova_aground_metrics.json_842cc10b61f4e83c.json"
     },
     {
       "date": "2023-12-16",
@@ -27332,6 +28592,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Achievement Unlocked 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
+      "plays_count_observed": 2077301,
+      "favorites_count_observed": 15414,
+      "plays_text": "2,077,301",
+      "favorites_text": "15,414",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "capture_timestamp": "20240121142402",
+      "capture_url": "https://web.archive.org/web/20240121142402/https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121142402_https_www.kongregate.com_games_ArmorGames_achievement-unlocked-2_metrics.json_968a37ec4c4a817a.json"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
       "plays_count_observed": 16356619,
@@ -28637,6 +29912,21 @@
     },
     {
       "date": "2024-03-08",
+      "game_name": "Achievement Unlocked 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
+      "plays_count_observed": 2077671,
+      "favorites_count_observed": 15414,
+      "plays_text": "2,077,671",
+      "favorites_text": "15,414",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "capture_timestamp": "20240308074716",
+      "capture_url": "https://web.archive.org/web/20240308074716/https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308074716_https_www.kongregate.com_games_ArmorGames_achievement-unlocked-2_metrics.json_998b780438ac6dac.json"
+    },
+    {
+      "date": "2024-03-08",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
       "plays_count_observed": 16362486,
@@ -29414,6 +30704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240504181118_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_ae15ca616923a752.json"
+    },
+    {
+      "date": "2024-05-04",
+      "game_name": "Madnes Project Nexus Party mod III",
+      "game_url": "https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii",
+      "plays_count_observed": 40657,
+      "favorites_count_observed": 160,
+      "plays_text": "40,657",
+      "favorites_text": "160",
+      "metrics_url": "https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii/metrics.json",
+      "capture_timestamp": "20240504122154",
+      "capture_url": "https://web.archive.org/web/20240504122154/https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240504122154_https_www.kongregate.com_games_Asriel343_madnes-project-nexus-party-mod-iii_metrics.json_0aa6ef0624291df8.json"
     },
     {
       "date": "2024-05-05",
@@ -30691,6 +31996,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240804095732_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_59240b717ece956e.json"
     },
     {
+      "date": "2024-08-06",
+      "game_name": "Achievement Unlocked 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
+      "plays_count_observed": 2078706,
+      "favorites_count_observed": 15420,
+      "plays_text": "2,078,706",
+      "favorites_text": "15,420",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "capture_timestamp": "20240806104303",
+      "capture_url": "https://web.archive.org/web/20240806104303/https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240806104303_https_www.kongregate.com_games_ArmorGames_achievement-unlocked-2_metrics.json_854bf399187e5dc1.json"
+    },
+    {
       "date": "2024-08-07",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -31379,6 +32699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903231137_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_8ae127077a573430.json"
+    },
+    {
+      "date": "2024-09-05",
+      "game_name": "Aground",
+      "game_url": "https://www.kongregate.com/en/games/terra0nova/aground",
+      "plays_count_observed": 1748515,
+      "favorites_count_observed": 19615,
+      "plays_text": "1,748,515",
+      "favorites_text": "19,615",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "capture_timestamp": "20240905225519",
+      "capture_url": "https://web.archive.org/web/20240905225519/https://www.kongregate.com/games/terra0nova/aground/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240905225519_https_www.kongregate.com_games_terra0nova_aground_metrics.json_43a47add331f70ec.json"
     },
     {
       "date": "2024-09-05",
@@ -32431,6 +33766,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241124003004_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_4a41fe268e2676ed.json"
     },
     {
+      "date": "2024-11-29",
+      "game_name": "Wonderputt",
+      "game_url": "https://www.kongregate.com/games/dampgnat/wonderputt",
+      "plays_count_observed": 3754478,
+      "favorites_count_observed": 19259,
+      "plays_text": "3,754,478",
+      "favorites_text": "19,259",
+      "metrics_url": "https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "capture_timestamp": "20241129003428",
+      "capture_url": "https://web.archive.org/web/20241129003428/https://www.kongregate.com/games/dampgnat/wonderputt/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241129003428_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_4eec8ee54be55224.json"
+    },
+    {
       "date": "2024-12-01",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -33466,6 +34816,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250326090207_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_46da71ffbe17a7a4.json"
     },
     {
+      "date": "2025-03-26",
+      "game_name": "Madnes Project Nexus Party mod III",
+      "game_url": "https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii",
+      "plays_count_observed": 52862,
+      "favorites_count_observed": 191,
+      "plays_text": "52,862",
+      "favorites_text": "191",
+      "metrics_url": "https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii/metrics.json",
+      "capture_timestamp": "20250326104900",
+      "capture_url": "https://web.archive.org/web/20250326104900/https://www.kongregate.com/games/Asriel343/madnes-project-nexus-party-mod-iii/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250326104900_https_www.kongregate.com_games_Asriel343_madnes-project-nexus-party-mod-iii_metrics.json_44d7d857d63b127c.json"
+    },
+    {
       "date": "2025-03-30",
       "game_name": "Blockade3D",
       "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
@@ -33524,6 +34889,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330125321_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_2cdb39ad3bc77ab5.json"
+    },
+    {
+      "date": "2025-03-30",
+      "game_name": "Strike Force Heroes 2",
+      "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
+      "plays_count_observed": 5388256,
+      "favorites_count_observed": 64102,
+      "plays_text": "5,388,256",
+      "favorites_text": "64,102",
+      "metrics_url": "https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "capture_timestamp": "20250330125224",
+      "capture_url": "https://web.archive.org/web/20250330125224/https://www.kongregate.com/games/JuiceTin/strike-force-heroes-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330125224_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_31856e46e7077455.json"
     },
     {
       "date": "2025-03-30",
@@ -34081,6 +35461,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250518062053_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_066cdfa79eb3cd30.json"
     },
     {
+      "date": "2025-05-18",
+      "game_name": "YouKongregate",
+      "game_url": "http://www.kongregate.com/games/locos/youkongregate",
+      "plays_count_observed": 1046705,
+      "favorites_count_observed": 8564,
+      "plays_text": "1,046,705",
+      "favorites_text": "8,564",
+      "metrics_url": "https://www.kongregate.com/games/locos/youkongregate/metrics.json",
+      "capture_timestamp": "20250518062000",
+      "capture_url": "https://web.archive.org/web/20250518062000/https://www.kongregate.com/games/locos/youkongregate/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250518062000_https_www.kongregate.com_games_locos_youkongregate_metrics.json_6cbe4e94ca04c963.json"
+    },
+    {
       "date": "2025-05-21",
       "game_name": "Anti-Idle: The Game",
       "game_url": "http://www.kongregate.com/games/Tukkun/anti-idle-the-game",
@@ -34499,6 +35894,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250717075835_https_www.kongregate.com_games_Gumrok_revolution-idle-2_metrics.json_4b82968059dde42c.json"
+    },
+    {
+      "date": "2025-07-21",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 404217,
+      "favorites_count_observed": 1922,
+      "plays_text": "404,217",
+      "favorites_text": "1,922",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20250721120903",
+      "capture_url": "https://web.archive.org/web/20250721120903/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250721120903_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_829f6f7021a916ad.json"
     },
     {
       "date": "2025-07-24",
@@ -35057,6 +36467,21 @@
     },
     {
       "date": "2025-10-01",
+      "game_name": "Achievement Unlocked 2",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/achievement-unlocked-2",
+      "plays_count_observed": 2082004,
+      "favorites_count_observed": 15427,
+      "plays_text": "2,082,004",
+      "favorites_text": "15,427",
+      "metrics_url": "https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "capture_timestamp": "20251001174745",
+      "capture_url": "https://web.archive.org/web/20251001174745/https://www.kongregate.com/games/ArmorGames/achievement-unlocked-2/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251001174745_https_www.kongregate.com_games_ArmorGames_achievement-unlocked-2_metrics.json_610731df7e113675.json"
+    },
+    {
+      "date": "2025-10-01",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
       "plays_count_observed": 35372565,
@@ -35084,6 +36509,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251001174303_https_www.kongregate.com_games_HeroicHero_idle-dancing_metrics.json_a143d7e6de5be241.json"
+    },
+    {
+      "date": "2025-10-03",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 412741,
+      "favorites_count_observed": 1939,
+      "plays_text": "412,741",
+      "favorites_text": "1,939",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20251003165234",
+      "capture_url": "https://web.archive.org/web/20251003165234/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251003165234_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_670b2fa0a7dd6943.json"
     },
     {
       "date": "2025-10-11",
