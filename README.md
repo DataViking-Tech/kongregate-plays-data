@@ -8,11 +8,11 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1B7PdIRhLu4tP3ER5Zz-NwndW1fRsOs-xmF4p0UU6Lo4
+https://docs.google.com/spreadsheets/d/19ovgRq0U_GVXzNy6X0n6k2WeQfb7pGIoPLrfLOkO26A
 
 ## Current Snapshot
 
-- Ranked-list rows: 23,075
+- Ranked-list rows: 23,395
 - Ranked-list rows with observed play counts: 8,483
 - Mini catalog: 2,858 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 4,834 across 1,274 canonical games
