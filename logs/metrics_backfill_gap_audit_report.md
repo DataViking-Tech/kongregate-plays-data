@@ -1,27 +1,28 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T18:05:38Z
+Generated: 2026-06-29T18:26:42Z
 
 ## Summary
 
-- Mini-catalog games audited: 1865
-- Games without metrics rows: 512
+- Mini-catalog games audited: 1933
+- Games without metrics rows: 547
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 638
-- Missing CDX cache files: 279
+- Known failed captures: 646
+- Missing CDX cache files: 284
 
 ## Status Counts
 
-- cdx_cache_missing: 179
-- has_metrics: 1353
-- known_failures_only: 31
-- no_cdx: 302
+- cdx_cache_missing: 180
+- has_metrics: 1386
+- known_failures_only: 35
+- no_cdx: 332
 
 ## Top Unresolved Games
 
 | Game | Status | Best rank | Metrics rows | CDX rows | Fresh pending | Known failed |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Football Legends 2016 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | LT-Breakout | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -37,6 +38,7 @@ Generated: 2026-06-29T18:05:38Z
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Dead Frontier | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Finger Spinner Online | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| jhghj | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Mini Jumper | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Raze 3 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
@@ -45,8 +47,6 @@ Generated: 2026-06-29T18:05:38Z
 | CBS:Escape from the Mall | no_cdx | 3 | 0 | 0 | 0 | 0 |
 | Defense Math | no_cdx | 3 | 0 | 0 | 0 | 0 |
 | Dot Snap Battle | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| SUV Car Cartoon Puzzle | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| Vape Naysh Vs The Memes Beta1 | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

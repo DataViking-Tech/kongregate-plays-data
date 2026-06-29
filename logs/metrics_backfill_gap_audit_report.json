@@ -1,18 +1,29 @@
 {
-  "catalog_games": 1865,
+  "catalog_games": 1933,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 512,
-  "generated_at": "2026-06-29T18:05:38Z",
-  "known_failed_captures": 638,
-  "missing_cdx_cache_files": 279,
+  "games_without_metrics_rows": 547,
+  "generated_at": "2026-06-29T18:26:42Z",
+  "known_failed_captures": 646,
+  "missing_cdx_cache_files": 284,
   "status_counts": {
-    "cdx_cache_missing": 179,
-    "has_metrics": 1353,
-    "known_failures_only": 31,
-    "no_cdx": 302
+    "cdx_cache_missing": 180,
+    "has_metrics": 1386,
+    "known_failures_only": 35,
+    "no_cdx": 332
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "as3q32@gmail.com",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -183,6 +194,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "jhghj",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Mini Jumper",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -265,29 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "SUV Car Cartoon Puzzle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Vape Naysh Vs The Memes Beta1",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8162
+  "valid_cached_captures": 8164
 }
