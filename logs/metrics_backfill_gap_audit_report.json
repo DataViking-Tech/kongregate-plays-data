@@ -1,0 +1,292 @@
+{
+  "catalog_games": 743,
+  "fresh_pending_captures": 0,
+  "games_with_fresh_pending_captures": 0,
+  "games_without_metrics_rows": 282,
+  "generated_at": "2026-06-29T10:39:06Z",
+  "known_failed_captures": 411,
+  "missing_cdx_cache_files": 2,
+  "status_counts": {
+    "has_metrics": 461,
+    "known_failures_only": 46,
+    "no_cdx": 236
+  },
+  "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Robo-Jump",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Caralhinhos Voadores - Age Of Delicia",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 2,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (2)",
+      "fresh_pending_captures": 0,
+      "game_name": "Pre-Civilization Bronze Age",
+      "known_failed_captures": 2,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "A Kongergate Special",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 4,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (4)",
+      "fresh_pending_captures": 0,
+      "game_name": "SandTest",
+      "known_failed_captures": 4,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "4",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Wave1",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3051,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "5",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
+      "fresh_pending_captures": 0,
+      "game_name": "Holyday City",
+      "known_failed_captures": 1,
+      "metrics_rows": 0,
+      "priority_score": 2962,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "5",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Footie Fight",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2953,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "5",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Cage Bird",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2951,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "5",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Skrillex Equinox Launchpad v2.0",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2951,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "surviv.io",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2907,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Abyssal Depths",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2905,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Bowmaster Prelude",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2905,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Bowmaster Prelude",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2905,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Doodle RPG Survivor",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2902,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "2d space game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 1,
+      "failure_errors": "not_json (1)",
+      "fresh_pending_captures": 0,
+      "game_name": "Age Of Wind",
+      "known_failed_captures": 1,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "known_failures_only"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Atomic Supercars",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Avoidr",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "BLOB KILLS BALL!",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Booty Call of Duty",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Double Winx",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Eggplant Dress-up",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "facebook example",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Hidden Bee",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 2901,
+      "status": "no_cdx"
+    }
+  ],
+  "valid_cached_captures": 6254
+}

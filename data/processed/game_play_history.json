@@ -2972,6 +2972,21 @@
     },
     {
       "date": "2018-02-09",
+      "game_name": "The Last Stand",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand",
+      "plays_count_observed": 2221756,
+      "favorites_count_observed": 22206,
+      "plays_text": "2,221,756",
+      "favorites_text": "22,206",
+      "metrics_url": "http://www.kongregate.com:80/games/ConArtists/the-last-stand/metrics.json",
+      "capture_timestamp": "20180209133910",
+      "capture_url": "https://web.archive.org/web/20180209133910/http://www.kongregate.com:80/games/ConArtists/the-last-stand/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180209133910_http_www.kongregate.com_80_games_ConArtists_the-last-stand_metrics.json_34257069762806f5.json"
+    },
+    {
+      "date": "2018-02-09",
       "game_name": "The Last Stand 2",
       "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand-2",
       "plays_count_observed": 5182783,
@@ -3074,6 +3089,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180222175103_http_www.kongregate.com_games_Exception_e_woodclicker_metrics.json_89918a3c5c8d963d.json"
+    },
+    {
+      "date": "2018-03-08",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 460817,
+      "favorites_count_observed": 2805,
+      "plays_text": "460,817",
+      "favorites_text": "2,805",
+      "metrics_url": "http://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20180308163821",
+      "capture_url": "https://web.archive.org/web/20180308163821/http://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180308163821_http_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_6402a88e7e25acf1.json"
     },
     {
       "date": "2018-03-12",
@@ -3629,6 +3659,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190126192720_http_www.kongregate.com_games_ThetisGames_flight-simulator-flywings-2016_metrics.json_37ed37c9cd2ac56f.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 623330,
+      "favorites_count_observed": 3674,
+      "plays_text": "623,330",
+      "favorites_text": "3,674",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20190205032939",
+      "capture_url": "https://web.archive.org/web/20190205032939/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205032939_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_7bd92c24a6e38dd2.json"
     },
     {
       "date": "2019-02-05",
@@ -4199,6 +4244,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072803_https_www.kongregate.com_games_KekGames_rhomb_metrics.json_175a5d99e8508f74.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 213030,
+      "favorites_count_observed": 1535,
+      "plays_text": "213,030",
+      "favorites_text": "1,535",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20190702072654",
+      "capture_url": "https://web.archive.org/web/20190702072654/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072654_https_www.kongregate.com_games_chomi3_scalak_metrics.json_0a0dad1c8890ba73.json"
     },
     {
       "date": "2019-07-02",
@@ -6449,6 +6509,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191208062258_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_d237a48ac8b0d8a4.json"
+    },
+    {
+      "date": "2019-12-11",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 732249,
+      "favorites_count_observed": 4183,
+      "plays_text": "732,249",
+      "favorites_text": "4,183",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20191211135657",
+      "capture_url": "https://web.archive.org/web/20191211135657/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135657_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_1fe27f5666842459.json"
     },
     {
       "date": "2019-12-11",
@@ -16936,6 +17011,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210225031316_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_872c38a371d40d6f.json"
     },
     {
+      "date": "2021-03-06",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 874685,
+      "favorites_count_observed": 4802,
+      "plays_text": "874,685",
+      "favorites_text": "4,802",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20210306172244",
+      "capture_url": "https://web.archive.org/web/20210306172244/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210306172244_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_e9f9d4030efa960c.json"
+    },
+    {
       "date": "2021-03-17",
       "game_name": "Learn to Fly 2",
       "game_url": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
@@ -18767,6 +18857,36 @@
     },
     {
       "date": "2021-06-20",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 258130,
+      "favorites_count_observed": 1885,
+      "plays_text": "258,130",
+      "favorites_text": "1,885",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20210620191312",
+      "capture_url": "https://web.archive.org/web/20210620191312/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620191312_https_www.kongregate.com_games_chomi3_scalak_metrics.json_0be6bc3f09b19a11.json"
+    },
+    {
+      "date": "2021-06-20",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 258133,
+      "favorites_count_observed": 1886,
+      "plays_text": "258,133",
+      "favorites_text": "1,886",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20210620202543",
+      "capture_url": "https://web.archive.org/web/20210620202543/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620202543_https_www.kongregate.com_games_chomi3_scalak_metrics.json_4f0b0214d600d663.json"
+    },
+    {
+      "date": "2021-06-20",
       "game_name": "The Journey Home",
       "game_url": "https://www.kongregate.com/en/games/Raius_/the-journey-home",
       "plays_count_observed": 300348,
@@ -19621,6 +19741,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210928174752_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_52e47c397f6f54b0.json"
     },
     {
+      "date": "2021-09-28",
+      "game_name": "Fantastic Contraption",
+      "game_url": "https://www.kongregate.com/games/inXile_Ent/fantastic-contraption",
+      "plays_count_observed": 3691053,
+      "favorites_count_observed": 16993,
+      "plays_text": "3,691,053",
+      "favorites_text": "16,993",
+      "metrics_url": "http://www.kongregate.com/games/inxile_ent/fantastic-contraption/metrics.json",
+      "capture_timestamp": "20210928101053",
+      "capture_url": "https://web.archive.org/web/20210928101053/http://www.kongregate.com/games/inxile_ent/fantastic-contraption/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210928101053_http_www.kongregate.com_games_inxile_ent_fantastic-contraption_metrics.json_2bfd10308c3c5d8a.json"
+    },
+    {
       "date": "2021-09-29",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
@@ -20054,6 +20189,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211017123413_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_a880f4b05cde7dc3.json"
+    },
+    {
+      "date": "2021-10-18",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 261139,
+      "favorites_count_observed": 1905,
+      "plays_text": "261,139",
+      "favorites_text": "1,905",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20211018024121",
+      "capture_url": "https://web.archive.org/web/20211018024121/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211018024121_https_www.kongregate.com_games_chomi3_scalak_metrics.json_301c973015187b57.json"
     },
     {
       "date": "2021-10-21",
@@ -26116,6 +26266,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220502110305_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_95c20b978e46ba36.json"
     },
     {
+      "date": "2022-05-04",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 954871,
+      "favorites_count_observed": 5060,
+      "plays_text": "954,871",
+      "favorites_text": "5,060",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20220504205125",
+      "capture_url": "https://web.archive.org/web/20220504205125/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220504205125_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_219e62042a772928.json"
+    },
+    {
       "date": "2022-05-05",
       "game_name": "Bloons TD 5",
       "game_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
@@ -26879,6 +27044,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220716161323_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_bb7ec576e2dcbb43.json"
+    },
+    {
+      "date": "2022-07-17",
+      "game_name": "The Last Stand",
+      "game_url": "http://www.kongregate.com/games/ConArtists/the-last-stand",
+      "plays_count_observed": 2280044,
+      "favorites_count_observed": 22690,
+      "plays_text": "2,280,044",
+      "favorites_text": "22,690",
+      "metrics_url": "https://www.kongregate.com/games/ConArtists/the-last-stand/metrics.json",
+      "capture_timestamp": "20220717144151",
+      "capture_url": "https://web.archive.org/web/20220717144151/https://www.kongregate.com/games/ConArtists/the-last-stand/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220717144151_https_www.kongregate.com_games_ConArtists_the-last-stand_metrics.json_ce984a6ec9ef4b67.json"
     },
     {
       "date": "2022-07-21",
@@ -30106,6 +30286,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221213051005_https_www.kongregate.com_games_Baldurans_reactor-idle_metrics.json_73beab70ab8b0d37.json"
     },
     {
+      "date": "2022-12-18",
+      "game_name": "Fantastic Contraption",
+      "game_url": "https://www.kongregate.com/games/inXile_Ent/fantastic-contraption",
+      "plays_count_observed": 3696530,
+      "favorites_count_observed": 16717,
+      "plays_text": "3,696,530",
+      "favorites_text": "16,717",
+      "metrics_url": "https://www.kongregate.com/games/inXile_Ent/fantastic-contraption/metrics.json",
+      "capture_timestamp": "20221218080822",
+      "capture_url": "https://web.archive.org/web/20221218080822/https://www.kongregate.com/games/inXile_Ent/fantastic-contraption/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221218080822_https_www.kongregate.com_games_inXile_Ent_fantastic-contraption_metrics.json_58b29250c01acf71.json"
+    },
+    {
       "date": "2022-12-20",
       "game_name": "Anti-Idle: The Game",
       "game_url": "https://www.kongregate.com/en/games/Tukkun/anti-idle-the-game",
@@ -30452,6 +30647,21 @@
     },
     {
       "date": "2023-01-24",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 992906,
+      "favorites_count_observed": 5136,
+      "plays_text": "992,906",
+      "favorites_text": "5,136",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230124210427",
+      "capture_url": "https://web.archive.org/web/20230124210427/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230124210427_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_f82ca560661fc668.json"
+    },
+    {
+      "date": "2023-01-24",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 1772491,
@@ -30479,6 +30689,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230125223907_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_ef700c508bea4489.json"
+    },
+    {
+      "date": "2023-01-25",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 992949,
+      "favorites_count_observed": 5136,
+      "plays_text": "992,949",
+      "favorites_text": "5,136",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230125022001",
+      "capture_url": "https://web.archive.org/web/20230125022001/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230125022001_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_007d890cbfccb376.json"
     },
     {
       "date": "2023-01-26",
@@ -32042,6 +32267,21 @@
     },
     {
       "date": "2023-03-03",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 998912,
+      "favorites_count_observed": 5145,
+      "plays_text": "998,912",
+      "favorites_text": "5,145",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230303164101",
+      "capture_url": "https://web.archive.org/web/20230303164101/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230303164101_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_3cbc84f7c6a8ea7d.json"
+    },
+    {
+      "date": "2023-03-03",
       "game_name": "Strike Force Heroes 2",
       "game_url": "http://www.kongregate.com/games/JuiceTin/strike-force-heroes-2",
       "plays_count_observed": 5315604,
@@ -32084,6 +32324,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230305134633_https_www.kongregate.com_games_kingk_dream-world_metrics.json_585b9814d4a4863e.json"
+    },
+    {
+      "date": "2023-03-05",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 999298,
+      "favorites_count_observed": 5146,
+      "plays_text": "999,298",
+      "favorites_text": "5,146",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230305221826",
+      "capture_url": "https://web.archive.org/web/20230305221826/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230305221826_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_ddd70f9a2ebb99e4.json"
     },
     {
       "date": "2023-03-05",
@@ -32162,6 +32417,21 @@
     },
     {
       "date": "2023-03-07",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 999494,
+      "favorites_count_observed": 5146,
+      "plays_text": "999,494",
+      "favorites_text": "5,146",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230307061214",
+      "capture_url": "https://web.archive.org/web/20230307061214/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307061214_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_1b6f8d0757d95e0e.json"
+    },
+    {
+      "date": "2023-03-07",
       "game_name": "Idle Online Universe",
       "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
       "plays_count_observed": 9276512,
@@ -32204,6 +32474,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230307194835_https_www.kongregate.com_games_bytro_supremacy-1914_metrics.json_35374682dea9d379.json"
+    },
+    {
+      "date": "2023-03-08",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 999701,
+      "favorites_count_observed": 5149,
+      "plays_text": "999,701",
+      "favorites_text": "5,149",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230308152212",
+      "capture_url": "https://web.archive.org/web/20230308152212/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230308152212_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_9969105e6b0c0b75.json"
+    },
+    {
+      "date": "2023-03-08",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 999767,
+      "favorites_count_observed": 5149,
+      "plays_text": "999,767",
+      "favorites_text": "5,149",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230308224251",
+      "capture_url": "https://web.archive.org/web/20230308224251/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230308224251_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_6a62e189c0aad057.json"
     },
     {
       "date": "2023-03-08",
@@ -32372,6 +32672,21 @@
     },
     {
       "date": "2023-03-26",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002017,
+      "favorites_count_observed": 5161,
+      "plays_text": "1,002,017",
+      "favorites_text": "5,161",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230326201806",
+      "capture_url": "https://web.archive.org/web/20230326201806/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230326201806_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_e03e524a440de78d.json"
+    },
+    {
+      "date": "2023-03-26",
       "game_name": "Learn to Fly 3",
       "game_url": "https://www.kongregate.com/games/light_bringer777/learn-to-fly-3",
       "plays_count_observed": 6190586,
@@ -32399,6 +32714,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230326121518_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_b0ad978abda4c12e.json"
+    },
+    {
+      "date": "2023-03-28",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002251,
+      "favorites_count_observed": 5163,
+      "plays_text": "1,002,251",
+      "favorites_text": "5,163",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230328200946",
+      "capture_url": "https://web.archive.org/web/20230328200946/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230328200946_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_4c532490a6c9b86a.json"
+    },
+    {
+      "date": "2023-03-28",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002256,
+      "favorites_count_observed": 5163,
+      "plays_text": "1,002,256",
+      "favorites_text": "5,163",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230328211008",
+      "capture_url": "https://web.archive.org/web/20230328211008/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230328211008_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_d6dcd21c5a1cf7eb.json"
     },
     {
       "date": "2023-03-29",
@@ -32687,6 +33032,51 @@
     },
     {
       "date": "2023-03-30",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002416,
+      "favorites_count_observed": 5163,
+      "plays_text": "1,002,416",
+      "favorites_text": "5,163",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230330034116",
+      "capture_url": "https://web.archive.org/web/20230330034116/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330034116_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_8a32bb3f0ac388f3.json"
+    },
+    {
+      "date": "2023-03-30",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002421,
+      "favorites_count_observed": 5163,
+      "plays_text": "1,002,421",
+      "favorites_text": "5,163",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230330044552",
+      "capture_url": "https://web.archive.org/web/20230330044552/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330044552_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_021215f2a8175873.json"
+    },
+    {
+      "date": "2023-03-30",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1002445,
+      "favorites_count_observed": 5163,
+      "plays_text": "1,002,445",
+      "favorites_text": "5,163",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230330054534",
+      "capture_url": "https://web.archive.org/web/20230330054534/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230330054534_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_1ceed34acaeb8fba.json"
+    },
+    {
+      "date": "2023-03-30",
       "game_name": "Monster Clearer",
       "game_url": "https://www.kongregate.com/en/games/adventale/monster-clearer",
       "plays_count_observed": 593573,
@@ -32909,6 +33299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230410141832_https_www.kongregate.com_games_JuiceTin_strike-force-heroes-2_metrics.json_69af3e74434ae69f.json"
+    },
+    {
+      "date": "2023-04-14",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1004325,
+      "favorites_count_observed": 5169,
+      "plays_text": "1,004,325",
+      "favorites_text": "5,169",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230414001708",
+      "capture_url": "https://web.archive.org/web/20230414001708/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230414001708_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_7cfa871010648286.json"
     },
     {
       "date": "2023-04-15",
@@ -33226,6 +33631,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515184736_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_8f49da182213a61b.json"
     },
     {
+      "date": "2023-05-15",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1007976,
+      "favorites_count_observed": 5183,
+      "plays_text": "1,007,976",
+      "favorites_text": "5,183",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230515161645",
+      "capture_url": "https://web.archive.org/web/20230515161645/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230515161645_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_ceb0cd4ff3316aab.json"
+    },
+    {
       "date": "2023-05-21",
       "game_name": "GemCraft - Chasing Shadows",
       "game_url": "http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows",
@@ -33239,6 +33659,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230521123626_http_www.kongregate.com_games_gameinabottle_gemcraft-chasing-shadows_metrics.json_7acd73698d3cb6d6.json"
+    },
+    {
+      "date": "2023-05-21",
+      "game_name": "Oliver & the Basilisks",
+      "game_url": "http://www.kongregate.com/games/xopods/oliver-the-basilisks",
+      "plays_count_observed": 2542,
+      "favorites_count_observed": 10,
+      "plays_text": "2,542",
+      "favorites_text": "10",
+      "metrics_url": "https://www.kongregate.com/games/xopods/oliver-the-basilisks/metrics.json",
+      "capture_timestamp": "20230521004552",
+      "capture_url": "https://web.archive.org/web/20230521004552/https://www.kongregate.com/games/xopods/oliver-the-basilisks/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230521004552_https_www.kongregate.com_games_xopods_oliver-the-basilisks_metrics.json_64605d32ce24e85d.json"
     },
     {
       "date": "2023-05-23",
@@ -34364,6 +34799,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230808045344_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_d16c6fcad56993f3.json"
+    },
+    {
+      "date": "2023-08-08",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1018024,
+      "favorites_count_observed": 5205,
+      "plays_text": "1,018,024",
+      "favorites_text": "5,205",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20230808045626",
+      "capture_url": "https://web.archive.org/web/20230808045626/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230808045626_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_3b09b05fed94b37f.json"
     },
     {
       "date": "2023-08-08",
@@ -37771,6 +38221,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240101173623_https_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_fcee14037e5f567c.json"
     },
     {
+      "date": "2024-01-01",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 272815,
+      "favorites_count_observed": 1973,
+      "plays_text": "272,815",
+      "favorites_text": "1,973",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20240101072505",
+      "capture_url": "https://web.archive.org/web/20240101072505/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240101072505_https_www.kongregate.com_games_chomi3_scalak_metrics.json_a0c37c519131e39d.json"
+    },
+    {
       "date": "2024-01-02",
       "game_name": "Robot Butler",
       "game_url": "http://www.kongregate.com/games/RUSTLTD/robot-butler",
@@ -38792,6 +39257,21 @@
     },
     {
       "date": "2024-01-19",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1038053,
+      "favorites_count_observed": 5285,
+      "plays_text": "1,038,053",
+      "favorites_text": "5,285",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240119152743",
+      "capture_url": "https://web.archive.org/web/20240119152743/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119152743_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_d128acac69391d4e.json"
+    },
+    {
+      "date": "2024-01-19",
       "game_name": "Hat Wizard 2",
       "game_url": "https://www.kongregate.com/en/games/taccommandeur/hat-wizard-2",
       "plays_count_observed": 176052,
@@ -39449,6 +39929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120021049_https_www.kongregate.com_games_player_03_run-3_metrics.json_f8ab6f9b80e5acff.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 273072,
+      "favorites_count_observed": 1975,
+      "plays_text": "273,072",
+      "favorites_text": "1,975",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20240120023728",
+      "capture_url": "https://web.archive.org/web/20240120023728/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120023728_https_www.kongregate.com_games_chomi3_scalak_metrics.json_42aeb2d7ab23229d.json"
     },
     {
       "date": "2024-01-20",
@@ -41147,6 +41642,21 @@
     },
     {
       "date": "2024-02-23",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
+      "plays_count_observed": 273458,
+      "favorites_count_observed": 1980,
+      "plays_text": "273,458",
+      "favorites_text": "1,980",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20240223073548",
+      "capture_url": "https://web.archive.org/web/20240223073548/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223073548_https_www.kongregate.com_games_chomi3_scalak_metrics.json_95a71b8868a7f55c.json"
+    },
+    {
+      "date": "2024-02-23",
       "game_name": "Sift Heads World Act 1",
       "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-1",
       "plays_count_observed": 591813,
@@ -42797,6 +43307,21 @@
     },
     {
       "date": "2024-05-05",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1051673,
+      "favorites_count_observed": 5323,
+      "plays_text": "1,051,673",
+      "favorites_text": "5,323",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240505104909",
+      "capture_url": "https://web.archive.org/web/20240505104909/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240505104909_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_b3b082964ac27a64.json"
+    },
+    {
+      "date": "2024-05-05",
       "game_name": "Multitask",
       "game_url": "https://www.kongregate.com/en/games/IcyLime/multitask",
       "plays_count_observed": 4825195,
@@ -44101,6 +44626,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240723041629_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_d9df6b5785ca3573.json"
     },
     {
+      "date": "2024-07-23",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1062602,
+      "favorites_count_observed": 5352,
+      "plays_text": "1,062,602",
+      "favorites_text": "5,352",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240723003545",
+      "capture_url": "https://web.archive.org/web/20240723003545/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240723003545_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_9e2eec3e7d04244f.json"
+    },
+    {
       "date": "2024-07-26",
       "game_name": "Bit Heroes",
       "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
@@ -44567,6 +45107,21 @@
     },
     {
       "date": "2024-08-12",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1065309,
+      "favorites_count_observed": 5357,
+      "plays_text": "1,065,309",
+      "favorites_text": "5,357",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240812071335",
+      "capture_url": "https://web.archive.org/web/20240812071335/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240812071335_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_0029ca2dd5e88fd4.json"
+    },
+    {
+      "date": "2024-08-12",
       "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 2020835,
@@ -44609,6 +45164,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240812140122_https_www.kongregate.com_games_ArmorGames_upgrade-complete-2_metrics.json_ae6c829ff7671c5a.json"
+    },
+    {
+      "date": "2024-08-13",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1065512,
+      "favorites_count_observed": 5357,
+      "plays_text": "1,065,512",
+      "favorites_text": "5,357",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240813171841",
+      "capture_url": "https://web.archive.org/web/20240813171841/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240813171841_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_c56db22173af8408.json"
     },
     {
       "date": "2024-08-13",
@@ -44789,6 +45359,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816204555_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_8d58258b59260f7a.json"
+    },
+    {
+      "date": "2024-08-16",
+      "game_name": "Groundhog Life",
+      "game_url": "https://www.kongregate.com/en/games/egosummo/groundhog-life",
+      "plays_count_observed": 1065920,
+      "favorites_count_observed": 5359,
+      "plays_text": "1,065,920",
+      "favorites_text": "5,359",
+      "metrics_url": "https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "capture_timestamp": "20240816073154",
+      "capture_url": "https://web.archive.org/web/20240816073154/https://www.kongregate.com/games/egosummo/groundhog-life/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240816073154_https_www.kongregate.com_games_egosummo_groundhog-life_metrics.json_31d156f633dc990d.json"
     },
     {
       "date": "2024-08-16",
@@ -48539,6 +49124,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426222527_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_ee9ab23ff54237b5.json"
+    },
+    {
+      "date": "2025-04-26",
+      "game_name": "Sift Heads World act 7 - Ultimatum",
+      "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-7-ultimatum",
+      "plays_count_observed": 410989,
+      "favorites_count_observed": 2215,
+      "plays_text": "410,989",
+      "favorites_text": "2,215",
+      "metrics_url": "https://www.kongregate.com/games/WebCypher/sift-heads-world-act-7-ultimatum/metrics.json",
+      "capture_timestamp": "20250426224210",
+      "capture_url": "https://web.archive.org/web/20250426224210/https://www.kongregate.com/games/WebCypher/sift-heads-world-act-7-ultimatum/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426224210_https_www.kongregate.com_games_WebCypher_sift-heads-world-act-7-ultimatum_metrics.json_51d291d7ab3eb6d5.json"
     },
     {
       "date": "2025-04-26",

@@ -11,8 +11,8 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 - Ranked-list rows: 8,140
 - Ranked-list rows with observed play counts: 4,685
 - Mini catalog: 743 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 3,367 across 322 canonical games
-- Observed play-count rows used by the chart: 8,052
+- Per-game metrics history rows: 3,407 across 328 canonical games
+- Observed play-count rows used by the chart: 8,092
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-05-19
 
@@ -23,7 +23,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 105 cached HTML captures remain empty or corrupted and are queued for retry/backfill.
 - 134 historical months still have no ranked-list captures in the processed dataset.
-- 288 mini-catalog games still need per-game metrics history backfill.
+- 282 mini-catalog games still need per-game metrics history backfill.
+- Metrics gap audit currently has no fresh pending captures; remaining unresolved games are mostly no-CDX or known-failure-only cases.
 
 ## Key Files
 
@@ -37,6 +38,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `logs/*report.*` - run reports for extraction and scrape phases.
 - `data/processed/data_quality_issues.csv` - current QA issue register.
 - `data/processed/catalog_history_priorities.csv` - prioritized metrics-history backfill queue.
+- `data/processed/metrics_backfill_gap_audit.csv` - per-game metrics backfill status audit.
+- `logs/metrics_backfill_gap_audit_report.*` - summary of fresh pending, known failed, no-CDX, and cache-missing metrics gaps.
 - `scripts/` - scraper, extractor, catalog, metrics-history, workbook, and chart builders.
 
 ## Rebuild Commands
@@ -47,6 +50,7 @@ These commands assume the repository root as the working directory and Python wi
 python3 scripts/extract_ranked_games.py
 python3 scripts/build_mini_catalog.py --top-n 20
 python3 scripts/fetch_game_metrics_history.py --catalog-offset 0 --catalog-limit 100 --max-fetches 180
+python3 scripts/audit_metrics_backfill_gaps.py
 node scripts/build_play_count_bar_chart_race.mjs
 ```
 
