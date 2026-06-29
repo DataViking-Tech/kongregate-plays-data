@@ -1,17 +1,17 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-06-29T06:56:00Z
+- Run timestamp: 2026-06-29T07:04:33Z
 - Catalog games: 743
-- Catalog scope: offset 475, limit 50 (50 games)
+- Catalog scope: offset 525, limit 25 (25 games)
 - Schemes: http, https
-- CDX games considered: 50
-- CDX rows found: 324
-- Metrics jobs: 323
-- Pending before run: 309
-- Attempted this run: 100
-- Fetched this run: 94
-- Failed this run: 6
-- Manifest entries: 1645
-- History rows: 1645
-- Games with history: 122
+- CDX games considered: 25
+- CDX rows found: 199
+- Metrics jobs: 199
+- Pending before run: 96
+- Attempted this run: 80
+- Fetched this run: 75
+- Failed this run: 5
+- Manifest entries: 1720
+- History rows: 1720
+- Games with history: 136
 - History date range: 2013-09-18 to 2025-10-25
