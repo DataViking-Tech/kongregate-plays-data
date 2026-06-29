@@ -144,8 +144,7 @@ function buildFrames(rows, sourceCounts) {
   };
 }
 
-function htmlDocument(payload) {
-  const encoded = JSON.stringify(payload);
+function htmlDocument() {
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -309,17 +308,29 @@ function htmlDocument(payload) {
 
     .rows {
       position: relative;
-      display: grid;
-      gap: 8px;
+      height: 640px;
     }
 
     .barRow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
       height: 46px;
       display: grid;
       grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
       gap: 14px;
       align-items: center;
+      opacity: 0;
+      transform: translateY(0);
+      transition:
+        transform 540ms cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 180ms ease;
       will-change: transform;
+    }
+
+    .barRow.isVisible {
+      opacity: 1;
     }
 
     .rank {
@@ -362,9 +373,11 @@ function htmlDocument(payload) {
     .bar {
       position: absolute;
       inset: 0 auto 0 0;
-      width: 0%;
+      width: 100%;
       border-radius: 6px;
-      transition: width 680ms cubic-bezier(0.22, 1, 0.36, 1);
+      transform: scaleX(0.015);
+      transform-origin: left center;
+      transition: transform 540ms cubic-bezier(0.22, 1, 0.36, 1);
     }
 
     .value {
@@ -458,7 +471,7 @@ function htmlDocument(payload) {
         <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M8 5v14l11-7z"></path></svg>
       </button>
       <input id="frameSlider" type="range" min="0" value="0" step="1" aria-label="Date">
-      <label class="speed">Speed <input id="speedSlider" type="range" min="350" max="1600" value="950" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="700" max="2200" value="1250" step="50" aria-label="Speed"></label>
       <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
     </section>
 
@@ -469,7 +482,7 @@ function htmlDocument(payload) {
         <span>Observed plays</span>
         <span>Count</span>
       </div>
-      <div class="rows" id="rows"></div>
+      <div class="rows" id="rows"><div class="empty">Loading chart data...</div></div>
       <div class="footerMeta">
         <span id="sourceMeta"></span>
         <span id="rangeMeta"></span>
@@ -478,8 +491,8 @@ function htmlDocument(payload) {
   </main>
 
   <script>
-    const PAYLOAD = ${encoded};
-    const frames = PAYLOAD.frames;
+    let PAYLOAD = null;
+    let frames = [];
     const palette = ["#2364aa", "#3da35d", "#f29e4c", "#c44536", "#5b6c5d", "#7b5ea7", "#2ca6a4", "#d8578a", "#8a6f3d", "#487d74", "#b85042", "#4b6fad"];
     const rowsEl = document.getElementById("rows");
     const dateLabel = document.getElementById("dateLabel");
@@ -492,15 +505,33 @@ function htmlDocument(payload) {
     const playIcon = document.getElementById("playIcon");
     const playPath = "M8 5v14l11-7z";
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
+    const rowStep = 54;
+    const rowsByKey = new Map();
 
     let frameIndex = 0;
     let isPlaying = true;
     let timer = null;
 
-    frameSlider.max = Math.max(frames.length - 1, 0);
-    rangeMeta.textContent = frames.length
-      ? \`\${PAYLOAD.summary.firstDate} to \${PAYLOAD.summary.lastDate} | \${PAYLOAD.summary.observedRows.toLocaleString()} observed rows\`
-      : "No observed play counts found";
+    async function loadPayload() {
+      const candidates = [
+        "outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json",
+        "play_count_bar_chart_race_data.json",
+      ];
+      let lastError = null;
+      for (const candidate of candidates) {
+        try {
+          const response = await fetch(candidate, { cache: "no-cache" });
+          if (response.ok) {
+            document.documentElement.dataset.chartDataSource = response.url;
+            return response.json();
+          }
+          lastError = new Error(\`\${candidate} returned \${response.status}\`);
+        } catch (error) {
+          lastError = error;
+        }
+      }
+      throw lastError || new Error("Chart data could not be loaded.");
+    }
 
     function formatPlays(value) {
       if (value >= 1_000_000_000) return \`\${(value / 1_000_000_000).toFixed(1)}B\`;
@@ -563,10 +594,12 @@ function htmlDocument(payload) {
 
     function updateRow(row, entry, maxValue) {
       row.querySelector(".rank").textContent = entry.rank;
-      row.querySelector(".gameName").textContent = entry.gameName;
+      const gameName = row.querySelector(".gameName");
+      gameName.textContent = entry.gameName;
+      if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
       row.querySelector(".developer").textContent = detailText(entry);
       row.querySelector(".value").textContent = formatPlays(entry.plays);
-      row.querySelector(".bar").style.width = \`\${Math.max(1.5, (entry.plays / maxValue) * 100)}%\`;
+      row.querySelector(".bar").style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
     }
 
     function renderFrame(nextIndex) {
@@ -577,39 +610,58 @@ function htmlDocument(payload) {
 
       const frame = frames[nextIndex];
       const maxValue = Math.max(...frame.entries.map((entry) => entry.plays), 1);
-      const oldPositions = new Map([...rowsEl.children].map((el) => [el.dataset.key, el.getBoundingClientRect()]));
-      const existing = new Map([...rowsEl.children].map((el) => [el.dataset.key, el]));
+      const activeKeys = new Set();
 
       dateLabel.textContent = frame.date;
       dateMeta.textContent = \`\${frame.trackedGames.toLocaleString()} games tracked\`;
       sourceMeta.textContent = \`\${frame.observedRows.toLocaleString()} observed play rows on this date\`;
       frameSlider.value = String(nextIndex);
 
-      const fragment = document.createDocumentFragment();
-      for (const entry of frame.entries) {
-        const row = existing.get(entry.key) || rowElement(entry);
-        updateRow(row, entry, maxValue);
-        fragment.append(row);
+      if (rowsEl.dataset.ready !== "true") {
+        rowsEl.replaceChildren();
+        rowsEl.dataset.ready = "true";
       }
-      rowsEl.replaceChildren(fragment);
 
-      requestAnimationFrame(() => {
-        for (const row of rowsEl.children) {
-          const old = oldPositions.get(row.dataset.key);
-          if (!old) continue;
-          const current = row.getBoundingClientRect();
-          const deltaY = old.top - current.top;
-          if (Math.abs(deltaY) > 1) {
-            row.animate([
-              { transform: \`translateY(\${deltaY}px)\` },
-              { transform: "translateY(0)" },
-            ], {
-              duration: 620,
-              easing: "cubic-bezier(0.22, 1, 0.36, 1)",
-            });
-          }
+      frame.entries.forEach((entry, index) => {
+        let row = rowsByKey.get(entry.key);
+        if (!row) {
+          row = rowElement(entry);
+          rowsByKey.set(entry.key, row);
+          rowsEl.append(row);
         }
+        updateRow(row, entry, maxValue);
+        row.style.transform = \`translateY(\${index * rowStep}px)\`;
+        activeKeys.add(entry.key);
+        row.classList.add("isVisible");
       });
+
+      for (const [key, row] of rowsByKey) {
+        if (activeKeys.has(key)) continue;
+        row.remove();
+        rowsByKey.delete(key);
+      }
+    }
+
+    async function init() {
+      try {
+        PAYLOAD = await loadPayload();
+        frames = PAYLOAD.frames || [];
+        frameSlider.max = Math.max(frames.length - 1, 0);
+        rangeMeta.textContent = frames.length
+          ? \`\${PAYLOAD.summary.firstDate} to \${PAYLOAD.summary.lastDate} | \${PAYLOAD.summary.observedRows.toLocaleString()} observed rows\`
+          : "No observed play counts found";
+        playIcon.setAttribute("d", pausePath);
+        renderFrame(frameIndex);
+        schedule();
+      } catch (error) {
+        console.error(error);
+        isPlaying = false;
+        playIcon.setAttribute("d", playPath);
+        rowsEl.innerHTML = '<div class="empty">Chart data could not be loaded.</div>';
+        rangeMeta.textContent = "Chart data unavailable";
+        dateLabel.textContent = "---- -- --";
+        dateMeta.textContent = "";
+      }
     }
 
     function schedule() {
@@ -629,6 +681,7 @@ function htmlDocument(payload) {
     });
 
     frameSlider.addEventListener("input", (event) => {
+      if (!frames.length) return;
       frameIndex = Number(event.target.value);
       renderFrame(frameIndex);
       schedule();
@@ -636,9 +689,7 @@ function htmlDocument(payload) {
 
     speedSlider.addEventListener("input", schedule);
 
-    playIcon.setAttribute("d", pausePath);
-    renderFrame(frameIndex);
-    schedule();
+    init();
   </script>
 </body>
 </html>
@@ -654,7 +705,7 @@ async function main() {
   });
   await fs.mkdir(outputDir, { recursive: true });
   await fs.writeFile(dataPath, `${JSON.stringify(framesPayload, null, 2)}\n`);
-  await fs.writeFile(htmlPath, htmlDocument(framesPayload));
+  await fs.writeFile(htmlPath, htmlDocument());
   console.log(JSON.stringify({
     htmlPath,
     dataPath,
