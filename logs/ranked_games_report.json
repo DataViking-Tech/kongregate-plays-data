@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-29T14:47:11Z",
-    "html_samples_considered": 900,
-    "ranking_rows_extracted": 14133,
+    "run_timestamp": "2026-06-29T15:24:39Z",
+    "html_samples_considered": 920,
+    "ranking_rows_extracted": 14473,
     "rows_with_observed_play_counts": 7154,
-    "captures_with_rows": 876,
+    "captures_with_rows": 896,
     "captures_without_rows": 24,
     "ranking_types": [
       "browse",
@@ -5078,6 +5078,15 @@
     },
     {
       "date": "2017-06-03",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20170603111747",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170603111747_http_www.kongregate.com_games_b866ea8695f4e545.html"
+    },
+    {
+      "date": "2017-06-03",
       "source_url": "http://www.kongregate.com/top-rated-games",
       "capture_timestamp": "20170603111752",
       "parser": "game_browser_game_row",
@@ -5095,6 +5104,24 @@
       "html_path": "data/raw/html/20170603113111_http_www.kongregate.com_most-played-games_4cfb4f43bd38a8db.html"
     },
     {
+      "date": "2017-06-04",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20170604104610",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170604104610_http_www.kongregate.com_80_games_sort_newest_dc6b690f56035394.html"
+    },
+    {
+      "date": "2017-06-05",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170605000006",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170605000006_http_www.kongregate.com_80_games_1a7886a5f122a83d.html"
+    },
+    {
       "date": "2017-06-06",
       "source_url": "http://www.kongregate.com:80/top-rated-games",
       "capture_timestamp": "20170606040302",
@@ -5102,6 +5129,15 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20170606040302_http_www.kongregate.com_80_top-rated-games_ff965c0bd7e7a142.html"
+    },
+    {
+      "date": "2017-06-06",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20170606052533",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170606052533_http_www.kongregate.com_games_09305a225729411a.html"
     },
     {
       "date": "2017-06-06",
@@ -5131,6 +5167,24 @@
       "html_path": "data/raw/html/20170608103742_http_www.kongregate.com_80_most-played-games_e285a29ab484ee25.html"
     },
     {
+      "date": "2017-06-08",
+      "source_url": "http://www.kongregate.com:80/games?",
+      "capture_timestamp": "20170608104233",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170608104233_http_www.kongregate.com_80_games_6a39867f48cc96d7.html"
+    },
+    {
+      "date": "2017-06-08",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170608155710",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170608155710_http_www.kongregate.com_80_games_1c40a73ff5dd45a2.html"
+    },
+    {
       "date": "2017-06-09",
       "source_url": "http://www.kongregate.com:80/top-rated-games",
       "capture_timestamp": "20170609063111",
@@ -5138,6 +5192,24 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20170609063111_http_www.kongregate.com_80_top-rated-games_fb0f239bda8c5c58.html"
+    },
+    {
+      "date": "2017-06-09",
+      "source_url": "http://www.kongregate.com/games/",
+      "capture_timestamp": "20170609075217",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170609075217_http_www.kongregate.com_games_37497a4c07c40e5c.html"
+    },
+    {
+      "date": "2017-06-10",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20170610114520",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170610114520_http_www.kongregate.com_games_2cd32afebf1ea5fc.html"
     },
     {
       "date": "2017-06-10",
@@ -5167,6 +5239,51 @@
       "html_path": "data/raw/html/20170611084150_http_www.kongregate.com_80_top-rated-games_97a6536cc3803221.html"
     },
     {
+      "date": "2017-06-12",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170612183241",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170612183241_http_www.kongregate.com_80_games_9941baa43a2863a5.html"
+    },
+    {
+      "date": "2017-06-15",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20170615114632",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170615114632_http_www.kongregate.com_80_games_sort_newest_a08196110da8d4be.html"
+    },
+    {
+      "date": "2017-06-16",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170616120722",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170616120722_http_www.kongregate.com_80_games_66032693dc9de9ff.html"
+    },
+    {
+      "date": "2017-06-16",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20170616121337",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170616121337_http_www.kongregate.com_80_games_sort_newest_c384c5c2b15e3e60.html"
+    },
+    {
+      "date": "2017-06-17",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20170617120648",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170617120648_http_www.kongregate.com_games_f91c37072333c19a.html"
+    },
+    {
       "date": "2017-06-17",
       "source_url": "http://www.kongregate.com/most-played-games",
       "capture_timestamp": "20170617122212",
@@ -5174,6 +5291,15 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20170617122212_http_www.kongregate.com_most-played-games_bc789866dc0e6168.html"
+    },
+    {
+      "date": "2017-06-18",
+      "source_url": "http://www.kongregate.com:80/games?",
+      "capture_timestamp": "20170618054736",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170618054736_http_www.kongregate.com_80_games_7ab54bccd29c699a.html"
     },
     {
       "date": "2017-06-18",
@@ -5185,6 +5311,51 @@
       "html_path": "data/raw/html/20170618055359_http_www.kongregate.com_80_most-played-games_e9ae31eed290e2b9.html"
     },
     {
+      "date": "2017-06-20",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170620073659",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170620073659_http_www.kongregate.com_80_games_fdfb0c26d1523b38.html"
+    },
+    {
+      "date": "2017-06-22",
+      "source_url": "http://www.kongregate.com:80/games?sort=oldest",
+      "capture_timestamp": "20170622222037",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170622222037_http_www.kongregate.com_80_games_sort_oldest_99686cc708a87f3f.html"
+    },
+    {
+      "date": "2017-06-22",
+      "source_url": "http://www.kongregate.com:80/games/?",
+      "capture_timestamp": "20170622232428",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170622232428_http_www.kongregate.com_80_games_fa7f44810865c34d.html"
+    },
+    {
+      "date": "2017-06-24",
+      "source_url": "http://www.kongregate.com:80/games",
+      "capture_timestamp": "20170624063418",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170624063418_http_www.kongregate.com_80_games_426d0311e7a28c6b.html"
+    },
+    {
+      "date": "2017-06-24",
+      "source_url": "http://www.kongregate.com/games",
+      "capture_timestamp": "20170624125622",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170624125622_http_www.kongregate.com_games_412efb8e1ab6797b.html"
+    },
+    {
       "date": "2017-06-24",
       "source_url": "http://www.kongregate.com/most-played-games",
       "capture_timestamp": "20170624131120",
@@ -5192,6 +5363,15 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20170624131120_http_www.kongregate.com_most-played-games_14bf964b02d22552.html"
+    },
+    {
+      "date": "2017-06-25",
+      "source_url": "http://www.kongregate.com:80/games?sort=newest",
+      "capture_timestamp": "20170625120533",
+      "parser": "game_browser_game_row",
+      "rows_extracted": 17,
+      "confidence": "high",
+      "html_path": "data/raw/html/20170625120533_http_www.kongregate.com_80_games_sort_newest_443dfb960c0374bf.html"
     },
     {
       "date": "2017-06-25",
