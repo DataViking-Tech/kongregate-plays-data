@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1BJaBy7fmhBFHt8r6coZD6OXsfMtv2LFp3LPvqrbJgYQ";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1e_Si4772b8K6dBB5a0Irt5pd13_FP-VLUTaubqDuWdA";
 
 const topN = 12;
 
@@ -170,7 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 1280ms;
+      --move-duration: 1580ms;
+      --move-ease: cubic-bezier(0.32, 0.72, 0, 1);
     }
 
     * {
@@ -354,6 +355,12 @@ function htmlDocument() {
       margin-bottom: 8px;
     }
 
+    .axis span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
     .rows {
       position: relative;
       height: 640px;
@@ -373,9 +380,10 @@ function htmlDocument() {
       transform: translate3d(0, 0, 0);
       z-index: 1;
       transition:
-        transform var(--move-duration) cubic-bezier(0.18, 0, 0.12, 1),
-        opacity 320ms ease;
-      will-change: transform, opacity;
+        transform var(--move-duration) var(--move-ease),
+        opacity 360ms ease;
+      will-change: transform;
+      backface-visibility: hidden;
     }
 
     .barRow.isVisible {
@@ -443,7 +451,7 @@ function htmlDocument() {
       border-radius: 6px;
       transform: scaleX(0.015);
       transform-origin: left center;
-      transition: transform var(--move-duration) cubic-bezier(0.18, 0, 0.12, 1);
+      transition: transform var(--move-duration) var(--move-ease);
     }
 
     .value {
@@ -506,12 +514,12 @@ function htmlDocument() {
 
       .axis,
       .barRow {
-        grid-template-columns: 38px minmax(96px, 130px) minmax(112px, 1fr) 78px;
-        gap: 8px;
+        grid-template-columns: 30px minmax(84px, 116px) minmax(76px, 1fr) 58px;
+        gap: 6px;
       }
 
       .gameName {
-        font-size: 13px;
+        font-size: 12px;
       }
 
       .developer {
@@ -519,11 +527,13 @@ function htmlDocument() {
       }
 
       .value {
-        font-size: 12px;
+        font-size: 11px;
       }
 
       .barRow {
-        transition: opacity 220ms ease;
+        transition:
+          transform var(--move-duration) var(--move-ease),
+          opacity 240ms ease;
       }
     }
   </style>
@@ -550,7 +560,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-      <label class="speed">Speed <input id="speedSlider" type="range" min="2000" max="5200" value="2900" step="50" aria-label="Speed"></label>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="2600" max="6800" value="3800" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -713,6 +723,14 @@ function htmlDocument() {
       return palette[Math.abs(hash) % palette.length];
     }
 
+    function niceScaleMax(value) {
+      if (!Number.isFinite(value) || value <= 0) return 1;
+      const magnitude = 10 ** Math.floor(Math.log10(value));
+      const normalized = value / magnitude;
+      const ceiling = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
+      return ceiling * magnitude;
+    }
+
     function detailText(entry) {
       const parts = [];
       if (entry.developer) parts.push(entry.developer);
@@ -807,7 +825,7 @@ function htmlDocument() {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, 280);
+      }, Math.min(exitMs, 460));
     }
 
     function renderFrame(nextIndex) {
@@ -818,7 +836,7 @@ function htmlDocument() {
 
       const frame = frames[nextIndex];
       const entries = frame.entries.slice(0, visibleRows);
-      const maxValue = Math.max(...entries.map((entry) => entry.plays), 1);
+      const maxValue = niceScaleMax(Math.max(...entries.map((entry) => entry.plays), 1));
       const activeKeys = new Set();
 
       dateLabel.textContent = frame.displayDate || frame.date;
@@ -886,7 +904,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 220);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 650);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
