@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-06-29T20:36:14Z",
-  "total_manifest_jobs": 94,
-  "pending_before_run": 73,
-  "attempted_this_run": 73,
+  "run_timestamp": "2026-06-29T20:41:31Z",
+  "total_manifest_jobs": 138,
+  "pending_before_run": 69,
+  "attempted_this_run": 69,
   "fetched_or_already_valid_this_run": 20,
-  "failed_this_run": 53,
+  "failed_this_run": 49,
   "remaining_after_run": 0,
-  "manifest_entries": 1186,
-  "known_failures": 4101,
+  "manifest_entries": 1206,
+  "known_failures": 4150,
   "note": "CDX inputs are digest-collapsed, so duplicate archived HTML content is intentionally not fetched repeatedly."
 }
