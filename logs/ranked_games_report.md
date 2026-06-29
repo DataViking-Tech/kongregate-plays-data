@@ -1,10 +1,10 @@
 # Kongregate Ranked Games Extraction Report
 
-- Run timestamp: 2026-06-29T16:40:24Z
-- HTML samples considered: 1000
-- Ranking rows extracted: 15833
+- Run timestamp: 2026-06-29T17:05:30Z
+- HTML samples considered: 1020
+- Ranking rows extracted: 16173
 - Rows with observed play counts: 7154
-- Captures with rows: 976
+- Captures with rows: 996
 - Captures without rows: 24
 - Ranking types: browse, category_top, most_played, newest, oldest, top_rated
 - Date range: 2007-01-20 to 2026-06-26

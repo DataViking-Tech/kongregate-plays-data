@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1644,
+  "catalog_games": 1729,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 406,
-  "generated_at": "2026-06-29T16:49:06Z",
+  "games_without_metrics_rows": 453,
+  "generated_at": "2026-06-29T17:14:32Z",
   "known_failed_captures": 634,
-  "missing_cdx_cache_files": 235,
+  "missing_cdx_cache_files": 273,
   "status_counts": {
-    "cdx_cache_missing": 146,
-    "has_metrics": 1238,
+    "cdx_cache_missing": 182,
+    "has_metrics": 1276,
     "known_failures_only": 28,
-    "no_cdx": 232
+    "no_cdx": 243
   },
   "top_unresolved_games": [
     {
@@ -18,7 +18,7 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "DanTDM Runner",
+      "game_name": "Dark Scary House Escape",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -29,7 +29,7 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Discover",
+      "game_name": "Kindness and PAI",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -51,7 +51,18 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "New Traffic Jam City",
+      "game_name": "Make It Fly 2.0",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "OrangeLandia",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -85,6 +96,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Surrounded",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The Saga Of The Wind Mobiles",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
@@ -150,17 +172,6 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Class RoomPuzzle",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
       "game_name": "CountryBalls 4",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -194,7 +205,29 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "Football2016",
+      "game_name": "For USA",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "FunBox",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Harry potter Eagle eyes",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -216,7 +249,18 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
-      "game_name": "openEtG",
+      "game_name": "ROYAL THIEF",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "WigWigWig",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -243,51 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "ATV Ride 2016",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "CBS:Escape from the Mall",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Construction Sabotage War 3",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Defense Math",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8149
+  "valid_cached_captures": 8152
 }
