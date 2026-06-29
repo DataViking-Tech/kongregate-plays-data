@@ -1,18 +1,40 @@
 {
-  "catalog_games": 1473,
+  "catalog_games": 1524,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 384,
-  "generated_at": "2026-06-29T15:49:00Z",
-  "known_failed_captures": 628,
-  "missing_cdx_cache_files": 205,
+  "games_without_metrics_rows": 379,
+  "generated_at": "2026-06-29T16:13:09Z",
+  "known_failed_captures": 631,
+  "missing_cdx_cache_files": 207,
   "status_counts": {
-    "cdx_cache_missing": 145,
-    "has_metrics": 1089,
-    "known_failures_only": 37,
-    "no_cdx": 202
+    "cdx_cache_missing": 147,
+    "has_metrics": 1145,
+    "known_failures_only": 28,
+    "no_cdx": 204
   },
   "top_unresolved_games": [
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Escape From Ghost House 3",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "LT-Breakout",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -55,6 +77,17 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Booga",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
       "status": "no_cdx"
     },
     {
@@ -135,6 +168,17 @@
       "status": "no_cdx"
     },
     {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "PlaneQuests",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
       "best_rank": "3",
       "cdx_rows": 0,
       "failure_errors": "",
@@ -183,6 +227,39 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Dr. Steward 75K's Intergalactic Darryl Naturam 2021",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Marble Duel: Old-school match 3 blasting",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Space Stranger",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3151,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "3",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "SUV Car Cartoon Puzzle",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -194,100 +271,23 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "18 Wheeler Trucks Differences",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3051,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "4",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "1p.Story: Death",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3051,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Balls Vs Blocks Online",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "4",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Kung Fu Adventure",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3051,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "5",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Ghoul be Gone Demo",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2951,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "5",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Hired Ops \u2014 New Dynamic Online Shooter",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2951,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "5",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Super Casual",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2951,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Bowmaster Prelude",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2905,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Bowmaster Prelude",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2905,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "BLOB KILLS BALL!",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 2901,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8130
+  "valid_cached_captures": 8139
 }
