@@ -1,19 +1,19 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T20:49:26Z
+Generated: 2026-06-29T20:59:22Z
 
 ## Summary
 
-- Mini-catalog games audited: 2444
-- Games without metrics rows: 857
+- Mini-catalog games audited: 2832
+- Games without metrics rows: 1245
 - Games with fresh pending captures: 1
 - Fresh pending captures: 3
 - Known failed captures: 686
-- Missing CDX cache files: 423
+- Missing CDX cache files: 811
 
 ## Status Counts
 
-- cdx_cache_missing: 312
+- cdx_cache_missing: 700
 - has_metrics: 1587
 - known_failures_only: 39
 - no_cdx: 506
@@ -31,6 +31,7 @@ Generated: 2026-06-29T20:49:26Z
 | Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| SCP 079 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | Space Breakout! | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -46,7 +47,6 @@ Generated: 2026-06-29T20:49:26Z
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

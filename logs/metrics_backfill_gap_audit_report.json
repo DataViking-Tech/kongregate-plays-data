@@ -1,13 +1,13 @@
 {
-  "catalog_games": 2444,
+  "catalog_games": 2832,
   "fresh_pending_captures": 3,
   "games_with_fresh_pending_captures": 1,
-  "games_without_metrics_rows": 857,
-  "generated_at": "2026-06-29T20:49:26Z",
+  "games_without_metrics_rows": 1245,
+  "generated_at": "2026-06-29T20:59:22Z",
   "known_failed_captures": 686,
-  "missing_cdx_cache_files": 423,
+  "missing_cdx_cache_files": 811,
   "status_counts": {
-    "cdx_cache_missing": 312,
+    "cdx_cache_missing": 700,
     "has_metrics": 1587,
     "known_failures_only": 39,
     "no_cdx": 506
@@ -111,6 +111,17 @@
       "metrics_rows": 0,
       "priority_score": 3351,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "SCP 079",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -272,17 +283,6 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Cherrie New Spring Trends",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Chevrolet Cruze Puzzle",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
