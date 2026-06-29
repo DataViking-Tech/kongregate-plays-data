@@ -82,7 +82,7 @@
 
     .toolbar {
       display: grid;
-      grid-template-columns: auto minmax(180px, 1fr) auto auto;
+      grid-template-columns: auto minmax(180px, 1fr) auto auto auto;
       gap: 12px;
       align-items: center;
       padding: 16px 0 18px;
@@ -112,6 +112,38 @@
       fill: currentColor;
     }
 
+    .segmented {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid #bfc3c7;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 16px rgba(33, 35, 38, 0.08);
+    }
+
+    .modeButton {
+      width: auto;
+      min-width: 82px;
+      height: 40px;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 720;
+      background: #ffffff;
+    }
+
+    .modeButton + .modeButton {
+      border-left: 1px solid #d8dce0;
+    }
+
+    .modeButton.isActive {
+      background: var(--accent);
+      color: #ffffff;
+    }
+
     input[type="range"] {
       width: 100%;
       accent-color: var(--accent);
@@ -124,6 +156,13 @@
       color: var(--muted);
       font-size: 13px;
       white-space: nowrap;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
     }
 
     .sheetLink {
@@ -177,8 +216,9 @@
       align-items: center;
       opacity: 0;
       transform: translate3d(0, 0, 0);
+      z-index: 1;
       transition:
-        transform 820ms cubic-bezier(0.2, 0, 0, 1),
+        transform 980ms cubic-bezier(0.2, 0, 0, 1),
         opacity 260ms ease,
         filter 260ms ease;
       will-change: transform, opacity;
@@ -186,12 +226,14 @@
 
     .barRow.isVisible {
       opacity: 1;
+      z-index: 2;
     }
 
     .barRow.isExiting {
       opacity: 0;
-      filter: blur(1px);
+      filter: blur(0.5px);
       pointer-events: none;
+      z-index: 0;
     }
 
     .rank {
@@ -248,7 +290,7 @@
       border-radius: 6px;
       transform: scaleX(0.015);
       transform-origin: left center;
-      transition: transform 820ms cubic-bezier(0.2, 0, 0, 1);
+      transition: transform 980ms cubic-bezier(0.2, 0, 0, 1);
     }
 
     .value {
@@ -294,9 +336,14 @@
         grid-template-columns: auto minmax(120px, 1fr);
       }
 
+      .segmented,
       .speed,
-      .sheetLink {
+      .links {
         grid-column: span 2;
+      }
+
+      .links {
+        justify-content: flex-start;
       }
 
       .chart {
@@ -321,6 +368,12 @@
       .value {
         font-size: 12px;
       }
+
+      .barRow {
+        transition:
+          opacity 220ms ease,
+          filter 220ms ease;
+      }
     }
   </style>
 </head>
@@ -342,8 +395,15 @@
         <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M8 5v14l11-7z"></path></svg>
       </button>
       <input id="frameSlider" type="range" min="0" value="0" step="1" aria-label="Date">
-      <label class="speed">Speed <input id="speedSlider" type="range" min="1100" max="2800" value="1700" step="50" aria-label="Speed"></label>
-      <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1ZJELiT6fE95xkhnnyqoNKt_IlHx_h1zyYuwGe9Mg_Fo" target="_blank" rel="noreferrer">Google Sheet</a>
+      <div class="segmented" role="group" aria-label="Playback cadence">
+        <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
+        <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
+      </div>
+      <label class="speed">Speed <input id="speedSlider" type="range" min="1500" max="4200" value="2300" step="50" aria-label="Speed"></label>
+      <nav class="links" aria-label="Data links">
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1ZJELiT6fE95xkhnnyqoNKt_IlHx_h1zyYuwGe9Mg_Fo" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
+      </nav>
     </section>
 
     <section class="chart" aria-label="Animated ranking chart">
@@ -363,6 +423,7 @@
 
   <script>
     let PAYLOAD = null;
+    let rawFrames = [];
     let frames = [];
     const palette = ["#2364aa", "#3da35d", "#f29e4c", "#c44536", "#5b6c5d", "#7b5ea7", "#2ca6a4", "#d8578a", "#8a6f3d", "#487d74", "#b85042", "#4b6fad"];
     const rowsEl = document.getElementById("rows");
@@ -373,18 +434,21 @@
     const frameSlider = document.getElementById("frameSlider");
     const speedSlider = document.getElementById("speedSlider");
     const playToggle = document.getElementById("playToggle");
+    const dataLink = document.getElementById("dataLink");
+    const modeButtons = [...document.querySelectorAll(".modeButton")];
     const playIcon = document.getElementById("playIcon");
     const playPath = "M8 5v14l11-7z";
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const transitionMs = 820;
+    const transitionMs = 980;
     const exitMs = transitionMs + 180;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
     let isPlaying = true;
     let timer = null;
+    let playbackMode = "smooth";
 
     async function loadPayload() {
       const candidates = [
@@ -407,6 +471,82 @@
         }
       }
       throw lastError || new Error("Chart data could not be loaded.");
+    }
+
+    function monthIdFromDate(dateText) {
+      return String(dateText || "").slice(0, 7);
+    }
+
+    function addMonths(monthId, count) {
+      const [year, month] = monthId.split("-").map(Number);
+      const date = new Date(Date.UTC(year, month - 1 + count, 1));
+      return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`;
+    }
+
+    function compareFrameDate(frame, targetDate) {
+      return String(frame.sourceDate || frame.date).localeCompare(String(targetDate));
+    }
+
+    function buildMonthlyFrames(sourceFrames) {
+      if (!sourceFrames.length) return [];
+
+      const byMonth = new Map();
+      for (const frame of sourceFrames) {
+        byMonth.set(monthIdFromDate(frame.date), frame);
+      }
+
+      const firstMonth = monthIdFromDate(sourceFrames[0].date);
+      const lastMonth = monthIdFromDate(sourceFrames.at(-1).date);
+      const monthlyFrames = [];
+      let latestFrame = sourceFrames[0];
+      let cursor = firstMonth;
+
+      while (cursor <= lastMonth) {
+        latestFrame = byMonth.get(cursor) || latestFrame;
+        monthlyFrames.push({
+          ...latestFrame,
+          date: cursor,
+          displayDate: cursor,
+          sourceDate: latestFrame.date,
+          cadence: "monthly",
+        });
+        cursor = addMonths(cursor, 1);
+      }
+
+      return monthlyFrames;
+    }
+
+    function updateModeButtons() {
+      for (const button of modeButtons) {
+        const active = button.dataset.mode === playbackMode;
+        button.classList.toggle("isActive", active);
+        button.setAttribute("aria-pressed", String(active));
+      }
+    }
+
+    function updateRangeMeta() {
+      if (!frames.length) {
+        rangeMeta.textContent = "No observed play counts found";
+        return;
+      }
+      const cadence = playbackMode === "smooth" ? "monthly frames" : "capture frames";
+      rangeMeta.textContent = `${PAYLOAD.summary.firstDate} to ${PAYLOAD.summary.lastDate} | ${PAYLOAD.summary.observedRows.toLocaleString()} observed rows | ${frames.length.toLocaleString()} ${cadence}`;
+    }
+
+    function closestFrameIndex(targetDate) {
+      if (!frames.length || !targetDate) return 0;
+      const found = frames.findIndex((frame) => compareFrameDate(frame, targetDate) >= 0);
+      return found === -1 ? frames.length - 1 : found;
+    }
+
+    function setPlaybackMode(mode, targetDate) {
+      playbackMode = mode;
+      frames = playbackMode === "smooth" ? buildMonthlyFrames(rawFrames) : rawFrames;
+      frameIndex = closestFrameIndex(targetDate);
+      frameSlider.max = Math.max(frames.length - 1, 0);
+      frameSlider.value = String(frameIndex);
+      updateModeButtons();
+      updateRangeMeta();
     }
 
     function formatPlays(value) {
@@ -510,14 +650,13 @@
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
-      row.style.transform = `translate3d(0, ${rowStep * visibleRows}px, 0)`;
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, exitMs);
+      }, 280);
     }
 
     function renderFrame(nextIndex) {
@@ -531,9 +670,11 @@
       const maxValue = Math.max(...entries.map((entry) => entry.plays), 1);
       const activeKeys = new Set();
 
-      dateLabel.textContent = frame.date;
+      dateLabel.textContent = frame.displayDate || frame.date;
       dateMeta.textContent = `${frame.trackedGames.toLocaleString()} games tracked`;
-      sourceMeta.textContent = `${frame.observedRows.toLocaleString()} observed play rows on this date`;
+      sourceMeta.textContent = frame.sourceDate && frame.sourceDate !== frame.date
+        ? `source capture ${frame.sourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
+        : `${frame.observedRows.toLocaleString()} observed rows on this date`;
       frameSlider.value = String(nextIndex);
 
       if (rowsEl.dataset.ready !== "true") {
@@ -547,8 +688,11 @@
         if (!row) {
           row = rowElement(entry);
           rowsByKey.set(entry.key, row);
+          row.style.transition = "none";
+          row.style.transform = `translate3d(0, ${index * rowStep}px, 0)`;
           rowsEl.append(row);
           row.getBoundingClientRect();
+          row.style.transition = "";
         }
         updateRow(row, entry, maxValue);
         row.dataset.exiting = "false";
@@ -569,11 +713,11 @@
     async function init() {
       try {
         PAYLOAD = await loadPayload();
-        frames = PAYLOAD.frames || [];
-        frameSlider.max = Math.max(frames.length - 1, 0);
-        rangeMeta.textContent = frames.length
-          ? `${PAYLOAD.summary.firstDate} to ${PAYLOAD.summary.lastDate} | ${PAYLOAD.summary.observedRows.toLocaleString()} observed rows`
-          : "No observed play counts found";
+        rawFrames = PAYLOAD.frames || [];
+        if (dataLink && document.documentElement.dataset.chartDataSource) {
+          dataLink.href = document.documentElement.dataset.chartDataSource;
+        }
+        setPlaybackMode(playbackMode);
         playIcon.setAttribute("d", pausePath);
         renderFrame(frameIndex);
         schedule();
@@ -611,6 +755,16 @@
       renderFrame(frameIndex);
       schedule();
     });
+
+    for (const button of modeButtons) {
+      button.addEventListener("click", () => {
+        if (button.dataset.mode === playbackMode) return;
+        const targetDate = frames[frameIndex]?.sourceDate || frames[frameIndex]?.date;
+        setPlaybackMode(button.dataset.mode, targetDate);
+        renderFrame(frameIndex);
+        schedule();
+      });
+    }
 
     speedSlider.addEventListener("input", schedule);
 

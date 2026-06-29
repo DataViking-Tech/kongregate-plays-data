@@ -17,6 +17,7 @@ https://docs.google.com/spreadsheets/d/1ZJELiT6fE95xkhnnyqoNKt_IlHx_h1zyYuwGe9Mg
 - Mini catalog: 743 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 3,507 across 336 canonical games
 - Observed play-count rows used by the chart: 8,192
+- Chart playback: Smooth mode uses 234 monthly frames by default; Captures mode exposes all 1,414 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-05-19
 
