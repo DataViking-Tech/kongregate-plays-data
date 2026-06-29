@@ -1,34 +1,31 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T20:41:59Z
+Generated: 2026-06-29T20:49:26Z
 
 ## Summary
 
-- Mini-catalog games audited: 2423
-- Games without metrics rows: 840
-- Games with fresh pending captures: 3
-- Fresh pending captures: 5
-- Known failed captures: 682
-- Missing CDX cache files: 416
+- Mini-catalog games audited: 2444
+- Games without metrics rows: 857
+- Games with fresh pending captures: 1
+- Fresh pending captures: 3
+- Known failed captures: 686
+- Missing CDX cache files: 423
 
 ## Status Counts
 
-- cdx_cache_missing: 305
-- fresh_pending: 2
-- has_metrics: 1583
-- known_failures_only: 35
-- no_cdx: 498
+- cdx_cache_missing: 312
+- has_metrics: 1587
+- known_failures_only: 39
+- no_cdx: 506
 
 ## Top Unresolved Games
 
 | Game | Status | Best rank | Metrics rows | CDX rows | Fresh pending | Known failed |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Clear Vision 2 | fresh_pending | 11 | 0 | 1 | 1 | 0 |
-| Clear Vision 2 | fresh_pending | 11 | 0 | 1 | 1 | 0 |
 | as3q32@gmail.com | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Clash of the Races 5 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Clash of the Races 5 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Football Legends 2016 | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Geoshape beta | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Geoshape beta | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Key to Success | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | LT-Breakout | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -48,6 +45,8 @@ Generated: 2026-06-29T20:41:59Z
 | Britney Spears vs Child Servisous | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

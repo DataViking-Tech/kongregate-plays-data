@@ -1,41 +1,18 @@
 {
-  "catalog_games": 2423,
-  "fresh_pending_captures": 5,
-  "games_with_fresh_pending_captures": 3,
-  "games_without_metrics_rows": 840,
-  "generated_at": "2026-06-29T20:41:59Z",
-  "known_failed_captures": 682,
-  "missing_cdx_cache_files": 416,
+  "catalog_games": 2444,
+  "fresh_pending_captures": 3,
+  "games_with_fresh_pending_captures": 1,
+  "games_without_metrics_rows": 857,
+  "generated_at": "2026-06-29T20:49:26Z",
+  "known_failed_captures": 686,
+  "missing_cdx_cache_files": 423,
   "status_counts": {
-    "cdx_cache_missing": 305,
-    "fresh_pending": 2,
-    "has_metrics": 1583,
-    "known_failures_only": 35,
-    "no_cdx": 498
+    "cdx_cache_missing": 312,
+    "has_metrics": 1587,
+    "known_failures_only": 39,
+    "no_cdx": 506
   },
   "top_unresolved_games": [
-    {
-      "best_rank": "11",
-      "cdx_rows": 1,
-      "failure_errors": "",
-      "fresh_pending_captures": 1,
-      "game_name": "Clear Vision 2",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 1901,
-      "status": "fresh_pending"
-    },
-    {
-      "best_rank": "11",
-      "cdx_rows": 1,
-      "failure_errors": "",
-      "fresh_pending_captures": 1,
-      "game_name": "Clear Vision 2",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 1901,
-      "status": "fresh_pending"
-    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -56,7 +33,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -78,7 +55,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -288,7 +265,29 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Cherrie New Spring Trends",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Chevrolet Cruze Puzzle",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8211
+  "valid_cached_captures": 8231
 }
