@@ -6,6 +6,10 @@ Live chart, once GitHub Pages is enabled in repository settings:
 
 https://dataviking-tech.github.io/kongregate-plays-data/
 
+Current Google Sheet workbook:
+
+https://docs.google.com/spreadsheets/d/1fcKqDBR_hoQdm7KuTM2DOw4rnmBrW4MVaduL4GOWbHo
+
 ## Current Snapshot
 
 - Ranked-list rows: 8,140
