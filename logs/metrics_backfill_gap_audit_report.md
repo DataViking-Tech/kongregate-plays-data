@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-29T13:49:24Z
+Generated: 2026-06-29T14:01:32Z
 
 ## Summary
 
-- Mini-catalog games audited: 1190
-- Games without metrics rows: 281
+- Mini-catalog games audited: 1206
+- Games without metrics rows: 295
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 609
-- Missing CDX cache files: 139
+- Missing CDX cache files: 123
 
 ## Status Counts
 
-- cdx_cache_missing: 139
-- has_metrics: 909
+- cdx_cache_missing: 123
+- has_metrics: 911
 - known_failures_only: 33
-- no_cdx: 109
+- no_cdx: 139
 
 ## Top Unresolved Games
 
@@ -30,9 +30,11 @@ Generated: 2026-06-29T13:49:24Z
 | Shootrio | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Simple factory idle game | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Soul Shadows | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| test | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Zombie Cannon Attack! | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Another Platform Game | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Bullfrogs | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
@@ -42,11 +44,9 @@ Generated: 2026-06-29T13:49:24Z
 | Halloween Search For History | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Jumpocat | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Swordz.io | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Toy Drop | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Triangle Hero | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Medieval Cop 8 -DeathWish- (Part 3) | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
+| Toy Drop | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Triangle Hero | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | A Kongergate Special | no_cdx | 3 | 0 | 0 | 0 | 0 |
-| as3 Shootorial #1 | cdx_cache_missing | 3 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

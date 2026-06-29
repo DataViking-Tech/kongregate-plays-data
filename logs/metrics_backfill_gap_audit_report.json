@@ -1,16 +1,16 @@
 {
-  "catalog_games": 1190,
+  "catalog_games": 1206,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 281,
-  "generated_at": "2026-06-29T13:49:24Z",
+  "games_without_metrics_rows": 295,
+  "generated_at": "2026-06-29T14:01:32Z",
   "known_failed_captures": 609,
-  "missing_cdx_cache_files": 139,
+  "missing_cdx_cache_files": 123,
   "status_counts": {
-    "cdx_cache_missing": 139,
-    "has_metrics": 909,
+    "cdx_cache_missing": 123,
+    "has_metrics": 911,
     "known_failures_only": 33,
-    "no_cdx": 109
+    "no_cdx": 139
   },
   "top_unresolved_games": [
     {
@@ -106,6 +106,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "test",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "The Space Commando",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -129,6 +140,17 @@
       "failure_errors": "",
       "fresh_pending_captures": 0,
       "game_name": "Another Platform Game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3251,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "2",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Bullfrogs",
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
@@ -242,7 +264,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "2",
@@ -253,18 +275,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Medieval Cop 8 -DeathWish- (Part 3)",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3152,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "3",
@@ -276,18 +287,7 @@
       "metrics_rows": 0,
       "priority_score": 3151,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "3",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "as3 Shootorial #1",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3151,
-      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8080
+  "valid_cached_captures": 8087
 }
