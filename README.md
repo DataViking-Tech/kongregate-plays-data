@@ -11,8 +11,8 @@ https://dataviking-tech.github.io/kongregate-plays-data/
 - Ranked-list rows: 8,140
 - Ranked-list rows with observed play counts: 4,685
 - Mini catalog: 743 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 3,058 across 273 canonical games
-- Observed play-count rows used by the chart: 7,743
+- Per-game metrics history rows: 3,154 across 287 canonical games
+- Observed play-count rows used by the chart: 7,839
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-05-19
 
@@ -23,7 +23,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-29.
 - 105 cached HTML captures remain empty or corrupted and are queued for retry/backfill.
 - 134 historical months still have no ranked-list captures in the processed dataset.
-- 341 mini-catalog games still need per-game metrics history backfill.
+- 325 mini-catalog games still need per-game metrics history backfill.
 
 ## Key Files
 
