@@ -387,7 +387,12 @@ def extract_legacy_games_table(doc, source_url: str) -> tuple[list[dict[str, str
 
 
 def extract_modern_cards(doc, source_url: str) -> tuple[list[dict[str, str]], str, str]:
-    elements = doc.xpath("//div[contains(concat(' ', normalize-space(@class), ' '), ' game-tile ')] | //k-game-card | //a[contains(@href, '/en/games/') and @title]")
+    elements = doc.xpath(
+        "//div[contains(concat(' ', normalize-space(@class), ' '), ' game-tile ')]"
+        " | //div[contains(concat(' ', normalize-space(@class), ' '), ' game-card ')]"
+        " | //k-game-card"
+        " | //a[contains(@href, '/en/games/') and @title]"
+    )
     rows = []
     seen = set()
     for element in elements:
@@ -396,6 +401,8 @@ def extract_modern_cards(doc, source_url: str) -> tuple[list[dict[str, str]], st
             href = hrefs[0] if hrefs else ""
             title = first_text(element, [
                 ".//a[contains(@href, '/games/') or contains(@href, '/en/games/')]//img/@alt",
+                ".//*[@itemprop='name']/text()",
+                ".//h3/text()",
                 ".//*[contains(concat(' ', normalize-space(@class), ' '), ' font-semibold ')]/text()",
             ])
             text = strip_text(element.text_content())

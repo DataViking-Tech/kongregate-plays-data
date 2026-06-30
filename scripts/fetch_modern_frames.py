@@ -136,6 +136,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch modern Kongregate Turbo slider frames from Wayback.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Maximum new frame fetches. 0 means all pending frames.")
     parser.add_argument("--from-year", type=int, default=2023, help="Only inspect parent captures from this year onward.")
+    parser.add_argument("--from-timestamp", default="", help="Only process parent captures at or after this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
+    parser.add_argument("--to-timestamp", default="", help="Only process parent captures at or before this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
     parser.add_argument("--sleep", type=float, default=0.6, help="Seconds to sleep between Wayback frame requests.")
     parser.add_argument("--timeout", type=int, default=30, help="Per-request timeout in seconds.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry frames that previously failed.")
@@ -147,6 +149,10 @@ def main() -> None:
     manifest = load_manifest()
     failures = load_json(FRAME_FAILURES_PATH)
     jobs = discover_frame_jobs(args.from_year)
+    if args.from_timestamp:
+        jobs = [job for job in jobs if job.parent_timestamp >= args.from_timestamp.ljust(14, "0")]
+    if args.to_timestamp:
+        jobs = [job for job in jobs if job.parent_timestamp <= args.to_timestamp.ljust(14, "9")]
     for job in jobs:
         if cached_html_is_valid(html_cache_path(job.parent_timestamp, job.frame_original)):
             failures.pop(frame_key(job), None)
