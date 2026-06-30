@@ -1,21 +1,21 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-30T06:59:42Z
+Generated: 2026-06-30T07:17:26Z
 
 ## Summary
 
-- Mini-catalog games audited: 3007
-- Games without metrics rows: 313
+- Mini-catalog games audited: 3030
+- Games without metrics rows: 316
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 363
+- Known failed captures: 385
 - Missing CDX cache files: 381
 
 ## Status Counts
 
-- has_metrics: 2694
-- known_failures_only: 1
-- no_cdx: 312
+- has_metrics: 2714
+- known_failures_only: 3
+- no_cdx: 313
 
 ## Top Unresolved Games
 
