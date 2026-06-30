@@ -1,18 +1,18 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T09:30:28Z
+- Run timestamp: 2026-06-30T09:44:52Z
 - As of: 2026-06-30
-- Ranked rows: 40253
-- Ranked rows with play counts: 12461
+- Ranked rows: 40806
+- Ranked rows with play counts: 12541
 - Ranked date range: 2007-01-20 to 2026-06-26
-- Mini catalog games: 3358
-- Metrics history rows/games: 6520 / 2309
+- Mini catalog games: 3359
+- Metrics history rows/games: 6532 / 2310
 - Metrics date range: 2013-09-18 to 2026-06-30
 - Invalid cached HTML files: 0
 
 ## Top Issues
 
-- MEDIUM coverage/months_without_ranked_captures: 37 - Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches.
+- MEDIUM coverage/months_without_ranked_captures: 30 - Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches.
 - HIGH metrics/catalog_games_without_metrics_history: 576 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 2549 - Continue per-game metrics history backfill.
 - LOW dedupe/duplicate_ranked_rows: 3517 - Review duplicate key handling by date/source/rank/game.
