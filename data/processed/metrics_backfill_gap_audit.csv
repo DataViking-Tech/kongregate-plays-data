@@ -310,7 +310,6 @@ catalog_index,game_name,game_url,canonical_game_key,status,priority_score,best_r
 2117,Gravitex 2,http://www.kongregate.com/games/kChamp/gravitex-2,www.kongregate.com/games/kchamp/gravitex-2,no_cdx,2101,9,1,1,no,0,,,0,0,0,0,0,,2009-06-17,2009-06-17
 2152,Robin the Archer in Pixeland,http://www.kongregate.com/games/slixmedia/robin-the-archer-in-pixeland,www.kongregate.com/games/slixmedia/robin-the-archer-in-pixeland,no_cdx,2101,9,1,1,no,0,,,0,0,0,0,0,,2009-10-14,2009-10-14
 2863,SpaceWars!,http://www.kongregate.com/games/Matty/spacewars,www.kongregate.com/games/matty/spacewars,no_cdx,2055,14,5,0,yes,0,,,0,0,0,0,0,,2016-05-25,2017-07-24
-2893,DPS IDLE,http://www.kongregate.com/games/YDKR/dps-idle,www.kongregate.com/games/ydkr/dps-idle,known_failures_only,2051,14,1,0,yes,0,,,10,0,10,0,0,<urlopen error [Errno 61] Connection refused> (10),2024-01-21,2024-01-21
 2915,FurLight,http://www.kongregate.com/games/ArsenG1/furlight,www.kongregate.com/games/arseng1/furlight,no_cdx,2051,14,1,0,yes,0,,,0,0,0,0,0,,2016-06-04,2016-06-04
 2922,Idle Capitalist 6,http://www.kongregate.com/games/KasparsM/idle-capitalist-6,www.kongregate.com/games/kasparsm/idle-capitalist-6,no_cdx,2051,14,1,0,yes,0,,,0,0,0,0,0,,2015-09-09,2015-09-09
 2928,Karting Racing,http://www.kongregate.com/games/mafagames/karting-racing,www.kongregate.com/games/mafagames/karting-racing,no_cdx,2051,14,1,0,yes,0,,,0,0,0,0,0,,2016-10-10,2016-10-10
@@ -2730,6 +2729,7 @@ catalog_index,game_name,game_url,canonical_game_key,status,priority_score,best_r
 2890,Chota Bheem Run Game,http://www.kongregate.com/games/jawadsatti/chota-bheem-run-game,www.kongregate.com/games/jawadsatti/chota-bheem-run-game,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2014-09-05,2014-09-05
 2891,clicker farm,http://www.kongregate.com/games/12345102/clicker-farm,www.kongregate.com/games/12345102/clicker-farm,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2016-10-30,2016-10-30
 2892,Color,http://www.kongregate.com/games/sampearce8/color,www.kongregate.com/games/sampearce8/color,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2014-12-30,2014-12-30
+2893,DPS IDLE,http://www.kongregate.com/games/YDKR/dps-idle,www.kongregate.com/games/ydkr/dps-idle,has_metrics,1551,14,1,0,yes,10,2021-12-27,2025-05-30,10,10,0,0,0,,2024-01-21,2024-01-21
 2894,Dragon Quest,http://www.kongregate.com/games/Andreu1415/dragon-quest,www.kongregate.com/games/andreu1415/dragon-quest,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2017-09-30,2017-09-30
 2895,EggCatcher,http://www.kongregate.com/games/StupidPiglet_com/eggcatcher,www.kongregate.com/games/stupidpiglet_com/eggcatcher,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2015-04-01,2015-04-01
 2896,Emergency Ninja Training,http://www.kongregate.com/games/ViniAleixo/emergency-ninja-training,www.kongregate.com/games/vinialeixo/emergency-ninja-training,has_metrics,1551,14,1,0,yes,1,2026-06-30,2026-06-30,0,0,0,0,0,,2016-10-17,2016-10-17

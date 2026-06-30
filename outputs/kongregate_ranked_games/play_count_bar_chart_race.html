@@ -416,7 +416,7 @@
       </div>
         <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2800" value="1500" step="10" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
-        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1KMqro30yQRBIzOEJjTnuduzC5mf7--SfzUwt_jcXU_s" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/13prdht7l5rFYqVqVrG5Rim8OHSO6Qhrea48M6YzyG_Y" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
       </nav>
     </section>
@@ -620,7 +620,7 @@
             slotPosition: rankPosition - 1,
           };
         })
-        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows);
 
       const entries = sortedEntries
@@ -945,7 +945,7 @@
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(14, Math.min(28, delay * 0.45))
+        ? Math.max(60, Math.min(140, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(

@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1KMqro30yQRBIzOEJjTnuduzC5mf7--SfzUwt_jcXU_s";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/13prdht7l5rFYqVqVrG5Rim8OHSO6Qhrea48M6YzyG_Y";
 
 const topN = 12;
 
@@ -774,7 +774,7 @@ function htmlDocument() {
             slotPosition: rankPosition - 1,
           };
         })
-        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows);
 
       const entries = sortedEntries
@@ -1099,7 +1099,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(14, Math.min(28, delay * 0.45))
+        ? Math.max(60, Math.min(140, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
