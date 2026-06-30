@@ -150,6 +150,13 @@ def load_audit_rows() -> dict[str, dict[str, str]]:
     return rows
 
 
+def audit_int(row: dict[str, str] | None, key: str) -> int:
+    if not row:
+        return 0
+    value = parse_int(row.get(key))
+    return value if isinstance(value, int) else 0
+
+
 def metric_cdx_keys_for_game(game_url: str) -> list[str]:
     parsed = urllib.parse.urlsplit(game_url)
     match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)/?$", parsed.path)
@@ -442,6 +449,8 @@ def main() -> None:
     parser.add_argument("--catalog-limit", type=int, default=0, help="Limit catalog rows after --catalog-offset. 0 means all remaining rows.")
     parser.add_argument("--audit-statuses", default="", help="Comma-separated metrics gap audit statuses to target, e.g. cdx_cache_missing.")
     parser.add_argument("--audit-pending-only", action="store_true", help="Target only games with fresh pending captures in metrics_backfill_gap_audit.csv.")
+    parser.add_argument("--audit-missing-cdx-only", action="store_true", help="Target only games with missing CDX cache files in metrics_backfill_gap_audit.csv.")
+    parser.add_argument("--needs-history-only", action="store_true", help="Target only catalog games whose mini-catalog row still needs game-page history.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Limit new metrics JSON fetch attempts this run. 0 means all pending.")
     parser.add_argument("--schemes", default="http,https", help="Comma-separated URL schemes to query, usually http,https.")
     parser.add_argument("--collapse", default="", help="Optional CDX collapse value, e.g. digest. Empty means retain every capture.")
@@ -467,19 +476,25 @@ def main() -> None:
     if args.catalog_limit:
         catalog_scope = catalog_scope[: args.catalog_limit]
     audit_statuses = {status.strip() for status in args.audit_statuses.split(",") if status.strip()}
-    if audit_statuses or args.audit_pending_only:
+    if audit_statuses or args.audit_pending_only or args.audit_missing_cdx_only:
         audit_rows_by_game = load_audit_rows()
-        catalog_scope = [
-            game
-            for game in catalog_scope
-            if (
-                (not audit_statuses or audit_rows_by_game.get(canonical_game_url(game.game_url), {}).get("status", "") in audit_statuses)
-                and (
-                    not args.audit_pending_only
-                    or parse_int(audit_rows_by_game.get(canonical_game_url(game.game_url), {}).get("fresh_pending_captures")) > 0
-                )
+
+        def audit_row_matches(game: CatalogGame) -> bool:
+            audit_row = audit_rows_by_game.get(canonical_game_url(game.game_url), {})
+            return (
+                (not audit_statuses or audit_row.get("status", "") in audit_statuses)
+                and (not args.audit_pending_only or audit_int(audit_row, "fresh_pending_captures") > 0)
+                and (not args.audit_missing_cdx_only or audit_int(audit_row, "missing_cdx_cache_files") > 0)
             )
-        ]
+
+        catalog_scope = [game for game in catalog_scope if audit_row_matches(game)]
+    if args.needs_history_only:
+        catalog_scope = [game for game in catalog_scope if game.game_name and game.catalog_index >= 0]
+        catalog_needs = {
+            index: row.get("needs_game_page_history", "")
+            for index, row in enumerate(csv.DictReader(CATALOG_CSV.open(newline="", encoding="utf-8")))
+        }
+        catalog_scope = [game for game in catalog_scope if catalog_needs.get(game.catalog_index) in {"yes", "partial"}]
     manifest = load_manifest()
     failures = load_failures()
     jobs, cdx_stats = build_jobs(
@@ -562,6 +577,8 @@ def main() -> None:
         "catalog_limit": args.catalog_limit,
         "audit_statuses": sorted(audit_statuses),
         "audit_pending_only": args.audit_pending_only,
+        "audit_missing_cdx_only": args.audit_missing_cdx_only,
+        "needs_history_only": args.needs_history_only,
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
@@ -591,6 +608,8 @@ def main() -> None:
                 f"- Catalog scope: offset {report['catalog_offset']}, limit {report['catalog_limit'] or 'all'} ({report['catalog_games_in_scope']} games)",
                 f"- Audit statuses: {', '.join(report['audit_statuses']) or 'all'}",
                 f"- Audit pending only: {report['audit_pending_only']}",
+                f"- Audit missing CDX only: {report['audit_missing_cdx_only']}",
+                f"- Needs history only: {report['needs_history_only']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
