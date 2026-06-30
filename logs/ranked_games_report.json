@@ -1,11 +1,12 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T14:36:57Z",
+    "run_timestamp": "2026-06-30T15:11:41Z",
     "html_samples_considered": 3425,
-    "ranking_rows_extracted": 47424,
+    "ranking_rows_extracted": 47186,
     "rows_with_observed_play_counts": 14518,
     "captures_with_rows": 3274,
     "captures_without_rows": 151,
+    "duplicate_rows_removed": 238,
     "ranking_types": [
       "browse",
       "category_top",

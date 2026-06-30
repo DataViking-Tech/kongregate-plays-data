@@ -10,11 +10,11 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/13prdht7l5rFYqVqVrG5Rim8OHSO6Qhrea48M6YzyG_Y
+https://docs.google.com/spreadsheets/d/1klYiI99rfl_z5b9ffY4Bpsm0xqvNoX3cCYW_OlCtkiw
 
 ## Current Snapshot
 
-- Ranked-list rows: 47,424
+- Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 3,461 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 6,963 across 2,569 canonical games
@@ -31,6 +31,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - Ranked-page, homepage-fallback, and modern-frame recovery brought the HTML manifest to 3,337 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
+- Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.

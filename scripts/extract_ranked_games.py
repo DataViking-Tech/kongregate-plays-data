@@ -90,6 +90,17 @@ def absolutize_game_url(href: str, source_url: str) -> str:
     return urllib.parse.urlunsplit(parsed)
 
 
+def canonical_game_url(game_url: str) -> str:
+    if not game_url:
+        return ""
+    parsed = urllib.parse.urlsplit(game_url)
+    match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
+    if not match:
+        return game_url.lower()
+    developer, slug = match.groups()
+    return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
+
+
 def infer_original_from_filename(path: Path, doc: str) -> tuple[str, str]:
     timestamp_match = re.match(r"^(\d{14})_", path.name)
     timestamp = timestamp_match.group(1) if timestamp_match else ""
@@ -262,6 +273,26 @@ def add_play_ranks(rows: list[dict[str, object]]) -> None:
         row["plays_rank_scope"] = "visible_games_in_same_capture"
         previous_count = count
         previous_rank = rank
+
+
+def dedupe_output_rows(rows: list[dict[str, object]]) -> tuple[list[dict[str, object]], int]:
+    deduped: list[dict[str, object]] = []
+    seen = set()
+    for row in rows:
+        key = (
+            row.get("date", ""),
+            row.get("ranking_type", ""),
+            row.get("category", ""),
+            row.get("source_url", ""),
+            row.get("capture_timestamp", ""),
+            row.get("rank_on_date", ""),
+            canonical_game_url(str(row.get("game_url", ""))),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(row)
+    return deduped, len(rows) - len(deduped)
 
 
 def developer_text(element) -> str:
@@ -572,6 +603,7 @@ def main() -> None:
         )
 
     output_rows.sort(key=lambda row: (row["date"], row["ranking_type"], row["category"], row["source_url"], int(row["rank_on_date"])))
+    output_rows, duplicate_rows_removed = dedupe_output_rows(output_rows)
 
     with OUTPUT_CSV.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=RANKED_COLUMNS, extrasaction="ignore", lineterminator="\n")
@@ -587,6 +619,7 @@ def main() -> None:
         "rows_with_observed_play_counts": sum(1 for row in output_rows if isinstance(row.get("plays_count_observed"), int)),
         "captures_with_rows": sum(1 for report_row in sample_reports if report_row["rows_extracted"] > 0),
         "captures_without_rows": sum(1 for report_row in sample_reports if report_row["rows_extracted"] == 0),
+        "duplicate_rows_removed": duplicate_rows_removed,
         "ranking_types": sorted({row["ranking_type"] for row in output_rows}),
         "first_date": output_rows[0]["date"] if output_rows else "",
         "last_date": output_rows[-1]["date"] if output_rows else "",
@@ -603,6 +636,7 @@ def main() -> None:
                 f"- Rows with observed play counts: {report['rows_with_observed_play_counts']}",
                 f"- Captures with rows: {report['captures_with_rows']}",
                 f"- Captures without rows: {report['captures_without_rows']}",
+                f"- Duplicate rows removed: {report['duplicate_rows_removed']}",
                 f"- Ranking types: {', '.join(report['ranking_types'])}",
                 f"- Date range: {report['first_date']} to {report['last_date']}",
                 "",

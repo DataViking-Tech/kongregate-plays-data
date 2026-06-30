@@ -212,6 +212,7 @@ def main() -> None:
         (
             row.get("date", ""),
             row.get("source_url", ""),
+            row.get("capture_timestamp", ""),
             row.get("rank_on_date", ""),
             canonical_game_url(row.get("game_url", "")),
         )
@@ -418,7 +419,7 @@ def main() -> None:
     if missing_name_rows:
         issues.append(issue("medium", "parser", "ranked_rows_missing_game_name", len(missing_name_rows), "", "", missing_name_rows[0].get("game_url", ""), "Inspect parser title extraction."))
     if duplicate_count:
-        issues.append(issue("low", "dedupe", "duplicate_ranked_rows", duplicate_count, "", "", "", "Review duplicate key handling by date/source/rank/game."))
+        issues.append(issue("low", "dedupe", "duplicate_ranked_rows", duplicate_count, "", "", "", "Review duplicate key handling by date/source/timestamp/rank/game."))
     if url_variant_games:
         first_key, first_urls = next(iter(url_variant_games.items()))
         issues.append(issue("medium", "identity", "games_with_multiple_url_variants", len(url_variant_games), "", "", f"{first_key}: {sorted(first_urls)[:3]}", "Use canonical URL keys for joins and charting; consider canonicalizing processed rows."))

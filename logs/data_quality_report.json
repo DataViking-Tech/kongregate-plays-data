@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-06-30T14:57:21Z",
+  "run_timestamp": "2026-06-30T15:11:59Z",
   "as_of": "2026-06-30",
-  "ranked_rows": 47424,
+  "ranked_rows": 47186,
   "ranked_rows_with_play_counts": 14518,
   "ranked_date_range": [
     "2007-01-20",
@@ -22,7 +22,7 @@
   "invalid_cached_html_examples": [],
   "bad_title_rows": 0,
   "missing_url_rows": 0,
-  "duplicate_ranked_rows": 4151,
+  "duplicate_ranked_rows": 0,
   "games_with_multiple_url_variants": 427,
   "play_count_decreases": 6,
   "stale_listing_play_count_observations": 213,
@@ -46,16 +46,6 @@
       "last_date": "",
       "example": "Kingdom Rush",
       "recommended_action": "Continue per-game metrics history backfill."
-    },
-    {
-      "severity": "low",
-      "area": "dedupe",
-      "issue_type": "duplicate_ranked_rows",
-      "count": 4151,
-      "first_date": "",
-      "last_date": "",
-      "example": "",
-      "recommended_action": "Review duplicate key handling by date/source/rank/game."
     },
     {
       "severity": "medium",
