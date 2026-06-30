@@ -192,6 +192,7 @@ def load_jobs(
     sleep_s: float,
     source_ids: set[str] | None = None,
     extra_seeds: dict[str, str] | None = None,
+    include_homepage: bool = False,
     collapse: str = "digest",
     from_timestamp: str = "",
     to_timestamp: str = "",
@@ -212,7 +213,7 @@ def load_jobs(
         )
         for row in rows:
             ranking_type, _category = infer_source_fields(row.get("original", ""))
-            if ranking_type in {"unknown", "homepage_module"}:
+            if ranking_type == "unknown" or (ranking_type == "homepage_module" and not include_homepage):
                 continue
             jobs.append(
                 CaptureJob(
@@ -321,6 +322,8 @@ def main() -> None:
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between HTML retries.")
     parser.add_argument("--source-id", action="append", default=[], help="Only process one or more source IDs from CDX_SEEDS. May be repeated.")
     parser.add_argument("--extra-seed", action="append", default=[], help="Add an ad hoc CDX seed as seed_id=url. May include Wayback wildcards.")
+    parser.add_argument("--include-homepage", action="store_true", help="Include homepage module captures. Use this for explicitly labeled fallback coverage.")
+    parser.add_argument("--direct-capture", action="append", default=[], help="Fetch a known Wayback capture as timestamp=url, bypassing CDX discovery. May be repeated.")
     parser.add_argument("--from-year", type=int, default=0, help="Only process captures from this year or later.")
     parser.add_argument("--to-year", type=int, default=0, help="Only process captures from this year or earlier.")
     parser.add_argument("--from-timestamp", default="", help="Only process captures at or after this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
@@ -350,6 +353,7 @@ def main() -> None:
         sleep_s=args.cdx_sleep,
         source_ids=selected_source_ids or None,
         extra_seeds=extra_seeds,
+        include_homepage=args.include_homepage,
         collapse=args.collapse,
         from_timestamp=cdx_from_timestamp,
         to_timestamp=cdx_to_timestamp,
@@ -364,12 +368,46 @@ def main() -> None:
         jobs = [job for job in jobs if job.timestamp >= args.from_timestamp.ljust(14, "0")]
     if args.to_timestamp:
         jobs = [job for job in jobs if job.timestamp <= args.to_timestamp.ljust(14, "9")]
+    for item in args.direct_capture:
+        if "=" not in item:
+            raise SystemExit(f"--direct-capture must be timestamp=url, got: {item}")
+        timestamp, original = item.split("=", 1)
+        timestamp = timestamp.strip()
+        original = original.strip()
+        if not re.fullmatch(r"\d{14}", timestamp) or not original:
+            raise SystemExit(f"--direct-capture must be timestamp=url with a 14-digit timestamp, got: {item}")
+        ranking_type, _category = infer_source_fields(original)
+        if ranking_type == "unknown" or (ranking_type == "homepage_module" and not args.include_homepage):
+            continue
+        jobs.append(
+            CaptureJob(
+                source_id="direct_capture",
+                timestamp=timestamp,
+                original=original,
+                digest="",
+                statuscode="200",
+                mimetype="text/html",
+                length="",
+            )
+        )
     pending = []
     for job in jobs:
         cache_path = html_cache_path(job.timestamp, job.original)
         cache_exists = cache_path.exists()
         cache_valid = cached_html_is_valid(cache_path)
         if cache_valid:
+            manifest.setdefault(
+                str(cache_path.relative_to(ROOT)),
+                {
+                    "capture_timestamp": job.timestamp,
+                    "original_url": job.original,
+                    "source_id": job.source_id,
+                    "digest": job.digest,
+                    "statuscode": job.statuscode,
+                    "mimetype": job.mimetype,
+                    "length": job.length or str(cache_path.stat().st_size),
+                },
+            )
             continue
         if args.invalid_only and not cache_exists:
             continue

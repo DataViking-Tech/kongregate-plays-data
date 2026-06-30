@@ -1,14 +1,15 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T13:47:46Z",
-    "html_samples_considered": 3368,
-    "ranking_rows_extracted": 46875,
+    "run_timestamp": "2026-06-30T14:36:57Z",
+    "html_samples_considered": 3425,
+    "ranking_rows_extracted": 47424,
     "rows_with_observed_play_counts": 14518,
-    "captures_with_rows": 3217,
+    "captures_with_rows": 3274,
     "captures_without_rows": 151,
     "ranking_types": [
       "browse",
       "category_top",
+      "homepage_module",
       "most_played",
       "newest",
       "oldest",
@@ -17848,6 +17849,402 @@
       "html_path": "data/raw/html/20171227132625_https_www.kongregate.com_top-rated-games_dc9697c823e7e79d.html"
     },
     {
+      "date": "2018-01-01",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180101070844",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180101070844_https_www.kongregate.com_0017f6f886fcce72.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102013013",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102013013_https_www.kongregate.com_58cd474e4395ebe2.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102013014",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102013014_https_www.kongregate.com_2468088608caa24f.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102032200",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102032200_https_www.kongregate.com_dd7d6db0cf475b42.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102082855",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102082855_https_www.kongregate.com_163af9f677f2e11f.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102083044",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102083044_https_www.kongregate.com_2ff70b115bacaab4.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102095302",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102095302_https_www.kongregate.com_8325b198de20e5fe.html"
+    },
+    {
+      "date": "2018-01-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180102172254",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180102172254_https_www.kongregate.com_af5b33ffc4113d40.html"
+    },
+    {
+      "date": "2018-01-03",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180103181156",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180103181156_https_www.kongregate.com_a28cd872d6eec1e3.html"
+    },
+    {
+      "date": "2018-01-03",
+      "source_url": "http://www.kongregate.com/",
+      "capture_timestamp": "20180103181206",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180103181206_http_www.kongregate.com_dc30c3e1b582ba65.html"
+    },
+    {
+      "date": "2018-01-03",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180103190348",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180103190348_https_www.kongregate.com_4357f875388947e6.html"
+    },
+    {
+      "date": "2018-01-03",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180103222456",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180103222456_https_www.kongregate.com_f2d042ca16146ffd.html"
+    },
+    {
+      "date": "2018-01-03",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180103222457",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180103222457_https_www.kongregate.com_443ac09215508f3d.html"
+    },
+    {
+      "date": "2018-01-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180104001727",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180104001727_https_www.kongregate.com_785e6a2acfcaebbc.html"
+    },
+    {
+      "date": "2018-01-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180104114802",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180104114802_https_www.kongregate.com_015d544bd07bc535.html"
+    },
+    {
+      "date": "2018-01-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180104172819",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180104172819_https_www.kongregate.com_4f3971c1e5657925.html"
+    },
+    {
+      "date": "2018-01-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180104210454",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180104210454_https_www.kongregate.com_f85da0abb5074430.html"
+    },
+    {
+      "date": "2018-01-05",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180105123136",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180105123136_https_www.kongregate.com_ab3bddf702872dd7.html"
+    },
+    {
+      "date": "2018-01-05",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180105124139",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180105124139_https_www.kongregate.com_f29780d2d14a9a6f.html"
+    },
+    {
+      "date": "2018-01-07",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180107105749",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180107105749_https_www.kongregate.com_fed557004e36960e.html"
+    },
+    {
+      "date": "2018-01-07",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180107105751",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180107105751_https_www.kongregate.com_18dbff045862ee2a.html"
+    },
+    {
+      "date": "2018-01-07",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180107204530",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180107204530_https_www.kongregate.com_eed6611ff94f5359.html"
+    },
+    {
+      "date": "2018-01-07",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180107204700",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180107204700_https_www.kongregate.com_ec389462e9f2b83f.html"
+    },
+    {
+      "date": "2018-01-07",
+      "source_url": "http://www.kongregate.com/",
+      "capture_timestamp": "20180107231622",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180107231622_http_www.kongregate.com_80c3066a146a91d4.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109024246",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109024246_https_www.kongregate.com_f90863397246e333.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109024655",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109024655_https_www.kongregate.com_a31293c6d668d9f2.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109024700",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109024700_https_www.kongregate.com_f0f2d6ec91673fe2.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109024704",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109024704_https_www.kongregate.com_bf3a64a16b4889c0.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109195726",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109195726_https_www.kongregate.com_5b20d936e46e32b9.html"
+    },
+    {
+      "date": "2018-01-09",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180109195728",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180109195728_https_www.kongregate.com_0b5a0f4c67f503c5.html"
+    },
+    {
+      "date": "2018-01-10",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180110112829",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180110112829_https_www.kongregate.com_5b101a4091cf7eb2.html"
+    },
+    {
+      "date": "2018-01-10",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180110150505",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180110150505_https_www.kongregate.com_95d38c794a92ab0e.html"
+    },
+    {
+      "date": "2018-01-10",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180110150535",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180110150535_https_www.kongregate.com_340a90e055e1d084.html"
+    },
+    {
+      "date": "2018-01-10",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180110150550",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180110150550_https_www.kongregate.com_72501c59cb6efa95.html"
+    },
+    {
+      "date": "2018-02-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180202190123",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180202190123_https_www.kongregate.com_4f1979658b47c404.html"
+    },
+    {
+      "date": "2018-02-03",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180203084639",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180203084639_https_www.kongregate.com_4e6dd6adde9f5315.html"
+    },
+    {
+      "date": "2018-02-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180204043816",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180204043816_https_www.kongregate.com_872588db9c1da5a5.html"
+    },
+    {
+      "date": "2018-02-04",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180204043818",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180204043818_https_www.kongregate.com_c80366d852ad7f31.html"
+    },
+    {
+      "date": "2018-02-06",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180206013152",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180206013152_https_www.kongregate.com_687b863fd22445b7.html"
+    },
+    {
+      "date": "2018-02-06",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180206033021",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180206033021_https_www.kongregate.com_ebab6b3c8dfd364e.html"
+    },
+    {
+      "date": "2018-02-15",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180215005857",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180215005857_https_www.kongregate.com_5b205d35f1710b6c.html"
+    },
+    {
+      "date": "2018-02-18",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180218073925",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180218073925_https_www.kongregate.com_5afc109f27325136.html"
+    },
+    {
+      "date": "2018-02-21",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180221142810",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180221142810_https_www.kongregate.com_ce5ef9b41ea03842.html"
+    },
+    {
+      "date": "2018-02-21",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180221142813",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180221142813_https_www.kongregate.com_0e8edc8e73863d25.html"
+    },
+    {
       "date": "2018-03-08",
       "source_url": "https://www.kongregate.com/games",
       "capture_timestamp": "20180308170109",
@@ -17909,6 +18306,96 @@
       "rows_extracted": 17,
       "confidence": "high",
       "html_path": "data/raw/html/20180312010722_https_www.kongregate.com_games_a9ba8df4111faa39.html"
+    },
+    {
+      "date": "2018-04-02",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180402044838",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180402044838_https_www.kongregate.com_3d32a2f8324ec4f0.html"
+    },
+    {
+      "date": "2018-04-07",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180407233150",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180407233150_https_www.kongregate.com_a89119823aa58653.html"
+    },
+    {
+      "date": "2018-04-10",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180410141339",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180410141339_https_www.kongregate.com_bbcab0bbd7ffe9e3.html"
+    },
+    {
+      "date": "2018-04-15",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180415210408",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180415210408_https_www.kongregate.com_ff8ca8980cc54b49.html"
+    },
+    {
+      "date": "2018-04-16",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180416110844",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180416110844_https_www.kongregate.com_2c1c12ad8595261e.html"
+    },
+    {
+      "date": "2018-04-22",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180422214614",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180422214614_https_www.kongregate.com_8325be5f84d86510.html"
+    },
+    {
+      "date": "2018-04-23",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180423222104",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180423222104_https_www.kongregate.com_e5abcf2df3ddb060.html"
+    },
+    {
+      "date": "2018-04-28",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180428224327",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180428224327_https_www.kongregate.com_263410162f2b3c57.html"
+    },
+    {
+      "date": "2018-04-30",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180430004948",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180430004948_https_www.kongregate.com_0fe79524a0940b6b.html"
+    },
+    {
+      "date": "2018-04-30",
+      "source_url": "https://www.kongregate.com/",
+      "capture_timestamp": "20180430213612",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20180430213612_https_www.kongregate.com_7f87e518c55f7b85.html"
     },
     {
       "date": "2018-05-07",
@@ -20270,6 +20757,15 @@
     },
     {
       "date": "2020-04-29",
+      "source_url": "https://www.kongregate.com",
+      "capture_timestamp": "20200429124610",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20200429124610_https_www.kongregate.com_c7c57a384682c9be.html"
+    },
+    {
+      "date": "2020-04-29",
       "source_url": "https://www.kongregate.com/strategy-games",
       "capture_timestamp": "20200429125442",
       "parser": "game_browser_game_row",
@@ -21842,6 +22338,15 @@
       "rows_extracted": 16,
       "confidence": "high",
       "html_path": "data/raw/html/20210125205501_https_www.kongregate.com_games_75964600027fda67.html"
+    },
+    {
+      "date": "2021-01-27",
+      "source_url": "https://www.kongregate.com",
+      "capture_timestamp": "20210127045335",
+      "parser": "legacy_game_blocks",
+      "rows_extracted": 9,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20210127045335_https_www.kongregate.com_470c5026e6fea61c.html"
     },
     {
       "date": "2021-02-02",
@@ -26216,6 +26721,15 @@
       "rows_extracted": 0,
       "confidence": "",
       "html_path": "data/raw/html/20240117182511_https_www.kongregate.com_tutorials-games_slider_4255a32e04210bc6.html"
+    },
+    {
+      "date": "2024-01-21",
+      "source_url": "http://www.kongregate.com",
+      "capture_timestamp": "20240121082612",
+      "parser": "modern_card_links",
+      "rows_extracted": 45,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20240121082612_http_www.kongregate.com_92d4ce1f0ef249f9.html"
     },
     {
       "date": "2024-01-30",

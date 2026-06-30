@@ -225,6 +225,8 @@ def ranking_basis_for(ranking_type: str) -> str:
         return "page_order_oldest"
     if ranking_type == "category_top":
         return "page_order_category_default"
+    if ranking_type == "homepage_module":
+        return "page_order_homepage_module"
     if ranking_type == "browse":
         return "page_order_browse_default"
     return "page_order_observed"
@@ -507,7 +509,7 @@ def iter_samples() -> list[HtmlSample]:
         if not timestamp:
             continue
         ranking_type, category = infer_source_fields(original)
-        if ranking_type == "unknown" or ranking_type == "homepage_module":
+        if ranking_type == "unknown":
             continue
         samples.append(HtmlSample(path=path, capture_timestamp=timestamp, original_url=original))
     return samples

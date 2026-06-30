@@ -1,15 +1,15 @@
 # Kongregate Full Ranked-Games Scrape Report
 
-- Run timestamp: 2026-06-30T13:46:48Z
-- Total manifest jobs: 15
-- Pending before run: 15
-- Attempted this run: 15
-- Fetched this run: 15
+- Run timestamp: 2026-06-30T14:36:35Z
+- Total manifest jobs: 121
+- Pending before run: 88
+- Attempted this run: 1
+- Fetched this run: 1
 - Failed this run: 0
-- Remaining after run: 0
-- Manifest entries: 3283
-- Known failures: 7593
-- CDX collapse: none
-- CDX timestamp range: 20090501000000 to 20090531999999
+- Remaining after run: 87
+- Manifest entries: 3337
+- Known failures: 7608
+- CDX collapse: digest
+- CDX timestamp range: 20180101000000 to 20180131999999
 
-CDX inputs were not collapsed, retaining every capture in the requested timestamp range.
+CDX inputs are digest-collapsed, so duplicate archived HTML content is intentionally not fetched repeatedly.
