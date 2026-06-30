@@ -30,6 +30,7 @@ LOGS = ROOT / "logs"
 CATALOG_CSV = PROCESSED / "mini_catalog.csv"
 HISTORY_CSV = PROCESSED / "game_play_history.csv"
 HISTORY_JSON = PROCESSED / "game_play_history.json"
+AUDIT_CSV = PROCESSED / "metrics_backfill_gap_audit.csv"
 MANIFEST_PATH = RAW_METRICS / "manifest.json"
 FAILURE_PATH = RAW_METRICS / "failures.json"
 REPORT_JSON = LOGS / "game_metrics_history_report.json"
@@ -60,6 +61,7 @@ HISTORY_COLUMNS = [
 
 @dataclass(frozen=True)
 class CatalogGame:
+    catalog_index: int
     game_url: str
     game_name: str
 
@@ -103,8 +105,35 @@ def write_json(path: Path, payload) -> None:
 
 def load_catalog() -> list[CatalogGame]:
     rows = list(csv.DictReader(CATALOG_CSV.open(newline="", encoding="utf-8")))
-    games = [CatalogGame(game_url=row["game_url"], game_name=row["game_name"]) for row in rows if row.get("game_url")]
+    games = [
+        CatalogGame(catalog_index=index, game_url=row["game_url"], game_name=row["game_name"])
+        for index, row in enumerate(rows)
+        if row.get("game_url")
+    ]
     return games
+
+
+def canonical_game_url(game_url: str) -> str:
+    if not game_url:
+        return ""
+    parsed = urllib.parse.urlsplit(game_url)
+    match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
+    if not match:
+        return game_url.lower()
+    developer, slug = match.groups()
+    return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
+
+
+def load_audit_rows() -> dict[str, dict[str, str]]:
+    rows = {}
+    if not AUDIT_CSV.exists():
+        return rows
+    with AUDIT_CSV.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            key = canonical_game_url(row.get("game_url", ""))
+            if key:
+                rows[key] = row
+    return rows
 
 
 def metric_cdx_keys_for_game(game_url: str) -> list[str]:
@@ -267,11 +296,10 @@ def build_jobs(
     collapse: str,
     cdx_retries: int,
     cdx_retry_sleep_s: float,
-    catalog_offset: int,
 ) -> tuple[list[MetricsJob], dict[str, int]]:
     jobs: list[MetricsJob] = []
     stats = {"cdx_games_considered": 0, "cdx_urls_fetched": 0, "cdx_urls_cached": 0, "cdx_urls_failed": 0, "cdx_rows": 0}
-    for catalog_index, game in enumerate(games, start=catalog_offset):
+    for game in games:
         if max_cdx_games and stats["cdx_games_considered"] >= max_cdx_games:
             break
         stats["cdx_games_considered"] += 1
@@ -297,7 +325,7 @@ def build_jobs(
             for row in rows:
                 jobs.append(
                     MetricsJob(
-                        catalog_index=catalog_index,
+                        catalog_index=game.catalog_index,
                         game_url=game.game_url,
                         game_name=game.game_name,
                         timestamp=row.get("timestamp", ""),
@@ -369,6 +397,8 @@ def main() -> None:
     parser.add_argument("--max-cdx-games", type=int, default=0, help="Limit catalog games to check for CDX rows this run. 0 means all.")
     parser.add_argument("--catalog-offset", type=int, default=0, help="Skip this many catalog rows before CDX discovery.")
     parser.add_argument("--catalog-limit", type=int, default=0, help="Limit catalog rows after --catalog-offset. 0 means all remaining rows.")
+    parser.add_argument("--audit-statuses", default="", help="Comma-separated metrics gap audit statuses to target, e.g. cdx_cache_missing.")
+    parser.add_argument("--audit-pending-only", action="store_true", help="Target only games with fresh pending captures in metrics_backfill_gap_audit.csv.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Limit new metrics JSON fetch attempts this run. 0 means all pending.")
     parser.add_argument("--schemes", default="http,https", help="Comma-separated URL schemes to query, usually http,https.")
     parser.add_argument("--collapse", default="", help="Optional CDX collapse value, e.g. digest. Empty means retain every capture.")
@@ -392,6 +422,20 @@ def main() -> None:
     catalog_scope = catalog[args.catalog_offset :]
     if args.catalog_limit:
         catalog_scope = catalog_scope[: args.catalog_limit]
+    audit_statuses = {status.strip() for status in args.audit_statuses.split(",") if status.strip()}
+    if audit_statuses or args.audit_pending_only:
+        audit_rows_by_game = load_audit_rows()
+        catalog_scope = [
+            game
+            for game in catalog_scope
+            if (
+                (not audit_statuses or audit_rows_by_game.get(canonical_game_url(game.game_url), {}).get("status", "") in audit_statuses)
+                and (
+                    not args.audit_pending_only
+                    or parse_int(audit_rows_by_game.get(canonical_game_url(game.game_url), {}).get("fresh_pending_captures")) > 0
+                )
+            )
+        ]
     manifest = load_manifest()
     failures = load_failures()
     jobs, cdx_stats = build_jobs(
@@ -404,7 +448,6 @@ def main() -> None:
         args.collapse,
         args.cdx_retries,
         args.cdx_retry_sleep,
-        args.catalog_offset,
     )
 
     pending = [
@@ -472,6 +515,8 @@ def main() -> None:
         "catalog_games": len(catalog),
         "catalog_offset": args.catalog_offset,
         "catalog_limit": args.catalog_limit,
+        "audit_statuses": sorted(audit_statuses),
+        "audit_pending_only": args.audit_pending_only,
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
@@ -498,6 +543,8 @@ def main() -> None:
                 f"- Run timestamp: {report['run_timestamp']}",
                 f"- Catalog games: {report['catalog_games']}",
                 f"- Catalog scope: offset {report['catalog_offset']}, limit {report['catalog_limit'] or 'all'} ({report['catalog_games_in_scope']} games)",
+                f"- Audit statuses: {', '.join(report['audit_statuses']) or 'all'}",
+                f"- Audit pending only: {report['audit_pending_only']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- CDX rows found: {report['cdx_rows']}",
