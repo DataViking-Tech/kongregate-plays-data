@@ -121,7 +121,7 @@ function styleSheet(sheet, columns, rowCount, tableName) {
   sheet.getRange(`A1:${lastCol}1`).format.fill.color = "#F1F3F4";
   sheet.getRange(`A1:${lastCol}1`).format.font.bold = true;
   sheet.getRange(`A1:${lastCol}1`).format.wrapText = true;
-  sheet.getRange(rangeAddress).format.borders = { preset: "inside", style: "thin", color: "#E6E6E6" };
+  sheet.getRange(`A1:${lastCol}1`).format.borders = { preset: "outside", style: "thin", color: "#DADCE0" };
   sheet.getRange(rangeAddress).format.verticalAlignment = "top";
   sheet.getRange(rangeAddress).format.wrapText = true;
 

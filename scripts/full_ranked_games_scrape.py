@@ -222,6 +222,19 @@ def fetch_html(job: CaptureJob, timeout_s: int) -> tuple[bool, str]:
     return True, str(target.relative_to(ROOT))
 
 
+def fetch_html_with_retries(job: CaptureJob, timeout_s: int, retries: int, retry_sleep_s: float) -> tuple[bool, str]:
+    attempts = max(1, retries + 1)
+    last_result = (False, "not_attempted")
+    for attempt in range(attempts):
+        last_result = fetch_html(job, timeout_s)
+        ok, _detail = last_result
+        if ok:
+            return last_result
+        if attempt + 1 < attempts:
+            time.sleep(retry_sleep_s * (2 ** attempt))
+    return last_result
+
+
 def html_text_is_valid(text: str) -> bool:
     if not text.strip():
         return False
@@ -261,6 +274,8 @@ def main() -> None:
     parser.add_argument("--refresh-cdx", action="store_true", help="Use cached CDX files where present and fetch missing seed files.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry captures that previously failed instead of skipping them.")
     parser.add_argument("--invalid-only", action="store_true", help="Only retry jobs whose HTML cache file exists but is currently invalid.")
+    parser.add_argument("--retries", type=int, default=0, help="Retries for transient Wayback HTML fetch failures.")
+    parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between HTML retries.")
     parser.add_argument("--source-id", action="append", default=[], help="Only process one or more source IDs from CDX_SEEDS. May be repeated.")
     parser.add_argument("--from-year", type=int, default=0, help="Only process captures from this year or later.")
     parser.add_argument("--to-year", type=int, default=0, help="Only process captures from this year or earlier.")
@@ -302,7 +317,7 @@ def main() -> None:
     fetched = 0
     failed = 0
     for job in selected:
-        ok, detail = fetch_html(job, args.timeout)
+        ok, detail = fetch_html_with_retries(job, args.timeout, args.retries, args.retry_sleep)
         if ok:
             fetched += 1
             cache_path = html_cache_path(job.timestamp, job.original)
