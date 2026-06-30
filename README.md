@@ -10,15 +10,15 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1REEcfHEiMWuVh2Dvd3fd-jkR-ZFhnnIxdkpPDij13IM
+https://docs.google.com/spreadsheets/d/1twysER_W0AaNQq_MFfrPQVe--0G9yw7ZaPJLpG7iMQQ
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,936 canonical games that reached top 20 in observed rankings
-- Per-game metrics history rows: 7,103 across 2,569 canonical games
-- Observed play-count rows used by the chart: 21,621
+- Per-game metrics history rows: 7,105 across 2,569 canonical games
+- Observed play-count rows used by the chart: 21,623
 - Chart playback: Smooth mode uses 7,457 interpolated month-paced display frames by default; Captures mode exposes all 2,111 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
@@ -42,6 +42,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 37 recovered 20 additional archived metrics observations and cut missing CDX cache files to 73.
 - Visualization polish after checkpoint 37 doubled Smooth-mode interpolation density, kept animated rows in compact rank lanes, and confirmed the live chart fetches the repo JSON at runtime.
 - Checkpoint 38 recovered 6 additional archived metrics observations and cut missing CDX cache files to 71.
+- Checkpoint 39 recovered 2 additional archived metrics observations from the high-priority catalog retry sweep.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
