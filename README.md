@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/13TlH-0HrsRdSgG0uVmN_nCPFVhTRoWZRDVsdfZr-pjM
+https://docs.google.com/spreadsheets/d/1dDh8QWrA82z6ypc4C_75OGJ7cLX0lObDjCug_XmHjW0
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,635 across 2,572 canonical games
-- Observed play-count rows used by the chart: 22,153
-- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,271 observed capture-date frames.
+- Per-game play-history rows: 7,656 across 2,572 canonical games
+- Observed play-count rows used by the chart: 22,174
+- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,277 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Per-game play-history date range: 2007-03-24 to 2026-06-30
 
@@ -60,6 +60,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `fetch_game_page_history.py` now supports the full `catalog_history_priorities.csv` sweep queue directly, mapping `needs_game_page_history=yes/partial/no` into resumable page-history tiers. A first high-priority catalog probe found no CDX rows for the earliest single-day tier-1 uploads, so broad gap recovery should continue in smaller resumable catalog batches and prioritize games with known longer-lived history.
 - Checkpoint 51 added a per-game cap for broad archived page-history sweeps, recovered 12 high-confidence 2008 game-page observations for Sonny and GemCraft, increased archived game-page history rows to 169, and refreshed the chart to 22,153 observed play-count rows.
 - Visualization polish after checkpoint 51 keeps long game names clipped inside the label column and drives Smooth mode from elapsed time so busy browsers skip cleanly instead of accumulating small timing pauses.
+- Checkpoint 52 recovered 21 additional high-confidence archived game-page observations for GemCraft, extending that 2008 history run through 2008-09-12, increasing archived game-page history rows to 190, and refreshing the chart to 22,174 observed play-count rows.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -68,7 +69,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 356 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 356 unresolved no-CDX cases, and 0 missing CDX cache files.
 - The no-CDX profile splits those 356 games into 9 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count.
-- 7 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the added Transformice decrease comes from comparing renamed URL metrics sources.
+- 8 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the newest GemCraft decrease is a same-day ranked-page versus game-page source mismatch on 2008-09-06.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
 ## Key Files
