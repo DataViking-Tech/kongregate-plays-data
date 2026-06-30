@@ -62,6 +62,9 @@ class GamePageJob:
     game_name: str
     canonical_key: str
     tier: int
+    best_rank: int
+    first_seen_date: str
+    last_seen_date: str
     timestamp: str
     original: str
     digest: str
@@ -103,6 +106,38 @@ def parse_int(value: object) -> int:
     if not match:
         return 0
     return int(match.group(0).replace(",", ""))
+
+
+def parse_iso_date(value: str):
+    text = str(value or "")[:10]
+    if not text:
+        return None
+    try:
+        return datetime.strptime(text, "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def parse_timestamp_date(timestamp: str):
+    text = str(timestamp or "")[:8]
+    if not text:
+        return None
+    try:
+        return datetime.strptime(text, "%Y%m%d").date()
+    except ValueError:
+        return None
+
+
+def ranked_window_distance(job: GamePageJob) -> int:
+    capture_date = parse_timestamp_date(job.timestamp)
+    first_seen = parse_iso_date(job.first_seen_date)
+    last_seen = parse_iso_date(job.last_seen_date)
+    if not capture_date or not first_seen:
+        return 0
+    last_seen = last_seen or first_seen
+    if first_seen <= capture_date <= last_seen:
+        return 0
+    return min(abs((capture_date - first_seen).days), abs((capture_date - last_seen).days))
 
 
 def canonical_game_url(game_url: str) -> str:
@@ -305,6 +340,9 @@ def build_jobs(
                         game_name=game.game_name,
                         canonical_key=game.canonical_key,
                         tier=game.tier,
+                        best_rank=game.best_rank,
+                        first_seen_date=game.first_seen_date,
+                        last_seen_date=game.last_seen_date,
                         timestamp=row.get("timestamp", ""),
                         original=row.get("original", page_url),
                         digest=row.get("digest", ""),
@@ -317,7 +355,17 @@ def build_jobs(
     for job in jobs:
         if job.timestamp and job.original:
             deduped[(job.canonical_key, job.timestamp, job.original)] = job
-    return sorted(deduped.values(), key=lambda job: (job.tier, job.game_name.lower(), job.timestamp, job.original)), stats
+    return sorted(
+        deduped.values(),
+        key=lambda job: (
+            job.tier,
+            job.best_rank or 999999,
+            ranked_window_distance(job),
+            job.game_name.lower(),
+            job.timestamp,
+            job.original,
+        ),
+    ), stats
 
 
 def html_cache_path(job: GamePageJob) -> Path:
