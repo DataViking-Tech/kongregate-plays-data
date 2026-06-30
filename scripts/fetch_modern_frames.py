@@ -132,6 +132,19 @@ def fetch_frame(job: FrameJob, timeout_s: int) -> tuple[bool, str, str]:
     return True, str(target.relative_to(ROOT)), actual_timestamp
 
 
+def fetch_frame_with_retries(job: FrameJob, timeout_s: int, retries: int, retry_sleep_s: float) -> tuple[bool, str, str]:
+    attempts = max(1, retries + 1)
+    last_result = (False, "not_attempted", job.parent_timestamp)
+    for attempt in range(attempts):
+        last_result = fetch_frame(job, timeout_s)
+        ok, detail, actual_timestamp = last_result
+        if ok:
+            return last_result
+        if attempt + 1 < attempts:
+            time.sleep(retry_sleep_s * (2 ** attempt))
+    return last_result
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch modern Kongregate Turbo slider frames from Wayback.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Maximum new frame fetches. 0 means all pending frames.")
@@ -140,6 +153,8 @@ def main() -> None:
     parser.add_argument("--to-timestamp", default="", help="Only process parent captures at or before this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
     parser.add_argument("--sleep", type=float, default=0.6, help="Seconds to sleep between Wayback frame requests.")
     parser.add_argument("--timeout", type=int, default=30, help="Per-request timeout in seconds.")
+    parser.add_argument("--retries", type=int, default=0, help="Retries for transient frame fetch failures.")
+    parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between frame retries.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry frames that previously failed.")
     args = parser.parse_args()
 
@@ -167,7 +182,7 @@ def main() -> None:
     fetched = 0
     failed = 0
     for job in selected:
-        ok, detail, actual_timestamp = fetch_frame(job, args.timeout)
+        ok, detail, actual_timestamp = fetch_frame_with_retries(job, args.timeout, args.retries, args.retry_sleep)
         if ok:
             fetched += 1
             cache_path = html_cache_path(job.parent_timestamp, job.frame_original)
