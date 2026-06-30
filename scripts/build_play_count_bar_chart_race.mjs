@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/17oPd33ykNpTOH92ZhksG039KSX9Ksw93wFabv6m8mCY";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1la6SujTEEs_iAfKwMdFELhjTYhcNwadNqzDvHyqltDU";
 
 const topN = 12;
 
@@ -609,7 +609,8 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const renderedRows = visibleRows;
+    const bufferRows = 4;
+    const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
     const exitMs = transitionMs + 120;
     const smoothStepsPerMonth = 10;
@@ -753,7 +754,7 @@ function htmlDocument() {
       const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
       const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
       const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
-      const offscreenRank = visibleRows + 1.5;
+      const offscreenRank = renderedRows + 1.5;
       const entries = [...keys]
         .map((key) => {
           const startEntry = startEntries.get(key);
@@ -883,7 +884,7 @@ function htmlDocument() {
       const row = document.createElement("div");
       row.className = "barRow";
       row.dataset.key = entry.key;
-      row.style.transform = transformForSlot(visibleRows + 1.5);
+      row.style.transform = transformForSlot(renderedRows + 1.5);
 
       const rank = document.createElement("div");
       rank.className = "rank";
@@ -958,7 +959,7 @@ function htmlDocument() {
       const bar = row.querySelector(".bar");
       bar.style.background = colorFor(entry.key);
       bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
-      row.style.zIndex = String(Math.max(1, visibleRows - fallbackIndex + 1));
+      row.style.zIndex = String(Math.max(1, renderedRows - fallbackIndex + 1));
     }
 
     function removeInactiveRow(key, row) {
@@ -967,7 +968,7 @@ function htmlDocument() {
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
       row.style.zIndex = "0";
-      row.style.transform = transformForSlot(visibleRows + 0.75);
+      row.style.transform = transformForSlot(renderedRows + 0.75);
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
