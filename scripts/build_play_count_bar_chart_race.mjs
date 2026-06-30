@@ -170,7 +170,7 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 110ms;
+      --move-duration: 90ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 140ms;
     }
@@ -568,7 +568,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2800" value="1500" step="10" aria-label="Pace"></label>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="900" max="3600" value="1900" step="25" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -614,7 +614,7 @@ function htmlDocument() {
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
     const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 24;
+    const smoothStepsPerMonth = 16;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -986,8 +986,8 @@ function htmlDocument() {
       const bar = row.querySelector(".bar");
       bar.style.background = colorFor(entry.key);
       bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
-      const slot = Number.isFinite(entry.slotPosition) ? entry.slotPosition : fallbackIndex;
-      row.style.zIndex = String(Math.max(1, renderedRows - Math.round(slot) + 1));
+      const visualOrder = Number.isFinite(entry.displayOrder) ? entry.displayOrder : fallbackIndex + 1;
+      row.style.zIndex = String(Math.max(1, renderedRows - visualOrder + 1));
     }
 
     function removeInactiveRow(key, row) {
@@ -1091,15 +1091,15 @@ function htmlDocument() {
     }
 
     function playbackDelay() {
-      const pace = Number(speedSlider.value) || 1500;
-      if (playbackMode === "smooth") return Math.max(70, pace / smoothStepsPerMonth);
+      const pace = Number(speedSlider.value) || 1900;
+      if (playbackMode === "smooth") return Math.max(90, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(95, Math.min(180, delay * 1.2))
+        ? Math.max(70, Math.min(130, delay * 0.78))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
