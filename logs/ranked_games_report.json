@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T12:39:14Z",
-    "html_samples_considered": 3352,
-    "ranking_rows_extracted": 46653,
-    "rows_with_observed_play_counts": 14296,
-    "captures_with_rows": 3201,
+    "run_timestamp": "2026-06-30T13:30:15Z",
+    "html_samples_considered": 3353,
+    "ranking_rows_extracted": 46668,
+    "rows_with_observed_play_counts": 14311,
+    "captures_with_rows": 3202,
     "captures_without_rows": 151,
     "ranking_types": [
       "browse",
@@ -2402,6 +2402,15 @@
       "rows_extracted": 15,
       "confidence": "high",
       "html_path": "data/raw/html/20090418152313_http_www.kongregate.com_80_popular_games_bde17f24101cffe7.html"
+    },
+    {
+      "date": "2009-06-17",
+      "source_url": "http://www.kongregate.com:80/popular_games?reverse=true&sort=date",
+      "capture_timestamp": "20090617060326",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090617060326_http_www.kongregate.com_80_popular_games_reverse_true_sort_date_18ba7ae0788a773d.html"
     },
     {
       "date": "2009-07-06",

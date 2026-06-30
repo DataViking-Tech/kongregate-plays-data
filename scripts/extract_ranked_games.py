@@ -133,6 +133,8 @@ def infer_source_fields(source_url: str) -> tuple[str, str]:
         ranking_type = "homepage_module"
     elif path in {"/top-rated-games", "/best-games"}:
         ranking_type = "top_rated"
+    elif path == "/popular_games" and sort == "date":
+        ranking_type = "newest" if query.get("reverse", "").lower() == "true" else "oldest"
     elif path in {"/most-played-games", "/popular_games"}:
         ranking_type = "most_played"
     elif path == "/new-games":

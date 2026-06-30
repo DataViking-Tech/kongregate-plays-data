@@ -42,6 +42,7 @@ CDX_SEEDS = {
     "top_rated_games": "https://www.kongregate.com/top-rated-games",
     "most_played_games": "https://www.kongregate.com/most-played-games",
     "popular_games": "http://www.kongregate.com/popular_games",
+    "popular_games_sort_date_reverse": "http://www.kongregate.com:80/popular_games?reverse=true&sort=date",
     "games": "https://www.kongregate.com/games",
     "action_games": "https://www.kongregate.com/action-games",
     "adventure_games": "https://www.kongregate.com/adventure-games",
