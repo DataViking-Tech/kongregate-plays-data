@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 920ms;
-      --move-ease: cubic-bezier(0.16, 0.84, 0.24, 1);
+      --move-duration: 750ms;
+      --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 140ms;
     }
 
@@ -567,7 +567,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="900" max="4200" value="1700" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="450" max="2600" value="750" step="25" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -611,7 +611,7 @@ function htmlDocument() {
     const visibleRows = 12;
     const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
-    const transitionMs = 920;
+    const transitionMs = 750;
     const exitMs = transitionMs + 120;
     const smoothStepsPerMonth = 12;
     const rowsByKey = new Map();
@@ -924,26 +924,34 @@ function htmlDocument() {
     }
 
     function animateValue(valueEl, nextValue) {
-      const previousValue = Number(valueEl.dataset.rawValue || nextValue);
+      const previousValue = Number(valueEl.dataset.displayValue || valueEl.dataset.rawValue || nextValue);
       const targetValue = Number(nextValue);
       valueEl.dataset.rawValue = String(targetValue);
 
       if (!Number.isFinite(previousValue) || previousValue === targetValue) {
         valueEl.textContent = formatPlays(targetValue);
+        valueEl.dataset.displayValue = String(targetValue);
         return;
       }
 
       const startedAt = performance.now();
       const animationToken = String(startedAt);
       valueEl.dataset.animationToken = animationToken;
+      const durationMs = Math.max(180, Math.min(transitionMs, Number(speedSlider.value) * 0.95));
 
       function tick(now) {
         if (valueEl.dataset.animationToken !== animationToken) return;
-        const progress = Math.min((now - startedAt) / transitionMs, 1);
+        const progress = Math.min((now - startedAt) / durationMs, 1);
         const eased = 1 - Math.pow(1 - progress, 3);
         const displayValue = Math.round(previousValue + ((targetValue - previousValue) * eased));
         valueEl.textContent = formatPlays(displayValue);
-        if (progress < 1) requestAnimationFrame(tick);
+        valueEl.dataset.displayValue = String(displayValue);
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+          return;
+        }
+        valueEl.textContent = formatPlays(targetValue);
+        valueEl.dataset.displayValue = String(targetValue);
       }
 
       requestAnimationFrame(tick);
@@ -1064,7 +1072,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 220);
+      const delay = Math.max(Number(speedSlider.value), 80);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
