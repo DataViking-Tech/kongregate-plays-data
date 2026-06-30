@@ -450,6 +450,7 @@ def main() -> None:
     parser.add_argument("--audit-statuses", default="", help="Comma-separated metrics gap audit statuses to target, e.g. cdx_cache_missing.")
     parser.add_argument("--audit-pending-only", action="store_true", help="Target only games with fresh pending captures in metrics_backfill_gap_audit.csv.")
     parser.add_argument("--audit-missing-cdx-only", action="store_true", help="Target only games with missing CDX cache files in metrics_backfill_gap_audit.csv.")
+    parser.add_argument("--audit-known-failures-only", action="store_true", help="Target only games with known failed metrics JSON captures in metrics_backfill_gap_audit.csv.")
     parser.add_argument("--needs-history-only", action="store_true", help="Target only catalog games whose mini-catalog row still needs game-page history.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Limit new metrics JSON fetch attempts this run. 0 means all pending.")
     parser.add_argument("--schemes", default="http,https", help="Comma-separated URL schemes to query, usually http,https.")
@@ -476,7 +477,7 @@ def main() -> None:
     if args.catalog_limit:
         catalog_scope = catalog_scope[: args.catalog_limit]
     audit_statuses = {status.strip() for status in args.audit_statuses.split(",") if status.strip()}
-    if audit_statuses or args.audit_pending_only or args.audit_missing_cdx_only:
+    if audit_statuses or args.audit_pending_only or args.audit_missing_cdx_only or args.audit_known_failures_only:
         audit_rows_by_game = load_audit_rows()
 
         def audit_row_matches(game: CatalogGame) -> bool:
@@ -485,6 +486,7 @@ def main() -> None:
                 (not audit_statuses or audit_row.get("status", "") in audit_statuses)
                 and (not args.audit_pending_only or audit_int(audit_row, "fresh_pending_captures") > 0)
                 and (not args.audit_missing_cdx_only or audit_int(audit_row, "missing_cdx_cache_files") > 0)
+                and (not args.audit_known_failures_only or audit_int(audit_row, "known_failed_captures") > 0)
             )
 
         catalog_scope = [game for game in catalog_scope if audit_row_matches(game)]
@@ -580,6 +582,7 @@ def main() -> None:
         "audit_statuses": sorted(audit_statuses),
         "audit_pending_only": args.audit_pending_only,
         "audit_missing_cdx_only": args.audit_missing_cdx_only,
+        "audit_known_failures_only": args.audit_known_failures_only,
         "needs_history_only": args.needs_history_only,
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
@@ -611,6 +614,7 @@ def main() -> None:
                 f"- Audit statuses: {', '.join(report['audit_statuses']) or 'all'}",
                 f"- Audit pending only: {report['audit_pending_only']}",
                 f"- Audit missing CDX only: {report['audit_missing_cdx_only']}",
+                f"- Audit known failures only: {report['audit_known_failures_only']}",
                 f"- Needs history only: {report['needs_history_only']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
