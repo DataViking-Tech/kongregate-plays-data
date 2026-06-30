@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-30T05:37:06Z",
+  "run_timestamp": "2026-06-30T05:47:53Z",
   "as_of": "2026-06-30",
   "ranked_rows": 36325,
   "ranked_rows_with_play_counts": 11087,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 3007,
-  "metrics_history_rows": 5662,
-  "metrics_history_games": 1542,
+  "metrics_history_rows": 5812,
+  "metrics_history_games": 1692,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-06-30"
   ],
   "zero_ranked_capture_months": 66,
-  "catalog_games_without_metrics_history": 1044,
+  "catalog_games_without_metrics_history": 894,
   "catalog_games_need_page_history": 2311,
   "final_chart_entries_stale_over_one_year": 0,
   "invalid_cached_html_files": 0,
@@ -41,7 +41,7 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 1044,
+      "count": 894,
       "first_date": "",
       "last_date": "",
       "example": "as3q32@gmail.com",
