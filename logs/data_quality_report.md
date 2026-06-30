@@ -1,20 +1,19 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T15:11:59Z
+- Run timestamp: 2026-06-30T15:41:16Z
 - As of: 2026-06-30
 - Ranked rows: 47186
 - Ranked rows with play counts: 14518
 - Ranked date range: 2007-01-20 to 2026-06-26
-- Mini catalog games: 3461
+- Mini catalog games: 2936
 - Metrics history rows/games: 6963 / 2569
 - Metrics date range: 2013-09-18 to 2026-06-30
 - Invalid cached HTML files: 0
 
 ## Top Issues
 
-- HIGH metrics/catalog_games_without_metrics_history: 371 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
-- HIGH metrics/catalog_games_need_page_history: 2617 - Continue per-game metrics history backfill.
-- MEDIUM identity/games_with_multiple_url_variants: 427 - Use canonical URL keys for joins and charting; consider canonicalizing processed rows.
+- HIGH metrics/catalog_games_without_metrics_history: 367 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+- HIGH metrics/catalog_games_need_page_history: 2250 - Continue per-game metrics history backfill.
 - MEDIUM plays/play_count_decreases: 6 - Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.
 - LOW plays/stale_listing_play_count_observations: 213 - Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count.
 

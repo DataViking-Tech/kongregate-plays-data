@@ -41,6 +41,7 @@ class CatalogGame:
     catalog_index: int
     game_url: str
     game_name: str
+    game_url_variants: tuple[str, ...]
     status: str
     best_rank: int
     priority_score: int
@@ -111,6 +112,14 @@ def load_audit_statuses() -> dict[str, dict[str, str]]:
     return rows
 
 
+def game_url_variants(row: dict[str, str]) -> tuple[str, ...]:
+    variants = []
+    if row.get("game_url"):
+        variants.append(row["game_url"])
+    variants.extend(part.strip() for part in row.get("game_url_variants", "").split(";") if part.strip())
+    return tuple(dict.fromkeys(variants))
+
+
 def load_catalog(statuses: set[str]) -> list[CatalogGame]:
     audit_rows = load_audit_statuses()
     games = []
@@ -127,6 +136,7 @@ def load_catalog(statuses: set[str]) -> list[CatalogGame]:
                     catalog_index=catalog_index,
                     game_url=game_url,
                     game_name=row.get("game_name", ""),
+                    game_url_variants=game_url_variants(row),
                     status=status,
                     best_rank=int(row.get("best_rank") or 9999),
                     priority_score=int(audit.get("priority_score") or 0),
@@ -160,6 +170,7 @@ def load_input_csv(path: Path, statuses: set[str]) -> list[CatalogGame]:
                     catalog_index=int(audit.get("catalog_index") or row_index),
                     game_url=game_url,
                     game_name=row.get("game_name", audit.get("game_name", "")),
+                    game_url_variants=game_url_variants(row),
                     status=status,
                     best_rank=best_rank,
                     priority_score=int(audit.get("priority_score") or max(0, 10000 - best_rank)),
@@ -168,7 +179,7 @@ def load_input_csv(path: Path, statuses: set[str]) -> list[CatalogGame]:
     return games
 
 
-def live_metrics_urls(game_url: str) -> list[str]:
+def live_metrics_urls_for_game_url(game_url: str) -> list[str]:
     parsed = urllib.parse.urlsplit(game_url)
     match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
     if not match:
@@ -181,6 +192,13 @@ def live_metrics_urls(game_url: str) -> list[str]:
     urls = []
     for path in paths:
         urls.append(f"https://www.kongregate.com{path}")
+    return list(dict.fromkeys(urls))
+
+
+def live_metrics_urls(game: CatalogGame) -> list[str]:
+    urls = []
+    for game_url in game.game_url_variants:
+        urls.extend(live_metrics_urls_for_game_url(game_url))
     return list(dict.fromkeys(urls))
 
 
@@ -214,7 +232,7 @@ def fetch_live_metrics(game: CatalogGame, timeout_s: int) -> tuple[bool, str, st
         return True, "cached", ""
 
     last_error = ""
-    for url in live_metrics_urls(game.game_url):
+    for url in live_metrics_urls(game):
         request = urllib.request.Request(
             url,
             headers={"User-Agent": "KongregateLiveMetricsBackfill/0.1", "Accept": "application/json,text/plain,*/*"},
@@ -300,7 +318,7 @@ def main() -> None:
         if ok:
             if detail == "cached":
                 cached += 1
-                url = manifest.get(relative, {}).get("original_url", live_metrics_urls(game.game_url)[0])
+                url = manifest.get(relative, {}).get("original_url", live_metrics_urls(game)[0])
             else:
                 fetched += 1
             manifest[relative] = {

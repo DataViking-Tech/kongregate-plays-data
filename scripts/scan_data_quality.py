@@ -226,6 +226,12 @@ def main() -> None:
         if key:
             raw_urls_by_canonical[key].add(row.get("game_url", ""))
     url_variant_games = {key: urls for key, urls in raw_urls_by_canonical.items() if len(urls) > 1}
+    catalog_key_counts = Counter(
+        row.get("canonical_game_key") or canonical_game_url(row.get("game_url", ""))
+        for row in catalog_rows
+        if row.get("canonical_game_key") or canonical_game_url(row.get("game_url", ""))
+    )
+    duplicate_catalog_keys = {key: count for key, count in catalog_key_counts.items() if count > 1}
 
     ranked_by_year: dict[str, list[dict[str, str]]] = defaultdict(list)
     ranked_counts_by_year: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -420,9 +426,9 @@ def main() -> None:
         issues.append(issue("medium", "parser", "ranked_rows_missing_game_name", len(missing_name_rows), "", "", missing_name_rows[0].get("game_url", ""), "Inspect parser title extraction."))
     if duplicate_count:
         issues.append(issue("low", "dedupe", "duplicate_ranked_rows", duplicate_count, "", "", "", "Review duplicate key handling by date/source/timestamp/rank/game."))
-    if url_variant_games:
-        first_key, first_urls = next(iter(url_variant_games.items()))
-        issues.append(issue("medium", "identity", "games_with_multiple_url_variants", len(url_variant_games), "", "", f"{first_key}: {sorted(first_urls)[:3]}", "Use canonical URL keys for joins and charting; consider canonicalizing processed rows."))
+    if duplicate_catalog_keys:
+        first_key, first_count = next(iter(duplicate_catalog_keys.items()))
+        issues.append(issue("medium", "identity", "duplicate_catalog_canonical_games", len(duplicate_catalog_keys), "", "", f"{first_key}: {first_count} catalog rows", "Merge mini-catalog rows by canonical game key."))
     if decrease_rows:
         issues.append(issue("medium", "plays", "play_count_decreases", len(decrease_rows), decrease_rows[-1].get("current_date", ""), decrease_rows[0].get("current_date", ""), decrease_rows[0].get("game_name", ""), "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."))
     if stale_listing_rows:
@@ -455,6 +461,7 @@ def main() -> None:
         "missing_url_rows": len(missing_url_rows),
         "duplicate_ranked_rows": duplicate_count,
         "games_with_multiple_url_variants": len(url_variant_games),
+        "duplicate_catalog_canonical_games": len(duplicate_catalog_keys),
         "play_count_decreases": len(decrease_rows),
         "stale_listing_play_count_observations": len(stale_listing_rows),
         "issues": issues,

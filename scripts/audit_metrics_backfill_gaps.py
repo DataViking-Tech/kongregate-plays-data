@@ -123,6 +123,14 @@ def load_priority_rows() -> dict[str, dict[str, str]]:
     return rows
 
 
+def game_url_variants(row: dict[str, str]) -> tuple[str, ...]:
+    variants = []
+    if row.get("game_url"):
+        variants.append(row["game_url"])
+    variants.extend(part.strip() for part in row.get("game_url_variants", "").split(";") if part.strip())
+    return tuple(dict.fromkeys(variants))
+
+
 def failure_indexes() -> tuple[set[tuple[str, str, str]], dict[str, Counter]]:
     signatures = set()
     errors_by_game: dict[str, Counter] = defaultdict(Counter)
@@ -136,10 +144,13 @@ def failure_indexes() -> tuple[set[tuple[str, str, str]], dict[str, Counter]]:
     return signatures, errors_by_game
 
 
-def cached_cdx_rows(catalog_index: int, game_url: str, game_name: str) -> tuple[list[MetricsJob], int]:
+def cached_cdx_rows(catalog_index: int, game_url: str, game_name: str, variants: tuple[str, ...]) -> tuple[list[MetricsJob], int]:
     jobs = {}
     missing_cache_files = 0
-    for metrics_url in metric_cdx_keys_for_game(game_url):
+    metrics_urls = []
+    for variant in variants or (game_url,):
+        metrics_urls.extend(metric_cdx_keys_for_game(variant))
+    for metrics_url in dict.fromkeys(metrics_urls):
         cache_path = cdx_cache_path(metrics_url)
         if not cache_path.exists():
             missing_cache_files += 1
@@ -205,11 +216,11 @@ def main() -> None:
     for catalog_index, catalog_row in enumerate(catalog_rows):
         game_url = catalog_row.get("game_url", "")
         game_name = catalog_row.get("game_name", "")
-        key = canonical_game_url(game_url)
+        key = catalog_row.get("canonical_game_key") or canonical_game_url(game_url)
         priority = priority_rows.get(key, {})
         history = history_stats.get(key, {})
 
-        cdx_jobs, missing_cdx_cache_files = cached_cdx_rows(catalog_index, game_url, game_name)
+        cdx_jobs, missing_cdx_cache_files = cached_cdx_rows(catalog_index, game_url, game_name, game_url_variants(catalog_row))
         valid_cached_captures = 0
         known_failed_captures = 0
         fresh_pending_captures = 0

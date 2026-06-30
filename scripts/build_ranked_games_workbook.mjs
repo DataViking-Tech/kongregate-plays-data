@@ -43,7 +43,9 @@ const reportColumns = [
 ];
 
 const miniCatalogColumns = [
+  "canonical_game_key",
   "game_url",
+  "game_url_variants",
   "game_name",
   "developer",
   "first_seen_date",

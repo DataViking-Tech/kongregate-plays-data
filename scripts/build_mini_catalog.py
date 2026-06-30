@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
+import urllib.parse
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -22,7 +24,9 @@ REPORT_JSON = LOGS / "mini_catalog_report.json"
 REPORT_MD = LOGS / "mini_catalog_report.md"
 
 CATALOG_COLUMNS = [
+    "canonical_game_key",
     "game_url",
+    "game_url_variants",
     "game_name",
     "developer",
     "first_seen_date",
@@ -47,6 +51,32 @@ def best_counter_value(counter: Counter[str]) -> str:
     return counter.most_common(1)[0][0]
 
 
+def canonical_game_url(game_url: str) -> str:
+    if not game_url:
+        return ""
+    parsed = urllib.parse.urlsplit(game_url)
+    match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
+    if not match:
+        return game_url.lower()
+    developer, slug = match.groups()
+    return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
+
+
+def preferred_game_url(counter: Counter[str]) -> str:
+    if not counter:
+        return ""
+
+    def score(url: str) -> tuple[int, int, int, str]:
+        parsed = urllib.parse.urlsplit(url)
+        host = parsed.netloc.lower().rstrip(".")
+        scheme_score = 1 if parsed.scheme == "https" else 0
+        host_score = 1 if host == "www.kongregate.com" else 0
+        en_penalty = 1 if parsed.path.startswith("/en/games/") else 0
+        return (counter[url], scheme_score, host_score - en_penalty, url)
+
+    return max(counter, key=score)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build a catalog of games that reached the top N in captured Kongregate rankings.")
     parser.add_argument("--top-n", type=int, default=20, help="Include games with at least one rank_on_date at or below this number.")
@@ -64,13 +94,15 @@ def main() -> None:
         except ValueError:
             continue
         game_url = row.get("game_url", "")
-        if not game_url or rank <= 0 or rank > args.top_n:
+        canonical_key = canonical_game_url(game_url)
+        if not game_url or not canonical_key or rank <= 0 or rank > args.top_n:
             continue
 
         item = catalog.setdefault(
-            game_url,
+            canonical_key,
             {
-                "game_url": game_url,
+                "canonical_game_key": canonical_key,
+                "game_urls": Counter(),
                 "names": Counter(),
                 "developers": Counter(),
                 "first_seen_date": row["date"],
@@ -88,6 +120,7 @@ def main() -> None:
             },
         )
 
+        item["game_urls"][game_url] += 1
         item["names"][row.get("game_name", "")] += 1
         if row.get("developer"):
             item["developers"][row["developer"]] += 1
@@ -116,9 +149,12 @@ def main() -> None:
     rows = []
     for item in catalog.values():
         listing_play_rows = int(item["listing_play_count_rows"])
+        game_url_variants = sorted(item["game_urls"])
         rows.append(
             {
-                "game_url": item["game_url"],
+                "canonical_game_key": item["canonical_game_key"],
+                "game_url": preferred_game_url(item["game_urls"]),
+                "game_url_variants": "; ".join(game_url_variants),
                 "game_name": best_counter_value(item["names"]),
                 "developer": best_counter_value(item["developers"]),
                 "first_seen_date": item["first_seen_date"],

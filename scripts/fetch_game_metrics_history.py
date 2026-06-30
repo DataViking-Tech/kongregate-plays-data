@@ -64,6 +64,7 @@ class CatalogGame:
     catalog_index: int
     game_url: str
     game_name: str
+    game_url_variants: tuple[str, ...]
 
 
 @dataclass(frozen=True)
@@ -106,11 +107,24 @@ def write_json(path: Path, payload) -> None:
 def load_catalog() -> list[CatalogGame]:
     rows = list(csv.DictReader(CATALOG_CSV.open(newline="", encoding="utf-8")))
     games = [
-        CatalogGame(catalog_index=index, game_url=row["game_url"], game_name=row["game_name"])
+        CatalogGame(
+            catalog_index=index,
+            game_url=row["game_url"],
+            game_name=row["game_name"],
+            game_url_variants=game_url_variants(row),
+        )
         for index, row in enumerate(rows)
         if row.get("game_url")
     ]
     return games
+
+
+def game_url_variants(row: dict[str, str]) -> tuple[str, ...]:
+    variants = []
+    if row.get("game_url"):
+        variants.append(row["game_url"])
+    variants.extend(part.strip() for part in row.get("game_url_variants", "").split(";") if part.strip())
+    return tuple(dict.fromkeys(variants))
 
 
 def canonical_game_url(game_url: str) -> str:
@@ -326,7 +340,10 @@ def build_jobs(
         if max_cdx_games and stats["cdx_games_considered"] >= max_cdx_games:
             break
         stats["cdx_games_considered"] += 1
-        for metrics_url in metric_cdx_keys_for_game(game.game_url):
+        metrics_urls = []
+        for game_url_variant in game.game_url_variants:
+            metrics_urls.extend(metric_cdx_keys_for_game(game_url_variant))
+        for metrics_url in dict.fromkeys(metrics_urls):
             rows, status = load_cdx(
                 metrics_url,
                 timeout_s=timeout_s,
