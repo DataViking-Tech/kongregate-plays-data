@@ -1,20 +1,20 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-06-30T21:45:27Z
-- Profile games in scope: 6
-- CDX games considered: 6
-- Cached CDX only: False
-- Game-name filter: crown,jupiter,first date,murloc,battle for gondor,rpg shooter
-- CDX rows: 3
-- Page jobs: 3
-- Pending before run: 3
-- Attempted this run: 3
+- Run timestamp: 2026-06-30T22:17:32Z
+- Profile games in scope: 3
+- CDX games considered: 3
+- Cached CDX only: True
+- Game-name filter: spacewars,endless flight,mike shadow
+- CDX rows: 153
+- Page jobs: 153
+- Pending before run: 113
+- Attempted this run: 50
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 3
-- Manifest entries: 124
-- Known failures: 124
-- Combined history rows: 7590
-- Game-page history rows: 124
+- No explicit count this run: 0
+- Failed this run: 50
+- Manifest entries: 143
+- Known failures: 244
+- Combined history rows: 7609
+- Game-page history rows: 143
 - Report only: False
