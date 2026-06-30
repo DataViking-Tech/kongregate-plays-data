@@ -1,27 +1,27 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T00:44:06Z
+- Run timestamp: 2026-06-30T01:13:19Z
 - As of: 2026-06-30
-- Ranked rows: 34181
-- Ranked rows with play counts: 10623
+- Ranked rows: 36325
+- Ranked rows with play counts: 11087
 - Ranked date range: 2007-01-20 to 2026-06-26
-- Mini catalog games: 3001
+- Mini catalog games: 3007
 - Metrics history rows/games: 4834 / 1274
 - Metrics date range: 2013-09-18 to 2026-06-29
 - Invalid cached HTML files: 0
 
 ## Top Issues
 
-- MEDIUM coverage/months_without_ranked_captures: 69 - Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches.
-- HIGH metrics/catalog_games_without_metrics_history: 1324 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
-- HIGH metrics/catalog_games_need_page_history: 2304 - Continue per-game metrics history backfill.
-- LOW dedupe/duplicate_ranked_rows: 3221 - Review duplicate key handling by date/source/rank/game.
-- MEDIUM identity/games_with_multiple_url_variants: 347 - Use canonical URL keys for joins and charting; consider canonicalizing processed rows.
+- MEDIUM coverage/months_without_ranked_captures: 66 - Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches.
+- HIGH metrics/catalog_games_without_metrics_history: 1327 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+- HIGH metrics/catalog_games_need_page_history: 2311 - Continue per-game metrics history backfill.
+- LOW dedupe/duplicate_ranked_rows: 3437 - Review duplicate key handling by date/source/rank/game.
+- MEDIUM identity/games_with_multiple_url_variants: 349 - Use canonical URL keys for joins and charting; consider canonicalizing processed rows.
 - LOW plays/stale_listing_play_count_observations: 109 - Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count.
 
 ## Top Metrics Backfill Priorities
 
-- Unpuzzle 2 (score 3372, best rank 1, metrics rows 0)
+- Unpuzzle 2 (score 3375, best rank 1, metrics rows 0)
 - Medieval Chronicles 7 (score 3367, best rank 1, metrics rows 0)
 - Unpuzzle 2 (score 3353, best rank 1, metrics rows 0)
 - Alexia Crow and the pandora's box (score 3351, best rank 1, metrics rows 0)
