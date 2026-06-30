@@ -44,6 +44,7 @@ CDX_SEEDS = {
     "popular_games": "http://www.kongregate.com/popular_games",
     "games": "https://www.kongregate.com/games",
     "action_games": "https://www.kongregate.com/action-games",
+    "adventure_games": "https://www.kongregate.com/adventure-games",
     "puzzle_games": "https://www.kongregate.com/puzzle-games",
     "strategy_games": "https://www.kongregate.com/strategy-games",
     "shooter_games": "https://www.kongregate.com/shooter-games",
