@@ -614,7 +614,7 @@ function htmlDocument() {
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
     const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 30;
+    const smoothStepsPerMonth = 24;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -782,7 +782,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: index,
+          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1092,14 +1092,14 @@ function htmlDocument() {
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 1500;
-      if (playbackMode === "smooth") return Math.max(45, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(70, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(60, Math.min(140, delay * 1.35))
+        ? Math.max(95, Math.min(180, delay * 1.2))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
