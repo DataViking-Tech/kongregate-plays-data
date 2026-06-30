@@ -966,7 +966,7 @@
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(24, Math.min(56, delay * 1.05))
+        ? Math.max(18, Math.min(44, delay * 0.72))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -999,11 +999,9 @@
         const delay = playbackDelay();
         if (now - lastTick >= delay) {
           const elapsed = now - lastTick;
-          const steps = playbackMode === "smooth"
-            ? Math.min(2, Math.max(1, Math.floor(elapsed / delay)))
-            : Math.min(3, Math.max(1, Math.floor(elapsed / delay)));
-          lastTick += steps * delay;
-          if (now - lastTick > delay * 4) lastTick = now;
+          const steps = playbackMode === "smooth" ? 1 : Math.min(3, Math.max(1, Math.floor(elapsed / delay)));
+          lastTick = playbackMode === "smooth" ? now : lastTick + (steps * delay);
+          if (playbackMode !== "smooth" && now - lastTick > delay * 4) lastTick = now;
           frameIndex = (frameIndex + steps) % frames.length;
           renderFrame(frameIndex);
         }
