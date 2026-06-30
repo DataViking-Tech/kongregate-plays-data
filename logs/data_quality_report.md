@@ -1,6 +1,6 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T16:02:08Z
+- Run timestamp: 2026-06-30T16:12:34Z
 - As of: 2026-06-30
 - Ranked rows: 47186
 - Ranked rows with play counts: 14518
