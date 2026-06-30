@@ -2,39 +2,17 @@
   "catalog_games": 3007,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 1327,
-  "generated_at": "2026-06-30T01:13:19Z",
-  "known_failed_captures": 796,
-  "missing_cdx_cache_files": 860,
+  "games_without_metrics_rows": 1320,
+  "generated_at": "2026-06-30T01:35:16Z",
+  "known_failed_captures": 801,
+  "missing_cdx_cache_files": 798,
   "status_counts": {
-    "cdx_cache_missing": 749,
-    "has_metrics": 1680,
-    "known_failures_only": 39,
-    "no_cdx": 539
+    "cdx_cache_missing": 693,
+    "has_metrics": 1687,
+    "known_failures_only": 42,
+    "no_cdx": 585
   },
   "top_unresolved_games": [
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Unpuzzle 2",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3353,
-      "status": "cdx_cache_missing"
-    },
-    {
-      "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "Unpuzzle 2",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3353,
-      "status": "cdx_cache_missing"
-    },
     {
       "best_rank": "1",
       "cdx_rows": 0,
@@ -88,7 +66,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -114,14 +92,14 @@
     },
     {
       "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
       "fresh_pending_captures": 0,
       "game_name": "Jellydad Hero",
-      "known_failed_captures": 0,
+      "known_failed_captures": 1,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "known_failures_only"
     },
     {
       "best_rank": "1",
@@ -143,7 +121,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -213,14 +191,14 @@
     },
     {
       "best_rank": "1",
-      "cdx_rows": 0,
-      "failure_errors": "",
+      "cdx_rows": 1,
+      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
       "fresh_pending_captures": 0,
       "game_name": "Space Breakout!",
-      "known_failed_captures": 0,
+      "known_failed_captures": 1,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "known_failures_only"
     },
     {
       "best_rank": "1",
@@ -287,7 +265,29 @@
       "metrics_rows": 0,
       "priority_score": 3351,
       "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "The world most bugged game",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "cdx_cache_missing"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Wheelie Legend",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8756
+  "valid_cached_captures": 8838
 }
