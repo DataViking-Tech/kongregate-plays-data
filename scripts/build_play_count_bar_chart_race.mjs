@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1E5hM-UoL4My2OjZJYvSA59bqGsUzvVfuXdn2smKZITs";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1yaLVFvWMWtPAYz70Sn3Eaopul0ie6EGb9RZUAmp6oF8";
 
 const topN = 12;
 
@@ -568,7 +568,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2600" value="1150" step="10" aria-label="Pace"></label>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2800" value="1500" step="10" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -614,7 +614,7 @@ function htmlDocument() {
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
     const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 24;
+    const smoothStepsPerMonth = 36;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -1089,15 +1089,15 @@ function htmlDocument() {
     }
 
     function playbackDelay() {
-      const pace = Number(speedSlider.value) || 1150;
-      if (playbackMode === "smooth") return Math.max(34, pace / smoothStepsPerMonth);
+      const pace = Number(speedSlider.value) || 1500;
+      if (playbackMode === "smooth") return Math.max(30, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(34, Math.min(90, delay * 1.05))
+        ? Math.max(48, Math.min(120, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(

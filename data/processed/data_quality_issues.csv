@@ -1,8 +1,8 @@
 severity,area,issue_type,count,first_date,last_date,example,recommended_action
-medium,coverage,months_without_ranked_captures,15,2007-08,2025-03,"2007-08, 2009-05, 2009-06, 2013-02, 2013-09, 2013-11, 2015-07, 2018-01","Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."
-high,metrics,catalog_games_without_metrics_history,347,,,as3q32@gmail.com,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
-high,metrics,catalog_games_need_page_history,2595,,,Kingdom Rush,Continue per-game metrics history backfill.
-low,dedupe,duplicate_ranked_rows,3809,,,,Review duplicate key handling by date/source/rank/game.
-medium,identity,games_with_multiple_url_variants,414,,,"www.kongregate.com/games/ioji/warbears: ['http://kongregate.com/games/ioji/warbears', 'http://www.kongregate.com/games/ioji/warbears']",Use canonical URL keys for joins and charting; consider canonicalizing processed rows.
+medium,coverage,months_without_ranked_captures,5,2009-05,2018-04,"2009-05, 2009-06, 2018-01, 2018-02, 2018-04","Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."
+high,metrics,catalog_games_without_metrics_history,366,,,as3q32@gmail.com,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+high,metrics,catalog_games_need_page_history,2604,,,Kingdom Rush,Continue per-game metrics history backfill.
+low,dedupe,duplicate_ranked_rows,3899,,,,Review duplicate key handling by date/source/rank/game.
+medium,identity,games_with_multiple_url_variants,416,,,"www.kongregate.com/games/ioji/warbears: ['http://kongregate.com/games/ioji/warbears', 'http://www.kongregate.com/games/ioji/warbears']",Use canonical URL keys for joins and charting; consider canonicalizing processed rows.
 medium,plays,play_count_decreases,6,2011-12-05,2011-12-05,Bloons Tower Defense 4,Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.
 low,plays,stale_listing_play_count_observations,213,2025-12-15,2025-12-03,The Tickler,"Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."
