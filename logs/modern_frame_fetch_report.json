@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-06-30T07:11:56Z",
-  "frame_jobs_discovered": 410,
-  "pending_before_run": 180,
-  "attempted_this_run": 180,
-  "fetched_this_run": 11,
-  "failed_this_run": 169,
+  "run_timestamp": "2026-06-30T07:33:38Z",
+  "frame_jobs_discovered": 360,
+  "pending_before_run": 160,
+  "attempted_this_run": 160,
+  "fetched_this_run": 2,
+  "failed_this_run": 158,
   "remaining_after_run": 0,
-  "manifest_entries": 2421,
-  "known_frame_failures": 351,
+  "manifest_entries": 2476,
+  "known_frame_failures": 696,
   "note": "Frame rows use the actual Wayback timestamp when replay resolves to a nearby frame capture."
 }

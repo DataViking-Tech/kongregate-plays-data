@@ -1,11 +1,11 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T07:12:11Z",
-    "html_samples_considered": 2455,
-    "ranking_rows_extracted": 36496,
+    "run_timestamp": "2026-06-30T07:34:01Z",
+    "html_samples_considered": 2510,
+    "ranking_rows_extracted": 36709,
     "rows_with_observed_play_counts": 11087,
-    "captures_with_rows": 2403,
-    "captures_without_rows": 52,
+    "captures_with_rows": 2421,
+    "captures_without_rows": 89,
     "ranking_types": [
       "browse",
       "category_top",
@@ -20881,6 +20881,402 @@
       "html_path": "data/raw/html/20240807101337_https_www.kongregate.com_tutorials-games_slider_c5c7a01efb484d23.html"
     },
     {
+      "date": "2024-09-05",
+      "source_url": "https://www.kongregate.com/action-games/slider",
+      "capture_timestamp": "20240905225707",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20240905225705_https_www.kongregate.com_action-games_slider_bd3297b06d687810.html"
+    },
+    {
+      "date": "2024-09-05",
+      "source_url": "https://www.kongregate.com/adventure-rpg-games/slider",
+      "capture_timestamp": "20240905225718",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20240905225705_https_www.kongregate.com_adventure-rpg-games_slider_0a415f5f0a0c20e2.html"
+    },
+    {
+      "date": "2024-09-05",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240905225705",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240905225705_https_www.kongregate.com_games_c4d43b67e7ce052f.html"
+    },
+    {
+      "date": "2024-09-15",
+      "source_url": "https://www.kongregate.com/idle-games/slider",
+      "capture_timestamp": "20240915001545",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20240905225705_https_www.kongregate.com_idle-games_slider_bb61c324b5ba5822.html"
+    },
+    {
+      "date": "2024-09-12",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240912165213",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240912165213_https_www.kongregate.com_games_b3c2e9749a069eb4.html"
+    },
+    {
+      "date": "2024-09-15",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240915001521",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240915001521_https_www.kongregate.com_games_b6b0c934220d0ba3.html"
+    },
+    {
+      "date": "2024-09-20",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240920220222",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240920220222_https_www.kongregate.com_games_7c0ac5e8927ef3a5.html"
+    },
+    {
+      "date": "2024-09-27",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240927162549",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240927162549_https_www.kongregate.com_games_0848b4297bf92d8d.html"
+    },
+    {
+      "date": "2024-09-27",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240927193637",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240927193637_https_www.kongregate.com_games_48a4a7de3c8040d3.html"
+    },
+    {
+      "date": "2024-09-27",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240927234859",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240927234859_https_www.kongregate.com_games_5d8747747c348188.html"
+    },
+    {
+      "date": "2024-09-29",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20240929231607",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20240929231607_https_www.kongregate.com_games_b15208d08dc80e79.html"
+    },
+    {
+      "date": "2024-10-04",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241004232551",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241004232551_https_www.kongregate.com_games_5706f9cd328249f3.html"
+    },
+    {
+      "date": "2024-10-08",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241008221740",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241008221740_https_www.kongregate.com_games_c7553ebb090fb5d6.html"
+    },
+    {
+      "date": "2024-10-13",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241013172035",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241013172035_https_www.kongregate.com_games_9d43c0676d68bb80.html"
+    },
+    {
+      "date": "2024-11-09",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241109183955",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241109183955_https_www.kongregate.com_games_e3019243a531b25d.html"
+    },
+    {
+      "date": "2024-11-10",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241110162916",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241110162916_https_www.kongregate.com_games_077cf53208f77334.html"
+    },
+    {
+      "date": "2024-11-23",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241123041439",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241123041439_https_www.kongregate.com_games_43f75c7d43cf2051.html"
+    },
+    {
+      "date": "2024-11-29",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241129002510",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241129002510_https_www.kongregate.com_games_28ee5030daa249fe.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241201130508",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241201130508_https_www.kongregate.com_games_99e86e5e725db96f.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/action-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_action-games_slider_23c691885cb58d99.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/adventure-rpg-games/slider",
+      "capture_timestamp": "20241201233844",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_adventure-rpg-games_slider_8e7cc1c6decfce07.html"
+    },
+    {
+      "date": "2024-12-04",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241204063312",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_games_0e19b4a47cde1429.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/idle-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_idle-games_slider_9d8ffe32dedf74f1.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/more-games/slider",
+      "capture_timestamp": "20241201233844",
+      "parser": "modern_card_links",
+      "rows_extracted": 5,
+      "confidence": "low",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_more-games_slider_214434c37b289d62.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/multiplayer-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_multiplayer-games_slider_f63d6b8bcf471593.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/puzzle-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_puzzle-games_slider_d2b8387209ba9d35.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/shooter-games/slider",
+      "capture_timestamp": "20241201233844",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_shooter-games_slider_ba9ac38b36fc8035.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/sports-racing-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "modern_card_links",
+      "rows_extracted": 8,
+      "confidence": "low",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_sports-racing-games_slider_fc043d43bac0c2b6.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/strategy-defense-games/slider",
+      "capture_timestamp": "20241201233846",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_strategy-defense-games_slider_59051154c54e6d2f.html"
+    },
+    {
+      "date": "2024-12-01",
+      "source_url": "https://www.kongregate.com/tutorials-games/slider",
+      "capture_timestamp": "20241201233845",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241204063312_https_www.kongregate.com_tutorials-games_slider_dc224923f4da7270.html"
+    },
+    {
+      "date": "2024-12-13",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241213061658",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241213061658_https_www.kongregate.com_games_7af892efdd6850bb.html"
+    },
+    {
+      "date": "2024-12-17",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241217024708",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241217024708_https_www.kongregate.com_games_0b4cf7e34dedeac7.html"
+    },
+    {
+      "date": "2024-12-28",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20241228125001",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20241228125001_https_www.kongregate.com_games_6367dec9154b7aca.html"
+    },
+    {
+      "date": "2025-01-09",
+      "source_url": "https://www.kongregate.com/idle-games",
+      "capture_timestamp": "20250109053434",
+      "parser": "modern_card_links",
+      "rows_extracted": 20,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250109053434_https_www.kongregate.com_idle-games_feaa4e660e175827.html"
+    },
+    {
+      "date": "2025-01-10",
+      "source_url": "https://www.kongregate.com/idle-games",
+      "capture_timestamp": "20250110034919",
+      "parser": "modern_card_links",
+      "rows_extracted": 20,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250110034919_https_www.kongregate.com_idle-games_a6d92eb2411f1539.html"
+    },
+    {
+      "date": "2025-01-10",
+      "source_url": "https://www.kongregate.com/idle-games",
+      "capture_timestamp": "20250110172450",
+      "parser": "modern_card_links",
+      "rows_extracted": 20,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250110172450_https_www.kongregate.com_idle-games_7aaf2a0014bd2d1f.html"
+    },
+    {
+      "date": "2025-01-12",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250112032219",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250112032219_https_www.kongregate.com_games_23c285109e0e6a8c.html"
+    },
+    {
+      "date": "2025-01-18",
+      "source_url": "https://www.kongregate.com/action-games",
+      "capture_timestamp": "20250118063001",
+      "parser": "modern_card_links",
+      "rows_extracted": 20,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250118063001_https_www.kongregate.com_action-games_6a4a59db02a9afff.html"
+    },
+    {
+      "date": "2025-01-24",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250124110616",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250124110616_https_www.kongregate.com_games_c1e16824814d1d44.html"
+    },
+    {
+      "date": "2025-01-27",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250127082318",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250127082318_https_www.kongregate.com_games_c3943be19741c40d.html"
+    },
+    {
+      "date": "2025-02-05",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250205222853",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250205222853_https_www.kongregate.com_games_c3ddc23fcec87fec.html"
+    },
+    {
+      "date": "2025-02-12",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250212224025",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250212224025_https_www.kongregate.com_games_6fbcd29786ee5358.html"
+    },
+    {
+      "date": "2025-02-14",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250214005047",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250214005047_https_www.kongregate.com_games_02245d73a4d4f40f.html"
+    },
+    {
+      "date": "2025-02-15",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250215173652",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250215173652_https_www.kongregate.com_games_b1dc224dcddef3cc.html"
+    },
+    {
       "date": "2025-04-02",
       "source_url": "https://www.kongregate.com/idle-games",
       "capture_timestamp": "20250402214638",
@@ -21077,6 +21473,105 @@
       "rows_extracted": 0,
       "confidence": "",
       "html_path": "data/raw/html/20250426232156_https_www.kongregate.com_top-rated-games_d8b5bb8b305cb406.html"
+    },
+    {
+      "date": "2025-05-20",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250520005523",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250520005523_https_www.kongregate.com_games_cbdbe73d7b466650.html"
+    },
+    {
+      "date": "2025-05-24",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250524200315",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250524200315_https_www.kongregate.com_games_1ce4664fa878e6c8.html"
+    },
+    {
+      "date": "2025-06-08",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250608001831",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250608001831_https_www.kongregate.com_games_33b0f58c070562a5.html"
+    },
+    {
+      "date": "2025-06-13",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250613124751",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250613124751_https_www.kongregate.com_games_f9136030b13ba768.html"
+    },
+    {
+      "date": "2025-06-16",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250616093634",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250616093634_https_www.kongregate.com_games_857d9efbbfbda124.html"
+    },
+    {
+      "date": "2025-06-16",
+      "source_url": "https://www.kongregate.com/multiplayer-games/slider",
+      "capture_timestamp": "20250616093636",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250616093634_https_www.kongregate.com_multiplayer-games_slider_cec10b42b2122e5f.html"
+    },
+    {
+      "date": "2025-06-16",
+      "source_url": "https://www.kongregate.com/shooter-games/slider",
+      "capture_timestamp": "20250616093636",
+      "parser": "modern_card_links",
+      "rows_extracted": 10,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20250616093634_https_www.kongregate.com_shooter-games_slider_ebf47f26c5fc17dd.html"
+    },
+    {
+      "date": "2025-06-18",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250618001351",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250618001351_https_www.kongregate.com_games_4337905993de496b.html"
+    },
+    {
+      "date": "2025-06-20",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250620014039",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250620014039_https_www.kongregate.com_games_61df70de06e3d5ab.html"
+    },
+    {
+      "date": "2025-06-25",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250625185259",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250625185259_https_www.kongregate.com_games_c1926f962657b3dc.html"
+    },
+    {
+      "date": "2025-06-29",
+      "source_url": "https://www.kongregate.com/games",
+      "capture_timestamp": "20250629041847",
+      "parser": "",
+      "rows_extracted": 0,
+      "confidence": "",
+      "html_path": "data/raw/html/20250629041847_https_www.kongregate.com_games_e3c1ec5515deb381.html"
     },
     {
       "date": "2025-08-01",

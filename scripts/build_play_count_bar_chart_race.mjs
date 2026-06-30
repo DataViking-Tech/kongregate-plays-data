@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1RQFrqHZwvsFPqLgsNZxqAErZHCLbZtgLJNVs-kdKPmI";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1wftYGgQrZN7pVvMlYZMRTxcWZM4HVcpfeOiAIiNgSpE";
 
 const topN = 12;
 
@@ -170,7 +170,7 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 760ms;
+      --move-duration: 920ms;
       --move-ease: cubic-bezier(0.16, 0.84, 0.24, 1);
       --fade-duration: 140ms;
     }
@@ -567,7 +567,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="900" max="3600" value="1250" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="900" max="4200" value="1700" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -609,11 +609,11 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const bufferRows = 4;
+    const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
-    const transitionMs = 760;
+    const transitionMs = 920;
     const exitMs = transitionMs + 120;
-    const smoothStepsPerMonth = 10;
+    const smoothStepsPerMonth = 12;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -770,7 +770,7 @@ function htmlDocument() {
             rankPosition: startRank + ((endRank - startRank) * eased),
           };
         })
-        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows)
         .map((entry, index) => ({
           ...entry,
