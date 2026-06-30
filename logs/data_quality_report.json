@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-30T04:09:20Z",
+  "run_timestamp": "2026-06-30T04:20:44Z",
   "as_of": "2026-06-30",
   "ranked_rows": 36325,
   "ranked_rows_with_play_counts": 11087,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 3007,
-  "metrics_history_rows": 5373,
-  "metrics_history_games": 1314,
+  "metrics_history_rows": 5403,
+  "metrics_history_games": 1318,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-06-29"
   ],
   "zero_ranked_capture_months": 66,
-  "catalog_games_without_metrics_history": 1274,
+  "catalog_games_without_metrics_history": 1270,
   "catalog_games_need_page_history": 2311,
   "final_chart_entries_stale_over_one_year": 0,
   "invalid_cached_html_files": 0,
@@ -25,7 +25,7 @@
   "duplicate_ranked_rows": 3437,
   "games_with_multiple_url_variants": 349,
   "play_count_decreases": 0,
-  "stale_listing_play_count_observations": 140,
+  "stale_listing_play_count_observations": 148,
   "issues": [
     {
       "severity": "medium",
@@ -41,7 +41,7 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 1274,
+      "count": 1270,
       "first_date": "",
       "last_date": "",
       "example": "Alexia Crow and the pandora's box",
@@ -81,7 +81,7 @@
       "severity": "low",
       "area": "plays",
       "issue_type": "stale_listing_play_count_observations",
-      "count": 140,
+      "count": 148,
       "first_date": "2026-05-21",
       "last_date": "2026-01-08",
       "example": "Frantic",

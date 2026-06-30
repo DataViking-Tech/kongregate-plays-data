@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 920ms;
-      --move-ease: cubic-bezier(0.2, 0.82, 0.18, 1);
+      --move-duration: 620ms;
+      --move-ease: cubic-bezier(0.22, 0.72, 0.2, 1);
       --fade-duration: 180ms;
     }
 
@@ -220,7 +220,7 @@ function htmlDocument() {
 
     .dateBlock {
       text-align: right;
-      min-width: 210px;
+      min-width: 300px;
     }
 
     .dateLabel {
@@ -228,6 +228,7 @@ function htmlDocument() {
       line-height: 0.92;
       font-weight: 800;
       font-variant-numeric: tabular-nums;
+      white-space: nowrap;
     }
 
     .dateMeta {
@@ -384,7 +385,7 @@ function htmlDocument() {
       transition:
         transform var(--move-duration) var(--move-ease),
         opacity var(--fade-duration) ease;
-      will-change: transform;
+      will-change: transform, opacity;
       backface-visibility: hidden;
       contain: layout paint;
     }
@@ -565,7 +566,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="1250" max="4200" value="1450" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="800" max="3200" value="950" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -608,8 +609,8 @@ function htmlDocument() {
     const rowStep = 54;
     const visibleRows = 12;
     const renderedRows = visibleRows + 2;
-    const transitionMs = 920;
-    const exitMs = transitionMs + 100;
+    const transitionMs = 620;
+    const exitMs = transitionMs + 140;
     const smoothStepsPerMonth = 10;
     const rowsByKey = new Map();
 
@@ -767,7 +768,7 @@ function htmlDocument() {
             rankPosition: startRank + ((endRank - startRank) * eased),
           };
         })
-        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows)
         .map((entry, index) => ({
           ...entry,
@@ -775,7 +776,7 @@ function htmlDocument() {
           displayOrder: index + 1,
         }));
 
-      const displayDate = interpolatedDate(startFrame, endFrame, ratio);
+      const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
 
       return {
         ...endFrame,
@@ -963,6 +964,7 @@ function htmlDocument() {
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
+      row.style.transform = transformForSlot(visibleRows + 1.5);
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -1008,11 +1010,8 @@ function htmlDocument() {
           row = rowElement(entry);
           row.dataset.key = rowKey;
           rowsByKey.set(rowKey, row);
-          row.style.transition = "none";
-          row.style.transform = targetTransform;
           rowsEl.append(row);
           row.getBoundingClientRect();
-          row.style.transition = "";
         }
         updateRow(row, entry, maxValue, index);
         row.dataset.exiting = "false";
@@ -1061,7 +1060,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 100);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 80);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
