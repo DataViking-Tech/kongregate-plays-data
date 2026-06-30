@@ -423,9 +423,11 @@ function htmlDocument() {
 
     .name {
       min-width: 0;
+      overflow: hidden;
     }
 
     .gameName {
+      display: block;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -1138,7 +1140,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(48, Math.min(80, delay * 1.7))
+        ? Math.max(16, Math.min(36, delay * 0.9))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -1160,7 +1162,9 @@ function htmlDocument() {
       cancelSchedule();
       if (!isPlaying || frames.length <= 1) return;
       syncMotionTiming();
-      let lastTick = performance.now();
+      const delay = playbackDelay();
+      const startedAt = performance.now();
+      const startFrameIndex = frameIndex;
 
       function tick(now) {
         if (!isPlaying || frames.length <= 1) {
@@ -1168,13 +1172,10 @@ function htmlDocument() {
           return;
         }
 
-        const delay = playbackDelay();
-        if (now - lastTick >= delay) {
-          const elapsed = now - lastTick;
-          const steps = playbackMode === "smooth" ? 1 : Math.min(3, Math.max(1, Math.floor(elapsed / delay)));
-          lastTick = playbackMode === "smooth" ? now : lastTick + (steps * delay);
-          if (playbackMode !== "smooth" && now - lastTick > delay * 4) lastTick = now;
-          frameIndex = (frameIndex + steps) % frames.length;
+        const elapsedSteps = Math.floor((now - startedAt) / delay);
+        const nextFrameIndex = (startFrameIndex + elapsedSteps) % frames.length;
+        if (nextFrameIndex !== frameIndex) {
+          frameIndex = nextFrameIndex;
           renderFrame(frameIndex);
         }
 

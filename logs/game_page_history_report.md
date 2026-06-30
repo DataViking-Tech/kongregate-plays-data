@@ -1,20 +1,20 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-06-30T23:16:10Z
+- Run timestamp: 2026-06-30T23:22:03Z
 - Profile games in scope: 226
 - CDX games considered: 3
-- Cached CDX only: False
+- Cached CDX only: True
 - Game-name filter: none
 - CDX rows: 3821
 - Page jobs: 1642
-- Pending before run: 1642
-- Attempted this run: 80
-- Fetched this run: 0
-- Parsed rows this run: 0
-- No explicit count this run: 38
-- Failed this run: 80
-- Manifest entries: 157
-- Known failures: 443
-- Combined history rows: 7623
-- Game-page history rows: 157
+- Pending before run: 1562
+- Attempted this run: 24
+- Fetched this run: 12
+- Parsed rows this run: 12
+- No explicit count this run: 8
+- Failed this run: 12
+- Manifest entries: 169
+- Known failures: 455
+- Combined history rows: 7635
+- Game-page history rows: 169
 - Report only: False

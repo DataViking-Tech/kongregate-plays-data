@@ -14,6 +14,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha1
@@ -512,6 +513,7 @@ def make_report(
         "max_cdx_games": args.max_cdx_games,
         "variant_limit": args.variant_limit,
         "max_fetches": args.max_fetches,
+        "max_jobs_per_game": args.max_jobs_per_game,
         "collapse": args.collapse,
         "cached_cdx_only": args.cached_cdx_only,
         "game_name_contains": args.game_name_contains,
@@ -579,6 +581,7 @@ def main() -> None:
     parser.add_argument("--max-cdx-games", type=int, default=0, help="Limit profile games to check for CDX rows. 0 means all.")
     parser.add_argument("--variant-limit", type=int, default=0, help="Limit URL variants queried per game. 0 means all variants.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Limit archived page fetch/parse attempts. 0 means all pending.")
+    parser.add_argument("--max-jobs-per-game", type=int, default=0, help="Limit selected page fetch/parse jobs per canonical game in this run. 0 means no per-game cap.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value. Default digest keeps unique page revisions.")
     parser.add_argument("--timeout", type=int, default=25, help="Per-request timeout in seconds.")
     parser.add_argument("--sleep", type=float, default=0.5, help="Seconds to sleep after an archived page fetch.")
@@ -657,7 +660,16 @@ def main() -> None:
         return args.retry_failures or failure_key not in failures
 
     pending = [job for job in jobs if job_needs_fetch_or_parse(job)]
-    selected = pending if args.max_fetches == 0 else pending[: args.max_fetches]
+
+    selected = []
+    selected_by_game: dict[str, int] = defaultdict(int)
+    for job in pending:
+        if args.max_fetches and len(selected) >= args.max_fetches:
+            break
+        if args.max_jobs_per_game and selected_by_game[job.canonical_key] >= args.max_jobs_per_game:
+            continue
+        selected.append(job)
+        selected_by_game[job.canonical_key] += 1
 
     fetched = 0
     cached_selected = 0
