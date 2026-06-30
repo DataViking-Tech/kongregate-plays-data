@@ -3,14 +3,14 @@
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
   "games_without_metrics_rows": 1308,
-  "generated_at": "2026-06-30T02:09:19Z",
-  "known_failed_captures": 867,
-  "missing_cdx_cache_files": 738,
+  "generated_at": "2026-06-30T02:27:47Z",
+  "known_failed_captures": 814,
+  "missing_cdx_cache_files": 714,
   "status_counts": {
-    "cdx_cache_missing": 647,
+    "cdx_cache_missing": 626,
     "has_metrics": 1699,
-    "known_failures_only": 44,
-    "no_cdx": 617
+    "known_failures_only": 49,
+    "no_cdx": 633
   },
   "top_unresolved_games": [
     {
@@ -289,5 +289,5 @@
       "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 9113
+  "valid_cached_captures": 9178
 }
