@@ -521,7 +521,7 @@ function htmlDocument() {
 
       .axis,
       .barRow {
-        grid-template-columns: 30px minmax(84px, 116px) minmax(76px, 1fr) 58px;
+        grid-template-columns: 30px minmax(84px, 1fr) minmax(72px, 1.35fr) 72px;
         gap: 6px;
       }
 
@@ -535,6 +535,7 @@ function htmlDocument() {
 
       .value {
         font-size: 11px;
+        min-width: 0;
       }
 
       .barRow {
@@ -567,7 +568,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2600" value="850" step="10" aria-label="Pace"></label>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2600" value="1150" step="10" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -613,12 +614,13 @@ function htmlDocument() {
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
     const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 12;
+    const smoothStepsPerMonth = 24;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
     let isPlaying = true;
     let timer = null;
+    let rafId = null;
     let playbackMode = "smooth";
 
     async function loadPayload() {
@@ -764,10 +766,12 @@ function htmlDocument() {
           const endPlays = endEntry ? endEntry.plays : startEntry.plays;
           const startRank = startEntry?.rank ?? offscreenRank;
           const endRank = endEntry?.rank ?? offscreenRank;
+          const rankPosition = startRank + ((endRank - startRank) * eased);
           return {
             ...baseEntry,
             plays: interpolatedNumber(startPlays, endPlays, eased),
-            rankPosition: startRank + ((endRank - startRank) * eased),
+            rankPosition,
+            slotPosition: rankPosition - 1,
           };
         })
         .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
@@ -776,6 +780,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
+          slotPosition: Math.max(0, Math.min(renderedRows + 0.75, entry.slotPosition ?? index)),
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -979,7 +984,8 @@ function htmlDocument() {
       const bar = row.querySelector(".bar");
       bar.style.background = colorFor(entry.key);
       bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
-      row.style.zIndex = String(Math.max(1, renderedRows - fallbackIndex + 1));
+      const slot = Number.isFinite(entry.slotPosition) ? entry.slotPosition : fallbackIndex;
+      row.style.zIndex = String(Math.max(1, renderedRows - Math.round(slot) + 1));
     }
 
     function removeInactiveRow(key, row) {
@@ -1029,7 +1035,7 @@ function htmlDocument() {
         const rowKey = entry.key;
         let row = rowsByKey.get(rowKey);
         const isNew = !row;
-        const targetTransform = transformForSlot(index);
+        const targetTransform = transformForSlot(Number.isFinite(entry.slotPosition) ? entry.slotPosition : index);
         if (!row) {
           row = rowElement(entry);
           row.dataset.key = rowKey;
@@ -1083,7 +1089,7 @@ function htmlDocument() {
     }
 
     function playbackDelay() {
-      const pace = Number(speedSlider.value) || 850;
+      const pace = Number(speedSlider.value) || 1150;
       if (playbackMode === "smooth") return Math.max(34, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
@@ -1091,7 +1097,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(70, Math.min(170, delay * 1.7))
+        ? Math.max(34, Math.min(90, delay * 1.05))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -1100,16 +1106,39 @@ function htmlDocument() {
       );
     }
 
-    function schedule() {
+    function cancelSchedule() {
       clearTimeout(timer);
+      timer = null;
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+    }
+
+    function schedule() {
+      cancelSchedule();
       if (!isPlaying || frames.length <= 1) return;
       syncMotionTiming();
-      const delay = playbackDelay();
-      timer = setTimeout(() => {
-        frameIndex = (frameIndex + 1) % frames.length;
-        renderFrame(frameIndex);
-        schedule();
-      }, delay);
+      let lastTick = performance.now();
+
+      function tick(now) {
+        if (!isPlaying || frames.length <= 1) {
+          rafId = null;
+          return;
+        }
+
+        const delay = playbackDelay();
+        if (now - lastTick >= delay) {
+          lastTick = now;
+          frameIndex = (frameIndex + 1) % frames.length;
+          renderFrame(frameIndex);
+          syncMotionTiming();
+        }
+
+        rafId = requestAnimationFrame(tick);
+      }
+
+      rafId = requestAnimationFrame(tick);
     }
 
     playToggle.addEventListener("click", () => {
