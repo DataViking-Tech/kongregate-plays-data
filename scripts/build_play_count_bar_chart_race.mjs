@@ -170,9 +170,9 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 80ms;
+      --move-duration: 42ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
-      --fade-duration: 140ms;
+      --fade-duration: 120ms;
     }
 
     * {
@@ -613,8 +613,8 @@ function htmlDocument() {
     const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const exitMs = transitionMs + 220;
-    const smoothStepsPerMonth = 32;
+    const smoothStepsPerMonth = 84;
+    const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 12));
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -622,6 +622,7 @@ function htmlDocument() {
     let timer = null;
     let rafId = null;
     let playbackMode = "smooth";
+    let lastSliderSyncFrame = -1;
 
     async function loadPayload() {
       const candidates = [
@@ -748,6 +749,24 @@ function htmlDocument() {
       return Math.round(fromValue + ((toValue - fromValue) * ratio));
     }
 
+    function setTextIfChanged(element, value) {
+      const nextText = String(value);
+      if (element.textContent !== nextText) element.textContent = nextText;
+    }
+
+    function syncFrameSlider(index, options = {}) {
+      if (!frames.length) return;
+      const force = options.force === true;
+      const shouldSync = force
+        || playbackMode !== "smooth"
+        || Math.abs(index - lastSliderSyncFrame) >= sliderSyncEvery
+        || index === 0
+        || index === frames.length - 1;
+      if (!shouldSync) return;
+      frameSlider.value = String(index);
+      lastSliderSyncFrame = index;
+    }
+
     function interpolateFrame(startFrame, endFrame, ratio) {
       const eased = smoothRatio(ratio);
       const startEntries = frameEntryMap(startFrame);
@@ -853,7 +872,8 @@ function htmlDocument() {
       frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
       frameIndex = closestFrameIndex(targetDate);
       frameSlider.max = Math.max(frames.length - 1, 0);
-      frameSlider.value = String(frameIndex);
+      lastSliderSyncFrame = -1;
+      syncFrameSlider(frameIndex, { force: true });
       if (modeChanged) resetRows();
       updateModeButtons();
       updateRangeMeta();
@@ -935,7 +955,7 @@ function htmlDocument() {
       valueEl.dataset.animationToken = "";
       valueEl.dataset.rawValue = String(targetValue);
       valueEl.dataset.displayValue = String(targetValue);
-      valueEl.textContent = formatPlays(targetValue);
+      setTextIfChanged(valueEl, formatPlays(targetValue));
     }
 
     function animateValue(valueEl, nextValue) {
@@ -958,13 +978,13 @@ function htmlDocument() {
         const progress = Math.min((now - startedAt) / durationMs, 1);
         const eased = 1 - Math.pow(1 - progress, 3);
         const displayValue = Math.round(previousValue + ((targetValue - previousValue) * eased));
-        valueEl.textContent = formatPlays(displayValue);
+        setTextIfChanged(valueEl, formatPlays(displayValue));
         valueEl.dataset.displayValue = String(displayValue);
         if (progress < 1) {
           requestAnimationFrame(tick);
           return;
         }
-        valueEl.textContent = formatPlays(targetValue);
+        setTextIfChanged(valueEl, formatPlays(targetValue));
         valueEl.dataset.displayValue = String(targetValue);
       }
 
@@ -972,11 +992,11 @@ function htmlDocument() {
     }
 
     function updateRow(row, entry, maxValue, fallbackIndex) {
-      row.querySelector(".rank").textContent = entry.rank ?? fallbackIndex + 1;
+      setTextIfChanged(row.querySelector(".rank"), entry.rank ?? fallbackIndex + 1);
       const gameName = row.querySelector(".gameName");
-      gameName.textContent = entry.gameName;
+      setTextIfChanged(gameName, entry.gameName);
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
-      row.querySelector(".developer").textContent = detailText(entry);
+      setTextIfChanged(row.querySelector(".developer"), detailText(entry));
       const value = row.querySelector(".value");
       if (playbackMode === "smooth") {
         setValue(value, entry.plays);
@@ -1003,7 +1023,7 @@ function htmlDocument() {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, exitMs);
+      }, playbackMode === "smooth" ? 220 : transitionMs + 220);
     }
 
     function renderFrame(nextIndex) {
@@ -1017,16 +1037,17 @@ function htmlDocument() {
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
       const activeKeys = new Set();
 
-      dateLabel.textContent = frame.displayDate || frame.date;
-      dateMeta.textContent = \`\${frame.trackedGames.toLocaleString()} games tracked\`;
-      sourceMeta.textContent = frame.interpolated
+      setTextIfChanged(dateLabel, frame.displayDate || frame.date);
+      setTextIfChanged(dateMeta, \`\${frame.trackedGames.toLocaleString()} games tracked\`);
+      const nextSourceMeta = frame.interpolated
         ? frame.fromSourceDate === frame.toSourceDate
           ? \`holding latest capture \${frame.fromSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
           : \`between \${frame.fromSourceDate} and \${frame.toSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
         : frame.sourceDate && frame.sourceDate !== frame.date
         ? \`source capture \${frame.sourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
         : \`\${frame.observedRows.toLocaleString()} observed rows on this date\`;
-      frameSlider.value = String(nextIndex);
+      setTextIfChanged(sourceMeta, nextSourceMeta);
+      syncFrameSlider(nextIndex);
 
       if (rowsEl.dataset.ready !== "true") {
         rowsEl.replaceChildren();
@@ -1092,14 +1113,14 @@ function htmlDocument() {
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 2800;
-      if (playbackMode === "smooth") return Math.max(70, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(70, Math.min(140, delay * 1.08))
+        ? Math.max(24, Math.min(56, delay * 1.05))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -1131,10 +1152,12 @@ function htmlDocument() {
 
         const delay = playbackDelay();
         if (now - lastTick >= delay) {
+          const elapsed = now - lastTick;
           const steps = playbackMode === "smooth"
-            ? 1
-            : Math.min(3, Math.max(1, Math.floor((now - lastTick) / delay)));
-          lastTick = playbackMode === "smooth" ? now : lastTick + (steps * delay);
+            ? Math.min(2, Math.max(1, Math.floor(elapsed / delay)))
+            : Math.min(3, Math.max(1, Math.floor(elapsed / delay)));
+          lastTick += steps * delay;
+          if (now - lastTick > delay * 4) lastTick = now;
           frameIndex = (frameIndex + steps) % frames.length;
           renderFrame(frameIndex);
         }
