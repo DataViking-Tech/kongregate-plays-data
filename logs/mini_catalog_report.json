@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-06-29T23:45:32Z",
+  "run_timestamp": "2026-06-30T00:03:58Z",
   "top_n": 20,
-  "ranked_rows_read": 29948,
-  "catalog_games": 2922,
+  "ranked_rows_read": 30935,
+  "catalog_games": 2938,
   "history_status_counts": {
-    "no": 681,
-    "partial": 160,
-    "yes": 2081
+    "no": 696,
+    "partial": 163,
+    "yes": 2079
   },
   "first_seen_date": "2007-01-20",
   "last_seen_date": "2026-06-26"
