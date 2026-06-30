@@ -56,6 +56,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 367 mini-catalog games still have no per-game metrics rows, and 2,250 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 367 unresolved no-CDX cases, and 0 missing CDX cache files.
+- The no-CDX profile splits those 367 games into 116 follow-up targets with observed listing counts, 11 repeated ranking-only targets, and 240 low-information single-capture rows with no listing play count.
 - 6 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
@@ -73,6 +74,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/catalog_history_priorities.csv` - prioritized metrics-history backfill queue.
 - `data/processed/metrics_backfill_gap_audit.csv` - per-game metrics backfill status audit.
 - `logs/metrics_backfill_gap_audit_report.*` - summary of fresh pending, known failed, no-CDX, and cache-missing metrics gaps.
+- `data/processed/metrics_no_cdx_profile.csv` and `logs/metrics_no_cdx_profile_report.*` - triage profile for the remaining no-CDX games.
 - `scripts/` - scraper, extractor, catalog, metrics-history, workbook, and chart builders.
 
 ## Rebuild Commands
@@ -89,6 +91,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-h
 python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
 python3 scripts/audit_metrics_backfill_gaps.py
+python3 scripts/profile_metrics_no_cdx_gaps.py
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs
 node scripts/build_play_count_bar_chart_race.mjs
 ```
