@@ -197,6 +197,21 @@ def fetch_cdx(metrics_url: str, timeout_s: int, collapse: str, refresh: bool, re
     return rows, "fetched"
 
 
+def load_cdx(
+    metrics_url: str,
+    timeout_s: int,
+    collapse: str,
+    refresh: bool,
+    retries: int,
+    retry_sleep_s: float,
+    cached_only: bool,
+) -> tuple[list[dict[str, str]], str]:
+    cache_path = cdx_cache_path(metrics_url)
+    if cached_only and not refresh and not cache_path.exists():
+        return [], "missing_cache_skipped"
+    return fetch_cdx(metrics_url, timeout_s, collapse, refresh, retries, retry_sleep_s)
+
+
 def metrics_cache_path(job: MetricsJob) -> Path:
     digest = sha(f"{job.timestamp}:{job.original}")
     return RAW_METRICS_JSON / f"{job.timestamp}_{safe_name(job.original)}_{digest}.json"
@@ -296,29 +311,40 @@ def build_jobs(
     collapse: str,
     cdx_retries: int,
     cdx_retry_sleep_s: float,
+    cached_cdx_only: bool,
 ) -> tuple[list[MetricsJob], dict[str, int]]:
     jobs: list[MetricsJob] = []
-    stats = {"cdx_games_considered": 0, "cdx_urls_fetched": 0, "cdx_urls_cached": 0, "cdx_urls_failed": 0, "cdx_rows": 0}
+    stats = {
+        "cdx_games_considered": 0,
+        "cdx_urls_fetched": 0,
+        "cdx_urls_cached": 0,
+        "cdx_urls_failed": 0,
+        "cdx_urls_missing_cache_skipped": 0,
+        "cdx_rows": 0,
+    }
     for game in games:
         if max_cdx_games and stats["cdx_games_considered"] >= max_cdx_games:
             break
         stats["cdx_games_considered"] += 1
         for metrics_url in metric_cdx_keys_for_game(game.game_url):
-            rows, status = fetch_cdx(
+            rows, status = load_cdx(
                 metrics_url,
                 timeout_s=timeout_s,
                 collapse=collapse,
                 refresh=refresh_cdx,
                 retries=cdx_retries,
                 retry_sleep_s=cdx_retry_sleep_s,
+                cached_only=cached_cdx_only,
             )
             if status == "cached":
                 stats["cdx_urls_cached"] += 1
             elif status == "fetched":
                 stats["cdx_urls_fetched"] += 1
+            elif status == "missing_cache_skipped":
+                stats["cdx_urls_missing_cache_skipped"] += 1
             else:
                 stats["cdx_urls_failed"] += 1
-            if status != "cached":
+            if status not in {"cached", "missing_cache_skipped"}:
                 time.sleep(cdx_sleep_s)
             rows = [row for row in rows if not schemes or row_scheme(row.get("original", "")) in schemes]
             stats["cdx_rows"] += len(rows)
@@ -411,6 +437,7 @@ def main() -> None:
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between metrics JSON retries.")
     parser.add_argument("--cdx-only", action="store_true", help="Discover and cache CDX rows without fetching archived metrics JSON.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
+    parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files; skip uncached CDX lookups.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed metrics JSON captures.")
     args = parser.parse_args()
 
@@ -448,6 +475,7 @@ def main() -> None:
         args.collapse,
         args.cdx_retries,
         args.cdx_retry_sleep,
+        args.cached_cdx_only,
     )
 
     pending = [
@@ -520,6 +548,7 @@ def main() -> None:
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
+        "cached_cdx_only": args.cached_cdx_only,
         **cdx_stats,
         "metrics_jobs": len(jobs),
         "pending_before_run": len(pending),
@@ -546,8 +575,10 @@ def main() -> None:
                 f"- Audit statuses: {', '.join(report['audit_statuses']) or 'all'}",
                 f"- Audit pending only: {report['audit_pending_only']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
+                f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- CDX rows found: {report['cdx_rows']}",
+                f"- Missing CDX cache files skipped: {report['cdx_urls_missing_cache_skipped']}",
                 f"- Metrics jobs: {report['metrics_jobs']}",
                 f"- Pending before run: {report['pending_before_run']}",
                 f"- Attempted this run: {report['attempted_this_run']}",

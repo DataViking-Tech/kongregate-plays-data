@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-30T12:55:52Z
+Generated: 2026-06-30T13:15:02Z
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-06-30T12:55:52Z
 - Games without metrics rows: 366
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 483
-- Missing CDX cache files: 383
+- Known failed captures: 444
+- Missing CDX cache files: 359
 
 ## Status Counts
 
@@ -28,12 +28,14 @@ Generated: 2026-06-30T12:55:52Z
 | Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Salads by Chef: Merge Сraft | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SpaceWarrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Tracesoccer | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Animator Vs Animation (BETA) | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Aston Martin Hidden Wheels | no_cdx | 2 | 0 | 0 | 0 | 0 |
@@ -43,8 +45,6 @@ Generated: 2026-06-30T12:55:52Z
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
