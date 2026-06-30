@@ -28,6 +28,7 @@ COVERAGE_BY_YEAR_CSV = PROCESSED / "coverage_by_year.csv"
 CATALOG_PRIORITIES_CSV = PROCESSED / "catalog_history_priorities.csv"
 FINAL_CHART_STALENESS_CSV = PROCESSED / "final_chart_staleness.csv"
 PLAY_COUNT_DECREASES_CSV = PROCESSED / "play_count_decreases.csv"
+STALE_LISTING_COUNTS_CSV = PROCESSED / "stale_listing_play_counts.csv"
 REPORT_JSON = LOGS / "data_quality_report.json"
 REPORT_MD = LOGS / "data_quality_report.md"
 
@@ -66,6 +67,12 @@ DECREASE_COLUMNS = [
     "current_plays",
     "drop",
     "current_source",
+]
+STALE_LISTING_COLUMNS = [
+    *DECREASE_COLUMNS,
+    "first_seen_date",
+    "first_seen_source",
+    "reason",
 ]
 
 
@@ -342,12 +349,31 @@ def main() -> None:
             observations_by_game[key].append({**row, "plays": plays, "source": "metrics_json", "sort_date": row.get("date", "")})
 
     decrease_rows = []
+    stale_listing_rows = []
     for key, rows in observations_by_game.items():
         rows.sort(key=lambda row: (str(row.get("sort_date", "")), str(row.get("capture_timestamp", ""))))
         previous = None
+        first_seen_by_count = {}
         for row in rows:
             if previous and int(row["plays"]) < int(previous["plays"]):
-                if not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(previous.get("source", "")), str(row.get("source", ""))):
+                stale_match = first_seen_by_count.get(int(row["plays"]))
+                if stale_match and str(row.get("source", "")) != "metrics_json":
+                    stale_listing_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                            "first_seen_date": stale_match.get("sort_date", ""),
+                            "first_seen_source": stale_match.get("source", ""),
+                            "reason": "Listing page repeated an older already-observed play count after a higher count was observed.",
+                        }
+                    )
+                elif not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(previous.get("source", "")), str(row.get("source", ""))):
                     decrease_rows.append(
                         {
                             "game_name": row.get("game_name", ""),
@@ -362,7 +388,9 @@ def main() -> None:
                     )
             if not previous or int(row["plays"]) >= int(previous["plays"]):
                 previous = row
+            first_seen_by_count.setdefault(int(row["plays"]), row)
     decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
+    stale_listing_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
 
     issues = []
     if ranked_dates:
@@ -396,12 +424,15 @@ def main() -> None:
         issues.append(issue("medium", "identity", "games_with_multiple_url_variants", len(url_variant_games), "", "", f"{first_key}: {sorted(first_urls)[:3]}", "Use canonical URL keys for joins and charting; consider canonicalizing processed rows."))
     if decrease_rows:
         issues.append(issue("medium", "plays", "play_count_decreases", len(decrease_rows), decrease_rows[-1].get("current_date", ""), decrease_rows[0].get("current_date", ""), decrease_rows[0].get("game_name", ""), "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."))
+    if stale_listing_rows:
+        issues.append(issue("low", "plays", "stale_listing_play_count_observations", len(stale_listing_rows), stale_listing_rows[-1].get("current_date", ""), stale_listing_rows[0].get("current_date", ""), stale_listing_rows[0].get("game_name", ""), "Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."))
 
     write_csv(ISSUES_CSV, ISSUE_COLUMNS, issues)
     write_csv(COVERAGE_BY_YEAR_CSV, COVERAGE_COLUMNS, coverage_rows)
     write_csv(CATALOG_PRIORITIES_CSV, PRIORITY_COLUMNS, priority_rows)
     write_csv(FINAL_CHART_STALENESS_CSV, STALENESS_COLUMNS, staleness_rows)
     write_csv(PLAY_COUNT_DECREASES_CSV, DECREASE_COLUMNS, decrease_rows)
+    write_csv(STALE_LISTING_COUNTS_CSV, STALE_LISTING_COLUMNS, stale_listing_rows)
 
     report = {
         "run_timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -424,6 +455,7 @@ def main() -> None:
         "duplicate_ranked_rows": duplicate_count,
         "games_with_multiple_url_variants": len(url_variant_games),
         "play_count_decreases": len(decrease_rows),
+        "stale_listing_play_count_observations": len(stale_listing_rows),
         "issues": issues,
         "outputs": {
             "issues_csv": str(ISSUES_CSV.relative_to(ROOT)),
@@ -431,6 +463,7 @@ def main() -> None:
             "catalog_priorities_csv": str(CATALOG_PRIORITIES_CSV.relative_to(ROOT)),
             "final_chart_staleness_csv": str(FINAL_CHART_STALENESS_CSV.relative_to(ROOT)),
             "play_count_decreases_csv": str(PLAY_COUNT_DECREASES_CSV.relative_to(ROOT)),
+            "stale_listing_play_counts_csv": str(STALE_LISTING_COUNTS_CSV.relative_to(ROOT)),
         },
     }
     LOGS.mkdir(parents=True, exist_ok=True)
