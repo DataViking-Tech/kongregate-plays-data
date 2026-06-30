@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-30T20:26:19Z",
-  "total_no_cdx_games": 367,
+  "generated_at": "2026-06-30T21:05:34Z",
+  "total_no_cdx_games": 365,
   "followup_tier_counts": {
-    "1": 9,
+    "1": 7,
     "2": 107,
     "3": 11,
     "4": 240
@@ -11,12 +11,12 @@
     "single_capture_no_listing_count_no_metrics": 240,
     "single_capture_listing_play_count_no_metrics": 107,
     "multi_capture_no_listing_counts_no_metrics": 11,
-    "durable_listing_play_counts_no_metrics": 9
+    "durable_listing_play_counts_no_metrics": 7
   },
   "first_seen_year_counts": {
     "2007": 5,
-    "2008": 3,
-    "2009": 8,
+    "2008": 2,
+    "2009": 7,
     "2010": 7,
     "2011": 52,
     "2012": 5,
@@ -30,7 +30,7 @@
     "2024": 5,
     "2025": 1
   },
-  "high_value_followup_games": 116,
+  "high_value_followup_games": 114,
   "low_information_single_capture_games": 240,
   "top_high_value_examples": [
     {
@@ -44,32 +44,6 @@
       "listing_play_count_rows": 17,
       "first_seen_date": "2007-01-20",
       "last_seen_date": "2007-03-12",
-      "recommendation": "Review URL variants and page-history captures first; this is a repeated observed-play-count gap."
-    },
-    {
-      "followup_tier": 1,
-      "profile_bucket": "durable_listing_play_counts_no_metrics",
-      "game_name": "Super Stacker 2",
-      "game_url": "http://www.kongregate.com/games/TheGameHomepage/super-stacker-2",
-      "canonical_game_key": "www.kongregate.com/games/thegamehomepage/super-stacker-2",
-      "best_rank": 1,
-      "top_n_appearances": 7,
-      "listing_play_count_rows": 7,
-      "first_seen_date": "2009-03-02",
-      "last_seen_date": "2009-03-16",
-      "recommendation": "Review URL variants and page-history captures first; this is a repeated observed-play-count gap."
-    },
-    {
-      "followup_tier": 1,
-      "profile_bucket": "durable_listing_play_counts_no_metrics",
-      "game_name": "Fantastic Contraption",
-      "game_url": "http://www.kongregate.com/games/ColinNorthway/fantastic-contraption",
-      "canonical_game_key": "www.kongregate.com/games/colinnorthway/fantastic-contraption",
-      "best_rank": 1,
-      "top_n_appearances": 6,
-      "listing_play_count_rows": 6,
-      "first_seen_date": "2008-11-02",
-      "last_seen_date": "2009-03-02",
       "recommendation": "Review URL variants and page-history captures first; this is a repeated observed-play-count gap."
     },
     {
@@ -551,6 +525,32 @@
       "listing_play_count_rows": 1,
       "first_seen_date": "2011-04-16",
       "last_seen_date": "2011-04-16",
+      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
+    },
+    {
+      "followup_tier": 2,
+      "profile_bucket": "single_capture_listing_play_count_no_metrics",
+      "game_name": "Stickman Adventure",
+      "game_url": "http://www.kongregate.com/games/powerpoler/stickman-adventure",
+      "canonical_game_key": "www.kongregate.com/games/powerpoler/stickman-adventure",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 1,
+      "first_seen_date": "2011-06-18",
+      "last_seen_date": "2011-06-18",
+      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
+    },
+    {
+      "followup_tier": 2,
+      "profile_bucket": "single_capture_listing_play_count_no_metrics",
+      "game_name": "Touch me NOW!",
+      "game_url": "http://www.kongregate.com/games/bullybee/touch-me-now",
+      "canonical_game_key": "www.kongregate.com/games/bullybee/touch-me-now",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 1,
+      "first_seen_date": "2011-07-13",
+      "last_seen_date": "2011-07-13",
       "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
     }
   ],

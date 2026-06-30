@@ -1,8 +1,8 @@
 # No-CDX Metrics Gap Profile
 
-- Generated: 2026-06-30T20:26:19Z
-- Total no-CDX games: 367
-- High-value follow-up games: 116
+- Generated: 2026-06-30T21:05:34Z
+- Total no-CDX games: 365
+- High-value follow-up games: 114
 - Low-information single-capture games: 240
 
 ## Buckets
@@ -10,15 +10,13 @@
 - single_capture_no_listing_count_no_metrics: 240
 - single_capture_listing_play_count_no_metrics: 107
 - multi_capture_no_listing_counts_no_metrics: 11
-- durable_listing_play_counts_no_metrics: 9
+- durable_listing_play_counts_no_metrics: 7
 
 ## Top High-Value Follow-Up Examples
 
 | Game | Best rank | Top-20 appearances | Listing play-count rows | First seen |
 | --- | ---: | ---: | ---: | --- |
 | Bowmaster Prelude | 1 | 17 | 17 | 2007-01-20 |
-| Super Stacker 2 | 1 | 7 | 7 | 2009-03-02 |
-| Fantastic Contraption | 1 | 6 | 6 | 2008-11-02 |
 | CS Portable | 3 | 40 | 40 | 2012-11-04 |
 | Diaper Dash | 3 | 10 | 10 | 2007-02-12 |
 | Bubble Shooter Exclusive | 4 | 2 | 2 | 2014-06-20 |
@@ -41,3 +39,5 @@
 | RPG Shooter | 2 | 1 | 1 | 2011-06-10 |
 | Jamproject Classic Roc... | 2 | 1 | 1 | 2011-06-29 |
 | Chuck Norris MMORPG | 2 | 1 | 1 | 2011-07-17 |
+| I Don't Even Know | 2 | 1 | 1 | 2011-07-24 |
+| Mini Ninja Coloring | 2 | 1 | 1 | 2011-07-28 |

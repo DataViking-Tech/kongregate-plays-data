@@ -75,6 +75,8 @@ STALE_LISTING_COLUMNS = [
     "reason",
 ]
 
+HISTORY_SOURCES = {"metrics_json", "live_metrics_json", "game_page_html"}
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     if not path.exists():
@@ -117,8 +119,8 @@ def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, pre
     if drop <= 0:
         return False
     tolerance = max(100_000, int(previous_plays * 0.05))
-    current_is_rounded_listing = current_source != "metrics_json" and current_plays >= 1_000_000 and current_plays % 100_000 == 0
-    previous_is_rounded_listing = previous_source != "metrics_json" and previous_plays >= 1_000_000 and previous_plays % 100_000 == 0
+    current_is_rounded_listing = current_source not in HISTORY_SOURCES and current_plays >= 1_000_000 and current_plays % 100_000 == 0
+    previous_is_rounded_listing = previous_source not in HISTORY_SOURCES and previous_plays >= 1_000_000 and previous_plays % 100_000 == 0
     return (current_is_rounded_listing or previous_is_rounded_listing) and drop <= tolerance
 
 
@@ -353,7 +355,7 @@ def main() -> None:
         plays = parse_int(row.get("plays_count_observed"))
         key = canonical_game_url(row.get("game_url", ""))
         if plays > 0 and key:
-            observations_by_game[key].append({**row, "plays": plays, "source": "metrics_json", "sort_date": row.get("date", "")})
+            observations_by_game[key].append({**row, "plays": plays, "source": row.get("parser", "metrics_json") or "metrics_json", "sort_date": row.get("date", "")})
 
     decrease_rows = []
     stale_listing_rows = []
@@ -364,7 +366,7 @@ def main() -> None:
         for row in rows:
             if previous and int(row["plays"]) < int(previous["plays"]):
                 stale_match = first_seen_by_count.get(int(row["plays"]))
-                if stale_match and str(row.get("source", "")) != "metrics_json":
+                if stale_match and str(row.get("source", "")) not in HISTORY_SOURCES:
                     stale_listing_rows.append(
                         {
                             "game_name": row.get("game_name", ""),

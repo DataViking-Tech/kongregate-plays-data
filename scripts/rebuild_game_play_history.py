@@ -16,6 +16,7 @@ PROCESSED = ROOT / "data" / "processed"
 RAW_METRICS = ROOT / "data" / "raw" / "game_metrics"
 ARCHIVE_MANIFEST_PATH = RAW_METRICS / "manifest.json"
 LIVE_MANIFEST_PATH = RAW_METRICS / "live_manifest.json"
+GAME_PAGE_MANIFEST_PATH = ROOT / "data" / "raw" / "game_pages" / "manifest.json"
 HISTORY_CSV = PROCESSED / "game_play_history.csv"
 HISTORY_JSON = PROCESSED / "game_play_history.json"
 WAYBACK_VIEW = "https://web.archive.org/web/{timestamp}/{original}"
@@ -111,6 +112,33 @@ def row_from_metrics_payload(relative_path: str, meta: dict[str, str], parser: s
     }
 
 
+def row_from_game_page_meta(relative_path: str, meta: dict[str, str]) -> dict[str, object] | None:
+    path = ROOT / relative_path
+    if not path.exists():
+        return None
+    plays = parse_int(meta.get("plays_count_observed") or meta.get("plays_text"))
+    if not plays:
+        return None
+    favorites = parse_int(meta.get("favorites_count_observed") or meta.get("favorites_text"))
+    timestamp = meta.get("capture_timestamp", "")
+    original = meta.get("original_url", "")
+    return {
+        "date": date_from_timestamp(timestamp),
+        "game_name": meta.get("game_name", ""),
+        "game_url": meta.get("game_url", ""),
+        "plays_count_observed": plays,
+        "favorites_count_observed": favorites,
+        "plays_text": meta.get("plays_text", str(plays)),
+        "favorites_text": meta.get("favorites_text", str(favorites) if favorites else ""),
+        "metrics_url": original,
+        "capture_timestamp": timestamp,
+        "capture_url": WAYBACK_VIEW.format(timestamp=timestamp, original=original),
+        "parser": "game_page_html",
+        "confidence": meta.get("confidence", "high"),
+        "notes": meta.get("notes", f"Extracted from archived game page HTML {relative_path}"),
+    }
+
+
 def rebuild_history() -> list[dict[str, object]]:
     rows = []
     seen = set()
@@ -133,6 +161,20 @@ def rebuild_history() -> list[dict[str, object]]:
                 continue
             seen.add(key)
             rows.append(row)
+    for relative_path, meta in sorted(read_json(GAME_PAGE_MANIFEST_PATH, {}).items()):
+        row = row_from_game_page_meta(relative_path, meta)
+        if not row:
+            continue
+        key = (
+            canonical_game_url(str(row.get("game_url", ""))),
+            row.get("capture_timestamp", ""),
+            row.get("plays_count_observed", ""),
+            row.get("parser", ""),
+        )
+        if key in seen:
+            continue
+        seen.add(key)
+        rows.append(row)
     rows.sort(key=lambda row: (row["date"], str(row["game_name"]).lower(), row["capture_timestamp"], row["parser"]))
     return rows
 
