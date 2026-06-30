@@ -133,8 +133,11 @@ def infer_source_fields(source_url: str) -> tuple[str, str]:
         ranking_type = "homepage_module"
     elif path in {"/top-rated-games", "/best-games"}:
         ranking_type = "top_rated"
-    elif path == "/popular_games" and sort == "date":
-        ranking_type = "newest" if query.get("reverse", "").lower() == "true" else "oldest"
+    elif path == "/popular_games" and sort:
+        if sort == "date":
+            ranking_type = "newest" if query.get("reverse", "").lower() == "true" else "oldest"
+        else:
+            ranking_type = {"rating": "top_rated", "gameplays": "most_played", "plays": "most_played"}.get(sort, "most_played")
     elif path in {"/most-played-games", "/popular_games"}:
         ranking_type = "most_played"
     elif path == "/new-games":
@@ -225,6 +228,21 @@ def ranking_basis_for(ranking_type: str) -> str:
     if ranking_type == "browse":
         return "page_order_browse_default"
     return "page_order_observed"
+
+
+def pagination_rank_offset(source_url: str, rows_per_page: int) -> tuple[int, str]:
+    parsed = urllib.parse.urlsplit(source_url)
+    query = dict(urllib.parse.parse_qsl(parsed.query))
+    try:
+        page = int(query.get("page", "") or "1")
+    except ValueError:
+        return 0, ""
+    if page <= 1:
+        return 0, ""
+    path = parsed.path.rstrip("/").lower()
+    inferred_page_size = 15 if path == "/popular_games" else max(rows_per_page, 1)
+    offset = (page - 1) * inferred_page_size
+    return offset, f"rank offset +{offset} inferred from page={page} at {inferred_page_size} games/page"
 
 
 def add_play_ranks(rows: list[dict[str, object]]) -> None:
@@ -505,9 +523,12 @@ def main() -> None:
         doc_text = sample.path.read_text(errors="replace")
         ranking_type, category = infer_source_fields(sample.original_url)
         rows, parser, confidence = extract_rows(sample, doc_text)
+        rank_offset, rank_offset_note = pagination_rank_offset(sample.original_url, len(rows))
         sample_output_rows = []
         for rank, row in enumerate(rows, start=1):
             notes = f"Extracted from cached HTML {sample.path.relative_to(ROOT)}"
+            if rank_offset_note:
+                notes = f"{notes}; {rank_offset_note}"
             missing_count_note = play_count_note(parser, row)
             if missing_count_note:
                 notes = f"{notes}; {missing_count_note}"
@@ -515,7 +536,7 @@ def main() -> None:
                 {
                     "date": sample.capture_date,
                     "game_name": row["game_name"],
-                    "rank_on_date": rank,
+                    "rank_on_date": rank + rank_offset,
                     "ranking_type": ranking_type,
                     "ranking_basis": ranking_basis_for(ranking_type),
                     "plays_count_observed": parse_plays_count(row["plays_text"]),

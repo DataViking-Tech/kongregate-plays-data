@@ -614,7 +614,7 @@ function htmlDocument() {
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
     const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 36;
+    const smoothStepsPerMonth = 30;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -757,7 +757,7 @@ function htmlDocument() {
       const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
       const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
       const offscreenRank = renderedRows + 1.5;
-      const entries = [...keys]
+      const sortedEntries = [...keys]
         .map((key) => {
           const startEntry = startEntries.get(key);
           const endEntry = endEntries.get(key);
@@ -774,13 +774,15 @@ function htmlDocument() {
             slotPosition: rankPosition - 1,
           };
         })
-        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
-        .slice(0, renderedRows)
+        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
+        .slice(0, renderedRows);
+
+      const entries = sortedEntries
         .map((entry, index) => ({
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Math.max(0, Math.min(renderedRows + 0.75, entry.slotPosition ?? index)),
+          slotPosition: index,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1090,14 +1092,14 @@ function htmlDocument() {
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 1500;
-      if (playbackMode === "smooth") return Math.max(30, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(45, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(48, Math.min(120, delay * 1.35))
+        ? Math.max(14, Math.min(28, delay * 0.45))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -1132,7 +1134,6 @@ function htmlDocument() {
           lastTick = now;
           frameIndex = (frameIndex + 1) % frames.length;
           renderFrame(frameIndex);
-          syncMotionTiming();
         }
 
         rafId = requestAnimationFrame(tick);

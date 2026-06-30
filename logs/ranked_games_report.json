@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T13:30:15Z",
-    "html_samples_considered": 3353,
-    "ranking_rows_extracted": 46668,
-    "rows_with_observed_play_counts": 14311,
-    "captures_with_rows": 3202,
+    "run_timestamp": "2026-06-30T13:47:46Z",
+    "html_samples_considered": 3368,
+    "ranking_rows_extracted": 46875,
+    "rows_with_observed_play_counts": 14518,
+    "captures_with_rows": 3217,
     "captures_without_rows": 151,
     "ranking_types": [
       "browse",
@@ -2402,6 +2402,141 @@
       "rows_extracted": 15,
       "confidence": "high",
       "html_path": "data/raw/html/20090418152313_http_www.kongregate.com_80_popular_games_bde17f24101cffe7.html"
+    },
+    {
+      "date": "2009-05-06",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=11",
+      "capture_timestamp": "20090506142005",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090506142005_http_www.kongregate.com_80_popular_games_page_11_8204043fa870ce32.html"
+    },
+    {
+      "date": "2009-05-06",
+      "source_url": "http://www.kongregate.com:80/popular_games?reverse=true&sort=rating",
+      "capture_timestamp": "20090506174955",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090506174955_http_www.kongregate.com_80_popular_games_reverse_true_sort_rating_616ac9d53c6e22af.html"
+    },
+    {
+      "date": "2009-05-07",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=138",
+      "capture_timestamp": "20090507115921",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090507115921_http_www.kongregate.com_80_popular_games_page_138_78435c337bb9d2b7.html"
+    },
+    {
+      "date": "2009-05-08",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=139",
+      "capture_timestamp": "20090508121917",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090508121917_http_www.kongregate.com_80_popular_games_page_139_7c301415a7b5f503.html"
+    },
+    {
+      "date": "2009-05-08",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=136",
+      "capture_timestamp": "20090508171328",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090508171328_http_www.kongregate.com_80_popular_games_page_136_881a04388c75b241.html"
+    },
+    {
+      "date": "2009-05-08",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=140",
+      "capture_timestamp": "20090508171333",
+      "parser": "legacy_games_table",
+      "rows_extracted": 1,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20090508171333_http_www.kongregate.com_80_popular_games_page_140_99ccd5737647ea4f.html"
+    },
+    {
+      "date": "2009-05-15",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=139",
+      "capture_timestamp": "20090515141954",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090515141954_http_www.kongregate.com_80_popular_games_page_139_5d234549b6064f33.html"
+    },
+    {
+      "date": "2009-05-23",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=143",
+      "capture_timestamp": "20090523162837",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090523162837_http_www.kongregate.com_80_popular_games_page_143_cd9187e8386d6c4f.html"
+    },
+    {
+      "date": "2009-05-24",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=141",
+      "capture_timestamp": "20090524181710",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090524181710_http_www.kongregate.com_80_popular_games_page_141_e0d8157d5d67859a.html"
+    },
+    {
+      "date": "2009-05-24",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=145",
+      "capture_timestamp": "20090524181742",
+      "parser": "legacy_games_table",
+      "rows_extracted": 14,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090524181742_http_www.kongregate.com_80_popular_games_page_145_a31f946a39b8b20c.html"
+    },
+    {
+      "date": "2009-05-24",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=142",
+      "capture_timestamp": "20090524220148",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090524220148_http_www.kongregate.com_80_popular_games_page_142_b4c9ff24f1210de2.html"
+    },
+    {
+      "date": "2009-05-24",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=144",
+      "capture_timestamp": "20090524220217",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090524220217_http_www.kongregate.com_80_popular_games_page_144_4761a3fea818064c.html"
+    },
+    {
+      "date": "2009-05-28",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=145",
+      "capture_timestamp": "20090528075214",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090528075214_http_www.kongregate.com_80_popular_games_page_145_72123ee17eb1f14d.html"
+    },
+    {
+      "date": "2009-05-28",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=144",
+      "capture_timestamp": "20090528080517",
+      "parser": "legacy_games_table",
+      "rows_extracted": 15,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090528080517_http_www.kongregate.com_80_popular_games_page_144_c0f09e14b065f128.html"
+    },
+    {
+      "date": "2009-05-29",
+      "source_url": "http://www.kongregate.com:80/popular_games?page=146",
+      "capture_timestamp": "20090529090142",
+      "parser": "legacy_games_table",
+      "rows_extracted": 12,
+      "confidence": "high",
+      "html_path": "data/raw/html/20090529090142_http_www.kongregate.com_80_popular_games_page_146_b6c171ca53b1c6e7.html"
     },
     {
       "date": "2009-06-17",

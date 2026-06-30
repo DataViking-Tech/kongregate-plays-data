@@ -1,8 +1,8 @@
 {
-  "run_timestamp": "2026-06-30T13:34:48Z",
+  "run_timestamp": "2026-06-30T13:48:09Z",
   "as_of": "2026-06-30",
-  "ranked_rows": 46668,
-  "ranked_rows_with_play_counts": 14311,
+  "ranked_rows": 46875,
+  "ranked_rows_with_play_counts": 14518,
   "ranked_date_range": [
     "2007-01-20",
     "2026-06-26"
@@ -14,7 +14,7 @@
     "2013-09-18",
     "2026-06-30"
   ],
-  "zero_ranked_capture_months": 4,
+  "zero_ranked_capture_months": 3,
   "catalog_games_without_metrics_history": 370,
   "catalog_games_need_page_history": 2604,
   "final_chart_entries_stale_over_one_year": 0,
@@ -31,10 +31,10 @@
       "severity": "medium",
       "area": "coverage",
       "issue_type": "months_without_ranked_captures",
-      "count": 4,
-      "first_date": "2009-05",
+      "count": 3,
+      "first_date": "2018-01",
       "last_date": "2018-04",
-      "example": "2009-05, 2018-01, 2018-02, 2018-04",
+      "example": "2018-01, 2018-02, 2018-04",
       "recommended_action": "Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."
     },
     {

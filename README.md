@@ -14,12 +14,12 @@ https://docs.google.com/spreadsheets/d/1EZ6byKjOQyEHB4GqKK3l-4jtcEcW4EmP3HH3YSAD
 
 ## Current Snapshot
 
-- Ranked-list rows: 46,668
-- Ranked-list rows with observed play counts: 14,311
+- Ranked-list rows: 46,875
+- Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 3,448 games that reached top 20 in observed rankings
 - Per-game metrics history rows: 6,921 across 2,562 canonical games
-- Observed play-count rows used by the chart: 21,232
-- Chart playback: Smooth mode uses interpolated month-paced display frames by default; Captures mode exposes all 2,079 observed capture-date frames.
+- Observed play-count rows used by the chart: 21,439
+- Chart playback: Smooth mode uses 6,991 interpolated month-paced display frames by default; Captures mode exposes all 2,087 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
 
@@ -29,10 +29,10 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-06-30.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- Ranked-page and modern-frame recovery brought the HTML manifest to 3,268 cached entries with 7,593 known ranked-page failures and 742 known modern-frame failures still recorded.
-- Recovery checkpoints have filled 11 previously empty ranked months: 2007-08, 2009-06, 2013-02, 2013-09, 2013-11, 2015-07, 2018-05, 2018-07, 2018-08, 2024-01, and 2025-03.
-- 4 historical months still have no ranked-list captures in the processed dataset: 2009-05, 2018-01, 2018-02, 2018-04.
-- Checkpoint 25 recovered a June 2009 date-sorted `popular_games` capture and added 15 ranked rows plus 14 archived per-game metrics rows for newly added catalog games.
+- Ranked-page and modern-frame recovery brought the HTML manifest to 3,283 cached entries with 7,593 known ranked-page failures and 742 known modern-frame failures still recorded.
+- Recovery checkpoints have filled 12 previously empty ranked months: 2007-08, 2009-05, 2009-06, 2013-02, 2013-09, 2013-11, 2015-07, 2018-05, 2018-07, 2018-08, 2024-01, and 2025-03.
+- 3 historical months still have no ranked-list captures in the processed dataset: 2018-01, 2018-02, 2018-04.
+- Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 370 mini-catalog games still have no per-game metrics rows, and 2,604 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 0 games in CDX-cache-missing status, 445 known failed archived captures, and 370 unresolved no-CDX cases.

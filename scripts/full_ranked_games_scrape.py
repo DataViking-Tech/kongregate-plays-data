@@ -191,12 +191,14 @@ def load_jobs(
     refresh_cdx: bool,
     sleep_s: float,
     source_ids: set[str] | None = None,
+    extra_seeds: dict[str, str] | None = None,
     collapse: str = "digest",
     from_timestamp: str = "",
     to_timestamp: str = "",
 ) -> list[CaptureJob]:
     jobs: list[CaptureJob] = []
-    for seed_id, original in CDX_SEEDS.items():
+    seeds = {**CDX_SEEDS, **(extra_seeds or {})}
+    for seed_id, original in seeds.items():
         if source_ids and seed_id not in source_ids:
             continue
         rows = fetch_cdx(
@@ -318,6 +320,7 @@ def main() -> None:
     parser.add_argument("--retries", type=int, default=0, help="Retries for transient Wayback HTML fetch failures.")
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between HTML retries.")
     parser.add_argument("--source-id", action="append", default=[], help="Only process one or more source IDs from CDX_SEEDS. May be repeated.")
+    parser.add_argument("--extra-seed", action="append", default=[], help="Add an ad hoc CDX seed as seed_id=url. May include Wayback wildcards.")
     parser.add_argument("--from-year", type=int, default=0, help="Only process captures from this year or later.")
     parser.add_argument("--to-year", type=int, default=0, help="Only process captures from this year or earlier.")
     parser.add_argument("--from-timestamp", default="", help="Only process captures at or after this YYYYMMDD or YYYYMMDDhhmmss timestamp.")
@@ -329,6 +332,16 @@ def main() -> None:
 
     manifest = load_manifest()
     failures = load_failures()
+    extra_seeds = {}
+    for item in args.extra_seed:
+        if "=" not in item:
+            raise SystemExit(f"--extra-seed must be seed_id=url, got: {item}")
+        seed_id, url = item.split("=", 1)
+        seed_id = seed_id.strip()
+        url = url.strip()
+        if not seed_id or not url:
+            raise SystemExit(f"--extra-seed must be seed_id=url, got: {item}")
+        extra_seeds[seed_id] = url
     selected_source_ids = set(args.source_id)
     cdx_from_timestamp = args.from_timestamp.ljust(14, "0") if args.from_timestamp else ""
     cdx_to_timestamp = args.to_timestamp.ljust(14, "9") if args.to_timestamp else ""
@@ -336,6 +349,7 @@ def main() -> None:
         refresh_cdx=args.refresh_cdx,
         sleep_s=args.cdx_sleep,
         source_ids=selected_source_ids or None,
+        extra_seeds=extra_seeds,
         collapse=args.collapse,
         from_timestamp=cdx_from_timestamp,
         to_timestamp=cdx_to_timestamp,
