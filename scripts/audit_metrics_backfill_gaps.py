@@ -11,6 +11,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 
+from kongregate_canonical import canonical_game_url as shared_canonical_game_url
 from fetch_game_metrics_history import (
     MetricsJob,
     cdx_cache_path,
@@ -87,14 +88,7 @@ def parse_int(value: object) -> int:
 
 
 def canonical_game_url(game_url: str) -> str:
-    if not game_url:
-        return ""
-    parsed = urllib.parse.urlsplit(game_url)
-    match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
-    if not match:
-        return game_url.lower()
-    developer, slug = match.groups()
-    return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
+    return shared_canonical_game_url(game_url)
 
 
 def load_history_stats() -> dict[str, dict[str, object]]:

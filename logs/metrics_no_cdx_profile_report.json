@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-06-30T21:24:13Z",
-  "total_no_cdx_games": 361,
+  "generated_at": "2026-06-30T21:49:33Z",
+  "total_no_cdx_games": 358,
   "followup_tier_counts": {
-    "1": 3,
-    "2": 107,
+    "1": 1,
+    "2": 106,
     "3": 11,
     "4": 240
   },
   "profile_bucket_counts": {
     "single_capture_no_listing_count_no_metrics": 240,
-    "single_capture_listing_play_count_no_metrics": 107,
+    "single_capture_listing_play_count_no_metrics": 106,
     "multi_capture_no_listing_counts_no_metrics": 11,
-    "durable_listing_play_counts_no_metrics": 3
+    "durable_listing_play_counts_no_metrics": 1
   },
   "first_seen_year_counts": {
-    "2007": 1,
     "2008": 2,
     "2009": 7,
     "2010": 7,
-    "2011": 52,
-    "2012": 5,
+    "2011": 51,
+    "2012": 4,
     "2013": 18,
     "2014": 73,
     "2015": 29,
@@ -30,35 +29,9 @@
     "2024": 5,
     "2025": 1
   },
-  "high_value_followup_games": 110,
+  "high_value_followup_games": 107,
   "low_information_single_capture_games": 240,
   "top_high_value_examples": [
-    {
-      "followup_tier": 1,
-      "profile_bucket": "durable_listing_play_counts_no_metrics",
-      "game_name": "Bowmaster Prelude",
-      "game_url": "http://www.kongregate.com/games/DragonGamez/bowmaster-prelude",
-      "canonical_game_key": "www.kongregate.com/games/dragongamez/bowmaster-prelude",
-      "best_rank": 1,
-      "top_n_appearances": 17,
-      "listing_play_count_rows": 17,
-      "first_seen_date": "2007-01-20",
-      "last_seen_date": "2007-03-12",
-      "recommendation": "Review URL variants and page-history captures first; this is a repeated observed-play-count gap."
-    },
-    {
-      "followup_tier": 1,
-      "profile_bucket": "durable_listing_play_counts_no_metrics",
-      "game_name": "CS Portable",
-      "game_url": "http://www.kongregate.com/games/IgorLevochkin/counter-strike-web-browser-based-port-v2",
-      "canonical_game_key": "www.kongregate.com/games/igorlevochkin/counter-strike-web-browser-based-port-v2",
-      "best_rank": 3,
-      "top_n_appearances": 40,
-      "listing_play_count_rows": 40,
-      "first_seen_date": "2012-11-04",
-      "last_seen_date": "2014-04-04",
-      "recommendation": "Review URL variants and page-history captures first; this is a repeated observed-play-count gap."
-    },
     {
       "followup_tier": 1,
       "profile_bucket": "durable_listing_play_counts_no_metrics",
@@ -213,19 +186,6 @@
       "listing_play_count_rows": 1,
       "first_seen_date": "2010-10-13",
       "last_seen_date": "2010-10-13",
-      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
-    },
-    {
-      "followup_tier": 2,
-      "profile_bucket": "single_capture_listing_play_count_no_metrics",
-      "game_name": "Murloc RPG: Strangleth...",
-      "game_url": "http://www.kongregate.com/games/GamerDisclaimer/murloc-rpg-stranglethorn-fever",
-      "canonical_game_key": "www.kongregate.com/games/gamerdisclaimer/murloc-rpg-stranglethorn-fever",
-      "best_rank": 2,
-      "top_n_appearances": 1,
-      "listing_play_count_rows": 1,
-      "first_seen_date": "2011-02-09",
-      "last_seen_date": "2011-02-09",
       "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
     },
     {
@@ -551,6 +511,45 @@
       "listing_play_count_rows": 1,
       "first_seen_date": "2013-09-30",
       "last_seen_date": "2013-09-30",
+      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
+    },
+    {
+      "followup_tier": 2,
+      "profile_bucket": "single_capture_listing_play_count_no_metrics",
+      "game_name": "Fried Chicken",
+      "game_url": "http://www.kongregate.com/games/gamesforgirlz/fried-chicken",
+      "canonical_game_key": "www.kongregate.com/games/gamesforgirlz/fried-chicken",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 1,
+      "first_seen_date": "2013-11-21",
+      "last_seen_date": "2013-11-21",
+      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
+    },
+    {
+      "followup_tier": 2,
+      "profile_bucket": "single_capture_listing_play_count_no_metrics",
+      "game_name": "Fruit connect",
+      "game_url": "http://www.kongregate.com/games/alia2013/fruit-connect",
+      "canonical_game_key": "www.kongregate.com/games/alia2013/fruit-connect",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 1,
+      "first_seen_date": "2014-04-11",
+      "last_seen_date": "2014-04-11",
+      "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
+    },
+    {
+      "followup_tier": 2,
+      "profile_bucket": "single_capture_listing_play_count_no_metrics",
+      "game_name": "Paper Doors Escape",
+      "game_url": "http://www.kongregate.com/games/game4joy/paper-doors-escape",
+      "canonical_game_key": "www.kongregate.com/games/game4joy/paper-doors-escape",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 1,
+      "first_seen_date": "2014-06-06",
+      "last_seen_date": "2014-06-06",
       "recommendation": "Try exact-date page-history or URL-alias recovery; there is one observed listing count."
     }
   ],

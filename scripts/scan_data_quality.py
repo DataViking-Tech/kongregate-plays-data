@@ -12,6 +12,8 @@ from collections import Counter, defaultdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+from kongregate_canonical import canonical_game_url as shared_canonical_game_url
+
 
 ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
@@ -125,14 +127,7 @@ def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, pre
 
 
 def canonical_game_url(game_url: str) -> str:
-    if not game_url:
-        return ""
-    parsed = urllib.parse.urlsplit(game_url)
-    match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)", parsed.path)
-    if not match:
-        return game_url.lower()
-    developer, slug = match.groups()
-    return f"www.kongregate.com/games/{urllib.parse.unquote(developer)}/{urllib.parse.unquote(slug)}".lower()
+    return shared_canonical_game_url(game_url)
 
 
 def html_text_is_valid(text: str) -> bool:
