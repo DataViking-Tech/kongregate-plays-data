@@ -10,15 +10,15 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1VBHLf07YhM8gXpvqmL1oQhPaXwCEOVsLrenu2fqcgus
+https://docs.google.com/spreadsheets/d/1r39LbvzKGdjP3Ifd5LJ-jmXg2ywXa5VZy53Dkgym1DU
 
 ## Current Snapshot
 
 - Ranked-list rows: 36,325
 - Ranked-list rows with observed play counts: 11,087
 - Mini catalog: 3,007 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 5,822 across 1,693 canonical games
-- Observed play-count rows used by the chart: 16,909
+- Per-game metrics history rows: 5,981 across 1,852 canonical games
+- Observed play-count rows used by the chart: 17,068
 - Chart playback: Smooth mode uses interpolated display frames by default; Captures mode exposes all 1,874 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
@@ -31,8 +31,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - Ranked scrape backlog now has 0 pending captures, alongside 2,380 valid cached captures and 7,281 known failed captures.
 - 66 historical months still have no ranked-list captures in the processed dataset.
-- 893 mini-catalog games still have no per-game metrics rows, and 2,311 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures and 444 missing CDX cache files; remaining unresolved games include 620 no-CDX cases, 253 CDX-cache-missing cases, and 20 games with known failures only.
+- 734 mini-catalog games still have no per-game metrics rows, and 2,311 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures and 444 missing CDX cache files; remaining unresolved games include 517 no-CDX cases, 201 CDX-cache-missing cases, and 16 games with known failures only.
 - 1 source-conflict play-count decrease is under review after separating 148 stale listing-page echoes into `stale_listing_play_counts.csv`.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
