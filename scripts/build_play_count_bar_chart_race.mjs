@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1M52sKSlnfr0MLD_8_RIF-5Y9qPZsC-jc8El5DcVnEVA";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1h2PfCCZ2DyVfBLhcTRa-egd-IOHn0sqK65NqrUX7ZTw";
 
 const topN = 12;
 
@@ -170,8 +170,9 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 1080ms;
-      --move-ease: cubic-bezier(0.16, 1, 0.3, 1);
+      --move-duration: 920ms;
+      --move-ease: cubic-bezier(0.2, 0.82, 0.18, 1);
+      --fade-duration: 180ms;
     }
 
     * {
@@ -382,7 +383,7 @@ function htmlDocument() {
       z-index: 1;
       transition:
         transform var(--move-duration) var(--move-ease),
-        opacity 240ms ease;
+        opacity var(--fade-duration) ease;
       will-change: transform;
       backface-visibility: hidden;
       contain: layout paint;
@@ -454,6 +455,7 @@ function htmlDocument() {
       transform: scaleX(0.015);
       transform-origin: left center;
       transition: transform var(--move-duration) var(--move-ease);
+      will-change: transform;
     }
 
     .value {
@@ -462,6 +464,7 @@ function htmlDocument() {
       font-weight: 760;
       font-variant-numeric: tabular-nums;
       white-space: nowrap;
+      min-width: 64px;
     }
 
     .footerMeta {
@@ -535,7 +538,7 @@ function htmlDocument() {
       .barRow {
         transition:
           transform var(--move-duration) var(--move-ease),
-          opacity 180ms ease;
+          opacity var(--fade-duration) ease;
       }
     }
   </style>
@@ -605,7 +608,7 @@ function htmlDocument() {
     const rowStep = 54;
     const visibleRows = 12;
     const renderedRows = visibleRows + 2;
-    const transitionMs = 1080;
+    const transitionMs = 920;
     const exitMs = transitionMs + 100;
     const smoothStepsPerMonth = 10;
     const rowsByKey = new Map();
@@ -769,6 +772,7 @@ function htmlDocument() {
         .map((entry, index) => ({
           ...entry,
           rank: index + 1,
+          displayOrder: index + 1,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio);
@@ -877,7 +881,7 @@ function htmlDocument() {
       const row = document.createElement("div");
       row.className = "barRow";
       row.dataset.key = entry.key;
-      row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
+      row.style.transform = transformForSlot(visibleRows + 1.5);
 
       const rank = document.createElement("div");
       rank.className = "rank";
@@ -912,6 +916,10 @@ function htmlDocument() {
       return row;
     }
 
+    function transformForSlot(slot) {
+      return \`translate3d(0, \${Math.round(slot * rowStep * 100) / 100}px, 0)\`;
+    }
+
     function animateValue(valueEl, nextValue) {
       const previousValue = Number(valueEl.dataset.rawValue || nextValue);
       const targetValue = Number(nextValue);
@@ -938,8 +946,8 @@ function htmlDocument() {
       requestAnimationFrame(tick);
     }
 
-    function updateRow(row, entry, maxValue) {
-      row.querySelector(".rank").textContent = entry.rank;
+    function updateRow(row, entry, maxValue, fallbackIndex) {
+      row.querySelector(".rank").textContent = entry.rank ?? fallbackIndex + 1;
       const gameName = row.querySelector(".gameName");
       gameName.textContent = entry.gameName;
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
@@ -955,7 +963,6 @@ function htmlDocument() {
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
-      row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -996,21 +1003,21 @@ function htmlDocument() {
         const rowKey = entry.key;
         let row = rowsByKey.get(rowKey);
         const isNew = !row;
+        const targetTransform = transformForSlot(index);
         if (!row) {
           row = rowElement(entry);
           row.dataset.key = rowKey;
           rowsByKey.set(rowKey, row);
           row.style.transition = "none";
-          row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
+          row.style.transform = targetTransform;
           rowsEl.append(row);
           row.getBoundingClientRect();
           row.style.transition = "";
         }
-        updateRow(row, entry, maxValue);
+        updateRow(row, entry, maxValue, index);
         row.dataset.exiting = "false";
         clearTimeout(row._removeTimer);
         row.classList.remove("isExiting");
-        const targetTransform = \`translate3d(0, \${index * rowStep}px, 0)\`;
         activeKeys.add(rowKey);
         if (isNew) {
           requestAnimationFrame(() => {

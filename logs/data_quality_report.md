@@ -1,12 +1,12 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T03:04:12Z
+- Run timestamp: 2026-06-30T03:20:42Z
 - As of: 2026-06-30
 - Ranked rows: 36325
 - Ranked rows with play counts: 11087
 - Ranked date range: 2007-01-20 to 2026-06-26
 - Mini catalog games: 3007
-- Metrics history rows/games: 5142 / 1293
+- Metrics history rows/games: 5154 / 1293
 - Metrics date range: 2013-09-18 to 2026-06-29
 - Invalid cached HTML files: 0
 

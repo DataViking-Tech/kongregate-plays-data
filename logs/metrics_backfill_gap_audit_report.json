@@ -3,8 +3,8 @@
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
   "games_without_metrics_rows": 1301,
-  "generated_at": "2026-06-30T03:04:11Z",
-  "known_failed_captures": 713,
+  "generated_at": "2026-06-30T03:20:42Z",
+  "known_failed_captures": 696,
   "missing_cdx_cache_files": 675,
   "status_counts": {
     "cdx_cache_missing": 592,
@@ -289,5 +289,5 @@
       "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 9298
+  "valid_cached_captures": 9315
 }

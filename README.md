@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1M52sKSlnfr0MLD_8_RIF-5Y9qPZsC-jc8El5DcVnEVA
+https://docs.google.com/spreadsheets/d/1h2PfCCZ2DyVfBLhcTRa-egd-IOHn0sqK65NqrUX7ZTw
 
 ## Current Snapshot
 
 - Ranked-list rows: 36,325
 - Ranked-list rows with observed play counts: 11,087
 - Mini catalog: 3,007 games that reached top 20 in observed rankings
-- Per-game metrics history rows: 5,142 across 1,293 canonical games
-- Observed play-count rows used by the chart: 16,229
-- Chart playback: Smooth mode uses 2,331 interpolated display frames by default; Captures mode exposes all 1,819 observed capture-date frames.
+- Per-game metrics history rows: 5,154 across 1,293 canonical games
+- Observed play-count rows used by the chart: 16,241
+- Chart playback: Smooth mode uses 2,331 interpolated display frames by default; Captures mode exposes all 1,822 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-29
 
