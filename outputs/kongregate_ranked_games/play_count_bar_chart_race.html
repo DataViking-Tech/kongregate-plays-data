@@ -625,6 +625,13 @@
       lastSliderSyncFrame = index;
     }
 
+    function normalizeFrameIndex(index) {
+      if (!frames.length) return 0;
+      const numericIndex = Number(index);
+      if (!Number.isFinite(numericIndex)) return 0;
+      return ((Math.trunc(numericIndex) % frames.length) + frames.length) % frames.length;
+    }
+
     function interpolateFrame(startFrame, endFrame, ratio) {
       const eased = smoothRatio(ratio);
       const startEntries = frameEntryMap(startFrame);
@@ -891,7 +898,10 @@
         return;
       }
 
-      const frame = frames[nextIndex];
+      const safeIndex = normalizeFrameIndex(nextIndex);
+      if (safeIndex !== nextIndex) frameIndex = safeIndex;
+      const frame = frames[safeIndex];
+      if (!frame) return;
       const entries = frame.entries.slice(0, renderedRows);
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
       const activeKeys = new Set();
@@ -906,7 +916,7 @@
         ? `source capture ${frame.sourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
         : `${frame.observedRows.toLocaleString()} observed rows on this date`;
       setTextIfChanged(sourceMeta, nextSourceMeta);
-      syncFrameSlider(nextIndex);
+      syncFrameSlider(safeIndex);
 
       if (rowsEl.dataset.ready !== "true") {
         rowsEl.replaceChildren();
@@ -1007,9 +1017,9 @@
       cancelSchedule();
       if (!isPlaying || frames.length <= 1) return;
       syncMotionTiming();
-      const delay = playbackDelay();
+      const delay = Math.max(16, Number(playbackDelay()) || 16);
       const startedAt = performance.now();
-      const startFrameIndex = frameIndex;
+      const startFrameIndex = normalizeFrameIndex(frameIndex);
 
       function tick(now) {
         if (!isPlaying || frames.length <= 1) {
@@ -1018,7 +1028,7 @@
         }
 
         const elapsedSteps = Math.floor((now - startedAt) / delay);
-        const nextFrameIndex = (startFrameIndex + elapsedSteps) % frames.length;
+        const nextFrameIndex = normalizeFrameIndex(startFrameIndex + elapsedSteps);
         if (nextFrameIndex !== frameIndex) {
           frameIndex = nextFrameIndex;
           renderFrame(frameIndex);
