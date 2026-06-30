@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-30T17:10:27Z
+Generated: 2026-06-30T17:28:56Z
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-06-30T17:10:27Z
 - Games without metrics rows: 367
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 359
-- Missing CDX cache files: 191
+- Known failed captures: 361
+- Missing CDX cache files: 146
 
 ## Status Counts
 
