@@ -404,11 +404,13 @@ function htmlDocument() {
     }
 
     .rows.isDirectMotion .barRow {
-      transition: opacity var(--fade-duration) ease;
+      transition:
+        transform var(--move-duration) var(--move-ease),
+        opacity var(--fade-duration) ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: none;
+      transition: transform var(--move-duration) var(--move-ease);
     }
 
     .rank {
@@ -622,7 +624,7 @@ function htmlDocument() {
     const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 84;
+    const smoothStepsPerMonth = 28;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 12));
     const rowsByKey = new Map();
 
@@ -1123,14 +1125,14 @@ function htmlDocument() {
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 2800;
-      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(50, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(18, Math.min(44, delay * 0.72))
+        ? Math.max(90, Math.min(180, delay * 1.15))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(

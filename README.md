@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/1yujxC1xUNgHW3vKrUd9YatTCaoZk0rLq3Ed8E9VQ
 - Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
 - Per-game play-history rows: 7,590 across 2,570 canonical games
 - Observed play-count rows used by the chart: 22,108
-- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,251 observed capture-date frames.
+- Chart playback: Smooth mode uses 6,525 interpolated month-paced display frames by default; Captures mode exposes all 2,251 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Per-game play-history date range: 2007-03-24 to 2026-06-30
 
@@ -52,6 +52,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 46 added conservative archived game-page play-count recovery via `fetch_game_page_history.py`, recovered 57 high-confidence page-history observations for Super Stacker 2 and Fantastic Contraption, and reduced unresolved no-CDX games from 367 to 365.
 - Checkpoint 47 recovered 67 additional archived game-page observations for Diaper Dash, Papa Louie, swords and sandals 2, and UFOMania; game-page history now has 124 rows and unresolved no-CDX games fell to 361. Smooth chart playback now uses direct per-frame transforms in Smooth mode to reduce visual jitter while keeping eased capture-step playback.
 - Checkpoint 48 added an explicit canonical alias map for proven developer/owner renames, merging URL-split identities such as Bowmaster Prelude, CS Portable, Fantastic Contraption, Super Stacker 2, Freefall Tournament, Spiral Knights, Transformice, and Murloc RPG. This reduced the mini catalog from 2,936 to 2,928 canonical games, removed Bowmaster Prelude and CS Portable from the durable no-history gap list, and left Bubble Shooter Exclusive as the only tier-1 no-CDX target.
+- Visualization polish after checkpoint 48 reduced Smooth-mode interpolation churn from 19,573 to 6,525 display frames and uses CSS transitions between frames for steadier row motion.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
