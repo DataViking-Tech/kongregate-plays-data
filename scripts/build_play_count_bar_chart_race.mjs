@@ -170,9 +170,9 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 620ms;
-      --move-ease: cubic-bezier(0.22, 0.72, 0.2, 1);
-      --fade-duration: 180ms;
+      --move-duration: 760ms;
+      --move-ease: cubic-bezier(0.16, 0.84, 0.24, 1);
+      --fade-duration: 140ms;
     }
 
     * {
@@ -379,6 +379,7 @@ function htmlDocument() {
       grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
       gap: 14px;
       align-items: center;
+      background: var(--panel);
       opacity: 0;
       transform: translate3d(0, 0, 0);
       z-index: 1;
@@ -566,7 +567,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="800" max="3200" value="950" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="900" max="3600" value="1250" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -608,9 +609,9 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const renderedRows = visibleRows + 2;
-    const transitionMs = 620;
-    const exitMs = transitionMs + 140;
+    const renderedRows = visibleRows;
+    const transitionMs = 760;
+    const exitMs = transitionMs + 120;
     const smoothStepsPerMonth = 10;
     const rowsByKey = new Map();
 
@@ -752,7 +753,7 @@ function htmlDocument() {
       const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
       const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
       const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
-      const offscreenRank = visibleRows + 2;
+      const offscreenRank = visibleRows + 1.5;
       const entries = [...keys]
         .map((key) => {
           const startEntry = startEntries.get(key);
@@ -957,6 +958,7 @@ function htmlDocument() {
       const bar = row.querySelector(".bar");
       bar.style.background = colorFor(entry.key);
       bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
+      row.style.zIndex = String(Math.max(1, visibleRows - fallbackIndex + 1));
     }
 
     function removeInactiveRow(key, row) {
@@ -964,7 +966,8 @@ function htmlDocument() {
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
-      row.style.transform = transformForSlot(visibleRows + 1.5);
+      row.style.zIndex = "0";
+      row.style.transform = transformForSlot(visibleRows + 0.75);
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -1060,7 +1063,7 @@ function htmlDocument() {
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), transitionMs + 80);
+      const delay = Math.max(Number(speedSlider.value), transitionMs + 220);
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
