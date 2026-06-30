@@ -2,15 +2,15 @@
   "catalog_games": 3007,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 1308,
-  "generated_at": "2026-06-30T02:27:47Z",
-  "known_failed_captures": 814,
-  "missing_cdx_cache_files": 714,
+  "games_without_metrics_rows": 1305,
+  "generated_at": "2026-06-30T02:39:37Z",
+  "known_failed_captures": 825,
+  "missing_cdx_cache_files": 683,
   "status_counts": {
-    "cdx_cache_missing": 626,
-    "has_metrics": 1699,
-    "known_failures_only": 49,
-    "no_cdx": 633
+    "cdx_cache_missing": 599,
+    "has_metrics": 1702,
+    "known_failures_only": 53,
+    "no_cdx": 653
   },
   "top_unresolved_games": [
     {
@@ -191,17 +191,6 @@
     },
     {
       "best_rank": "1",
-      "cdx_rows": 1,
-      "failure_errors": "<urlopen error [Errno 61] Connection refused> (1)",
-      "fresh_pending_captures": 0,
-      "game_name": "Space Breakout!",
-      "known_failed_captures": 1,
-      "metrics_rows": 0,
-      "priority_score": 3351,
-      "status": "known_failures_only"
-    },
-    {
-      "best_rank": "1",
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
@@ -209,7 +198,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -275,7 +264,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
     },
     {
       "best_rank": "1",
@@ -286,8 +275,19 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "cdx_cache_missing"
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
+      "game_name": "Zombie Derby 2",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 9178
+  "valid_cached_captures": 9186
 }

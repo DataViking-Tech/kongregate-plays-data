@@ -1,22 +1,22 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-30T02:27:47Z
+Generated: 2026-06-30T02:39:37Z
 
 ## Summary
 
 - Mini-catalog games audited: 3007
-- Games without metrics rows: 1308
+- Games without metrics rows: 1305
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 814
-- Missing CDX cache files: 714
+- Known failed captures: 825
+- Missing CDX cache files: 683
 
 ## Status Counts
 
-- cdx_cache_missing: 626
-- has_metrics: 1699
-- known_failures_only: 49
-- no_cdx: 633
+- cdx_cache_missing: 599
+- has_metrics: 1702
+- known_failures_only: 53
+- no_cdx: 653
 
 ## Top Unresolved Games
 
@@ -38,15 +38,15 @@ Generated: 2026-06-30T02:27:47Z
 | Pou Popper | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SCP 079 | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Space Breakout! | known_failures_only | 1 | 0 | 1 | 0 | 1 |
-| SpaceWarrior | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| SpaceWarrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| The world most bugged game | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Wheelie Legend | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| The world most bugged game | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Wheelie Legend | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
