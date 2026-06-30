@@ -1,8 +1,8 @@
 # Kongregate Mini Catalog Report
 
-- Run timestamp: 2026-06-30T00:14:17Z
+- Run timestamp: 2026-06-30T00:25:46Z
 - Top-N threshold: 20
-- Ranked rows read: 32133
-- Catalog games: 2990
-- History status counts: {'no': 696, 'partial': 163, 'yes': 2131}
+- Ranked rows read: 33096
+- Catalog games: 2994
+- History status counts: {'no': 695, 'partial': 174, 'yes': 2125}
 - Date range: 2007-01-20 to 2026-06-26
