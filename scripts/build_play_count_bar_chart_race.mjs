@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1NwtknoPGNpahgqaOweSXcyzM5PcL_oijd2UJ3yVZaes";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/19mWDxN3t0bcRTbUNUgdOOwY-XcRzvpGd5r1BBzqN-i0";
 
 const topN = 12;
 
@@ -401,6 +401,14 @@ function htmlDocument() {
       opacity: 0;
       pointer-events: none;
       z-index: 0;
+    }
+
+    .rows.isDirectMotion .barRow {
+      transition: opacity var(--fade-duration) ease;
+    }
+
+    .rows.isDirectMotion .bar {
+      transition: none;
     }
 
     .rank {
@@ -873,6 +881,7 @@ function htmlDocument() {
       frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
       frameIndex = closestFrameIndex(targetDate);
       frameSlider.max = Math.max(frames.length - 1, 0);
+      rowsEl.classList.toggle("isDirectMotion", playbackMode === "smooth");
       lastSliderSyncFrame = -1;
       syncFrameSlider(frameIndex, { force: true });
       if (modeChanged) resetRows();

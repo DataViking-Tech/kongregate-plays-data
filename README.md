@@ -10,18 +10,18 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1NwtknoPGNpahgqaOweSXcyzM5PcL_oijd2UJ3yVZaes
+https://docs.google.com/spreadsheets/d/19mWDxN3t0bcRTbUNUgdOOwY-XcRzvpGd5r1BBzqN-i0
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,936 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,523 across 2,571 canonical games
-- Observed play-count rows used by the chart: 22,041
-- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,214 observed capture-date frames.
+- Per-game play-history rows: 7,590 across 2,575 canonical games
+- Observed play-count rows used by the chart: 22,108
+- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,251 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
-- Per-game play-history date range: 2008-09-19 to 2026-06-30
+- Per-game play-history date range: 2007-03-24 to 2026-06-30
 
 This scrape is still being expanded. The processed files are coherent snapshots, but coverage is not final.
 
@@ -50,14 +50,15 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 44 added `--audit-known-failures-only`, recovered 102 additional archived metrics observations from targeted missing-CDX and known-failure retry passes, reduced missing CDX cache files to 17, and reduced known failed archived captures to 47.
 - Checkpoint 45 recovered 20 additional archived metrics observations from final missing-CDX and known-failure retry passes, reduced missing CDX cache files to 0, and reduced known failed archived captures to 37.
 - Checkpoint 46 added conservative archived game-page play-count recovery via `fetch_game_page_history.py`, recovered 57 high-confidence page-history observations for Super Stacker 2 and Fantastic Contraption, and reduced unresolved no-CDX games from 367 to 365.
+- Checkpoint 47 recovered 67 additional archived game-page observations for Diaper Dash, Papa Louie, swords and sandals 2, and UFOMania; game-page history now has 124 rows and unresolved no-CDX games fell to 361. Smooth chart playback now uses direct per-frame transforms in Smooth mode to reduce visual jitter while keeping eased capture-step playback.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
-- 365 mini-catalog games still have no per-game play-history rows, and 2,250 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 365 unresolved no-CDX cases, and 0 missing CDX cache files.
-- The no-CDX profile splits those 365 games into 114 follow-up targets with observed listing counts, 11 repeated ranking-only targets, and 240 low-information single-capture rows with no listing play count.
+- 361 mini-catalog games still have no per-game play-history rows, and 2,250 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 361 unresolved no-CDX cases, and 0 missing CDX cache files.
+- The no-CDX profile splits those 361 games into 110 follow-up targets with observed listing counts, 11 repeated ranking-only targets, and 240 low-information single-capture rows with no listing play count.
 - 6 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
@@ -92,12 +93,14 @@ python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-h
 python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
 python3 scripts/fetch_game_page_history.py --tiers 1 --max-cdx-games 9 --variant-limit 2 --max-fetches 160
+python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diaper,papa,swords' --cached-cdx-only --max-fetches 120
+python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs
 node scripts/build_play_count_bar_chart_race.mjs
 ```
 
-The metrics and page-history scrapers are intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, `--audit-statuses` or `--audit-pending-only` to target audited archived-metrics gaps, rerun archived metrics with `--retry-failures` for transient Wayback failures, and use `fetch_live_game_metrics.py --input-csv data/processed/final_chart_staleness.csv --statuses '' --refresh` to refresh explicit chart leaders. `fetch_game_page_history.py` is conservative: it stores parsed rows only when an archived game page exposes an explicit main play-count block. Live metrics retries skip known failures by default; add `--retry-failures` when intentionally rechecking those pages.
+The metrics and page-history scrapers are intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, `--audit-statuses` or `--audit-pending-only` to target audited archived-metrics gaps, rerun archived metrics with `--retry-failures` for transient Wayback failures, and use `fetch_live_game_metrics.py --input-csv data/processed/final_chart_staleness.csv --statuses '' --refresh` to refresh explicit chart leaders. `fetch_game_page_history.py` is conservative: it stores parsed rows only when an archived game page exposes an explicit main play-count block; use `--game-name-contains` and `--cached-cdx-only` for focused resumable page-history recovery. Live metrics retries skip known failures by default; add `--retry-failures` when intentionally rechecking those pages.
 
 Raw Wayback HTML/JSON caches are not committed here. This repo publishes processed data, reports, scripts, and the static visualization.

@@ -219,11 +219,21 @@ def cdx_query_url(page_url: str, collapse: str) -> str:
     return f"{CDX_ENDPOINT}?{urllib.parse.urlencode(params)}"
 
 
-def fetch_cdx(page_url: str, timeout_s: int, collapse: str, refresh: bool, retries: int, retry_sleep_s: float) -> tuple[list[dict[str, str]], str]:
+def fetch_cdx(
+    page_url: str,
+    timeout_s: int,
+    collapse: str,
+    refresh: bool,
+    retries: int,
+    retry_sleep_s: float,
+    cached_only: bool,
+) -> tuple[list[dict[str, str]], str]:
     RAW_CDX.mkdir(parents=True, exist_ok=True)
     cache_path = cdx_cache_path(page_url)
     if cache_path.exists() and not refresh:
         return json.loads(cache_path.read_text()), "cached"
+    if cached_only and not refresh:
+        return [], "missing_cache_skipped"
 
     request = urllib.request.Request(cdx_query_url(page_url, collapse), headers={"User-Agent": "KongregateGamePageHistory/0.1"})
     last_error = ""
@@ -256,6 +266,7 @@ def build_jobs(
     collapse: str,
     cdx_retries: int,
     cdx_retry_sleep_s: float,
+    cached_cdx_only: bool,
 ) -> tuple[list[GamePageJob], dict[str, int]]:
     jobs: list[GamePageJob] = []
     stats = {
@@ -263,6 +274,7 @@ def build_jobs(
         "cdx_urls_fetched": 0,
         "cdx_urls_cached": 0,
         "cdx_urls_failed": 0,
+        "cdx_urls_missing_cache_skipped": 0,
         "cdx_rows": 0,
     }
     for game in games:
@@ -278,11 +290,14 @@ def build_jobs(
                 refresh=refresh_cdx,
                 retries=cdx_retries,
                 retry_sleep_s=cdx_retry_sleep_s,
+                cached_only=cached_cdx_only,
             )
             if status == "cached":
                 stats["cdx_urls_cached"] += 1
             elif status == "fetched":
                 stats["cdx_urls_fetched"] += 1
+            elif status == "missing_cache_skipped":
+                stats["cdx_urls_missing_cache_skipped"] += 1
             else:
                 stats["cdx_urls_failed"] += 1
             if status != "cached":
@@ -441,6 +456,8 @@ def make_report(
         "variant_limit": args.variant_limit,
         "max_fetches": args.max_fetches,
         "collapse": args.collapse,
+        "cached_cdx_only": args.cached_cdx_only,
+        "game_name_contains": args.game_name_contains,
         "retry_failures": args.retry_failures,
         "report_only": args.report_only,
         **cdx_stats,
@@ -476,6 +493,8 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Run timestamp: {report['run_timestamp']}",
                 f"- Profile games in scope: {report['profile_games_in_scope']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
+                f"- Cached CDX only: {report['cached_cdx_only']}",
+                f"- Game-name filter: {report['game_name_contains'] or 'none'}",
                 f"- CDX rows: {report['cdx_rows']}",
                 f"- Page jobs: {report['page_jobs']}",
                 f"- Pending before run: {report['pending_before_run']}",
@@ -512,8 +531,10 @@ def main() -> None:
     parser.add_argument("--page-retries", type=int, default=2, help="Retries for transient archived page fetch failures.")
     parser.add_argument("--retry-sleep", type=float, default=1.5, help="Initial seconds to back off between page retries.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
+    parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files; skip uncached CDX lookups.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed page captures.")
     parser.add_argument("--report-only", action="store_true", help="Rewrite reports from current manifests without network work.")
+    parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
     args = parser.parse_args()
 
     profile_csv = Path(args.input_csv)
@@ -522,6 +543,13 @@ def main() -> None:
         directory.mkdir(parents=True, exist_ok=True)
 
     games = load_profile_games(profile_csv, tiers)
+    name_filters = [value.strip().lower() for value in args.game_name_contains.split(",") if value.strip()]
+    if name_filters:
+        games = [
+            game
+            for game in games
+            if any(value in game.game_name.lower() or value in game.game_url.lower() for value in name_filters)
+        ]
     manifest = read_json(MANIFEST_PATH, {})
     failures = read_json(FAILURE_PATH, {})
     if args.report_only:
@@ -534,7 +562,7 @@ def main() -> None:
             profile_csv,
             tiers,
             len(games),
-            {"cdx_games_considered": 0, "cdx_urls_fetched": 0, "cdx_urls_cached": 0, "cdx_urls_failed": 0, "cdx_rows": 0},
+            {"cdx_games_considered": 0, "cdx_urls_fetched": 0, "cdx_urls_cached": 0, "cdx_urls_failed": 0, "cdx_urls_missing_cache_skipped": 0, "cdx_rows": 0},
             0,
             0,
             0,
@@ -561,6 +589,7 @@ def main() -> None:
         collapse=args.collapse,
         cdx_retries=args.cdx_retries,
         cdx_retry_sleep_s=args.cdx_retry_sleep,
+        cached_cdx_only=args.cached_cdx_only,
     )
 
     def job_needs_fetch_or_parse(job: GamePageJob) -> bool:

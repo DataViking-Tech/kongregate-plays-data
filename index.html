@@ -248,6 +248,14 @@
       z-index: 0;
     }
 
+    .rows.isDirectMotion .barRow {
+      transition: opacity var(--fade-duration) ease;
+    }
+
+    .rows.isDirectMotion .bar {
+      transition: none;
+    }
+
     .rank {
       color: var(--muted);
       font-size: 18px;
@@ -416,7 +424,7 @@
       </div>
         <label class="speed">Pace <input id="speedSlider" type="range" min="1400" max="5600" value="2800" step="50" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
-        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1NwtknoPGNpahgqaOweSXcyzM5PcL_oijd2UJ3yVZaes" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/19mWDxN3t0bcRTbUNUgdOOwY-XcRzvpGd5r1BBzqN-i0" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
       </nav>
     </section>
@@ -718,6 +726,7 @@
       frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
       frameIndex = closestFrameIndex(targetDate);
       frameSlider.max = Math.max(frames.length - 1, 0);
+      rowsEl.classList.toggle("isDirectMotion", playbackMode === "smooth");
       lastSliderSyncFrame = -1;
       syncFrameSlider(frameIndex, { force: true });
       if (modeChanged) resetRows();

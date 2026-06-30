@@ -1,18 +1,20 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-06-30T21:05:12Z
-- Profile games in scope: 9
-- CDX games considered: 0
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
-- Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 0
-- Manifest entries: 57
-- Known failures: 65
-- Combined history rows: 7523
-- Game-page history rows: 57
-- Report only: True
+- Run timestamp: 2026-06-30T21:23:37Z
+- Profile games in scope: 1
+- CDX games considered: 1
+- Cached CDX only: True
+- Game-name filter: ufomania
+- CDX rows: 35
+- Page jobs: 35
+- Pending before run: 33
+- Attempted this run: 33
+- Fetched this run: 18
+- Parsed rows this run: 18
+- No explicit count this run: 7
+- Failed this run: 15
+- Manifest entries: 124
+- Known failures: 116
+- Combined history rows: 7590
+- Game-page history rows: 124
+- Report only: False
