@@ -628,7 +628,7 @@
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: index,
+          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -773,7 +773,7 @@
     }
 
     function transformForSlot(slot) {
-      return `translate3d(0, ${Math.round(slot * rowStep)}px, 0)`;
+      return `translate3d(0, ${Math.round(slot * rowStep * 100) / 100}px, 0)`;
     }
 
     function setValue(valueEl, nextValue) {
@@ -945,7 +945,7 @@
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(48, Math.min(95, delay * 0.62))
+        ? Math.max(70, Math.min(140, delay * 1.08))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -977,8 +977,10 @@
 
         const delay = playbackDelay();
         if (now - lastTick >= delay) {
-          const steps = Math.min(3, Math.max(1, Math.floor((now - lastTick) / delay)));
-          lastTick += steps * delay;
+          const steps = playbackMode === "smooth"
+            ? 1
+            : Math.min(3, Math.max(1, Math.floor((now - lastTick) / delay)));
+          lastTick = playbackMode === "smooth" ? now : lastTick + (steps * delay);
           frameIndex = (frameIndex + steps) % frames.length;
           renderFrame(frameIndex);
         }
