@@ -1,21 +1,21 @@
 {
-  "run_timestamp": "2026-06-30T10:09:41Z",
+  "run_timestamp": "2026-06-30T10:25:43Z",
   "as_of": "2026-06-30",
-  "ranked_rows": 41604,
-  "ranked_rows_with_play_counts": 13334,
+  "ranked_rows": 42424,
+  "ranked_rows_with_play_counts": 13814,
   "ranked_date_range": [
     "2007-01-20",
     "2026-06-26"
   ],
   "catalog_games": 3362,
-  "metrics_history_rows": 6772,
-  "metrics_history_games": 2543,
+  "metrics_history_rows": 6773,
+  "metrics_history_games": 2544,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-06-30"
   ],
   "zero_ranked_capture_months": 28,
-  "catalog_games_without_metrics_history": 346,
+  "catalog_games_without_metrics_history": 345,
   "catalog_games_need_page_history": 2549,
   "final_chart_entries_stale_over_one_year": 0,
   "invalid_cached_html_files": 0,
@@ -24,7 +24,7 @@
   "missing_url_rows": 0,
   "duplicate_ranked_rows": 3517,
   "games_with_multiple_url_variants": 377,
-  "play_count_decreases": 3,
+  "play_count_decreases": 6,
   "stale_listing_play_count_observations": 171,
   "issues": [
     {
@@ -41,7 +41,7 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 346,
+      "count": 345,
       "first_date": "",
       "last_date": "",
       "example": "as3q32@gmail.com",
@@ -81,10 +81,10 @@
       "severity": "medium",
       "area": "plays",
       "issue_type": "play_count_decreases",
-      "count": 3,
+      "count": 6,
       "first_date": "2011-12-05",
-      "last_date": "2026-06-30",
-      "example": "Revenge on Anders Behr...",
+      "last_date": "2011-12-05",
+      "example": "Bloons Tower Defense 4",
       "recommended_action": "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."
     },
     {

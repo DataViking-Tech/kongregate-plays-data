@@ -16,7 +16,7 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 750ms;
+      --move-duration: 110ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 140ms;
     }
@@ -413,9 +413,9 @@
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="450" max="2600" value="750" step="25" aria-label="Speed"></label>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="420" max="2600" value="850" step="10" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
-        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1Sbp7y-bznmFG62pnG4v6D8Ltq9K0dTsvrRAHdc-VlQY" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/10I_h1t2uTJugHWngzU3O40WFbagboXVijFvJB_zj_Ic" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
       </nav>
     </section>
@@ -458,7 +458,7 @@
     const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 750;
-    const exitMs = transitionMs + 120;
+    const exitMs = transitionMs + 180;
     const smoothStepsPerMonth = 12;
     const rowsByKey = new Map();
 
@@ -769,14 +769,21 @@
       return `translate3d(0, ${Math.round(slot * rowStep * 100) / 100}px, 0)`;
     }
 
+    function setValue(valueEl, nextValue) {
+      const targetValue = Number(nextValue);
+      valueEl.dataset.animationToken = "";
+      valueEl.dataset.rawValue = String(targetValue);
+      valueEl.dataset.displayValue = String(targetValue);
+      valueEl.textContent = formatPlays(targetValue);
+    }
+
     function animateValue(valueEl, nextValue) {
       const previousValue = Number(valueEl.dataset.displayValue || valueEl.dataset.rawValue || nextValue);
       const targetValue = Number(nextValue);
       valueEl.dataset.rawValue = String(targetValue);
 
       if (!Number.isFinite(previousValue) || previousValue === targetValue) {
-        valueEl.textContent = formatPlays(targetValue);
-        valueEl.dataset.displayValue = String(targetValue);
+        setValue(valueEl, targetValue);
         return;
       }
 
@@ -809,7 +816,12 @@
       gameName.textContent = entry.gameName;
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
       row.querySelector(".developer").textContent = detailText(entry);
-      animateValue(row.querySelector(".value"), entry.plays);
+      const value = row.querySelector(".value");
+      if (playbackMode === "smooth") {
+        setValue(value, entry.plays);
+      } else {
+        animateValue(value, entry.plays);
+      }
       const bar = row.querySelector(".bar");
       bar.style.background = colorFor(entry.key);
       bar.style.transform = `scaleX(${Math.max(0.015, entry.plays / maxValue)})`;
@@ -901,6 +913,7 @@
           dataLink.href = document.documentElement.dataset.chartDataSource;
         }
         setPlaybackMode(playbackMode);
+        syncMotionTiming();
         playIcon.setAttribute("d", pausePath);
         renderFrame(frameIndex);
         schedule();
@@ -915,10 +928,29 @@
       }
     }
 
+    function playbackDelay() {
+      const pace = Number(speedSlider.value) || 850;
+      if (playbackMode === "smooth") return Math.max(34, pace / smoothStepsPerMonth);
+      return Math.max(pace, 80);
+    }
+
+    function syncMotionTiming() {
+      const delay = playbackDelay();
+      const duration = playbackMode === "smooth"
+        ? Math.max(70, Math.min(170, delay * 1.7))
+        : Math.max(260, Math.min(900, delay * 0.86));
+      document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
+      document.documentElement.style.setProperty(
+        "--move-ease",
+        playbackMode === "smooth" ? "linear" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      );
+    }
+
     function schedule() {
       clearTimeout(timer);
       if (!isPlaying || frames.length <= 1) return;
-      const delay = Math.max(Number(speedSlider.value), 80);
+      syncMotionTiming();
+      const delay = playbackDelay();
       timer = setTimeout(() => {
         frameIndex = (frameIndex + 1) % frames.length;
         renderFrame(frameIndex);
@@ -944,12 +976,16 @@
         if (button.dataset.mode === playbackMode) return;
         const targetDate = frames[frameIndex]?.sourceDate || frames[frameIndex]?.date;
         setPlaybackMode(button.dataset.mode, targetDate);
+        syncMotionTiming();
         renderFrame(frameIndex);
         schedule();
       });
     }
 
-    speedSlider.addEventListener("input", schedule);
+    speedSlider.addEventListener("input", () => {
+      syncMotionTiming();
+      schedule();
+    });
 
     init();
   </script>
