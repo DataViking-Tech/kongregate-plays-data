@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/1NeN3WR_qNommOPW0wphly-PWhOBiYZvDnZ7LFb9f
 - Mini catalog: 2,936 canonical games that reached top 20 in observed rankings
 - Per-game metrics history rows: 7,097 across 2,569 canonical games
 - Observed play-count rows used by the chart: 21,615
-- Chart playback: Smooth mode uses 3,729 interpolated month-paced display frames by default; Captures mode exposes all 2,110 observed capture-date frames.
+- Chart playback: Smooth mode uses 7,457 interpolated month-paced display frames by default; Captures mode exposes all 2,110 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
 
@@ -40,6 +40,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 35 recovered 35 additional archived metrics observations and cut missing CDX cache files to 146 using the slower 25-game CDX sweep cadence.
 - Checkpoint 36 recovered 15 additional archived metrics observations and cut missing CDX cache files to 104.
 - Checkpoint 37 recovered 20 additional archived metrics observations and cut missing CDX cache files to 73.
+- Visualization polish after checkpoint 37 doubled Smooth-mode interpolation density, kept animated rows in compact rank lanes, and confirmed the live chart fetches the repo JSON at runtime.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

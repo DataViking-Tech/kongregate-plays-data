@@ -16,7 +16,7 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 90ms;
+      --move-duration: 80ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 140ms;
     }
@@ -414,7 +414,7 @@
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Pace <input id="speedSlider" type="range" min="900" max="3600" value="1900" step="25" aria-label="Pace"></label>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="1400" max="5600" value="2800" step="50" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1NeN3WR_qNommOPW0wphly-PWhOBiYZvDnZ7LFb9fh7Q" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -458,9 +458,9 @@
     const visibleRows = 12;
     const bufferRows = 8;
     const renderedRows = visibleRows + bufferRows;
-    const transitionMs = 750;
-    const exitMs = transitionMs + 180;
-    const smoothStepsPerMonth = 16;
+    const transitionMs = 820;
+    const exitMs = transitionMs + 220;
+    const smoothStepsPerMonth = 32;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -540,7 +540,7 @@
     }
 
     function smoothRatio(ratio) {
-      return ratio * ratio * (3 - (2 * ratio));
+      return ratio;
     }
 
     function numericMonth(monthId) {
@@ -628,7 +628,7 @@
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
+          slotPosition: index,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -773,7 +773,7 @@
     }
 
     function transformForSlot(slot) {
-      return `translate3d(0, ${Math.round(slot * rowStep * 100) / 100}px, 0)`;
+      return `translate3d(0, ${Math.round(slot * rowStep)}px, 0)`;
     }
 
     function setValue(valueEl, nextValue) {
@@ -937,15 +937,15 @@
     }
 
     function playbackDelay() {
-      const pace = Number(speedSlider.value) || 1900;
-      if (playbackMode === "smooth") return Math.max(90, pace / smoothStepsPerMonth);
+      const pace = Number(speedSlider.value) || 2800;
+      if (playbackMode === "smooth") return Math.max(70, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(70, Math.min(130, delay * 0.78))
+        ? Math.max(48, Math.min(95, delay * 0.62))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -977,8 +977,9 @@
 
         const delay = playbackDelay();
         if (now - lastTick >= delay) {
-          lastTick = now;
-          frameIndex = (frameIndex + 1) % frames.length;
+          const steps = Math.min(3, Math.max(1, Math.floor((now - lastTick) / delay)));
+          lastTick += steps * delay;
+          frameIndex = (frameIndex + steps) % frames.length;
           renderFrame(frameIndex);
         }
 
