@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1twysER_W0AaNQq_MFfrPQVe--0G9yw7ZaPJLpG7iMQQ
+https://docs.google.com/spreadsheets/d/1M_CAqQjS19hcaKn8YZB5zmlRPDqPi5X8CNroVgbY_H8
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,936 canonical games that reached top 20 in observed rankings
-- Per-game metrics history rows: 7,105 across 2,569 canonical games
-- Observed play-count rows used by the chart: 21,623
-- Chart playback: Smooth mode uses 7,457 interpolated month-paced display frames by default; Captures mode exposes all 2,111 observed capture-date frames.
+- Per-game metrics history rows: 7,128 across 2,569 canonical games
+- Observed play-count rows used by the chart: 21,646
+- Chart playback: Smooth mode uses 7,457 interpolated month-paced display frames by default; Captures mode exposes all 2,114 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
 
@@ -43,13 +43,14 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Visualization polish after checkpoint 37 doubled Smooth-mode interpolation density, kept animated rows in compact rank lanes, and confirmed the live chart fetches the repo JSON at runtime.
 - Checkpoint 38 recovered 6 additional archived metrics observations and cut missing CDX cache files to 71.
 - Checkpoint 39 recovered 2 additional archived metrics observations from the high-priority catalog retry sweep.
+- Checkpoint 40 recovered 23 additional archived metrics observations from broader high-priority catalog chunks and reduced known failed archived captures to 348.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 367 mini-catalog games still have no per-game metrics rows, and 2,250 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 363 known failed archived captures, 367 unresolved no-CDX cases, 71 missing CDX cache files noted for targeted follow-up, and 0 known-failures-only cases.
+- Metrics gap audit currently has 0 fresh pending captures, 348 known failed archived captures, 367 unresolved no-CDX cases, 71 missing CDX cache files noted for targeted follow-up, and 0 known-failures-only cases.
 - 6 source-conflict play-count decreases are under review after separating 216 stale listing-page echoes into `stale_listing_play_counts.csv`.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
