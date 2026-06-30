@@ -6,6 +6,8 @@ Live chart:
 
 https://dataviking-tech.github.io/kongregate-plays-data/
 
+The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from this repo at runtime. The Google Sheet is a companion workbook link, not the chart's live data source.
+
 Current Google Sheet workbook:
 
 https://docs.google.com/spreadsheets/d/1eYabSgJtq-GYbb31i1su6jdiBYpRwm-AwmiXzIUJc4Q

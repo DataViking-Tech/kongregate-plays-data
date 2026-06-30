@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 760ms;
-      --move-ease: cubic-bezier(0.18, 0.78, 0.2, 1);
+      --move-duration: 920ms;
+      --move-ease: cubic-bezier(0.22, 1, 0.36, 1);
     }
 
     * {
@@ -364,6 +364,7 @@ function htmlDocument() {
     .rows {
       position: relative;
       height: 640px;
+      overflow: hidden;
     }
 
     .barRow {
@@ -603,6 +604,7 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
+    const renderedRows = visibleRows + 2;
     const transitionMs = 920;
     const exitMs = transitionMs + 100;
     const smoothStepsPerMonth = 10;
@@ -746,6 +748,7 @@ function htmlDocument() {
       const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
       const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
       const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
+      const offscreenRank = visibleRows + 2;
       const entries = [...keys]
         .map((key) => {
           const startEntry = startEntries.get(key);
@@ -753,16 +756,17 @@ function htmlDocument() {
           const baseEntry = endEntry || startEntry;
           const startPlays = startEntry ? startEntry.plays : Math.min(endEntry.plays, joinFloor);
           const endPlays = endEntry ? endEntry.plays : startEntry.plays;
-          const targetRank = endEntry?.rank ?? (visibleRows + (startEntry?.rank ?? visibleRows));
+          const startRank = startEntry?.rank ?? offscreenRank;
+          const endRank = endEntry?.rank ?? offscreenRank;
           return {
             ...baseEntry,
             plays: interpolatedNumber(startPlays, endPlays, eased),
-            _sortRank: targetRank,
+            rankPosition: startRank + ((endRank - startRank) * eased),
           };
         })
-        .sort((a, b) => a._sortRank - b._sortRank || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
-        .slice(0, visibleRows)
-        .map(({ _sortRank, ...entry }, index) => ({
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+        .slice(0, renderedRows)
+        .map((entry, index) => ({
           ...entry,
           rank: index + 1,
         }));
@@ -830,13 +834,22 @@ function htmlDocument() {
     }
 
     function setPlaybackMode(mode, targetDate) {
+      const modeChanged = playbackMode !== mode;
       playbackMode = mode;
       frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
       frameIndex = closestFrameIndex(targetDate);
       frameSlider.max = Math.max(frames.length - 1, 0);
       frameSlider.value = String(frameIndex);
+      if (modeChanged) resetRows();
       updateModeButtons();
       updateRangeMeta();
+    }
+
+    function resetRows() {
+      for (const row of rowsByKey.values()) clearTimeout(row._removeTimer);
+      rowsByKey.clear();
+      rowsEl.replaceChildren();
+      rowsEl.dataset.ready = "true";
     }
 
     function formatPlays(value) {
@@ -864,7 +877,7 @@ function htmlDocument() {
       const row = document.createElement("div");
       row.className = "barRow";
       row.dataset.key = entry.key;
-      row.style.transform = \`translate3d(0, \${rowStep * visibleRows}px, 0)\`;
+      row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
 
       const rank = document.createElement("div");
       rank.className = "rank";
@@ -932,7 +945,9 @@ function htmlDocument() {
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
       row.querySelector(".developer").textContent = detailText(entry);
       animateValue(row.querySelector(".value"), entry.plays);
-      row.querySelector(".bar").style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
+      const bar = row.querySelector(".bar");
+      bar.style.background = colorFor(entry.key);
+      bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
     }
 
     function removeInactiveRow(key, row) {
@@ -940,7 +955,7 @@ function htmlDocument() {
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
-      row.style.transform = \`translate3d(0, \${rowStep * visibleRows}px, 0)\`;
+      row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -957,7 +972,7 @@ function htmlDocument() {
       }
 
       const frame = frames[nextIndex];
-      const entries = frame.entries.slice(0, visibleRows);
+      const entries = frame.entries.slice(0, playbackMode === "smooth" ? visibleRows : renderedRows);
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
       const activeKeys = new Set();
 
@@ -978,13 +993,15 @@ function htmlDocument() {
       }
 
       entries.forEach((entry, index) => {
-        let row = rowsByKey.get(entry.key);
+        const rowKey = playbackMode === "smooth" ? \`slot:\${index}\` : entry.key;
+        let row = rowsByKey.get(rowKey);
         const isNew = !row;
         if (!row) {
           row = rowElement(entry);
-          rowsByKey.set(entry.key, row);
+          row.dataset.key = rowKey;
+          rowsByKey.set(rowKey, row);
           row.style.transition = "none";
-          row.style.transform = \`translate3d(0, \${rowStep * visibleRows}px, 0)\`;
+          row.style.transform = \`translate3d(0, \${rowStep * (visibleRows + 1)}px, 0)\`;
           rowsEl.append(row);
           row.getBoundingClientRect();
           row.style.transition = "";
@@ -994,7 +1011,7 @@ function htmlDocument() {
         clearTimeout(row._removeTimer);
         row.classList.remove("isExiting");
         const targetTransform = \`translate3d(0, \${index * rowStep}px, 0)\`;
-        activeKeys.add(entry.key);
+        activeKeys.add(rowKey);
         if (isNew) {
           requestAnimationFrame(() => {
             row.style.transform = targetTransform;
