@@ -406,11 +406,11 @@ function htmlDocument() {
     .rows.isDirectMotion .barRow {
       transition:
         transform var(--move-duration) var(--move-ease),
-        opacity var(--fade-duration) ease;
+        opacity 80ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: transform var(--move-duration) var(--move-ease);
+      transition: none;
     }
 
     .rank {
@@ -621,11 +621,11 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const bufferRows = 8;
+    const bufferRows = 0;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 28;
-    const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 12));
+    const smoothStepsPerMonth = 84;
+    const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -812,7 +812,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
+          slotPosition: index,
         }));
 
       const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1066,6 +1066,7 @@ function htmlDocument() {
         rowsEl.dataset.ready = "true";
       }
 
+      const animateNewRows = rowsByKey.size > 0;
       entries.forEach((entry, index) => {
         const rowKey = entry.key;
         let row = rowsByKey.get(rowKey);
@@ -1084,10 +1085,15 @@ function htmlDocument() {
         row.classList.remove("isExiting");
         activeKeys.add(rowKey);
         if (isNew) {
-          requestAnimationFrame(() => {
+          if (!animateNewRows) {
             row.style.transform = targetTransform;
             row.classList.add("isVisible");
-          });
+          } else {
+            requestAnimationFrame(() => {
+              row.style.transform = targetTransform;
+              row.classList.add("isVisible");
+            });
+          }
         } else {
           row.style.transform = targetTransform;
           row.classList.add("isVisible");
@@ -1125,14 +1131,14 @@ function htmlDocument() {
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 2800;
-      if (playbackMode === "smooth") return Math.max(50, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(16, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(180, delay * 1.15))
+        ? Math.max(48, Math.min(80, delay * 1.7))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
