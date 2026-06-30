@@ -27,6 +27,7 @@ HISTORY_CSV = PROCESSED / "game_play_history.csv"
 
 ISSUES_CSV = PROCESSED / "data_quality_issues.csv"
 COVERAGE_BY_YEAR_CSV = PROCESSED / "coverage_by_year.csv"
+RANKED_PLAY_COUNT_COVERAGE_BY_MONTH_CSV = PROCESSED / "ranked_play_count_coverage_by_month.csv"
 CATALOG_PRIORITIES_CSV = PROCESSED / "catalog_history_priorities.csv"
 FINAL_CHART_STALENESS_CSV = PROCESSED / "final_chart_staleness.csv"
 PLAY_COUNT_DECREASES_CSV = PROCESSED / "play_count_decreases.csv"
@@ -44,6 +45,18 @@ COVERAGE_COLUMNS = [
     "metrics_rows",
     "metrics_games",
     "unique_ranked_games",
+]
+RANKED_MONTHLY_COVERAGE_COLUMNS = [
+    "month",
+    "ranked_rows",
+    "ranked_rows_with_play_counts",
+    "ranked_play_count_rate",
+    "parsers",
+    "ranking_types",
+    "layout_hints",
+    "example_missing_game",
+    "example_missing_source_url",
+    "example_missing_html_path",
 ]
 PRIORITY_COLUMNS = [
     "priority_score",
@@ -153,6 +166,30 @@ def invalid_cached_html_files() -> list[Path]:
         if path.stat().st_size <= 0 or not html_text_is_valid(path.read_text(errors="replace")):
             invalid.append(path)
     return invalid
+
+
+def html_path_from_notes(notes: str) -> str:
+    match = re.search(r"cached HTML (data/raw/html/[^;]+)", notes or "")
+    return match.group(1) if match else ""
+
+
+def layout_hint_for_html(relative_path: str, cache: dict[str, str]) -> str:
+    if not relative_path:
+        return ""
+    if relative_path in cache:
+        return cache[relative_path]
+    path = ROOT / relative_path
+    hint = ""
+    if path.exists():
+        text = path.read_text(errors="replace")
+        if "new_game_browser_layout-new_layout" in text:
+            hint = "new_game_browser_layout-new_layout"
+        elif "new_game_browser_layout-control" in text:
+            hint = "new_game_browser_layout-control"
+        elif "browser_layout_split_test_game" in text:
+            hint = "browser_layout_split_test_game"
+    cache[relative_path] = hint
+    return hint
 
 
 def month_range(start: date, end: date) -> list[str]:
@@ -272,6 +309,46 @@ def main() -> None:
                 "unique_ranked_games": len(ranked_games_by_year[year]),
             }
         )
+
+    ranked_by_month: dict[str, list[dict[str, str]]] = defaultdict(list)
+    ranked_counts_by_month: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in ranked_rows:
+        row_date = parse_date(row.get("date", ""))
+        if not row_date:
+            continue
+        month = f"{row_date.year:04d}-{row_date.month:02d}"
+        ranked_by_month[month].append(row)
+        if parse_int(row.get("plays_count_observed")) > 0:
+            ranked_counts_by_month[month].append(row)
+
+    layout_hint_cache: dict[str, str] = {}
+    monthly_coverage_rows = []
+    for month in sorted(ranked_by_month):
+        rows_for_month = ranked_by_month[month]
+        rows_with_counts = ranked_counts_by_month[month]
+        missing_rows = [row for row in rows_for_month if parse_int(row.get("plays_count_observed")) <= 0]
+        layout_hints = Counter(
+            hint
+            for row in missing_rows
+            for hint in [layout_hint_for_html(html_path_from_notes(row.get("notes", "")), layout_hint_cache)]
+            if hint
+        )
+        example_missing = missing_rows[0] if missing_rows else {}
+        monthly_coverage_rows.append(
+            {
+                "month": month,
+                "ranked_rows": len(rows_for_month),
+                "ranked_rows_with_play_counts": len(rows_with_counts),
+                "ranked_play_count_rate": round(len(rows_with_counts) / len(rows_for_month), 4) if rows_for_month else 0,
+                "parsers": "; ".join(f"{key}:{count}" for key, count in Counter(row.get("parser", "") for row in rows_for_month).most_common()),
+                "ranking_types": "; ".join(f"{key}:{count}" for key, count in Counter(row.get("ranking_type", "") for row in rows_for_month).most_common()),
+                "layout_hints": "; ".join(f"{key}:{count}" for key, count in layout_hints.most_common()),
+                "example_missing_game": example_missing.get("game_name", ""),
+                "example_missing_source_url": example_missing.get("source_url", ""),
+                "example_missing_html_path": html_path_from_notes(example_missing.get("notes", "")),
+            }
+        )
+    zero_play_count_months = [row for row in monthly_coverage_rows if parse_int(row["ranked_rows"]) and parse_int(row["ranked_rows_with_play_counts"]) == 0]
 
     ranked_months = {row["date"][:7] for row in ranked_rows if row.get("date")}
     zero_months: list[str] = []
@@ -406,6 +483,10 @@ def main() -> None:
         issues.append(issue("high", "cache", "invalid_cached_html_files", len(invalid_html_paths), "", "", str(invalid_html_paths[0].relative_to(ROOT)), "Retry affected captures; these files are empty or corrupted and cannot be parsed."))
     if zero_months:
         issues.append(issue("medium", "coverage", "months_without_ranked_captures", len(zero_months), zero_months[0], zero_months[-1], ", ".join(zero_months[:8]), "Fetch additional CDX captures for ranked/listing pages, prioritizing long empty stretches."))
+    if zero_play_count_months:
+        first_zero = zero_play_count_months[0]
+        last_zero = zero_play_count_months[-1]
+        issues.append(issue("high", "plays", "ranked_months_without_listing_play_counts", len(zero_play_count_months), first_zero["month"], last_zero["month"], first_zero["example_missing_game"], "Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text."))
     games_without_metrics = [row for row in priority_rows if int(row["metrics_rows"]) == 0]
     if games_without_metrics:
         issues.append(issue("high", "metrics", "catalog_games_without_metrics_history", len(games_without_metrics), "", "", games_without_metrics[0]["game_name"], "Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit."))
@@ -433,6 +514,7 @@ def main() -> None:
 
     write_csv(ISSUES_CSV, ISSUE_COLUMNS, issues)
     write_csv(COVERAGE_BY_YEAR_CSV, COVERAGE_COLUMNS, coverage_rows)
+    write_csv(RANKED_PLAY_COUNT_COVERAGE_BY_MONTH_CSV, RANKED_MONTHLY_COVERAGE_COLUMNS, monthly_coverage_rows)
     write_csv(CATALOG_PRIORITIES_CSV, PRIORITY_COLUMNS, priority_rows)
     write_csv(FINAL_CHART_STALENESS_CSV, STALENESS_COLUMNS, staleness_rows)
     write_csv(PLAY_COUNT_DECREASES_CSV, DECREASE_COLUMNS, decrease_rows)
@@ -449,6 +531,11 @@ def main() -> None:
         "metrics_history_games": len(metrics_by_game),
         "metrics_history_date_range": [min(history_dates).isoformat() if history_dates else "", max(history_dates).isoformat() if history_dates else ""],
         "zero_ranked_capture_months": len(zero_months),
+        "ranked_months_without_listing_play_counts": len(zero_play_count_months),
+        "ranked_listing_play_count_zero_month_range": [
+            zero_play_count_months[0]["month"] if zero_play_count_months else "",
+            zero_play_count_months[-1]["month"] if zero_play_count_months else "",
+        ],
         "catalog_games_without_metrics_history": len(games_without_metrics),
         "catalog_games_need_page_history": len(partial_or_missing_listing),
         "final_chart_entries_stale_over_one_year": len(stale_final),
@@ -465,6 +552,7 @@ def main() -> None:
         "outputs": {
             "issues_csv": str(ISSUES_CSV.relative_to(ROOT)),
             "coverage_by_year_csv": str(COVERAGE_BY_YEAR_CSV.relative_to(ROOT)),
+            "ranked_play_count_coverage_by_month_csv": str(RANKED_PLAY_COUNT_COVERAGE_BY_MONTH_CSV.relative_to(ROOT)),
             "catalog_priorities_csv": str(CATALOG_PRIORITIES_CSV.relative_to(ROOT)),
             "final_chart_staleness_csv": str(FINAL_CHART_STALENESS_CSV.relative_to(ROOT)),
             "play_count_decreases_csv": str(PLAY_COUNT_DECREASES_CSV.relative_to(ROOT)),
@@ -492,6 +580,7 @@ def main() -> None:
                 f"- Ranked rows: {report['ranked_rows']}",
                 f"- Ranked rows with play counts: {report['ranked_rows_with_play_counts']}",
                 f"- Ranked date range: {report['ranked_date_range'][0]} to {report['ranked_date_range'][1]}",
+                f"- Ranked months with rows but zero listing play counts: {report['ranked_months_without_listing_play_counts']} ({report['ranked_listing_play_count_zero_month_range'][0]} to {report['ranked_listing_play_count_zero_month_range'][1]})",
                 f"- Mini catalog games: {report['catalog_games']}",
                 f"- Metrics history rows/games: {report['metrics_history_rows']} / {report['metrics_history_games']}",
                 f"- Metrics date range: {report['metrics_history_date_range'][0]} to {report['metrics_history_date_range'][1]}",

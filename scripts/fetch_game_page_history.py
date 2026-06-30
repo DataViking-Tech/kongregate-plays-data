@@ -48,6 +48,7 @@ class ProfileGame:
     game_name: str
     canonical_key: str
     tier: int
+    priority_score: int
     best_rank: int
     top_n_appearances: int
     listing_play_count_rows: int
@@ -62,6 +63,7 @@ class GamePageJob:
     game_name: str
     canonical_key: str
     tier: int
+    priority_score: int
     best_rank: int
     first_seen_date: str
     last_seen_date: str
@@ -201,6 +203,14 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
     with profile_csv.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             tier = parse_int(row.get("followup_tier"))
+            if not tier:
+                need = str(row.get("needs_game_page_history", "")).strip().lower()
+                if need == "yes":
+                    tier = 1
+                elif need == "partial":
+                    tier = 2
+                else:
+                    tier = 3
             if tiers and tier not in tiers:
                 continue
             game_url = row.get("game_url", "")
@@ -211,6 +221,7 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
                     game_name=row.get("game_name", ""),
                     canonical_key=canonical_key,
                     tier=tier,
+                    priority_score=parse_int(row.get("priority_score")),
                     best_rank=parse_int(row.get("best_rank")),
                     top_n_appearances=parse_int(row.get("top_n_appearances")),
                     listing_play_count_rows=parse_int(row.get("listing_play_count_rows")),
@@ -222,6 +233,7 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
     games.sort(
         key=lambda game: (
             game.tier,
+            -game.priority_score,
             game.best_rank or 999999,
             -game.listing_play_count_rows,
             -game.top_n_appearances,
@@ -340,6 +352,7 @@ def build_jobs(
                         game_name=game.game_name,
                         canonical_key=game.canonical_key,
                         tier=game.tier,
+                        priority_score=game.priority_score,
                         best_rank=game.best_rank,
                         first_seen_date=game.first_seen_date,
                         last_seen_date=game.last_seen_date,
@@ -359,6 +372,7 @@ def build_jobs(
         deduped.values(),
         key=lambda job: (
             job.tier,
+            -job.priority_score,
             job.best_rank or 999999,
             ranked_window_distance(job),
             job.game_name.lower(),

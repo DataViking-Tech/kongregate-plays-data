@@ -1,10 +1,11 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-06-30T22:30:36Z
+- Run timestamp: 2026-06-30T23:09:08Z
 - As of: 2026-06-30
 - Ranked rows: 47186
 - Ranked rows with play counts: 14518
 - Ranked date range: 2007-01-20 to 2026-06-26
+- Ranked months with rows but zero listing play counts: 134 (2014-09 to 2025-10)
 - Mini catalog games: 2928
 - Metrics history rows/games: 7623 / 2572
 - Metrics date range: 2007-03-24 to 2026-06-30
@@ -12,6 +13,7 @@
 
 ## Top Issues
 
+- HIGH plays/ranked_months_without_listing_play_counts: 134 - Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text.
 - HIGH metrics/catalog_games_without_metrics_history: 356 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 2247 - Continue per-game metrics history backfill.
 - MEDIUM plays/play_count_decreases: 7 - Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.

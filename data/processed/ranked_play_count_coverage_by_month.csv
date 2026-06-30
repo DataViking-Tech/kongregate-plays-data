@@ -1,0 +1,235 @@
+month,ranked_rows,ranked_rows_with_play_counts,ranked_play_count_rate,parsers,ranking_types,layout_hints,example_missing_game,example_missing_source_url,example_missing_html_path
+2007-01,77,77,1.0,legacy_games_table:75; legacy_game_blocks:2,most_played:75; browse:2,,,,
+2007-02,135,135,1.0,legacy_games_table:135,most_played:135,,,,
+2007-03,75,75,1.0,legacy_games_table:75,most_played:75,,,,
+2007-04,32,32,1.0,legacy_games_table:30; legacy_game_blocks:2,most_played:30; browse:2,,,,
+2007-05,30,30,1.0,legacy_games_table:30,most_played:30,,,,
+2007-06,15,15,1.0,legacy_games_table:15,most_played:15,,,,
+2007-07,30,30,1.0,legacy_games_table:30,most_played:30,,,,
+2007-08,2,2,1.0,legacy_game_blocks:2,browse:2,,,,
+2007-09,45,45,1.0,legacy_games_table:45,most_played:45,,,,
+2007-10,135,135,1.0,legacy_games_table:135,most_played:135,,,,
+2007-11,15,15,1.0,legacy_games_table:15,most_played:15,,,,
+2007-12,28,28,1.0,legacy_game_blocks:28,browse:28,,,,
+2008-01,2,2,1.0,legacy_game_blocks:2,browse:2,,,,
+2008-02,63,63,1.0,legacy_games_table:45; legacy_game_blocks:18,category_top:45; browse:18,,,,
+2008-03,52,52,1.0,legacy_games_table:30; legacy_game_blocks:22,category_top:30; browse:22,,,,
+2008-04,225,225,1.0,legacy_games_table:225,category_top:120; most_played:105,,,,
+2008-05,135,135,1.0,legacy_games_table:135,category_top:90; most_played:45,,,,
+2008-06,210,210,1.0,legacy_games_table:210,most_played:150; category_top:60,,,,
+2008-07,225,225,1.0,legacy_games_table:225,category_top:225,,,,
+2008-08,403,403,1.0,legacy_games_table:375; legacy_game_blocks:28,category_top:375; browse:28,,,,
+2008-09,314,314,1.0,legacy_games_table:300; legacy_game_blocks:14,category_top:300; browse:14,,,,
+2008-10,45,45,1.0,legacy_games_table:45,most_played:30; category_top:15,,,,
+2008-11,190,190,1.0,legacy_games_table:180; legacy_game_blocks:10,category_top:120; most_played:60; browse:10,,,,
+2008-12,45,45,1.0,legacy_games_table:45,most_played:45,,,,
+2009-01,15,15,1.0,legacy_games_table:15,category_top:15,,,,
+2009-02,60,60,1.0,legacy_games_table:60,most_played:60,,,,
+2009-03,480,480,1.0,legacy_games_table:480,category_top:300; most_played:180,,,,
+2009-04,60,60,1.0,legacy_games_table:60,most_played:60,,,,
+2009-05,207,207,1.0,legacy_games_table:207,most_played:192; top_rated:15,,,,
+2009-06,15,15,1.0,legacy_games_table:15,newest:15,,,,
+2009-07,105,105,1.0,legacy_games_table:105,most_played:105,,,,
+2009-08,180,180,1.0,legacy_games_table:180,most_played:180,,,,
+2009-09,15,15,1.0,legacy_games_table:15,most_played:15,,,,
+2009-10,90,90,1.0,game_listing:75; legacy_games_table:15,top_rated:60; most_played:15; newest:15,,,,
+2009-11,2,2,1.0,legacy_game_blocks:2,oldest:2,,,,
+2009-12,209,209,1.0,legacy_game_blocks:110; game_browser_game_row:99,top_rated:177; most_played:32,,,,
+2010-01,219,219,1.0,game_browser_game_row:159; legacy_game_blocks:60,top_rated:172; most_played:26; browse:21,,,,
+2010-02,176,176,1.0,game_browser_game_row:176,top_rated:104; browse:64; most_played:8,,,,
+2010-03,224,224,1.0,game_browser_game_row:224,top_rated:136; browse:80; most_played:8,,,,
+2010-04,24,24,1.0,game_browser_game_row:24,top_rated:24,,,,
+2010-05,8,8,1.0,game_browser_game_row:8,category_top:8,,,,
+2010-06,24,24,1.0,game_browser_game_row:24,most_played:8; top_rated:8; category_top:8,,,,
+2010-07,24,24,1.0,game_browser_game_row:24,category_top:16; top_rated:8,,,,
+2010-08,120,120,1.0,game_browser_game_row:120,category_top:80; top_rated:40,,,,
+2010-09,104,104,1.0,game_browser_game_row:104,category_top:72; top_rated:32,,,,
+2010-10,104,104,1.0,game_browser_game_row:104,category_top:56; top_rated:24; newest:24,,,,
+2010-11,64,64,1.0,game_browser_game_row:64,top_rated:40; newest:24,,,,
+2010-12,32,32,1.0,game_browser_game_row:32,top_rated:24; newest:8,,,,
+2011-01,32,32,1.0,game_browser_game_row:32,top_rated:24; newest:8,,,,
+2011-02,88,88,1.0,game_browser_game_row:88,category_top:56; newest:16; top_rated:16,,,,
+2011-03,88,88,1.0,game_browser_game_row:88,newest:48; top_rated:32; category_top:8,,,,
+2011-04,152,152,1.0,game_browser_game_row:152,category_top:80; top_rated:40; newest:32,,,,
+2011-05,152,152,1.0,game_browser_game_row:152,category_top:96; top_rated:48; newest:8,,,,
+2011-06,112,112,1.0,game_browser_game_row:112,newest:56; top_rated:56,,,,
+2011-07,304,304,1.0,game_browser_game_row:304,category_top:160; top_rated:80; newest:56; most_played:8,,,,
+2011-08,360,360,1.0,game_browser_game_row:360,category_top:152; top_rated:88; browse:80; newest:32; oldest:8,,,,
+2011-09,104,104,1.0,game_browser_game_row:104,browse:56; top_rated:32; category_top:16,,,,
+2011-10,216,216,1.0,game_browser_game_row:216,top_rated:96; category_top:88; browse:24; most_played:8,,,,
+2011-11,256,256,1.0,game_browser_game_row:256,category_top:168; top_rated:88,,,,
+2011-12,240,240,1.0,game_browser_game_row:240,category_top:144; top_rated:80; most_played:8; newest:8,,,,
+2012-01,112,112,1.0,game_browser_game_row:112,category_top:64; top_rated:24; most_played:16; oldest:8,,,,
+2012-02,192,192,1.0,game_browser_game_row:192,category_top:152; most_played:32; top_rated:8,,,,
+2012-03,264,264,1.0,game_browser_game_row:264,category_top:232; top_rated:24; most_played:8,,,,
+2012-04,304,304,1.0,game_browser_game_row:304,category_top:168; top_rated:96; most_played:40,,,,
+2012-05,224,224,1.0,game_browser_game_row:224,category_top:160; most_played:32; top_rated:32,,,,
+2012-06,200,200,1.0,game_browser_game_row:200,category_top:160; top_rated:40,,,,
+2012-07,232,232,1.0,game_browser_game_row:232,category_top:160; top_rated:56; browse:8; most_played:8,,,,
+2012-08,432,432,1.0,game_browser_game_row:432,category_top:304; top_rated:112; most_played:16,,,,
+2012-09,304,304,1.0,game_browser_game_row:304,category_top:304,,,,
+2012-10,8,8,1.0,game_browser_game_row:8,most_played:8,,,,
+2012-11,72,72,1.0,game_browser_game_row:72,top_rated:40; newest:16; most_played:16,,,,
+2012-12,16,16,1.0,game_browser_game_row:16,top_rated:16,,,,
+2013-01,32,32,1.0,game_browser_game_row:32,top_rated:24; most_played:8,,,,
+2013-02,24,24,1.0,game_browser_game_row:24,category_top:24,,,,
+2013-03,40,40,1.0,game_browser_game_row:40,top_rated:32; most_played:8,,,,
+2013-04,16,16,1.0,game_browser_game_row:16,browse:8; newest:8,,,,
+2013-05,32,32,1.0,game_browser_game_row:32,browse:24; most_played:8,,,,
+2013-06,32,32,1.0,game_browser_game_row:32,browse:16; top_rated:8; most_played:8,,,,
+2013-07,16,16,1.0,game_browser_game_row:16,category_top:16,,,,
+2013-08,16,16,1.0,game_browser_game_row:16,browse:8; top_rated:8,,,,
+2013-09,8,8,1.0,game_browser_game_row:8,newest:8,,,,
+2013-10,24,24,1.0,game_browser_game_row:24,browse:16; top_rated:8,,,,
+2013-11,8,8,1.0,game_browser_game_row:8,newest:8,,,,
+2013-12,16,16,1.0,game_browser_game_row:16,top_rated:8; browse:8,,,,
+2014-01,56,56,1.0,game_browser_game_row:56,browse:32; top_rated:24,,,,
+2014-02,264,264,1.0,game_browser_game_row:264,category_top:160; top_rated:56; browse:48,,,,
+2014-03,32,32,1.0,game_browser_game_row:32,top_rated:32,,,,
+2014-04,64,64,1.0,game_browser_game_row:64,top_rated:32; category_top:16; browse:8; newest:8,,,,
+2014-05,56,56,1.0,game_browser_game_row:56,top_rated:40; category_top:16,,,,
+2014-06,232,232,1.0,game_browser_game_row:232,category_top:152; newest:40; top_rated:40,,,,
+2014-07,72,70,0.9722,game_browser_game_row:72,newest:40; top_rated:32,new_game_browser_layout-control:2,AZ Tank Game,http://www.kongregate.com:80/games?sort=newest,data/raw/html/20140726111112_http_www.kongregate.com_80_games_sort_newest_0aa834be4dd4e36f.html
+2014-08,351,231,0.6581,game_browser_game_row:351,category_top:187; newest:99; top_rated:65,new_game_browser_layout-new_layout:119; new_game_browser_layout-control:1,Pou Popper,http://www.kongregate.com/games?sort=newest,data/raw/html/20140808170343_http_www.kongregate.com_games_sort_newest_55dd7615d4cf6d66.html
+2014-09,238,0,0.0,game_browser_game_row:238,newest:153; top_rated:68; category_top:17,new_game_browser_layout-new_layout:238,Last Warrior,http://www.kongregate.com:80/games?sort=newest,data/raw/html/20140902080447_http_www.kongregate.com_80_games_sort_newest_0df7366361d9d50a.html
+2014-10,459,0,0.0,game_browser_game_row:459,browse:187; newest:170; top_rated:102,browser_layout_split_test_game:442; new_game_browser_layout-new_layout:17,Contract Wars,http://www.kongregate.com:80/games,data/raw/html/20141001143849_http_www.kongregate.com_80_games_9607d80af08cf6d3.html
+2014-11,459,0,0.0,game_browser_game_row:459,category_top:374; newest:34; top_rated:34; most_played:17,browser_layout_split_test_game:459,The Company of Myself,http://www.kongregate.com:80/puzzle-games,data/raw/html/20141101114717_http_www.kongregate.com_80_puzzle-games_5aa71eb1116a507a.html
+2014-12,425,0,0.0,game_browser_game_row:425,category_top:238; newest:85; top_rated:68; most_played:34,browser_layout_split_test_game:425,Burrito Bison Revenge,http://www.kongregate.com/action-games,data/raw/html/20141202024626_http_www.kongregate.com_action-games_11088986e5001d05.html
+2015-01,442,0,0.0,game_browser_game_row:442,category_top:374; most_played:51; top_rated:17,browser_layout_split_test_game:442,Burrito Bison Revenge,http://www.kongregate.com:80/action-games,data/raw/html/20150101134255_http_www.kongregate.com_80_action-games_84ff7b1901664a39.html
+2015-02,442,0,0.0,game_browser_game_row:442,category_top:391; most_played:51,browser_layout_split_test_game:442,Burrito Bison Revenge,http://www.kongregate.com:80/action-games,data/raw/html/20150206140720_http_www.kongregate.com_80_action-games_eb8be0206373a18e.html
+2015-03,136,0,0.0,game_browser_game_row:136,most_played:68; category_top:68,browser_layout_split_test_game:136,AdVenture Capitalist,http://www.kongregate.com:80/most-played-games,data/raw/html/20150301125531_http_www.kongregate.com_80_most-played-games_41b96f290e9a60ee.html
+2015-04,289,0,0.0,game_browser_game_row:289,category_top:204; top_rated:34; browse:34; newest:17,browser_layout_split_test_game:289,The Enchanted Cave 2,http://www.kongregate.com:80/adventure-games?,data/raw/html/20150401233622_http_www.kongregate.com_80_adventure-games_3cff69d058b1d08f.html
+2015-05,85,0,0.0,game_browser_game_row:85,top_rated:51; most_played:34,browser_layout_split_test_game:85,AdVenture Capitalist,http://www.kongregate.com:80/most-played-games,data/raw/html/20150506132118_http_www.kongregate.com_80_most-played-games_b7549c7fe3cb7c91.html
+2015-06,17,0,0.0,game_browser_game_row:17,top_rated:17,browser_layout_split_test_game:17,Bloons TD 5,http://www.kongregate.com/top-rated-games,data/raw/html/20150630203904_http_www.kongregate.com_top-rated-games_cf7e3de960eb449a.html
+2015-07,34,0,0.0,game_browser_game_row:34,category_top:34,browser_layout_split_test_game:34,Bloons TD 5,http://www.kongregate.com/strategy-games,data/raw/html/20150706065214_http_www.kongregate.com_strategy-games_aefab8c29a5f5f6d.html
+2015-08,187,0,0.0,game_browser_game_row:187,top_rated:136; most_played:51,browser_layout_split_test_game:187,Bloons TD 5,http://www.kongregate.com:80/top-rated-games,data/raw/html/20150801072353_http_www.kongregate.com_80_top-rated-games_9012ef29aa4dab8b.html
+2015-09,442,0,0.0,game_browser_game_row:442,browse:238; newest:102; most_played:51; top_rated:51,browser_layout_split_test_game:442,Contract Wars,http://www.kongregate.com:80/games,data/raw/html/20150901045839_http_www.kongregate.com_80_games_c8cccc871b8b440e.html
+2015-10,374,0,0.0,game_browser_game_row:374,category_top:221; top_rated:85; most_played:68,browser_layout_split_test_game:374,Crusaders of the Lost Idols,http://www.kongregate.com:80/Idle-games?,data/raw/html/20151003121101_http_www.kongregate.com_80_Idle-games_454a4feec4a1fa4d.html
+2015-11,408,0,0.0,game_browser_game_row:408,category_top:340; most_played:34; browse:34,browser_layout_split_test_game:408,Crusaders of the Lost Idols,http://www.kongregate.com:80/idle-games?,data/raw/html/20151101042042_http_www.kongregate.com_80_idle-games_c75b1ece619310d4.html
+2015-12,340,0,0.0,game_browser_game_row:340,browse:221; category_top:68; newest:51,browser_layout_split_test_game:340,The Company of Myself,http://www.kongregate.com:80/puzzle-games?,data/raw/html/20151201034814_http_www.kongregate.com_80_puzzle-games_b6264998846a6caf.html
+2016-01,459,0,0.0,game_browser_game_row:459,browse:289; top_rated:119; newest:51,browser_layout_split_test_game:459,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20160102103551_http_www.kongregate.com_80_games_7be3616422b56ab6.html
+2016-02,425,0,0.0,game_browser_game_row:425,browse:238; top_rated:85; newest:51; category_top:51,browser_layout_split_test_game:425,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20160202124041_http_www.kongregate.com_games_9271f20f50dac337.html
+2016-03,527,0,0.0,game_browser_game_row:527,browse:272; top_rated:153; newest:85; category_top:17,browser_layout_split_test_game:527,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20160301142418_http_www.kongregate.com_80_games_9a63e8834e6cc72e.html
+2016-04,476,0,0.0,game_browser_game_row:476,category_top:340; browse:136,browser_layout_split_test_game:476,SAS: Zombie Assault 4,http://www.kongregate.com:80/shooter-games?,data/raw/html/20160402004813_http_www.kongregate.com_80_shooter-games_c8f82dd5a9b6ccf3.html
+2016-05,510,0,0.0,game_browser_game_row:510,browse:255; top_rated:170; newest:68; oldest:17,browser_layout_split_test_game:510,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20160501103447_http_www.kongregate.com_80_games_dc4d5456b963aaa9.html
+2016-06,476,0,0.0,game_browser_game_row:476,browse:255; top_rated:85; newest:85; most_played:17; category_top:17; oldest:17,browser_layout_split_test_game:476,Swords and Souls,http://www.kongregate.com:80/games/?,data/raw/html/20160601041236_http_www.kongregate.com_80_games_77e86478611b9254.html
+2016-07,391,0,0.0,game_browser_game_row:391,browse:272; newest:68; top_rated:34; category_top:17,browser_layout_split_test_game:391,Swords and Souls,http://www.kongregate.com:80/games?,data/raw/html/20160701061625_http_www.kongregate.com_80_games_2d695c1080b89382.html
+2016-08,459,0,0.0,game_browser_game_row:459,browse:272; category_top:85; newest:68; top_rated:34,browser_layout_split_test_game:459,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20160803054822_http_www.kongregate.com_80_games_3ee79c2f54813a67.html
+2016-09,374,0,0.0,game_browser_game_row:374,browse:238; category_top:68; newest:68,browser_layout_split_test_game:374,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20160903174753_http_www.kongregate.com_80_games_eff6f74cd00b2b2f.html
+2016-10,408,0,0.0,game_browser_game_row:408,browse:238; newest:102; category_top:68,browser_layout_split_test_game:408,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20161003193514_http_www.kongregate.com_games_9c3702b7489fb6be.html
+2016-11,612,0,0.0,game_browser_game_row:612,category_top:442; browse:136; top_rated:34,browser_layout_split_test_game:612,Contract Wars,http://www.kongregate.com:80/games?,data/raw/html/20161106213426_http_www.kongregate.com_80_games_941b40fceab6a35a.html
+2016-12,170,0,0.0,game_browser_game_row:170,top_rated:119; browse:34; category_top:17,browser_layout_split_test_game:170,The Enchanted Cave 2,http://www.kongregate.com:80/adventure-games,data/raw/html/20161205132934_http_www.kongregate.com_80_adventure-games_2e4e9694992ae57f.html
+2017-01,442,0,0.0,game_browser_game_row:442,category_top:357; top_rated:85,browser_layout_split_test_game:442,Burrito Bison Revenge,http://www.kongregate.com/action-games,data/raw/html/20170105044314_http_www.kongregate.com_action-games_0011bf39c2bff91f.html
+2017-02,136,0,0.0,game_browser_game_row:136,top_rated:85; most_played:51,browser_layout_split_test_game:136,Contract Wars,http://www.kongregate.com/games?sort=rating,data/raw/html/20170204014729_http_www.kongregate.com_games_sort_rating_aa629a5b36dda4bc.html
+2017-03,459,0,0.0,game_browser_game_row:459,category_top:357; most_played:51; top_rated:51,browser_layout_split_test_game:459,Burrito Bison Revenge,http://www.kongregate.com/action-games,data/raw/html/20170304063315_http_www.kongregate.com_action-games_6e4d28c4a7b62f8a.html
+2017-04,323,0,0.0,game_browser_game_row:323,category_top:289; most_played:34,browser_layout_split_test_game:323,Burrito Bison Revenge,http://www.kongregate.com/action-games,data/raw/html/20170401060404_http_www.kongregate.com_action-games_aeef0640ee864f30.html
+2017-05,680,0,0.0,game_browser_game_row:680,browse:255; top_rated:170; most_played:119; newest:68; category_top:51; oldest:17,browser_layout_split_test_game:680,ASMR Universe(Web),http://www.kongregate.com:80/games?sort=newest,data/raw/html/20170505225154_http_www.kongregate.com_80_games_sort_newest_d8ede2c0550d7524.html
+2017-06,595,0,0.0,game_browser_game_row:595,browse:255; top_rated:136; most_played:119; newest:68; oldest:17,browser_layout_split_test_game:595,Swords and Souls,http://www.kongregate.com:80/top-rated-games,data/raw/html/20170601142134_http_www.kongregate.com_80_top-rated-games_bba42fb4150afb3b.html
+2017-07,374,0,0.0,game_browser_game_row:374,browse:238; newest:85; top_rated:34; oldest:17,browser_layout_split_test_game:374,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20170701133005_http_www.kongregate.com_games_27eaae8bfc6d68cc.html
+2017-08,340,0,0.0,game_browser_game_row:340,browse:255; newest:85,browser_layout_split_test_game:340,Contract Wars,http://www.kongregate.com:80/games,data/raw/html/20170803082048_http_www.kongregate.com_80_games_5250abaeb61427f8.html
+2017-09,357,0,0.0,game_browser_game_row:357,browse:272; newest:68; category_top:17,browser_layout_split_test_game:357,Contract Wars,http://www.kongregate.com/games,data/raw/html/20170902183039_http_www.kongregate.com_games_bdcb0bbab7df3720.html
+2017-10,357,0,0.0,game_browser_game_row:357,browse:289; newest:51; category_top:17,browser_layout_split_test_game:357,Swords and Souls,http://www.kongregate.com:80/games,data/raw/html/20171002005355_http_www.kongregate.com_80_games_1d95d4dd1d4450df.html
+2017-11,323,0,0.0,game_browser_game_row:323,top_rated:153; browse:102; most_played:51; newest:17,browser_layout_split_test_game:323,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20171101195410_http_www.kongregate.com_games_aec692d0314bb4ab.html
+2017-12,17,0,0.0,game_browser_game_row:17,top_rated:17,browser_layout_split_test_game:17,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20171227132625_https_www.kongregate.com_top-rated-games_dc9697c823e7e79d.html
+2018-01,306,0,0.0,legacy_game_blocks:306,homepage_module:306,,Swords and Souls,https://www.kongregate.com/,data/raw/html/20180101070844_https_www.kongregate.com_0017f6f886fcce72.html
+2018-02,90,0,0.0,legacy_game_blocks:90,homepage_module:90,,Swords and Souls,https://www.kongregate.com/,data/raw/html/20180202190123_https_www.kongregate.com_4f1979658b47c404.html
+2018-03,119,0,0.0,game_browser_game_row:119,browse:119,browser_layout_split_test_game:119,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20180308170109_https_www.kongregate.com_games_b9acaaa0af2ee574.html
+2018-04,90,0,0.0,legacy_game_blocks:90,homepage_module:90,,Swords and Souls,https://www.kongregate.com/,data/raw/html/20180402044838_https_www.kongregate.com_3d32a2f8324ec4f0.html
+2018-05,17,0,0.0,game_browser_game_row:17,category_top:17,browser_layout_split_test_game:17,SAS: Zombie Assault 4,https://www.kongregate.com/shooter-games,data/raw/html/20180507125329_https_www.kongregate.com_shooter-games_27d2a859f5bcd764.html
+2018-06,51,0,0.0,game_browser_game_row:51,top_rated:34; category_top:17,browser_layout_split_test_game:51,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20180606213931_https_www.kongregate.com_top-rated-games_813195a0e86dc1d2.html
+2018-07,17,0,0.0,game_browser_game_row:17,browse:17,browser_layout_split_test_game:17,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20180719142900_https_www.kongregate.com_games_9fbfc1870580c224.html
+2018-08,17,0,0.0,game_browser_game_row:17,category_top:17,browser_layout_split_test_game:17,Clicker Heroes,https://www.kongregate.com/idle-games,data/raw/html/20180801204924_https_www.kongregate.com_idle-games_622867501449e4b5.html
+2018-09,17,0,0.0,game_browser_game_row:17,top_rated:17,browser_layout_split_test_game:17,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20180917100746_https_www.kongregate.com_top-rated-games_aa27cb3935bcda2a.html
+2018-10,34,0,0.0,game_browser_game_row:34,top_rated:34,browser_layout_split_test_game:34,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20181010030002_https_www.kongregate.com_top-rated-games_24212334c0c8ee84.html
+2018-11,51,0,0.0,game_browser_game_row:51,top_rated:51,browser_layout_split_test_game:51,Swords and Souls,http://www.kongregate.com/top-rated-games,data/raw/html/20181125161742_http_www.kongregate.com_top-rated-games_69b77da6e4429749.html
+2018-12,85,0,0.0,game_browser_game_row:85,top_rated:68; most_played:17,browser_layout_split_test_game:85,Swords and Souls,http://www.kongregate.com/top-rated-games,data/raw/html/20181204232119_http_www.kongregate.com_top-rated-games_c5dd824b07b774fd.html
+2019-01,391,0,0.0,game_browser_game_row:391,category_top:357; browse:17; top_rated:17,browser_layout_split_test_game:391,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20190108210318_http_www.kongregate.com_games_6712cc39bd4e89fa.html
+2019-02,459,0,0.0,game_browser_game_row:459,category_top:340; top_rated:119,browser_layout_split_test_game:459,Burrito Bison Revenge,http://www.kongregate.com/action-games,data/raw/html/20190201052140_http_www.kongregate.com_action-games_3b5493db54f2178e.html
+2019-03,85,0,0.0,game_browser_game_row:85,category_top:85,browser_layout_split_test_game:85,SAS: Zombie Assault 4,https://www.kongregate.com/shooter-games,data/raw/html/20190302045120_https_www.kongregate.com_shooter-games_ba9cf1a1b7f545d1.html
+2019-04,119,0,0.0,game_browser_game_row:119,top_rated:68; category_top:51,browser_layout_split_test_game:119,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20190401220153_https_www.kongregate.com_top-rated-games_b8ce06f640479f2f.html
+2019-05,68,0,0.0,game_browser_game_row:68,category_top:68,browser_layout_split_test_game:68,Medieval Chronicles 4,https://www.kongregate.com/puzzle-games,data/raw/html/20190506105327_https_www.kongregate.com_puzzle-games_9ecb977ee3f1a60d.html
+2019-06,68,0,0.0,game_browser_game_row:68,top_rated:68,browser_layout_split_test_game:68,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20190616093727_https_www.kongregate.com_top-rated-games_0005657f8e2d5534.html
+2019-07,374,0,0.0,game_browser_game_row:374,category_top:357; top_rated:17,browser_layout_split_test_game:374,NGU IDLE,https://www.kongregate.com/idle-games,data/raw/html/20190716231446_https_www.kongregate.com_idle-games_f0d0694ac9a57017.html
+2019-08,391,0,0.0,game_browser_game_row:391,browse:221; category_top:119; top_rated:34; newest:17,browser_layout_split_test_game:391,Swords and Souls,http://www.kongregate.com/games,data/raw/html/20190804132030_http_www.kongregate.com_games_64638228a97bc398.html
+2019-09,17,0,0.0,game_browser_game_row:17,top_rated:17,browser_layout_split_test_game:17,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20190922193842_https_www.kongregate.com_top-rated-games_4ebb4e5ea19c61a9.html
+2019-10,561,0,0.0,game_browser_game_row:561,category_top:272; browse:187; top_rated:102,browser_layout_split_test_game:561,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20191007224917_https_www.kongregate.com_games_a08b9b2507fe2d12.html
+2019-11,340,0,0.0,game_browser_game_row:340,category_top:272; browse:68,browser_layout_split_test_game:340,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20191101104341_https_www.kongregate.com_games_4c44bb48b2c9dbe2.html
+2019-12,340,0,0.0,game_browser_game_row:340,browse:170; category_top:170,browser_layout_split_test_game:340,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20191202190558_https_www.kongregate.com_games_b45b032f1e7df00a.html
+2020-01,340,0,0.0,game_browser_game_row:340,category_top:221; browse:119,browser_layout_split_test_game:340,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20200101044434_https_www.kongregate.com_games_50fa5abfadf2f3b6.html
+2020-02,238,0,0.0,game_browser_game_row:238,category_top:238,browser_layout_split_test_game:238,Burrito Bison Revenge,https://www.kongregate.com/action-games,data/raw/html/20200225074408_https_www.kongregate.com_action-games_22eef79e0a514b46.html
+2020-03,255,0,0.0,game_browser_game_row:255,browse:255,browser_layout_split_test_game:255,Epic Battle Fantasy 5,https://www.kongregate.com/games,data/raw/html/20200302080347_https_www.kongregate.com_games_82c8f7d24a949726.html
+2020-04,196,0,0.0,game_browser_game_row:187; legacy_game_blocks:9,category_top:102; browse:85; homepage_module:9,browser_layout_split_test_game:187,Epic Battle Fantasy 5,https://www.kongregate.com/games,data/raw/html/20200402130322_https_www.kongregate.com_games_03545f940b19b630.html
+2020-05,255,0,0.0,game_browser_game_row:255,category_top:255,browser_layout_split_test_game:255,Burrito Bison Revenge,https://www.kongregate.com/action-games,data/raw/html/20200501234340_https_www.kongregate.com_action-games_da29c66e02e66d09.html
+2020-06,349,0,0.0,game_browser_game_row:349,category_top:170; browse:163; top_rated:16,browser_layout_split_test_game:349,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20200602073515_https_www.kongregate.com_games_ad0cbe9c82c82ce5.html
+2020-07,880,0,0.0,game_browser_game_row:880,category_top:336; browse:320; top_rated:224,browser_layout_split_test_game:880,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20200702034500_https_www.kongregate.com_games_3ca085cd18bcbe59.html
+2020-08,208,0,0.0,game_browser_game_row:208,category_top:192; top_rated:16,browser_layout_split_test_game:208,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20200812090632_https_www.kongregate.com_top-rated-games_30809b0269c37f85.html
+2020-09,16,0,0.0,game_browser_game_row:16,top_rated:16,browser_layout_split_test_game:16,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20200918183646_https_www.kongregate.com_top-rated-games_604701761c5eb463.html
+2020-10,96,0,0.0,game_browser_game_row:96,category_top:64; top_rated:32,browser_layout_split_test_game:96,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20201011210758_https_www.kongregate.com_top-rated-games_187fffa20ce9ecf4.html
+2020-11,320,0,0.0,game_browser_game_row:320,browse:160; category_top:160,browser_layout_split_test_game:320,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20201101101700_https_www.kongregate.com_games_dedc9e0d0cf312ca.html
+2020-12,320,0,0.0,game_browser_game_row:320,browse:208; category_top:112,browser_layout_split_test_game:320,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20201201204917_https_www.kongregate.com_games_277cbeae8ae9b9c3.html
+2021-01,329,0,0.0,game_browser_game_row:320; legacy_game_blocks:9,browse:288; category_top:16; newest:16; homepage_module:9,browser_layout_split_test_game:320,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20210101203940_https_www.kongregate.com_games_c2f25e27cc8ccb1c.html
+2021-02,48,0,0.0,game_browser_game_row:48,top_rated:32; category_top:16,browser_layout_split_test_game:48,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20210202125457_https_www.kongregate.com_top-rated-games_8c140cce9174f526.html
+2021-03,96,0,0.0,game_browser_game_row:96,category_top:80; top_rated:16,browser_layout_split_test_game:96,NGU IDLE,https://www.kongregate.com/idle-games,data/raw/html/20210303063435_https_www.kongregate.com_idle-games_e8d5902d2e68743b.html
+2021-04,624,0,0.0,game_browser_game_row:624,category_top:336; top_rated:144; browse:144,browser_layout_split_test_game:624,Burrito Bison Revenge,https://www.kongregate.com/action-games,data/raw/html/20210401170147_https_www.kongregate.com_action-games_53c9afe00fa86755.html
+2021-05,400,0,0.0,game_browser_game_row:400,category_top:192; browse:128; top_rated:80,browser_layout_split_test_game:400,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20210505121602_https_www.kongregate.com_games_e705c1e7365254a7.html
+2021-06,368,0,0.0,game_browser_game_row:368,browse:224; category_top:96; top_rated:48,browser_layout_split_test_game:368,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20210601135129_https_www.kongregate.com_games_65d51534666db4a3.html
+2021-07,272,0,0.0,game_browser_game_row:272,category_top:208; top_rated:48; most_played:16,browser_layout_split_test_game:272,NGU IDLE,https://www.kongregate.com/idle-games,data/raw/html/20210701155230_https_www.kongregate.com_idle-games_7005ce96d202fbbe.html
+2021-08,192,0,0.0,game_browser_game_row:192,category_top:144; top_rated:32; most_played:16,browser_layout_split_test_game:192,Burrito Bison Revenge,https://www.kongregate.com/action-games,data/raw/html/20210804231814_https_www.kongregate.com_action-games_188d18ca7ba10918.html
+2021-09,224,0,0.0,game_browser_game_row:224,browse:208; top_rated:16,browser_layout_split_test_game:224,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20210904013815_https_www.kongregate.com_games_22ac0017e53840f9.html
+2021-10,192,0,0.0,game_browser_game_row:192,browse:112; top_rated:80,browser_layout_split_test_game:192,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20211006104936_https_www.kongregate.com_games_4cd66b217e44c75b.html
+2021-11,480,0,0.0,game_browser_game_row:480,browse:304; top_rated:160; newest:16,browser_layout_split_test_game:480,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20211106111411_https_www.kongregate.com_games_e49875f82c3e0e8a.html
+2021-12,16,0,0.0,game_browser_game_row:16,top_rated:16,browser_layout_split_test_game:16,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20211201181931_https_www.kongregate.com_top-rated-games_04a5e974e4d98f20.html
+2022-01,16,0,0.0,game_browser_game_row:16,top_rated:16,browser_layout_split_test_game:16,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20220114042621_https_www.kongregate.com_top-rated-games_d6ff7e625a2ac156.html
+2022-02,352,0,0.0,game_browser_game_row:352,category_top:256; browse:64; top_rated:32,browser_layout_split_test_game:352,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20220203230027_https_www.kongregate.com_games_14e7ef216e6503df.html
+2022-03,192,0,0.0,game_browser_game_row:192,category_top:128; browse:64,browser_layout_split_test_game:192,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20220309071135_https_www.kongregate.com_games_ae2ed9adb66dde50.html
+2022-04,416,0,0.0,game_browser_game_row:416,category_top:176; browse:144; top_rated:96,browser_layout_split_test_game:416,Infectonator 2,https://www.kongregate.com/action-games,data/raw/html/20220401042517_https_www.kongregate.com_action-games_7ffbb4e33d9f1fb9.html
+2022-05,128,0,0.0,game_browser_game_row:128,top_rated:64; browse:32; category_top:32,browser_layout_split_test_game:128,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20220502165706_https_www.kongregate.com_games_d2b140596c4da1a9.html
+2022-06,32,0,0.0,game_browser_game_row:32,top_rated:32,browser_layout_split_test_game:32,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20220625210231_https_www.kongregate.com_top-rated-games_efadf299a569aca8.html
+2022-07,32,0,0.0,game_browser_game_row:32,top_rated:32,browser_layout_split_test_game:32,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20220706031128_https_www.kongregate.com_top-rated-games_c2808efd517510a9.html
+2022-08,80,0,0.0,game_browser_game_row:80,top_rated:80,browser_layout_split_test_game:80,Swords and Souls,https://www.kongregate.com/top-rated-games,data/raw/html/20220814125324_https_www.kongregate.com_top-rated-games_5872cb659d60da91.html
+2022-09,192,0,0.0,game_browser_game_row:192,browse:128; top_rated:64,browser_layout_split_test_game:192,Swords and Souls,https://www.kongregate.com/games?,data/raw/html/20220901193901_https_www.kongregate.com_games_bb711d82a20cf745.html
+2022-10,320,0,0.0,game_browser_game_row:320,category_top:192; browse:128,browser_layout_split_test_game:320,UnpuzzleX,https://www.kongregate.com/puzzle-games,data/raw/html/20221002161216_https_www.kongregate.com_puzzle-games_200c25fdd4057748.html
+2022-11,32,0,0.0,game_browser_game_row:32,top_rated:32,browser_layout_split_test_game:32,Swords and Souls,https://www.kongregate.com/games?sort=rating,data/raw/html/20221120055656_https_www.kongregate.com_games_sort_rating_6f8ce59368e7eaeb.html
+2022-12,336,0,0.0,game_browser_game_row:336,category_top:256; browse:64; top_rated:16,browser_layout_split_test_game:336,Infectonator 2,https://www.kongregate.com/action-games,data/raw/html/20221202180827_https_www.kongregate.com_action-games_8ea82805ba26e58f.html
+2023-01,144,0,0.0,game_browser_game_row:144,browse:144,browser_layout_split_test_game:144,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230103231248_https_www.kongregate.com_games_82e08aeb6fb66a4a.html
+2023-02,192,0,0.0,game_browser_game_row:192,browse:192,browser_layout_split_test_game:192,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230210025504_https_www.kongregate.com_games_e85f9f32712320cc.html
+2023-03,128,0,0.0,game_browser_game_row:128,browse:128,browser_layout_split_test_game:128,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230304125453_https_www.kongregate.com_games_2782c8a4729d29ee.html
+2023-04,320,0,0.0,game_browser_game_row:320,category_top:240; browse:80,browser_layout_split_test_game:320,Burrito Bison Revenge,https://www.kongregate.com/action-games,data/raw/html/20230401064201_https_www.kongregate.com_action-games_7a77338f71e9823b.html
+2023-05,32,0,0.0,game_browser_game_row:32,browse:32,browser_layout_split_test_game:32,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230508030304_https_www.kongregate.com_games_4390f85daa372820.html
+2023-06,112,0,0.0,game_browser_game_row:112,browse:112,browser_layout_split_test_game:112,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230605103129_https_www.kongregate.com_games_87f9d46f6df3bdc0.html
+2023-07,256,0,0.0,game_browser_game_row:256,category_top:160; browse:96,browser_layout_split_test_game:256,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230703030332_https_www.kongregate.com_games_4aebe0c84654698c.html
+2023-08,32,0,0.0,game_browser_game_row:32,browse:32,browser_layout_split_test_game:32,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230817204713_https_www.kongregate.com_games_5917799ba69cd433.html
+2023-09,320,0,0.0,game_browser_game_row:320,browse:224; category_top:96,browser_layout_split_test_game:320,Swords and Souls,https://www.kongregate.com/games,data/raw/html/20230901215125_https_www.kongregate.com_games_270ba6f46f9a1ce5.html
+2023-10,432,0,0.0,game_browser_game_row:432,category_top:288; top_rated:96; browse:48,browser_layout_split_test_game:432,Bloons TD 5,https://www.kongregate.com/strategy-games,data/raw/html/20231001141819_https_www.kongregate.com_strategy-games_4fc41634de93904f.html
+2023-11,320,0,0.0,game_browser_game_row:320,category_top:272; browse:32; oldest:16,browser_layout_split_test_game:320,Infectonator 2,https://www.kongregate.com/action-games,data/raw/html/20231115010338_https_www.kongregate.com_action-games_6048563641691082.html
+2023-12,36,0,0.0,modern_card_links:20; game_browser_game_row:16,category_top:20; most_played:16,browser_layout_split_test_game:16,UnpuzzleX,https://www.kongregate.com/puzzle-games,data/raw/html/20231201194543_https_www.kongregate.com_puzzle-games_826873091f7f3604.html
+2024-01,215,0,0.0,modern_card_links:215,category_top:170; homepage_module:45,,Infectonator 2,https://www.kongregate.com/action-games/slider,data/raw/html/20240117042919_https_www.kongregate.com_action-games_slider_88edc93caaa6fa73.html
+2024-02,90,0,0.0,modern_card_links:90,category_top:90,,Infectonator 2,https://www.kongregate.com/action-games/slider,data/raw/html/20240211050846_https_www.kongregate.com_action-games_slider_96e7f37f733feb2e.html
+2024-03,24,0,0.0,modern_card_links:24,category_top:24,,NGU IDLE,https://www.kongregate.com/idle-games/slider,data/raw/html/20240406140232_https_www.kongregate.com_idle-games_slider_10b9bde718df7828.html
+2024-04,57,0,0.0,modern_card_links:57,category_top:57,,Bit Heroes,https://www.kongregate.com/adventure-rpg-games/slider,data/raw/html/20240406140232_https_www.kongregate.com_adventure-rpg-games_slider_8a67913dbfaebfa4.html
+2024-05,80,0,0.0,modern_card_links:80,category_top:80,,Bit Heroes,https://www.kongregate.com/adventure-rpg-games/slider,data/raw/html/20240505134332_https_www.kongregate.com_adventure-rpg-games_slider_c2655748acb9ff3b.html
+2024-06,120,0,0.0,modern_card_links:120,category_top:120,,Kuja,https://www.kongregate.com/action-games,data/raw/html/20240605171554_https_www.kongregate.com_action-games_d26557e7da95838b.html
+2024-07,223,0,0.0,modern_card_links:223,category_top:223,,Kuja,https://www.kongregate.com/action-games,data/raw/html/20240705032502_https_www.kongregate.com_action-games_abff59485bc81c11.html
+2024-08,276,0,0.0,modern_card_links:276,category_top:276,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20240807101337_https_www.kongregate.com_action-games_slider_ea869f6dd7e6d29d.html
+2024-09,153,0,0.0,modern_card_links:153,category_top:153,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20240905225705_https_www.kongregate.com_action-games_slider_bd3297b06d687810.html
+2024-10,86,0,0.0,modern_card_links:86,category_top:86,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20241004232551_https_www.kongregate.com_action-games_slider_6d9eca8778d18974.html
+2024-11,82,0,0.0,modern_card_links:82,category_top:82,,Blockade3D,https://www.kongregate.com/shooter-games/slider,data/raw/html/20241110162916_https_www.kongregate.com_shooter-games_slider_76238ba80f1f3644.html
+2024-12,83,0,0.0,modern_card_links:83,category_top:83,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20241204063312_https_www.kongregate.com_action-games_slider_23c691885cb58d99.html
+2025-01,80,0,0.0,modern_card_links:80,category_top:80,,NGU IDLE,https://www.kongregate.com/idle-games,data/raw/html/20250109053434_https_www.kongregate.com_idle-games_feaa4e660e175827.html
+2025-02,143,0,0.0,modern_card_links:143,category_top:143,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250205222853_https_www.kongregate.com_action-games_slider_2cdb3205e5fab8b7.html
+2025-03,148,0,0.0,modern_card_links:148,category_top:148,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250315111633_https_www.kongregate.com_action-games_slider_213a9d2f68f38727.html
+2025-04,300,0,0.0,modern_card_links:300,category_top:300,,Kuja,https://www.kongregate.com/action-games,data/raw/html/20250402220134_https_www.kongregate.com_action-games_9119027ef3fc2f84.html
+2025-05,71,0,0.0,modern_card_links:71,category_top:71,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250520005523_https_www.kongregate.com_action-games_slider_4e86a47a452b9502.html
+2025-06,20,0,0.0,modern_card_links:20,category_top:20,,Gravitee Wars Online,https://www.kongregate.com/multiplayer-games/slider,data/raw/html/20250616093634_https_www.kongregate.com_multiplayer-games_slider_cec10b42b2122e5f.html
+2025-07,83,0,0.0,modern_card_links:83,category_top:83,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250703230519_https_www.kongregate.com_action-games_slider_c133467916c08ce8.html
+2025-08,81,0,0.0,modern_card_links:81,category_top:81,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250727222753_https_www.kongregate.com_action-games_slider_8f96cff996e82ab3.html
+2025-09,100,0,0.0,modern_card_links:100,category_top:100,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20250911055807_https_www.kongregate.com_action-games_slider_4414c465f562b1df.html
+2025-10,199,0,0.0,modern_card_links:199,category_top:199,,Crush The Castle 2,https://www.kongregate.com/action-games/slider,data/raw/html/20251007152846_https_www.kongregate.com_action-games_slider_691ebfcb943db815.html
+2025-11,200,191,0.955,modern_card_links:200,category_top:200,,Symphonic TD,http://www.kongregate.com/en/tower-defense-games,data/raw/html/20251116234801_http_www.kongregate.com_en_tower-defense-games_7af20f7e2c0005b7.html
+2025-12,400,394,0.985,modern_card_links:400,category_top:400,,Sift Heads World Act 4 - Cold Memories,https://www.kongregate.com/shooter-games,data/raw/html/20251210182308_https_www.kongregate.com_shooter-games_77696b92a27bdbc1.html
+2026-01,718,641,0.8928,modern_card_links:718,category_top:718,,Cube Escape: Theatre,https://www.kongregate.com/en/puzzle-games,data/raw/html/20260102032119_https_www.kongregate.com_en_puzzle-games_c31e28abd1f840ee.html
+2026-02,110,110,1.0,modern_card_links:110,browse:60; category_top:50,,,,
+2026-03,210,210,1.0,modern_card_links:210,category_top:150; browse:60,,,,
+2026-04,800,800,1.0,modern_card_links:800,category_top:800,,,,
+2026-05,1150,1150,1.0,modern_card_links:1150,category_top:1150,,,,
+2026-06,200,200,1.0,modern_card_links:200,category_top:200,,,,
