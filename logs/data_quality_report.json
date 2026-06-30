@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-30T19:01:46Z",
+  "run_timestamp": "2026-06-30T19:13:03Z",
   "as_of": "2026-06-30",
   "ranked_rows": 47186,
   "ranked_rows_with_play_counts": 14518,
@@ -8,7 +8,7 @@
     "2026-06-26"
   ],
   "catalog_games": 2936,
-  "metrics_history_rows": 7199,
+  "metrics_history_rows": 7250,
   "metrics_history_games": 2569,
   "metrics_history_date_range": [
     "2013-09-18",
@@ -26,7 +26,7 @@
   "games_with_multiple_url_variants": 427,
   "duplicate_catalog_canonical_games": 0,
   "play_count_decreases": 6,
-  "stale_listing_play_count_observations": 216,
+  "stale_listing_play_count_observations": 220,
   "issues": [
     {
       "severity": "high",
@@ -62,7 +62,7 @@
       "severity": "low",
       "area": "plays",
       "issue_type": "stale_listing_play_count_observations",
-      "count": 216,
+      "count": 220,
       "first_date": "2025-12-15",
       "last_date": "2025-12-03",
       "example": "The Tickler",
