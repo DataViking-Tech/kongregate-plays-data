@@ -261,6 +261,7 @@ def main() -> None:
     parser.add_argument("--timeout", type=int, default=18, help="Per-request timeout in seconds.")
     parser.add_argument("--sleep", type=float, default=0.25, help="Seconds to sleep after each live metrics attempt.")
     parser.add_argument("--refresh", action="store_true", help="Refetch even if a valid live metrics cache exists.")
+    parser.add_argument("--retry-failures", action="store_true", help="Retry games already listed in the live failure cache.")
     args = parser.parse_args()
 
     for directory in (RAW_LIVE_JSON, PROCESSED, LOGS):
@@ -276,10 +277,17 @@ def main() -> None:
     failures = read_json(FAILURE_PATH, {})
     timestamp = timestamp_now()
     pending = []
+    known_failures_skipped = 0
     for game in scope:
         relative = str(live_cache_path(game).relative_to(ROOT))
-        if args.refresh or not metrics_payload_is_valid(live_cache_path(game)) or relative not in manifest:
-            pending.append(game)
+        needs_fetch = args.refresh or not metrics_payload_is_valid(live_cache_path(game)) or relative not in manifest
+        if not needs_fetch:
+            continue
+        key = canonical_game_url(game.game_url)
+        if key in failures and not (args.refresh or args.retry_failures):
+            known_failures_skipped += 1
+            continue
+        pending.append(game)
 
     selected = pending if args.max_fetches == 0 else pending[: args.max_fetches]
     fetched = 0
@@ -327,6 +335,7 @@ def main() -> None:
         "catalog_offset": args.catalog_offset,
         "catalog_limit": args.catalog_limit,
         "games_in_scope": len(scope),
+        "known_failures_skipped": known_failures_skipped,
         "pending_before_run": len(pending),
         "attempted_this_run": len(selected),
         "fetched_this_run": fetched,
@@ -347,6 +356,7 @@ def main() -> None:
                 f"- Target statuses: {', '.join(report['statuses'])}",
                 f"- Targeted games: {report['targeted_games']}",
                 f"- Games in scope: {report['games_in_scope']}",
+                f"- Known failures skipped: {report['known_failures_skipped']}",
                 f"- Pending before run: {report['pending_before_run']}",
                 f"- Attempted this run: {report['attempted_this_run']}",
                 f"- Fetched this run: {report['fetched_this_run']}",

@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-06-30T05:15:43Z",
+  "run_timestamp": "2026-06-30T05:37:06Z",
   "as_of": "2026-06-30",
   "ranked_rows": 36325,
   "ranked_rows_with_play_counts": 11087,
@@ -8,14 +8,14 @@
     "2026-06-26"
   ],
   "catalog_games": 3007,
-  "metrics_history_rows": 5565,
-  "metrics_history_games": 1445,
+  "metrics_history_rows": 5662,
+  "metrics_history_games": 1542,
   "metrics_history_date_range": [
     "2013-09-18",
     "2026-06-30"
   ],
   "zero_ranked_capture_months": 66,
-  "catalog_games_without_metrics_history": 1141,
+  "catalog_games_without_metrics_history": 1044,
   "catalog_games_need_page_history": 2311,
   "final_chart_entries_stale_over_one_year": 0,
   "invalid_cached_html_files": 0,
@@ -24,7 +24,7 @@
   "missing_url_rows": 0,
   "duplicate_ranked_rows": 3437,
   "games_with_multiple_url_variants": 349,
-  "play_count_decreases": 0,
+  "play_count_decreases": 1,
   "stale_listing_play_count_observations": 148,
   "issues": [
     {
@@ -41,7 +41,7 @@
       "severity": "high",
       "area": "metrics",
       "issue_type": "catalog_games_without_metrics_history",
-      "count": 1141,
+      "count": 1044,
       "first_date": "",
       "last_date": "",
       "example": "as3q32@gmail.com",
@@ -76,6 +76,16 @@
       "last_date": "",
       "example": "www.kongregate.com/games/ioji/warbears: ['http://kongregate.com/games/ioji/warbears', 'http://www.kongregate.com/games/ioji/warbears']",
       "recommended_action": "Use canonical URL keys for joins and charting; consider canonicalizing processed rows."
+    },
+    {
+      "severity": "medium",
+      "area": "plays",
+      "issue_type": "play_count_decreases",
+      "count": 1,
+      "first_date": "2026-06-30",
+      "last_date": "2026-06-30",
+      "example": "Revenge on Anders Behr...",
+      "recommended_action": "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."
     },
     {
       "severity": "low",
