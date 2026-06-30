@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1L4A-dxkk5tN07OiKRol-oPTIgKfxH29CP2qFlxCN3HE";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1igEJLyR920UO4n4vSWyvjkvDen2LVdg2CTlVnlwL08o";
 
 const topN = 12;
 
@@ -170,8 +170,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 920ms;
-      --move-ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --move-duration: 1080ms;
+      --move-ease: cubic-bezier(0.16, 1, 0.3, 1);
     }
 
     * {
@@ -562,7 +562,7 @@ function htmlDocument() {
         <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
         <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
       </div>
-        <label class="speed">Speed <input id="speedSlider" type="range" min="1100" max="3600" value="1300" step="50" aria-label="Speed"></label>
+        <label class="speed">Speed <input id="speedSlider" type="range" min="1250" max="4200" value="1450" step="50" aria-label="Speed"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
@@ -605,7 +605,7 @@ function htmlDocument() {
     const rowStep = 54;
     const visibleRows = 12;
     const renderedRows = visibleRows + 2;
-    const transitionMs = 920;
+    const transitionMs = 1080;
     const exitMs = transitionMs + 100;
     const smoothStepsPerMonth = 10;
     const rowsByKey = new Map();
@@ -972,7 +972,7 @@ function htmlDocument() {
       }
 
       const frame = frames[nextIndex];
-      const entries = frame.entries.slice(0, playbackMode === "smooth" ? visibleRows : renderedRows);
+      const entries = frame.entries.slice(0, renderedRows);
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
       const activeKeys = new Set();
 
@@ -993,7 +993,7 @@ function htmlDocument() {
       }
 
       entries.forEach((entry, index) => {
-        const rowKey = playbackMode === "smooth" ? \`slot:\${index}\` : entry.key;
+        const rowKey = entry.key;
         let row = rowsByKey.get(rowKey);
         const isNew = !row;
         if (!row) {
