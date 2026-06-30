@@ -1,14 +1,14 @@
 {
-  "catalog_games": 2938,
+  "catalog_games": 2990,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
   "games_without_metrics_rows": 1314,
-  "generated_at": "2026-06-30T00:04:08Z",
-  "known_failed_captures": 760,
+  "generated_at": "2026-06-30T00:14:30Z",
+  "known_failed_captures": 795,
   "missing_cdx_cache_files": 847,
   "status_counts": {
     "cdx_cache_missing": 736,
-    "has_metrics": 1624,
+    "has_metrics": 1676,
     "known_failures_only": 39,
     "no_cdx": 539
   },
@@ -289,5 +289,5 @@
       "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 8476
+  "valid_cached_captures": 8717
 }
