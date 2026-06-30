@@ -2,15 +2,15 @@
   "catalog_games": 3007,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 1316,
-  "generated_at": "2026-06-30T01:49:15Z",
-  "known_failed_captures": 772,
-  "missing_cdx_cache_files": 769,
+  "games_without_metrics_rows": 1308,
+  "generated_at": "2026-06-30T02:09:19Z",
+  "known_failed_captures": 867,
+  "missing_cdx_cache_files": 738,
   "status_counts": {
-    "cdx_cache_missing": 670,
-    "has_metrics": 1691,
-    "known_failures_only": 43,
-    "no_cdx": 603
+    "cdx_cache_missing": 647,
+    "has_metrics": 1699,
+    "known_failures_only": 44,
+    "no_cdx": 617
   },
   "top_unresolved_games": [
     {
@@ -289,5 +289,5 @@
       "status": "cdx_cache_missing"
     }
   ],
-  "valid_cached_captures": 8907
+  "valid_cached_captures": 9113
 }
