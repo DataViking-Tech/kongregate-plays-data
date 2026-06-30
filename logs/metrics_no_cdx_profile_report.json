@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-30T22:18:05Z",
-  "total_no_cdx_games": 357,
+  "generated_at": "2026-06-30T22:30:25Z",
+  "total_no_cdx_games": 356,
   "followup_tier_counts": {
-    "1": 10,
+    "1": 9,
     "2": 1,
     "3": 106,
     "4": 240
@@ -10,12 +10,12 @@
   "profile_bucket_counts": {
     "single_capture_no_listing_count_no_metrics": 240,
     "single_capture_listing_count_no_metrics": 106,
-    "ranked_listing_count_gaps_no_metrics": 10,
+    "ranked_listing_count_gaps_no_metrics": 9,
     "complete_listing_counts_no_metrics": 1
   },
   "ranked_listing_coverage_counts": {
     "no": 107,
-    "yes": 250
+    "yes": 249
   },
   "first_seen_year_counts": {
     "2008": 2,
@@ -26,16 +26,16 @@
     "2013": 18,
     "2014": 73,
     "2015": 29,
-    "2016": 77,
+    "2016": 76,
     "2017": 78,
     "2019": 3,
     "2021": 2,
     "2024": 5,
     "2025": 1
   },
-  "high_value_followup_games": 11,
+  "high_value_followup_games": 10,
   "low_information_single_capture_games": 240,
-  "ranked_listing_count_gap_games": 250,
+  "ranked_listing_count_gap_games": 249,
   "complete_listing_coverage_no_cdx_games": 107,
   "top_high_value_examples": [
     {
@@ -156,21 +156,6 @@
       "needs_game_page_history": "yes",
       "first_seen_date": "2017-04-01",
       "last_seen_date": "2017-04-15",
-      "recommendation": "Prioritize page-history recovery; at least one ranked-list appearance still lacks a play count and metrics.json has no CDX history."
-    },
-    {
-      "followup_tier": 1,
-      "profile_bucket": "ranked_listing_count_gaps_no_metrics",
-      "game_name": "SpaceWars!",
-      "game_url": "http://www.kongregate.com/games/Matty/spacewars",
-      "canonical_game_key": "www.kongregate.com/games/matty/spacewars",
-      "best_rank": 14,
-      "top_n_appearances": 5,
-      "listing_play_count_rows": 0,
-      "max_listing_play_count_observed": 0,
-      "needs_game_page_history": "yes",
-      "first_seen_date": "2016-05-25",
-      "last_seen_date": "2017-07-24",
       "recommendation": "Prioritize page-history recovery; at least one ranked-list appearance still lacks a play count and metrics.json has no CDX history."
     },
     {

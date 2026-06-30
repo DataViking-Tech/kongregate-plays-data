@@ -1,20 +1,20 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-06-30T22:17:32Z
-- Profile games in scope: 3
-- CDX games considered: 3
+- Run timestamp: 2026-06-30T22:30:02Z
+- Profile games in scope: 1
+- CDX games considered: 1
 - Cached CDX only: True
-- Game-name filter: spacewars,endless flight,mike shadow
-- CDX rows: 153
-- Page jobs: 153
-- Pending before run: 113
+- Game-name filter: spacewars
+- CDX rows: 72
+- Page jobs: 72
+- Pending before run: 58
 - Attempted this run: 50
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 0
+- No explicit count this run: 29
 - Failed this run: 50
-- Manifest entries: 143
-- Known failures: 244
-- Combined history rows: 7609
-- Game-page history rows: 143
+- Manifest entries: 157
+- Known failures: 320
+- Combined history rows: 7623
+- Game-page history rows: 157
 - Report only: False

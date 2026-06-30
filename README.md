@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1Pz9Ie8ORWW82isE68DrtHpjcUIZzDuIhP4GcrXgmSNo
+https://docs.google.com/spreadsheets/d/13TlH-0HrsRdSgG0uVmN_nCPFVhTRoWZRDVsdfZr-pjM
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,609 across 2,571 canonical games
-- Observed play-count rows used by the chart: 22,127
-- Chart playback: Smooth mode uses 6,525 interpolated month-paced display frames by default; Captures mode exposes all 2,261 observed capture-date frames.
+- Per-game play-history rows: 7,623 across 2,572 canonical games
+- Observed play-count rows used by the chart: 22,141
+- Chart playback: Smooth mode uses 6,525 interpolated month-paced display frames by default; Captures mode exposes all 2,267 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Per-game play-history date range: 2007-03-24 to 2026-06-30
 
@@ -54,14 +54,15 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 48 added an explicit canonical alias map for proven developer/owner renames, merging URL-split identities such as Bowmaster Prelude, CS Portable, Fantastic Contraption, Super Stacker 2, Freefall Tournament, Spiral Knights, Transformice, and Murloc RPG. This reduced the mini catalog from 2,936 to 2,928 canonical games, removed Bowmaster Prelude and CS Portable from the durable no-history gap list, and left Bubble Shooter Exclusive as the only tier-1 no-CDX target.
 - Visualization polish after checkpoint 48 reduced Smooth-mode interpolation churn from 19,573 to 6,525 display frames and uses CSS transitions between frames for steadier row motion.
 - Checkpoint 49 recovered 19 high-confidence archived game-page observations for Endless Flight 2, increasing game-page history rows to 143 and reducing unresolved no-CDX games from 358 to 357. It also retiered the no-CDX profile so true ranked-list play-count gaps are prioritized ahead of games whose ranked appearances already have listing counts.
+- Checkpoint 50 recovered 14 high-confidence archived game-page observations for SpaceWars!, increasing game-page history rows to 157 and reducing unresolved no-CDX games from 357 to 356.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
-- 357 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 357 unresolved no-CDX cases, and 0 missing CDX cache files.
-- The no-CDX profile splits those 357 games into 10 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count.
+- 356 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 356 unresolved no-CDX cases, and 0 missing CDX cache files.
+- The no-CDX profile splits those 356 games into 9 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count.
 - 7 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the added Transformice decrease comes from comparing renamed URL metrics sources.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
