@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1iFyZ5qEsHAKhI-e6jsu_FscJNwq38gHUCs2xHmIA0uM
+https://docs.google.com/spreadsheets/d/1L6gfow8oE80Fv4KV_6qDlxsw9Nos7udpogAFjkd9qFM
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,936 canonical games that reached top 20 in observed rankings
-- Per-game metrics history rows: 7,446 across 2,569 canonical games
-- Observed play-count rows used by the chart: 21,964
-- Chart playback: Smooth mode uses 7,457 interpolated month-paced display frames by default; Captures mode exposes all 2,175 observed capture-date frames.
+- Per-game metrics history rows: 7,466 across 2,569 canonical games
+- Observed play-count rows used by the chart: 21,984
+- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,177 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Metrics-history date range: 2013-09-18 to 2026-06-30
 
@@ -48,13 +48,14 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 42 recovered 51 additional archived metrics observations from catalog chunks 1320, 1440, and 1560, then confirmed chunk 1680 was effectively dry; known failed archived captures fell to 226.
 - Checkpoint 43 completed the remaining chunked mini-catalog sweep from offsets 1800 through 2880, recovered 94 additional archived metrics observations, and reduced known failed archived captures to 132.
 - Checkpoint 44 added `--audit-known-failures-only`, recovered 102 additional archived metrics observations from targeted missing-CDX and known-failure retry passes, reduced missing CDX cache files to 17, and reduced known failed archived captures to 47.
+- Checkpoint 45 recovered 20 additional archived metrics observations from final missing-CDX and known-failure retry passes, reduced missing CDX cache files to 0, and reduced known failed archived captures to 37.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 367 mini-catalog games still have no per-game metrics rows, and 2,250 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 47 known failed archived captures, 367 unresolved no-CDX cases, 17 missing CDX cache files noted for targeted follow-up, and 0 known-failures-only cases.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 367 unresolved no-CDX cases, and 0 missing CDX cache files.
 - 6 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
@@ -85,6 +86,7 @@ python3 scripts/fetch_game_metrics_history.py --catalog-offset 0 --catalog-limit
 python3 scripts/fetch_live_game_metrics.py --statuses no_cdx,known_failures_only,cdx_cache_missing --max-fetches 140
 python3 scripts/fetch_game_metrics_history.py --audit-statuses cdx_cache_missing --max-cdx-games 40 --max-fetches 80
 python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-history-only --max-cdx-games 50 --max-fetches 50
+python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
 python3 scripts/audit_metrics_backfill_gaps.py
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs
