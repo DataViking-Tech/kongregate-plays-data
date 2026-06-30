@@ -510,12 +510,15 @@ def main() -> None:
         args.cached_cdx_only,
     )
 
-    pending = [
-        job
-        for job in jobs
-        if not metrics_json_is_valid(metrics_cache_path(job))
-        and (args.retry_failures or f"{job.game_url}\t{job.timestamp}\t{job.original}" not in failures)
-    ]
+    def job_needs_fetch_or_manifest(job: MetricsJob) -> bool:
+        metrics_path = metrics_cache_path(job)
+        manifest_key = str(metrics_path.relative_to(ROOT))
+        failure_key = f"{job.game_url}\t{job.timestamp}\t{job.original}"
+        if metrics_json_is_valid(metrics_path):
+            return manifest_key not in manifest
+        return args.retry_failures or failure_key not in failures
+
+    pending = [job for job in jobs if job_needs_fetch_or_manifest(job)]
     selected = [] if args.cdx_only else pending if args.max_fetches == 0 else pending[: args.max_fetches]
 
     fetched = 0
@@ -551,9 +554,8 @@ def main() -> None:
                 "last_attempt_timestamp": utc_now(),
             }
             ERROR_LOG.open("a", encoding="utf-8").write(f"{utc_now()}\tjson\t{job.timestamp}\t{job.original}\t{job.game_url}\t{detail}\n")
-        if (fetched + cached + failed) % 50 == 0:
-            write_json(MANIFEST_PATH, manifest)
-            write_json(FAILURE_PATH, failures)
+        write_json(MANIFEST_PATH, manifest)
+        write_json(FAILURE_PATH, failures)
         time.sleep(args.sleep)
 
     write_json(MANIFEST_PATH, manifest)
