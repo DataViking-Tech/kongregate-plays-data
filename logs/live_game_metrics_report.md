@@ -1,14 +1,14 @@
 # Kongregate Live Game Metrics Report
 
-- Run timestamp: 2026-06-29T20:08:09Z
+- Run timestamp: 2026-06-30T05:04:30Z
 - Target statuses: cdx_cache_missing, known_failures_only, no_cdx
-- Targeted games: 818
-- Games in scope: 818
-- Pending before run: 818
-- Attempted this run: 120
-- Fetched this run: 32
-- Failed this run: 88
-- Live manifest entries: 848
-- Known live failures: 139
-- Combined history rows: 4829
-- Combined history games: 1272
+- Targeted games: 1261
+- Games in scope: 140
+- Pending before run: 140
+- Attempted this run: 100
+- Fetched this run: 41
+- Failed this run: 59
+- Live manifest entries: 889
+- Known live failures: 148
+- Combined history rows: 5486
+- Combined history games: 1366
