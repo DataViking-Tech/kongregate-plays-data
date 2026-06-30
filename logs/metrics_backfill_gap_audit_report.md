@@ -1,21 +1,21 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-06-30T08:32:43Z
+Generated: 2026-06-30T09:30:27Z
 
 ## Summary
 
-- Mini-catalog games audited: 3129
-- Games without metrics rows: 357
+- Mini-catalog games audited: 3358
+- Games without metrics rows: 576
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
-- Known failed captures: 417
+- Known failed captures: 428
 - Missing CDX cache files: 382
 
 ## Status Counts
 
-- has_metrics: 2772
-- known_failures_only: 10
-- no_cdx: 347
+- has_metrics: 2782
+- known_failures_only: 20
+- no_cdx: 556
 
 ## Top Unresolved Games
 
@@ -35,6 +35,7 @@ Generated: 2026-06-30T08:32:43Z
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Warscrap | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Animator Vs Animation (BETA) | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Aston Martin Hidden Wheels | no_cdx | 2 | 0 | 0 | 0 | 0 |
@@ -45,7 +46,6 @@ Generated: 2026-06-30T08:32:43Z
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

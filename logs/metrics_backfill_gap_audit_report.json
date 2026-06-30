@@ -1,15 +1,15 @@
 {
-  "catalog_games": 3129,
+  "catalog_games": 3358,
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
-  "games_without_metrics_rows": 357,
-  "generated_at": "2026-06-30T08:32:43Z",
-  "known_failed_captures": 417,
+  "games_without_metrics_rows": 576,
+  "generated_at": "2026-06-30T09:30:27Z",
+  "known_failed_captures": 428,
   "missing_cdx_cache_files": 382,
   "status_counts": {
-    "has_metrics": 2772,
-    "known_failures_only": 10,
-    "no_cdx": 347
+    "has_metrics": 2782,
+    "known_failures_only": 20,
+    "no_cdx": 556
   },
   "top_unresolved_games": [
     {
@@ -171,6 +171,17 @@
       "cdx_rows": 0,
       "failure_errors": "",
       "fresh_pending_captures": 0,
+      "game_name": "Warscrap",
+      "known_failed_captures": 0,
+      "metrics_rows": 0,
+      "priority_score": 3351,
+      "status": "no_cdx"
+    },
+    {
+      "best_rank": "1",
+      "cdx_rows": 0,
+      "failure_errors": "",
+      "fresh_pending_captures": 0,
       "game_name": "Zombie Derby 2",
       "known_failed_captures": 0,
       "metrics_rows": 0,
@@ -275,18 +286,7 @@
       "metrics_rows": 0,
       "priority_score": 3251,
       "status": "no_cdx"
-    },
-    {
-      "best_rank": "2",
-      "cdx_rows": 0,
-      "failure_errors": "",
-      "fresh_pending_captures": 0,
-      "game_name": "CountryBalls 4",
-      "known_failed_captures": 0,
-      "metrics_rows": 0,
-      "priority_score": 3251,
-      "status": "no_cdx"
     }
   ],
-  "valid_cached_captures": 10166
+  "valid_cached_captures": 10186
 }
