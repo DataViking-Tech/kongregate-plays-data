@@ -1,12 +1,12 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 14,
-  "candidates_with_cdx": 4,
+  "candidate_observation_rows": 12,
+  "candidates_with_cdx": 0,
   "cdx_lookups": 12,
-  "cdx_rows_found": 8,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 13,
-    "fetched": 1
+    "cached": 1,
+    "fetched": 11
   },
   "cdx_wall_timeout": 18.0,
   "collapse": "digest",
@@ -30,11 +30,11 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "SUV Car Cartoon Puzzle": {
-      "candidates_with_cdx": 4,
+    "CBS:Escape from the Mall": {
+      "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 14,
-      "game_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle",
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/cFreak19/cbs-escape-from-the-mall",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -45,11 +45,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 14,
-    "total": 1030,
+    "added": 12,
+    "total": 1172,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T13:33:09Z",
+  "run_timestamp": "2026-07-01T13:50:46Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -65,75 +65,6 @@
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 2,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "game_name": "SUV Car Cartoon Puzzle",
-      "game_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20161017084430_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_holodeck_2bf4c59ed69b2a63.txt",
-      "sample_timestamp": "20161017084430",
-      "source_page_path": "data/raw/game_pages/html/20161012120109_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_126c2c461bd20f0d.html",
-      "source_page_timestamp": "20161012120109",
-      "source_type": "holodeck"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "game_name": "SUV Car Cartoon Puzzle",
-      "game_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20161018172204_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_holodeck_bb9eb3b50933c92a.txt",
-      "sample_timestamp": "20161018172204",
-      "source_page_path": "data/raw/game_pages/html/20161012120109_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_126c2c461bd20f0d.html",
-      "source_page_timestamp": "20161012120109",
-      "source_type": "holodeck"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "https://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "game_name": "SUV Car Cartoon Puzzle",
-      "game_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20161017084430_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_holodeck_2bf4c59ed69b2a63.txt",
-      "sample_timestamp": "20161017084430",
-      "source_page_path": "data/raw/game_pages/html/20161012120109_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_126c2c461bd20f0d.html",
-      "source_page_timestamp": "20161012120109",
-      "source_type": "holodeck"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "https://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "game_name": "SUV Car Cartoon Puzzle",
-      "game_url": "http://www.kongregate.com/games/natalibt/suv-car-cartoon-puzzle",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/natalibt/suv-car-cartoon-puzzle/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20161018172204_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_holodeck_bb9eb3b50933c92a.txt",
-      "sample_timestamp": "20161018172204",
-      "source_page_path": "data/raw/game_pages/html/20161012120109_http_www.kongregate.com_80_games_natalibt_suv-car-cartoon-puzzle_126c2c461bd20f0d.html",
-      "source_page_timestamp": "20161012120109",
-      "source_type": "holodeck"
-    }
-  ],
+  "top_candidates_with_cdx": [],
   "top_count_signals": []
 }
