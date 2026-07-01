@@ -1,17 +1,18 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-01T04:17:29Z
-- Catalog games: 2931
-- Catalog scope: offset 0, limit all (330 games)
+- Run timestamp: 2026-07-01T04:48:03Z
+- Catalog games: 2997
+- Catalog scope: offset 0, limit all (7 games)
 - Audit statuses: no_cdx
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
+- Game-name filter: RPgTest,Mining Truck,Swimwear Store,Crazy Zombie v2.0 Crossing Hero,Tap Tap Infinity,Mike Shadow: I Paid For It!,Bubble Shooter Exclusive
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 3
+- CDX games considered: 7
 - CDX rows found: 0
 - Missing CDX cache files skipped: 0
 - Metrics jobs: 0
@@ -20,6 +21,6 @@
 - Fetched this run: 0
 - Failed this run: 0
 - Manifest entries: 5452
-- History rows: 7866
-- Games with history: 2720
+- History rows: 7932
+- Games with history: 2786
 - History date range: 2007-03-24 to 2026-07-01

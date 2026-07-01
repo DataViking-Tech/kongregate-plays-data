@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-07-01T04:48:36Z",
+  "target_games": 7,
+  "archived_game_page_cdx_rows_checked": 372,
+  "archived_game_page_jobs_attempted": 94,
+  "trusted_game_page_play_count_rows_recovered": 0,
+  "expanded_metrics_route_games_checked": 7,
+  "expanded_metrics_route_cdx_rows_found": 0,
+  "expanded_metrics_route_rows_recovered": 0,
+  "history_rows_after_probe": 7932,
+  "canonical_games_with_history_after_probe": 2667,
+  "targets": [
+    {
+      "game_name": "RPgTest",
+      "tier": 1,
+      "page_cdx_rows": 8,
+      "page_jobs": 2,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Mining Truck",
+      "tier": 1,
+      "page_cdx_rows": 10,
+      "page_jobs": 2,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Swimwear Store",
+      "tier": 1,
+      "page_cdx_rows": 5,
+      "page_jobs": 1,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Crazy Zombie v2.0 Crossing Hero",
+      "tier": 1,
+      "page_cdx_rows": 155,
+      "page_jobs": 31,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Tap Tap Infinity",
+      "tier": 1,
+      "page_cdx_rows": 65,
+      "page_jobs": 13,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Mike Shadow: I Paid For It! (Mochi Premiums)",
+      "tier": 1,
+      "page_cdx_rows": 117,
+      "page_jobs": 39,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    },
+    {
+      "game_name": "Bubble Shooter Exclusive",
+      "tier": 2,
+      "page_cdx_rows": 12,
+      "page_jobs": 6,
+      "trusted_page_rows": 0,
+      "expanded_metrics_cdx_rows": 0
+    }
+  ]
+}

@@ -145,6 +145,15 @@ def load_audit_rows() -> dict[str, dict[str, str]]:
     return rows
 
 
+def game_matches_name_filter(game: CatalogGame, filters: list[str]) -> bool:
+    haystacks = [game.game_name, game.game_url, *game.game_url_variants]
+    return any(
+        needle in str(value).lower()
+        for needle in filters
+        for value in haystacks
+    )
+
+
 def audit_int(row: dict[str, str] | None, key: str) -> int:
     if not row:
         return 0
@@ -478,6 +487,7 @@ def main() -> None:
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files; skip uncached CDX lookups.")
     parser.add_argument("--expanded-route-variants", action="store_true", help="Also probe explicit http/https and /en/games metrics routes during CDX discovery.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed metrics JSON captures.")
+    parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
     args = parser.parse_args()
 
     for directory in (RAW_CDX, RAW_METRICS_JSON, PROCESSED, LOGS):
@@ -509,6 +519,9 @@ def main() -> None:
             for index, row in enumerate(csv.DictReader(CATALOG_CSV.open(newline="", encoding="utf-8")))
         }
         catalog_scope = [game for game in catalog_scope if catalog_needs.get(game.catalog_index) in {"yes", "partial"}]
+    name_filters = [part.strip().lower() for part in args.game_name_contains.split(",") if part.strip()]
+    if name_filters:
+        catalog_scope = [game for game in catalog_scope if game_matches_name_filter(game, name_filters)]
     manifest = load_manifest()
     failures = load_failures()
     jobs, cdx_stats = build_jobs(
@@ -597,6 +610,7 @@ def main() -> None:
         "audit_missing_cdx_only": args.audit_missing_cdx_only,
         "audit_known_failures_only": args.audit_known_failures_only,
         "needs_history_only": args.needs_history_only,
+        "game_name_contains": args.game_name_contains,
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
@@ -630,6 +644,7 @@ def main() -> None:
                 f"- Audit missing CDX only: {report['audit_missing_cdx_only']}",
                 f"- Audit known failures only: {report['audit_known_failures_only']}",
                 f"- Needs history only: {report['needs_history_only']}",
+                f"- Game-name filter: {report['game_name_contains'] or 'none'}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- Expanded route variants: {report['expanded_route_variants']}",

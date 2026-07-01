@@ -83,6 +83,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 66 added opt-in `fetch_game_metrics_history.py --expanded-route-variants` for probing explicit `http`/`https` and `/en/games` archived metrics routes without slowing normal sweeps. A three-game no-CDX probe found 0 new archived metrics CDX rows, so the highest-priority no-CDX cases still appear genuinely unarchived on the metrics endpoint.
 - Checkpoint 67 expanded default live ranked-page coverage with `multiplayer`, `mmo`, `adventure-rpg`, `sports-racing`, `strategy-defense`, `more`, and `card` category pages. The July 1 live sweep added 349 ranked rows with observed listing play counts, grew the mini catalog to 2,997 games, and a follow-up live-metrics pass recovered current observations for all 66 newly exposed catalog games.
 - Visualization polish after checkpoint 67 removes the Smooth-mode rank-snap jitter by sorting interpolated frames on continuous rank position, preserving collision-safe sub-slot row motion, and lengthening row/bar transforms. The chart still fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from the repo at runtime.
+- Checkpoint 68 added `fetch_game_metrics_history.py --game-name-contains` for targeted archived metrics probes, then checked all 7 high-value no-CDX games. The targeted pass covered 372 archived game-page CDX rows, 94 page jobs, and expanded `metrics.json` route variants; it recovered 0 trusted rows, strengthening the evidence that these specific gaps need a different source shape rather than another replay of the current page/metrics parsers.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -112,6 +113,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/metrics_backfill_gap_audit.csv` - per-game metrics backfill status audit.
 - `logs/metrics_backfill_gap_audit_report.*` - summary of fresh pending, known failed, no-CDX, and cache-missing metrics gaps.
 - `data/processed/metrics_no_cdx_profile.csv` and `logs/metrics_no_cdx_profile_report.*` - triage profile for the remaining no-CDX games.
+- `logs/high_value_no_cdx_targeted_probe_report.*` - checkpoint report for the targeted high-value no-CDX page/metrics probe.
 - `scripts/` - scraper, extractor, catalog, metrics-history, workbook, and chart builders.
 
 ## Rebuild Commands
@@ -128,6 +130,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-h
 python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
 python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --max-cdx-games 3 --cdx-only --expanded-route-variants
+python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --game-name-contains 'RPgTest,Mining Truck,Swimwear Store' --max-cdx-games 3 --expanded-route-variants
 python3 scripts/fetch_game_page_history.py --tiers 1 --max-cdx-games 9 --variant-limit 2 --max-fetches 160
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diaper,papa,swords' --cached-cdx-only --max-fetches 120
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60
