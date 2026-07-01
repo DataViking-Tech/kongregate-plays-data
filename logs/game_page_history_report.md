@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:51:14Z
-- Profile games in scope: 1
-- Selected games sample: Mater Cars Puzzle
+- Run timestamp: 2026-07-01T10:57:52Z
+- Profile games in scope: 8
+- Selected games sample: Moto Jumper, Ascending LSD, Monopoly IO, FootballManager Online, Test1, OuterSpace [PitBall] Offical, Peppa Pig Ice Cream Shop, Kuizi Autoshkolla - Testi 1
 - Selected games omitted from sample: 0
-- CDX games considered: 1
-- Cached CDX only: True
+- CDX games considered: 8
+- Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 8s
-- CDX wall-clock cap: 10.0
+- CDX timeout: 12s
+- CDX wall-clock cap: 18.0
 - Page timeout: 12s
 - Page wall-clock cap: 15.0
-- Game-name filter: Mater Cars Puzzle
+- Game-name filter: Moto Jumper,Ascending LSD,Monopoly IO,FootballManager Online,Test1,OuterSpace [PitBall] Offical,Peppa Pig Ice Cream Shop,Kuizi Autoshkolla - Testi 1
 - Metrics row filter: no_metrics
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 1
-- Cached HTML selected this run: 1
+- CDX rows: 13
+- Page jobs: 8
+- Pending before run: 8
+- Attempted this run: 5
+- Fetched this run: 5
+- Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 5
+- Failed this run: 5
 - Manifest entries: 367
-- Known failures: 2884
+- Known failures: 2889
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
