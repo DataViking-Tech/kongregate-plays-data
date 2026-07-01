@@ -16,8 +16,8 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 220ms;
-      --row-move-duration: 220ms;
+      --move-duration: 160ms;
+      --row-move-duration: 160ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 220ms;
     }
@@ -488,7 +488,7 @@
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 48;
+    const smoothStepsPerMonth = 72;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowPositionPrecision = 3;
     const slotDriftLimit = 0.42;
@@ -1119,17 +1119,17 @@
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 3600;
-      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(20, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(180, Math.min(520, delay * 1.8))
+        ? Math.max(90, Math.min(260, delay * 2.05))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(180, Math.min(520, delay * 1.8))
+        ? Math.max(90, Math.min(260, delay * 2.05))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
