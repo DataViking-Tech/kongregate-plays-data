@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T08:16:57Z
-- Profile games in scope: 20
-- Selected games sample: Raze 3, AstroLords, A Kongergate Special, Pokemon Kill 4, Vape Naysh Vs The Memes Beta1, ATV Ride 2016, SUV Car Cartoon Puzzle, Boat Rush, Defense Math, as3 Shootorial #1, Dot Snap Battle, Doom II: Hell on Earth, DoodiaMan Find Wife, 1p.Story: Death, BMW M5 E34, Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game), Mr.Miner, Balls Vs Blocks Online, Kung Fu Adventure, E-Sim
+- Run timestamp: 2026-07-01T08:36:49Z
+- Profile games in scope: 11
+- Selected games sample: My Line Of Sight attempt from Construct 2, Una Chief: The Great Adventure, Spacebar v0.1, Whitewash, idk, Super Casual, Ghoul be Gone Demo, UFC 198 Live Stream - Werdum vs Miocic, quangjing, Create your face with this stupid game, The Super Casual Game
 - Selected games omitted from sample: 0
-- CDX games considered: 20
+- CDX games considered: 11
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 6s
-- CDX wall-clock cap: 8.0
-- Page timeout: 8s
-- Page wall-clock cap: 10.0
-- Game-name filter: Raze 3,AstroLords,A Kongergate Special,Pokemon Kill 4,Vape Naysh Vs The Memes Beta1,ATV Ride 2016,SUV Car Cartoon Puzzle,Boat Rush,Defense Math,as3 Shootorial #1,Dot Snap Battle,Doom II: Hell on Earth,DoodiaMan Find Wife,1p.Story: Death,BMW M5 E34,Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game),Mr.Miner,Balls Vs Blocks Online,Kung Fu Adventure,E-Sim
+- CDX timeout: 10s
+- CDX wall-clock cap: 14.0
+- Page timeout: 12s
+- Page wall-clock cap: 14.0
+- Game-name filter: My Line Of Sight attempt from Construct 2,Una Chief: The Great Adventure,Spacebar v0.1,Whitewash,idk,Super Casual,Ghoul be Gone Demo,UFC 198 Live Stream - Werdum vs Miocic,quangjing,Create your face with this stupid game
 - Metrics row filter: no_metrics
-- CDX rows: 6
-- Page jobs: 6
-- Pending before run: 6
-- Attempted this run: 3
-- Fetched this run: 3
+- CDX rows: 15
+- Page jobs: 12
+- Pending before run: 12
+- Attempted this run: 8
+- Fetched this run: 8
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 3
+- No explicit count this run: 8
+- Failed this run: 8
 - Manifest entries: 367
-- Known failures: 2730
+- Known failures: 2738
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
