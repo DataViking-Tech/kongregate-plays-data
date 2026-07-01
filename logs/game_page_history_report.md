@@ -1,23 +1,23 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T02:32:08Z
-- Profile games in scope: 1
-- Selected games: Kingdom Rush
-- CDX games considered: 1
-- Cached CDX only: True
-- CDX timeout: 5s
+- Run timestamp: 2026-07-01T03:10:52Z
+- Profile games in scope: 9
+- Selected games: RPgTest, Mining Truck, Mecha Galaxy, Boxing Random, Swimwear Store, Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Mike Shadow: I Paid For It! (Mochi Premiums), Sift Heads World Act 5 - An Exotic Job
+- CDX games considered: 9
+- Cached CDX only: False
+- CDX timeout: 8s
 - Page timeout: 18s
-- Game-name filter: Kingdom Rush
-- CDX rows: 2451
-- Page jobs: 817
-- Pending before run: 801
-- Attempted this run: 160
+- Game-name filter: none
+- CDX rows: 490
+- Page jobs: 370
+- Pending before run: 370
+- Attempted this run: 170
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 59
-- Failed this run: 160
+- No explicit count this run: 137
+- Failed this run: 170
 - Manifest entries: 367
-- Known failures: 2573
-- Combined history rows: 7833
+- Known failures: 2610
+- Combined history rows: 7838
 - Game-page history rows: 367
 - Report only: False
