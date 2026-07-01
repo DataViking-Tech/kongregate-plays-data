@@ -1,21 +1,21 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:16:02Z
-- Profile games in scope: 4
-- Selected games sample: 101: A Video Game about Video Games (okay, a really early one), Gold Miner Jack 2, Kuizi Biologjia - Pjesa e 4, Idle Capitalist 6
+- Run timestamp: 2026-07-01T10:21:18Z
+- Profile games in scope: 2
+- Selected games sample: Idle Capitalist 6, Spike Bird
 - Selected games omitted from sample: 0
-- CDX games considered: 4
-- Cached CDX only: False
+- CDX games considered: 2
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
 - Page timeout: 10s
 - Page wall-clock cap: 12.0
-- Game-name filter: 101: A Video Game about Video Games (okay, a really early one),Gold Miner Jack 2,Kuizi Biologjia - Pjesa e 4,Idle Capitalist 6
+- Game-name filter: Idle Capitalist 6,Spike Bird
 - Metrics row filter: no_metrics
-- CDX rows: 16
-- Page jobs: 8
-- Pending before run: 8
+- CDX rows: 2
+- Page jobs: 2
+- Pending before run: 2
 - Attempted this run: 2
 - Fetched this run: 2
 - Cached HTML selected this run: 0
@@ -24,7 +24,7 @@
 - No explicit count this run: 2
 - Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2856
+- Known failures: 2858
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
