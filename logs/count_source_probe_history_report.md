@@ -1,34 +1,30 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T12:05:42Z
+- Generated: 2026-07-01T12:15:31Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 250
-- Games with probe history: 20
+- Accumulated endpoint observations: 364
+- Games with probe history: 24
 - Recovered count rows: 1
-- Unresolved failed endpoint groups: 29
-- Status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=8, not_probed=309, recovered_count=1, transient_failures_remaining=6
-- Tier-1 status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=8, not_probed=222, transient_failures_remaining=6
-- CDX status counts: cached=116, failed=72, fetched=61, missing_cache_skipped=1
+- Unresolved failed endpoint groups: 39
+- Status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=12, not_probed=305, recovered_count=1, transient_failures_remaining=6
+- Tier-1 status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=12, not_probed=218, transient_failures_remaining=6
+- CDX status counts: cached=158, failed=114, fetched=91, missing_cache_skipped=1
 
 ## Retry Queue
 
 | Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
 | --- | ---: | ---: | ---: | --- |
-| Football Legends 2016 | 1 | 6 | 7 | 2026-07-01T12:02:03Z |
-| Talking Ginger Paw Caring | 2 | 2 | 10 | 2026-07-01T12:02:03Z |
-| StormFall | 2 | 5 | 7 | 2026-07-01T12:03:09Z |
-| Baby Talking Tom Bathing | 2 | 3 | 9 | 2026-07-01T12:03:09Z |
-| cuube | 2 | 9 | 11 | 2026-07-01T12:05:36Z |
-| Caralhinhos Voadores - Age Of Delicia | 2 | 4 | 12 | 2026-07-01T12:05:36Z |
+| StormFall | 2 | 4 | 7 | 2026-07-01T12:10:54Z |
+| Baby Talking Tom Bathing | 2 | 3 | 9 | 2026-07-01T12:10:54Z |
+| Caralhinhos Voadores - Age Of Delicia | 2 | 3 | 12 | 2026-07-01T12:11:37Z |
+| path of the wingman | 2 | 12 | 12 | 2026-07-01T12:12:32Z |
+| Nowere Safe 3 | 2 | 5 | 8 | 2026-07-01T12:15:09Z |
+| Animator Vs Animation (BETA) | 2 | 12 | 12 | 2026-07-01T12:12:32Z |
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| path of the wingman | 2 | 2014-10-24 |
-| Nowere Safe 3 | 2 | 2014-10-29 |
-| Elsa And Anna Chinese Dress Up | 2 | 2015-04-01 |
-| Animator Vs Animation (BETA) | 2 | 2015-09-09 |
 | changetype() | 2 | 2015-09-30 |
 | CountryBalls 4 | 2 | 2016-03-05 |
 | Mini Jumper | 2 | 2016-03-16 |
@@ -40,6 +36,10 @@
 | Chevrolet Cruze Puzzle | 2 | 2016-10-10 |
 | Sky Knight | 2 | 2017-05-16 |
 | Horse Racing | 2 | 2017-05-26 |
+| Finger Spinner Online | 2 | 2017-06-16 |
+| Britney Spears vs Child Servisous | 2 | 2017-07-20 |
+| Cherrie New Spring Trends | 2 | 2017-08-25 |
+| Raze 3 | 2 | 2017-09-30 |
 
 ## Output Files
 

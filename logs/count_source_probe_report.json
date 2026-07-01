@@ -1,24 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 48,
+  "candidate_observation_rows": 12,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 48,
+  "cdx_lookups": 12,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 18,
-    "failed": 13,
-    "fetched": 17
+    "cached": 8,
+    "fetched": 4
   },
-  "cdx_wall_timeout": 10.0,
+  "cdx_wall_timeout": 8.0,
   "collapse": "digest",
-  "game_name_contains": "Surrounded,Kns run,cuube,Caralhinhos Voadores",
-  "games_direct_probed": 1,
-  "games_with_cached_pages": 3,
-  "games_without_cached_pages": 1,
+  "game_name_contains": "Elsa And Anna Chinese Dress Up",
+  "games_direct_probed": 0,
+  "games_with_cached_pages": 1,
+  "games_without_cached_pages": 0,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 48,
+  "max_cdx_lookups": 12,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -31,38 +30,11 @@
   "payload_wall_timeout": 8.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Caralhinhos Voadores - Age Of Delicia": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Kns run": {
+    "Elsa And Anna Chinese Dress Up": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/hikkigamer/kns-run",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Surrounded": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 12,
-      "game_url": "https://www.kongregate.com/games/JasonNumberXIII/surrounded",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "cuube": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/dmarcy/cuube",
+      "game_url": "http://www.kongregate.com/games/game4joy/elsa-and-anna-chinese-dress-up",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -73,11 +45,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 20,
-    "total": 250,
-    "updated": 28
+    "added": 12,
+    "total": 364,
+    "updated": 0
   },
-  "run_timestamp": "2026-07-01T12:05:36Z",
+  "run_timestamp": "2026-07-01T12:15:27Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -86,8 +58,8 @@
     "recommended_games"
   ],
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 4,
-  "target_games_with_kongregate_ids": 4,
+  "target_games": 1,
+  "target_games_with_kongregate_ids": 1,
   "tiers": [
     1
   ],
