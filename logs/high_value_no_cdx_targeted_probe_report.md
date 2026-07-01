@@ -26,3 +26,5 @@
 ## Interpretation
 
 The seven high-value no-CDX games were dry across both conservative archived game-page parsing and expanded archived `metrics.json` route probing. Ranked-list rows still exist for these games, but the 2014+ list layouts and the archived game pages checked here do not expose trusted static play-count text. Future recovery for these names likely needs a different source shape, not another broad replay of the same page parser.
+
+Representative cached page inspection for Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Bubble Shooter Exclusive, and Mike Shadow found empty `gameplays_count` placeholder spans plus guest/user `gameplays_count: 0` values, not embedded public game-play totals. That supports treating the dry result as source absence rather than a simple parser miss.

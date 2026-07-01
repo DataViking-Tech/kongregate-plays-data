@@ -9,6 +9,7 @@
   "expanded_metrics_route_rows_recovered": 0,
   "history_rows_after_probe": 7932,
   "canonical_games_with_history_after_probe": 2667,
+  "sample_page_inspection": "Representative cached pages for Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Bubble Shooter Exclusive, and Mike Shadow contained empty gameplays_count placeholder spans plus guest/user gameplays_count: 0 values, not embedded public play totals.",
   "targets": [
     {
       "game_name": "RPgTest",
