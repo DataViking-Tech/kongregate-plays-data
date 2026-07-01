@@ -1,27 +1,27 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T05:34:33Z
+- Run timestamp: 2026-07-01T05:47:57Z
 - Profile games in scope: 15
-- Selected games sample: Last Warrior, SpaceWarrior, The Funniest Game Ever, SuperBall Idle, The Saga Of The Wind Mobiles, as3q32@gmail.com, Make Me 10, Key to Success, Missiles Again, The Space Commando, Run Bird Run Online, Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded
+- Selected games sample: Talking Ginger Paw Caring, StormFall, Baby Talking Tom Bathing, Kns run, cuube, Caralhinhos Voadores - Age Of Delicia, path of the wingman, Nowere Safe 3, Elsa And Anna Chinese Dress Up, Animator Vs Animation (BETA), changetype(), CountryBalls 4, Mini Jumper, dat boi, Aston Martin Hidden Wheels
 - Selected games omitted from sample: 0
 - CDX games considered: 15
-- Cached CDX only: True
-- Cached HTML only: True
-- CDX timeout: 12s
+- Cached CDX only: False
+- Cached HTML only: False
+- CDX timeout: 8s
 - Page timeout: 12s
 - Game-name filter: none
-- CDX rows: 72
-- Page jobs: 64
-- Pending before run: 64
-- Attempted this run: 15
-- Fetched this run: 0
-- Cached HTML selected this run: 15
-- Network fetch failed this run: 0
+- CDX rows: 8
+- Page jobs: 7
+- Pending before run: 7
+- Attempted this run: 7
+- Fetched this run: 5
+- Cached HTML selected this run: 0
+- Network fetch failed this run: 2
 - Parsed rows this run: 0
-- No explicit count this run: 15
-- Failed this run: 15
+- No explicit count this run: 5
+- Failed this run: 7
 - Manifest entries: 367
-- Known failures: 2676
+- Known failures: 2683
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
