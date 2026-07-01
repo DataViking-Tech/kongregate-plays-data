@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:57:52Z
+- Run timestamp: 2026-07-01T11:05:24Z
 - Profile games in scope: 8
-- Selected games sample: Moto Jumper, Ascending LSD, Monopoly IO, FootballManager Online, Test1, OuterSpace [PitBall] Offical, Peppa Pig Ice Cream Shop, Kuizi Autoshkolla - Testi 1
+- Selected games sample: Miner 2, Quad Maze Lite V4.1, Elsa Facial Skin Care, Pregnant Elsa Baby Room Deco, Jungle Gems, Chat Public or Private, Maze Platformer, Christmas Memory
 - Selected games omitted from sample: 0
 - CDX games considered: 8
 - Cached CDX only: False
@@ -11,20 +11,20 @@
 - CDX wall-clock cap: 18.0
 - Page timeout: 12s
 - Page wall-clock cap: 15.0
-- Game-name filter: Moto Jumper,Ascending LSD,Monopoly IO,FootballManager Online,Test1,OuterSpace [PitBall] Offical,Peppa Pig Ice Cream Shop,Kuizi Autoshkolla - Testi 1
+- Game-name filter: Miner 2,Quad Maze Lite V4.1,Elsa Facial Skin Care,Pregnant Elsa Baby Room Deco,Jungle Gems,Chat Public or Private,Maze Platformer,Christmas Memory
 - Metrics row filter: no_metrics
-- CDX rows: 13
-- Page jobs: 8
-- Pending before run: 8
-- Attempted this run: 5
-- Fetched this run: 5
+- CDX rows: 24
+- Page jobs: 21
+- Pending before run: 21
+- Attempted this run: 9
+- Fetched this run: 9
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 5
-- Failed this run: 5
+- No explicit count this run: 9
+- Failed this run: 9
 - Manifest entries: 367
-- Known failures: 2889
+- Known failures: 2898
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
