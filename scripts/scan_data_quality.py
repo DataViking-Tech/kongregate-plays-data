@@ -32,6 +32,7 @@ CATALOG_PRIORITIES_CSV = PROCESSED / "catalog_history_priorities.csv"
 FINAL_CHART_STALENESS_CSV = PROCESSED / "final_chart_staleness.csv"
 PLAY_COUNT_DECREASES_CSV = PROCESSED / "play_count_decreases.csv"
 SUSPICIOUS_METRIC_DECREASES_CSV = PROCESSED / "suspicious_metric_route_decreases.csv"
+SOURCE_CONFLICT_DECREASES_CSV = PROCESSED / "source_conflict_play_count_decreases.csv"
 STALE_LISTING_COUNTS_CSV = PROCESSED / "stale_listing_play_counts.csv"
 REPORT_JSON = LOGS / "data_quality_report.json"
 REPORT_MD = LOGS / "data_quality_report.md"
@@ -89,6 +90,10 @@ SUSPICIOUS_METRIC_DECREASE_COLUMNS = [
     *DECREASE_COLUMNS,
     "previous_favorites",
     "current_favorites",
+    "reason",
+]
+SOURCE_CONFLICT_DECREASE_COLUMNS = [
+    *DECREASE_COLUMNS,
     "reason",
 ]
 STALE_LISTING_COLUMNS = [
@@ -163,7 +168,7 @@ def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, pre
 def is_suspicious_metric_route_drop(previous: dict[str, object], current: dict[str, object]) -> bool:
     previous_source = str(previous.get("source", ""))
     current_source = str(current.get("source", ""))
-    if previous_source not in HISTORY_SOURCES or current_source not in HISTORY_SOURCES:
+    if current_source not in HISTORY_SOURCES:
         return False
     previous_plays = int(previous.get("plays") or 0)
     current_plays = int(current.get("plays") or 0)
@@ -171,9 +176,32 @@ def is_suspicious_metric_route_drop(previous: dict[str, object], current: dict[s
         return False
     previous_favorites = parse_int(previous.get("favorites_count_observed"))
     current_favorites = parse_int(current.get("favorites_count_observed"))
-    if previous_favorites <= 0 or current_favorites <= 0:
+    if previous_source in HISTORY_SOURCES and previous_favorites > 0 and current_favorites > 0:
+        return current_favorites < max(10, int(previous_favorites * 0.1))
+    if current_favorites == 0 and previous_plays - current_plays >= max(1000, int(previous_plays * 0.2)):
+        return True
+    return False
+
+
+def is_same_day_source_conflict_drop(previous: dict[str, object], current: dict[str, object]) -> bool:
+    if str(previous.get("sort_date", "")) != str(current.get("sort_date", "")):
         return False
-    return current_favorites < max(10, int(previous_favorites * 0.1))
+    return str(previous.get("capture_timestamp", "")) != str(current.get("capture_timestamp", "")) or str(previous.get("source", "")) != str(current.get("source", ""))
+
+
+def is_likely_listing_source_conflict_drop(previous: dict[str, object], current: dict[str, object]) -> bool:
+    previous_source = str(previous.get("source", ""))
+    current_source = str(current.get("source", ""))
+    if previous_source in HISTORY_SOURCES or current_source in HISTORY_SOURCES:
+        return False
+    previous_plays = int(previous.get("plays") or 0)
+    current_plays = int(current.get("plays") or 0)
+    if previous_plays <= 0 or current_plays <= 0 or current_plays >= previous_plays:
+        return False
+    drop = previous_plays - current_plays
+    if str(previous.get("source_url", "")) == str(current.get("source_url", "")):
+        return False
+    return drop <= max(5000, int(previous_plays * 0.001))
 
 
 def canonical_game_url(game_url: str) -> str:
@@ -475,6 +503,7 @@ def main() -> None:
 
     decrease_rows = []
     suspicious_metric_decrease_rows = []
+    source_conflict_decrease_rows = []
     stale_listing_rows = []
     for key, rows in observations_by_game.items():
         rows.sort(key=lambda row: (str(row.get("sort_date", "")), str(row.get("capture_timestamp", ""))))
@@ -531,7 +560,37 @@ def main() -> None:
                             "current_source": row.get("source", ""),
                             "previous_favorites": previous.get("favorites_count_observed", ""),
                             "current_favorites": row.get("favorites_count_observed", ""),
-                            "reason": "Metrics route dropped play count while favorites collapsed; likely alternate/incorrect legacy route rather than a true counter decrease.",
+                            "reason": "Metrics route returned a lower play count with zero or sharply reduced favorites; likely alternate/incorrect legacy route rather than a true counter decrease.",
+                        }
+                    )
+                elif is_same_day_source_conflict_drop(previous, row):
+                    source_conflict_decrease_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                            "reason": "Same-day observations from different captures or sources disagree; treat as source/cache conflict, not a monotonic counter decrease.",
+                        }
+                    )
+                elif is_likely_listing_source_conflict_drop(previous, row):
+                    source_conflict_decrease_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                            "reason": "Small cross-listing/category drift between archived listing pages; keep raw rows but exclude from true counter decreases.",
                         }
                     )
                 else:
@@ -553,6 +612,7 @@ def main() -> None:
             first_seen_by_count.setdefault(int(row["plays"]), row)
     decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
     suspicious_metric_decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
+    source_conflict_decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
     stale_listing_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
 
     issues = []
@@ -595,6 +655,9 @@ def main() -> None:
     if suspicious_metric_decrease_rows:
         first_suspicious_date, last_suspicious_date = current_date_range(suspicious_metric_decrease_rows)
         issues.append(issue("medium", "plays", "suspicious_metric_route_decreases", len(suspicious_metric_decrease_rows), first_suspicious_date, last_suspicious_date, suspicious_metric_decrease_rows[0].get("game_name", ""), "Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts."))
+    if source_conflict_decrease_rows:
+        first_source_conflict_date, last_source_conflict_date = current_date_range(source_conflict_decrease_rows)
+        issues.append(issue("low", "plays", "source_conflict_play_count_decreases", len(source_conflict_decrease_rows), first_source_conflict_date, last_source_conflict_date, source_conflict_decrease_rows[0].get("game_name", ""), "Kept as raw observations, but excluded from true decrease counts because nearby listing/page sources disagree."))
     if stale_listing_rows:
         first_stale_date, last_stale_date = current_date_range(stale_listing_rows)
         issues.append(issue("low", "plays", "stale_listing_play_count_observations", len(stale_listing_rows), first_stale_date, last_stale_date, stale_listing_rows[0].get("game_name", ""), "Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."))
@@ -606,6 +669,7 @@ def main() -> None:
     write_csv(FINAL_CHART_STALENESS_CSV, STALENESS_COLUMNS, staleness_rows)
     write_csv(PLAY_COUNT_DECREASES_CSV, DECREASE_COLUMNS, decrease_rows)
     write_csv(SUSPICIOUS_METRIC_DECREASES_CSV, SUSPICIOUS_METRIC_DECREASE_COLUMNS, suspicious_metric_decrease_rows)
+    write_csv(SOURCE_CONFLICT_DECREASES_CSV, SOURCE_CONFLICT_DECREASE_COLUMNS, source_conflict_decrease_rows)
     write_csv(STALE_LISTING_COUNTS_CSV, STALE_LISTING_COLUMNS, stale_listing_rows)
 
     report = {
@@ -636,6 +700,7 @@ def main() -> None:
         "duplicate_catalog_canonical_games": len(duplicate_catalog_keys),
         "play_count_decreases": len(decrease_rows),
         "suspicious_metric_route_decreases": len(suspicious_metric_decrease_rows),
+        "source_conflict_play_count_decreases": len(source_conflict_decrease_rows),
         "stale_listing_play_count_observations": len(stale_listing_rows),
         "issues": issues,
         "outputs": {
@@ -646,6 +711,7 @@ def main() -> None:
             "final_chart_staleness_csv": str(FINAL_CHART_STALENESS_CSV.relative_to(ROOT)),
             "play_count_decreases_csv": str(PLAY_COUNT_DECREASES_CSV.relative_to(ROOT)),
             "suspicious_metric_route_decreases_csv": str(SUSPICIOUS_METRIC_DECREASES_CSV.relative_to(ROOT)),
+            "source_conflict_play_count_decreases_csv": str(SOURCE_CONFLICT_DECREASES_CSV.relative_to(ROOT)),
             "stale_listing_play_counts_csv": str(STALE_LISTING_COUNTS_CSV.relative_to(ROOT)),
         },
     }

@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-01T03:42:53Z",
+  "run_timestamp": "2026-07-01T03:48:14Z",
   "as_of": "2026-07-01",
   "ranked_rows": 47536,
   "ranked_rows_with_play_counts": 14868,
@@ -30,8 +30,9 @@
   "duplicate_ranked_rows": 0,
   "games_with_multiple_url_variants": 438,
   "duplicate_catalog_canonical_games": 0,
-  "play_count_decreases": 8,
-  "suspicious_metric_route_decreases": 1,
+  "play_count_decreases": 0,
+  "suspicious_metric_route_decreases": 2,
+  "source_conflict_play_count_decreases": 7,
   "stale_listing_play_count_observations": 308,
   "issues": [
     {
@@ -67,22 +68,22 @@
     {
       "severity": "medium",
       "area": "plays",
-      "issue_type": "play_count_decreases",
-      "count": 8,
-      "first_date": "2008-09-06",
-      "last_date": "2026-06-30",
-      "example": "Bloons Tower Defense 4",
-      "recommended_action": "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."
-    },
-    {
-      "severity": "medium",
-      "area": "plays",
       "issue_type": "suspicious_metric_route_decreases",
-      "count": 1,
+      "count": 2,
       "first_date": "2026-05-01",
-      "last_date": "2026-05-01",
+      "last_date": "2026-06-30",
       "example": "Transformice",
       "recommended_action": "Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts."
+    },
+    {
+      "severity": "low",
+      "area": "plays",
+      "issue_type": "source_conflict_play_count_decreases",
+      "count": 7,
+      "first_date": "2008-09-06",
+      "last_date": "2011-12-05",
+      "example": "Bloons Tower Defense 4",
+      "recommended_action": "Kept as raw observations, but excluded from true decrease counts because nearby listing/page sources disagree."
     },
     {
       "severity": "low",
@@ -103,6 +104,7 @@
     "final_chart_staleness_csv": "data/processed/final_chart_staleness.csv",
     "play_count_decreases_csv": "data/processed/play_count_decreases.csv",
     "suspicious_metric_route_decreases_csv": "data/processed/suspicious_metric_route_decreases.csv",
+    "source_conflict_play_count_decreases_csv": "data/processed/source_conflict_play_count_decreases.csv",
     "stale_listing_play_counts_csv": "data/processed/stale_listing_play_counts.csv"
   }
 }

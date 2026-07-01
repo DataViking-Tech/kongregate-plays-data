@@ -1,6 +1,6 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-07-01T03:42:53Z
+- Run timestamp: 2026-07-01T03:48:14Z
 - As of: 2026-07-01
 - Ranked rows: 47536
 - Ranked rows with play counts: 14868
@@ -16,8 +16,8 @@
 - HIGH plays/ranked_months_without_listing_play_counts: 134 - Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text.
 - HIGH metrics/catalog_games_without_metrics_history: 330 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 2247 - Continue per-game metrics history backfill.
-- MEDIUM plays/play_count_decreases: 8 - Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.
-- MEDIUM plays/suspicious_metric_route_decreases: 1 - Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts.
+- MEDIUM plays/suspicious_metric_route_decreases: 2 - Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts.
+- LOW plays/source_conflict_play_count_decreases: 7 - Kept as raw observations, but excluded from true decrease counts because nearby listing/page sources disagree.
 - LOW plays/stale_listing_play_count_observations: 308 - Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count.
 
 ## Top Metrics Backfill Priorities
