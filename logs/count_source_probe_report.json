@@ -11,9 +11,9 @@
   "cdx_wall_timeout": 18.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 0,
-  "games_with_cached_pages": 1,
-  "games_without_cached_pages": 0,
+  "games_direct_probed": 1,
+  "games_with_cached_pages": 0,
+  "games_without_cached_pages": 1,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
@@ -30,12 +30,12 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Britney Spears vs Child Servisous": {
+    "A Kongergate Special": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
+      "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/thunderstorm38/britney-spears-vs-child-servisous",
-      "pages_checked": 1,
+      "game_url": "http://www.kongregate.com/games/NickJ66/a-kongergate-special",
+      "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -45,11 +45,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 8,
-    "total": 722,
-    "updated": 4
+    "added": 12,
+    "total": 873,
+    "updated": 0
   },
-  "run_timestamp": "2026-07-01T13:04:00Z",
+  "run_timestamp": "2026-07-01T13:18:24Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
