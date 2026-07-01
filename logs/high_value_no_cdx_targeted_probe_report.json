@@ -10,6 +10,7 @@
   "history_rows_after_probe": 7932,
   "canonical_games_with_history_after_probe": 2667,
   "sample_page_inspection": "Representative cached pages for Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Bubble Shooter Exclusive, and Mike Shadow contained empty gameplays_count placeholder spans plus guest/user gameplays_count: 0 values, not embedded public play totals.",
+  "endpoint_trace": "Archived Holodeck JavaScript confirms GameMetricsUpdater requested active_user.gameResourcePath() + \"/metrics.json\" and copied gameplays_count_with_delimiter into .gameplays_count. Current archived metrics probes target that endpoint shape, including explicit http, https, and /en/games route variants.",
   "targets": [
     {
       "game_name": "RPgTest",
