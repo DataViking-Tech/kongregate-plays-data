@@ -5,8 +5,8 @@
   "cdx_lookups": 60,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 53,
-    "fetched": 7
+    "cached": 23,
+    "fetched": 37
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
@@ -30,47 +30,47 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Back to School Fashion": {
+    "Bus & Subway Runner": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/games2girls/back-to-school-fashion",
+      "game_url": "http://www.kongregate.com/games/echocargames/bus-subway-runner",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Christmas Memory": {
+    "Flap Cat Halloween": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/christmas-memory",
+      "game_url": "http://www.kongregate.com/games/mafagames/flap-cat-halloween",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dimensional (beta)": {
+    "Kosmogon": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/Vermillion_gd/dimensional-beta",
+      "game_url": "http://www.kongregate.com/games/quickcasualgames/kosmogon",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Kuiz p\u00ebr Australin\u00eb": {
+    "Life Of A Golf Ball": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/del7244009/kuiz-p-r-australin",
+      "game_url": "http://www.kongregate.com/games/lubo36/life-of-a-golf-ball",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Sand Worm": {
+    "Murder": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/sand-worm",
+      "game_url": "http://www.kongregate.com/games/hussnainjaved534/murder",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -81,11 +81,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 53,
-    "total": 6246,
-    "updated": 7
+    "added": 60,
+    "total": 6366,
+    "updated": 0
   },
-  "run_timestamp": "2026-07-01T21:48:46Z",
+  "run_timestamp": "2026-07-01T22:03:51Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
