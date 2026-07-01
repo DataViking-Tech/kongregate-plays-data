@@ -1,34 +1,34 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T16:09:41Z
+- Generated: 2026-07-01T16:48:06Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 2435
-- Games with probe history: 97
+- Accumulated endpoint observations: 2733
+- Games with probe history: 107
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=11, no_archived_endpoint_rows_observed=86, not_probed=232, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=11, no_archived_endpoint_rows_observed=86, not_probed=145
-- CDX status counts: cached=839, failed=686, fetched=910
+- Status counts: archived_endpoint_hit_no_count=11, no_archived_endpoint_rows_observed=96, not_probed=222, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=11, no_archived_endpoint_rows_observed=96, not_probed=135
+- CDX status counts: cached=928, failed=775, fetched=1030
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| Right Box | 7 | 2017-06-16 |
-| Ball In The Cup | 7 | 2017-07-12 |
-| Litter Monkey | 7 | 2017-07-28 |
-| Treasure Hunt | 7 | 2017-07-29 |
-| Cloaked | 7 | 2017-08-11 |
-| Dragon Dash | 7 | 2017-11-06 |
-| Samsung KNOX | 8 | 2014-08-29 |
-| Baby Talking Tom Great Makeover | 8 | 2014-10-10 |
-| Super Mario Puzzle | 8 | 2014-10-13 |
-| Terrorist Hunt | 8 | 2014-12-28 |
 | Wolfenstein 3D | 8 | 2015-09-03 |
 | Love Story | 8 | 2015-09-09 |
 | Jogo Machão | 8 | 2015-09-30 |
 | Untitled Game #1 | 8 | 2016-01-16 |
 | Minifield | 8 | 2017-06-25 |
+| Mighty Motors - Drag Racing | 8 | 2017-11-06 |
+| Honey Clicker | 8 | 2019-08-25 |
+| Marketglory | 9 | 2014-09-02 |
+| Costanza Cube 2 | 9 | 2014-09-26 |
+| space mision alpha v1.0 3D | 9 | 2014-10-09 |
+| Clear Vision 3 | 9 | 2014-12-28 |
+| The stupid Quiz | 9 | 2016-01-16 |
+| Monster Shooter | 9 | 2016-02-17 |
+| Suns and Clouds | 9 | 2016-06-29 |
+| Coding Masters: Idle | 9 | 2016-08-13 |
 
 ## Output Files
 

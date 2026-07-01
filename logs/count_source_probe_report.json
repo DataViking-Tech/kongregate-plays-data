@@ -5,8 +5,8 @@
   "cdx_lookups": 24,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 21,
-    "fetched": 3
+    "cached": 20,
+    "fetched": 4
   },
   "cdx_wall_timeout": 25.0,
   "collapse": "digest",
@@ -17,7 +17,7 @@
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 30,
+  "max_cdx_lookups": 48,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,20 +30,20 @@
   "payload_wall_timeout": 25.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Seasonal Farming": {
+    "Dragon Dash": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/phacanu/seasonal-farming",
+      "game_url": "http://www.kongregate.com/games/mobilTR/dragon-dash",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Teste1": {
+    "Terrorist Hunt": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/MateusF29/teste1",
+      "game_url": "http://www.kongregate.com/games/szunyi/terrorist-hunt",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -54,11 +54,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 8,
-    "total": 2435,
-    "updated": 16
+    "added": 7,
+    "total": 2733,
+    "updated": 17
   },
-  "run_timestamp": "2026-07-01T16:09:33Z",
+  "run_timestamp": "2026-07-01T16:48:03Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
