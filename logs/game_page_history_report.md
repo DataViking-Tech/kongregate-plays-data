@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T09:53:54Z
-- Profile games in scope: 2
-- Selected games sample: Kuizi Biologjia - Pjesa e 3, Death Soul
+- Run timestamp: 2026-07-01T10:01:29Z
+- Profile games in scope: 1
+- Selected games sample: Plants Attack
 - Selected games omitted from sample: 0
-- CDX games considered: 2
+- CDX games considered: 1
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
 - Page timeout: 10s
 - Page wall-clock cap: 12.0
-- Game-name filter: Kuizi Biologjia - Pjesa e 3,Death Soul
+- Game-name filter: Plants Attack
 - Metrics row filter: no_metrics
-- CDX rows: 7
-- Page jobs: 5
-- Pending before run: 5
-- Attempted this run: 5
-- Fetched this run: 3
-- Cached HTML selected this run: 2
+- CDX rows: 1
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
+- Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 5
-- Failed this run: 5
+- No explicit count this run: 1
+- Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2844
+- Known failures: 2848
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
