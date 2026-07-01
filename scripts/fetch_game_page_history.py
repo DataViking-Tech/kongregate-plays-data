@@ -517,6 +517,8 @@ def make_report(
         "max_fetches": args.max_fetches,
         "max_jobs_per_game": args.max_jobs_per_game,
         "collapse": args.collapse,
+        "timeout": args.timeout,
+        "cdx_timeout": args.cdx_timeout or args.timeout,
         "cached_cdx_only": args.cached_cdx_only,
         "game_name_contains": args.game_name_contains,
         "retry_failures": args.retry_failures,
@@ -555,6 +557,8 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Profile games in scope: {report['profile_games_in_scope']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
+                f"- CDX timeout: {report['cdx_timeout']}s",
+                f"- Page timeout: {report['timeout']}s",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
                 f"- CDX rows: {report['cdx_rows']}",
                 f"- Page jobs: {report['page_jobs']}",
@@ -588,6 +592,7 @@ def main() -> None:
     parser.add_argument("--max-jobs-per-game", type=int, default=0, help="Limit selected page fetch/parse jobs per canonical game in this run. 0 means no per-game cap.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value. Default digest keeps unique page revisions.")
     parser.add_argument("--timeout", type=int, default=25, help="Per-request timeout in seconds.")
+    parser.add_argument("--cdx-timeout", type=int, default=0, help="Per-request timeout for CDX lookups. Defaults to --timeout when omitted.")
     parser.add_argument("--sleep", type=float, default=0.5, help="Seconds to sleep after an archived page fetch.")
     parser.add_argument("--cdx-sleep", type=float, default=0.8, help="Seconds to sleep after a fresh CDX lookup.")
     parser.add_argument("--cdx-retries", type=int, default=2, help="Retries for transient CDX lookup failures.")
@@ -649,7 +654,7 @@ def main() -> None:
 
     jobs, cdx_stats = build_jobs(
         games,
-        timeout_s=args.timeout,
+        timeout_s=args.cdx_timeout or args.timeout,
         cdx_sleep_s=args.cdx_sleep,
         refresh_cdx=args.refresh_cdx,
         max_cdx_games=args.max_cdx_games,

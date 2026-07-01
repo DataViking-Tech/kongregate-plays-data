@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1GFocQIeU8-5j8MoXQ9NzR2kb-KA07NHDvk3RjKGFtJk
+https://docs.google.com/spreadsheets/d/1-17a9LPj75UD-KYJCc48eu6UuzufXTUQhyQ31faRxUw
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,660 across 2,572 canonical games
-- Observed play-count rows used by the chart: 22,178
-- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,278 observed capture-date frames.
+- Per-game play-history rows: 7,710 across 2,572 canonical games
+- Observed play-count rows used by the chart: 22,228
+- Chart playback: Smooth mode uses 19,573 interpolated month-paced display frames by default; Captures mode exposes all 2,294 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Per-game play-history date range: 2007-03-24 to 2026-06-30
 
@@ -62,6 +62,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Visualization polish after checkpoint 51 keeps long game names clipped inside the label column and drives Smooth mode from elapsed time so busy browsers skip cleanly instead of accumulating small timing pauses.
 - Checkpoint 52 recovered 21 additional high-confidence archived game-page observations for GemCraft, extending that 2008 history run through 2008-09-12, increasing archived game-page history rows to 190, and refreshing the chart to 22,174 observed play-count rows.
 - Checkpoint 53 added `--profile-offset` and `--profile-limit` to `fetch_game_page_history.py` so the broad page-history queue can advance beyond the first tier games, then recovered 4 high-confidence archived game-page observations for UPGRADE COMPLETE! from July 2009.
+- Checkpoint 54 added a separate `--cdx-timeout` to `fetch_game_page_history.py` for faster resumable CDX discovery, then recovered 50 high-confidence archived game-page observations for Boxhead: 2Play Rooms from 2007-06-22 through 2008-09-24. Archived game-page history now has 244 rows, and the chart uses 22,228 observed play-count rows.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -109,11 +110,11 @@ python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diape
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
-python3 scripts/scan_data_quality.py --as-of 2026-06-30
+python3 scripts/scan_data_quality.py --as-of 2026-07-01
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs
 node scripts/build_play_count_bar_chart_race.mjs
 ```
 
-The metrics and page-history scrapers are intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, `--audit-statuses` or `--audit-pending-only` to target audited archived-metrics gaps, rerun archived metrics with `--retry-failures` for transient Wayback failures, and use `fetch_live_game_metrics.py --input-csv data/processed/final_chart_staleness.csv --statuses '' --refresh` to refresh explicit chart leaders. `fetch_game_page_history.py` is conservative: it stores parsed rows only when an archived game page exposes an explicit main play-count block. For the full page-history sweep, point it at `data/processed/catalog_history_priorities.csv` and run small tiered batches, for example `python3 scripts/fetch_game_page_history.py --input-csv data/processed/catalog_history_priorities.csv --tiers=2 --profile-offset 3 --profile-limit 5 --max-cdx-games 5 --variant-limit 3 --max-fetches 40 --max-jobs-per-game 8`. Use `--profile-offset`, `--profile-limit`, `--game-name-contains`, `--cached-cdx-only`, and `--max-jobs-per-game` for focused resumable page-history recovery. Live metrics retries skip known failures by default; add `--retry-failures` when intentionally rechecking those pages.
+The metrics and page-history scrapers are intentionally resumable. Use `--catalog-offset` and `--catalog-limit` to sweep the mini catalog in chunks, `--audit-statuses` or `--audit-pending-only` to target audited archived-metrics gaps, rerun archived metrics with `--retry-failures` for transient Wayback failures, and use `fetch_live_game_metrics.py --input-csv data/processed/final_chart_staleness.csv --statuses '' --refresh` to refresh explicit chart leaders. `fetch_game_page_history.py` is conservative: it stores parsed rows only when an archived game page exposes an explicit main play-count block. For the full page-history sweep, point it at `data/processed/catalog_history_priorities.csv` and run small tiered batches, for example `python3 scripts/fetch_game_page_history.py --input-csv data/processed/catalog_history_priorities.csv --tiers=2 --profile-offset 24 --profile-limit 3 --max-cdx-games 3 --variant-limit 2 --max-fetches 80 --max-jobs-per-game 80 --cached-cdx-only --cdx-timeout 5`. Use `--profile-offset`, `--profile-limit`, `--game-name-contains`, `--cached-cdx-only`, `--max-jobs-per-game`, and `--cdx-timeout` for focused resumable page-history recovery. Live metrics retries skip known failures by default; add `--retry-failures` when intentionally rechecking those pages.
 
 Raw Wayback HTML/JSON caches are not committed here. This repo publishes processed data, reports, scripts, and the static visualization.
