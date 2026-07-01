@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:21:18Z
-- Profile games in scope: 2
-- Selected games sample: Idle Capitalist 6, Spike Bird
+- Run timestamp: 2026-07-01T10:28:10Z
+- Profile games in scope: 3
+- Selected games sample: My Summer Items, Test 2, Kuizi Biologjia - Pjesa e 2
 - Selected games omitted from sample: 0
-- CDX games considered: 2
-- Cached CDX only: True
+- CDX games considered: 3
+- Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
 - Page timeout: 10s
 - Page wall-clock cap: 12.0
-- Game-name filter: Idle Capitalist 6,Spike Bird
+- Game-name filter: My Summer Items,Test 2,Kuizi Biologjia - Pjesa e 2
 - Metrics row filter: no_metrics
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- CDX rows: 11
+- Page jobs: 7
+- Pending before run: 7
+- Attempted this run: 4
+- Fetched this run: 4
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 4
+- Failed this run: 4
 - Manifest entries: 367
-- Known failures: 2858
+- Known failures: 2866
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
