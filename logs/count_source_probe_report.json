@@ -1,12 +1,12 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 88,
+  "candidate_observation_rows": 80,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 88,
+  "cdx_lookups": 80,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 26,
-    "fetched": 62
+    "cached": 27,
+    "fetched": 53
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
@@ -30,83 +30,83 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Countdown Striker": {
+    "Back To Future-The Game": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/wabala/back-to-future-the-game",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Chaos Faction 2": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/XxXMaleXxX/chaos-faction-2",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Click the Squirrel": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/anna54/countdown-striker",
+      "game_url": "http://www.kongregate.com/games/HailSatanMeth420/click-the-squirrel",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Crazy Chaotic Chicken Chase": {
+    "Electric Man 2Hs": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/DXInteractive/electric-man-2hs",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Get Ready for the Horse Show": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/GrantJO/crazy-chaotic-chicken-chase",
+      "game_url": "http://www.kongregate.com/games/games2girls/get-ready-for-the-horse-show",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Escape the Ship": {
+    "Giraffe Coloring": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/Speedychris/escape-the-ship",
+      "game_url": "http://www.kongregate.com/games/petee/giraffe-coloring",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Fantasy Warriors": {
+    "REPLAY The Game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/gamesrishti/fantasy-warriors",
+      "game_url": "http://www.kongregate.com/games/5tea/replay-the-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Fiat Puzzle": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/natalibt/fiat-puzzle",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Hidden Car Keys": {
+    "gold panic": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/manchebt/hidden-car-keys",
+      "game_url": "http://www.kongregate.com/games/zoolumonkey/gold-panic",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Hidden Dungeons MMORPG": {
+    "wolvorin": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/PaperCup/hidden-dungeons-mmorpg",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Modern War": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/xiatiandaole/modern-war",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "arch_diagram": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/WangHailong__9/arch-diagram",
+      "game_url": "http://www.kongregate.com/games/medamine14/wolvorin",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -117,11 +117,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 88,
-    "total": 7222,
+    "added": 80,
+    "total": 7390,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T23:17:08Z",
+  "run_timestamp": "2026-07-01T23:41:59Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -133,7 +133,7 @@
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 9,
-  "target_games_with_kongregate_ids": 4,
+  "target_games_with_kongregate_ids": 2,
   "tiers": [
     3
   ],
