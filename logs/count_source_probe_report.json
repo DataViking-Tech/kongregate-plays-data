@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 12,
+  "candidate_observation_rows": 48,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 12,
+  "cdx_lookups": 48,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 11,
-    "fetched": 1
+    "cached": 30,
+    "fetched": 18
   },
-  "cdx_wall_timeout": 24.0,
+  "cdx_wall_timeout": 22.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 0,
+  "games_direct_probed": 3,
   "games_with_cached_pages": 1,
-  "games_without_cached_pages": 0,
+  "games_without_cached_pages": 3,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 12,
+  "max_cdx_lookups": 48,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -27,15 +27,42 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 24.0,
+  "payload_wall_timeout": 22.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Agents of Mayhem: Splatter Effect": {
+    "Gray Tank": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/rheyank/agents-of-mayhem-splatter-effect",
+      "game_url": "http://www.kongregate.com/games/domjotebit/gray-tank",
       "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Jumpy Shark": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/jumpy-shark",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Super Cowboy Run": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/super-cowboy-run",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "TDS game 2": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/munoz20/tds-game-2",
+      "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -45,11 +72,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 9,
-    "total": 4376,
-    "updated": 3
+    "added": 43,
+    "total": 4651,
+    "updated": 5
   },
-  "run_timestamp": "2026-07-01T19:05:17Z",
+  "run_timestamp": "2026-07-01T19:35:24Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -60,8 +87,8 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 1,
-  "target_games_with_kongregate_ids": 1,
+  "target_games": 4,
+  "target_games_with_kongregate_ids": 4,
   "tiers": [
     1
   ],
