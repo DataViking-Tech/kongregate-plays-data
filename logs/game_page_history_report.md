@@ -1,25 +1,27 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T04:46:40Z
-- Profile games in scope: 1
-- Selected games sample: Bubble Shooter Exclusive
+- Run timestamp: 2026-07-01T05:34:33Z
+- Profile games in scope: 15
+- Selected games sample: Last Warrior, SpaceWarrior, The Funniest Game Ever, SuperBall Idle, The Saga Of The Wind Mobiles, as3q32@gmail.com, Make Me 10, Key to Success, Missiles Again, The Space Commando, Run Bird Run Online, Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded
 - Selected games omitted from sample: 0
-- CDX games considered: 1
-- Cached CDX only: False
-- Cached HTML only: False
-- CDX timeout: 5s
+- CDX games considered: 15
+- Cached CDX only: True
+- Cached HTML only: True
+- CDX timeout: 12s
 - Page timeout: 12s
-- Game-name filter: Bubble Shooter Exclusive
-- CDX rows: 12
-- Page jobs: 6
-- Pending before run: 6
-- Attempted this run: 6
+- Game-name filter: none
+- CDX rows: 72
+- Page jobs: 64
+- Pending before run: 64
+- Attempted this run: 15
 - Fetched this run: 0
+- Cached HTML selected this run: 15
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 6
-- Failed this run: 6
+- No explicit count this run: 15
+- Failed this run: 15
 - Manifest entries: 367
-- Known failures: 2647
+- Known failures: 2676
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False

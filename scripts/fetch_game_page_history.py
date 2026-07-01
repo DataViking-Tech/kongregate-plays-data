@@ -497,6 +497,7 @@ def make_report(
     selected_count: int,
     fetched: int,
     cached_selected: int,
+    network_fetch_failed: int,
     parsed_rows: int,
     failed: int,
     no_explicit_count: int,
@@ -549,6 +550,7 @@ def make_report(
         "attempted_this_run": selected_count,
         "fetched_this_run": fetched,
         "cached_selected_this_run": cached_selected,
+        "network_fetch_failed_this_run": network_fetch_failed,
         "parsed_rows_this_run": parsed_rows,
         "failed_this_run": failed,
         "no_explicit_count_this_run": no_explicit_count,
@@ -588,6 +590,8 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Pending before run: {report['pending_before_run']}",
                 f"- Attempted this run: {report['attempted_this_run']}",
                 f"- Fetched this run: {report['fetched_this_run']}",
+                f"- Cached HTML selected this run: {report['cached_selected_this_run']}",
+                f"- Network fetch failed this run: {report['network_fetch_failed_this_run']}",
                 f"- Parsed rows this run: {report['parsed_rows_this_run']}",
                 f"- No explicit count this run: {report['no_explicit_count_this_run']}",
                 f"- Failed this run: {report['failed_this_run']}",
@@ -668,6 +672,7 @@ def main() -> None:
             0,
             0,
             0,
+            0,
             manifest,
             failures,
             history_rows,
@@ -714,6 +719,7 @@ def main() -> None:
 
     fetched = 0
     cached_selected = 0
+    network_fetch_failed = 0
     parsed_rows = 0
     failed = 0
     no_explicit_count = 0
@@ -721,12 +727,15 @@ def main() -> None:
         target = html_cache_path(job)
         was_cached = target.exists() and target.stat().st_size > 0
         ok, detail, parsed = fetch_page(job, args.timeout, args.page_retries, args.retry_sleep)
+        has_html_after = target.exists() and target.stat().st_size > 0
+        if was_cached:
+            cached_selected += 1
+        elif has_html_after:
+            fetched += 1
+        else:
+            network_fetch_failed += 1
         failure_key = f"{job.canonical_key}\t{job.timestamp}\t{job.original}"
         if ok and parsed:
-            if was_cached:
-                cached_selected += 1
-            else:
-                fetched += 1
             parsed_rows += 1
             relative = str(target.relative_to(ROOT))
             manifest[relative] = {
@@ -785,6 +794,7 @@ def main() -> None:
         len(selected),
         fetched,
         cached_selected,
+        network_fetch_failed,
         parsed_rows,
         failed,
         no_explicit_count,
