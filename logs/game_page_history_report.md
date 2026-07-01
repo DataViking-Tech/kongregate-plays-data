@@ -1,21 +1,21 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:09:21Z
-- Profile games in scope: 8
-- Selected games sample: Colotap, Snake And Blocks, 101: A Video Game about Video Games (okay, a really early one), Shoot the Roy Minions, Ninja Balance, Fighting For Glorton 1.2v, Tangrid, Break The Line
+- Run timestamp: 2026-07-01T10:16:02Z
+- Profile games in scope: 4
+- Selected games sample: 101: A Video Game about Video Games (okay, a really early one), Gold Miner Jack 2, Kuizi Biologjia - Pjesa e 4, Idle Capitalist 6
 - Selected games omitted from sample: 0
-- CDX games considered: 8
+- CDX games considered: 4
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
 - Page timeout: 10s
 - Page wall-clock cap: 12.0
-- Game-name filter: Colotap,Snake And Blocks,101: A Video Game about Video Games (okay, a really early one),Shoot the Roy Minions,Ninja Balance,Fighting For Glorton 1.2v,Tangrid,Break The Line
+- Game-name filter: 101: A Video Game about Video Games (okay, a really early one),Gold Miner Jack 2,Kuizi Biologjia - Pjesa e 4,Idle Capitalist 6
 - Metrics row filter: no_metrics
-- CDX rows: 3
-- Page jobs: 2
-- Pending before run: 2
+- CDX rows: 16
+- Page jobs: 8
+- Pending before run: 8
 - Attempted this run: 2
 - Fetched this run: 2
 - Cached HTML selected this run: 0
@@ -24,7 +24,7 @@
 - No explicit count this run: 2
 - Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2850
+- Known failures: 2856
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
