@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1-17a9LPj75UD-KYJCc48eu6UuzufXTUQhyQ31faRxUw";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1WGEiuBhNVsFS4LRpzEbwk-7V1P7WFSc0Kb2yGXau6Xg";
 
 const topN = 12;
 
@@ -404,11 +404,13 @@ function htmlDocument() {
     }
 
     .rows.isDirectMotion .barRow {
-      transition: opacity 80ms ease;
+      transition:
+        transform var(--move-duration) linear,
+        opacity 80ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: none;
+      transition: transform var(--move-duration) linear;
     }
 
     .rank {
@@ -624,7 +626,7 @@ function htmlDocument() {
     const bufferRows = 2;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 84;
+    const smoothStepsPerMonth = 168;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
@@ -706,7 +708,7 @@ function htmlDocument() {
     }
 
     function smoothRatio(ratio) {
-      return ratio;
+      return ratio * ratio * (3 - (2 * ratio));
     }
 
     function numericMonth(monthId) {
@@ -967,7 +969,7 @@ function htmlDocument() {
     }
 
     function transformForSlot(slot) {
-      return \`translate3d(0, \${Math.round(slot * rowStep * 100) / 100}px, 0)\`;
+      return \`translate3d(0, \${Math.round(slot * rowStep)}px, 0)\`;
     }
 
     function setValue(valueEl, nextValue) {

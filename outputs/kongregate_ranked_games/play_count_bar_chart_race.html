@@ -249,11 +249,13 @@
     }
 
     .rows.isDirectMotion .barRow {
-      transition: opacity 80ms ease;
+      transition:
+        transform var(--move-duration) linear,
+        opacity 80ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: none;
+      transition: transform var(--move-duration) linear;
     }
 
     .rank {
@@ -426,7 +428,7 @@
       </div>
         <label class="speed">Pace <input id="speedSlider" type="range" min="1400" max="5600" value="2800" step="50" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
-        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1-17a9LPj75UD-KYJCc48eu6UuzufXTUQhyQ31faRxUw" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/1WGEiuBhNVsFS4LRpzEbwk-7V1P7WFSc0Kb2yGXau6Xg" target="_blank" rel="noreferrer">Google Sheet</a>
         <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
       </nav>
     </section>
@@ -469,7 +471,7 @@
     const bufferRows = 2;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 84;
+    const smoothStepsPerMonth = 168;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
@@ -551,7 +553,7 @@
     }
 
     function smoothRatio(ratio) {
-      return ratio;
+      return ratio * ratio * (3 - (2 * ratio));
     }
 
     function numericMonth(monthId) {
@@ -812,7 +814,7 @@
     }
 
     function transformForSlot(slot) {
-      return `translate3d(0, ${Math.round(slot * rowStep * 100) / 100}px, 0)`;
+      return `translate3d(0, ${Math.round(slot * rowStep)}px, 0)`;
     }
 
     function setValue(valueEl, nextValue) {
