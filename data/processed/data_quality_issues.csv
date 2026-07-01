@@ -1,6 +1,6 @@
 severity,area,issue_type,count,first_date,last_date,example,recommended_action
 high,plays,ranked_months_without_listing_play_counts,134,2014-09,2025-10,Last Warrior,Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text.
-high,metrics,catalog_games_without_metrics_history,358,,,as3q32@gmail.com,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
+high,metrics,catalog_games_without_metrics_history,330,,,as3q32@gmail.com,Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 high,metrics,catalog_games_need_page_history,2247,,,Kingdom Rush,Continue per-game metrics history backfill.
-medium,plays,play_count_decreases,16,2026-07-01,2026-05-01,Transformice,Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.
+medium,plays,play_count_decreases,18,2026-07-01,2026-05-01,Transformice,Review source-specific decreases; chart uses max observed counts but raw rows need QA labels.
 low,plays,stale_listing_play_count_observations,251,2026-07-01,2025-12-03,The Tickler,"Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."

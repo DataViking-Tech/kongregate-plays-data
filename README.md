@@ -10,15 +10,15 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1vV4CINXjWmMVVW3TRdur7VKk_Nwi2NunAsARZ7s2wm4
+https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymOFYg
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,536
 - Ranked-list rows with observed play counts: 14,868
 - Mini catalog: 2,931 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,838 across 2,573 canonical games
-- Observed play-count rows used by the chart: 22,706
+- Per-game play-history rows: 7,866 across 2,601 canonical games
+- Observed play-count rows used by the chart: 22,734
 - Chart playback: Smooth mode uses 9,829 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
@@ -75,15 +75,16 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 58 fixed `fetch_live_game_metrics.py --refresh` so valid local caches no longer block explicit live refreshes, then fetched current metrics for all 12 chart leaders. Per-game play history now reaches 2026-07-01, and the chart has 2,336 capture-date frames.
 - Checkpoint 59 added `fetch_live_ranked_pages.py` and captured seven reliable current category pages, adding 350 July 1 ranked/category rows with observed listing play counts. Redirecting or ambiguous live routes such as top-rated, most-played, and sorted browse URLs are rejected instead of being mislabeled as rank sources.
 - Checkpoint 60 recovered 5 archived `metrics.json` observations for Swarm Simulator: Evolution from 2021-02-09 through 2024-02-23, reducing catalog games without metrics history from 359 to 358. The same pass refreshed the tier-1 no-CDX page-history probe: 170 archived page attempts across 9 high-value gaps found no explicit trusted play-count blocks, and known archived game-page failures now stand at 2,610.
+- Checkpoint 61 swept current live `metrics.json` for unresolved no-CDX catalog games, recovered 28 current observations, and confirmed the live no-CDX queue has 0 pending targets. This reduced mini-catalog games without per-game metrics history from 358 to 330, including recoveries for Mecha Galaxy, Boxing Random, Sift Heads World Act 5 - An Exotic Job, Salads by Chef: Merge Сraft, Tracesoccer, Around The Core, and Scooby doo creepy run.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
-- 358 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 358 games without metrics CDX rows, and 0 missing CDX cache files.
-- The no-CDX profile splits the 356 no-history/no-CDX games still needing triage into 9 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count. The two audit-only no-CDX games outside that profile already have listing counts and do not need page-history backfill.
-- 16 source-conflict play-count decreases are under review after separating 251 stale listing-page echoes into `stale_listing_play_counts.csv`; the chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
+- 330 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 330 games without any per-game metrics rows, and 0 missing CDX cache files.
+- The no-CDX profile splits the 330 no-history/no-CDX games still needing triage into 6 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 86 single-capture complete-listing candidates, and 237 low-information single-capture rows with no listing play count.
+- 18 source-conflict play-count decreases are under review after separating 251 stale listing-page echoes into `stale_listing_play_counts.csv`; the chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
 - Final chart leaders have current live metrics observations as of 2026-07-01.
 
 ## Key Files

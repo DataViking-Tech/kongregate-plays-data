@@ -7,7 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1vV4CINXjWmMVVW3TRdur7VKk_Nwi2NunAsARZ7s2wm4";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymOFYg";
 
 const topN = 12;
 
@@ -171,9 +171,9 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 64ms;
+      --move-duration: 72ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
-      --fade-duration: 120ms;
+      --fade-duration: 180ms;
     }
 
     * {
@@ -405,12 +405,12 @@ function htmlDocument() {
 
     .rows.isDirectMotion .barRow {
       transition:
-        transform var(--move-duration) linear,
-        opacity 80ms ease;
+        transform var(--move-duration) var(--move-ease),
+        opacity var(--fade-duration) ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: transform var(--move-duration) linear;
+      transition: transform var(--move-duration) var(--move-ease);
     }
 
     .rank {
@@ -584,7 +584,7 @@ function htmlDocument() {
         <label class="speed">Pace <input id="speedSlider" type="range" min="1400" max="5600" value="2800" step="50" aria-label="Pace"></label>
       <nav class="links" aria-label="Data links">
         <a class="sheetLink" href="${sheetUrl}" target="_blank" rel="noreferrer">Google Sheet</a>
-        <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Data JSON</a>
+        <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Repo data JSON</a>
       </nav>
     </section>
 
@@ -626,7 +626,7 @@ function htmlDocument() {
     const bufferRows = 2;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 42;
+    const smoothStepsPerMonth = 84;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
@@ -1152,7 +1152,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(44, Math.min(90, delay * 0.96))
+        ? Math.max(42, Math.min(82, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
