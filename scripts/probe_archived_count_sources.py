@@ -9,12 +9,14 @@ import gzip
 import html
 import json
 import re
+import signal
 import socket
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha1
@@ -58,6 +60,30 @@ CSV_COLUMNS = [
     "parsed_plays",
     "notes",
 ]
+
+
+class RequestWallClockTimeout(TimeoutError):
+    pass
+
+
+@contextmanager
+def wall_clock_timeout(seconds: float):
+    if seconds <= 0 or not hasattr(signal, "setitimer"):
+        yield
+        return
+
+    def timeout_handler(_signum, _frame):
+        raise RequestWallClockTimeout(f"wall_clock_timeout_{seconds:g}s")
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    previous_timer = signal.getitimer(signal.ITIMER_REAL)
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.setitimer(signal.ITIMER_REAL, seconds)
+    try:
+        yield
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, *previous_timer)
+        signal.signal(signal.SIGALRM, previous_handler)
 
 
 @dataclass(frozen=True)
@@ -452,6 +478,7 @@ def fetch_cdx(
     match_type: str,
     collapse: str,
     timeout_s: int,
+    wall_timeout_s: float,
     refresh: bool,
     cached_only: bool,
     retries: int,
@@ -471,10 +498,11 @@ def fetch_cdx(
     last_error = ""
     for attempt in range(retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                data = json.loads(response.read().decode("utf-8", errors="replace"))
+            with wall_clock_timeout(wall_timeout_s):
+                with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                    data = json.loads(response.read().decode("utf-8", errors="replace"))
             break
-        except (TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
+        except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
             last_error = str(exc)
             if attempt < retries:
                 time.sleep(retry_sleep_s * (attempt + 1))
@@ -501,7 +529,7 @@ def decode_payload(payload: bytes, headers) -> str:
     return payload.decode("utf-8", errors="replace")
 
 
-def fetch_payload(timestamp: str, original: str, timeout_s: int) -> tuple[str, str, str]:
+def fetch_payload(timestamp: str, original: str, timeout_s: int, wall_timeout_s: float) -> tuple[str, str, str]:
     target = payload_cache_path(timestamp, original)
     if target.exists() and target.stat().st_size > 0:
         return target.read_text(errors="replace"), relative(target), "cached"
@@ -511,14 +539,15 @@ def fetch_payload(timestamp: str, original: str, timeout_s: int) -> tuple[str, s
         headers={"User-Agent": "KongregateCountSourceProbe/0.1", "Accept": "application/json,text/javascript,text/html,text/plain,*/*"},
     )
     try:
-        with urllib.request.urlopen(request, timeout=timeout_s) as response:
-            text = decode_payload(response.read(), response.headers)
+        with wall_clock_timeout(wall_timeout_s):
+            with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                text = decode_payload(response.read(), response.headers)
     except urllib.error.HTTPError as exc:
         text = decode_payload(exc.read(), exc.headers)
         if exc.code >= 500:
             ERROR_LOG.open("a", encoding="utf-8").write(f"{utc_now()}\tpayload\t{timestamp}\t{original}\thttp_{exc.code}\n")
             return "", "", f"failed: http_{exc.code}"
-    except (TimeoutError, socket.timeout, urllib.error.URLError) as exc:
+    except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError) as exc:
         ERROR_LOG.open("a", encoding="utf-8").write(f"{utc_now()}\tpayload\t{timestamp}\t{original}\t{exc}\n")
         return "", "", f"failed: {exc}"
 
@@ -599,6 +628,8 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "source_types": sorted(args.source_types_set),
         "match_type": args.match_type,
         "collapse": args.collapse,
+        "cdx_wall_timeout": args.cdx_wall_timeout,
+        "payload_wall_timeout": args.payload_wall_timeout,
         "cached_cdx_only": args.cached_cdx_only,
         "cdx_lookups": len(rows),
         "cdx_status_counts": dict(sorted(cdx_status_counts.items())),
@@ -699,6 +730,8 @@ def main() -> None:
     parser.add_argument("--match-type", default="exact", choices=["exact", "prefix"], help="CDX match type for candidate endpoints.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value.")
     parser.add_argument("--timeout", type=int, default=12, help="Per-request timeout in seconds.")
+    parser.add_argument("--cdx-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each CDX lookup, including slow redirects/reads.")
+    parser.add_argument("--payload-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each archived endpoint payload fetch.")
     parser.add_argument("--sleep", type=float, default=0.2, help="Seconds to sleep after fresh network requests.")
     parser.add_argument("--cdx-retries", type=int, default=1, help="Retries for transient CDX lookup failures.")
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between CDX retries.")
@@ -735,6 +768,7 @@ def main() -> None:
                     args.match_type,
                     args.collapse,
                     args.timeout,
+                    args.cdx_wall_timeout,
                     args.refresh_cdx,
                     args.cached_cdx_only,
                     args.cdx_retries,
@@ -770,7 +804,12 @@ def main() -> None:
                     notes = candidate.discovered_from
                     sample_path = ""
                     if args.max_fetches and payload_fetches < args.max_fetches:
-                        text, sample_path, fetch_status = fetch_payload(row.get("timestamp", ""), row.get("original", ""), args.timeout)
+                        text, sample_path, fetch_status = fetch_payload(
+                            row.get("timestamp", ""),
+                            row.get("original", ""),
+                            args.timeout,
+                            args.payload_wall_timeout,
+                        )
                         payload_fetches += 1
                         if fetch_status not in {"cached"}:
                             time.sleep(args.sleep)

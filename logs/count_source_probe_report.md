@@ -1,10 +1,10 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T06:52:40Z
-- Target games: 7
-- Games with cached archived pages: 7
-- Endpoint candidates checked: 28
-- CDX status counts: failed=17, fetched=11
+- Generated: 2026-07-01T08:06:31Z
+- Target games: 6
+- Games with cached archived pages: 6
+- Endpoint candidates checked: 12
+- CDX status counts: cached=6, failed=1, fetched=5
 - CDX rows found: 0
 - Candidates with CDX rows: 0
 - Payloads with count-like signals: 0
@@ -16,7 +16,7 @@ No sampled alternate endpoint exposed a parseable play-count field in this run. 
 
 ## Retry Note
 
-17 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+1 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 

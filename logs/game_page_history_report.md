@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T07:40:03Z
-- Profile games in scope: 12
-- Selected games sample: CountryBalls 4, Mini Jumper, dat boi, Aston Martin Hidden Wheels, Sky Knight, Horse Racing, Finger Spinner Online, Britney Spears vs Child Servisous, Cherrie New Spring Trends, Raze 3, AstroLords, A Kongergate Special
+- Run timestamp: 2026-07-01T08:11:27Z
+- Profile games in scope: 7
+- Selected games sample: Missiles Again, Run Bird Run Online, Elsa And Anna Chinese Dress Up, Mini Jumper, Sky Knight, Cherrie New Spring Trends, Simple Platformer
 - Selected games omitted from sample: 0
-- CDX games considered: 12
+- CDX games considered: 7
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 6s
 - CDX wall-clock cap: 8.0
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: CountryBalls 4,Mini Jumper,dat boi,Aston Martin Hidden Wheels,Sky Knight,Horse Racing,Finger Spinner Online,Britney Spears vs Child Servisous,Cherrie New Spring Trends,Raze 3,AstroLords,A Kongergate Special
+- Game-name filter: Missiles Again,Run Bird Run Online,Elsa And Anna Chinese Dress Up,Mini Jumper,Sky Knight,Cherrie New Spring Trends,Simple Platformer
 - Metrics row filter: no_metrics
-- CDX rows: 15
+- CDX rows: 16
 - Page jobs: 7
 - Pending before run: 7
-- Attempted this run: 5
-- Fetched this run: 2
+- Attempted this run: 7
+- Fetched this run: 7
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 3
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 5
+- No explicit count this run: 7
+- Failed this run: 7
 - Manifest entries: 367
-- Known failures: 2719
+- Known failures: 2727
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False

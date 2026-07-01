@@ -1,18 +1,20 @@
 {
   "cached_cdx_only": false,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 28,
+  "cdx_lookups": 12,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "failed": 17,
-    "fetched": 11
+    "cached": 6,
+    "failed": 1,
+    "fetched": 5
   },
+  "cdx_wall_timeout": 8.0,
   "collapse": "digest",
-  "game_name_contains": "",
-  "games_with_cached_pages": 7,
+  "game_name_contains": "SuperBall Idle,Make Me 10,Key to Success,The Space Commando,LT-Breakout,Surrounded",
+  "games_with_cached_pages": 6,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
-  "match_type": "prefix",
-  "max_candidates_per_page": 12,
+  "match_type": "exact",
+  "max_candidates_per_page": 4,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -20,74 +22,66 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
+  "payload_wall_timeout": 8.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Bubble Shooter Exclusive": {
+    "Key to Success": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/SamuelVenable/key-to-success",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Crazy Zombie v2.0 Crossing Hero": {
+    "LT-Breakout": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/SandmanZA/lt-breakout",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Mike Shadow: I Paid For It! (Mochi Premiums)": {
+    "Make Me 10": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/Allkiko1/mike-shadow-i-paid-for-it-mochi-premiums",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/LinhVo1611/make-me-10",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Mining Truck": {
+    "SuperBall Idle": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/xiatiandaole/mining-truck",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/joao8991/superball-idle",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "RPgTest": {
+    "Surrounded": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/Nicolo974jtm34/rpgtest",
+      "endpoint_candidates": 2,
+      "game_url": "https://www.kongregate.com/games/JasonNumberXIII/surrounded",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Swimwear Store": {
+    "The Space Commando": {
       "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/games2girls/swimwear-store",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Tap Tap Infinity": {
-      "candidates_with_cdx": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/TapTapInfinity/tap-tap-infinity",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Eternal_Vanguard/the-space-commando",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
-  "run_timestamp": "2026-07-01T06:52:40Z",
+  "run_timestamp": "2026-07-01T08:06:31Z",
   "source_types": [
-    "recommended_games"
+    "metrics_json"
   ],
-  "target_games": 7,
-  "target_games_with_kongregate_ids": 7,
+  "target_games": 6,
+  "target_games_with_kongregate_ids": 6,
   "tiers": [
-    1,
-    2
+    1
   ],
   "top_candidates_with_cdx": [],
   "top_count_signals": []
