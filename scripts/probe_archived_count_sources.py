@@ -65,6 +65,7 @@ class TargetGame:
     game_name: str
     game_url: str
     canonical_key: str
+    game_ids: tuple[str, ...]
     tier: int
     best_rank: int
     first_seen_date: str
@@ -188,6 +189,13 @@ def load_targets(input_csv: Path, tiers: set[int], name_filters: list[str], max_
                 game_name=game_name,
                 game_url=game_url,
                 canonical_key=row.get("canonical_game_key") or canonical_game_url(game_url),
+                game_ids=tuple(
+                    dict.fromkeys(
+                        game_id.strip()
+                        for game_id in re.split(r"[;,]\s*", row.get("kongregate_game_ids", ""))
+                        if game_id.strip().isdigit()
+                    )
+                ),
                 tier=tier,
                 best_rank=parse_int(row.get("best_rank")),
                 first_seen_date=row.get("first_seen_date", ""),
@@ -346,7 +354,7 @@ def path_to_urls(url_or_path: str, page_original_url: str) -> list[str]:
 def endpoint_candidates_for_page(game: TargetGame, page: PageRef, max_candidates: int) -> list[EndpointCandidate]:
     path = ROOT / page.relative_path
     markup = path.read_text(errors="replace")
-    game_ids = extract_game_ids(markup)
+    game_ids = list(dict.fromkeys([*game.game_ids, *extract_game_ids(markup)]))
     field_paths = extract_field_paths(markup)
     game_paths = [game_path_from_url(game.game_url)]
     for field, value in field_paths:
@@ -363,6 +371,13 @@ def endpoint_candidates_for_page(game: TargetGame, page: PageRef, max_candidates
             ("chat_achievements", f"{game_path}/chat_achievements", "generated_from_game_path"),
         ]
         raw_candidates.extend(generated)
+    for game_id in game_ids:
+        raw_candidates.extend(
+            [
+                ("recommended_games", f"/recommended_games?game_id={game_id}", "generated_from_kongregate_game_id"),
+                ("recommended_games", f"/recommended_games?game_id={game_id}&gamepage_pod=true", "generated_from_kongregate_game_id"),
+            ]
+        )
     for field, value in field_paths:
         if not endpoint_matches_game(value, game):
             continue
@@ -554,6 +569,7 @@ def write_candidates(rows: list[dict[str, object]]) -> None:
 
 def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[PageRef]], rows: list[dict[str, object]]) -> dict[str, object]:
     games_with_pages = sum(1 for target in targets if pages_by_key.get(target.canonical_key))
+    games_with_ids = sum(1 for target in targets if target.game_ids)
     cdx_rows_found = sum(parse_int(row.get("cdx_rows")) for row in rows)
     rows_with_cdx = [row for row in rows if parse_int(row.get("cdx_rows")) > 0]
     rows_with_signals = [row for row in rows if row.get("count_signal")]
@@ -576,9 +592,11 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "tiers": sorted(args.tiers_set),
         "game_name_contains": args.game_name_contains,
         "target_games": len(targets),
+        "target_games_with_kongregate_ids": games_with_ids,
         "games_with_cached_pages": games_with_pages,
         "max_pages_per_game": args.max_pages_per_game,
         "max_candidates_per_page": args.max_candidates_per_page,
+        "source_types": sorted(args.source_types_set),
         "match_type": args.match_type,
         "collapse": args.collapse,
         "cached_cdx_only": args.cached_cdx_only,
@@ -677,6 +695,7 @@ def main() -> None:
     parser.add_argument("--max-games", type=int, default=0, help="Limit target games after filtering. 0 means no limit.")
     parser.add_argument("--max-pages-per-game", type=int, default=2, help="Cached archived pages to inspect per game.")
     parser.add_argument("--max-candidates-per-page", type=int, default=12, help="Endpoint candidates to query per cached page.")
+    parser.add_argument("--source-types", default="", help="Comma-separated endpoint source types to include, e.g. recommended_games. Empty means all.")
     parser.add_argument("--match-type", default="exact", choices=["exact", "prefix"], help="CDX match type for candidate endpoints.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value.")
     parser.add_argument("--timeout", type=int, default=12, help="Per-request timeout in seconds.")
@@ -689,6 +708,7 @@ def main() -> None:
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files.")
     args = parser.parse_args()
     args.tiers_set = {parse_int(value) for value in args.tiers.split(",") if value.strip()}
+    args.source_types_set = {value.strip() for value in args.source_types.split(",") if value.strip()}
 
     for directory in (RAW_CDX, RAW_PAYLOADS, PROCESSED, LOGS):
         directory.mkdir(parents=True, exist_ok=True)
@@ -708,6 +728,8 @@ def main() -> None:
             page_refs = page_refs[: args.max_pages_per_game]
         for page in page_refs:
             for candidate in endpoint_candidates_for_page(game, page, args.max_candidates_per_page):
+                if args.source_types_set and candidate.source_type not in args.source_types_set:
+                    continue
                 rows, status = fetch_cdx(
                     candidate.endpoint_url,
                     args.match_type,
