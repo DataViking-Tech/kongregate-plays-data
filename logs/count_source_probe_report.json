@@ -1,11 +1,11 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 84,
+  "candidate_observation_rows": 88,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 84,
+  "cdx_lookups": 88,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 22,
+    "cached": 26,
     "fetched": 62
   },
   "cdx_wall_timeout": 28.0,
@@ -17,7 +17,7 @@
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 92,
+  "max_cdx_lookups": 96,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,83 +30,83 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Active Ashfield's Conversion Challenge": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/QuakMultimedia/active-ashfields-conversion-challenge",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Clear Vision Elite": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/dpflashes/clear-vision-elite",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Eternal-Red": {
+    "Countdown Striker": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/MohammadAqib07/eternal-red",
+      "game_url": "http://www.kongregate.com/games/anna54/countdown-striker",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Fadious Dragon": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/1SwiftHawk/fadious-dragon",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Fruit connect": {
+    "Crazy Chaotic Chicken Chase": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/alia2013/fruit-connect",
+      "game_url": "http://www.kongregate.com/games/GrantJO/crazy-chaotic-chicken-chase",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "GTA Portable": {
+    "Escape the Ship": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/firekez/gta-portable",
+      "game_url": "http://www.kongregate.com/games/Speedychris/escape-the-ship",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Paper Doors Escape": {
+    "Fantasy Warriors": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/gamesrishti/fantasy-warriors",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Fiat Puzzle": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/game4joy/paper-doors-escape",
+      "game_url": "http://www.kongregate.com/games/natalibt/fiat-puzzle",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Photogrounds": {
+    "Hidden Car Keys": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/nathanielmilburn/photogrounds",
+      "game_url": "http://www.kongregate.com/games/manchebt/hidden-car-keys",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Spongebob VS. Larry Ve...": {
+    "Hidden Dungeons MMORPG": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/S_Schreiber/spongebob-vs-larry-version-2",
+      "game_url": "http://www.kongregate.com/games/PaperCup/hidden-dungeons-mmorpg",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Modern War": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/xiatiandaole/modern-war",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "arch_diagram": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/WangHailong__9/arch-diagram",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -117,11 +117,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 84,
-    "total": 7038,
+    "added": 88,
+    "total": 7222,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T23:00:55Z",
+  "run_timestamp": "2026-07-01T23:17:08Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -133,7 +133,7 @@
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 9,
-  "target_games_with_kongregate_ids": 3,
+  "target_games_with_kongregate_ids": 4,
   "tiers": [
     3
   ],
