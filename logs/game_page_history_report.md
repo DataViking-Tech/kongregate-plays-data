@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T09:03:56Z
+- Run timestamp: 2026-07-01T09:17:33Z
 - Profile games in scope: 1
-- Selected games sample: Baby Talking Tom Great Makeover
+- Selected games sample: Oldschool tennis (pre-pre-BETA!)
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: True
@@ -11,20 +11,20 @@
 - CDX wall-clock cap: 14.0
 - Page timeout: 12s
 - Page wall-clock cap: 14.0
-- Game-name filter: Baby Talking Tom Great Makeover
+- Game-name filter: Oldschool tennis (pre-pre-BETA!)
 - Metrics row filter: no_metrics
-- CDX rows: 4
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- CDX rows: 1
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 1
+- Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2778
+- Known failures: 2795
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False

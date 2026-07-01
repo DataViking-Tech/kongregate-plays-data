@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T09:04:13Z",
+  "generated_at": "2026-07-01T09:17:46Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1
@@ -7,14 +7,14 @@
   "metrics_row_status": "no_metrics",
   "profile_games": 243,
   "status_counts": {
-    "not_checked": 131,
-    "html_without_explicit_count": 63,
-    "no_page_cdx_rows": 49
+    "not_checked": 111,
+    "html_without_explicit_count": 74,
+    "no_page_cdx_rows": 58
   },
   "recommended_action_counts": {
-    "Run a bounded page-history CDX shard for this game.": 131,
-    "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 63,
-    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 49
+    "Run a bounded page-history CDX shard for this game.": 111,
+    "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 74,
+    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 58
   },
   "high_value_unresolved_games": 243,
   "top_unresolved_examples": [
