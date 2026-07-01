@@ -1,19 +1,19 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T14:06:09Z
-- Target games: 1
+- Generated: 2026-07-01T14:45:17Z
+- Target games: 3
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 1
-- Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 12
-- Candidate observation rows: 12
-- CDX status counts: fetched=12
+- Games direct-probed from catalog URLs: 2
+- Endpoint candidates checked: 36
+- Candidate observation rows: 36
+- CDX status counts: cached=26, fetched=10
 - CDX rows found: 0
 - Candidates with CDX rows: 0
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 1303 (12 new, 0 refreshed)
+- Accumulated probe-history rows: 1596 (21 new, 15 refreshed)
 
 ## Interpretation
 

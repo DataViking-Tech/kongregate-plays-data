@@ -1,34 +1,34 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T14:06:24Z
+- Generated: 2026-07-01T14:45:21Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 1303
-- Games with probe history: 57
+- Accumulated endpoint observations: 1596
+- Games with probe history: 67
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=47, not_probed=272, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=47, not_probed=185
-- CDX status counts: cached=476, failed=375, fetched=452
+- Status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=57, not_probed=262, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=57, not_probed=175
+- CDX status counts: cached=564, failed=460, fetched=572
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| BMW M5 E34 | 4 | 2016-05-06 |
-| Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game) | 4 | 2016-09-23 |
-| Mr.Miner | 4 | 2017-05-16 |
-| Balls Vs Blocks Online | 4 | 2017-06-16 |
-| Kung Fu Adventure | 4 | 2017-07-28 |
-| E-Sim | 5 | 2014-09-19 |
-| My Line Of Sight attempt from Construct 2 | 5 | 2014-09-26 |
-| Burnt Plate | 5 | 2014-10-04 |
-| I'ts a lamp? | 5 | 2014-10-29 |
-| Una Chief: The Great Adventure | 5 | 2014-12-17 |
 | Spacebar v0.1 | 5 | 2015-12-05 |
 | Whitewash | 5 | 2016-02-02 |
 | idk | 5 | 2016-02-17 |
 | Super Casual | 5 | 2016-03-16 |
 | Ghoul be Gone Demo | 5 | 2016-03-20 |
+| UFC 198 Live Stream - Werdum vs Miocic | 5 | 2016-05-15 |
+| quangjing | 5 | 2016-06-22 |
+| Create your face with this stupid game | 5 | 2016-07-27 |
+| Hired Ops — New Dynamic Online Shooter | 5 | 2016-10-30 |
+| Viking Workout | 5 | 2017-11-06 |
+| AstroWorlds | 6 | 2014-08-29 |
+| RPgTest | 6 | 2014-10-03 |
+| Peppa Zoo Decor | 6 | 2014-10-13 |
+| Mining Truck | 6 | 2014-10-17 |
+| Teste mark 2 | 6 | 2015-09-30 |
 
 ## Output Files
 
