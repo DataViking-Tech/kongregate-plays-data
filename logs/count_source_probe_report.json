@@ -5,8 +5,7 @@
   "cdx_lookups": 12,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 1,
-    "fetched": 11
+    "fetched": 12
   },
   "cdx_wall_timeout": 18.0,
   "collapse": "digest",
@@ -30,11 +29,11 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "CBS:Escape from the Mall": {
+    "1p.Story: Death": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/cFreak19/cbs-escape-from-the-mall",
+      "game_url": "http://www.kongregate.com/games/isketchworks/1p-story-death",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -46,10 +45,10 @@
   },
   "persisted_probe_history": {
     "added": 12,
-    "total": 1172,
+    "total": 1303,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T13:50:46Z",
+  "run_timestamp": "2026-07-01T14:06:09Z",
   "source_types": [
     "chat_achievements",
     "chat_js",

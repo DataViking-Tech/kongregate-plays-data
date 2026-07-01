@@ -1,24 +1,19 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T13:50:59Z
+- Generated: 2026-07-01T14:06:24Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 1172
-- Games with probe history: 52
+- Accumulated endpoint observations: 1303
+- Games with probe history: 57
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=42, not_probed=277, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=42, not_probed=190
-- CDX status counts: cached=447, failed=333, fetched=392
+- Status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=47, not_probed=272, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=10, no_archived_endpoint_rows_observed=47, not_probed=185
+- CDX status counts: cached=476, failed=375, fetched=452
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| Rise of Mythos | 4 | 2014-09-19 |
-| Simple Platformer | 4 | 2014-11-11 |
-| Doom II: Hell on Earth | 4 | 2015-09-09 |
-| DoodiaMan Find Wife | 4 | 2016-01-02 |
-| 1p.Story: Death | 4 | 2016-03-16 |
 | BMW M5 E34 | 4 | 2016-05-06 |
 | Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game) | 4 | 2016-09-23 |
 | Mr.Miner | 4 | 2017-05-16 |
@@ -29,6 +24,11 @@
 | Burnt Plate | 5 | 2014-10-04 |
 | I'ts a lamp? | 5 | 2014-10-29 |
 | Una Chief: The Great Adventure | 5 | 2014-12-17 |
+| Spacebar v0.1 | 5 | 2015-12-05 |
+| Whitewash | 5 | 2016-02-02 |
+| idk | 5 | 2016-02-17 |
+| Super Casual | 5 | 2016-03-16 |
+| Ghoul be Gone Demo | 5 | 2016-03-20 |
 
 ## Output Files
 
