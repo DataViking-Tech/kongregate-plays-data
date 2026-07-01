@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 60,
+  "candidate_observation_rows": 72,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 60,
+  "cdx_lookups": 72,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 24,
-    "fetched": 36
+    "cached": 35,
+    "fetched": 37
   },
   "cdx_wall_timeout": 22.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 1,
-  "games_with_cached_pages": 4,
-  "games_without_cached_pages": 1,
+  "games_direct_probed": 3,
+  "games_with_cached_pages": 3,
+  "games_without_cached_pages": 3,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 60,
+  "max_cdx_lookups": 72,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,47 +30,56 @@
   "payload_wall_timeout": 22.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Colotap": {
+    "FurLight": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/Palazoles/colotap",
+      "game_url": "http://www.kongregate.com/games/ArsenG1/furlight",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Fighting For Glorton 1.2v": {
+    "Idle Capitalist 6": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/Zueirao34/fighting-for-glorton-1-2v",
+      "game_url": "http://www.kongregate.com/games/KasparsM/idle-capitalist-6",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Ninja Balance": {
+    "Karting Racing": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/ninja-balance",
+      "game_url": "http://www.kongregate.com/games/mafagames/karting-racing",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Shoot the Roy Minions": {
+    "My Little Pony Winter Fashion 2": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
+      "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/coolstronggames/shoot-the-roy-minions",
-      "pages_checked": 1,
+      "game_url": "http://www.kongregate.com/games/mafagames/my-little-pony-winter-fashion-2",
+      "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Tangrid": {
+    "Transport": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/transport",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Yandere - Heartbreak": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/tangrid",
+      "game_url": "http://www.kongregate.com/games/swiftmoon12/yandere-heartbreak",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -81,11 +90,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 60,
-    "total": 4913,
-    "updated": 0
+    "added": 71,
+    "total": 5185,
+    "updated": 1
   },
-  "run_timestamp": "2026-07-01T19:53:27Z",
+  "run_timestamp": "2026-07-01T20:13:18Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -96,8 +105,8 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 5,
-  "target_games_with_kongregate_ids": 5,
+  "target_games": 6,
+  "target_games_with_kongregate_ids": 6,
   "tiers": [
     1
   ],

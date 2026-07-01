@@ -663,9 +663,9 @@ function htmlDocument() {
     const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowPositionPrecision = 3;
-    const slotDriftLimit = 0.06;
-    const barScalePrecision = 10000;
-    const barScaleThreshold = 0.0002;
+    const slotDriftLimit = 0.42;
+    const barScalePrecision = 2000;
+    const barScaleThreshold = 0.0005;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -774,6 +774,31 @@ function htmlDocument() {
 
     function frameEntryMap(frame) {
       return new Map((frame.entries || []).map((entry) => [entry.key, entry]));
+    }
+
+    function clampedSlotPosition(slot) {
+      const numericSlot = Number(slot);
+      if (!Number.isFinite(numericSlot)) return 0;
+      return Math.max(0, Math.min(renderedRows + 1.5, numericSlot));
+    }
+
+    function motionReadyFrame(frame) {
+      return {
+        ...frame,
+        entries: (frame.entries || []).map((entry, index) => {
+          const rankPosition = Number.isFinite(Number(entry.rankPosition))
+            ? Number(entry.rankPosition)
+            : Number(entry.rank || index + 1);
+          return {
+            ...entry,
+            rankPosition,
+            displayOrder: Number.isFinite(Number(entry.displayOrder)) ? Number(entry.displayOrder) : rankPosition,
+            slotPosition: Number.isFinite(Number(entry.slotPosition))
+              ? clampedSlotPosition(entry.slotPosition)
+              : clampedSlotPosition(rankPosition - 1),
+          };
+        }),
+      };
     }
 
     function smoothRatio(ratio) {
@@ -918,8 +943,8 @@ function htmlDocument() {
           return {
             ...entry,
             rank: index + 1,
-            displayOrder: index + 1,
-            slotPosition: compactSlot + slotDrift,
+            displayOrder: index + 1 + slotDrift,
+            slotPosition: clampedSlotPosition(compactSlot + slotDrift),
           };
         });
 
@@ -941,7 +966,7 @@ function htmlDocument() {
     }
 
     function buildSmoothFrames(sourceFrames) {
-      const keyframes = buildMonthlyKeyframes(sourceFrames);
+      const keyframes = buildMonthlyKeyframes(sourceFrames).map(motionReadyFrame);
       if (keyframes.length <= 1) return keyframes;
 
       const smoothFrames = [keyframes[0]];
@@ -1273,10 +1298,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(120, Math.min(420, delay * 1.55))
+        ? Math.max(180, Math.min(520, delay * 1.8))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(120, Math.min(420, delay * 1.55))
+        ? Math.max(180, Math.min(520, delay * 1.8))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
