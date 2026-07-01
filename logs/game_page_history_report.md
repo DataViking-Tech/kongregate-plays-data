@@ -1,23 +1,23 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T01:54:14Z
+- Run timestamp: 2026-07-01T02:09:50Z
 - Profile games in scope: 1
-- Selected games: GemCraft
+- Selected games: Monster Slayers
 - CDX games considered: 1
 - Cached CDX only: True
 - CDX timeout: 5s
 - Page timeout: 18s
-- Game-name filter: none
-- CDX rows: 1016
-- Page jobs: 508
-- Pending before run: 344
+- Game-name filter: Monster Slayers
+- CDX rows: 747
+- Page jobs: 249
+- Pending before run: 241
 - Attempted this run: 120
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 51
+- No explicit count this run: 49
 - Failed this run: 120
 - Manifest entries: 367
-- Known failures: 1713
+- Known failures: 2073
 - Combined history rows: 7833
 - Game-page history rows: 367
 - Report only: False

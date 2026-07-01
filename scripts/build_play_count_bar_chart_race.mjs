@@ -171,7 +171,7 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 42ms;
+      --move-duration: 64ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 120ms;
     }
@@ -626,7 +626,7 @@ function htmlDocument() {
     const bufferRows = 2;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 168;
+    const smoothStepsPerMonth = 42;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
@@ -969,7 +969,8 @@ function htmlDocument() {
     }
 
     function transformForSlot(slot) {
-      return \`translate3d(0, \${Math.round(slot * rowStep)}px, 0)\`;
+      const y = Number.isFinite(slot) ? slot * rowStep : 0;
+      return \`translate3d(0, \${y.toFixed(2)}px, 0)\`;
     }
 
     function setValue(valueEl, nextValue) {
@@ -1151,7 +1152,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(16, Math.min(36, delay * 0.9))
+        ? Math.max(44, Math.min(90, delay * 0.96))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
