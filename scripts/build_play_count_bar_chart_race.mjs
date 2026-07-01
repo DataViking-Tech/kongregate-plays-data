@@ -424,12 +424,11 @@ function htmlDocument() {
 
     .rows.isDirectMotion .barRow {
       transition:
-        transform var(--move-duration) var(--move-ease),
-        opacity 160ms ease;
+        opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: transform var(--move-duration) var(--move-ease);
+      transition: none;
     }
 
     .rank {
@@ -578,12 +577,11 @@ function htmlDocument() {
 
       .rows.isDirectMotion .barRow {
         transition:
-          transform var(--move-duration) var(--move-ease),
-          opacity 160ms ease;
+          opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
-        transition: transform var(--move-duration) var(--move-ease);
+        transition: none;
       }
     }
   </style>
@@ -897,7 +895,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: index,
+          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
         }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
