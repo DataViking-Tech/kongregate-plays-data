@@ -660,10 +660,9 @@ function htmlDocument() {
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 72;
+    const smoothStepsPerMonth = 96;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowPositionPrecision = 3;
-    const slotDriftLimit = 0.42;
     const barScalePrecision = 2000;
     const barScaleThreshold = 0.0005;
     const rowsByKey = new Map();
@@ -936,17 +935,12 @@ function htmlDocument() {
         .slice(0, renderedRows);
 
       const entries = sortedEntries
-        .map((entry, index) => {
-          const compactSlot = index;
-          const rankSlot = entry.rankPosition - 1;
-          const slotDrift = Math.max(-slotDriftLimit, Math.min(slotDriftLimit, rankSlot - compactSlot));
-          return {
-            ...entry,
-            rank: index + 1,
-            displayOrder: index + 1 + slotDrift,
-            slotPosition: clampedSlotPosition(compactSlot + slotDrift),
-          };
-        });
+        .map((entry, index) => ({
+          ...entry,
+          rank: index + 1,
+          displayOrder: index + 1,
+          slotPosition: index,
+        }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
 
@@ -1201,9 +1195,13 @@ function htmlDocument() {
       const entries = frame.entries.slice(0, renderedRows);
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
       const activeKeys = new Set();
+      const shouldUpdateFrameMeta = playbackMode !== "smooth"
+        || safeIndex % sliderSyncEvery === 0
+        || safeIndex === 0
+        || safeIndex === frames.length - 1;
 
       setTextIfChanged(dateLabel, frame.displayDate || frame.date);
-      setTextIfChanged(dateMeta, \`\${frame.trackedGames.toLocaleString()} games tracked\`);
+      if (shouldUpdateFrameMeta) setTextIfChanged(dateMeta, \`\${frame.trackedGames.toLocaleString()} games tracked\`);
       const nextSourceMeta = frame.interpolated
         ? frame.fromSourceDate === frame.toSourceDate
           ? \`holding latest capture \${frame.fromSourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
@@ -1211,7 +1209,7 @@ function htmlDocument() {
         : frame.sourceDate && frame.sourceDate !== frame.date
         ? \`source capture \${frame.sourceDate} | \${frame.observedRows.toLocaleString()} observed rows\`
         : \`\${frame.observedRows.toLocaleString()} observed rows on this date\`;
-      setTextIfChanged(sourceMeta, nextSourceMeta);
+      if (shouldUpdateFrameMeta) setTextIfChanged(sourceMeta, nextSourceMeta);
       syncFrameSlider(safeIndex);
 
       if (rowsEl.dataset.ready !== "true") {
@@ -1333,14 +1331,22 @@ function htmlDocument() {
           return;
         }
 
+        if (document.hidden) {
+          lastAdvancedAt = now;
+          rafId = requestAnimationFrame(tick);
+          return;
+        }
+
         if (now - lastAdvancedAt >= delay) {
           const elapsedSteps = Math.floor((now - lastAdvancedAt) / delay);
           const stepCount = playbackMode === "smooth"
-            ? 1
+            ? Math.max(1, Math.min(3, elapsedSteps))
             : Math.max(1, Math.min(2, elapsedSteps));
           frameIndex = normalizeFrameIndex(frameIndex + stepCount);
           renderFrame(frameIndex);
-          lastAdvancedAt = now;
+          lastAdvancedAt = elapsedSteps > stepCount
+            ? now
+            : lastAdvancedAt + (delay * stepCount);
         }
 
         rafId = requestAnimationFrame(tick);
@@ -1376,6 +1382,14 @@ function htmlDocument() {
     speedSlider.addEventListener("input", () => {
       syncMotionTiming();
       schedule();
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        cancelSchedule();
+      } else {
+        schedule();
+      }
     });
 
     init();

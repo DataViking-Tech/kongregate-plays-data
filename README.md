@@ -20,7 +20,7 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Catalog games with recovered Kongregate game IDs: 2,386
 - Per-game play-history rows: 7,933 across 2,667 canonical games
 - Observed play-count rows used by the chart: 23,150
-- Chart playback: Smooth mode uses 11,233 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
+- Chart playback: Smooth mode uses 22,465 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
@@ -33,7 +33,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,351 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
 - Checkpoint 30 merged 525 raw URL-split mini-catalog identities into canonical games, retained the raw forms in `game_url_variants`, and duplicate canonical catalog games now scan at 0.
-- Checkpoint 30 also smooths the chart race playback by preserving interpolated row positions and easing the default smooth-frame cadence.
+- Checkpoint 30 also smooths the chart race playback with denser month-paced display frames, stable row lanes, lighter metadata updates during playback, and hidden-tab pause instead of bursty catch-up.
 - Checkpoint 31 added targeted `--audit-missing-cdx-only --needs-history-only` metrics-history recovery, fetched 18 additional archived metrics observations, and cut missing CDX cache files from 355 to 301. A follow-up 50-game audit-only pass found no additional rows and reduced missing CDX cache files to 290.
 - Checkpoint 32 recovered 4 additional archived metrics observations, including Deep Sea Hunter 2, Gordo's Oddisey, and Angry Birds Rebuilding Warrior, and cut missing CDX cache files to 275.
 - Checkpoint 33 recovered 6 additional archived metrics observations, mainly for Rogue Legend: Tame the Wild plus Button Clicker 2 and Color Number Figure, and cut missing CDX cache files to 259.
