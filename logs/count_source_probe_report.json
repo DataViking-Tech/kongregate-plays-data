@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 36,
-  "candidates_with_cdx": 2,
-  "cdx_lookups": 36,
-  "cdx_rows_found": 2,
+  "candidate_observation_rows": 60,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 60,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 32,
-    "fetched": 4
+    "cached": 53,
+    "fetched": 7
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 1,
+  "games_direct_probed": 3,
   "games_with_cached_pages": 2,
-  "games_without_cached_pages": 1,
+  "games_without_cached_pages": 3,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 36,
+  "max_cdx_lookups": 60,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,29 +30,47 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Chat Public or Private": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/MrBaidu/chat-public-or-private",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Miner 2": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/KillingPigs123/miner-2",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "OuterSpace [PitBall] Offical": {
+    "Back to School Fashion": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/NickJ66/outerspace-pitball-offical",
+      "game_url": "http://www.kongregate.com/games/games2girls/back-to-school-fashion",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Christmas Memory": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/christmas-memory",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Dimensional (beta)": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/Vermillion_gd/dimensional-beta",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Kuiz p\u00ebr Australin\u00eb": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/del7244009/kuiz-p-r-australin",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Sand Worm": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/sand-worm",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -63,11 +81,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 27,
-    "total": 5960,
-    "updated": 9
+    "added": 53,
+    "total": 6246,
+    "updated": 7
   },
-  "run_timestamp": "2026-07-01T21:27:12Z",
+  "run_timestamp": "2026-07-01T21:48:46Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -78,46 +96,11 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 3,
-  "target_games_with_kongregate_ids": 3,
+  "target_games": 5,
+  "target_games_with_kongregate_ids": 5,
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/KillingPigs123/miner-2/holodeck",
-      "game_name": "Miner 2",
-      "game_url": "http://www.kongregate.com/games/KillingPigs123/miner-2",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/KillingPigs123/miner-2/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20170818233101_http_www.kongregate.com_80_games_KillingPigs123_miner-2_holodeck_0b9f338e915be1d7.txt",
-      "sample_timestamp": "20170818233101",
-      "source_page_path": "data/raw/game_pages/html/20150914012627_http_www.kongregate.com_80_games_KillingPigs123_miner-2_0f9d7974f7ff4d06.html",
-      "source_page_timestamp": "20150914012627",
-      "source_type": "holodeck"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "cached",
-      "count_signal": "",
-      "endpoint_url": "https://www.kongregate.com/games/KillingPigs123/miner-2/holodeck",
-      "game_name": "Miner 2",
-      "game_url": "http://www.kongregate.com/games/KillingPigs123/miner-2",
-      "notes": "generated_from_game_path,cached",
-      "parsed_plays": "",
-      "sample_mimetype": "text/html",
-      "sample_original": "http://www.kongregate.com:80/games/KillingPigs123/miner-2/holodeck",
-      "sample_path": "data/raw/count_source_probe/payloads/20170818233101_http_www.kongregate.com_80_games_KillingPigs123_miner-2_holodeck_0b9f338e915be1d7.txt",
-      "sample_timestamp": "20170818233101",
-      "source_page_path": "data/raw/game_pages/html/20150914012627_http_www.kongregate.com_80_games_KillingPigs123_miner-2_0f9d7974f7ff4d06.html",
-      "source_page_timestamp": "20150914012627",
-      "source_type": "holodeck"
-    }
-  ],
+  "top_candidates_with_cdx": [],
   "top_count_signals": []
 }

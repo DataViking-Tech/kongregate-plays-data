@@ -1,26 +1,19 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T21:27:12Z
-- Target games: 3
+- Generated: 2026-07-01T21:48:46Z
+- Target games: 5
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 2
-- Games direct-probed from catalog URLs: 1
-- Endpoint candidates checked: 36
-- Candidate observation rows: 36
-- CDX status counts: cached=32, fetched=4
-- CDX rows found: 2
-- Candidates with CDX rows: 2
+- Games direct-probed from catalog URLs: 3
+- Endpoint candidates checked: 60
+- Candidate observation rows: 60
+- CDX status counts: cached=53, fetched=7
+- CDX rows found: 0
+- Candidates with CDX rows: 0
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 5960 (27 new, 9 refreshed)
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Miner 2 | holodeck | `http://www.kongregate.com/games/KillingPigs123/miner-2/holodeck` | `http://www.kongregate.com:80/games/KillingPigs123/miner-2/holodeck` | 1 |
-| Miner 2 | holodeck | `https://www.kongregate.com/games/KillingPigs123/miner-2/holodeck` | `http://www.kongregate.com:80/games/KillingPigs123/miner-2/holodeck` | 1 |
+- Accumulated probe-history rows: 6246 (53 new, 7 refreshed)
 
 ## Interpretation
 
