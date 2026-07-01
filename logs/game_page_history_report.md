@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T08:11:27Z
-- Profile games in scope: 7
-- Selected games sample: Missiles Again, Run Bird Run Online, Elsa And Anna Chinese Dress Up, Mini Jumper, Sky Knight, Cherrie New Spring Trends, Simple Platformer
+- Run timestamp: 2026-07-01T08:16:57Z
+- Profile games in scope: 20
+- Selected games sample: Raze 3, AstroLords, A Kongergate Special, Pokemon Kill 4, Vape Naysh Vs The Memes Beta1, ATV Ride 2016, SUV Car Cartoon Puzzle, Boat Rush, Defense Math, as3 Shootorial #1, Dot Snap Battle, Doom II: Hell on Earth, DoodiaMan Find Wife, 1p.Story: Death, BMW M5 E34, Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game), Mr.Miner, Balls Vs Blocks Online, Kung Fu Adventure, E-Sim
 - Selected games omitted from sample: 0
-- CDX games considered: 7
+- CDX games considered: 20
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 6s
 - CDX wall-clock cap: 8.0
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: Missiles Again,Run Bird Run Online,Elsa And Anna Chinese Dress Up,Mini Jumper,Sky Knight,Cherrie New Spring Trends,Simple Platformer
+- Game-name filter: Raze 3,AstroLords,A Kongergate Special,Pokemon Kill 4,Vape Naysh Vs The Memes Beta1,ATV Ride 2016,SUV Car Cartoon Puzzle,Boat Rush,Defense Math,as3 Shootorial #1,Dot Snap Battle,Doom II: Hell on Earth,DoodiaMan Find Wife,1p.Story: Death,BMW M5 E34,Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game),Mr.Miner,Balls Vs Blocks Online,Kung Fu Adventure,E-Sim
 - Metrics row filter: no_metrics
-- CDX rows: 16
-- Page jobs: 7
-- Pending before run: 7
-- Attempted this run: 7
-- Fetched this run: 7
+- CDX rows: 6
+- Page jobs: 6
+- Pending before run: 6
+- Attempted this run: 3
+- Fetched this run: 3
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 7
-- Failed this run: 7
+- No explicit count this run: 3
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2727
+- Known failures: 2730
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
