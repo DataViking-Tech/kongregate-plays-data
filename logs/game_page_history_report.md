@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:01:29Z
-- Profile games in scope: 1
-- Selected games sample: Plants Attack
+- Run timestamp: 2026-07-01T10:09:21Z
+- Profile games in scope: 8
+- Selected games sample: Colotap, Snake And Blocks, 101: A Video Game about Video Games (okay, a really early one), Shoot the Roy Minions, Ninja Balance, Fighting For Glorton 1.2v, Tangrid, Break The Line
 - Selected games omitted from sample: 0
-- CDX games considered: 1
-- Cached CDX only: True
+- CDX games considered: 8
+- Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
 - Page timeout: 10s
 - Page wall-clock cap: 12.0
-- Game-name filter: Plants Attack
+- Game-name filter: Colotap,Snake And Blocks,101: A Video Game about Video Games (okay, a really early one),Shoot the Roy Minions,Ninja Balance,Fighting For Glorton 1.2v,Tangrid,Break The Line
 - Metrics row filter: no_metrics
-- CDX rows: 1
-- Page jobs: 1
-- Pending before run: 1
-- Attempted this run: 1
-- Fetched this run: 1
+- CDX rows: 3
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 1
+- No explicit count this run: 2
+- Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2848
+- Known failures: 2850
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
