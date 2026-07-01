@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T11:05:24Z
-- Profile games in scope: 8
-- Selected games sample: Miner 2, Quad Maze Lite V4.1, Elsa Facial Skin Care, Pregnant Elsa Baby Room Deco, Jungle Gems, Chat Public or Private, Maze Platformer, Christmas Memory
+- Run timestamp: 2026-07-01T11:15:43Z
+- Profile games in scope: 5
+- Selected games sample: Flap Cat Halloween, Kosmogon, Bus & Subway Runner, Murder, Life Of A Golf Ball
 - Selected games omitted from sample: 0
-- CDX games considered: 8
+- CDX games considered: 5
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 12s
 - CDX wall-clock cap: 18.0
 - Page timeout: 12s
 - Page wall-clock cap: 15.0
-- Game-name filter: Miner 2,Quad Maze Lite V4.1,Elsa Facial Skin Care,Pregnant Elsa Baby Room Deco,Jungle Gems,Chat Public or Private,Maze Platformer,Christmas Memory
+- Game-name filter: Flap Cat Halloween,Kosmogon,Bus & Subway Runner,Murder,Life Of A Golf Ball
 - Metrics row filter: no_metrics
-- CDX rows: 24
-- Page jobs: 21
-- Pending before run: 21
-- Attempted this run: 9
-- Fetched this run: 9
+- CDX rows: 3
+- Page jobs: 3
+- Pending before run: 3
+- Attempted this run: 3
+- Fetched this run: 3
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 9
-- Failed this run: 9
+- No explicit count this run: 3
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2898
+- Known failures: 2908
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
