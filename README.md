@@ -10,26 +10,26 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/19GD8TUm69RpVsl4S1O4RZZGOenzL-xOqi-ztoP3lVp0
+https://docs.google.com/spreadsheets/d/1F5OgFkDdG04yVjBDzVF2B8Ap6dXHuZJ51x81Hc9qiIo
 
 ## Current Snapshot
 
-- Ranked-list rows: 47,186
-- Ranked-list rows with observed play counts: 14,518
-- Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
+- Ranked-list rows: 47,536
+- Ranked-list rows with observed play counts: 14,868
+- Mini catalog: 2,931 canonical games that reached top 20 in observed rankings
 - Per-game play-history rows: 7,833 across 2,572 canonical games
-- Observed play-count rows used by the chart: 22,351
+- Observed play-count rows used by the chart: 22,701
 - Chart playback: Smooth mode uses 9,829 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
-- Ranked-list date range: 2007-01-20 to 2026-06-26
+- Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
 This scrape is still being expanded. The processed files are coherent snapshots, but coverage is not final.
 
 ## Current QA Focus
 
-- Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-01; the latest ranked-list capture remains 2026-06-26, and live chart-leader metrics are refreshed through 2026-07-01.
+- Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-01, plus current live category pages captured on 2026-07-01. The latest Wayback ranked-list capture remains 2026-06-26, and live chart-leader metrics are refreshed through 2026-07-01.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- Ranked-page, homepage-fallback, and modern-frame recovery brought the HTML manifest to 3,337 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
+- Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,344 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
 - Checkpoint 30 merged 525 raw URL-split mini-catalog identities into canonical games, retained the raw forms in `game_url_variants`, and duplicate canonical catalog games now scan at 0.
 - Checkpoint 30 also smooths the chart race playback by preserving interpolated row positions and easing the default smooth-frame cadence.
@@ -73,16 +73,17 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Visualization polish after checkpoint 57 reduced Smooth-mode frame churn from 39,145 to 9,787 frames, uses subpixel row targets, and lengthens row/bar transforms so playback glides more steadily while still loading the repo JSON at runtime.
 - A follow-up cached-CDX page-history pass checked Bloons TD 5, SAS: Zombie Assault 4, and Kingdom Rush. Those 500 archived-capture attempts recovered no additional trusted play-count rows; the refreshed QA scan is unchanged, and known archived game-page failures now stand at 2,573.
 - Checkpoint 58 fixed `fetch_live_game_metrics.py --refresh` so valid local caches no longer block explicit live refreshes, then fetched current metrics for all 12 chart leaders. Per-game play history now reaches 2026-07-01, and the chart has 2,336 capture-date frames.
+- Checkpoint 59 added `fetch_live_ranked_pages.py` and captured seven reliable current category pages, adding 350 July 1 ranked/category rows with observed listing play counts. Redirecting or ambiguous live routes such as top-rated, most-played, and sorted browse URLs are rejected instead of being mislabeled as rank sources.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
-- 356 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 356 unresolved no-CDX cases, and 0 missing CDX cache files.
+- 359 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 356 unresolved no-CDX cases, and 9 missing CDX cache files across 3 catalog games.
 - The no-CDX profile splits those 356 games into 9 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count.
-- 9 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the newest GemCraft decrease is a same-day game-page source mismatch on 2008-10-10.
-- Final chart leaders have current live metrics observations as of 2026-06-30.
+- 16 source-conflict play-count decreases are under review after separating 251 stale listing-page echoes into `stale_listing_play_counts.csv`; the chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
+- Final chart leaders have current live metrics observations as of 2026-07-01.
 
 ## Key Files
 
@@ -118,6 +119,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-
 python3 scripts/fetch_game_page_history.py --tiers 1 --max-cdx-games 9 --variant-limit 2 --max-fetches 160
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diaper,papa,swords' --cached-cdx-only --max-fetches 120
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60
+python3 scripts/fetch_live_ranked_pages.py
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
 python3 scripts/scan_data_quality.py --as-of 2026-07-01

@@ -56,6 +56,7 @@ class HtmlSample:
     path: Path
     capture_timestamp: str
     original_url: str
+    capture_url_override: str = ""
 
     @property
     def capture_date(self) -> str:
@@ -63,6 +64,8 @@ class HtmlSample:
 
     @property
     def capture_url(self) -> str:
+        if self.capture_url_override:
+            return self.capture_url_override
         return WAYBACK_VIEW.format(timestamp=self.capture_timestamp, original=self.original_url)
 
 
@@ -535,6 +538,7 @@ def iter_samples() -> list[HtmlSample]:
         manifest_row = manifest.get(str(path.relative_to(ROOT)), {})
         timestamp = manifest_row.get("capture_timestamp", "")
         original = manifest_row.get("original_url", "")
+        capture_url_override = manifest_row.get("capture_url", "")
         if not timestamp or not original:
             timestamp, original = infer_original_from_filename(path, doc)
         if not timestamp:
@@ -542,7 +546,7 @@ def iter_samples() -> list[HtmlSample]:
         ranking_type, category = infer_source_fields(original)
         if ranking_type == "unknown":
             continue
-        samples.append(HtmlSample(path=path, capture_timestamp=timestamp, original_url=original))
+        samples.append(HtmlSample(path=path, capture_timestamp=timestamp, original_url=original, capture_url_override=capture_url_override))
     return samples
 
 

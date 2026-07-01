@@ -1,0 +1,54 @@
+{
+  "run_timestamp": "2026-07-01T02:48:17Z",
+  "capture_timestamp": "20260701024813",
+  "sources_selected": 7,
+  "fetched_this_run": 7,
+  "failed_this_run": 0,
+  "skipped_unknown_source": 0,
+  "valid_cached_for_timestamp": 7,
+  "manifest_entries": 3344,
+  "sources": [
+    {
+      "source_id": "live_en_action_games",
+      "url": "https://www.kongregate.com/en/action-games",
+      "final_url": "https://www.kongregate.com/en/action-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_adventure_games",
+      "url": "https://www.kongregate.com/en/adventure-games",
+      "final_url": "https://www.kongregate.com/en/adventure-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_puzzle_games",
+      "url": "https://www.kongregate.com/en/puzzle-games",
+      "final_url": "https://www.kongregate.com/en/puzzle-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_strategy_games",
+      "url": "https://www.kongregate.com/en/strategy-games",
+      "final_url": "https://www.kongregate.com/en/strategy-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_shooter_games",
+      "url": "https://www.kongregate.com/en/shooter-games",
+      "final_url": "https://www.kongregate.com/en/shooter-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_idle_games",
+      "url": "https://www.kongregate.com/en/idle-games",
+      "final_url": "https://www.kongregate.com/en/idle-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_tower-defense_games",
+      "url": "https://www.kongregate.com/en/tower-defense-games",
+      "final_url": "https://www.kongregate.com/en/tower-defense-games",
+      "status": "fetched"
+    }
+  ]
+}

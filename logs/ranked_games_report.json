@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-06-30T15:11:41Z",
-    "html_samples_considered": 3425,
-    "ranking_rows_extracted": 47186,
-    "rows_with_observed_play_counts": 14518,
-    "captures_with_rows": 3274,
+    "run_timestamp": "2026-07-01T02:50:06Z",
+    "html_samples_considered": 3432,
+    "ranking_rows_extracted": 47536,
+    "rows_with_observed_play_counts": 14868,
+    "captures_with_rows": 3281,
     "captures_without_rows": 151,
     "duplicate_rows_removed": 238,
     "ranking_types": [
@@ -17,7 +17,7 @@
       "top_rated"
     ],
     "first_date": "2007-01-20",
-    "last_date": "2026-06-26"
+    "last_date": "2026-07-01"
   },
   "samples": [
     {
@@ -30844,6 +30844,69 @@
       "rows_extracted": 50,
       "confidence": "medium",
       "html_path": "data/raw/html/20260626042908_https_www.kongregate.com_en_puzzle-games_90eebdf74d0d78f5.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/action-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_action-games_44b9c2da16e81489.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/adventure-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_adventure-games_d571e93132d8bc82.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/idle-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_idle-games_e0c2869e7e00bcba.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/puzzle-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_puzzle-games_5346bf3db7fd645b.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/shooter-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_shooter-games_37064334bee49c07.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/strategy-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_strategy-games_8ec0bb93ff4fc020.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/tower-defense-games",
+      "capture_timestamp": "20260701024813",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_tower-defense-games_519d28fe0c889088.html"
     }
   ]
 }
