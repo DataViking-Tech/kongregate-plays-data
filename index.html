@@ -488,9 +488,10 @@
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 24;
+    const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowPositionPrecision = 2;
+    const slotDriftLimit = 0.06;
     const barScalePrecision = 10000;
     const barScaleThreshold = 0.0002;
     const rowsByKey = new Map();
@@ -738,12 +739,17 @@
         .slice(0, renderedRows);
 
       const entries = sortedEntries
-        .map((entry, index) => ({
-          ...entry,
-          rank: index + 1,
-          displayOrder: index + 1,
-          slotPosition: index,
-        }));
+        .map((entry, index) => {
+          const compactSlot = index;
+          const rankSlot = entry.rankPosition - 1;
+          const slotDrift = Math.max(-slotDriftLimit, Math.min(slotDriftLimit, rankSlot - compactSlot));
+          return {
+            ...entry,
+            rank: index + 1,
+            displayOrder: index + 1,
+            slotPosition: compactSlot + slotDrift,
+          };
+        });
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
 
@@ -1095,10 +1101,10 @@
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(68, Math.min(280, delay * 0.96))
+        ? Math.max(90, Math.min(260, delay * 1.18))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(68, Math.min(280, delay * 0.96))
+        ? Math.max(90, Math.min(260, delay * 1.18))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");

@@ -18,9 +18,9 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Ranked-list rows with observed play counts: 15,217
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 7,932 across 2,667 canonical games
-- Observed play-count rows used by the chart: 23,149
-- Chart playback: Smooth mode uses 28,081 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
+- Per-game play-history rows: 7,933 across 2,667 canonical games
+- Observed play-count rows used by the chart: 23,150
+- Chart playback: Smooth mode uses 11,233 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
@@ -95,6 +95,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 75 inspected representative late-2014 `new_game_browser_layout` and `browser_layout_split_test_game` ranked-list HTML and confirmed the game cards expose title, URL, developer/rating/badge/published metadata but no static play-count text. The extractor now preserves `kongregate_game_id` from ranked-list cards, the mini catalog/audit/profile/priority queues now carry `kongregate_game_ids`, and the workbook includes those columns. This recovered IDs for 33,697 ranked rows, 2,386 mini-catalog games, and 261 no-CDX profile games while leaving play-count totals unchanged.
 - Checkpoint 76 reduces public chart jitter by keeping a larger hidden pre-render buffer, hiding buffer rows until they enter the displayed top 12, and lengthening Smooth-mode row/bar transforms to eased 90-180 ms motion. The live chart remains hooked to `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` in this repo, not to the companion Google Sheet.
 - Checkpoint 77 added ID-seeded endpoint probing to `probe_archived_count_sources.py`, using the recovered `kongregate_game_ids` to generate historical `/recommended_games?game_id=...` candidates and a `--source-types` filter for tighter retries. A focused prefix-CDX probe over the 7 highest-value tier-1/tier-2 no-CDX games checked 28 recommendation endpoint candidates, found 0 archived CDX rows, and recorded 17 transient CDX connection-refused failures for later retry.
+- Visualization polish after checkpoint 77 keeps Smooth mode hooked to the repo JSON, doubles month-level interpolation density to 11,233 display frames, and allows small fractional row drift while keeping visible rows in compact rank lanes.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
