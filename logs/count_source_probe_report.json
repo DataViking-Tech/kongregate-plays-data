@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 60,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 60,
-  "cdx_rows_found": 0,
+  "candidate_observation_rows": 89,
+  "candidates_with_cdx": 5,
+  "cdx_lookups": 88,
+  "cdx_rows_found": 23,
   "cdx_status_counts": {
-    "cached": 23,
-    "fetched": 37
+    "cached": 27,
+    "fetched": 62
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 3,
-  "games_with_cached_pages": 2,
-  "games_without_cached_pages": 3,
+  "games_direct_probed": 6,
+  "games_with_cached_pages": 3,
+  "games_without_cached_pages": 6,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 60,
+  "max_cdx_lookups": 96,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -28,49 +28,85 @@
   },
   "parsed_play_count_rows": 0,
   "payload_wall_timeout": 28.0,
-  "payloads_with_count_signal": 0,
+  "payloads_with_count_signal": 2,
   "per_game": {
-    "Bus & Subway Runner": {
+    "BLOB KILLS BALL!": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/echocargames/bus-subway-runner",
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/bryces12/blob-kills-ball",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Flap Cat Halloween": {
-      "candidates_with_cdx": 0,
+    "Bubble Shooter Exclusive": {
+      "candidates_with_cdx": 2,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/flap-cat-halloween",
+      "game_url": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Kosmogon": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
+    "Electro City": {
+      "candidates_with_cdx": 1,
+      "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/quickcasualgames/kosmogon",
+      "game_url": "http://www.kongregate.com/games/purecube/electro-city",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "First Date": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/slixmedia/first-date",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Life Of A Golf Ball": {
+    "IndestructoCopter": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/lubo36/life-of-a-golf-ball",
-      "pages_checked": 1,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/Joshua140/indestructocopter",
+      "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Murder": {
+    "Jupiter OGame": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/hussnainjaved534/murder",
+      "game_url": "http://www.kongregate.com/games/KingStar22/jupiter-ogame",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Maddening Foolishness": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/darthpeanut113/maddening-foolishness",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Penguin Heroes": {
+      "candidates_with_cdx": 2,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 13,
+      "game_url": "http://www.kongregate.com/games/ShunKazami/penguin-heroes",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 2
+    },
+    "Stafforb's Worst Pokemon Battle": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/Stafforb_Pokemon/stafforbs-worst-pokemon-battle",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -81,11 +117,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 60,
-    "total": 6366,
-    "updated": 0
+    "added": 88,
+    "total": 6550,
+    "updated": 1
   },
-  "run_timestamp": "2026-07-01T22:03:51Z",
+  "run_timestamp": "2026-07-01T22:19:07Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -96,11 +132,133 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 5,
-  "target_games_with_kongregate_ids": 5,
+  "target_games": 9,
+  "target_games_with_kongregate_ids": 2,
   "tiers": [
-    1
+    2,
+    3
   ],
-  "top_candidates_with_cdx": [],
-  "top_count_signals": []
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 10,
+      "cdx_status": "fetched",
+      "count_signal": "term_only",
+      "endpoint_url": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "game_name": "Penguin Heroes",
+      "game_url": "http://www.kongregate.com/games/ShunKazami/penguin-heroes",
+      "notes": "quoted_page_url,fetched,gameplays,plays",
+      "parsed_plays": "",
+      "sample_mimetype": "application/x-javascript",
+      "sample_original": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "sample_path": "data/raw/count_source_probe/payloads/20130131164916_http_cdn4.kongregate.com_javascripts_holodeck_javascripts.js_1324512375_a73277ab3703d559.txt",
+      "sample_timestamp": "20130131164916",
+      "source_page_path": "data/raw/game_pages/html/20120104163124_http_www.kongregate.com_games_ShunKazami_penguin-heroes_0a1334a7f3ba744e.html",
+      "source_page_timestamp": "20120104163124",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 10,
+      "cdx_status": "fetched",
+      "count_signal": "term_only",
+      "endpoint_url": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "game_name": "Penguin Heroes",
+      "game_url": "http://www.kongregate.com/games/ShunKazami/penguin-heroes",
+      "notes": "quoted_page_url,fetched,gameplays,plays",
+      "parsed_plays": "",
+      "sample_mimetype": "application/x-javascript",
+      "sample_original": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "sample_path": "data/raw/count_source_probe/payloads/20130208093908_http_cdn4.kongregate.com_javascripts_holodeck_javascripts.js_1324512375_19c947f60017b07b.txt",
+      "sample_timestamp": "20130208093908",
+      "source_page_path": "data/raw/game_pages/html/20120104163124_http_www.kongregate.com_games_ShunKazami_penguin-heroes_0a1334a7f3ba744e.html",
+      "source_page_timestamp": "20120104163124",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive/holodeck",
+      "game_name": "Bubble Shooter Exclusive",
+      "game_url": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "text/html",
+      "sample_original": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive/holodeck",
+      "sample_path": "data/raw/count_source_probe/payloads/20140620134021_http_www.kongregate.com_games_fighter106_bubble-shooter-exclusive_holodeck_247c9e36398431da.txt",
+      "sample_timestamp": "20140620134021",
+      "source_page_path": "data/raw/game_pages/html/20140620134010_http_www.kongregate.com_games_fighter106_bubble-shooter-exclusive_d61c447c9bcfeee1.html",
+      "source_page_timestamp": "20140620134010",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/fighter106/bubble-shooter-exclusive/holodeck",
+      "game_name": "Bubble Shooter Exclusive",
+      "game_url": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "text/html",
+      "sample_original": "http://www.kongregate.com/games/fighter106/bubble-shooter-exclusive/holodeck",
+      "sample_path": "data/raw/count_source_probe/payloads/20140620134021_http_www.kongregate.com_games_fighter106_bubble-shooter-exclusive_holodeck_247c9e36398431da.txt",
+      "sample_timestamp": "20140620134021",
+      "source_page_path": "data/raw/game_pages/html/20140620134010_http_www.kongregate.com_games_fighter106_bubble-shooter-exclusive_d61c447c9bcfeee1.html",
+      "source_page_timestamp": "20140620134010",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/recommended_games?game_id=119414&gamepage_pod=true",
+      "game_name": "Electro City",
+      "game_url": "http://www.kongregate.com/games/purecube/electro-city",
+      "notes": "generated_from_kongregate_game_id,fetched",
+      "parsed_plays": "",
+      "sample_mimetype": "text/html",
+      "sample_original": "http://www.kongregate.com/recommended_games?game_id=119414&gamepage_pod=true",
+      "sample_path": "data/raw/count_source_probe/payloads/20130227224832_http_www.kongregate.com_recommended_games_game_id_119414_gamepage_pod_true_127d9fe9c4e4efd8.txt",
+      "sample_timestamp": "20130227224832",
+      "source_page_path": "data/raw/game_pages/html/20110721235011_http_www.kongregate.com_80_games_purecube_electro-city_9423dfb62baa7ccb.html",
+      "source_page_timestamp": "20110721235011",
+      "source_type": "recommended_games"
+    }
+  ],
+  "top_count_signals": [
+    {
+      "cdx_rows": 10,
+      "cdx_status": "fetched",
+      "count_signal": "term_only",
+      "endpoint_url": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "game_name": "Penguin Heroes",
+      "game_url": "http://www.kongregate.com/games/ShunKazami/penguin-heroes",
+      "notes": "quoted_page_url,fetched,gameplays,plays",
+      "parsed_plays": "",
+      "sample_mimetype": "application/x-javascript",
+      "sample_original": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "sample_path": "data/raw/count_source_probe/payloads/20130131164916_http_cdn4.kongregate.com_javascripts_holodeck_javascripts.js_1324512375_a73277ab3703d559.txt",
+      "sample_timestamp": "20130131164916",
+      "source_page_path": "data/raw/game_pages/html/20120104163124_http_www.kongregate.com_games_ShunKazami_penguin-heroes_0a1334a7f3ba744e.html",
+      "source_page_timestamp": "20120104163124",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 10,
+      "cdx_status": "fetched",
+      "count_signal": "term_only",
+      "endpoint_url": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "game_name": "Penguin Heroes",
+      "game_url": "http://www.kongregate.com/games/ShunKazami/penguin-heroes",
+      "notes": "quoted_page_url,fetched,gameplays,plays",
+      "parsed_plays": "",
+      "sample_mimetype": "application/x-javascript",
+      "sample_original": "http://cdn4.kongregate.com/javascripts/holodeck_javascripts.js?1324512375",
+      "sample_path": "data/raw/count_source_probe/payloads/20130208093908_http_cdn4.kongregate.com_javascripts_holodeck_javascripts.js_1324512375_19c947f60017b07b.txt",
+      "sample_timestamp": "20130208093908",
+      "source_page_path": "data/raw/game_pages/html/20120104163124_http_www.kongregate.com_games_ShunKazami_penguin-heroes_0a1334a7f3ba744e.html",
+      "source_page_timestamp": "20120104163124",
+      "source_type": "holodeck"
+    }
+  ]
 }
