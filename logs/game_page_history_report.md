@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T09:32:45Z
-- Profile games in scope: 3
-- Selected games sample: The Last Defence 2, Stalked Incubus, 100 tons of Coal
+- Run timestamp: 2026-07-01T09:47:51Z
+- Profile games in scope: 17
+- Selected games sample: The stupid Quiz, stupid quiz, basic car behavior, Color Switch, Ford Hidden Car Tires, Heroes of Myths, Plants vs. Zombies: Apocalypse, Bottle Flip Challenge, BigFarm Online(Sweden), Zinku - Kuiz nga Kimia, Alfa Romeo Brera Puzzle, Powerblocks, Virus Attack, Dinamic Chess, Paradise, You Are Getting Tired, Agents of Mayhem: Splatter Effect
 - Selected games omitted from sample: 0
-- CDX games considered: 3
+- CDX games considered: 17
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 10s
 - CDX wall-clock cap: 14.0
 - Page timeout: 12s
 - Page wall-clock cap: 14.0
-- Game-name filter: Stalked Incubus,100 tons of Coal,The Last Defence 2
+- Game-name filter: stupid quiz,basic car behavior,Color Switch,Ford Hidden Car Tires,Heroes of Myths,Plants vs. Zombies: Apocalypse,Bottle Flip Challenge,BigFarm Online(Sweden),Zinku - Kuiz nga Kimia,Alfa Romeo Brera Puzzle,Powerblocks,Virus Attack,Dinamic Chess,Paradise,You Are Getting Tired,Agents of Mayhem: Splatter Effect
 - Metrics row filter: no_metrics
-- CDX rows: 15
-- Page jobs: 9
-- Pending before run: 9
-- Attempted this run: 9
-- Fetched this run: 9
+- CDX rows: 53
+- Page jobs: 31
+- Pending before run: 31
+- Attempted this run: 18
+- Fetched this run: 18
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 9
-- Failed this run: 9
+- No explicit count this run: 18
+- Failed this run: 18
 - Manifest entries: 367
-- Known failures: 2818
+- Known failures: 2836
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
