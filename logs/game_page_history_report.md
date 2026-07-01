@@ -1,28 +1,28 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T07:17:47Z
-- Profile games in scope: 12
-- Selected games sample: SuperBall Idle, The Saga Of The Wind Mobiles, as3q32@gmail.com, Make Me 10, Key to Success, Missiles Again, The Space Commando, Run Bird Run Online, Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded
+- Run timestamp: 2026-07-01T07:26:01Z
+- Profile games in scope: 3
+- Selected games sample: Talking Ginger Paw Caring, StormFall, Baby Talking Tom Bathing
 - Selected games omitted from sample: 0
-- CDX games considered: 12
+- CDX games considered: 3
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 5s
 - CDX wall-clock cap: 6.0
-- Page timeout: 8s
-- Page wall-clock cap: 10.0
+- Page timeout: 6s
+- Page wall-clock cap: 8.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
-- CDX rows: 74
-- Page jobs: 66
-- Pending before run: 66
-- Attempted this run: 8
+- CDX rows: 0
+- Page jobs: 0
+- Pending before run: 0
+- Attempted this run: 0
 - Fetched this run: 0
-- Cached HTML selected this run: 3
-- Network fetch failed this run: 5
+- Cached HTML selected this run: 0
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 8
+- No explicit count this run: 0
+- Failed this run: 0
 - Manifest entries: 367
 - Known failures: 2709
 - Combined history rows: 7932

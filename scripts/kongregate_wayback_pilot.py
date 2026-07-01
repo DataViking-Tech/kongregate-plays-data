@@ -24,7 +24,7 @@ RAW_HTML = ROOT / "data" / "raw" / "html"
 PROCESSED = ROOT / "data" / "processed"
 LOGS = ROOT / "logs"
 
-CDX_ENDPOINT = "https://web.archive.org/cdxserver/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdx"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 WAYBACK_VIEW = "https://web.archive.org/web/{timestamp}/{original}"
 
