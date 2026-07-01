@@ -1,22 +1,23 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T01:39:50Z
+- Run timestamp: 2026-07-01T01:54:14Z
 - Profile games in scope: 1
+- Selected games: GemCraft
 - CDX games considered: 1
 - Cached CDX only: True
 - CDX timeout: 5s
 - Page timeout: 18s
 - Game-name filter: none
-- CDX rows: 1194
-- Page jobs: 597
-- Pending before run: 313
-- Attempted this run: 100
+- CDX rows: 1016
+- Page jobs: 508
+- Pending before run: 344
+- Attempted this run: 120
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 41
-- Failed this run: 100
-- Manifest entries: 332
-- Known failures: 1508
-- Combined history rows: 7798
-- Game-page history rows: 332
+- No explicit count this run: 51
+- Failed this run: 120
+- Manifest entries: 367
+- Known failures: 1713
+- Combined history rows: 7833
+- Game-page history rows: 367
 - Report only: False

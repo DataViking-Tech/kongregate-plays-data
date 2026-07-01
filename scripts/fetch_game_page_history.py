@@ -490,7 +490,7 @@ def make_report(
     args,
     profile_csv: Path,
     tiers: set[int],
-    games_count: int,
+    games: list[ProfileGame],
     cdx_stats: dict[str, int],
     jobs_count: int,
     pending_count: int,
@@ -505,11 +505,27 @@ def make_report(
     history_rows: list[dict[str, object]],
 ) -> dict[str, object]:
     game_page_history_rows = sum(1 for row in history_rows if row.get("parser") == "game_page_html")
+    selected_profile_games = [
+        {
+            "game_name": game.game_name,
+            "game_url": game.game_url,
+            "canonical_game_key": game.canonical_key,
+            "tier": game.tier,
+            "priority_score": game.priority_score,
+            "best_rank": game.best_rank,
+            "top_n_appearances": game.top_n_appearances,
+            "listing_play_count_rows": game.listing_play_count_rows,
+            "first_seen_date": game.first_seen_date,
+            "last_seen_date": game.last_seen_date,
+        }
+        for game in games
+    ]
     return {
         "run_timestamp": utc_now(),
         "input_csv": str(profile_csv.relative_to(ROOT)) if profile_csv.is_relative_to(ROOT) else str(profile_csv),
         "tiers": sorted(tiers),
-        "profile_games_in_scope": games_count,
+        "profile_games_in_scope": len(games),
+        "selected_profile_games": selected_profile_games,
         "profile_offset": args.profile_offset,
         "profile_limit": args.profile_limit,
         "max_cdx_games": args.max_cdx_games,
@@ -555,6 +571,7 @@ def write_report(report: dict[str, object]) -> None:
                 "",
                 f"- Run timestamp: {report['run_timestamp']}",
                 f"- Profile games in scope: {report['profile_games_in_scope']}",
+                f"- Selected games: {', '.join(game['game_name'] for game in report.get('selected_profile_games', [])) or 'none'}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- CDX timeout: {report['cdx_timeout']}s",
@@ -634,7 +651,7 @@ def main() -> None:
             args,
             profile_csv,
             tiers,
-            len(games),
+            games,
             {"cdx_games_considered": 0, "cdx_urls_fetched": 0, "cdx_urls_cached": 0, "cdx_urls_failed": 0, "cdx_urls_missing_cache_skipped": 0, "cdx_rows": 0},
             0,
             0,
@@ -750,7 +767,7 @@ def main() -> None:
         args,
         profile_csv,
         tiers,
-        len(games),
+        games,
         cdx_stats,
         len(jobs),
         len(pending),

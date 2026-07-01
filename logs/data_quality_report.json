@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-01T01:40:16Z",
+  "run_timestamp": "2026-07-01T01:54:52Z",
   "as_of": "2026-07-01",
   "ranked_rows": 47186,
   "ranked_rows_with_play_counts": 14518,
@@ -8,7 +8,7 @@
     "2026-06-26"
   ],
   "catalog_games": 2928,
-  "metrics_history_rows": 7798,
+  "metrics_history_rows": 7833,
   "metrics_history_games": 2572,
   "metrics_history_date_range": [
     "2007-03-24",
@@ -30,7 +30,7 @@
   "duplicate_ranked_rows": 0,
   "games_with_multiple_url_variants": 432,
   "duplicate_catalog_canonical_games": 0,
-  "play_count_decreases": 8,
+  "play_count_decreases": 9,
   "stale_listing_play_count_observations": 227,
   "issues": [
     {
@@ -77,8 +77,8 @@
       "severity": "medium",
       "area": "plays",
       "issue_type": "play_count_decreases",
-      "count": 8,
-      "first_date": "2008-09-06",
+      "count": 9,
+      "first_date": "2008-10-10",
       "last_date": "2026-05-01",
       "example": "Transformice",
       "recommended_action": "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."

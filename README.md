@@ -10,16 +10,16 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1eQHfkqcPOsQwYhJ098E2f8bZVgfPwpUqofuPLlzP0-8
+https://docs.google.com/spreadsheets/d/1YsmeWqEtVN7A24bpQq8aQgDK-kG8WdfnthH-ba7ByQs
 
 ## Current Snapshot
 
 - Ranked-list rows: 47,186
 - Ranked-list rows with observed play counts: 14,518
 - Mini catalog: 2,928 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,798 across 2,572 canonical games
-- Observed play-count rows used by the chart: 22,316
-- Chart playback: Smooth mode uses 39,145 interpolated month-paced display frames by default; Captures mode exposes all 2,319 observed capture-date frames.
+- Per-game play-history rows: 7,833 across 2,572 canonical games
+- Observed play-count rows used by the chart: 22,351
+- Chart playback: Smooth mode uses 39,145 interpolated month-paced display frames by default; Captures mode exposes all 2,335 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-06-26
 - Per-game play-history date range: 2007-03-24 to 2026-06-30
 
@@ -65,9 +65,10 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 54 added a separate `--cdx-timeout` to `fetch_game_page_history.py` for faster resumable CDX discovery, then recovered 50 high-confidence archived game-page observations for Boxhead: 2Play Rooms from 2007-06-22 through 2008-09-24. Archived game-page history now has 244 rows, and the chart uses 22,228 observed play-count rows.
 - Post-checkpoint 54 recovered 27 additional archived game-page observations for Boxhead: 2Play Rooms, extending that run through 2009-08-23. Archived game-page history now has 271 rows, and the chart uses 22,255 observed play-count rows.
 - Visualization polish after checkpoint 54 confirms the live chart fetches the repo JSON at runtime, doubles Smooth-mode interpolation density, and restores short linear transform transitions for steadier row and bar motion.
-- Post-checkpoint 55 QA refreshed the gap ledgers, then probed The Company of Myself, Swarm Simulator, Toss the Turtle, UPGRADE COMPLETE!, and The Last Stand 2. No additional trusted rows were recovered: Company and Last Stand 2 hit transient CDX connection failures, while the cached Swarm, Toss, and UPGRADE pages either lacked explicit play-count blocks or failed archived fetches. Known archived game-page failures now stand at 1,109.
+- Post-checkpoint 55 QA refreshed the gap ledgers, then probed The Company of Myself, Swarm Simulator, The Last Stand 2, plus two unintended sorted-offset targets, UnpuzzleX and Bit Heroes. No additional trusted rows were recovered: Company and Last Stand 2 hit transient CDX connection failures, while the cached Swarm, UnpuzzleX, and Bit Heroes pages either lacked explicit play-count blocks or failed archived fetches. Known archived game-page failures stood at 1,109.
 - Checkpoint 56 recovered 61 additional high-confidence/medium-high archived game-page observations for Sonny, spanning 2008-04-20 through 2009-08-25. Archived game-page history now has 332 rows, and the chart uses 22,316 observed play-count rows.
 - Post-checkpoint 56 also clarified that `fetch_game_page_history.py --profile-offset` follows the scraper's sorted in-scope queue, not raw CSV row order; use the sorted queue or a name filter when targeting specific games.
+- Checkpoint 57 added exact selected-game names to `game_page_history_report` outputs, then recovered 35 additional high-confidence/medium-high archived game-page observations for GemCraft, extending that page-history run through 2009-08-22. Archived game-page history now has 367 rows, and the chart uses 22,351 observed play-count rows.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -76,7 +77,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 356 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 356 unresolved no-CDX cases, and 0 missing CDX cache files.
 - The no-CDX profile splits those 356 games into 9 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 106 single-capture complete-listing candidates, and 240 low-information single-capture rows with no listing play count.
-- 8 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the newest GemCraft decrease is a same-day ranked-page versus game-page source mismatch on 2008-09-06.
+- 9 source-conflict play-count decreases are under review after separating 227 stale listing-page echoes into `stale_listing_play_counts.csv`; the newest GemCraft decrease is a same-day game-page source mismatch on 2008-10-10.
 - Final chart leaders have current live metrics observations as of 2026-06-30.
 
 ## Key Files
