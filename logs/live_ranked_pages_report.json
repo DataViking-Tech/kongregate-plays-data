@@ -1,0 +1,60 @@
+{
+  "run_timestamp": "2026-07-01T04:20:40Z",
+  "capture_timestamp": "20260701042035",
+  "sources_selected": 8,
+  "fetched_this_run": 7,
+  "failed_this_run": 1,
+  "skipped_unknown_source": 0,
+  "valid_cached_for_timestamp": 7,
+  "manifest_entries": 3351,
+  "sources": [
+    {
+      "source_id": "live_en_multiplayer_games",
+      "url": "https://www.kongregate.com/en/multiplayer-games",
+      "final_url": "https://www.kongregate.com/en/multiplayer-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_mmo_games",
+      "url": "https://www.kongregate.com/en/mmo-games",
+      "final_url": "https://www.kongregate.com/en/mmo-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_adventure-rpg_games",
+      "url": "https://www.kongregate.com/en/adventure-rpg-games",
+      "final_url": "https://www.kongregate.com/en/adventure-rpg-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_sports-racing_games",
+      "url": "https://www.kongregate.com/en/sports-racing-games",
+      "final_url": "https://www.kongregate.com/en/sports-racing-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_strategy-defense_games",
+      "url": "https://www.kongregate.com/en/strategy-defense-games",
+      "final_url": "https://www.kongregate.com/en/strategy-defense-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_more_games",
+      "url": "https://www.kongregate.com/en/more-games",
+      "final_url": "https://www.kongregate.com/en/more-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_card_games",
+      "url": "https://www.kongregate.com/en/card-games",
+      "final_url": "https://www.kongregate.com/en/card-games",
+      "status": "fetched"
+    },
+    {
+      "source_id": "live_en_music-more_games",
+      "url": "https://www.kongregate.com/en/music-more-games",
+      "final_url": "https://www.kongregate.com/en",
+      "status": "redirected_to_different_source"
+    }
+  ]
+}

@@ -1,0 +1,1169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Kongregate Observed Plays Race</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --page: #f7f5ef;
+      --ink: #202326;
+      --muted: #687076;
+      --line: #d8d3c8;
+      --panel: #fffdf8;
+      --accent: #2364aa;
+      --track: #ebe6dc;
+      --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
+      --move-duration: 180ms;
+      --row-move-duration: 150ms;
+      --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+      --fade-duration: 220ms;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--page);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    main {
+      width: min(1180px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 28px 0 34px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: end;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 3.4vw, 46px);
+      line-height: 1.02;
+      font-weight: 760;
+    }
+
+    .subtitle {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      max-width: 760px;
+    }
+
+    .dateBlock {
+      text-align: right;
+      min-width: 300px;
+    }
+
+    .dateLabel {
+      font-size: clamp(32px, 5vw, 64px);
+      line-height: 0.92;
+      font-weight: 800;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .dateMeta {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: auto minmax(180px, 1fr) auto auto auto;
+      gap: 12px;
+      align-items: center;
+      padding: 16px 0 18px;
+    }
+
+    button {
+      width: 42px;
+      height: 42px;
+      border: 1px solid #bfc3c7;
+      background: #ffffff;
+      color: var(--ink);
+      display: inline-grid;
+      place-items: center;
+      cursor: pointer;
+      border-radius: 8px;
+      box-shadow: 0 5px 16px rgba(33, 35, 38, 0.08);
+    }
+
+    button:hover {
+      border-color: #8e969d;
+      background: #f8fafb;
+    }
+
+    button svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    .segmented {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr;
+      border: 1px solid #bfc3c7;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 5px 16px rgba(33, 35, 38, 0.08);
+    }
+
+    .modeButton {
+      width: auto;
+      min-width: 82px;
+      height: 40px;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 720;
+      background: #ffffff;
+    }
+
+    .modeButton + .modeButton {
+      border-left: 1px solid #d8dce0;
+    }
+
+    .modeButton.isActive {
+      background: var(--accent);
+      color: #ffffff;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+    }
+
+    .speed {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+
+    .sheetLink {
+      color: var(--accent);
+      font-size: 13px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .sheetLink:hover {
+      text-decoration: underline;
+    }
+
+    .chart {
+      position: relative;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: clamp(14px, 2.2vw, 24px);
+      min-height: 690px;
+      overflow: hidden;
+    }
+
+    .axis {
+      height: 24px;
+      display: grid;
+      grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
+      gap: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 8px;
+    }
+
+    .axis span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .rows {
+      position: relative;
+      height: 640px;
+      overflow: hidden;
+    }
+
+    .barRow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 46px;
+      display: grid;
+      grid-template-columns: 56px 240px minmax(220px, 1fr) 108px;
+      gap: 14px;
+      align-items: center;
+      background: var(--panel);
+      opacity: 0;
+      transform: translate3d(0, 0, 0);
+      z-index: 1;
+      transition:
+        transform var(--move-duration) var(--move-ease),
+        opacity var(--fade-duration) ease;
+      will-change: transform, opacity;
+      backface-visibility: hidden;
+      contain: layout paint;
+    }
+
+    .barRow.isVisible {
+      opacity: 1;
+      z-index: 2;
+    }
+
+    .barRow.isBuffered {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .barRow.isExiting {
+      opacity: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .rows.isDirectMotion .barRow {
+      transition: opacity 140ms ease;
+    }
+
+    .rows.isDirectMotion .bar {
+      transition: transform var(--move-duration) var(--move-ease);
+    }
+
+    .rank {
+      color: var(--muted);
+      font-size: 18px;
+      font-weight: 760;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .name {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .gameName {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 15px;
+      font-weight: 740;
+    }
+
+    a.gameName {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    a.gameName:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .developer {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .track {
+      position: relative;
+      height: 28px;
+      background: var(--track);
+      overflow: hidden;
+      border-radius: 6px;
+    }
+
+    .bar {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 100%;
+      border-radius: 6px;
+      transform: scaleX(0.015);
+      transform-origin: left center;
+      transition: transform var(--move-duration) var(--move-ease);
+      will-change: transform;
+    }
+
+    .value {
+      text-align: right;
+      font-size: 14px;
+      font-weight: 760;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      min-width: 64px;
+    }
+
+    .footerMeta {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .empty {
+      padding: 80px 24px;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    @media (max-width: 780px) {
+      main {
+        width: min(100vw - 20px, 1180px);
+        padding-top: 18px;
+      }
+
+      header {
+        grid-template-columns: 1fr;
+      }
+
+      .dateBlock {
+        text-align: left;
+      }
+
+      .toolbar {
+        grid-template-columns: auto minmax(120px, 1fr);
+      }
+
+      .segmented,
+      .speed,
+      .links {
+        grid-column: span 2;
+      }
+
+      .links {
+        justify-content: flex-start;
+      }
+
+      .chart {
+        min-height: 690px;
+        padding: 12px;
+      }
+
+      .axis,
+      .barRow {
+        grid-template-columns: 30px minmax(84px, 1fr) minmax(72px, 1.35fr) 72px;
+        gap: 6px;
+      }
+
+      .gameName {
+        font-size: 12px;
+      }
+
+      .developer {
+        display: none;
+      }
+
+      .value {
+        font-size: 11px;
+        min-width: 0;
+      }
+
+      .barRow {
+        transition:
+          transform var(--move-duration) var(--move-ease),
+          opacity var(--fade-duration) ease;
+      }
+
+      .rows.isDirectMotion .barRow {
+        transition: opacity 140ms ease;
+      }
+
+      .rows.isDirectMotion .bar {
+        transition: transform var(--move-duration) var(--move-ease);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <section>
+        <h1>Kongregate observed plays race</h1>
+        <p class="subtitle">Top games ranked by highest play count observed up to each archived capture date.</p>
+      </section>
+      <section class="dateBlock" aria-live="polite">
+        <div class="dateLabel" id="dateLabel">0000-00-00</div>
+        <div class="dateMeta" id="dateMeta">0 games tracked</div>
+      </section>
+    </header>
+
+    <section class="toolbar" aria-label="Animation controls">
+      <button id="playToggle" title="Play or pause" aria-label="Play or pause">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M8 5v14l11-7z"></path></svg>
+      </button>
+      <input id="frameSlider" type="range" min="0" value="0" step="1" aria-label="Date">
+      <div class="segmented" role="group" aria-label="Playback cadence">
+        <button class="modeButton isActive" type="button" data-mode="smooth" aria-pressed="true">Smooth</button>
+        <button class="modeButton" type="button" data-mode="captures" aria-pressed="false">Captures</button>
+      </div>
+        <label class="speed">Pace <input id="speedSlider" type="range" min="1800" max="7000" value="3600" step="50" aria-label="Pace"></label>
+      <nav class="links" aria-label="Data links">
+        <a class="sheetLink" href="https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymOFYg" target="_blank" rel="noreferrer">Google Sheet</a>
+        <a class="sheetLink" id="dataLink" href="outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json" target="_blank" rel="noreferrer">Repo data JSON</a>
+      </nav>
+    </section>
+
+    <section class="chart" aria-label="Animated ranking chart">
+      <div class="axis">
+        <span>Rank</span>
+        <span>Game</span>
+        <span>Observed plays</span>
+        <span>Count</span>
+      </div>
+      <div class="rows" id="rows"><div class="empty">Loading chart data...</div></div>
+      <div class="footerMeta">
+        <span id="sourceMeta"></span>
+        <span id="rangeMeta"></span>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    let PAYLOAD = null;
+    let rawFrames = [];
+    let frames = [];
+    const palette = ["#2364aa", "#3da35d", "#f29e4c", "#c44536", "#5b6c5d", "#7b5ea7", "#2ca6a4", "#d8578a", "#8a6f3d", "#487d74", "#b85042", "#4b6fad"];
+    const rowsEl = document.getElementById("rows");
+    const dateLabel = document.getElementById("dateLabel");
+    const dateMeta = document.getElementById("dateMeta");
+    const sourceMeta = document.getElementById("sourceMeta");
+    const rangeMeta = document.getElementById("rangeMeta");
+    const frameSlider = document.getElementById("frameSlider");
+    const speedSlider = document.getElementById("speedSlider");
+    const playToggle = document.getElementById("playToggle");
+    const dataLink = document.getElementById("dataLink");
+    const modeButtons = [...document.querySelectorAll(".modeButton")];
+    const playIcon = document.getElementById("playIcon");
+    const playPath = "M8 5v14l11-7z";
+    const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
+    const rowStep = 54;
+    const visibleRows = 12;
+    const bufferRows = 12;
+    const renderedRows = visibleRows + bufferRows;
+    const transitionMs = 760;
+    const smoothStepsPerMonth = 48;
+    const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
+    const rowPositionPrecision = window.devicePixelRatio > 1 ? 1 : 0;
+    const barScalePrecision = 10000;
+    const barScaleThreshold = 0.0007;
+    const rowsByKey = new Map();
+
+    let frameIndex = 0;
+    let isPlaying = true;
+    let timer = null;
+    let rafId = null;
+    let playbackMode = "smooth";
+    let lastSliderSyncFrame = -1;
+
+    async function loadPayload() {
+      const candidates = [
+        "outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json",
+        "play_count_bar_chart_race_data.json",
+      ];
+      let lastError = null;
+      for (const candidate of candidates) {
+        try {
+          const separator = candidate.includes("?") ? "&" : "?";
+          const dataUrl = `${candidate}${separator}v=${Date.now()}`;
+          const response = await fetch(dataUrl, { cache: "no-store" });
+          if (response.ok) {
+            document.documentElement.dataset.chartDataSource = response.url;
+            return response.json();
+          }
+          lastError = new Error(`${candidate} returned ${response.status}`);
+        } catch (error) {
+          lastError = error;
+        }
+      }
+      throw lastError || new Error("Chart data could not be loaded.");
+    }
+
+    function monthIdFromDate(dateText) {
+      return String(dateText || "").slice(0, 7);
+    }
+
+    function addMonths(monthId, count) {
+      const [year, month] = monthId.split("-").map(Number);
+      const date = new Date(Date.UTC(year, month - 1 + count, 1));
+      return `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, "0")}`;
+    }
+
+    function compareFrameDate(frame, targetDate) {
+      return String(frame.sourceDate || frame.date).localeCompare(String(targetDate));
+    }
+
+    function buildMonthlyKeyframes(sourceFrames) {
+      if (!sourceFrames.length) return [];
+
+      const byMonth = new Map();
+      for (const frame of sourceFrames) {
+        byMonth.set(monthIdFromDate(frame.date), frame);
+      }
+
+      const anchors = [...byMonth.entries()]
+        .map(([month, frame]) => ({ month, monthValue: numericMonth(month), frame }))
+        .sort((a, b) => a.monthValue - b.monthValue);
+      const firstMonth = anchors[0].month;
+      const lastMonth = anchors.at(-1).month;
+      const monthlyFrames = [];
+      let cursor = firstMonth;
+      let anchorIndex = 0;
+
+      while (cursor <= lastMonth) {
+        const cursorValue = numericMonth(cursor);
+        while (anchorIndex < anchors.length - 1 && anchors[anchorIndex + 1].monthValue <= cursorValue) {
+          anchorIndex += 1;
+        }
+
+        const exactFrame = byMonth.get(cursor);
+        if (exactFrame) {
+          monthlyFrames.push({
+            ...exactFrame,
+            date: cursor,
+            displayDate: cursor,
+            sourceDate: exactFrame.date,
+            cadence: "monthly",
+          });
+        } else {
+          const previousAnchor = anchors[anchorIndex];
+          const nextAnchor = anchors[Math.min(anchorIndex + 1, anchors.length - 1)];
+          if (!nextAnchor || nextAnchor === previousAnchor) {
+            monthlyFrames.push({
+              ...previousAnchor.frame,
+              date: cursor,
+              displayDate: cursor,
+              sourceDate: previousAnchor.frame.sourceDate || previousAnchor.frame.date,
+              cadence: "monthly",
+            });
+          } else {
+            const span = Math.max(1, nextAnchor.monthValue - previousAnchor.monthValue);
+            const ratio = (cursorValue - previousAnchor.monthValue) / span;
+            monthlyFrames.push({
+              ...interpolateFrame(previousAnchor.frame, nextAnchor.frame, ratio),
+              date: cursor,
+              displayDate: cursor,
+              cadence: "monthly",
+            });
+          }
+        }
+        cursor = addMonths(cursor, 1);
+      }
+
+      return monthlyFrames;
+    }
+
+    function frameEntryMap(frame) {
+      return new Map((frame.entries || []).map((entry) => [entry.key, entry]));
+    }
+
+    function smoothRatio(ratio) {
+      return ratio * ratio * (3 - (2 * ratio));
+    }
+
+    function numericMonth(monthId) {
+      const [year, month] = String(monthId).split("-").map(Number);
+      return (year * 12) + month - 1;
+    }
+
+    function monthFromNumeric(value) {
+      const year = Math.floor(value / 12);
+      const month = (value % 12) + 1;
+      return `${year}-${String(month).padStart(2, "0")}`;
+    }
+
+    function interpolatedMonth(startMonth, endMonth, ratio) {
+      const start = numericMonth(startMonth);
+      const end = numericMonth(endMonth);
+      return monthFromNumeric(Math.round(start + ((end - start) * ratio)));
+    }
+
+    function parseChartDate(dateText) {
+      const value = String(dateText || "");
+      const normalized = value.length === 7 ? `${value}-01` : value;
+      const date = new Date(`${normalized}T00:00:00Z`);
+      return Number.isNaN(date.getTime()) ? null : date;
+    }
+
+    function formatChartDate(date) {
+      return [
+        date.getUTCFullYear(),
+        String(date.getUTCMonth() + 1).padStart(2, "0"),
+        String(date.getUTCDate()).padStart(2, "0"),
+      ].join("-");
+    }
+
+    function interpolatedDate(startFrame, endFrame, ratio) {
+      const startDate = parseChartDate(startFrame.sourceDate || startFrame.date);
+      const endDate = parseChartDate(endFrame.sourceDate || endFrame.date);
+      if (!startDate || !endDate) {
+        const startMonth = monthIdFromDate(startFrame.displayDate || startFrame.date);
+        const endMonth = monthIdFromDate(endFrame.displayDate || endFrame.date);
+        return interpolatedMonth(startMonth, endMonth, ratio);
+      }
+      const start = startDate.getTime();
+      const end = endDate.getTime();
+      return formatChartDate(new Date(start + ((end - start) * ratio)));
+    }
+
+    function interpolatedDisplayDate(startFrame, endFrame, ratio) {
+      return interpolatedDate(
+        { date: startFrame.displayDate || startFrame.date },
+        { date: endFrame.displayDate || endFrame.date },
+        ratio,
+      );
+    }
+
+    function frameStartSourceDate(frame) {
+      return frame.fromSourceDate || frame.sourceDate || frame.date;
+    }
+
+    function frameEndSourceDate(frame) {
+      return frame.toSourceDate || frame.sourceDate || frame.date;
+    }
+
+    function interpolatedNumber(start, end, ratio) {
+      const fromValue = Number(start) || 0;
+      const toValue = Number(end) || fromValue;
+      return Math.round(fromValue + ((toValue - fromValue) * ratio));
+    }
+
+    function setTextIfChanged(element, value) {
+      const nextText = String(value);
+      if (element.textContent !== nextText) element.textContent = nextText;
+    }
+
+    function setStyleIfChanged(element, property, value) {
+      if (element.style[property] !== value) element.style[property] = value;
+    }
+
+    function roundedBarScale(entry, maxValue) {
+      const scale = Math.max(0.015, entry.plays / maxValue);
+      return Math.round(scale * barScalePrecision) / barScalePrecision;
+    }
+
+    function syncFrameSlider(index, options = {}) {
+      if (!frames.length) return;
+      const force = options.force === true;
+      const shouldSync = force
+        || playbackMode !== "smooth"
+        || Math.abs(index - lastSliderSyncFrame) >= sliderSyncEvery
+        || index === 0
+        || index === frames.length - 1;
+      if (!shouldSync) return;
+      frameSlider.value = String(index);
+      lastSliderSyncFrame = index;
+    }
+
+    function normalizeFrameIndex(index) {
+      if (!frames.length) return 0;
+      const numericIndex = Number(index);
+      if (!Number.isFinite(numericIndex)) return 0;
+      return ((Math.trunc(numericIndex) % frames.length) + frames.length) % frames.length;
+    }
+
+    function interpolateFrame(startFrame, endFrame, ratio) {
+      const eased = smoothRatio(ratio);
+      const startEntries = frameEntryMap(startFrame);
+      const endEntries = frameEntryMap(endFrame);
+      const keys = new Set([...startEntries.keys(), ...endEntries.keys()]);
+      const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
+      const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
+      const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
+      const offscreenRank = renderedRows + 2.5;
+      const sortedEntries = [...keys]
+        .map((key) => {
+          const startEntry = startEntries.get(key);
+          const endEntry = endEntries.get(key);
+          const baseEntry = endEntry || startEntry;
+          const startPlays = startEntry ? startEntry.plays : Math.min(endEntry.plays, joinFloor);
+          const endPlays = endEntry ? endEntry.plays : startEntry.plays;
+          const startRank = startEntry?.rank ?? offscreenRank;
+          const endRank = endEntry?.rank ?? offscreenRank;
+          const rankPosition = startRank + ((endRank - startRank) * eased);
+          return {
+            ...baseEntry,
+            plays: interpolatedNumber(startPlays, endPlays, eased),
+            rankPosition,
+            slotPosition: rankPosition - 1,
+          };
+        })
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+        .slice(0, renderedRows);
+
+      const entries = sortedEntries
+        .map((entry, index) => ({
+          ...entry,
+          rank: index + 1,
+          displayOrder: index + 1,
+          slotPosition: index,
+        }));
+
+      const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
+
+      return {
+        ...endFrame,
+        date: displayDate,
+        displayDate,
+        sourceDate: frameStartSourceDate(startFrame),
+        fromSourceDate: frameStartSourceDate(startFrame),
+        toSourceDate: frameEndSourceDate(endFrame),
+        interpolated: true,
+        observedRows: interpolatedNumber(startFrame.observedRows, endFrame.observedRows, eased),
+        trackedGames: interpolatedNumber(startFrame.trackedGames, endFrame.trackedGames, eased),
+        scaleMax: interpolatedNumber(frameScaleMax(startFrame.entries || []), frameScaleMax(endFrame.entries || []), eased),
+        entries,
+      };
+    }
+
+    function buildSmoothFrames(sourceFrames) {
+      const keyframes = buildMonthlyKeyframes(sourceFrames);
+      if (keyframes.length <= 1) return keyframes;
+
+      const smoothFrames = [keyframes[0]];
+      for (let index = 1; index < keyframes.length; index += 1) {
+        const startFrame = keyframes[index - 1];
+        const endFrame = keyframes[index];
+        for (let step = 1; step < smoothStepsPerMonth; step += 1) {
+          smoothFrames.push(interpolateFrame(startFrame, endFrame, step / smoothStepsPerMonth));
+        }
+        smoothFrames.push(endFrame);
+      }
+
+      return smoothFrames;
+    }
+
+    function frameScaleMax(entries) {
+      const topValue = Math.max(1, ...entries.map((entry) => entry.plays || 0));
+      return topValue * 1.08;
+    }
+
+    function updateModeButtons() {
+      for (const button of modeButtons) {
+        const active = button.dataset.mode === playbackMode;
+        button.classList.toggle("isActive", active);
+        button.setAttribute("aria-pressed", String(active));
+      }
+    }
+
+    function updateRangeMeta() {
+      if (!frames.length) {
+        rangeMeta.textContent = "No observed play counts found";
+        return;
+      }
+      const cadence = playbackMode === "smooth" ? "smooth frames" : "capture frames";
+      rangeMeta.textContent = `${PAYLOAD.summary.firstDate} to ${PAYLOAD.summary.lastDate} | ${PAYLOAD.summary.observedRows.toLocaleString()} observed rows | ${frames.length.toLocaleString()} ${cadence}`;
+    }
+
+    function closestFrameIndex(targetDate) {
+      if (!frames.length || !targetDate) return 0;
+      const found = frames.findIndex((frame) => compareFrameDate(frame, targetDate) >= 0);
+      return found === -1 ? frames.length - 1 : found;
+    }
+
+    function setPlaybackMode(mode, targetDate) {
+      const modeChanged = playbackMode !== mode;
+      playbackMode = mode;
+      frames = playbackMode === "smooth" ? buildSmoothFrames(rawFrames) : rawFrames;
+      frameIndex = closestFrameIndex(targetDate);
+      frameSlider.max = Math.max(frames.length - 1, 0);
+      rowsEl.classList.toggle("isDirectMotion", playbackMode === "smooth");
+      lastSliderSyncFrame = -1;
+      syncFrameSlider(frameIndex, { force: true });
+      if (modeChanged) resetRows();
+      updateModeButtons();
+      updateRangeMeta();
+    }
+
+    function resetRows() {
+      for (const row of rowsByKey.values()) clearTimeout(row._removeTimer);
+      rowsByKey.clear();
+      rowsEl.replaceChildren();
+      rowsEl.dataset.ready = "true";
+    }
+
+    function formatPlays(value) {
+      if (value >= 1_000_000_000) return `${(value / 1_000_000_000).toFixed(1)}B`;
+      if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(value >= 10_000_000 ? 0 : 1)}M`;
+      if (value >= 1_000) return `${(value / 1_000).toFixed(value >= 100_000 ? 0 : 1)}K`;
+      return value.toLocaleString();
+    }
+
+    function colorFor(key) {
+      let hash = 0;
+      for (let i = 0; i < key.length; i += 1) hash = ((hash << 5) - hash + key.charCodeAt(i)) | 0;
+      return palette[Math.abs(hash) % palette.length];
+    }
+
+    function detailText(entry) {
+      const parts = [];
+      if (entry.developer) parts.push(entry.developer);
+      if (entry.lastObservedDate) parts.push(`seen ${entry.lastObservedDate}`);
+      if (!parts.length && entry.source) parts.push(entry.source);
+      return parts.join(" | ") || "Kongregate";
+    }
+
+    function rowElement(entry) {
+      const row = document.createElement("div");
+      row.className = "barRow";
+      row.dataset.key = entry.key;
+      row.style.transform = transformForSlot(renderedRows + 1.5);
+
+      const rank = document.createElement("div");
+      rank.className = "rank";
+      rank.textContent = entry.rank;
+
+      const name = document.createElement("div");
+      name.className = "name";
+      const gameName = document.createElement(entry.gameUrl ? "a" : "div");
+      gameName.className = "gameName";
+      gameName.textContent = entry.gameName;
+      if (entry.gameUrl) {
+        gameName.href = entry.gameUrl;
+        gameName.target = "_blank";
+        gameName.rel = "noreferrer";
+      }
+      const developer = document.createElement("div");
+      developer.className = "developer";
+      developer.textContent = detailText(entry);
+      name.append(gameName, developer);
+
+      const track = document.createElement("div");
+      track.className = "track";
+      const bar = document.createElement("div");
+      bar.className = "bar";
+      bar.style.backgroundColor = colorFor(entry.key);
+      track.append(bar);
+
+      const value = document.createElement("div");
+      value.className = "value";
+
+      row.append(rank, name, track, value);
+      return row;
+    }
+
+    function transformForSlot(slot) {
+      const y = Number.isFinite(slot) ? slot * rowStep : 0;
+      const precision = Math.pow(10, rowPositionPrecision);
+      const roundedY = Math.round(y * precision) / precision;
+      return `translate3d(0, ${roundedY.toFixed(rowPositionPrecision)}px, 0)`;
+    }
+
+    function setValue(valueEl, nextValue) {
+      const targetValue = Number(nextValue);
+      valueEl.dataset.animationToken = "";
+      valueEl.dataset.rawValue = String(targetValue);
+      valueEl.dataset.displayValue = String(targetValue);
+      setTextIfChanged(valueEl, formatPlays(targetValue));
+    }
+
+    function animateValue(valueEl, nextValue) {
+      const previousValue = Number(valueEl.dataset.displayValue || valueEl.dataset.rawValue || nextValue);
+      const targetValue = Number(nextValue);
+      valueEl.dataset.rawValue = String(targetValue);
+
+      if (!Number.isFinite(previousValue) || previousValue === targetValue) {
+        setValue(valueEl, targetValue);
+        return;
+      }
+
+      const startedAt = performance.now();
+      const animationToken = String(startedAt);
+      valueEl.dataset.animationToken = animationToken;
+      const durationMs = Math.max(180, Math.min(transitionMs, Number(speedSlider.value) * 0.95));
+
+      function tick(now) {
+        if (valueEl.dataset.animationToken !== animationToken) return;
+        const progress = Math.min((now - startedAt) / durationMs, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const displayValue = Math.round(previousValue + ((targetValue - previousValue) * eased));
+        setTextIfChanged(valueEl, formatPlays(displayValue));
+        valueEl.dataset.displayValue = String(displayValue);
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+          return;
+        }
+        setTextIfChanged(valueEl, formatPlays(targetValue));
+        valueEl.dataset.displayValue = String(targetValue);
+      }
+
+      requestAnimationFrame(tick);
+    }
+
+    function updateRow(row, entry, maxValue, fallbackIndex) {
+      setTextIfChanged(row.querySelector(".rank"), entry.rank ?? fallbackIndex + 1);
+      const gameName = row.querySelector(".gameName");
+      setTextIfChanged(gameName, entry.gameName);
+      if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
+      setTextIfChanged(row.querySelector(".developer"), detailText(entry));
+      const value = row.querySelector(".value");
+      if (playbackMode === "smooth") {
+        setValue(value, entry.plays);
+      } else {
+        animateValue(value, entry.plays);
+      }
+      const bar = row.querySelector(".bar");
+      if (bar.dataset.colorKey !== entry.key) {
+        bar.dataset.colorKey = entry.key;
+        bar.style.backgroundColor = colorFor(entry.key);
+      }
+      const nextScale = roundedBarScale(entry, maxValue);
+      const previousScale = Number(bar.dataset.scale);
+      if (!Number.isFinite(previousScale) || Math.abs(nextScale - previousScale) >= barScaleThreshold) {
+        bar.dataset.scale = String(nextScale);
+        setStyleIfChanged(bar, "transform", `scaleX(${nextScale})`);
+      }
+      const visualOrder = Number.isFinite(entry.displayOrder) ? entry.displayOrder : fallbackIndex + 1;
+      setStyleIfChanged(row, "zIndex", String(Math.max(1, Math.round(renderedRows - visualOrder + 1))));
+    }
+
+    function removeInactiveRow(key, row) {
+      if (row.dataset.exiting === "true") return;
+      row.dataset.exiting = "true";
+      row.classList.remove("isVisible");
+      row.classList.add("isExiting");
+      row.style.zIndex = "0";
+      setStyleIfChanged(row, "transform", transformForSlot(renderedRows + 0.75));
+
+      clearTimeout(row._removeTimer);
+      row._removeTimer = setTimeout(() => {
+        if (row.dataset.exiting !== "true") return;
+        rowsByKey.delete(key);
+        row.remove();
+      }, playbackMode === "smooth" ? 220 : transitionMs + 220);
+    }
+
+    function renderFrame(nextIndex) {
+      if (!frames.length) {
+        rowsEl.innerHTML = '<div class="empty">No observed play counts found.</div>';
+        return;
+      }
+
+      const safeIndex = normalizeFrameIndex(nextIndex);
+      if (safeIndex !== nextIndex) frameIndex = safeIndex;
+      const frame = frames[safeIndex];
+      if (!frame) return;
+      const entries = frame.entries.slice(0, renderedRows);
+      const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
+      const activeKeys = new Set();
+
+      setTextIfChanged(dateLabel, frame.displayDate || frame.date);
+      setTextIfChanged(dateMeta, `${frame.trackedGames.toLocaleString()} games tracked`);
+      const nextSourceMeta = frame.interpolated
+        ? frame.fromSourceDate === frame.toSourceDate
+          ? `holding latest capture ${frame.fromSourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
+          : `between ${frame.fromSourceDate} and ${frame.toSourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
+        : frame.sourceDate && frame.sourceDate !== frame.date
+        ? `source capture ${frame.sourceDate} | ${frame.observedRows.toLocaleString()} observed rows`
+        : `${frame.observedRows.toLocaleString()} observed rows on this date`;
+      setTextIfChanged(sourceMeta, nextSourceMeta);
+      syncFrameSlider(safeIndex);
+
+      if (rowsEl.dataset.ready !== "true") {
+        rowsEl.replaceChildren();
+        rowsEl.dataset.ready = "true";
+      }
+
+      const animateNewRows = rowsByKey.size > 0;
+      entries.forEach((entry, index) => {
+        const rowKey = entry.key;
+        let row = rowsByKey.get(rowKey);
+        const isNew = !row;
+        const targetTransform = transformForSlot(Number.isFinite(entry.slotPosition) ? entry.slotPosition : index);
+        if (!row) {
+          row = rowElement(entry);
+          row.dataset.key = rowKey;
+          if (playbackMode === "smooth") setStyleIfChanged(row, "transform", targetTransform);
+          rowsByKey.set(rowKey, row);
+          rowsEl.append(row);
+          if (playbackMode !== "smooth") row.getBoundingClientRect();
+        }
+        updateRow(row, entry, maxValue, index);
+        row.dataset.exiting = "false";
+        clearTimeout(row._removeTimer);
+        row.classList.remove("isExiting");
+        row.classList.toggle("isBuffered", index >= visibleRows);
+        activeKeys.add(rowKey);
+        if (isNew) {
+          if (!animateNewRows) {
+            setStyleIfChanged(row, "transform", targetTransform);
+            row.classList.add("isVisible");
+          } else {
+            requestAnimationFrame(() => {
+              setStyleIfChanged(row, "transform", targetTransform);
+              row.classList.add("isVisible");
+            });
+          }
+        } else {
+          setStyleIfChanged(row, "transform", targetTransform);
+          row.classList.add("isVisible");
+        }
+      });
+
+      for (const [key, row] of rowsByKey) {
+        if (activeKeys.has(key)) continue;
+        removeInactiveRow(key, row);
+      }
+    }
+
+    async function init() {
+      try {
+        PAYLOAD = await loadPayload();
+        rawFrames = PAYLOAD.frames || [];
+        if (dataLink && document.documentElement.dataset.chartDataSource) {
+          dataLink.href = document.documentElement.dataset.chartDataSource;
+        }
+        window.KONGREGATE_CHART_META = {
+          dataSource: document.documentElement.dataset.chartDataSource || "",
+          generatedAt: PAYLOAD.generatedAt || "",
+          summary: PAYLOAD.summary || {},
+        };
+        setPlaybackMode(playbackMode);
+        syncMotionTiming();
+        playIcon.setAttribute("d", pausePath);
+        renderFrame(frameIndex);
+        schedule();
+      } catch (error) {
+        console.error(error);
+        isPlaying = false;
+        playIcon.setAttribute("d", playPath);
+        rowsEl.innerHTML = '<div class="empty">Chart data could not be loaded.</div>';
+        rangeMeta.textContent = "Chart data unavailable";
+        dateLabel.textContent = "---- -- --";
+        dateMeta.textContent = "";
+      }
+    }
+
+    function playbackDelay() {
+      const pace = Number(speedSlider.value) || 3600;
+      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
+      return Math.max(pace, 80);
+    }
+
+    function syncMotionTiming() {
+      const delay = playbackDelay();
+      const duration = playbackMode === "smooth"
+        ? Math.max(42, Math.min(86, delay * 0.82))
+        : Math.max(260, Math.min(900, delay * 0.86));
+      const rowDuration = playbackMode === "smooth"
+        ? Math.max(42, Math.min(86, delay * 0.82))
+        : duration;
+      document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
+      document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
+      document.documentElement.style.setProperty(
+        "--move-ease",
+        playbackMode === "smooth" ? "linear" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
+      );
+    }
+
+    function cancelSchedule() {
+      clearTimeout(timer);
+      timer = null;
+      if (rafId !== null) {
+        cancelAnimationFrame(rafId);
+        rafId = null;
+      }
+    }
+
+    function schedule() {
+      cancelSchedule();
+      if (!isPlaying || frames.length <= 1) return;
+      syncMotionTiming();
+      const delay = Math.max(16, Number(playbackDelay()) || 16);
+      const startedAt = performance.now();
+      const startFrameIndex = normalizeFrameIndex(frameIndex);
+
+      function tick(now) {
+        if (!isPlaying || frames.length <= 1) {
+          rafId = null;
+          return;
+        }
+
+        const elapsedSteps = Math.floor((now - startedAt) / delay);
+        const nextFrameIndex = normalizeFrameIndex(startFrameIndex + elapsedSteps);
+        if (nextFrameIndex !== frameIndex) {
+          frameIndex = nextFrameIndex;
+          renderFrame(frameIndex);
+        }
+
+        rafId = requestAnimationFrame(tick);
+      }
+
+      rafId = requestAnimationFrame(tick);
+    }
+
+    playToggle.addEventListener("click", () => {
+      isPlaying = !isPlaying;
+      playIcon.setAttribute("d", isPlaying ? pausePath : playPath);
+      schedule();
+    });
+
+    frameSlider.addEventListener("input", (event) => {
+      if (!frames.length) return;
+      frameIndex = Number(event.target.value);
+      renderFrame(frameIndex);
+      schedule();
+    });
+
+    for (const button of modeButtons) {
+      button.addEventListener("click", () => {
+        if (button.dataset.mode === playbackMode) return;
+        const targetDate = frames[frameIndex]?.sourceDate || frames[frameIndex]?.date;
+        setPlaybackMode(button.dataset.mode, targetDate);
+        syncMotionTiming();
+        renderFrame(frameIndex);
+        schedule();
+      });
+    }
+
+    speedSlider.addEventListener("input", () => {
+      syncMotionTiming();
+      schedule();
+    });
+
+    init();
+  </script>
+</body>
+</html>

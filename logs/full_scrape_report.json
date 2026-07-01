@@ -1,0 +1,15 @@
+{
+  "run_timestamp": "2026-06-30T14:36:35Z",
+  "total_manifest_jobs": 121,
+  "pending_before_run": 88,
+  "attempted_this_run": 1,
+  "fetched_or_already_valid_this_run": 1,
+  "failed_this_run": 0,
+  "remaining_after_run": 87,
+  "manifest_entries": 3337,
+  "known_failures": 7608,
+  "cdx_collapse": "digest",
+  "cdx_from_timestamp": "20180101000000",
+  "cdx_to_timestamp": "20180131999999",
+  "note": "CDX inputs are digest-collapsed, so duplicate archived HTML content is intentionally not fetched repeatedly."
+}

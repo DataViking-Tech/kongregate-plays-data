@@ -1,0 +1,40 @@
+{
+  "attempted_this_run": 0,
+  "audit_known_failures_only": false,
+  "audit_missing_cdx_only": false,
+  "audit_pending_only": false,
+  "audit_statuses": [
+    "no_cdx"
+  ],
+  "cached_cdx_only": false,
+  "cached_selected_this_run": 0,
+  "catalog_games": 2997,
+  "catalog_games_in_scope": 4,
+  "catalog_limit": 0,
+  "catalog_offset": 0,
+  "cdx_games_considered": 4,
+  "cdx_rows": 0,
+  "cdx_urls_cached": 4,
+  "cdx_urls_failed": 20,
+  "cdx_urls_fetched": 0,
+  "cdx_urls_missing_cache_skipped": 0,
+  "collapse": "",
+  "expanded_route_variants": true,
+  "failed_this_run": 0,
+  "fetched_this_run": 0,
+  "first_history_date": "2007-03-24",
+  "game_name_contains": "Last Warrior,SpaceWarrior,SuperBall Idle,Surrounded",
+  "games_with_history": 2786,
+  "history_rows": 7932,
+  "known_failures": 692,
+  "last_history_date": "2026-07-01",
+  "manifest_entries": 5452,
+  "metrics_jobs": 0,
+  "needs_history_only": false,
+  "pending_before_run": 0,
+  "run_timestamp": "2026-07-01T07:18:25Z",
+  "schemes": [
+    "http",
+    "https"
+  ]
+}

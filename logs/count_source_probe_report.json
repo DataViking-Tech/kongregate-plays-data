@@ -1,0 +1,88 @@
+{
+  "cached_cdx_only": false,
+  "candidate_observation_rows": 36,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 36,
+  "cdx_rows_found": 0,
+  "cdx_status_counts": {
+    "cached": 26,
+    "fetched": 10
+  },
+  "cdx_wall_timeout": 18.0,
+  "collapse": "digest",
+  "game_name_contains": "",
+  "games_direct_probed": 2,
+  "games_with_cached_pages": 1,
+  "games_without_cached_pages": 2,
+  "input_csv": "data/processed/metrics_no_cdx_profile.csv",
+  "match_type": "exact",
+  "max_candidates_per_page": 12,
+  "max_cdx_lookups": 40,
+  "max_pages_per_game": 1,
+  "outputs": {
+    "candidate_csv": "data/processed/count_source_probe_candidates.csv",
+    "history_csv": "data/processed/count_source_probe_history.csv",
+    "play_counts_csv": "data/processed/count_source_play_counts.csv",
+    "report_json": "logs/count_source_probe_report.json",
+    "report_md": "logs/count_source_probe_report.md"
+  },
+  "parsed_play_count_rows": 0,
+  "payload_wall_timeout": 12.0,
+  "payloads_with_count_signal": 0,
+  "per_game": {
+    "Burnt Plate": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/Courador/burnt-plate",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "I'ts a lamp?": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/EdoByte/its-a-lamp",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Una Chief: The Great Adventure": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/UCEG/una-chief-the-great-adventure",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    }
+  },
+  "persisted_play_counts": {
+    "added": 0,
+    "total": 1
+  },
+  "persisted_probe_history": {
+    "added": 21,
+    "total": 1596,
+    "updated": 15
+  },
+  "run_timestamp": "2026-07-01T14:45:17Z",
+  "source_types": [
+    "chat_achievements",
+    "chat_js",
+    "holodeck",
+    "metrics_json",
+    "recommended_games"
+  ],
+  "status_csv": "data/processed/count_source_probe_game_status.csv",
+  "status_filter": "transient_failures_remaining",
+  "stopped_after_cdx_lookup_cap": false,
+  "target_games": 3,
+  "target_games_with_kongregate_ids": 3,
+  "tiers": [
+    1
+  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": []
+}
