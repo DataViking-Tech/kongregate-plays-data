@@ -876,13 +876,19 @@ function htmlDocument() {
         .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows);
 
+      let previousSlotPosition = -1;
       const entries = sortedEntries
-        .map((entry, index) => ({
-          ...entry,
-          rank: index + 1,
-          displayOrder: entry.rankPosition,
-          slotPosition: Number.isFinite(entry.rankPosition) ? entry.rankPosition - 1 : index,
-        }));
+        .map((entry, index) => {
+          const desiredSlotPosition = Number.isFinite(entry.rankPosition) ? entry.rankPosition - 1 : index;
+          const slotPosition = Math.max(desiredSlotPosition, previousSlotPosition + 1);
+          previousSlotPosition = slotPosition;
+          return {
+            ...entry,
+            rank: index + 1,
+            displayOrder: slotPosition + 1,
+            slotPosition,
+          };
+        });
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
 
