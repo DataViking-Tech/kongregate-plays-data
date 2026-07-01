@@ -1,27 +1,27 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T05:47:57Z
-- Profile games in scope: 15
-- Selected games sample: Talking Ginger Paw Caring, StormFall, Baby Talking Tom Bathing, Kns run, cuube, Caralhinhos Voadores - Age Of Delicia, path of the wingman, Nowere Safe 3, Elsa And Anna Chinese Dress Up, Animator Vs Animation (BETA), changetype(), CountryBalls 4, Mini Jumper, dat boi, Aston Martin Hidden Wheels
+- Run timestamp: 2026-07-01T05:53:51Z
+- Profile games in scope: 25
+- Selected games sample: jhghj, Dead Frontier, Ballamos, Chevrolet Cruze Puzzle, Sky Knight, Horse Racing, Finger Spinner Online, Britney Spears vs Child Servisous, Cherrie New Spring Trends, Raze 3, AstroLords, Register Simulator, A Kongergate Special, Pokemon Kill 4, Session Key Viewer, Vape Naysh Vs The Memes Beta1, ATV Ride 2016, SUV Car Cartoon Puzzle, Boat Rush, Defense Math, as3 Shootorial #1, Dot Snap Battle, CBS:Escape from the Mall, Mutilate-a-Doll 2, The Enchanted Cave 2
 - Selected games omitted from sample: 0
-- CDX games considered: 15
+- CDX games considered: 25
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 8s
-- Page timeout: 12s
+- CDX timeout: 6s
+- Page timeout: 10s
 - Game-name filter: none
-- CDX rows: 8
-- Page jobs: 7
-- Pending before run: 7
-- Attempted this run: 7
-- Fetched this run: 5
+- CDX rows: 4
+- Page jobs: 4
+- Pending before run: 4
+- Attempted this run: 4
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 2
 - Parsed rows this run: 0
-- No explicit count this run: 5
-- Failed this run: 7
+- No explicit count this run: 2
+- Failed this run: 4
 - Manifest entries: 367
-- Known failures: 2683
+- Known failures: 2687
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
