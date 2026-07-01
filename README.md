@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Per-game play-history rows: 7,932 across 2,667 canonical games
 - Observed play-count rows used by the chart: 23,149
-- Chart playback: Smooth mode uses 13,105 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
+- Chart playback: Smooth mode uses 28,081 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
@@ -85,6 +85,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Visualization polish after checkpoint 67 removes the Smooth-mode rank-snap jitter by sorting interpolated frames on continuous rank position, preserving collision-safe sub-slot row motion, and lengthening row/bar transforms. The chart still fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from the repo at runtime.
 - Checkpoint 68 added `fetch_game_metrics_history.py --game-name-contains` for targeted archived metrics probes, then checked all 7 high-value no-CDX games. The targeted pass covered 372 archived game-page CDX rows, 94 page jobs, and expanded `metrics.json` route variants; it recovered 0 trusted rows. Archived Holodeck JavaScript confirms those blank page spans were normally filled from `active_user.gameResourcePath() + "/metrics.json"`, strengthening the evidence that these specific gaps need a different source shape rather than another replay of the current page/metrics parsers.
 - Checkpoint 69 added `probe_archived_count_sources.py` for target-owned game-page side endpoints such as `holodeck`, `chat.js`, `chat_achievements`, comments, and `metrics.json` query variants. A prefix CDX probe across the 7 high-value no-CDX games found 24 archived endpoint rows and sampled 4 count-like placeholder/user-counter signals, but recovered 0 numeric public play-count rows. The run also recorded 27 transient CDX failures separately so those endpoint absences can be retried without overstating the negative result.
+- Visualization polish after checkpoint 69 raises Smooth-mode interpolation to 120 steps per month, keeps visible rows in compact rank lanes, and uses short linear transforms so the bar race feels steadier while still loading the repo JSON at runtime.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
