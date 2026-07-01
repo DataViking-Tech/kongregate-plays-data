@@ -9,12 +9,14 @@ import gzip
 import html
 import json
 import re
+import signal
 import socket
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from collections import defaultdict
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha1
@@ -41,6 +43,30 @@ ERROR_LOG = LOGS / "game_page_history_errors.log"
 CDX_ENDPOINT = "https://web.archive.org/cdx"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]
+
+
+class RequestWallClockTimeout(TimeoutError):
+    pass
+
+
+@contextmanager
+def wall_clock_timeout(seconds: float):
+    if seconds <= 0 or not hasattr(signal, "setitimer"):
+        yield
+        return
+
+    def timeout_handler(_signum, _frame):
+        raise RequestWallClockTimeout(f"wall_clock_timeout_{seconds:g}s")
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    previous_timer = signal.getitimer(signal.ITIMER_REAL)
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.setitimer(signal.ITIMER_REAL, seconds)
+    try:
+        yield
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, *previous_timer)
+        signal.signal(signal.SIGALRM, previous_handler)
 
 
 @dataclass(frozen=True)
@@ -267,6 +293,7 @@ def cdx_query_url(page_url: str, collapse: str) -> str:
 def fetch_cdx(
     page_url: str,
     timeout_s: int,
+    wall_timeout_s: float,
     collapse: str,
     refresh: bool,
     retries: int,
@@ -284,8 +311,9 @@ def fetch_cdx(
     last_error = ""
     for attempt in range(retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                data = json.loads(response.read().decode("utf-8", errors="replace"))
+            with wall_clock_timeout(wall_timeout_s):
+                with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                    data = json.loads(response.read().decode("utf-8", errors="replace"))
             break
         except (TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
             last_error = str(exc)
@@ -304,6 +332,7 @@ def fetch_cdx(
 def build_jobs(
     games: list[ProfileGame],
     timeout_s: int,
+    wall_timeout_s: float,
     cdx_sleep_s: float,
     refresh_cdx: bool,
     max_cdx_games: int,
@@ -331,6 +360,7 @@ def build_jobs(
             rows, status = fetch_cdx(
                 page_url,
                 timeout_s=timeout_s,
+                wall_timeout_s=wall_timeout_s,
                 collapse=collapse,
                 refresh=refresh_cdx,
                 retries=cdx_retries,
@@ -449,7 +479,7 @@ def parse_game_page_counts(markup: str) -> dict[str, object] | None:
     return None
 
 
-def fetch_page(job: GamePageJob, timeout_s: int, retries: int, retry_sleep_s: float) -> tuple[bool, str, dict[str, object] | None]:
+def fetch_page(job: GamePageJob, timeout_s: int, wall_timeout_s: float, retries: int, retry_sleep_s: float) -> tuple[bool, str, dict[str, object] | None]:
     target = html_cache_path(job)
     if target.exists() and target.stat().st_size > 0:
         markup = target.read_text(errors="replace")
@@ -462,8 +492,9 @@ def fetch_page(job: GamePageJob, timeout_s: int, retries: int, retry_sleep_s: fl
         last_error = ""
         for attempt in range(retries + 1):
             try:
-                with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                    markup = decode_payload(response.read(), response.headers)
+                with wall_clock_timeout(wall_timeout_s):
+                    with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                        markup = decode_payload(response.read(), response.headers)
                 break
             except urllib.error.HTTPError as exc:
                 markup = decode_payload(exc.read(), exc.headers)
@@ -542,6 +573,8 @@ def make_report(
         "collapse": args.collapse,
         "timeout": args.timeout,
         "cdx_timeout": args.cdx_timeout or args.timeout,
+        "cdx_wall_timeout": args.cdx_wall_timeout,
+        "page_wall_timeout": args.page_wall_timeout,
         "cached_cdx_only": args.cached_cdx_only,
         "cached_html_only": args.cached_html_only,
         "game_name_contains": args.game_name_contains,
@@ -587,7 +620,9 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- Cached HTML only: {report['cached_html_only']}",
                 f"- CDX timeout: {report['cdx_timeout']}s",
+                f"- CDX wall-clock cap: {report['cdx_wall_timeout'] or 'none'}",
                 f"- Page timeout: {report['timeout']}s",
+                f"- Page wall-clock cap: {report['page_wall_timeout'] or 'none'}",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
                 f"- Metrics row filter: {report['metrics_row_status']}",
                 f"- CDX rows: {report['cdx_rows']}",
@@ -625,6 +660,8 @@ def main() -> None:
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value. Default digest keeps unique page revisions.")
     parser.add_argument("--timeout", type=int, default=25, help="Per-request timeout in seconds.")
     parser.add_argument("--cdx-timeout", type=int, default=0, help="Per-request timeout for CDX lookups. Defaults to --timeout when omitted.")
+    parser.add_argument("--cdx-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each CDX lookup, including slow redirects/reads.")
+    parser.add_argument("--page-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each archived page fetch, including slow connects/reads.")
     parser.add_argument("--sleep", type=float, default=0.5, help="Seconds to sleep after an archived page fetch.")
     parser.add_argument("--cdx-sleep", type=float, default=0.8, help="Seconds to sleep after a fresh CDX lookup.")
     parser.add_argument("--cdx-retries", type=int, default=2, help="Retries for transient CDX lookup failures.")
@@ -699,6 +736,7 @@ def main() -> None:
     jobs, cdx_stats = build_jobs(
         games,
         timeout_s=args.cdx_timeout or args.timeout,
+        wall_timeout_s=args.cdx_wall_timeout,
         cdx_sleep_s=args.cdx_sleep,
         refresh_cdx=args.refresh_cdx,
         max_cdx_games=args.max_cdx_games,
@@ -741,7 +779,7 @@ def main() -> None:
     for job in selected:
         target = html_cache_path(job)
         was_cached = target.exists() and target.stat().st_size > 0
-        ok, detail, parsed = fetch_page(job, args.timeout, args.page_retries, args.retry_sleep)
+        ok, detail, parsed = fetch_page(job, args.timeout, args.page_wall_timeout, args.page_retries, args.retry_sleep)
         has_html_after = target.exists() and target.stat().st_size > 0
         if was_cached:
             cached_selected += 1

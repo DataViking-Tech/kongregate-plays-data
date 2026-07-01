@@ -1,28 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T06:00:17Z
-- Profile games in scope: 25
-- Selected games sample: Rise of Mythos, Simple Platformer, Doom II: Hell on Earth, DoodiaMan Find Wife, 1p.Story: Death, BMW M5 E34, Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game), Mr.Miner, Balls Vs Blocks Online, Kung Fu Adventure, E-Sim, My Line Of Sight attempt from Construct 2, Burnt Plate, I'ts a lamp?, Una Chief: The Great Adventure, Spacebar v0.1, Whitewash, idk, Super Casual, Ghoul be Gone Demo, UFC 198 Live Stream - Werdum vs Miocic, quangjing, Create your face with this stupid game, Hired Ops — New Dynamic Online Shooter, Viking Workout
+- Run timestamp: 2026-07-01T06:17:13Z
+- Profile games in scope: 6
+- Selected games sample: RPgTest, Mining Truck, AstroWorlds, Peppa Zoo Decor, Teste mark 2, Bubble Shooter Rotation Xmas
 - Selected games omitted from sample: 0
-- CDX games considered: 25
-- Cached CDX only: False
+- CDX games considered: 6
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 6s
-- Page timeout: 10s
+- CDX wall-clock cap: 7.0
+- Page timeout: 8s
+- Page wall-clock cap: 9.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
-- CDX rows: 6
-- Page jobs: 6
-- Pending before run: 6
-- Attempted this run: 6
-- Fetched this run: 1
-- Cached HTML selected this run: 0
-- Network fetch failed this run: 5
+- CDX rows: 17
+- Page jobs: 13
+- Pending before run: 13
+- Attempted this run: 13
+- Fetched this run: 5
+- Cached HTML selected this run: 8
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 6
+- No explicit count this run: 13
+- Failed this run: 13
 - Manifest entries: 367
-- Known failures: 2693
+- Known failures: 2705
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
