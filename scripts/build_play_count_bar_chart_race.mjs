@@ -424,9 +424,7 @@ function htmlDocument() {
     }
 
     .rows.isDirectMotion .barRow {
-      transition:
-        transform var(--row-move-duration) var(--move-ease),
-        opacity 140ms ease;
+      transition: opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
@@ -578,9 +576,7 @@ function htmlDocument() {
       }
 
       .rows.isDirectMotion .barRow {
-        transition:
-          transform var(--row-move-duration) var(--move-ease),
-          opacity 140ms ease;
+        transition: opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
@@ -656,8 +652,11 @@ function htmlDocument() {
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 120;
+    const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
+    const rowPositionPrecision = window.devicePixelRatio > 1 ? 1 : 0;
+    const barScalePrecision = 10000;
+    const barScaleThreshold = 0.0007;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -848,6 +847,11 @@ function htmlDocument() {
       if (element.style[property] !== value) element.style[property] = value;
     }
 
+    function roundedBarScale(entry, maxValue) {
+      const scale = Math.max(0.015, entry.plays / maxValue);
+      return Math.round(scale * barScalePrecision) / barScalePrecision;
+    }
+
     function syncFrameSlider(index, options = {}) {
       if (!frames.length) return;
       const force = options.force === true;
@@ -902,7 +906,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Number.isFinite(entry.rankPosition) ? entry.rankPosition - 1 : index,
+          slotPosition: index,
         }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1050,7 +1054,9 @@ function htmlDocument() {
 
     function transformForSlot(slot) {
       const y = Number.isFinite(slot) ? slot * rowStep : 0;
-      return \`translate3d(0, \${y.toFixed(2)}px, 0)\`;
+      const precision = Math.pow(10, rowPositionPrecision);
+      const roundedY = Math.round(y * precision) / precision;
+      return \`translate3d(0, \${roundedY.toFixed(rowPositionPrecision)}px, 0)\`;
     }
 
     function setValue(valueEl, nextValue) {
@@ -1111,7 +1117,12 @@ function htmlDocument() {
         bar.dataset.colorKey = entry.key;
         bar.style.backgroundColor = colorFor(entry.key);
       }
-      setStyleIfChanged(bar, "transform", \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`);
+      const nextScale = roundedBarScale(entry, maxValue);
+      const previousScale = Number(bar.dataset.scale);
+      if (!Number.isFinite(previousScale) || Math.abs(nextScale - previousScale) >= barScaleThreshold) {
+        bar.dataset.scale = String(nextScale);
+        setStyleIfChanged(bar, "transform", \`scaleX(\${nextScale})\`);
+      }
       const visualOrder = Number.isFinite(entry.displayOrder) ? entry.displayOrder : fallbackIndex + 1;
       setStyleIfChanged(row, "zIndex", String(Math.max(1, Math.round(renderedRows - visualOrder + 1))));
     }
@@ -1242,10 +1253,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(34, Math.min(96, delay * 1.35))
+        ? Math.max(42, Math.min(86, delay * 0.82))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(34, Math.min(96, delay * 1.35))
+        ? Math.max(42, Math.min(86, delay * 0.82))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
