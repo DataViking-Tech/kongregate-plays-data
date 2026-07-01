@@ -185,6 +185,7 @@ function htmlDocument() {
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
       --move-duration: 180ms;
+      --row-move-duration: 150ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 220ms;
     }
@@ -424,11 +425,12 @@ function htmlDocument() {
 
     .rows.isDirectMotion .barRow {
       transition:
+        transform var(--row-move-duration) var(--move-ease),
         opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: none;
+      transition: transform var(--move-duration) var(--move-ease);
     }
 
     .rank {
@@ -577,11 +579,12 @@ function htmlDocument() {
 
       .rows.isDirectMotion .barRow {
         transition:
+          transform var(--row-move-duration) var(--move-ease),
           opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
-        transition: none;
+        transition: transform var(--move-duration) var(--move-ease);
       }
     }
   </style>
@@ -841,6 +844,10 @@ function htmlDocument() {
       if (element.textContent !== nextText) element.textContent = nextText;
     }
 
+    function setStyleIfChanged(element, property, value) {
+      if (element.style[property] !== value) element.style[property] = value;
+    }
+
     function syncFrameSlider(index, options = {}) {
       if (!frames.length) return;
       const force = options.force === true;
@@ -895,7 +902,7 @@ function htmlDocument() {
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Number.isFinite(entry.slotPosition) ? entry.slotPosition : index,
+          slotPosition: index,
         }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1031,7 +1038,7 @@ function htmlDocument() {
       track.className = "track";
       const bar = document.createElement("div");
       bar.className = "bar";
-      bar.style.background = colorFor(entry.key);
+      bar.style.backgroundColor = colorFor(entry.key);
       track.append(bar);
 
       const value = document.createElement("div");
@@ -1100,10 +1107,13 @@ function htmlDocument() {
         animateValue(value, entry.plays);
       }
       const bar = row.querySelector(".bar");
-      bar.style.background = colorFor(entry.key);
-      bar.style.transform = \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`;
+      if (bar.dataset.colorKey !== entry.key) {
+        bar.dataset.colorKey = entry.key;
+        bar.style.backgroundColor = colorFor(entry.key);
+      }
+      setStyleIfChanged(bar, "transform", \`scaleX(\${Math.max(0.015, entry.plays / maxValue)})\`);
       const visualOrder = Number.isFinite(entry.displayOrder) ? entry.displayOrder : fallbackIndex + 1;
-      row.style.zIndex = String(Math.max(1, Math.round(renderedRows - visualOrder + 1)));
+      setStyleIfChanged(row, "zIndex", String(Math.max(1, Math.round(renderedRows - visualOrder + 1))));
     }
 
     function removeInactiveRow(key, row) {
@@ -1112,7 +1122,7 @@ function htmlDocument() {
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
       row.style.zIndex = "0";
-      row.style.transform = transformForSlot(renderedRows + 0.75);
+      setStyleIfChanged(row, "transform", transformForSlot(renderedRows + 0.75));
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -1162,7 +1172,7 @@ function htmlDocument() {
         if (!row) {
           row = rowElement(entry);
           row.dataset.key = rowKey;
-          if (playbackMode === "smooth") row.style.transform = targetTransform;
+          if (playbackMode === "smooth") setStyleIfChanged(row, "transform", targetTransform);
           rowsByKey.set(rowKey, row);
           rowsEl.append(row);
           if (playbackMode !== "smooth") row.getBoundingClientRect();
@@ -1175,16 +1185,16 @@ function htmlDocument() {
         activeKeys.add(rowKey);
         if (isNew) {
           if (!animateNewRows) {
-            row.style.transform = targetTransform;
+            setStyleIfChanged(row, "transform", targetTransform);
             row.classList.add("isVisible");
           } else {
             requestAnimationFrame(() => {
-              row.style.transform = targetTransform;
+              setStyleIfChanged(row, "transform", targetTransform);
               row.classList.add("isVisible");
             });
           }
         } else {
-          row.style.transform = targetTransform;
+          setStyleIfChanged(row, "transform", targetTransform);
           row.classList.add("isVisible");
         }
       });
@@ -1232,12 +1242,16 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(180, delay * 3.2))
+        ? Math.max(120, Math.min(220, delay * 4.2))
         : Math.max(260, Math.min(900, delay * 0.86));
+      const rowDuration = playbackMode === "smooth"
+        ? Math.max(120, Math.min(220, delay * 4.2))
+        : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
+      document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
       document.documentElement.style.setProperty(
         "--move-ease",
-        playbackMode === "smooth" ? "cubic-bezier(0.2, 0, 0, 1)" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
+        playbackMode === "smooth" ? "linear" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
       );
     }
 

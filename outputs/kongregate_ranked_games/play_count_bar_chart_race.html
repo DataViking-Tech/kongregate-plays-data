@@ -16,8 +16,8 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 160ms;
-      --row-move-duration: 80ms;
+      --move-duration: 180ms;
+      --row-move-duration: 150ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 220ms;
     }
@@ -258,7 +258,7 @@
     .rows.isDirectMotion .barRow {
       transition:
         transform var(--row-move-duration) var(--move-ease),
-        opacity 160ms ease;
+        opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
@@ -412,7 +412,7 @@
       .rows.isDirectMotion .barRow {
         transition:
           transform var(--row-move-duration) var(--move-ease),
-          opacity 160ms ease;
+          opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
@@ -488,8 +488,8 @@
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 48;
-    const sliderSyncEvery = smoothStepsPerMonth;
+    const smoothStepsPerMonth = 120;
+    const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -683,10 +683,8 @@
     function syncFrameSlider(index, options = {}) {
       if (!frames.length) return;
       const force = options.force === true;
-      const isSmoothAnchor = playbackMode === "smooth" && index % smoothStepsPerMonth === 0;
       const shouldSync = force
         || playbackMode !== "smooth"
-        || isSmoothAnchor
         || Math.abs(index - lastSliderSyncFrame) >= sliderSyncEvery
         || index === 0
         || index === frames.length - 1;
@@ -956,7 +954,7 @@
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
       row.style.zIndex = "0";
-      row.style.transform = transformForSlot(renderedRows + 0.75);
+      setStyleIfChanged(row, "transform", transformForSlot(renderedRows + 0.75));
 
       clearTimeout(row._removeTimer);
       row._removeTimer = setTimeout(() => {
@@ -1069,17 +1067,17 @@
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 3600;
-      if (playbackMode === "smooth") return Math.max(42, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(110, Math.min(260, delay * 1.45))
+        ? Math.max(120, Math.min(220, delay * 4.2))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(18, Math.min(28, delay * 0.32))
+        ? Math.max(120, Math.min(220, delay * 4.2))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
