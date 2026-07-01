@@ -1,12 +1,12 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 72,
+  "candidate_observation_rows": 84,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 72,
+  "cdx_lookups": 84,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 25,
-    "fetched": 47
+    "cached": 22,
+    "fetched": 62
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
@@ -17,7 +17,7 @@
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 80,
+  "max_cdx_lookups": 92,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,83 +30,83 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Blozorz Hacked": {
+    "Active Ashfield's Conversion Challenge": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/tinkan11/blozorz-hacked",
+      "game_url": "http://www.kongregate.com/games/QuakMultimedia/active-ashfields-conversion-challenge",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Chocolate Rain TAY ZONDAY": {
+    "Clear Vision Elite": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/Shi_Thead/chocolate-rain-tay-zonday",
+      "game_url": "http://www.kongregate.com/games/dpflashes/clear-vision-elite",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "How to make an MMORPG": {
+    "Eternal-Red": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/PaperCup/how-to-make-an-mmorpg",
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/MohammadAqib07/eternal-red",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Jumbo Adventure": {
+    "Fadious Dragon": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/gamesrishti/jumbo-adventure",
+      "game_url": "http://www.kongregate.com/games/1SwiftHawk/fadious-dragon",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Office Supply Team!": {
+    "Fruit connect": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/deesus/office-supply-team",
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/alia2013/fruit-connect",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "PhysicsWars": {
+    "GTA Portable": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/friuns/physicswars",
+      "game_url": "http://www.kongregate.com/games/firekez/gta-portable",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Run And Monetize": {
+    "Paper Doors Escape": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 8,
-      "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/rc88_/run-and-monetize",
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/game4joy/paper-doors-escape",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Stickman Adventure": {
+    "Photogrounds": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/powerpoler/stickman-adventure",
+      "game_url": "http://www.kongregate.com/games/nathanielmilburn/photogrounds",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Touch me NOW!": {
+    "Spongebob VS. Larry Ve...": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/bullybee/touch-me-now",
+      "game_url": "http://www.kongregate.com/games/S_Schreiber/spongebob-vs-larry-version-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -117,11 +117,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 72,
-    "total": 6862,
+    "added": 84,
+    "total": 7038,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T22:45:51Z",
+  "run_timestamp": "2026-07-01T23:00:55Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -133,7 +133,7 @@
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 9,
-  "target_games_with_kongregate_ids": 0,
+  "target_games_with_kongregate_ids": 3,
   "tiers": [
     3
   ],
