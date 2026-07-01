@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T08:50:19Z
-- Profile games in scope: 3
-- Selected games sample: Doom II: Hell on Earth, Mr.Miner, Naruto Suspend
+- Run timestamp: 2026-07-01T09:03:56Z
+- Profile games in scope: 1
+- Selected games sample: Baby Talking Tom Great Makeover
 - Selected games omitted from sample: 0
-- CDX games considered: 3
+- CDX games considered: 1
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 10s
 - CDX wall-clock cap: 14.0
 - Page timeout: 12s
 - Page wall-clock cap: 14.0
-- Game-name filter: Doom II: Hell on Earth,Naruto Suspend,Mr.Miner
+- Game-name filter: Baby Talking Tom Great Makeover
 - Metrics row filter: no_metrics
-- CDX rows: 13
-- Page jobs: 9
-- Pending before run: 9
-- Attempted this run: 8
-- Fetched this run: 8
+- CDX rows: 4
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 8
-- Failed this run: 8
+- No explicit count this run: 2
+- Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2761
+- Known failures: 2778
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
