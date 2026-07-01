@@ -1,15 +1,15 @@
 {
-  "run_timestamp": "2026-07-01T03:48:14Z",
+  "run_timestamp": "2026-07-01T05:12:58Z",
   "as_of": "2026-07-01",
-  "ranked_rows": 47536,
-  "ranked_rows_with_play_counts": 14868,
+  "ranked_rows": 47885,
+  "ranked_rows_with_play_counts": 15217,
   "ranked_date_range": [
     "2007-01-20",
     "2026-07-01"
   ],
-  "catalog_games": 2931,
-  "metrics_history_rows": 7866,
-  "metrics_history_games": 2601,
+  "catalog_games": 2997,
+  "metrics_history_rows": 7932,
+  "metrics_history_games": 2667,
   "metrics_history_date_range": [
     "2007-03-24",
     "2026-07-01"
@@ -28,12 +28,12 @@
   "bad_title_rows": 0,
   "missing_url_rows": 0,
   "duplicate_ranked_rows": 0,
-  "games_with_multiple_url_variants": 438,
+  "games_with_multiple_url_variants": 458,
   "duplicate_catalog_canonical_games": 0,
   "play_count_decreases": 0,
   "suspicious_metric_route_decreases": 2,
   "source_conflict_play_count_decreases": 7,
-  "stale_listing_play_count_observations": 308,
+  "stale_listing_play_count_observations": 353,
   "issues": [
     {
       "severity": "high",
@@ -89,7 +89,7 @@
       "severity": "low",
       "area": "plays",
       "issue_type": "stale_listing_play_count_observations",
-      "count": 308,
+      "count": 353,
       "first_date": "2012-03-12",
       "last_date": "2026-07-01",
       "example": "Boxhead: More Rooms",
