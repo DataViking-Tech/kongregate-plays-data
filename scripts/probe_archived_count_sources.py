@@ -39,7 +39,7 @@ REPORT_MD = LOGS / "count_source_probe_report.md"
 CANDIDATES_CSV = PROCESSED / "count_source_probe_candidates.csv"
 ERROR_LOG = LOGS / "count_source_probe_errors.log"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdxserver/cdx"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]
 CSV_COLUMNS = [

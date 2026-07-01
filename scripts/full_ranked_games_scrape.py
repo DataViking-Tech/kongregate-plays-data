@@ -24,7 +24,7 @@ RAW_CDX = ROOT / "data" / "raw" / "cdx"
 RAW_HTML = ROOT / "data" / "raw" / "html"
 LOGS = ROOT / "logs"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdxserver/cdx"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 MANIFEST_PATH = RAW_HTML / "manifest.json"
 FAILURE_MANIFEST_PATH = RAW_HTML / "failures.json"

@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T06:17:13Z
-- Profile games in scope: 6
-- Selected games sample: RPgTest, Mining Truck, AstroWorlds, Peppa Zoo Decor, Teste mark 2, Bubble Shooter Rotation Xmas
+- Run timestamp: 2026-07-01T07:17:47Z
+- Profile games in scope: 12
+- Selected games sample: SuperBall Idle, The Saga Of The Wind Mobiles, as3q32@gmail.com, Make Me 10, Key to Success, Missiles Again, The Space Commando, Run Bird Run Online, Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded
 - Selected games omitted from sample: 0
-- CDX games considered: 6
-- Cached CDX only: True
+- CDX games considered: 12
+- Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 6s
-- CDX wall-clock cap: 7.0
+- CDX timeout: 5s
+- CDX wall-clock cap: 6.0
 - Page timeout: 8s
-- Page wall-clock cap: 9.0
+- Page wall-clock cap: 10.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
-- CDX rows: 17
-- Page jobs: 13
-- Pending before run: 13
-- Attempted this run: 13
-- Fetched this run: 5
-- Cached HTML selected this run: 8
-- Network fetch failed this run: 0
+- CDX rows: 74
+- Page jobs: 66
+- Pending before run: 66
+- Attempted this run: 8
+- Fetched this run: 0
+- Cached HTML selected this run: 3
+- Network fetch failed this run: 5
 - Parsed rows this run: 0
-- No explicit count this run: 13
-- Failed this run: 13
+- No explicit count this run: 3
+- Failed this run: 8
 - Manifest entries: 367
-- Known failures: 2705
+- Known failures: 2709
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False

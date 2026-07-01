@@ -39,7 +39,7 @@ REPORT_JSON = LOGS / "game_metrics_history_report.json"
 REPORT_MD = LOGS / "game_metrics_history_report.md"
 ERROR_LOG = LOGS / "game_metrics_history_errors.log"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdxserver/cdx"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 WAYBACK_VIEW = "https://web.archive.org/web/{timestamp}/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]

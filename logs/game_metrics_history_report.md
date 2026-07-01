@@ -1,18 +1,18 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-01T04:48:03Z
+- Run timestamp: 2026-07-01T07:18:25Z
 - Catalog games: 2997
-- Catalog scope: offset 0, limit all (7 games)
+- Catalog scope: offset 0, limit all (4 games)
 - Audit statuses: no_cdx
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: RPgTest,Mining Truck,Swimwear Store,Crazy Zombie v2.0 Crossing Hero,Tap Tap Infinity,Mike Shadow: I Paid For It!,Bubble Shooter Exclusive
+- Game-name filter: Last Warrior,SpaceWarrior,SuperBall Idle,Surrounded
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 7
+- CDX games considered: 4
 - CDX rows found: 0
 - Missing CDX cache files skipped: 0
 - Metrics jobs: 0

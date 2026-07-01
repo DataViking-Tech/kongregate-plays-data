@@ -67,10 +67,17 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
 
 
 def classify(row: dict[str, str]) -> tuple[int, str, str]:
+    best_rank = parse_int(row.get("best_rank"))
     appearances = parse_int(row.get("top_n_appearances"))
     listing_rows = parse_int(row.get("listing_play_count_rows"))
     needs_page_history = row.get("needs_game_page_history", "")
 
+    if needs_page_history in {"yes", "partial"} and best_rank and best_rank <= 20:
+        return (
+            1,
+            "top_20_ranked_count_gaps_no_metrics",
+            "Prioritize page-history recovery; this game reached the top 20 but has no metrics.json CDX history or listing play-count observation.",
+        )
     if needs_page_history in {"yes", "partial"} and (appearances > 1 or listing_rows > 0):
         return (
             1,
