@@ -29,6 +29,7 @@ CATALOG_COLUMNS = [
     "canonical_game_key",
     "game_url",
     "game_url_variants",
+    "kongregate_game_ids",
     "game_name",
     "developer",
     "first_seen_date",
@@ -98,6 +99,7 @@ def main() -> None:
             {
                 "canonical_game_key": canonical_key,
                 "game_urls": Counter(),
+                "game_ids": Counter(),
                 "names": Counter(),
                 "developers": Counter(),
                 "first_seen_date": row["date"],
@@ -116,6 +118,8 @@ def main() -> None:
         )
 
         item["game_urls"][game_url] += 1
+        if row.get("kongregate_game_id"):
+            item["game_ids"][row["kongregate_game_id"]] += 1
         item["names"][row.get("game_name", "")] += 1
         if row.get("developer"):
             item["developers"][row["developer"]] += 1
@@ -145,11 +149,13 @@ def main() -> None:
     for item in catalog.values():
         listing_play_rows = int(item["listing_play_count_rows"])
         game_url_variants = sorted(item["game_urls"])
+        game_ids = [key for key, _count in item["game_ids"].most_common()]
         rows.append(
             {
                 "canonical_game_key": item["canonical_game_key"],
                 "game_url": preferred_game_url(item["game_urls"]),
                 "game_url_variants": "; ".join(game_url_variants),
+                "kongregate_game_ids": "; ".join(game_ids),
                 "game_name": best_counter_value(item["names"]),
                 "developer": best_counter_value(item["developers"]),
                 "first_seen_date": item["first_seen_date"],
@@ -182,6 +188,7 @@ def main() -> None:
         "top_n": args.top_n,
         "ranked_rows_read": len(input_rows),
         "catalog_games": len(rows),
+        "catalog_games_with_kongregate_ids": sum(1 for row in rows if row.get("kongregate_game_ids")),
         "history_status_counts": dict(sorted(by_status.items())),
         "first_seen_date": min((row["first_seen_date"] for row in rows), default=""),
         "last_seen_date": max((row["last_seen_date"] for row in rows), default=""),
@@ -196,6 +203,7 @@ def main() -> None:
                 f"- Top-N threshold: {report['top_n']}",
                 f"- Ranked rows read: {report['ranked_rows_read']}",
                 f"- Catalog games: {report['catalog_games']}",
+                f"- Catalog games with Kongregate IDs: {report['catalog_games_with_kongregate_ids']}",
                 f"- History status counts: {report['history_status_counts']}",
                 f"- Date range: {report['first_seen_date']} to {report['last_seen_date']}",
                 "",

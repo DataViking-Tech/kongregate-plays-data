@@ -1,6 +1,6 @@
 # No-CDX Metrics Gap Profile
 
-- Generated: 2026-07-01T06:17:28Z
+- Generated: 2026-07-01T06:24:13Z
 - Total no-CDX games: 330
 - High-value follow-up games: 7
 - Ranked-list count-gap games: 243

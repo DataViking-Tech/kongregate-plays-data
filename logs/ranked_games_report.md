@@ -1,6 +1,6 @@
 # Kongregate Ranked Games Extraction Report
 
-- Run timestamp: 2026-07-01T04:21:03Z
+- Run timestamp: 2026-07-01T06:23:42Z
 - HTML samples considered: 3439
 - Ranking rows extracted: 47885
 - Rows with observed play counts: 15217

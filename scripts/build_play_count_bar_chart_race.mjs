@@ -410,6 +410,12 @@ function htmlDocument() {
       z-index: 2;
     }
 
+    .barRow.isBuffered {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
     .barRow.isExiting {
       opacity: 0;
       pointer-events: none;
@@ -646,7 +652,7 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const bufferRows = 6;
+    const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
     const smoothStepsPerMonth = 120;
@@ -1167,6 +1173,7 @@ function htmlDocument() {
         row.dataset.exiting = "false";
         clearTimeout(row._removeTimer);
         row.classList.remove("isExiting");
+        row.classList.toggle("isBuffered", index >= visibleRows);
         activeKeys.add(rowKey);
         if (isNew) {
           if (!animateNewRows) {
@@ -1227,12 +1234,12 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(18, Math.min(42, delay * 0.72))
+        ? Math.max(90, Math.min(180, delay * 3.2))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
         "--move-ease",
-        playbackMode === "smooth" ? "linear" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
+        playbackMode === "smooth" ? "cubic-bezier(0.2, 0, 0, 1)" : "cubic-bezier(0.22, 0.61, 0.36, 1)",
       );
     }
 

@@ -40,6 +40,7 @@ RANKED_COLUMNS = [
     "capture_timestamp",
     "capture_url",
     "game_url",
+    "kongregate_game_id",
     "developer",
     "rating_text",
     "plays_text",
@@ -209,6 +210,24 @@ def rating_text(element) -> str:
     return ""
 
 
+def kongregate_game_id(element) -> str:
+    for attr in ("data-game-impression-game-id", "data-game-id", "data-id"):
+        value = element.get(attr)
+        if value and re.fullmatch(r"\d+", value):
+            return value
+    id_values = element.xpath(".//@id")
+    for value in [element.get("id") or "", *id_values]:
+        match = re.search(r"(?:recommended_game|game)_(\d+)\b", value or "")
+        if match:
+            return match.group(1)
+    for attr in ("data-game-impression-game-id", "data-game-id", "data-id"):
+        values = element.xpath(f".//*[@{attr}]/@{attr}")
+        for value in values:
+            if value and re.fullmatch(r"\d+", value):
+                return value
+    return ""
+
+
 def plays_text(element) -> str:
     texts = element.xpath(".//a[contains(@href, '/games/')]/text() | .//text()")
     for text in texts:
@@ -328,6 +347,7 @@ def extract_card(element, source_url: str) -> dict[str, str] | None:
     return {
         "game_name": title,
         "game_url": game_url,
+        "kongregate_game_id": kongregate_game_id(element),
         "developer": developer_text(element),
         "rating_text": rating_text(element),
         "plays_text": plays_text(element),
@@ -431,6 +451,7 @@ def extract_legacy_games_table(doc, source_url: str) -> tuple[list[dict[str, str
             {
                 "game_name": title,
                 "game_url": game_url,
+                "kongregate_game_id": kongregate_game_id(element),
                 "developer": developer,
                 "rating_text": rating_text(element),
                 "plays_text": plays_text(element),
@@ -466,6 +487,7 @@ def extract_modern_cards(doc, source_url: str) -> tuple[list[dict[str, str]], st
             card = {
                 "game_name": title,
                 "game_url": absolutize_game_url(href, source_url) if href_is_game(href) else "",
+                "kongregate_game_id": kongregate_game_id(element),
                 "developer": "",
                 "rating_text": rating_match.group(1) if rating_match else rating_text(element),
                 "plays_text": plays_text(element),
@@ -480,6 +502,7 @@ def extract_modern_cards(doc, source_url: str) -> tuple[list[dict[str, str]], st
                 card = {
                     "game_name": strip_text(title),
                     "game_url": absolutize_game_url(href, source_url),
+                    "kongregate_game_id": kongregate_game_id(element),
                     "developer": first_text(element, [".//k-card-byline/text()"]),
                     "rating_text": first_text(element, [".//k-card-status-action[@type='rating']/text()"]),
                     "plays_text": plays_text(element),
@@ -489,7 +512,7 @@ def extract_modern_cards(doc, source_url: str) -> tuple[list[dict[str, str]], st
         else:
             href = element.get("href")
             title = element.get("title") or strip_text(element.text_content())
-            card = {"game_name": strip_text(title), "game_url": absolutize_game_url(href, source_url), "developer": "", "rating_text": "", "plays_text": ""} if href_is_game(href) else None
+            card = {"game_name": strip_text(title), "game_url": absolutize_game_url(href, source_url), "kongregate_game_id": kongregate_game_id(element), "developer": "", "rating_text": "", "plays_text": ""} if href_is_game(href) else None
         if not card or card["game_url"] in seen:
             continue
         seen.add(card["game_url"])
@@ -584,6 +607,7 @@ def main() -> None:
                     "capture_timestamp": sample.capture_timestamp,
                     "capture_url": sample.capture_url,
                     "game_url": row["game_url"],
+                    "kongregate_game_id": row.get("kongregate_game_id", ""),
                     "developer": row["developer"],
                     "rating_text": row["rating_text"],
                     "plays_text": row["plays_text"],
