@@ -5,15 +5,15 @@
   "cdx_lookups": 12,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 10,
-    "fetched": 2
+    "cached": 11,
+    "fetched": 1
   },
-  "cdx_wall_timeout": 15.0,
+  "cdx_wall_timeout": 16.0,
   "collapse": "digest",
-  "game_name_contains": "dat boi",
-  "games_direct_probed": 0,
-  "games_with_cached_pages": 1,
-  "games_without_cached_pages": 0,
+  "game_name_contains": "Ballamos",
+  "games_direct_probed": 1,
+  "games_with_cached_pages": 0,
+  "games_without_cached_pages": 1,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
@@ -30,12 +30,12 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "dat boi": {
+    "Ballamos": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
+      "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/Regone/dat-boi",
-      "pages_checked": 1,
+      "game_url": "http://www.kongregate.com/games/SherOnDale13/ballamos",
+      "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -45,11 +45,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 4,
-    "total": 526,
-    "updated": 8
+    "added": 6,
+    "total": 589,
+    "updated": 6
   },
-  "run_timestamp": "2026-07-01T12:37:01Z",
+  "run_timestamp": "2026-07-01T12:49:13Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
