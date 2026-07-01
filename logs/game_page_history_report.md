@@ -1,23 +1,25 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T03:39:16Z
-- Profile games in scope: 7
-- Selected games: RPgTest, Mining Truck, Swimwear Store, Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Mike Shadow: I Paid For It! (Mochi Premiums), Bubble Shooter Exclusive
-- CDX games considered: 7
+- Run timestamp: 2026-07-01T04:10:54Z
+- Profile games in scope: 2247
+- Selected games sample: Last Warrior, SpaceWarrior, The Funniest Game Ever, SuperBall Idle, The Saga Of The Wind Mobiles, as3q32@gmail.com, Make Me 10, Key to Success, Missiles Again, The Space Commando, Run Bird Run Online, Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded, Talking Ginger Paw Caring, StormFall, Baby Talking Tom Bathing, Kns run, cuube, Caralhinhos Voadores - Age Of Delicia, path of the wingman, Nowere Safe 3, Elsa And Anna Chinese Dress Up, Animator Vs Animation (BETA), changetype(), CountryBalls 4, Mini Jumper, dat boi, Aston Martin Hidden Wheels, jhghj, Dead Frontier, Ballamos, Chevrolet Cruze Puzzle, Sky Knight, Horse Racing, Finger Spinner Online, Britney Spears vs Child Servisous, Cherrie New Spring Trends, Raze 3, AstroLords, Register Simulator, A Kongergate Special, Pokemon Kill 4, Session Key Viewer, Vape Naysh Vs The Memes Beta1, ATV Ride 2016, SUV Car Cartoon Puzzle, Boat Rush, Defense Math
+- Selected games omitted from sample: 2197
+- CDX games considered: 2247
 - Cached CDX only: True
+- Cached HTML only: True
 - CDX timeout: 25s
 - Page timeout: 25s
 - Game-name filter: none
-- CDX rows: 138
-- Page jobs: 94
-- Pending before run: 0
-- Attempted this run: 0
+- CDX rows: 22902
+- Page jobs: 10938
+- Pending before run: 10638
+- Attempted this run: 955
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 0
+- No explicit count this run: 955
+- Failed this run: 955
 - Manifest entries: 367
-- Known failures: 2610
+- Known failures: 2647
 - Combined history rows: 7866
 - Game-page history rows: 367
 - Report only: False

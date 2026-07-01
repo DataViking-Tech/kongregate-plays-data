@@ -505,7 +505,7 @@ def make_report(
     history_rows: list[dict[str, object]],
 ) -> dict[str, object]:
     game_page_history_rows = sum(1 for row in history_rows if row.get("parser") == "game_page_html")
-    selected_profile_games = [
+    selected_profile_games_all = [
         {
             "game_name": game.game_name,
             "game_url": game.game_url,
@@ -520,12 +520,15 @@ def make_report(
         }
         for game in games
     ]
+    selected_profile_game_sample = selected_profile_games_all[:50]
     return {
         "run_timestamp": utc_now(),
         "input_csv": str(profile_csv.relative_to(ROOT)) if profile_csv.is_relative_to(ROOT) else str(profile_csv),
         "tiers": sorted(tiers),
         "profile_games_in_scope": len(games),
-        "selected_profile_games": selected_profile_games,
+        "selected_profile_games_sample": selected_profile_game_sample,
+        "selected_profile_games_sample_count": len(selected_profile_game_sample),
+        "selected_profile_games_omitted": max(0, len(selected_profile_games_all) - len(selected_profile_game_sample)),
         "profile_offset": args.profile_offset,
         "profile_limit": args.profile_limit,
         "max_cdx_games": args.max_cdx_games,
@@ -536,6 +539,7 @@ def make_report(
         "timeout": args.timeout,
         "cdx_timeout": args.cdx_timeout or args.timeout,
         "cached_cdx_only": args.cached_cdx_only,
+        "cached_html_only": args.cached_html_only,
         "game_name_contains": args.game_name_contains,
         "retry_failures": args.retry_failures,
         "report_only": args.report_only,
@@ -571,9 +575,11 @@ def write_report(report: dict[str, object]) -> None:
                 "",
                 f"- Run timestamp: {report['run_timestamp']}",
                 f"- Profile games in scope: {report['profile_games_in_scope']}",
-                f"- Selected games: {', '.join(game['game_name'] for game in report.get('selected_profile_games', [])) or 'none'}",
+                f"- Selected games sample: {', '.join(game['game_name'] for game in report.get('selected_profile_games_sample', [])) or 'none'}",
+                f"- Selected games omitted from sample: {report.get('selected_profile_games_omitted', 0)}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
+                f"- Cached HTML only: {report['cached_html_only']}",
                 f"- CDX timeout: {report['cdx_timeout']}s",
                 f"- Page timeout: {report['timeout']}s",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
@@ -618,6 +624,7 @@ def main() -> None:
     parser.add_argument("--retry-sleep", type=float, default=1.5, help="Initial seconds to back off between page retries.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files; skip uncached CDX lookups.")
+    parser.add_argument("--cached-html-only", action="store_true", help="Only reparse archived page HTML files already cached locally; do not fetch new page HTML.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed page captures.")
     parser.add_argument("--report-only", action="store_true", help="Rewrite reports from current manifests without network work.")
     parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
@@ -694,6 +701,10 @@ def main() -> None:
     selected = []
     selected_by_game: dict[str, int] = defaultdict(int)
     for job in pending:
+        if args.cached_html_only:
+            target = html_cache_path(job)
+            if not (target.exists() and target.stat().st_size > 0):
+                continue
         if args.max_fetches and len(selected) >= args.max_fetches:
             break
         if args.max_jobs_per_game and selected_by_game[job.canonical_key] >= args.max_jobs_per_game:
