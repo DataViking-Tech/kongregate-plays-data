@@ -399,7 +399,7 @@ function htmlDocument() {
       transform: translate3d(0, 0, 0);
       z-index: 1;
       transition:
-        transform var(--move-duration) var(--move-ease),
+        transform var(--row-move-duration) var(--move-ease),
         opacity var(--fade-duration) ease;
       will-change: transform, opacity;
       backface-visibility: hidden;
@@ -424,7 +424,9 @@ function htmlDocument() {
     }
 
     .rows.isDirectMotion .barRow {
-      transition: opacity 140ms ease;
+      transition:
+        transform var(--row-move-duration) var(--move-ease),
+        opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
@@ -571,12 +573,14 @@ function htmlDocument() {
 
       .barRow {
         transition:
-          transform var(--move-duration) var(--move-ease),
+          transform var(--row-move-duration) var(--move-ease),
           opacity var(--fade-duration) ease;
       }
 
       .rows.isDirectMotion .barRow {
-        transition: opacity 140ms ease;
+        transition:
+          transform var(--row-move-duration) var(--move-ease),
+          opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
@@ -652,7 +656,7 @@ function htmlDocument() {
     const bufferRows = 12;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 760;
-    const smoothStepsPerMonth = 48;
+    const smoothStepsPerMonth = 24;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowPositionPrecision = window.devicePixelRatio > 1 ? 1 : 0;
     const barScalePrecision = 10000;
