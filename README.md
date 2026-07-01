@@ -14,12 +14,12 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 
 ## Current Snapshot
 
-- Ranked-list rows: 47,536
-- Ranked-list rows with observed play counts: 14,868
-- Mini catalog: 2,931 canonical games that reached top 20 in observed rankings
-- Per-game play-history rows: 7,866 across 2,601 canonical games
-- Observed play-count rows used by the chart: 22,734
-- Chart playback: Smooth mode uses 9,829 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
+- Ranked-list rows: 47,885
+- Ranked-list rows with observed play counts: 15,217
+- Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
+- Per-game play-history rows: 7,932 across 2,667 canonical games
+- Observed play-count rows used by the chart: 23,149
+- Chart playback: Smooth mode uses 13,105 interpolated month-paced display frames by default; Captures mode exposes all 2,336 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
@@ -29,7 +29,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-01, plus current live category pages captured on 2026-07-01. The latest Wayback ranked-list capture remains 2026-06-26, and live chart-leader metrics are refreshed through 2026-07-01.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
-- Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,344 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
+- Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,351 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
 - Checkpoint 30 merged 525 raw URL-split mini-catalog identities into canonical games, retained the raw forms in `game_url_variants`, and duplicate canonical catalog games now scan at 0.
 - Checkpoint 30 also smooths the chart race playback by preserving interpolated row positions and easing the default smooth-frame cadence.
@@ -81,15 +81,17 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 64 finished triaging the remaining raw play-count decreases: true monotonic decreases are now 0, 2 suspicious metrics-route anomalies are isolated, and 7 same-day/cross-listing source conflicts are separated into `source_conflict_play_count_decreases.csv`.
 - Checkpoint 65 added `fetch_game_page_history.py --cached-html-only` so broad page-history retries can safely reparse only cached archived HTML without opening new Wayback page fetches. A cached-only catalog-priority sweep considered 2,247 tier-1/tier-2 games, 10,938 cached-CDX page jobs, and 955 cached HTML failures; it recovered 0 additional trusted play-count rows, confirming those cached misses mostly lack static count text and should be pursued through metrics endpoints or new targeted capture strategies.
 - Checkpoint 66 added opt-in `fetch_game_metrics_history.py --expanded-route-variants` for probing explicit `http`/`https` and `/en/games` archived metrics routes without slowing normal sweeps. A three-game no-CDX probe found 0 new archived metrics CDX rows, so the highest-priority no-CDX cases still appear genuinely unarchived on the metrics endpoint.
+- Checkpoint 67 expanded default live ranked-page coverage with `multiplayer`, `mmo`, `adventure-rpg`, `sports-racing`, `strategy-defense`, `more`, and `card` category pages. The July 1 live sweep added 349 ranked rows with observed listing play counts, grew the mini catalog to 2,997 games, and a follow-up live-metrics pass recovered current observations for all 66 newly exposed catalog games.
+- Visualization polish after checkpoint 67 removes the Smooth-mode rank-snap jitter by sorting interpolated frames on continuous rank position, preserving sub-slot row motion, and lengthening row/bar transforms. The chart still fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from the repo at runtime.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 330 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 330 games without any per-game metrics rows, and 0 missing CDX cache files.
-- The no-CDX profile splits the 330 no-history/no-CDX games still needing triage into 6 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 86 single-capture complete-listing candidates, and 237 low-information single-capture rows with no listing play count.
-- True monotonic play-count decreases now scan at 0. Two suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 308 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 330 games without any per-game metrics rows, and 157 missing CDX cache files.
+- The no-CDX profile splits the 330 no-history/no-CDX games still needing triage into 7 high-value follow-up games: 6 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 86 single-capture complete-listing candidates, and 237 low-information single-capture rows with no listing play count.
+- True monotonic play-count decreases now scan at 0. Two suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 353 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
 - Final chart leaders have current live metrics observations as of 2026-07-01.
 
 ## Key Files

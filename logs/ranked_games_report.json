@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-07-01T02:50:06Z",
-    "html_samples_considered": 3432,
-    "ranking_rows_extracted": 47536,
-    "rows_with_observed_play_counts": 14868,
-    "captures_with_rows": 3281,
+    "run_timestamp": "2026-07-01T04:21:03Z",
+    "html_samples_considered": 3439,
+    "ranking_rows_extracted": 47885,
+    "rows_with_observed_play_counts": 15217,
+    "captures_with_rows": 3288,
     "captures_without_rows": 151,
     "duplicate_rows_removed": 238,
     "ranking_types": [
@@ -30907,6 +30907,69 @@
       "rows_extracted": 50,
       "confidence": "medium",
       "html_path": "data/raw/html/20260701024813_https_www.kongregate.com_en_tower-defense-games_519d28fe0c889088.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/adventure-rpg-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_adventure-rpg-games_cbf848e511e8a66c.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/card-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 49,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_card-games_5508c4408ddbaeae.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/mmo-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_mmo-games_30840757b115951e.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/more-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_more-games_b459483d33c6a66d.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/multiplayer-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_multiplayer-games_5cbf05fd30c712a9.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/sports-racing-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_sports-racing-games_8debf38f865c15b6.html"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.kongregate.com/en/strategy-defense-games",
+      "capture_timestamp": "20260701042035",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260701042035_https_www.kongregate.com_en_strategy-defense-games_da8d31676bd59215.html"
     }
   ]
 }

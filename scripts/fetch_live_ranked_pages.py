@@ -32,6 +32,13 @@ DEFAULT_SOURCES = {
     "live_en_shooter_games": "https://www.kongregate.com/en/shooter-games",
     "live_en_idle_games": "https://www.kongregate.com/en/idle-games",
     "live_en_tower-defense_games": "https://www.kongregate.com/en/tower-defense-games",
+    "live_en_multiplayer_games": "https://www.kongregate.com/en/multiplayer-games",
+    "live_en_mmo_games": "https://www.kongregate.com/en/mmo-games",
+    "live_en_adventure-rpg_games": "https://www.kongregate.com/en/adventure-rpg-games",
+    "live_en_sports-racing_games": "https://www.kongregate.com/en/sports-racing-games",
+    "live_en_strategy-defense_games": "https://www.kongregate.com/en/strategy-defense-games",
+    "live_en_more_games": "https://www.kongregate.com/en/more-games",
+    "live_en_card_games": "https://www.kongregate.com/en/card-games",
 }
 
 

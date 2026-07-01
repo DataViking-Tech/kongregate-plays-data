@@ -16,9 +16,9 @@
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 72ms;
+      --move-duration: 96ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
-      --fade-duration: 180ms;
+      --fade-duration: 220ms;
     }
 
     * {
@@ -471,7 +471,7 @@
     const bufferRows = 6;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
-    const smoothStepsPerMonth = 84;
+    const smoothStepsPerMonth = 56;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
     const rowsByKey = new Map();
 
@@ -705,15 +705,15 @@
             slotPosition: rankPosition - 1,
           };
         })
-        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows);
 
       const entries = sortedEntries
         .map((entry, index) => ({
           ...entry,
           rank: index + 1,
-          displayOrder: index + 1,
-          slotPosition: index,
+          displayOrder: entry.rankPosition,
+          slotPosition: Number.isFinite(entry.rankPosition) ? entry.rankPosition - 1 : index,
         }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -921,7 +921,7 @@
       bar.style.background = colorFor(entry.key);
       bar.style.transform = `scaleX(${Math.max(0.015, entry.plays / maxValue)})`;
       const visualOrder = Number.isFinite(entry.displayOrder) ? entry.displayOrder : fallbackIndex + 1;
-      row.style.zIndex = String(Math.max(1, renderedRows - visualOrder + 1));
+      row.style.zIndex = String(Math.max(1, Math.round(renderedRows - visualOrder + 1)));
     }
 
     function removeInactiveRow(key, row) {
@@ -1041,14 +1041,14 @@
 
     function playbackDelay() {
       const pace = Number(speedSlider.value) || 2800;
-      if (playbackMode === "smooth") return Math.max(16, pace / smoothStepsPerMonth);
+      if (playbackMode === "smooth") return Math.max(24, pace / smoothStepsPerMonth);
       return Math.max(pace, 80);
     }
 
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(36, Math.min(68, delay * 1.08))
+        ? Math.max(72, Math.min(130, delay * 1.45))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
