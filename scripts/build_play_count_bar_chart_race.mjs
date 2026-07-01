@@ -7,6 +7,7 @@ const metricsJsonPath = path.join(root, "data", "processed", "game_play_history.
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
+const indexHtmlPath = path.join(root, "index.html");
 const sheetUrl = "https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymOFYg";
 
 const topN = 12;
@@ -46,6 +47,18 @@ function developerFromUrl(gameUrl) {
   return gameUrlParts(gameUrl)?.developer ?? "";
 }
 
+function cleanText(value) {
+  const text = String(value ?? "").trim();
+  return /^(?:undefined|null|nan)$/i.test(text) ? "" : text;
+}
+
+function safeGameUrl(gameUrl) {
+  const parts = gameUrlParts(gameUrl);
+  if (!parts) return gameUrl || "";
+  if (!cleanText(parts.developer) || !cleanText(parts.slug)) return "";
+  return gameUrl || "";
+}
+
 function gameKey(row) {
   if (row.game_url) return canonicalGameUrl(row.game_url);
   return `${row.game_name ?? ""}|${row.developer ?? ""}`.toLowerCase();
@@ -74,7 +87,7 @@ function normalizeObservedRow(row) {
     ...row,
     plays_count_observed: plays,
     rank_on_date: row.rank_on_date ?? "",
-    developer: row.developer || developerFromUrl(row.game_url) || "",
+    developer: cleanText(row.developer) || cleanText(developerFromUrl(row.game_url)) || "",
     parser: row.parser || "",
   };
 }
@@ -111,7 +124,7 @@ function buildFrames(rows, sourceCounts) {
           key,
           gameName: row.game_name,
           developer: row.developer || "",
-          gameUrl: row.game_url || "",
+          gameUrl: safeGameUrl(row.game_url),
           plays,
           lastObservedDate: row.date,
           rankOnDate: row.rank_on_date ?? "",
@@ -623,7 +636,7 @@ function htmlDocument() {
     const pausePath = "M7 5h4v14H7zm6 0h4v14h-4z";
     const rowStep = 54;
     const visibleRows = 12;
-    const bufferRows = 2;
+    const bufferRows = 6;
     const renderedRows = visibleRows + bufferRows;
     const transitionMs = 820;
     const smoothStepsPerMonth = 84;
@@ -682,21 +695,52 @@ function htmlDocument() {
         byMonth.set(monthIdFromDate(frame.date), frame);
       }
 
-      const firstMonth = monthIdFromDate(sourceFrames[0].date);
-      const lastMonth = monthIdFromDate(sourceFrames.at(-1).date);
+      const anchors = [...byMonth.entries()]
+        .map(([month, frame]) => ({ month, monthValue: numericMonth(month), frame }))
+        .sort((a, b) => a.monthValue - b.monthValue);
+      const firstMonth = anchors[0].month;
+      const lastMonth = anchors.at(-1).month;
       const monthlyFrames = [];
-      let latestFrame = sourceFrames[0];
       let cursor = firstMonth;
+      let anchorIndex = 0;
 
       while (cursor <= lastMonth) {
-        latestFrame = byMonth.get(cursor) || latestFrame;
-        monthlyFrames.push({
-          ...latestFrame,
-          date: cursor,
-          displayDate: cursor,
-          sourceDate: latestFrame.date,
-          cadence: "monthly",
-        });
+        const cursorValue = numericMonth(cursor);
+        while (anchorIndex < anchors.length - 1 && anchors[anchorIndex + 1].monthValue <= cursorValue) {
+          anchorIndex += 1;
+        }
+
+        const exactFrame = byMonth.get(cursor);
+        if (exactFrame) {
+          monthlyFrames.push({
+            ...exactFrame,
+            date: cursor,
+            displayDate: cursor,
+            sourceDate: exactFrame.date,
+            cadence: "monthly",
+          });
+        } else {
+          const previousAnchor = anchors[anchorIndex];
+          const nextAnchor = anchors[Math.min(anchorIndex + 1, anchors.length - 1)];
+          if (!nextAnchor || nextAnchor === previousAnchor) {
+            monthlyFrames.push({
+              ...previousAnchor.frame,
+              date: cursor,
+              displayDate: cursor,
+              sourceDate: previousAnchor.frame.sourceDate || previousAnchor.frame.date,
+              cadence: "monthly",
+            });
+          } else {
+            const span = Math.max(1, nextAnchor.monthValue - previousAnchor.monthValue);
+            const ratio = (cursorValue - previousAnchor.monthValue) / span;
+            monthlyFrames.push({
+              ...interpolateFrame(previousAnchor.frame, nextAnchor.frame, ratio),
+              date: cursor,
+              displayDate: cursor,
+              cadence: "monthly",
+            });
+          }
+        }
         cursor = addMonths(cursor, 1);
       }
 
@@ -756,6 +800,22 @@ function htmlDocument() {
       return formatChartDate(new Date(start + ((end - start) * ratio)));
     }
 
+    function interpolatedDisplayDate(startFrame, endFrame, ratio) {
+      return interpolatedDate(
+        { date: startFrame.displayDate || startFrame.date },
+        { date: endFrame.displayDate || endFrame.date },
+        ratio,
+      );
+    }
+
+    function frameStartSourceDate(frame) {
+      return frame.fromSourceDate || frame.sourceDate || frame.date;
+    }
+
+    function frameEndSourceDate(frame) {
+      return frame.toSourceDate || frame.sourceDate || frame.date;
+    }
+
     function interpolatedNumber(start, end, ratio) {
       const fromValue = Number(start) || 0;
       const toValue = Number(end) || fromValue;
@@ -795,7 +855,7 @@ function htmlDocument() {
       const startFloor = Math.max(1, Math.min(...(startFrame.entries || []).map((entry) => entry.plays)));
       const endFloor = Math.max(1, Math.min(...(endFrame.entries || []).map((entry) => entry.plays)));
       const joinFloor = Math.max(1, Math.min(startFloor, endFloor));
-      const offscreenRank = renderedRows + 1.5;
+      const offscreenRank = renderedRows + 2.5;
       const sortedEntries = [...keys]
         .map((key) => {
           const startEntry = startEntries.get(key);
@@ -813,27 +873,26 @@ function htmlDocument() {
             slotPosition: rankPosition - 1,
           };
         })
-        .sort((a, b) => a.rankPosition - b.rankPosition || b.plays - a.plays || a.gameName.localeCompare(b.gameName))
+        .sort((a, b) => b.plays - a.plays || a.rankPosition - b.rankPosition || a.gameName.localeCompare(b.gameName))
         .slice(0, renderedRows);
 
-      const maxSlot = renderedRows + 0.75;
       const entries = sortedEntries
         .map((entry, index) => ({
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: Math.max(0, Math.min(maxSlot, entry.rankPosition - 1)),
+          slotPosition: index,
         }));
 
-      const displayDate = interpolatedDate(startFrame, endFrame, ratio).slice(0, 7);
+      const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
 
       return {
         ...endFrame,
         date: displayDate,
         displayDate,
-        sourceDate: startFrame.sourceDate || startFrame.date,
-        fromSourceDate: startFrame.sourceDate || startFrame.date,
-        toSourceDate: endFrame.sourceDate || endFrame.date,
+        sourceDate: frameStartSourceDate(startFrame),
+        fromSourceDate: frameStartSourceDate(startFrame),
+        toSourceDate: frameEndSourceDate(endFrame),
         interpolated: true,
         observedRows: interpolatedNumber(startFrame.observedRows, endFrame.observedRows, eased),
         trackedGames: interpolatedNumber(startFrame.trackedGames, endFrame.trackedGames, eased),
@@ -1127,6 +1186,11 @@ function htmlDocument() {
         if (dataLink && document.documentElement.dataset.chartDataSource) {
           dataLink.href = document.documentElement.dataset.chartDataSource;
         }
+        window.KONGREGATE_CHART_META = {
+          dataSource: document.documentElement.dataset.chartDataSource || "",
+          generatedAt: PAYLOAD.generatedAt || "",
+          summary: PAYLOAD.summary || {},
+        };
         setPlaybackMode(playbackMode);
         syncMotionTiming();
         playIcon.setAttribute("d", pausePath);
@@ -1152,7 +1216,7 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(42, Math.min(82, delay * 1.35))
+        ? Math.max(36, Math.min(68, delay * 1.08))
         : Math.max(260, Math.min(900, delay * 0.86));
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty(
@@ -1241,10 +1305,13 @@ async function main() {
     metricsObservedRows: metricsRows.filter((row) => Number(row.plays_count_observed) > 0).length,
   });
   await fs.mkdir(outputDir, { recursive: true });
+  const html = htmlDocument();
   await fs.writeFile(dataPath, `${JSON.stringify(framesPayload, null, 2)}\n`);
-  await fs.writeFile(htmlPath, htmlDocument());
+  await fs.writeFile(htmlPath, html);
+  await fs.writeFile(indexHtmlPath, html);
   console.log(JSON.stringify({
     htmlPath,
+    indexHtmlPath,
     dataPath,
     ...framesPayload.summary,
   }, null, 2));
