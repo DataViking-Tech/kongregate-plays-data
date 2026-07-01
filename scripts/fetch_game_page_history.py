@@ -53,6 +53,7 @@ class ProfileGame:
     best_rank: int
     top_n_appearances: int
     listing_play_count_rows: int
+    metrics_rows: int
     first_seen_date: str
     last_seen_date: str
     game_url_variants: tuple[str, ...]
@@ -226,6 +227,7 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
                     best_rank=parse_int(row.get("best_rank")),
                     top_n_appearances=parse_int(row.get("top_n_appearances")),
                     listing_play_count_rows=parse_int(row.get("listing_play_count_rows")),
+                    metrics_rows=parse_int(row.get("metrics_rows")),
                     first_seen_date=row.get("first_seen_date", ""),
                     last_seen_date=row.get("last_seen_date", ""),
                     game_url_variants=page_url_variants(game_url, catalog_variants.get(canonical_key, ())),
@@ -516,6 +518,7 @@ def make_report(
             "best_rank": game.best_rank,
             "top_n_appearances": game.top_n_appearances,
             "listing_play_count_rows": game.listing_play_count_rows,
+            "metrics_rows": game.metrics_rows,
             "first_seen_date": game.first_seen_date,
             "last_seen_date": game.last_seen_date,
         }
@@ -542,6 +545,7 @@ def make_report(
         "cached_cdx_only": args.cached_cdx_only,
         "cached_html_only": args.cached_html_only,
         "game_name_contains": args.game_name_contains,
+        "metrics_row_status": args.metrics_row_status,
         "retry_failures": args.retry_failures,
         "report_only": args.report_only,
         **cdx_stats,
@@ -585,6 +589,7 @@ def write_report(report: dict[str, object]) -> None:
                 f"- CDX timeout: {report['cdx_timeout']}s",
                 f"- Page timeout: {report['timeout']}s",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
+                f"- Metrics row filter: {report['metrics_row_status']}",
                 f"- CDX rows: {report['cdx_rows']}",
                 f"- Page jobs: {report['page_jobs']}",
                 f"- Pending before run: {report['pending_before_run']}",
@@ -632,6 +637,12 @@ def main() -> None:
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed page captures.")
     parser.add_argument("--report-only", action="store_true", help="Rewrite reports from current manifests without network work.")
     parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
+    parser.add_argument(
+        "--metrics-row-status",
+        choices=["any", "no_metrics", "has_metrics"],
+        default="any",
+        help="Filter profile games by whether they already have per-game metrics rows.",
+    )
     args = parser.parse_args()
 
     profile_csv = Path(args.input_csv)
@@ -647,6 +658,10 @@ def main() -> None:
             for game in games
             if any(value in game.game_name.lower() or value in game.game_url.lower() for value in name_filters)
         ]
+    if args.metrics_row_status == "no_metrics":
+        games = [game for game in games if game.metrics_rows == 0]
+    elif args.metrics_row_status == "has_metrics":
+        games = [game for game in games if game.metrics_rows > 0]
     if args.profile_offset:
         games = games[args.profile_offset :]
     if args.profile_limit:

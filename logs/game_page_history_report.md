@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T05:53:51Z
+- Run timestamp: 2026-07-01T06:00:17Z
 - Profile games in scope: 25
-- Selected games sample: jhghj, Dead Frontier, Ballamos, Chevrolet Cruze Puzzle, Sky Knight, Horse Racing, Finger Spinner Online, Britney Spears vs Child Servisous, Cherrie New Spring Trends, Raze 3, AstroLords, Register Simulator, A Kongergate Special, Pokemon Kill 4, Session Key Viewer, Vape Naysh Vs The Memes Beta1, ATV Ride 2016, SUV Car Cartoon Puzzle, Boat Rush, Defense Math, as3 Shootorial #1, Dot Snap Battle, CBS:Escape from the Mall, Mutilate-a-Doll 2, The Enchanted Cave 2
+- Selected games sample: Rise of Mythos, Simple Platformer, Doom II: Hell on Earth, DoodiaMan Find Wife, 1p.Story: Death, BMW M5 E34, Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game), Mr.Miner, Balls Vs Blocks Online, Kung Fu Adventure, E-Sim, My Line Of Sight attempt from Construct 2, Burnt Plate, I'ts a lamp?, Una Chief: The Great Adventure, Spacebar v0.1, Whitewash, idk, Super Casual, Ghoul be Gone Demo, UFC 198 Live Stream - Werdum vs Miocic, quangjing, Create your face with this stupid game, Hired Ops — New Dynamic Online Shooter, Viking Workout
 - Selected games omitted from sample: 0
 - CDX games considered: 25
 - Cached CDX only: False
@@ -10,18 +10,19 @@
 - CDX timeout: 6s
 - Page timeout: 10s
 - Game-name filter: none
-- CDX rows: 4
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 4
-- Fetched this run: 2
+- Metrics row filter: no_metrics
+- CDX rows: 6
+- Page jobs: 6
+- Pending before run: 6
+- Attempted this run: 6
+- Fetched this run: 1
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 2
+- Network fetch failed this run: 5
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 4
+- No explicit count this run: 1
+- Failed this run: 6
 - Manifest entries: 367
-- Known failures: 2687
+- Known failures: 2693
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
