@@ -1,45 +1,25 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T11:27:24Z
-- Target games: 1
-- Games with cached archived pages: 1
-- Endpoint candidates checked: 12
-- CDX status counts: cached=12
-- CDX rows found: 168
-- Candidates with CDX rows: 12
-- Payloads with count-like signals: 8
-- Parsed play-count rows: 2
+- Generated: 2026-07-01T11:44:52Z
+- Target games: 4
+- Games with cached archived pages: 0
+- Games direct-probed from catalog URLs: 4
+- Endpoint candidates checked: 48
+- Candidate observation rows: 48
+- CDX status counts: cached=27, failed=15, fetched=6
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/metrics.json` | gameplays_count_with_delimiter | 3734 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/metrics.json` | gameplays_count_with_delimiter | 3734 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle` | gameplays_count | n/a |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle-2` | gameplays_count | n/a |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2` | gameplays_count | n/a |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle` | gameplays_count | n/a |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle-2` | gameplays_count | n/a |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2` | gameplays_count | n/a |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
-## Archived Endpoint Hits
+## Retry Note
 
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/metrics.json` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/metrics.json` | 14 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle` | 14 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle-2` | 14 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com:80/games/joao8991/superball-idle-2` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2` | 14 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/holodeck` | 14 |
-| SuperBall Idle | game_path_prefix | `http://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/show_below_fold` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/holodeck` | 14 |
-| SuperBall Idle | game_path_prefix | `https://www.kongregate.com/games/joao8991/superball-idle` | `http://www.kongregate.com/games/joao8991/superball-idle-2/show_below_fold` | 14 |
+15 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 

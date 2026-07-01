@@ -183,6 +183,13 @@ def parse_timestamp_date(value: str):
         return None
 
 
+def timestamp_from_date(value: str) -> str:
+    capture_date = parse_date(value)
+    if not capture_date:
+        return ""
+    return capture_date.strftime("%Y%m%d000000")
+
+
 def page_distance(game: TargetGame, page: PageRef) -> int:
     capture_date = parse_timestamp_date(page.timestamp)
     first_seen = parse_date(game.first_seen_date)
@@ -459,6 +466,57 @@ def endpoint_candidates_for_page(game: TargetGame, page: PageRef, max_candidates
     return candidates
 
 
+def endpoint_candidates_for_direct_game(game: TargetGame, max_candidates: int) -> list[EndpointCandidate]:
+    page = PageRef(
+        game_name=game.game_name,
+        game_url=game.game_url,
+        canonical_key=game.canonical_key,
+        timestamp=timestamp_from_date(game.first_seen_date),
+        original_url=game.game_url,
+        relative_path="",
+        page_status="direct_catalog_probe",
+    )
+    game_path = game_path_from_url(game.game_url)
+    raw_candidates: list[tuple[str, str, str]] = []
+    if game_path:
+        raw_candidates.extend(
+            [
+                ("metrics_json", f"{game_path}/metrics.json", "generated_from_catalog_game_url"),
+                ("holodeck", f"{game_path}/holodeck", "generated_from_catalog_game_url"),
+                ("chat_js", f"{game_path}/chat.js", "generated_from_catalog_game_url"),
+                ("chat_achievements", f"{game_path}/chat_achievements", "generated_from_catalog_game_url"),
+                ("game_path_prefix", game_path, "generated_from_catalog_game_url"),
+            ]
+        )
+    for game_id in game.game_ids:
+        raw_candidates.extend(
+            [
+                ("recommended_games", f"/recommended_games?game_id={game_id}", "generated_from_kongregate_game_id"),
+                ("recommended_games", f"/recommended_games?game_id={game_id}&gamepage_pod=true", "generated_from_kongregate_game_id"),
+            ]
+        )
+
+    candidates: list[EndpointCandidate] = []
+    seen_urls: set[str] = set()
+    for source_type, url_or_path, discovered_from in raw_candidates:
+        for endpoint_url in path_to_urls(url_or_path, game.game_url):
+            if endpoint_url in seen_urls:
+                continue
+            seen_urls.add(endpoint_url)
+            candidates.append(
+                EndpointCandidate(
+                    game=game,
+                    page=page,
+                    source_type=source_type,
+                    endpoint_url=endpoint_url,
+                    discovered_from=discovered_from,
+                )
+            )
+            if max_candidates and len(candidates) >= max_candidates:
+                return candidates
+    return candidates
+
+
 def cdx_cache_path(endpoint_url: str, match_type: str) -> Path:
     return RAW_CDX / f"{safe_name(match_type + '_' + endpoint_url)}_{sha(match_type + ':' + endpoint_url)}.json"
 
@@ -650,6 +708,9 @@ def merge_play_count_rows(rows: list[dict[str, object]]) -> dict[str, int]:
 
 def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[PageRef]], rows: list[dict[str, object]]) -> dict[str, object]:
     games_with_pages = sum(1 for target in targets if pages_by_key.get(target.canonical_key))
+    games_without_pages = len(targets) - games_with_pages
+    direct_probe_rows = [row for row in rows if not row.get("source_page_path")]
+    games_direct_probed = len({row.get("game_url") for row in direct_probe_rows})
     games_with_ids = sum(1 for target in targets if target.game_ids)
     cdx_rows_found = sum(parse_int(row.get("cdx_rows")) for row in rows)
     rows_with_cdx = [row for row in rows if parse_int(row.get("cdx_rows")) > 0]
@@ -659,9 +720,11 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
     by_game: dict[str, dict[str, object]] = {}
     for target in targets:
         game_rows = [row for row in rows if row.get("game_url") == target.game_url]
+        cached_page_paths = {row.get("source_page_path") for row in game_rows if row.get("source_page_path")}
         by_game[target.game_name] = {
             "game_url": target.game_url,
-            "pages_checked": len({row.get("source_page_path") for row in game_rows}),
+            "pages_checked": len(cached_page_paths),
+            "direct_catalog_probe_candidates": sum(1 for row in game_rows if not row.get("source_page_path")),
             "endpoint_candidates": len(game_rows),
             "candidates_with_cdx": sum(1 for row in game_rows if parse_int(row.get("cdx_rows")) > 0),
             "payloads_with_count_signal": sum(1 for row in game_rows if row.get("count_signal")),
@@ -675,15 +738,20 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "target_games": len(targets),
         "target_games_with_kongregate_ids": games_with_ids,
         "games_with_cached_pages": games_with_pages,
+        "games_without_cached_pages": games_without_pages,
+        "games_direct_probed": games_direct_probed,
         "max_pages_per_game": args.max_pages_per_game,
         "max_candidates_per_page": args.max_candidates_per_page,
+        "max_cdx_lookups": args.max_cdx_lookups,
+        "stopped_after_cdx_lookup_cap": bool(getattr(args, "stopped_after_cdx_lookup_cap", False)),
         "source_types": sorted(args.source_types_set),
         "match_type": args.match_type,
         "collapse": args.collapse,
         "cdx_wall_timeout": args.cdx_wall_timeout,
         "payload_wall_timeout": args.payload_wall_timeout,
         "cached_cdx_only": args.cached_cdx_only,
-        "cdx_lookups": len(rows),
+        "cdx_lookups": getattr(args, "cdx_lookups_performed", len(rows)),
+        "candidate_observation_rows": len(rows),
         "cdx_status_counts": dict(sorted(cdx_status_counts.items())),
         "cdx_rows_found": cdx_rows_found,
         "candidates_with_cdx": len(rows_with_cdx),
@@ -711,7 +779,9 @@ def write_report(report: dict[str, object]) -> None:
         f"- Generated: {report['run_timestamp']}",
         f"- Target games: {report['target_games']}",
         f"- Games with cached archived pages: {report['games_with_cached_pages']}",
+        f"- Games direct-probed from catalog URLs: {report.get('games_direct_probed', 0)}",
         f"- Endpoint candidates checked: {report['cdx_lookups']}",
+        f"- Candidate observation rows: {report.get('candidate_observation_rows', report['cdx_lookups'])}",
         f"- CDX status counts: {', '.join(f'{key}={value}' for key, value in report['cdx_status_counts'].items()) or 'none'}",
         f"- CDX rows found: {report['cdx_rows_found']}",
         f"- Candidates with CDX rows: {report['candidates_with_cdx']}",
@@ -723,6 +793,8 @@ def write_report(report: dict[str, object]) -> None:
         lines.append(
             f"- Deduped recovered play-count observations: {persisted.get('total', 0)} ({persisted.get('added', 0)} new this run)"
         )
+    if report.get("stopped_after_cdx_lookup_cap"):
+        lines.append(f"- Stopped after CDX lookup cap: {report.get('max_cdx_lookups', 0)}")
     lines.append("")
     if signal_rows:
         lines.extend(["## Count Signals", "", "| Game | Source | Endpoint | Sample | Signal | Plays |", "| --- | --- | --- | --- | --- | --- |"])
@@ -797,6 +869,7 @@ def main() -> None:
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between CDX retries.")
     parser.add_argument("--max-samples-per-candidate", type=int, default=1, help="Archived endpoint payloads to inspect per candidate.")
     parser.add_argument("--max-fetches", type=int, default=40, help="Total archived endpoint payload fetches to inspect. 0 means none.")
+    parser.add_argument("--max-cdx-lookups", type=int, default=0, help="Total endpoint CDX lookups to perform. 0 means no cap.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files.")
     args = parser.parse_args()
@@ -811,18 +884,39 @@ def main() -> None:
     pages_by_key = load_page_refs(targets)
     candidate_rows: list[dict[str, object]] = []
     payload_fetches = 0
+    cdx_lookups = 0
+    stopped_after_cdx_lookup_cap = False
 
     for game in targets:
+        if stopped_after_cdx_lookup_cap:
+            break
         page_refs = sorted(
             pages_by_key.get(game.canonical_key, []),
             key=lambda page: (page_distance(game, page), page.timestamp, page.relative_path),
         )
         if args.max_pages_per_game:
             page_refs = page_refs[: args.max_pages_per_game]
-        for page in page_refs:
-            for candidate in endpoint_candidates_for_page(game, page, args.max_candidates_per_page):
+        generation_candidate_limit = 0 if args.source_types_set else args.max_candidates_per_page
+        candidate_batches = (
+            [endpoint_candidates_for_page(game, page, generation_candidate_limit) for page in page_refs]
+            if page_refs
+            else [endpoint_candidates_for_direct_game(game, generation_candidate_limit)]
+        )
+        for candidates in candidate_batches:
+            if stopped_after_cdx_lookup_cap:
+                break
+            accepted_candidates = 0
+            for candidate in candidates:
+                page = candidate.page
                 if args.source_types_set and candidate.source_type not in args.source_types_set:
                     continue
+                if args.max_candidates_per_page and accepted_candidates >= args.max_candidates_per_page:
+                    break
+                accepted_candidates += 1
+                if args.max_cdx_lookups and cdx_lookups >= args.max_cdx_lookups:
+                    stopped_after_cdx_lookup_cap = True
+                    break
+                cdx_lookups += 1
                 rows, status = fetch_cdx(
                     candidate.endpoint_url,
                     args.match_type,
@@ -908,6 +1002,8 @@ def main() -> None:
     )
     write_candidates(candidate_rows)
     play_count_merge = merge_play_count_rows(candidate_rows)
+    args.cdx_lookups_performed = cdx_lookups
+    args.stopped_after_cdx_lookup_cap = stopped_after_cdx_lookup_cap
     report = make_report(args, targets, pages_by_key, candidate_rows)
     report["persisted_play_counts"] = play_count_merge
     write_report(report)
