@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T09:47:51Z
-- Profile games in scope: 17
-- Selected games sample: The stupid Quiz, stupid quiz, basic car behavior, Color Switch, Ford Hidden Car Tires, Heroes of Myths, Plants vs. Zombies: Apocalypse, Bottle Flip Challenge, BigFarm Online(Sweden), Zinku - Kuiz nga Kimia, Alfa Romeo Brera Puzzle, Powerblocks, Virus Attack, Dinamic Chess, Paradise, You Are Getting Tired, Agents of Mayhem: Splatter Effect
+- Run timestamp: 2026-07-01T09:53:54Z
+- Profile games in scope: 2
+- Selected games sample: Kuizi Biologjia - Pjesa e 3, Death Soul
 - Selected games omitted from sample: 0
-- CDX games considered: 17
+- CDX games considered: 2
 - Cached CDX only: True
 - Cached HTML only: False
-- CDX timeout: 10s
-- CDX wall-clock cap: 14.0
-- Page timeout: 12s
-- Page wall-clock cap: 14.0
-- Game-name filter: stupid quiz,basic car behavior,Color Switch,Ford Hidden Car Tires,Heroes of Myths,Plants vs. Zombies: Apocalypse,Bottle Flip Challenge,BigFarm Online(Sweden),Zinku - Kuiz nga Kimia,Alfa Romeo Brera Puzzle,Powerblocks,Virus Attack,Dinamic Chess,Paradise,You Are Getting Tired,Agents of Mayhem: Splatter Effect
+- CDX timeout: 8s
+- CDX wall-clock cap: 10.0
+- Page timeout: 10s
+- Page wall-clock cap: 12.0
+- Game-name filter: Kuizi Biologjia - Pjesa e 3,Death Soul
 - Metrics row filter: no_metrics
-- CDX rows: 53
-- Page jobs: 31
-- Pending before run: 31
-- Attempted this run: 18
-- Fetched this run: 18
-- Cached HTML selected this run: 0
+- CDX rows: 7
+- Page jobs: 5
+- Pending before run: 5
+- Attempted this run: 5
+- Fetched this run: 3
+- Cached HTML selected this run: 2
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 18
-- Failed this run: 18
+- No explicit count this run: 5
+- Failed this run: 5
 - Manifest entries: 367
-- Known failures: 2836
+- Known failures: 2844
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
