@@ -1,12 +1,12 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 76,
+  "candidate_observation_rows": 72,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 76,
+  "cdx_lookups": 72,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 24,
-    "fetched": 52
+    "cached": 25,
+    "fetched": 47
   },
   "cdx_wall_timeout": 28.0,
   "collapse": "digest",
@@ -17,7 +17,7 @@
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 84,
+  "max_cdx_lookups": 80,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,83 +30,83 @@
   "payload_wall_timeout": 28.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "\"The Game\" Chat": {
+    "Blozorz Hacked": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/Qwertybeef/the-game-chat",
+      "game_url": "http://www.kongregate.com/games/tinkan11/blozorz-hacked",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Another of Stafforb's Pokemon Battles.": {
+    "Chocolate Rain TAY ZONDAY": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/Stafforb_Pokemon/another-of-stafforbs-pokemon-battles",
+      "game_url": "http://www.kongregate.com/games/Shi_Thead/chocolate-rain-tay-zonday",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Chuck Norris MMORPG": {
+    "How to make an MMORPG": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/PaperCup/chuck-norris-mmorpg",
+      "game_url": "http://www.kongregate.com/games/PaperCup/how-to-make-an-mmorpg",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "I Don't Even Know": {
+    "Jumbo Adventure": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/DXInteractive/i-dont-even-know",
+      "game_url": "http://www.kongregate.com/games/gamesrishti/jumbo-adventure",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Jamproject Classic Roc...": {
+    "Office Supply Team!": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/21Axes999/jamproject-classic-rock-skin",
+      "game_url": "http://www.kongregate.com/games/deesus/office-supply-team",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Make Butter Waffles": {
+    "PhysicsWars": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/alia2013/make-butter-waffles",
+      "direct_catalog_probe_candidates": 8,
+      "endpoint_candidates": 8,
+      "game_url": "http://www.kongregate.com/games/friuns/physicswars",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Mini Ninja Coloring": {
+    "Run And Monetize": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/petee/mini-ninja-coloring",
+      "game_url": "http://www.kongregate.com/games/rc88_/run-and-monetize",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Motivational Chatroom ...": {
+    "Stickman Adventure": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/Ilikecrabs/motivational-chatroom-drinking-game",
+      "game_url": "http://www.kongregate.com/games/powerpoler/stickman-adventure",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "RPG Shooter": {
+    "Touch me NOW!": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 8,
       "endpoint_candidates": 8,
-      "game_url": "http://www.kongregate.com/games/powerpoler/rpg-shooter",
+      "game_url": "http://www.kongregate.com/games/bullybee/touch-me-now",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -117,11 +117,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 76,
-    "total": 6710,
+    "added": 72,
+    "total": 6862,
     "updated": 0
   },
-  "run_timestamp": "2026-07-01T22:33:04Z",
+  "run_timestamp": "2026-07-01T22:45:51Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -133,7 +133,7 @@
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 9,
-  "target_games_with_kongregate_ids": 1,
+  "target_games_with_kongregate_ids": 0,
   "tiers": [
     3
   ],
