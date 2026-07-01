@@ -510,6 +510,8 @@ def make_report(
         "input_csv": str(profile_csv.relative_to(ROOT)) if profile_csv.is_relative_to(ROOT) else str(profile_csv),
         "tiers": sorted(tiers),
         "profile_games_in_scope": games_count,
+        "profile_offset": args.profile_offset,
+        "profile_limit": args.profile_limit,
         "max_cdx_games": args.max_cdx_games,
         "variant_limit": args.variant_limit,
         "max_fetches": args.max_fetches,
@@ -578,6 +580,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Fetch archived game-page histories for no-CDX metrics gaps.")
     parser.add_argument("--input-csv", default=str(PROFILE_CSV), help="No-CDX profile CSV to target.")
     parser.add_argument("--tiers", default="1", help="Comma-separated follow-up tiers to target. Empty means all.")
+    parser.add_argument("--profile-offset", type=int, default=0, help="Skip this many sorted profile games before CDX lookup. Useful for resumable broad sweeps.")
+    parser.add_argument("--profile-limit", type=int, default=0, help="Limit sorted profile games after --profile-offset. 0 means no profile slice limit.")
     parser.add_argument("--max-cdx-games", type=int, default=0, help="Limit profile games to check for CDX rows. 0 means all.")
     parser.add_argument("--variant-limit", type=int, default=0, help="Limit URL variants queried per game. 0 means all variants.")
     parser.add_argument("--max-fetches", type=int, default=0, help="Limit archived page fetch/parse attempts. 0 means all pending.")
@@ -610,6 +614,10 @@ def main() -> None:
             for game in games
             if any(value in game.game_name.lower() or value in game.game_url.lower() for value in name_filters)
         ]
+    if args.profile_offset:
+        games = games[args.profile_offset :]
+    if args.profile_limit:
+        games = games[: args.profile_limit]
     manifest = read_json(MANIFEST_PATH, {})
     failures = read_json(FAILURE_PATH, {})
     if args.report_only:
