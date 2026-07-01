@@ -49,15 +49,41 @@ def relative(path: Path) -> str:
         return str(path)
 
 
-def status_for_game(rows: list[dict[str, str]], recovered_rows: list[dict[str, str]]) -> str:
+def cdx_status_prefix(row: dict[str, str]) -> str:
+    return str(row.get("cdx_status", "")).split(":", 1)[0] or "unknown"
+
+
+def endpoint_probe_key(row: dict[str, str]) -> tuple[str, str]:
+    return (row.get("source_type", ""), row.get("endpoint_url", ""))
+
+
+def unresolved_failed_endpoint_groups(rows: list[dict[str, str]]) -> list[tuple[tuple[str, str], list[dict[str, str]]]]:
+    endpoint_rows: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        endpoint_rows[endpoint_probe_key(row)].append(row)
+
+    unresolved = []
+    for endpoint, group_rows in endpoint_rows.items():
+        has_failure = any(cdx_status_prefix(row) == "failed" for row in group_rows)
+        has_successful_retry = any(cdx_status_prefix(row) in {"cached", "fetched"} for row in group_rows)
+        if has_failure and not has_successful_retry:
+            unresolved.append((endpoint, group_rows))
+    return unresolved
+
+
+def status_for_game(
+    rows: list[dict[str, str]],
+    recovered_rows: list[dict[str, str]],
+    unresolved_failures: list[tuple[tuple[str, str], list[dict[str, str]]]],
+) -> str:
     if recovered_rows:
         return "recovered_count"
     if not rows:
         return "not_probed"
+    if unresolved_failures:
+        return "transient_failures_remaining"
     if any(parse_int(row.get("cdx_rows")) > 0 for row in rows):
         return "archived_endpoint_hit_no_count"
-    if any(str(row.get("cdx_status", "")).startswith("failed") for row in rows):
-        return "transient_failures_remaining"
     return "no_archived_endpoint_rows_observed"
 
 
@@ -92,10 +118,11 @@ def main() -> None:
         recovered = recovered_by_key.get(key, [])
         cdx_hits = [row for row in rows if parse_int(row.get("cdx_rows")) > 0]
         failed = [row for row in rows if str(row.get("cdx_status", "")).startswith("failed")]
+        unresolved_failures = unresolved_failed_endpoint_groups(rows)
         parsed = [row for row in rows if parse_int(row.get("parsed_plays")) > 0]
         status_rows.append(
             {
-                "status": status_for_game(rows, recovered or parsed),
+                "status": status_for_game(rows, recovered or parsed, unresolved_failures),
                 "followup_tier": profile.get("followup_tier", ""),
                 "game_name": profile.get("game_name") or (rows[0].get("game_name", "") if rows else recovered[0].get("game_name", "")),
                 "game_url": profile.get("game_url") or (rows[0].get("game_url", "") if rows else recovered[0].get("game_url", "")),
@@ -105,6 +132,7 @@ def main() -> None:
                 "endpoint_observations": len(rows),
                 "candidates_with_cdx_rows": len(cdx_hits),
                 "failed_observations": len(failed),
+                "unresolved_failed_endpoints": len(unresolved_failures),
                 "parsed_probe_count_rows": len(parsed),
                 "recovered_count_rows": len(recovered),
                 "source_types_seen": ";".join(sorted({row.get("source_type", "") for row in rows if row.get("source_type", "")})),
@@ -134,6 +162,7 @@ def main() -> None:
             "endpoint_observations",
             "candidates_with_cdx_rows",
             "failed_observations",
+            "unresolved_failed_endpoints",
             "parsed_probe_count_rows",
             "recovered_count_rows",
             "source_types_seen",
@@ -151,9 +180,10 @@ def main() -> None:
         "history_observation_rows": len(history_rows),
         "history_games": len(history_by_key),
         "recovered_count_rows": len(recovered_rows),
+        "unresolved_failed_endpoint_groups": sum(parse_int(row.get("unresolved_failed_endpoints")) for row in status_rows),
         "status_counts": dict(sorted(status_counts.items())),
         "tier1_status_counts": dict(sorted(Counter(str(row["status"]) for row in tier1_rows).items())),
-        "cdx_status_counts": dict(sorted(Counter(row.get("cdx_status", "").split(":", 1)[0] or "unknown" for row in history_rows).items())),
+        "cdx_status_counts": dict(sorted(Counter(cdx_status_prefix(row) for row in history_rows).items())),
         "source_type_counts": dict(sorted(Counter(row.get("source_type", "") or "unknown" for row in history_rows).items())),
         "top_unprobed": [row for row in status_rows if row["status"] == "not_probed"][:25],
         "top_transient_failures": [row for row in status_rows if row["status"] == "transient_failures_remaining"][:25],
@@ -176,16 +206,17 @@ def main() -> None:
         f"- Accumulated endpoint observations: {report['history_observation_rows']}",
         f"- Games with probe history: {report['history_games']}",
         f"- Recovered count rows: {report['recovered_count_rows']}",
+        f"- Unresolved failed endpoint groups: {report['unresolved_failed_endpoint_groups']}",
         f"- Status counts: {', '.join(f'{key}={value}' for key, value in report['status_counts'].items()) or 'none'}",
         f"- Tier-1 status counts: {', '.join(f'{key}={value}' for key, value in report['tier1_status_counts'].items()) or 'none'}",
         f"- CDX status counts: {', '.join(f'{key}={value}' for key, value in report['cdx_status_counts'].items()) or 'none'}",
         "",
     ]
     if report["top_transient_failures"]:
-        lines.extend(["## Retry Queue", "", "| Game | Rank | Failed | Observations | Latest Probe |", "| --- | ---: | ---: | ---: | --- |"])
+        lines.extend(["## Retry Queue", "", "| Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |", "| --- | ---: | ---: | ---: | --- |"])
         for row in report["top_transient_failures"][:15]:
             lines.append(
-                f"| {row['game_name']} | {row['best_rank'] or 'n/a'} | {row['failed_observations']} | {row['endpoint_observations']} | {row['latest_probe_run_timestamp']} |"
+                f"| {row['game_name']} | {row['best_rank'] or 'n/a'} | {row['unresolved_failed_endpoints']} | {row['failed_observations']} | {row['latest_probe_run_timestamp']} |"
             )
         lines.append("")
     if report["top_unprobed"]:
