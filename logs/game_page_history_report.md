@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T07:33:24Z
-- Profile games in scope: 3
-- Selected games sample: Key to Success, Missiles Again, The Space Commando
+- Run timestamp: 2026-07-01T07:40:03Z
+- Profile games in scope: 12
+- Selected games sample: CountryBalls 4, Mini Jumper, dat boi, Aston Martin Hidden Wheels, Sky Knight, Horse Racing, Finger Spinner Online, Britney Spears vs Child Servisous, Cherrie New Spring Trends, Raze 3, AstroLords, A Kongergate Special
 - Selected games omitted from sample: 0
-- CDX games considered: 3
+- CDX games considered: 12
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 6s
 - CDX wall-clock cap: 8.0
-- Page timeout: 10s
-- Page wall-clock cap: 12.0
-- Game-name filter: Key to Success,Missiles Again,The Space Commando
+- Page timeout: 8s
+- Page wall-clock cap: 10.0
+- Game-name filter: CountryBalls 4,Mini Jumper,dat boi,Aston Martin Hidden Wheels,Sky Knight,Horse Racing,Finger Spinner Online,Britney Spears vs Child Servisous,Cherrie New Spring Trends,Raze 3,AstroLords,A Kongergate Special
 - Metrics row filter: no_metrics
-- CDX rows: 6
-- Page jobs: 3
-- Pending before run: 3
-- Attempted this run: 3
+- CDX rows: 15
+- Page jobs: 7
+- Pending before run: 7
+- Attempted this run: 5
 - Fetched this run: 2
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 1
+- Network fetch failed this run: 3
 - Parsed rows this run: 0
 - No explicit count this run: 2
-- Failed this run: 3
+- Failed this run: 5
 - Manifest entries: 367
-- Known failures: 2711
+- Known failures: 2719
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
