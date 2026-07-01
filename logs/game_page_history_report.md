@@ -1,21 +1,21 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T08:36:49Z
-- Profile games in scope: 11
-- Selected games sample: My Line Of Sight attempt from Construct 2, Una Chief: The Great Adventure, Spacebar v0.1, Whitewash, idk, Super Casual, Ghoul be Gone Demo, UFC 198 Live Stream - Werdum vs Miocic, quangjing, Create your face with this stupid game, The Super Casual Game
+- Run timestamp: 2026-07-01T08:50:19Z
+- Profile games in scope: 3
+- Selected games sample: Doom II: Hell on Earth, Mr.Miner, Naruto Suspend
 - Selected games omitted from sample: 0
-- CDX games considered: 11
-- Cached CDX only: False
+- CDX games considered: 3
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 10s
 - CDX wall-clock cap: 14.0
 - Page timeout: 12s
 - Page wall-clock cap: 14.0
-- Game-name filter: My Line Of Sight attempt from Construct 2,Una Chief: The Great Adventure,Spacebar v0.1,Whitewash,idk,Super Casual,Ghoul be Gone Demo,UFC 198 Live Stream - Werdum vs Miocic,quangjing,Create your face with this stupid game
+- Game-name filter: Doom II: Hell on Earth,Naruto Suspend,Mr.Miner
 - Metrics row filter: no_metrics
-- CDX rows: 15
-- Page jobs: 12
-- Pending before run: 12
+- CDX rows: 13
+- Page jobs: 9
+- Pending before run: 9
 - Attempted this run: 8
 - Fetched this run: 8
 - Cached HTML selected this run: 0
@@ -24,7 +24,7 @@
 - No explicit count this run: 8
 - Failed this run: 8
 - Manifest entries: 367
-- Known failures: 2738
+- Known failures: 2761
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
