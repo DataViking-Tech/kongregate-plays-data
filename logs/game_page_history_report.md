@@ -1,23 +1,23 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T02:09:50Z
+- Run timestamp: 2026-07-01T02:32:08Z
 - Profile games in scope: 1
-- Selected games: Monster Slayers
+- Selected games: Kingdom Rush
 - CDX games considered: 1
 - Cached CDX only: True
 - CDX timeout: 5s
 - Page timeout: 18s
-- Game-name filter: Monster Slayers
-- CDX rows: 747
-- Page jobs: 249
-- Pending before run: 241
-- Attempted this run: 120
+- Game-name filter: Kingdom Rush
+- CDX rows: 2451
+- Page jobs: 817
+- Pending before run: 801
+- Attempted this run: 160
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 49
-- Failed this run: 120
+- No explicit count this run: 59
+- Failed this run: 160
 - Manifest entries: 367
-- Known failures: 2073
+- Known failures: 2573
 - Combined history rows: 7833
 - Game-page history rows: 367
 - Report only: False
