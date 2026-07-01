@@ -658,9 +658,9 @@ function htmlDocument() {
     const transitionMs = 760;
     const smoothStepsPerMonth = 24;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
-    const rowPositionPrecision = window.devicePixelRatio > 1 ? 1 : 0;
+    const rowPositionPrecision = 2;
     const barScalePrecision = 10000;
-    const barScaleThreshold = 0.0007;
+    const barScaleThreshold = 0.0002;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -1133,6 +1133,12 @@ function htmlDocument() {
 
     function removeInactiveRow(key, row) {
       if (row.dataset.exiting === "true") return;
+      if (playbackMode === "smooth") {
+        clearTimeout(row._removeTimer);
+        rowsByKey.delete(key);
+        row.remove();
+        return;
+      }
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
@@ -1144,7 +1150,7 @@ function htmlDocument() {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, playbackMode === "smooth" ? 220 : transitionMs + 220);
+      }, transitionMs + 220);
     }
 
     function renderFrame(nextIndex) {
@@ -1199,7 +1205,7 @@ function htmlDocument() {
         row.classList.toggle("isBuffered", index >= visibleRows);
         activeKeys.add(rowKey);
         if (isNew) {
-          if (!animateNewRows) {
+          if (!animateNewRows || playbackMode === "smooth") {
             setStyleIfChanged(row, "transform", targetTransform);
             row.classList.add("isVisible");
           } else {
@@ -1257,10 +1263,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(42, Math.min(86, delay * 0.82))
+        ? Math.max(68, Math.min(280, delay * 0.96))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(42, Math.min(86, delay * 0.82))
+        ? Math.max(68, Math.min(280, delay * 0.96))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
