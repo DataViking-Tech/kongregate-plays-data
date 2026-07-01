@@ -1,41 +1,21 @@
 {
-  "generated_at": "2026-07-01T11:15:48Z",
+  "generated_at": "2026-07-01T11:27:41Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1
   ],
   "metrics_row_status": "no_metrics",
-  "profile_games": 243,
+  "profile_games": 242,
   "status_counts": {
-    "html_without_explicit_count": 137,
+    "html_without_explicit_count": 136,
     "no_page_cdx_rows": 106
   },
   "recommended_action_counts": {
-    "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 137,
+    "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 136,
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 106
   },
-  "high_value_unresolved_games": 243,
+  "high_value_unresolved_games": 242,
   "top_unresolved_examples": [
-    {
-      "status": "html_without_explicit_count",
-      "followup_tier": 1,
-      "game_name": "SuperBall Idle",
-      "game_url": "http://www.kongregate.com/games/joao8991/superball-idle",
-      "canonical_game_key": "www.kongregate.com/games/joao8991/superball-idle",
-      "best_rank": 1,
-      "top_n_appearances": 1,
-      "listing_play_count_rows": 0,
-      "needs_game_page_history": "yes",
-      "first_seen_date": "2016-03-24",
-      "last_seen_date": "2016-03-24",
-      "cached_cdx_variants": 2,
-      "unique_cdx_rows": 1,
-      "parsed_page_rows": 0,
-      "failed_page_rows": 1,
-      "no_explicit_count_failures": 1,
-      "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
-    },
     {
       "status": "html_without_explicit_count",
       "followup_tier": 1,
@@ -609,6 +589,26 @@
       "first_seen_date": "2014-08-29",
       "last_seen_date": "2014-08-29",
       "cached_cdx_variants": 3,
+      "unique_cdx_rows": 0,
+      "parsed_page_rows": 0,
+      "failed_page_rows": 0,
+      "no_explicit_count_failures": 0,
+      "network_or_fetch_failures": 0,
+      "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
+    },
+    {
+      "status": "no_page_cdx_rows",
+      "followup_tier": 1,
+      "game_name": "StormFall",
+      "game_url": "http://www.kongregate.com/games/playman2/stormfall",
+      "canonical_game_key": "www.kongregate.com/games/playman2/stormfall",
+      "best_rank": 2,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 0,
+      "needs_game_page_history": "yes",
+      "first_seen_date": "2014-09-05",
+      "last_seen_date": "2014-09-05",
+      "cached_cdx_variants": 4,
       "unique_cdx_rows": 0,
       "parsed_page_rows": 0,
       "failed_page_rows": 0,

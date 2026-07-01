@@ -39,6 +39,7 @@ GAME_PAGE_FAILURES = RAW_GAME_PAGES / "failures.json"
 REPORT_JSON = LOGS / "count_source_probe_report.json"
 REPORT_MD = LOGS / "count_source_probe_report.md"
 CANDIDATES_CSV = PROCESSED / "count_source_probe_candidates.csv"
+PLAY_COUNTS_CSV = PROCESSED / "count_source_play_counts.csv"
 ERROR_LOG = LOGS / "count_source_probe_errors.log"
 
 CDX_ENDPOINT = "https://web.archive.org/cdx"
@@ -599,6 +600,54 @@ def write_candidates(rows: list[dict[str, object]]) -> None:
         writer.writerows(rows)
 
 
+def positive_count_key(row: dict[str, object]) -> tuple[str, str, str, str, int]:
+    return (
+        canonical_game_url(str(row.get("game_url", ""))),
+        str(row.get("source_page_timestamp", "")),
+        str(row.get("sample_timestamp", "")),
+        str(row.get("sample_original", "")),
+        parse_int(row.get("parsed_plays")),
+    )
+
+
+def merge_play_count_rows(rows: list[dict[str, object]]) -> dict[str, int]:
+    existing_rows: list[dict[str, object]] = []
+    if PLAY_COUNTS_CSV.exists():
+        with PLAY_COUNTS_CSV.open(newline="", encoding="utf-8") as handle:
+            existing_rows = list(csv.DictReader(handle))
+
+    merged: dict[tuple[str, str, str, str, int], dict[str, object]] = {}
+    for row in existing_rows:
+        if parse_int(row.get("parsed_plays")) > 0:
+            merged[positive_count_key(row)] = {column: row.get(column, "") for column in CSV_COLUMNS}
+
+    added = 0
+    for row in rows:
+        if parse_int(row.get("parsed_plays")) <= 0:
+            continue
+        key = positive_count_key(row)
+        if key in merged:
+            continue
+        merged[key] = {column: row.get(column, "") for column in CSV_COLUMNS}
+        added += 1
+
+    output_rows = sorted(
+        merged.values(),
+        key=lambda row: (
+            str(row.get("game_name", "")).lower(),
+            str(row.get("source_page_timestamp", "")),
+            str(row.get("sample_timestamp", "")),
+            str(row.get("sample_original", "")),
+        ),
+    )
+    PLAY_COUNTS_CSV.parent.mkdir(parents=True, exist_ok=True)
+    with PLAY_COUNTS_CSV.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=CSV_COLUMNS, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(output_rows)
+    return {"added": added, "total": len(output_rows)}
+
+
 def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[PageRef]], rows: list[dict[str, object]]) -> dict[str, object]:
     games_with_pages = sum(1 for target in targets if pages_by_key.get(target.canonical_key))
     games_with_ids = sum(1 for target in targets if target.game_ids)
@@ -645,6 +694,7 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "top_count_signals": rows_with_signals[:50],
         "outputs": {
             "candidate_csv": relative(CANDIDATES_CSV),
+            "play_counts_csv": relative(PLAY_COUNTS_CSV),
             "report_json": relative(REPORT_JSON),
             "report_md": relative(REPORT_MD),
         },
@@ -667,8 +717,13 @@ def write_report(report: dict[str, object]) -> None:
         f"- Candidates with CDX rows: {report['candidates_with_cdx']}",
         f"- Payloads with count-like signals: {report['payloads_with_count_signal']}",
         f"- Parsed play-count rows: {report['parsed_play_count_rows']}",
-        "",
     ]
+    persisted = report.get("persisted_play_counts", {})
+    if persisted:
+        lines.append(
+            f"- Deduped recovered play-count observations: {persisted.get('total', 0)} ({persisted.get('added', 0)} new this run)"
+        )
+    lines.append("")
     if signal_rows:
         lines.extend(["## Count Signals", "", "| Game | Source | Endpoint | Sample | Signal | Plays |", "| --- | --- | --- | --- | --- | --- |"])
         for row in signal_rows[:20]:
@@ -716,6 +771,7 @@ def write_report(report: dict[str, object]) -> None:
             "## Output Files",
             "",
             f"- `{report['outputs']['candidate_csv']}`",
+            f"- `{report['outputs']['play_counts_csv']}`",
             f"- `{report['outputs']['report_json']}`",
         ]
     )
@@ -851,7 +907,9 @@ def main() -> None:
         )
     )
     write_candidates(candidate_rows)
+    play_count_merge = merge_play_count_rows(candidate_rows)
     report = make_report(args, targets, pages_by_key, candidate_rows)
+    report["persisted_play_counts"] = play_count_merge
     write_report(report)
     print(json.dumps(report, indent=2))
 

@@ -1,24 +1,23 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-01T11:15:48Z
-- Profile games: 243
-- High-value unresolved games: 243
+- Generated: 2026-07-01T11:27:41Z
+- Profile games: 242
+- High-value unresolved games: 242
 
 ## Status Counts
 
-- html_without_explicit_count: 137
+- html_without_explicit_count: 136
 - no_page_cdx_rows: 106
 
 ## Recommended Actions
 
-- 137: Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.
+- 136: Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.
 - 106: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Top Unresolved Examples
 
 | Game | Best rank | Status | Cached CDX variants | CDX rows | Failures | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | --- |
-| SuperBall Idle | 1 | html_without_explicit_count | 2 | 1 | 1 | 2016-03-24 |
 | Make Me 10 | 1 | html_without_explicit_count | 1 | 8 | 2 | 2017-05-16 |
 | Key to Success | 1 | html_without_explicit_count | 2 | 1 | 1 | 2017-05-25 |
 | Missiles Again | 1 | html_without_explicit_count | 6 | 1 | 1 | 2017-05-26 |
@@ -43,3 +42,4 @@
 | dat boi | 2 | html_without_explicit_count | 2 | 18 | 2 | 2016-05-15 |
 | Aston Martin Hidden Wheels | 2 | html_without_explicit_count | 1 | 3 | 2 | 2016-05-24 |
 | Chevrolet Cruze Puzzle | 2 | html_without_explicit_count | 1 | 3 | 3 | 2016-10-10 |
+| Sky Knight | 2 | html_without_explicit_count | 3 | 1 | 1 | 2017-05-16 |

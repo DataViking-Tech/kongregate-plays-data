@@ -1,11 +1,11 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-01T06:24:07Z
+Generated: 2026-07-01T11:27:33Z
 
 ## Summary
 
 - Mini-catalog games audited: 2997
-- Games without metrics rows: 330
+- Games without metrics rows: 329
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
@@ -13,8 +13,8 @@ Generated: 2026-07-01T06:24:07Z
 
 ## Status Counts
 
-- has_metrics: 2667
-- no_cdx: 330
+- has_metrics: 2668
+- no_cdx: 329
 
 ## Top Unresolved Games
 
@@ -29,7 +29,6 @@ Generated: 2026-07-01T06:24:07Z
 | Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SpaceWarrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| SuperBall Idle | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
@@ -45,6 +44,7 @@ Generated: 2026-07-01T06:24:07Z
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| cuube | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-01T07:18:43Z",
-  "total_no_cdx_games": 330,
+  "generated_at": "2026-07-01T11:27:36Z",
+  "total_no_cdx_games": 329,
   "followup_tier_counts": {
-    "1": 243,
+    "1": 242,
     "2": 1,
     "3": 86
   },
   "profile_bucket_counts": {
-    "top_20_ranked_count_gaps_no_metrics": 243,
+    "top_20_ranked_count_gaps_no_metrics": 242,
     "single_capture_listing_count_no_metrics": 86,
     "complete_listing_counts_no_metrics": 1
   },
   "ranked_listing_coverage_counts": {
     "no": 87,
-    "yes": 243
+    "yes": 242
   },
   "first_seen_year_counts": {
     "2008": 2,
@@ -24,14 +24,14 @@
     "2013": 2,
     "2014": 73,
     "2015": 29,
-    "2016": 76,
+    "2016": 75,
     "2017": 78,
     "2019": 3,
     "2021": 2
   },
-  "high_value_followup_games": 244,
+  "high_value_followup_games": 243,
   "low_information_single_capture_games": 0,
-  "ranked_listing_count_gap_games": 243,
+  "ranked_listing_count_gap_games": 242,
   "complete_listing_coverage_no_cdx_games": 87,
   "top_high_value_examples": [
     {
@@ -80,22 +80,6 @@
       "needs_game_page_history": "yes",
       "first_seen_date": "2014-10-24",
       "last_seen_date": "2014-10-24",
-      "recommendation": "Prioritize page-history recovery; this game reached the top 20 but has no metrics.json CDX history or listing play-count observation."
-    },
-    {
-      "followup_tier": 1,
-      "profile_bucket": "top_20_ranked_count_gaps_no_metrics",
-      "game_name": "SuperBall Idle",
-      "game_url": "http://www.kongregate.com/games/joao8991/superball-idle",
-      "canonical_game_key": "www.kongregate.com/games/joao8991/superball-idle",
-      "kongregate_game_ids": "259256",
-      "best_rank": 1,
-      "top_n_appearances": 1,
-      "listing_play_count_rows": 0,
-      "max_listing_play_count_observed": 0,
-      "needs_game_page_history": "yes",
-      "first_seen_date": "2016-03-24",
-      "last_seen_date": "2016-03-24",
       "recommendation": "Prioritize page-history recovery; this game reached the top 20 but has no metrics.json CDX history or listing play-count observation."
     },
     {
@@ -672,6 +656,22 @@
       "needs_game_page_history": "yes",
       "first_seen_date": "2017-09-30",
       "last_seen_date": "2017-09-30",
+      "recommendation": "Prioritize page-history recovery; this game reached the top 20 but has no metrics.json CDX history or listing play-count observation."
+    },
+    {
+      "followup_tier": 1,
+      "profile_bucket": "top_20_ranked_count_gaps_no_metrics",
+      "game_name": "AstroLords",
+      "game_url": "http://www.kongregate.com/games/rub_en02/astrolords",
+      "canonical_game_key": "www.kongregate.com/games/rub_en02/astrolords",
+      "kongregate_game_ids": "219313",
+      "best_rank": 3,
+      "top_n_appearances": 1,
+      "listing_play_count_rows": 0,
+      "max_listing_play_count_observed": 0,
+      "needs_game_page_history": "yes",
+      "first_seen_date": "2014-09-05",
+      "last_seen_date": "2014-09-05",
       "recommendation": "Prioritize page-history recovery; this game reached the top 20 but has no metrics.json CDX history or listing play-count observation."
     }
   ],

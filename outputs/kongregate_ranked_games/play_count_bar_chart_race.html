@@ -734,7 +734,7 @@
           ...entry,
           rank: index + 1,
           displayOrder: index + 1,
-          slotPosition: index,
+          slotPosition: Number.isFinite(entry.rankPosition) ? entry.rankPosition - 1 : index,
         }));
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
@@ -1074,10 +1074,10 @@
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(120, Math.min(220, delay * 4.2))
+        ? Math.max(34, Math.min(96, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(120, Math.min(220, delay * 4.2))
+        ? Math.max(34, Math.min(96, delay * 1.35))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");

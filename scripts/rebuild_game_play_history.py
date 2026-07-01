@@ -19,6 +19,8 @@ RAW_METRICS = ROOT / "data" / "raw" / "game_metrics"
 ARCHIVE_MANIFEST_PATH = RAW_METRICS / "manifest.json"
 LIVE_MANIFEST_PATH = RAW_METRICS / "live_manifest.json"
 GAME_PAGE_MANIFEST_PATH = ROOT / "data" / "raw" / "game_pages" / "manifest.json"
+COUNT_SOURCE_PLAY_COUNTS_PATH = PROCESSED / "count_source_play_counts.csv"
+COUNT_SOURCE_CANDIDATES_PATH = PROCESSED / "count_source_probe_candidates.csv"
 HISTORY_CSV = PROCESSED / "game_play_history.csv"
 HISTORY_JSON = PROCESSED / "game_play_history.json"
 WAYBACK_VIEW = "https://web.archive.org/web/{timestamp}/{original}"
@@ -134,6 +136,48 @@ def row_from_game_page_meta(relative_path: str, meta: dict[str, str]) -> dict[st
     }
 
 
+def row_from_count_source_candidate(candidate: dict[str, str]) -> dict[str, object] | None:
+    plays = parse_int(candidate.get("parsed_plays"))
+    timestamp = candidate.get("sample_timestamp", "")
+    original = candidate.get("sample_original", "")
+    if not plays or not timestamp or not original:
+        return None
+
+    payload = {}
+    relative_path = candidate.get("sample_path", "")
+    path = ROOT / relative_path if relative_path else None
+    if path and path.exists():
+        try:
+            payload = json.loads(path.read_text(errors="replace"))
+        except json.JSONDecodeError:
+            payload = {}
+
+    favorites = parse_int(payload.get("favorites_count") or payload.get("favorites_count_with_delimiter"))
+    target_key = canonical_game_url(candidate.get("game_url", ""))
+    sample_key = canonical_game_url(original)
+    confidence = "high" if sample_key == target_key else "medium"
+    alias_note = "" if sample_key == target_key else f"; sample canonical URL {sample_key} differs from target {target_key}"
+    return {
+        "date": date_from_timestamp(timestamp),
+        "game_name": candidate.get("game_name", ""),
+        "game_url": candidate.get("game_url", ""),
+        "plays_count_observed": plays,
+        "favorites_count_observed": favorites,
+        "plays_text": payload.get("gameplays_count_with_delimiter", str(plays)),
+        "favorites_text": payload.get("favorites_count_with_delimiter", str(favorites) if favorites else ""),
+        "metrics_url": original,
+        "capture_timestamp": timestamp,
+        "capture_url": WAYBACK_VIEW.format(timestamp=timestamp, original=original),
+        "parser": "count_source_probe",
+        "confidence": confidence,
+        "notes": (
+            "Recovered from archived count-source probe "
+            f"{relative_path}; source={candidate.get('source_type', '')}; "
+            f"signal={candidate.get('count_signal', '')}{alias_note}"
+        ),
+    }
+
+
 def rebuild_history() -> list[dict[str, object]]:
     rows = []
     seen = set()
@@ -170,6 +214,24 @@ def rebuild_history() -> list[dict[str, object]]:
             continue
         seen.add(key)
         rows.append(row)
+    for count_source_path in (COUNT_SOURCE_PLAY_COUNTS_PATH, COUNT_SOURCE_CANDIDATES_PATH):
+        if not count_source_path.exists():
+            continue
+        for candidate in csv.DictReader(count_source_path.open(newline="", encoding="utf-8")):
+            row = row_from_count_source_candidate(candidate)
+            if not row:
+                continue
+            key = (
+                canonical_game_url(str(row.get("game_url", ""))),
+                row.get("capture_timestamp", ""),
+                row.get("plays_count_observed", ""),
+                row.get("parser", ""),
+                row.get("metrics_url", ""),
+            )
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append(row)
     rows.sort(key=lambda row: (row["date"], str(row["game_name"]).lower(), row["capture_timestamp"], row["parser"]))
     return rows
 

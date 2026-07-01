@@ -1,22 +1,22 @@
 # No-CDX Metrics Gap Profile
 
-- Generated: 2026-07-01T07:18:43Z
-- Total no-CDX games: 330
-- High-value follow-up games: 244
-- Ranked-list count-gap games: 243
+- Generated: 2026-07-01T11:27:36Z
+- Total no-CDX games: 329
+- High-value follow-up games: 243
+- Ranked-list count-gap games: 242
 - Complete listing-coverage no-CDX games: 87
 - Low-information single-capture games: 0
 
 ## Buckets
 
-- top_20_ranked_count_gaps_no_metrics: 243
+- top_20_ranked_count_gaps_no_metrics: 242
 - single_capture_listing_count_no_metrics: 86
 - complete_listing_counts_no_metrics: 1
 
 ## Ranked Listing Coverage
 
 - no: 87
-- yes: 243
+- yes: 242
 
 ## Top High-Value Follow-Up Examples
 
@@ -25,7 +25,6 @@
 | Last Warrior | 1 | 1 | 0 | yes | 2014-09-02 |
 | SpaceWarrior | 1 | 1 | 0 | yes | 2014-09-12 |
 | The Funniest Game Ever | 1 | 1 | 0 | yes | 2014-10-24 |
-| SuperBall Idle | 1 | 1 | 0 | yes | 2016-03-24 |
 | The Saga Of The Wind Mobiles | 1 | 1 | 0 | yes | 2016-06-29 |
 | as3q32@gmail.com | 1 | 1 | 0 | yes | 2016-07-07 |
 | Make Me 10 | 1 | 1 | 0 | yes | 2017-05-16 |
@@ -47,3 +46,4 @@
 | Nowere Safe 3 | 2 | 1 | 0 | yes | 2014-10-29 |
 | Elsa And Anna Chinese Dress Up | 2 | 1 | 0 | yes | 2015-04-01 |
 | Animator Vs Animation (BETA) | 2 | 1 | 0 | yes | 2015-09-09 |
+| changetype() | 2 | 1 | 0 | yes | 2015-09-30 |
