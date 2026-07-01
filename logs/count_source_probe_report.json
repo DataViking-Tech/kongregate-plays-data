@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 24,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 24,
-  "cdx_rows_found": 0,
+  "candidate_observation_rows": 36,
+  "candidates_with_cdx": 2,
+  "cdx_lookups": 36,
+  "cdx_rows_found": 2,
   "cdx_status_counts": {
-    "cached": 22,
-    "fetched": 2
+    "cached": 33,
+    "fetched": 3
   },
   "cdx_wall_timeout": 24.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 1,
+  "games_direct_probed": 2,
   "games_with_cached_pages": 1,
-  "games_without_cached_pages": 1,
+  "games_without_cached_pages": 2,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 24,
+  "max_cdx_lookups": 36,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -30,20 +30,29 @@
   "payload_wall_timeout": 24.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Jaguar Puzzle": {
+    "BigFarm Online(Sweden)": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/natalibt/jaguar-puzzle",
+      "game_url": "http://www.kongregate.com/games/surre02/bigfarm-online-sweden",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Stalked Incubus": {
+    "Bottle Flip Challenge": {
       "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/bottle-flip-challenge",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Crazy Zombie v2.0 Crossing Hero": {
+      "candidates_with_cdx": 2,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/HendrikSchiffer/stalked-incubus",
+      "game_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -54,11 +63,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 16,
-    "total": 3827,
-    "updated": 8
+    "added": 21,
+    "total": 4097,
+    "updated": 15
   },
-  "run_timestamp": "2026-07-01T18:27:17Z",
+  "run_timestamp": "2026-07-01T18:46:22Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -69,11 +78,46 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 2,
-  "target_games_with_kongregate_ids": 2,
+  "target_games": 3,
+  "target_games_with_kongregate_ids": 3,
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [],
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck",
+      "game_name": "Crazy Zombie v2.0 Crossing Hero",
+      "game_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "text/html",
+      "sample_original": "http://www.kongregate.com:80/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck",
+      "sample_path": "data/raw/count_source_probe/payloads/20150812074040_http_www.kongregate.com_80_games_game4joy_crazy-zombie-v2-0-crossing-hero_holodeck_d1b92cef303cefa2.txt",
+      "sample_timestamp": "20150812074040",
+      "source_page_path": "data/raw/game_pages/html/20141228182800_http_www.kongregate.com_80_games_game4joy_crazy-zombie-v2-0-crossing-hero_d89f00ba4d824377.html",
+      "source_page_timestamp": "20141228182800",
+      "source_type": "holodeck"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck",
+      "game_name": "Crazy Zombie v2.0 Crossing Hero",
+      "game_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "text/html",
+      "sample_original": "http://www.kongregate.com:80/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck",
+      "sample_path": "data/raw/count_source_probe/payloads/20150812074040_http_www.kongregate.com_80_games_game4joy_crazy-zombie-v2-0-crossing-hero_holodeck_d1b92cef303cefa2.txt",
+      "sample_timestamp": "20150812074040",
+      "source_page_path": "data/raw/game_pages/html/20141228182800_http_www.kongregate.com_80_games_game4joy_crazy-zombie-v2-0-crossing-hero_d89f00ba4d824377.html",
+      "source_page_timestamp": "20141228182800",
+      "source_type": "holodeck"
+    }
+  ],
   "top_count_signals": []
 }
