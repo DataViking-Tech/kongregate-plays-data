@@ -5,8 +5,8 @@
   "cdx_lookups": 24,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 22,
-    "fetched": 2
+    "cached": 21,
+    "fetched": 3
   },
   "cdx_wall_timeout": 25.0,
   "collapse": "digest",
@@ -30,20 +30,20 @@
   "payload_wall_timeout": 25.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "EndGame": {
+    "Seasonal Farming": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/SnowdonGames/endgame",
+      "game_url": "http://www.kongregate.com/games/phacanu/seasonal-farming",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Will's Quest For Cheese": {
+    "Teste1": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/thebartyparty/wills-quest-for-cheese",
+      "game_url": "http://www.kongregate.com/games/MateusF29/teste1",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -54,11 +54,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 6,
-    "total": 2150,
-    "updated": 18
+    "added": 8,
+    "total": 2435,
+    "updated": 16
   },
-  "run_timestamp": "2026-07-01T15:47:56Z",
+  "run_timestamp": "2026-07-01T16:09:33Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
