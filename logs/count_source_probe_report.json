@@ -8,7 +8,7 @@
     "cached": 20,
     "fetched": 4
   },
-  "cdx_wall_timeout": 25.0,
+  "cdx_wall_timeout": 20.0,
   "collapse": "digest",
   "game_name_contains": "",
   "games_direct_probed": 1,
@@ -17,7 +17,7 @@
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 48,
+  "max_cdx_lookups": 24,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -27,23 +27,23 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 25.0,
+  "payload_wall_timeout": 20.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Dragon Dash": {
+    "Costanza Cube 2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mobilTR/dragon-dash",
+      "game_url": "http://www.kongregate.com/games/dmarcy/costanza-cube-2",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Terrorist Hunt": {
+    "space mision alpha v1.0 3D": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 12,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/szunyi/terrorist-hunt",
+      "game_url": "http://www.kongregate.com/games/fckn/space-mision-alpha-v1-0-3d",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -54,11 +54,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 7,
-    "total": 2733,
-    "updated": 17
+    "added": 6,
+    "total": 2975,
+    "updated": 18
   },
-  "run_timestamp": "2026-07-01T16:48:03Z",
+  "run_timestamp": "2026-07-01T17:11:04Z",
   "source_types": [
     "chat_achievements",
     "chat_js",

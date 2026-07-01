@@ -1,6 +1,6 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T16:48:03Z
+- Generated: 2026-07-01T17:11:04Z
 - Target games: 2
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 1
@@ -13,7 +13,7 @@
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 2733 (7 new, 17 refreshed)
+- Accumulated probe-history rows: 2975 (6 new, 18 refreshed)
 
 ## Interpretation
 
