@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 72,
+  "candidate_observation_rows": 84,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 72,
+  "cdx_lookups": 84,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 35,
-    "fetched": 37
+    "cached": 32,
+    "fetched": 52
   },
-  "cdx_wall_timeout": 22.0,
+  "cdx_wall_timeout": 24.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 3,
-  "games_with_cached_pages": 3,
-  "games_without_cached_pages": 3,
+  "games_direct_probed": 1,
+  "games_with_cached_pages": 6,
+  "games_without_cached_pages": 1,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 72,
+  "max_cdx_lookups": 84,
   "max_pages_per_game": 1,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -27,59 +27,68 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 22.0,
+  "payload_wall_timeout": 24.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "FurLight": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/ArsenG1/furlight",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Idle Capitalist 6": {
+    "Bloosso Run": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/KasparsM/idle-capitalist-6",
+      "game_url": "http://www.kongregate.com/games/JurgisT/bloosso-run",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Karting Racing": {
+    "Duck Shooter": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/karting-racing",
+      "game_url": "http://www.kongregate.com/games/mafagames/duck-shooter",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "My Little Pony Winter Fashion 2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/my-little-pony-winter-fashion-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Transport": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 12,
-      "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/mafagames/transport",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Yandere - Heartbreak": {
+    "Labyrinth": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 12,
-      "game_url": "http://www.kongregate.com/games/swiftmoon12/yandere-heartbreak",
+      "game_url": "http://www.kongregate.com/games/mafagames/labyrinth",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Mad Taxi": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/mafagames/mad-taxi",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Mater Cars Puzzle": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/natalibt/mater-cars-puzzle",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Test 2": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 12,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/Nicolo974jtm34/test-2",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The ball game": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 12,
+      "game_url": "http://www.kongregate.com/games/danwon67/the-ball-game",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -90,11 +99,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 71,
-    "total": 5185,
-    "updated": 1
+    "added": 81,
+    "total": 5443,
+    "updated": 3
   },
-  "run_timestamp": "2026-07-01T20:13:18Z",
+  "run_timestamp": "2026-07-01T20:44:37Z",
   "source_types": [
     "chat_achievements",
     "chat_js",
@@ -105,8 +114,8 @@
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 6,
-  "target_games_with_kongregate_ids": 6,
+  "target_games": 7,
+  "target_games_with_kongregate_ids": 7,
   "tiers": [
     1
   ],
