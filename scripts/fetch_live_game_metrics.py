@@ -220,9 +220,9 @@ def metrics_payload_is_valid(path: Path) -> bool:
     return bool(parse_int(payload.get("gameplays_count") or payload.get("gameplays_count_with_delimiter")))
 
 
-def fetch_live_metrics(game: CatalogGame, timeout_s: int) -> tuple[bool, str, str]:
+def fetch_live_metrics(game: CatalogGame, timeout_s: int, refresh: bool = False) -> tuple[bool, str, str]:
     target = live_cache_path(game)
-    if metrics_payload_is_valid(target):
+    if not refresh and metrics_payload_is_valid(target):
         return True, "cached", ""
 
     last_error = ""
@@ -306,7 +306,7 @@ def main() -> None:
     cached = 0
     failed = 0
     for game in selected:
-        ok, detail, url = fetch_live_metrics(game, args.timeout)
+        ok, detail, url = fetch_live_metrics(game, args.timeout, refresh=args.refresh)
         relative = str(live_cache_path(game).relative_to(ROOT))
         key = canonical_game_url(game.game_url)
         if ok:
