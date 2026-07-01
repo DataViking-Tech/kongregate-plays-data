@@ -54,6 +54,7 @@ CSV_COLUMNS = [
     "cdx_status",
     "cdx_rows",
     "sample_timestamp",
+    "sample_original",
     "sample_mimetype",
     "sample_path",
     "count_signal",
@@ -395,6 +396,7 @@ def endpoint_candidates_for_page(game: TargetGame, page: PageRef, max_candidates
             ("holodeck", f"{game_path}/holodeck", "generated_from_game_path"),
             ("chat_js", f"{game_path}/chat.js", "generated_from_game_path"),
             ("chat_achievements", f"{game_path}/chat_achievements", "generated_from_game_path"),
+            ("game_path_prefix", game_path, "generated_from_game_path"),
         ]
         raw_candidates.extend(generated)
     for game_id in game_ids:
@@ -431,9 +433,10 @@ def endpoint_candidates_for_page(game: TargetGame, page: PageRef, max_candidates
         "holodeck": 1,
         "chat_js": 2,
         "chat_achievements": 3,
-        "recommended_games": 4,
-        "rating_related": 5,
-        "comments": 6,
+        "game_path_prefix": 4,
+        "recommended_games": 5,
+        "rating_related": 6,
+        "comments": 7,
     }
     raw_candidates.sort(key=lambda item: (priority.get(item[0], 99), item[1]))
     for source_type, url_or_path, discovered_from in raw_candidates:
@@ -667,16 +670,17 @@ def write_report(report: dict[str, object]) -> None:
         "",
     ]
     if signal_rows:
-        lines.extend(["## Count Signals", "", "| Game | Source | Endpoint | Signal | Plays |", "| --- | --- | --- | --- | ---: |"])
+        lines.extend(["## Count Signals", "", "| Game | Source | Endpoint | Sample | Signal | Plays |", "| --- | --- | --- | --- | --- | --- |"])
         for row in signal_rows[:20]:
+            plays_value = row["parsed_plays"] or "n/a"
             lines.append(
-                f"| {row['game_name']} | {row['source_type']} | `{row['endpoint_url']}` | {row['count_signal']} | {row['parsed_plays'] or 0} |"
+                f"| {row['game_name']} | {row['source_type']} | `{row['endpoint_url']}` | `{row.get('sample_original', '')}` | {row['count_signal']} | {plays_value} |"
             )
         lines.append("")
     if cdx_rows:
-        lines.extend(["## Archived Endpoint Hits", "", "| Game | Source | Endpoint | CDX rows |", "| --- | --- | --- | ---: |"])
+        lines.extend(["## Archived Endpoint Hits", "", "| Game | Source | Endpoint | Sample | CDX rows |", "| --- | --- | --- | --- | ---: |"])
         for row in cdx_rows[:20]:
-            lines.append(f"| {row['game_name']} | {row['source_type']} | `{row['endpoint_url']}` | {row['cdx_rows']} |")
+            lines.append(f"| {row['game_name']} | {row['source_type']} | `{row['endpoint_url']}` | `{row.get('sample_original', '')}` | {row['cdx_rows']} |")
         lines.append("")
     parsed_count_rows = parse_int(report.get("parsed_play_count_rows"))
     failed_count = parse_int(report.get("cdx_status_counts", {}).get("failed"))
@@ -726,7 +730,7 @@ def main() -> None:
     parser.add_argument("--max-games", type=int, default=0, help="Limit target games after filtering. 0 means no limit.")
     parser.add_argument("--max-pages-per-game", type=int, default=2, help="Cached archived pages to inspect per game.")
     parser.add_argument("--max-candidates-per-page", type=int, default=12, help="Endpoint candidates to query per cached page.")
-    parser.add_argument("--source-types", default="", help="Comma-separated endpoint source types to include, e.g. recommended_games. Empty means all.")
+    parser.add_argument("--source-types", default="", help="Comma-separated endpoint source types to include, e.g. metrics_json, recommended_games, game_path_prefix. Empty means all.")
     parser.add_argument("--match-type", default="exact", choices=["exact", "prefix"], help="CDX match type for candidate endpoints.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value.")
     parser.add_argument("--timeout", type=int, default=12, help="Per-request timeout in seconds.")
@@ -789,6 +793,7 @@ def main() -> None:
                             "cdx_status": status,
                             "cdx_rows": len(rows),
                             "sample_timestamp": "",
+                            "sample_original": "",
                             "sample_mimetype": "",
                             "sample_path": "",
                             "count_signal": "",
@@ -826,6 +831,7 @@ def main() -> None:
                             "cdx_status": status,
                             "cdx_rows": len(rows),
                             "sample_timestamp": row.get("timestamp", ""),
+                            "sample_original": row.get("original", ""),
                             "sample_mimetype": row.get("mimetype", ""),
                             "sample_path": sample_path,
                             "count_signal": signal,
