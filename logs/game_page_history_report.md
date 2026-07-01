@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T07:26:01Z
+- Run timestamp: 2026-07-01T07:33:24Z
 - Profile games in scope: 3
-- Selected games sample: Talking Ginger Paw Caring, StormFall, Baby Talking Tom Bathing
+- Selected games sample: Key to Success, Missiles Again, The Space Commando
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 5s
-- CDX wall-clock cap: 6.0
-- Page timeout: 6s
-- Page wall-clock cap: 8.0
-- Game-name filter: none
+- CDX timeout: 6s
+- CDX wall-clock cap: 8.0
+- Page timeout: 10s
+- Page wall-clock cap: 12.0
+- Game-name filter: Key to Success,Missiles Again,The Space Commando
 - Metrics row filter: no_metrics
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- CDX rows: 6
+- Page jobs: 3
+- Pending before run: 3
+- Attempted this run: 3
+- Fetched this run: 2
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 0
+- Network fetch failed this run: 1
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 0
+- No explicit count this run: 2
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2709
+- Known failures: 2711
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
