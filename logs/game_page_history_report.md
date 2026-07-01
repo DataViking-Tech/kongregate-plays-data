@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T10:33:55Z
-- Profile games in scope: 2
-- Selected games sample: Bloosso Run, Labyrinth
+- Run timestamp: 2026-07-01T10:51:14Z
+- Profile games in scope: 1
+- Selected games sample: Mater Cars Puzzle
 - Selected games omitted from sample: 0
-- CDX games considered: 2
+- CDX games considered: 1
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 10.0
-- Page timeout: 10s
-- Page wall-clock cap: 12.0
-- Game-name filter: Bloosso Run,Labyrinth
+- Page timeout: 12s
+- Page wall-clock cap: 15.0
+- Game-name filter: Mater Cars Puzzle
 - Metrics row filter: no_metrics
-- CDX rows: 12
-- Page jobs: 12
-- Pending before run: 12
-- Attempted this run: 8
-- Fetched this run: 6
-- Cached HTML selected this run: 2
+- CDX rows: 2
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 1
+- Cached HTML selected this run: 1
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 8
-- Failed this run: 8
+- No explicit count this run: 2
+- Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2875
+- Known failures: 2884
 - Combined history rows: 7932
 - Game-page history rows: 367
 - Report only: False
