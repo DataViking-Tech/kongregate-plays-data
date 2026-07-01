@@ -1,26 +1,14 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T12:26:14Z
+- Generated: 2026-07-01T12:37:07Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 441
+- Accumulated endpoint observations: 526
 - Games with probe history: 28
 - Recovered count rows: 1
-- Unresolved failed endpoint groups: 55
-- Status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=15, not_probed=301, recovered_count=1, transient_failures_remaining=7
-- Tier-1 status counts: archived_endpoint_hit_no_count=6, no_archived_endpoint_rows_observed=15, not_probed=214, transient_failures_remaining=7
-- CDX status counts: cached=168, failed=157, fetched=115, missing_cache_skipped=1
-
-## Retry Queue
-
-| Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
-| --- | ---: | ---: | ---: | --- |
-| Caralhinhos Voadores - Age Of Delicia | 2 | 3 | 12 | 2026-07-01T12:21:36Z |
-| Nowere Safe 3 | 2 | 5 | 8 | 2026-07-01T12:15:09Z |
-| Animator Vs Animation (BETA) | 2 | 4 | 12 | 2026-07-01T12:22:57Z |
-| changetype() | 2 | 7 | 7 | 2026-07-01T12:23:53Z |
-| CountryBalls 4 | 2 | 12 | 12 | 2026-07-01T12:23:53Z |
-| Mini Jumper | 2 | 12 | 12 | 2026-07-01T12:23:53Z |
-| dat boi | 2 | 12 | 12 | 2026-07-01T12:23:53Z |
+- Unresolved failed endpoint groups: 0
+- Status counts: archived_endpoint_hit_no_count=7, no_archived_endpoint_rows_observed=21, not_probed=301, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=7, no_archived_endpoint_rows_observed=21, not_probed=214
+- CDX status counts: cached=209, failed=157, fetched=159, missing_cache_skipped=1
 
 ## Top Unprobed Profile Games
 

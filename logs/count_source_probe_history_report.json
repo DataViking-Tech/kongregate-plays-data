@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 168,
+    "cached": 209,
     "failed": 157,
-    "fetched": 115,
+    "fetched": 159,
     "missing_cache_skipped": 1
   },
   "history_games": 28,
-  "history_observation_rows": 441,
+  "history_observation_rows": 526,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -16,149 +16,27 @@
   },
   "profile_games": 329,
   "recovered_count_rows": 1,
-  "run_timestamp": "2026-07-01T12:26:14Z",
+  "run_timestamp": "2026-07-01T12:37:07Z",
   "source_type_counts": {
-    "chat_achievements": 69,
-    "chat_js": 73,
+    "chat_achievements": 83,
+    "chat_js": 90,
     "game_path_prefix": 27,
-    "holodeck": 68,
-    "metrics_json": 65,
-    "recommended_games": 139
+    "holodeck": 84,
+    "metrics_json": 77,
+    "recommended_games": 165
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 6,
-    "no_archived_endpoint_rows_observed": 15,
+    "archived_endpoint_hit_no_count": 7,
+    "no_archived_endpoint_rows_observed": 21,
     "not_probed": 301,
-    "recovered_count": 1,
-    "transient_failures_remaining": 7
+    "recovered_count": 1
   },
   "tier1_status_counts": {
-    "archived_endpoint_hit_no_count": 6,
-    "no_archived_endpoint_rows_observed": 15,
-    "not_probed": 214,
-    "transient_failures_remaining": 7
+    "archived_endpoint_hit_no_count": 7,
+    "no_archived_endpoint_rows_observed": 21,
+    "not_probed": 214
   },
-  "top_transient_failures": [
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
-      "endpoint_observations": 30,
-      "failed_observations": 12,
-      "first_seen_date": "2014-10-03",
-      "followup_tier": "1",
-      "game_name": "Caralhinhos Voadores - Age Of Delicia",
-      "game_url": "http://www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
-      "latest_probe_run_timestamp": "2026-07-01T12:21:36Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 3
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/lexz1/nowere-safe-3",
-      "endpoint_observations": 20,
-      "failed_observations": 8,
-      "first_seen_date": "2014-10-29",
-      "followup_tier": "1",
-      "game_name": "Nowere Safe 3",
-      "game_url": "http://www.kongregate.com/games/LexZ1/nowere-safe-3",
-      "latest_probe_run_timestamp": "2026-07-01T12:15:09Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 5
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/mylittle1/animator-vs-animation-beta",
-      "endpoint_observations": 20,
-      "failed_observations": 12,
-      "first_seen_date": "2015-09-09",
-      "followup_tier": "1",
-      "game_name": "Animator Vs Animation (BETA)",
-      "game_url": "http://www.kongregate.com/games/MyLittle1/animator-vs-animation-beta",
-      "latest_probe_run_timestamp": "2026-07-01T12:22:57Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 4
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/inventor_123/changetype",
-      "endpoint_observations": 12,
-      "failed_observations": 7,
-      "first_seen_date": "2015-09-30",
-      "followup_tier": "1",
-      "game_name": "changetype()",
-      "game_url": "http://www.kongregate.com/games/inventor_123/changetype",
-      "latest_probe_run_timestamp": "2026-07-01T12:23:53Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 7
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/nicolewatterson/countryballs-4",
-      "endpoint_observations": 12,
-      "failed_observations": 12,
-      "first_seen_date": "2016-03-05",
-      "followup_tier": "1",
-      "game_name": "CountryBalls 4",
-      "game_url": "http://www.kongregate.com/games/NicoleWatterson/countryballs-4",
-      "latest_probe_run_timestamp": "2026-07-01T12:23:53Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 12
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/mafagames/mini-jumper",
-      "endpoint_observations": 12,
-      "failed_observations": 12,
-      "first_seen_date": "2016-03-16",
-      "followup_tier": "1",
-      "game_name": "Mini Jumper",
-      "game_url": "http://www.kongregate.com/games/mafagames/mini-jumper",
-      "latest_probe_run_timestamp": "2026-07-01T12:23:53Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 12
-    },
-    {
-      "best_rank": "2",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/regone/dat-boi",
-      "endpoint_observations": 12,
-      "failed_observations": 12,
-      "first_seen_date": "2016-05-15",
-      "followup_tier": "1",
-      "game_name": "dat boi",
-      "game_url": "http://www.kongregate.com/games/Regone/dat-boi",
-      "latest_probe_run_timestamp": "2026-07-01T12:23:53Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "chat_achievements;chat_js;holodeck;metrics_json;recommended_games",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 12
-    }
-  ],
+  "top_transient_failures": [],
   "top_unprobed": [
     {
       "best_rank": "2",
@@ -586,5 +464,5 @@
       "unresolved_failed_endpoints": 0
     }
   ],
-  "unresolved_failed_endpoint_groups": 55
+  "unresolved_failed_endpoint_groups": 0
 }
