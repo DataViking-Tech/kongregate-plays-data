@@ -76,6 +76,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 59 added `fetch_live_ranked_pages.py` and captured seven reliable current category pages, adding 350 July 1 ranked/category rows with observed listing play counts. Redirecting or ambiguous live routes such as top-rated, most-played, and sorted browse URLs are rejected instead of being mislabeled as rank sources.
 - Checkpoint 60 recovered 5 archived `metrics.json` observations for Swarm Simulator: Evolution from 2021-02-09 through 2024-02-23, reducing catalog games without metrics history from 359 to 358. The same pass refreshed the tier-1 no-CDX page-history probe: 170 archived page attempts across 9 high-value gaps found no explicit trusted play-count blocks, and known archived game-page failures now stand at 2,610.
 - Checkpoint 61 swept current live `metrics.json` for unresolved no-CDX catalog games, recovered 28 current observations, and confirmed the live no-CDX queue has 0 pending targets. This reduced mini-catalog games without per-game metrics history from 358 to 330, including recoveries for Mecha Galaxy, Boxing Random, Sift Heads World Act 5 - An Exotic Job, Salads by Chef: Merge Сraft, Tracesoccer, Around The Core, and Scooby doo creepy run.
+- Checkpoint 62 split play-count QA into clearer buckets: 8 true source-conflict decreases remain under review, 1 suspicious metrics-route decrease is isolated in `suspicious_metric_route_decreases.csv`, and 308 stale/rounded listing-page echoes are separated into `stale_listing_play_counts.csv`.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -84,7 +85,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 330 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 330 games without any per-game metrics rows, and 0 missing CDX cache files.
 - The no-CDX profile splits the 330 no-history/no-CDX games still needing triage into 6 tier-1 repeated ranked-list count gaps, 1 complete-listing multi-capture target, 86 single-capture complete-listing candidates, and 237 low-information single-capture rows with no listing play count.
-- 18 source-conflict play-count decreases are under review after separating 251 stale listing-page echoes into `stale_listing_play_counts.csv`; the chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
+- 8 source-conflict play-count decreases are under review after separating 308 stale or rounded listing-page echoes into `stale_listing_play_counts.csv`; 1 suspicious metrics-route decrease is isolated in `suspicious_metric_route_decreases.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
 - Final chart leaders have current live metrics observations as of 2026-07-01.
 
 ## Key Files
@@ -98,6 +99,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/game_play_history.csv` - per-game metrics JSON, live metrics, and archived game-page observations.
 - `logs/*report.*` - run reports for extraction and scrape phases.
 - `data/processed/data_quality_issues.csv` - current QA issue register.
+- `data/processed/suspicious_metric_route_decreases.csv` - metrics-route drops that look like alias/route anomalies rather than true counter decreases.
 - `data/processed/ranked_play_count_coverage_by_month.csv` - monthly ranked-list play-count coverage and layout hints for missing-count months.
 - `data/processed/catalog_history_priorities.csv` - prioritized metrics-history backfill queue.
 - `data/processed/metrics_backfill_gap_audit.csv` - per-game metrics backfill status audit.

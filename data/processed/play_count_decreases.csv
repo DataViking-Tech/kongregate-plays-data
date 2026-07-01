@@ -1,19 +1,9 @@
-game_name,game_url,previous_date,previous_plays,current_date,current_plays,drop,current_source
-Transformice,http://www.kongregate.com/games/Tigrounette/transformice,2023-09-23,20265822,2026-05-01,19531733,734089,metrics_json
-Bloons Tower Defense 4,http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4,2011-12-05,9137883,2011-12-05,9043257,94626,category_top
-Cursed Treasure: Don't...,http://www.kongregate.com/games/IriySoft/cursed-treasure-dont-touch-my-gems,2011-12-05,11567210,2011-12-05,11520456,46754,category_top
-Cursed Treasure: Level...,http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack,2011-12-05,2307217,2011-12-05,2286841,20376,category_top
-Revenge on Anders Behr...,http://www.kongregate.com/games/william_/revenge-on-anders-behring-breivik,2011-07-24,9069,2026-06-30,3286,5783,live_metrics_json
-GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2011-12-02,7752383,2011-12-05,7749210,3173,category_top
-GemCraft chapter 0,http://www.kongregate.com/games/gameinabottle/gemcraft-chapter-0,2011-12-02,6091131,2011-12-05,6088365,2766,category_top
-GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2008-09-06,1708524,2008-09-06,1705903,2621,game_page_html
-GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2008-10-10,2082652,2008-10-10,2080125,2527,game_page_html
-siftheads 5,https://www.kongregate.com/en/games/WebCypher/siftheads-5,2026-06-29,819428,2026-07-01,819400,28,category_top
-Warmerise | Red vs Blue - Lite Version,https://www.kongregate.com/en/games/NSdesignGames/warmerise-red-vs-blue-lite-version,2026-06-29,471727,2026-07-01,471700,27,category_top
-Demons Down Under,https://www.kongregate.com/en/games/epace/demons-down-under,2026-06-30,401327,2026-07-01,401300,27,category_top
-Scooby doo creepy run,https://www.kongregate.com/en/games/funnychasegames/scooby-doo-creepy-run,2026-07-01,135000,2026-07-01,134976,24,live_metrics_json
-Trader of Stories - Chapter 3,https://www.kongregate.com/en/games/mrudi/trader-of-stories-chapter-3,2026-06-29,38417,2026-07-01,38400,17,category_top
-Sift Heads World Act 5 - An Exotic Job,https://www.kongregate.com/games/WebCypher/sift-heads-world-act-5-an-exotic-job,2026-07-01,160600,2026-07-01,160584,16,live_metrics_json
-Reeelz,https://www.kongregate.com/en/games/gameinabottle/reeelz,2026-06-29,204716,2026-07-01,204700,16,category_top
-Pinata Hunter 2,https://www.kongregate.com/en/games/myplayyard/pinata-hunter-2,2026-06-29,382215,2026-07-01,382200,15,category_top
-Maptroid,https://www.kongregate.com/en/games/lozzajp/maptroid,2026-06-30,244203,2026-07-01,244200,3,category_top
+game_name,game_url,previous_date,previous_plays,previous_source,current_date,current_plays,drop,current_source
+Bloons Tower Defense 4,http://www.kongregate.com/games/Ninjakiwi/bloons-tower-defense-4,2011-12-05,9137883,top_rated,2011-12-05,9043257,94626,category_top
+Cursed Treasure: Don't...,http://www.kongregate.com/games/IriySoft/cursed-treasure-dont-touch-my-gems,2011-12-05,11567210,top_rated,2011-12-05,11520456,46754,category_top
+Cursed Treasure: Level...,http://www.kongregate.com/games/IriySoft/cursed-treasure-level-pack,2011-12-05,2307217,top_rated,2011-12-05,2286841,20376,category_top
+Revenge on Anders Behr...,http://www.kongregate.com/games/william_/revenge-on-anders-behring-breivik,2011-07-24,9069,newest,2026-06-30,3286,5783,live_metrics_json
+GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2011-12-02,7752383,category_top,2011-12-05,7749210,3173,category_top
+GemCraft chapter 0,http://www.kongregate.com/games/gameinabottle/gemcraft-chapter-0,2011-12-02,6091131,category_top,2011-12-05,6088365,2766,category_top
+GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2008-09-06,1708524,browse,2008-09-06,1705903,2621,game_page_html
+GemCraft,http://www.kongregate.com/games/gameinabottle/gemcraft,2008-10-10,2082652,game_page_html,2008-10-10,2080125,2527,game_page_html

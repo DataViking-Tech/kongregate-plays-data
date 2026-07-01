@@ -1,0 +1,2 @@
+game_name,game_url,previous_date,previous_plays,previous_source,current_date,current_plays,drop,current_source,previous_favorites,current_favorites,reason
+Transformice,http://www.kongregate.com/games/Tigrounette/transformice,2023-09-23,20265822,metrics_json,2026-05-01,19531733,734089,metrics_json,120997,22,Metrics route dropped play count while favorites collapsed; likely alternate/incorrect legacy route rather than a true counter decrease.

@@ -1,23 +1,23 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T03:10:52Z
-- Profile games in scope: 9
-- Selected games: RPgTest, Mining Truck, Mecha Galaxy, Boxing Random, Swimwear Store, Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Mike Shadow: I Paid For It! (Mochi Premiums), Sift Heads World Act 5 - An Exotic Job
-- CDX games considered: 9
-- Cached CDX only: False
-- CDX timeout: 8s
-- Page timeout: 18s
+- Run timestamp: 2026-07-01T03:39:16Z
+- Profile games in scope: 7
+- Selected games: RPgTest, Mining Truck, Swimwear Store, Crazy Zombie v2.0 Crossing Hero, Tap Tap Infinity, Mike Shadow: I Paid For It! (Mochi Premiums), Bubble Shooter Exclusive
+- CDX games considered: 7
+- Cached CDX only: True
+- CDX timeout: 25s
+- Page timeout: 25s
 - Game-name filter: none
-- CDX rows: 490
-- Page jobs: 370
-- Pending before run: 370
-- Attempted this run: 170
+- CDX rows: 138
+- Page jobs: 94
+- Pending before run: 0
+- Attempted this run: 0
 - Fetched this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 137
-- Failed this run: 170
+- No explicit count this run: 0
+- Failed this run: 0
 - Manifest entries: 367
 - Known failures: 2610
-- Combined history rows: 7838
+- Combined history rows: 7866
 - Game-page history rows: 367
 - Report only: False

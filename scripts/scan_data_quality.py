@@ -31,6 +31,7 @@ RANKED_PLAY_COUNT_COVERAGE_BY_MONTH_CSV = PROCESSED / "ranked_play_count_coverag
 CATALOG_PRIORITIES_CSV = PROCESSED / "catalog_history_priorities.csv"
 FINAL_CHART_STALENESS_CSV = PROCESSED / "final_chart_staleness.csv"
 PLAY_COUNT_DECREASES_CSV = PROCESSED / "play_count_decreases.csv"
+SUSPICIOUS_METRIC_DECREASES_CSV = PROCESSED / "suspicious_metric_route_decreases.csv"
 STALE_LISTING_COUNTS_CSV = PROCESSED / "stale_listing_play_counts.csv"
 REPORT_JSON = LOGS / "data_quality_report.json"
 REPORT_MD = LOGS / "data_quality_report.md"
@@ -78,10 +79,17 @@ DECREASE_COLUMNS = [
     "game_url",
     "previous_date",
     "previous_plays",
+    "previous_source",
     "current_date",
     "current_plays",
     "drop",
     "current_source",
+]
+SUSPICIOUS_METRIC_DECREASE_COLUMNS = [
+    *DECREASE_COLUMNS,
+    "previous_favorites",
+    "current_favorites",
+    "reason",
 ]
 STALE_LISTING_COLUMNS = [
     *DECREASE_COLUMNS,
@@ -127,16 +135,45 @@ def parse_int(value: object) -> int:
         return 0
 
 
+def is_rounded_listing_value(plays: int, source: str) -> bool:
+    if source in HISTORY_SOURCES or plays <= 0:
+        return False
+    if plays >= 1_000_000 and plays % 100_000 == 0:
+        return True
+    if plays >= 10_000 and plays % 100 == 0:
+        return True
+    return False
+
+
 def is_likely_listing_rounding_drop(previous_plays: int, current_plays: int, previous_source: str, current_source: str) -> bool:
     if current_plays <= 0:
         return False
     drop = previous_plays - current_plays
     if drop <= 0:
         return False
-    tolerance = max(100_000, int(previous_plays * 0.05))
-    current_is_rounded_listing = current_source not in HISTORY_SOURCES and current_plays >= 1_000_000 and current_plays % 100_000 == 0
-    previous_is_rounded_listing = previous_source not in HISTORY_SOURCES and previous_plays >= 1_000_000 and previous_plays % 100_000 == 0
-    return (current_is_rounded_listing or previous_is_rounded_listing) and drop <= tolerance
+    rounded_listing_seen = is_rounded_listing_value(current_plays, current_source) or is_rounded_listing_value(previous_plays, previous_source)
+    if not rounded_listing_seen:
+        return False
+    tolerance = max(100, int(previous_plays * 0.002))
+    if previous_plays >= 1_000_000 or current_plays >= 1_000_000:
+        tolerance = max(100_000, int(previous_plays * 0.05))
+    return drop <= tolerance
+
+
+def is_suspicious_metric_route_drop(previous: dict[str, object], current: dict[str, object]) -> bool:
+    previous_source = str(previous.get("source", ""))
+    current_source = str(current.get("source", ""))
+    if previous_source not in HISTORY_SOURCES or current_source not in HISTORY_SOURCES:
+        return False
+    previous_plays = int(previous.get("plays") or 0)
+    current_plays = int(current.get("plays") or 0)
+    if previous_plays <= 0 or current_plays <= 0 or current_plays >= previous_plays:
+        return False
+    previous_favorites = parse_int(previous.get("favorites_count_observed"))
+    current_favorites = parse_int(current.get("favorites_count_observed"))
+    if previous_favorites <= 0 or current_favorites <= 0:
+        return False
+    return current_favorites < max(10, int(previous_favorites * 0.1))
 
 
 def canonical_game_url(game_url: str) -> str:
@@ -215,6 +252,13 @@ def issue(severity: str, area: str, issue_type: str, count: int, first_date: str
         "example": example,
         "recommended_action": recommended_action,
     }
+
+
+def current_date_range(rows: list[dict[str, object]]) -> tuple[str, str]:
+    dates = sorted(str(row.get("current_date", "")) for row in rows if row.get("current_date"))
+    if not dates:
+        return "", ""
+    return dates[0], dates[-1]
 
 
 def main() -> None:
@@ -430,6 +474,7 @@ def main() -> None:
             observations_by_game[key].append({**row, "plays": plays, "source": row.get("parser", "metrics_json") or "metrics_json", "sort_date": row.get("date", "")})
 
     decrease_rows = []
+    suspicious_metric_decrease_rows = []
     stale_listing_rows = []
     for key, rows in observations_by_game.items():
         rows.sort(key=lambda row: (str(row.get("sort_date", "")), str(row.get("capture_timestamp", ""))))
@@ -445,6 +490,7 @@ def main() -> None:
                             "game_url": row.get("game_url", ""),
                             "previous_date": previous.get("sort_date", ""),
                             "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
                             "current_date": row.get("sort_date", ""),
                             "current_plays": row.get("plays", ""),
                             "drop": int(previous["plays"]) - int(row["plays"]),
@@ -454,13 +500,48 @@ def main() -> None:
                             "reason": "Listing page repeated an older already-observed play count after a higher count was observed.",
                         }
                     )
-                elif not is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(previous.get("source", "")), str(row.get("source", ""))):
+                elif is_likely_listing_rounding_drop(int(previous["plays"]), int(row["plays"]), str(previous.get("source", "")), str(row.get("source", ""))):
+                    stale_listing_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                            "first_seen_date": "",
+                            "first_seen_source": "",
+                            "reason": "Small exact-vs-rounded listing difference; listing pages often round modern play counts.",
+                        }
+                    )
+                elif is_suspicious_metric_route_drop(previous, row):
+                    suspicious_metric_decrease_rows.append(
+                        {
+                            "game_name": row.get("game_name", ""),
+                            "game_url": row.get("game_url", ""),
+                            "previous_date": previous.get("sort_date", ""),
+                            "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
+                            "current_date": row.get("sort_date", ""),
+                            "current_plays": row.get("plays", ""),
+                            "drop": int(previous["plays"]) - int(row["plays"]),
+                            "current_source": row.get("source", ""),
+                            "previous_favorites": previous.get("favorites_count_observed", ""),
+                            "current_favorites": row.get("favorites_count_observed", ""),
+                            "reason": "Metrics route dropped play count while favorites collapsed; likely alternate/incorrect legacy route rather than a true counter decrease.",
+                        }
+                    )
+                else:
                     decrease_rows.append(
                         {
                             "game_name": row.get("game_name", ""),
                             "game_url": row.get("game_url", ""),
                             "previous_date": previous.get("sort_date", ""),
                             "previous_plays": previous.get("plays", ""),
+                            "previous_source": previous.get("source", ""),
                             "current_date": row.get("sort_date", ""),
                             "current_plays": row.get("plays", ""),
                             "drop": int(previous["plays"]) - int(row["plays"]),
@@ -471,6 +552,7 @@ def main() -> None:
                 previous = row
             first_seen_by_count.setdefault(int(row["plays"]), row)
     decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
+    suspicious_metric_decrease_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
     stale_listing_rows.sort(key=lambda row: int(row["drop"]), reverse=True)
 
     issues = []
@@ -508,9 +590,14 @@ def main() -> None:
         first_key, first_count = next(iter(duplicate_catalog_keys.items()))
         issues.append(issue("medium", "identity", "duplicate_catalog_canonical_games", len(duplicate_catalog_keys), "", "", f"{first_key}: {first_count} catalog rows", "Merge mini-catalog rows by canonical game key."))
     if decrease_rows:
-        issues.append(issue("medium", "plays", "play_count_decreases", len(decrease_rows), decrease_rows[-1].get("current_date", ""), decrease_rows[0].get("current_date", ""), decrease_rows[0].get("game_name", ""), "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."))
+        first_decrease_date, last_decrease_date = current_date_range(decrease_rows)
+        issues.append(issue("medium", "plays", "play_count_decreases", len(decrease_rows), first_decrease_date, last_decrease_date, decrease_rows[0].get("game_name", ""), "Review source-specific decreases; chart uses max observed counts but raw rows need QA labels."))
+    if suspicious_metric_decrease_rows:
+        first_suspicious_date, last_suspicious_date = current_date_range(suspicious_metric_decrease_rows)
+        issues.append(issue("medium", "plays", "suspicious_metric_route_decreases", len(suspicious_metric_decrease_rows), first_suspicious_date, last_suspicious_date, suspicious_metric_decrease_rows[0].get("game_name", ""), "Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts."))
     if stale_listing_rows:
-        issues.append(issue("low", "plays", "stale_listing_play_count_observations", len(stale_listing_rows), stale_listing_rows[-1].get("current_date", ""), stale_listing_rows[0].get("current_date", ""), stale_listing_rows[0].get("game_name", ""), "Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."))
+        first_stale_date, last_stale_date = current_date_range(stale_listing_rows)
+        issues.append(issue("low", "plays", "stale_listing_play_count_observations", len(stale_listing_rows), first_stale_date, last_stale_date, stale_listing_rows[0].get("game_name", ""), "Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."))
 
     write_csv(ISSUES_CSV, ISSUE_COLUMNS, issues)
     write_csv(COVERAGE_BY_YEAR_CSV, COVERAGE_COLUMNS, coverage_rows)
@@ -518,6 +605,7 @@ def main() -> None:
     write_csv(CATALOG_PRIORITIES_CSV, PRIORITY_COLUMNS, priority_rows)
     write_csv(FINAL_CHART_STALENESS_CSV, STALENESS_COLUMNS, staleness_rows)
     write_csv(PLAY_COUNT_DECREASES_CSV, DECREASE_COLUMNS, decrease_rows)
+    write_csv(SUSPICIOUS_METRIC_DECREASES_CSV, SUSPICIOUS_METRIC_DECREASE_COLUMNS, suspicious_metric_decrease_rows)
     write_csv(STALE_LISTING_COUNTS_CSV, STALE_LISTING_COLUMNS, stale_listing_rows)
 
     report = {
@@ -547,6 +635,7 @@ def main() -> None:
         "games_with_multiple_url_variants": len(url_variant_games),
         "duplicate_catalog_canonical_games": len(duplicate_catalog_keys),
         "play_count_decreases": len(decrease_rows),
+        "suspicious_metric_route_decreases": len(suspicious_metric_decrease_rows),
         "stale_listing_play_count_observations": len(stale_listing_rows),
         "issues": issues,
         "outputs": {
@@ -556,6 +645,7 @@ def main() -> None:
             "catalog_priorities_csv": str(CATALOG_PRIORITIES_CSV.relative_to(ROOT)),
             "final_chart_staleness_csv": str(FINAL_CHART_STALENESS_CSV.relative_to(ROOT)),
             "play_count_decreases_csv": str(PLAY_COUNT_DECREASES_CSV.relative_to(ROOT)),
+            "suspicious_metric_route_decreases_csv": str(SUSPICIOUS_METRIC_DECREASES_CSV.relative_to(ROOT)),
             "stale_listing_play_counts_csv": str(STALE_LISTING_COUNTS_CSV.relative_to(ROOT)),
         },
     }
