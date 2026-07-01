@@ -80,6 +80,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 63 retried all 37 known failed archived `metrics.json` captures with extra retries. None recovered; audit coverage stayed at 2,601 games with metrics history and 330 no-CDX/no-history games.
 - Checkpoint 64 finished triaging the remaining raw play-count decreases: true monotonic decreases are now 0, 2 suspicious metrics-route anomalies are isolated, and 7 same-day/cross-listing source conflicts are separated into `source_conflict_play_count_decreases.csv`.
 - Checkpoint 65 added `fetch_game_page_history.py --cached-html-only` so broad page-history retries can safely reparse only cached archived HTML without opening new Wayback page fetches. A cached-only catalog-priority sweep considered 2,247 tier-1/tier-2 games, 10,938 cached-CDX page jobs, and 955 cached HTML failures; it recovered 0 additional trusted play-count rows, confirming those cached misses mostly lack static count text and should be pursued through metrics endpoints or new targeted capture strategies.
+- Checkpoint 66 added opt-in `fetch_game_metrics_history.py --expanded-route-variants` for probing explicit `http`/`https` and `/en/games` archived metrics routes without slowing normal sweeps. A three-game no-CDX probe found 0 new archived metrics CDX rows, so the highest-priority no-CDX cases still appear genuinely unarchived on the metrics endpoint.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -124,6 +125,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-statuses cdx_cache_missing
 python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-history-only --max-cdx-games 50 --max-fetches 50
 python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
+python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --max-cdx-games 3 --cdx-only --expanded-route-variants
 python3 scripts/fetch_game_page_history.py --tiers 1 --max-cdx-games 9 --variant-limit 2 --max-fetches 160
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diaper,papa,swords' --cached-cdx-only --max-fetches 120
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60

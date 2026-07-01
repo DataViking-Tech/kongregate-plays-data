@@ -152,7 +152,7 @@ def audit_int(row: dict[str, str] | None, key: str) -> int:
     return value if isinstance(value, int) else 0
 
 
-def metric_cdx_keys_for_game(game_url: str) -> list[str]:
+def metric_cdx_keys_for_game(game_url: str, expanded_routes: bool = False) -> list[str]:
     parsed = urllib.parse.urlsplit(game_url)
     match = re.match(r"^/(?:en/)?games/([^/]+)/([^/]+)/?$", parsed.path)
     if not match:
@@ -161,6 +161,21 @@ def metric_cdx_keys_for_game(game_url: str) -> list[str]:
     paths = [f"www.kongregate.com/games/{developer}/{slug}/metrics.json"]
     if parsed.path.startswith("/en/games/"):
         paths.append(f"www.kongregate.com/en/games/{developer}/{slug}/metrics.json")
+    if not expanded_routes:
+        return list(dict.fromkeys(paths))
+
+    expanded_paths = [
+        f"/games/{developer}/{slug}/metrics.json",
+        f"/en/games/{developer}/{slug}/metrics.json",
+    ]
+    for path in expanded_paths:
+        paths.extend(
+            [
+                f"www.kongregate.com{path}",
+                f"http://www.kongregate.com{path}",
+                f"https://www.kongregate.com{path}",
+            ]
+        )
     return list(dict.fromkeys(paths))
 
 
@@ -328,6 +343,7 @@ def build_jobs(
     cdx_retries: int,
     cdx_retry_sleep_s: float,
     cached_cdx_only: bool,
+    expanded_routes: bool,
 ) -> tuple[list[MetricsJob], dict[str, int]]:
     jobs: list[MetricsJob] = []
     stats = {
@@ -344,7 +360,7 @@ def build_jobs(
         stats["cdx_games_considered"] += 1
         metrics_urls = []
         for game_url_variant in game.game_url_variants:
-            metrics_urls.extend(metric_cdx_keys_for_game(game_url_variant))
+            metrics_urls.extend(metric_cdx_keys_for_game(game_url_variant, expanded_routes=expanded_routes))
         for metrics_url in dict.fromkeys(metrics_urls):
             rows, status = load_cdx(
                 metrics_url,
@@ -460,6 +476,7 @@ def main() -> None:
     parser.add_argument("--cdx-only", action="store_true", help="Discover and cache CDX rows without fetching archived metrics JSON.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files; skip uncached CDX lookups.")
+    parser.add_argument("--expanded-route-variants", action="store_true", help="Also probe explicit http/https and /en/games metrics routes during CDX discovery.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed metrics JSON captures.")
     args = parser.parse_args()
 
@@ -505,6 +522,7 @@ def main() -> None:
         args.cdx_retries,
         args.cdx_retry_sleep,
         args.cached_cdx_only,
+        args.expanded_route_variants,
     )
 
     def job_needs_fetch_or_manifest(job: MetricsJob) -> bool:
@@ -583,6 +601,7 @@ def main() -> None:
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
         "cached_cdx_only": args.cached_cdx_only,
+        "expanded_route_variants": args.expanded_route_variants,
         **cdx_stats,
         "metrics_jobs": len(jobs),
         "pending_before_run": len(pending),
@@ -613,6 +632,7 @@ def main() -> None:
                 f"- Needs history only: {report['needs_history_only']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
+                f"- Expanded route variants: {report['expanded_route_variants']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- CDX rows found: {report['cdx_rows']}",
                 f"- Missing CDX cache files skipped: {report['cdx_urls_missing_cache_skipped']}",
