@@ -34,6 +34,7 @@ RAW_PAYLOADS = RAW_PROBE / "payloads"
 LOGS = ROOT / "logs"
 
 DEFAULT_INPUT_CSV = PROCESSED / "metrics_no_cdx_profile.csv"
+GAME_STATUS_CSV = PROCESSED / "count_source_probe_game_status.csv"
 GAME_PAGE_MANIFEST = RAW_GAME_PAGES / "manifest.json"
 GAME_PAGE_FAILURES = RAW_GAME_PAGES / "failures.json"
 REPORT_JSON = LOGS / "count_source_probe_report.json"
@@ -170,6 +171,10 @@ def parse_int(value: object) -> int:
     return int(match.group(0).replace(",", ""))
 
 
+def cdx_status_prefix(value: object) -> str:
+    return str(value or "").split(":", 1)[0] or "unknown"
+
+
 def parse_date(value: str):
     text = str(value or "")[:10]
     if not text:
@@ -212,7 +217,34 @@ def js_unescape(value: str) -> str:
     return html.unescape(value).replace("\\/", "/").replace("\\u0026", "&")
 
 
-def load_targets(input_csv: Path, tiers: set[int], name_filters: list[str], max_games: int) -> list[TargetGame]:
+def csv_list(value: str) -> list[str]:
+    return [part.strip() for part in value.split(",") if part.strip()]
+
+
+def load_status_filter_keys(status_csv: Path, statuses: set[str]) -> set[str] | None:
+    if not statuses:
+        return None
+    if not status_csv.exists():
+        raise SystemExit(f"Status filter requested, but {relative(status_csv)} does not exist. Run summarize_count_source_probe_history.py first.")
+    keys: set[str] = set()
+    with status_csv.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            status = str(row.get("status", "")).strip().lower()
+            if status not in statuses:
+                continue
+            key = row.get("canonical_game_key") or canonical_game_url(row.get("game_url", ""))
+            if key:
+                keys.add(key)
+    return keys
+
+
+def load_targets(
+    input_csv: Path,
+    tiers: set[int],
+    name_filters: list[str],
+    status_filter_keys: set[str] | None,
+    max_games: int,
+) -> list[TargetGame]:
     rows = list(csv.DictReader(input_csv.open(newline="", encoding="utf-8")))
     targets: list[TargetGame] = []
     for row in rows:
@@ -223,6 +255,9 @@ def load_targets(input_csv: Path, tiers: set[int], name_filters: list[str], max_
         tier = parse_int(row.get("followup_tier") or row.get("tier"))
         if tiers and tier not in tiers:
             continue
+        canonical_key = row.get("canonical_game_key") or canonical_game_url(game_url)
+        if status_filter_keys is not None and canonical_key not in status_filter_keys:
+            continue
         haystack = f"{game_name} {game_url}".lower()
         if name_filters and not any(needle in haystack for needle in name_filters):
             continue
@@ -230,7 +265,7 @@ def load_targets(input_csv: Path, tiers: set[int], name_filters: list[str], max_
             TargetGame(
                 game_name=game_name,
                 game_url=game_url,
-                canonical_key=row.get("canonical_game_key") or canonical_game_url(game_url),
+                canonical_key=canonical_key,
                 game_ids=tuple(
                     dict.fromkeys(
                         game_id.strip()
@@ -677,12 +712,16 @@ def merge_candidate_history(rows: list[dict[str, object]], run_timestamp: str) -
 
     merged: dict[tuple[str, ...], dict[str, object]] = {}
     for row in existing_rows:
+        if cdx_status_prefix(row.get("cdx_status")) == "missing_cache_skipped":
+            continue
         key = history_row_key(row)
         merged[key] = {column: row.get(column, "") for column in HISTORY_COLUMNS}
 
     added = 0
     updated = 0
     for row in rows:
+        if cdx_status_prefix(row.get("cdx_status")) == "missing_cache_skipped":
+            continue
         key = history_row_key(row)
         if key not in merged:
             merged[key] = {
@@ -773,7 +812,7 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
     rows_with_cdx = [row for row in rows if parse_int(row.get("cdx_rows")) > 0]
     rows_with_signals = [row for row in rows if row.get("count_signal")]
     rows_with_counts = [row for row in rows if parse_int(row.get("parsed_plays")) > 0]
-    cdx_status_counts = Counter(str(row.get("cdx_status", "")).split(":", 1)[0] or "unknown" for row in rows)
+    cdx_status_counts = Counter(cdx_status_prefix(row.get("cdx_status")) for row in rows)
     by_game: dict[str, dict[str, object]] = {}
     for target in targets:
         game_rows = [row for row in rows if row.get("game_url") == target.game_url]
@@ -792,6 +831,8 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "input_csv": relative(Path(args.input_csv)),
         "tiers": sorted(args.tiers_set),
         "game_name_contains": args.game_name_contains,
+        "status_filter": args.status_filter,
+        "status_csv": relative(Path(args.status_csv)),
         "target_games": len(targets),
         "target_games_with_kongregate_ids": games_with_ids,
         "games_with_cached_pages": games_with_pages,
@@ -836,6 +877,7 @@ def write_report(report: dict[str, object]) -> None:
         "",
         f"- Generated: {report['run_timestamp']}",
         f"- Target games: {report['target_games']}",
+        f"- Status filter: {report.get('status_filter') or 'none'}",
         f"- Games with cached archived pages: {report['games_with_cached_pages']}",
         f"- Games direct-probed from catalog URLs: {report.get('games_direct_probed', 0)}",
         f"- Endpoint candidates checked: {report['cdx_lookups']}",
@@ -919,6 +961,8 @@ def main() -> None:
     parser.add_argument("--input-csv", default=str(DEFAULT_INPUT_CSV), help="CSV with game_name and game_url columns.")
     parser.add_argument("--tiers", default="1,2", help="Comma-separated follow-up tiers to target when present. Empty means all.")
     parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
+    parser.add_argument("--status-filter", default="", help="Comma-separated values from count_source_probe_game_status.csv to target, e.g. not_probed or transient_failures_remaining.")
+    parser.add_argument("--status-csv", default=str(GAME_STATUS_CSV), help="Probe status CSV used with --status-filter.")
     parser.add_argument("--max-games", type=int, default=0, help="Limit target games after filtering. 0 means no limit.")
     parser.add_argument("--max-pages-per-game", type=int, default=2, help="Cached archived pages to inspect per game.")
     parser.add_argument("--max-candidates-per-page", type=int, default=12, help="Endpoint candidates to query per cached page.")
@@ -938,13 +982,15 @@ def main() -> None:
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files.")
     args = parser.parse_args()
     args.tiers_set = {parse_int(value) for value in args.tiers.split(",") if value.strip()}
-    args.source_types_set = {value.strip() for value in args.source_types.split(",") if value.strip()}
+    args.source_types_set = set(csv_list(args.source_types))
+    args.status_filter_set = {value.lower() for value in csv_list(args.status_filter)}
 
     for directory in (RAW_CDX, RAW_PAYLOADS, PROCESSED, LOGS):
         directory.mkdir(parents=True, exist_ok=True)
 
-    name_filters = [value.strip().lower() for value in args.game_name_contains.split(",") if value.strip()]
-    targets = load_targets(Path(args.input_csv), args.tiers_set, name_filters, args.max_games)
+    name_filters = [value.lower() for value in csv_list(args.game_name_contains)]
+    status_filter_keys = load_status_filter_keys(Path(args.status_csv), args.status_filter_set)
+    targets = load_targets(Path(args.input_csv), args.tiers_set, name_filters, status_filter_keys, args.max_games)
     pages_by_key = load_page_refs(targets)
     candidate_rows: list[dict[str, object]] = []
     payload_fetches = 0

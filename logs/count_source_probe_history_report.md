@@ -1,24 +1,19 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T12:49:20Z
+- Generated: 2026-07-01T13:04:14Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 589
-- Games with probe history: 32
+- Accumulated endpoint observations: 722
+- Games with probe history: 37
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=7, no_archived_endpoint_rows_observed=25, not_probed=297, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=7, no_archived_endpoint_rows_observed=25, not_probed=210
-- CDX status counts: cached=246, failed=166, fetched=176, missing_cache_skipped=1
+- Status counts: archived_endpoint_hit_no_count=8, no_archived_endpoint_rows_observed=29, not_probed=292, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=8, no_archived_endpoint_rows_observed=29, not_probed=205
+- CDX status counts: cached=303, failed=209, fetched=210
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| Chevrolet Cruze Puzzle | 2 | 2016-10-10 |
-| Sky Knight | 2 | 2017-05-16 |
-| Horse Racing | 2 | 2017-05-26 |
-| Finger Spinner Online | 2 | 2017-06-16 |
-| Britney Spears vs Child Servisous | 2 | 2017-07-20 |
 | Cherrie New Spring Trends | 2 | 2017-08-25 |
 | Raze 3 | 2 | 2017-09-30 |
 | AstroLords | 3 | 2014-09-05 |
@@ -29,6 +24,11 @@
 | Vape Naysh Vs The Memes Beta1 | 3 | 2016-06-05 |
 | ATV Ride 2016 | 3 | 2016-08-20 |
 | SUV Car Cartoon Puzzle | 3 | 2016-10-10 |
+| Boat Rush | 3 | 2017-05-16 |
+| Defense Math | 3 | 2017-06-16 |
+| as3 Shootorial #1 | 3 | 2017-08-25 |
+| Dot Snap Battle | 3 | 2017-09-20 |
+| CBS:Escape from the Mall | 3 | 2021-11-12 |
 
 ## Output Files
 

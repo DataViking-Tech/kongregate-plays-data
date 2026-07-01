@@ -89,7 +89,7 @@ def status_for_game(
 
 def main() -> None:
     profile_rows = read_csv(PROFILE_CSV)
-    history_rows = read_csv(HISTORY_CSV)
+    history_rows = [row for row in read_csv(HISTORY_CSV) if cdx_status_prefix(row) != "missing_cache_skipped"]
     recovered_rows = read_csv(PLAY_COUNTS_CSV)
 
     profile_by_key: dict[str, dict[str, str]] = {}
