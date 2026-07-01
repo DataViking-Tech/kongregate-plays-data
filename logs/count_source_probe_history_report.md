@@ -1,34 +1,34 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T18:46:35Z
+- Generated: 2026-07-01T19:05:36Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 4097
-- Games with probe history: 157
+- Accumulated endpoint observations: 4376
+- Games with probe history: 167
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=15, no_archived_endpoint_rows_observed=142, not_probed=172, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=15, no_archived_endpoint_rows_observed=142, not_probed=85
-- CDX status counts: cached=1385, failed=1155, fetched=1557
+- Status counts: archived_endpoint_hit_no_count=15, no_archived_endpoint_rows_observed=152, not_probed=162, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=15, no_archived_endpoint_rows_observed=152, not_probed=75
+- CDX status counts: cached=1466, failed=1233, fetched=1677
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| Zinku - Kuiz nga Kimia | 12 | 2015-09-03 |
-| Alfa Romeo Brera Puzzle | 12 | 2015-09-23 |
-| Powerblocks | 12 | 2016-05-23 |
-| Virus Attack | 12 | 2016-05-24 |
-| Dinamic Chess | 12 | 2016-10-04 |
-| Paradise | 12 | 2017-05-25 |
-| You Are Getting Tired | 12 | 2017-06-16 |
-| Agents of Mayhem: Splatter Effect | 12 | 2017-07-28 |
-| Freekick Training | 12 | 2017-09-13 |
-| Zombie Buster | 12 | 2017-09-20 |
 | GravityHunt | 13 | 2014-09-14 |
 | Plants Attack | 13 | 2014-10-10 |
 | The FPS Training PreAlpha | 13 | 2014-10-17 |
 | Kuizi Biologjia - Pjesa e 3 | 13 | 2015-09-03 |
 | TDS game 2 | 13 | 2015-12-26 |
+| Death Soul | 13 | 2016-05-06 |
+| Super Cowboy Run | 13 | 2016-05-23 |
+| Jumpy Shark | 13 | 2016-05-24 |
+| Gray Tank | 13 | 2016-06-05 |
+| Idle Game Dev | 13 | 2016-07-20 |
+| Guerra de Quatro Mundos clique em [♥Like] | 13 | 2016-08-28 |
+| Hold Position 2: Medieval | 13 | 2016-10-10 |
+| Colotap | 13 | 2016-10-30 |
+| Mike Shadow: I Paid For It! (Mochi Premiums) | 13 | 2017-04-01 |
+| Snake And Blocks | 13 | 2017-07-20 |
 
 ## Output Files
 

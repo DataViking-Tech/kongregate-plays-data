@@ -1,26 +1,19 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-01T18:46:22Z
-- Target games: 3
+- Generated: 2026-07-01T19:05:17Z
+- Target games: 1
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 1
-- Games direct-probed from catalog URLs: 2
-- Endpoint candidates checked: 36
-- Candidate observation rows: 36
-- CDX status counts: cached=33, fetched=3
-- CDX rows found: 2
-- Candidates with CDX rows: 2
+- Games direct-probed from catalog URLs: 0
+- Endpoint candidates checked: 12
+- Candidate observation rows: 12
+- CDX status counts: cached=11, fetched=1
+- CDX rows found: 0
+- Candidates with CDX rows: 0
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 4097 (21 new, 15 refreshed)
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Crazy Zombie v2.0 Crossing Hero | holodeck | `http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck` | `http://www.kongregate.com:80/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck` | 1 |
-| Crazy Zombie v2.0 Crossing Hero | holodeck | `https://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck` | `http://www.kongregate.com:80/games/game4joy/crazy-zombie-v2-0-crossing-hero/holodeck` | 1 |
+- Accumulated probe-history rows: 4376 (9 new, 3 refreshed)
 
 ## Interpretation
 

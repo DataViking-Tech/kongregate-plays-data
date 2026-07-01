@@ -159,6 +159,10 @@ function buildFrames(rows, sourceCounts) {
       firstDate: dates[0] ?? null,
       lastDate: dates.at(-1) ?? null,
       topN,
+      dataSources: [
+        "data/processed/ranked_games.json",
+        "data/processed/game_play_history.json",
+      ],
       method: "Ranks each game by the highest play count observed up to each archived ranked-list or metrics capture date; developer-renamed URLs are merged by game slug for chart continuity.",
     },
     frames,
@@ -184,8 +188,8 @@ function htmlDocument() {
       --accent: #2364aa;
       --track: #ebe6dc;
       --shadow: 0 18px 45px rgba(33, 35, 38, 0.12);
-      --move-duration: 180ms;
-      --row-move-duration: 150ms;
+      --move-duration: 220ms;
+      --row-move-duration: 220ms;
       --move-ease: cubic-bezier(0.22, 0.61, 0.36, 1);
       --fade-duration: 220ms;
     }
@@ -658,7 +662,7 @@ function htmlDocument() {
     const transitionMs = 760;
     const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
-    const rowPositionPrecision = 2;
+    const rowPositionPrecision = 3;
     const slotDriftLimit = 0.06;
     const barScalePrecision = 10000;
     const barScaleThreshold = 0.0002;
@@ -1269,10 +1273,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(260, delay * 1.18))
+        ? Math.max(120, Math.min(420, delay * 1.55))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(260, delay * 1.18))
+        ? Math.max(120, Math.min(420, delay * 1.55))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
@@ -1296,8 +1300,7 @@ function htmlDocument() {
       if (!isPlaying || frames.length <= 1) return;
       syncMotionTiming();
       const delay = Math.max(16, Number(playbackDelay()) || 16);
-      const startedAt = performance.now();
-      const startFrameIndex = normalizeFrameIndex(frameIndex);
+      let lastAdvancedAt = performance.now();
 
       function tick(now) {
         if (!isPlaying || frames.length <= 1) {
@@ -1305,11 +1308,14 @@ function htmlDocument() {
           return;
         }
 
-        const elapsedSteps = Math.floor((now - startedAt) / delay);
-        const nextFrameIndex = normalizeFrameIndex(startFrameIndex + elapsedSteps);
-        if (nextFrameIndex !== frameIndex) {
-          frameIndex = nextFrameIndex;
+        if (now - lastAdvancedAt >= delay) {
+          const elapsedSteps = Math.floor((now - lastAdvancedAt) / delay);
+          const stepCount = playbackMode === "smooth"
+            ? 1
+            : Math.max(1, Math.min(2, elapsedSteps));
+          frameIndex = normalizeFrameIndex(frameIndex + stepCount);
           renderFrame(frameIndex);
+          lastAdvancedAt = now;
         }
 
         rafId = requestAnimationFrame(tick);
