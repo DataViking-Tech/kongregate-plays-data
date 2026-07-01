@@ -1,24 +1,19 @@
 # Count Source Probe History
 
-- Generated: 2026-07-01T13:18:45Z
+- Generated: 2026-07-01T13:33:24Z
 - Profile games tracked: 329
-- Accumulated endpoint observations: 873
-- Games with probe history: 42
+- Accumulated endpoint observations: 1030
+- Games with probe history: 47
 - Recovered count rows: 1
 - Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=8, no_archived_endpoint_rows_observed=34, not_probed=287, recovered_count=1
-- Tier-1 status counts: archived_endpoint_hit_no_count=8, no_archived_endpoint_rows_observed=34, not_probed=200
-- CDX status counts: cached=353, failed=250, fetched=270
+- Status counts: archived_endpoint_hit_no_count=9, no_archived_endpoint_rows_observed=38, not_probed=282, recovered_count=1
+- Tier-1 status counts: archived_endpoint_hit_no_count=9, no_archived_endpoint_rows_observed=38, not_probed=195
+- CDX status counts: cached=407, failed=291, fetched=332
 
 ## Top Unprobed Profile Games
 
 | Game | Rank | First Seen |
 | --- | ---: | --- |
-| Pokemon Kill 4 | 3 | 2014-10-09 |
-| Session Key Viewer | 3 | 2015-09-15 |
-| Vape Naysh Vs The Memes Beta1 | 3 | 2016-06-05 |
-| ATV Ride 2016 | 3 | 2016-08-20 |
-| SUV Car Cartoon Puzzle | 3 | 2016-10-10 |
 | Boat Rush | 3 | 2017-05-16 |
 | Defense Math | 3 | 2017-06-16 |
 | as3 Shootorial #1 | 3 | 2017-08-25 |
@@ -29,6 +24,11 @@
 | Doom II: Hell on Earth | 4 | 2015-09-09 |
 | DoodiaMan Find Wife | 4 | 2016-01-02 |
 | 1p.Story: Death | 4 | 2016-03-16 |
+| BMW M5 E34 | 4 | 2016-05-06 |
+| Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game) | 4 | 2016-09-23 |
+| Mr.Miner | 4 | 2017-05-16 |
+| Balls Vs Blocks Online | 4 | 2017-06-16 |
+| Kung Fu Adventure | 4 | 2017-07-28 |
 
 ## Output Files
 
