@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:22:24Z
-- Profile games in scope: 14
-- Selected games sample: Countdown Striker, Crazy Chaotic Chicken Chase, gold panic, Back To Future-The Game, Giraffe Coloring, super mario crossover, The 10 Question Quiz 2!, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press, Chain Gun Rex, Fish Rush, Ninja Quest
+- Run timestamp: 2026-07-02T09:28:57Z
+- Profile games in scope: 11
+- Selected games sample: gold panic, Giraffe Coloring, super mario crossover, The 10 Question Quiz 2!, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press, Chain Gun Rex, Fish Rush, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -26,7 +26,7 @@
 - No explicit count this run: 2
 - Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2936
+- Known failures: 2938
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
