@@ -243,6 +243,8 @@ def load_targets(args) -> list[TargetGame]:
             capped_targets.append(target)
             games_by_developer[target.developer] += 1
         targets = capped_targets
+    if args.target_offset:
+        targets = targets[args.target_offset :]
     if args.max_games:
         targets = targets[: args.max_games]
     args.selected_games_by_developer = dict(sorted(Counter(target.developer for target in targets).items()))
@@ -658,6 +660,7 @@ def run_probe(args) -> dict[str, object]:
         "selected_games_by_developer": selected_games_by_developer,
         "skipped_developers_due_to_caps": skipped_developers_due_to_caps,
         "max_games": args.max_games,
+        "target_offset": args.target_offset,
         "max_games_per_developer": args.max_games_per_developer,
         "max_developers": args.max_developers,
         "max_cdx_lookups": args.max_cdx_lookups,
@@ -694,6 +697,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--game-name-contains", action="append", default=[])
     parser.add_argument("--developer", action="append", default=[])
     parser.add_argument("--max-games", type=int, default=12)
+    parser.add_argument("--target-offset", type=int, default=0)
     parser.add_argument("--max-games-per-developer", type=int, default=0)
     parser.add_argument("--max-developers", type=int, default=0)
     parser.add_argument("--max-cdx-lookups", type=int, default=0)

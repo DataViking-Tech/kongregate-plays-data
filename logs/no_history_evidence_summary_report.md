@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-02T14:25:50Z
+- Generated: 2026-07-02T15:35:44Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 132
-- No archived endpoint rows games: 193
+- Endpoint-hit/no-count games: 133
+- No archived endpoint rows games: 192
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -22,8 +22,8 @@
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 193
-- archived_endpoint_hit_no_count: 132
+- no_archived_endpoint_rows_observed: 192
+- archived_endpoint_hit_no_count: 133
 
 ## Top Recovery Examples
 

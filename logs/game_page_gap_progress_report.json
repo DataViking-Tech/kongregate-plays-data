@@ -1,11 +1,10 @@
 {
-  "generated_at": "2026-07-02T14:25:35Z",
+  "generated_at": "2026-07-02T15:37:25Z",
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
     2,
-    3,
-    4
+    3
   ],
   "metrics_row_status": "no_metrics",
   "profile_games": 325,
@@ -202,7 +201,7 @@
       "blank_gameplays_count_pages": 3,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 668,
+      "alternate_endpoint_cdx_rows": 796,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -488,7 +487,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 459,
+      "alternate_endpoint_cdx_rows": 479,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {

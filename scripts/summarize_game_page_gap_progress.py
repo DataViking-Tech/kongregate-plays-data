@@ -68,6 +68,13 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
         writer.writerows(rows)
 
 
+def relative(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
 def parse_tiers(value: str) -> set[int]:
     return {parse_int(part) for part in value.split(",") if part.strip()}
 
@@ -257,7 +264,7 @@ def write_report(rows: list[dict[str, object]], args) -> dict[str, object]:
     metrics_checked_rows = [row for row in dynamic_rows if parse_int(row.get("metrics_json_probe_observations")) > 0]
     report = {
         "generated_at": utc_now(),
-        "input_csv": args.input_csv,
+        "input_csv": relative(Path(args.input_csv)),
         "tiers": sorted(parse_tiers(args.tiers)),
         "metrics_row_status": args.metrics_row_status,
         "profile_games": len(rows),
@@ -328,7 +335,7 @@ def write_report(rows: list[dict[str, object]], args) -> dict[str, object]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Summarize cumulative game-page backfill progress for no-CDX profile games.")
     parser.add_argument("--input-csv", default=str(PROFILE_CSV), help="No-CDX profile CSV to summarize.")
-    parser.add_argument("--tiers", default="1", help="Comma-separated follow-up tiers to summarize. Empty means all.")
+    parser.add_argument("--tiers", default="1,2,3", help="Comma-separated follow-up tiers to summarize. Empty means all.")
     parser.add_argument(
         "--metrics-row-status",
         choices=["any", "no_metrics", "has_metrics"],

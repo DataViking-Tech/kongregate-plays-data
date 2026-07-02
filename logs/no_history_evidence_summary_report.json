@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T14:25:50Z",
+  "generated_at": "2026-07-02T15:35:44Z",
   "remaining_no_history_games": 325,
   "listing_count_coverage_counts": {
     "no_listing_count_observations": 241,
@@ -17,8 +17,8 @@
     "no_page_cdx_rows": 154
   },
   "count_source_probe_status_counts": {
-    "no_archived_endpoint_rows_observed": 193,
-    "archived_endpoint_hit_no_count": 132
+    "no_archived_endpoint_rows_observed": 192,
+    "archived_endpoint_hit_no_count": 133
   },
   "current_live_metric_status_counts": {
     "live_metrics_failed_http_404": 325
@@ -37,8 +37,8 @@
     "observed_first_seen_not_launch_date": 325
   },
   "rows_with_observed_categories": 3,
-  "endpoint_hit_no_count_games": 132,
-  "no_archived_endpoint_rows_games": 193,
+  "endpoint_hit_no_count_games": 133,
+  "no_archived_endpoint_rows_games": 192,
   "unresolved_failed_endpoint_total": 0,
   "top_recovery_examples": [
     {
@@ -175,7 +175,7 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 2,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 6,
+      "endpoint_observations": 13,
       "candidates_with_cdx_rows": 2,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
@@ -292,8 +292,8 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 668,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 100,
-      "candidates_with_cdx_rows": 68,
+      "endpoint_observations": 112,
+      "candidates_with_cdx_rows": 80,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
       "observed_categories": "",
@@ -331,7 +331,7 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 3,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 34,
+      "endpoint_observations": 36,
       "candidates_with_cdx_rows": 3,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
@@ -370,7 +370,7 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 2,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 25,
+      "endpoint_observations": 27,
       "candidates_with_cdx_rows": 2,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
@@ -409,8 +409,8 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 459,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 77,
-      "candidates_with_cdx_rows": 51,
+      "endpoint_observations": 81,
+      "candidates_with_cdx_rows": 55,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
       "observed_categories": "",
