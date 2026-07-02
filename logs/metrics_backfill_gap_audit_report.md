@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T01:00:07Z
+Generated: 2026-07-02T01:09:52Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T01:00:07Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 14834
+- Missing CDX cache files: 14797
 
 ## Status Counts
 
-- cdx_cache_missing: 309
+- cdx_cache_missing: 301
 - has_metrics: 2668
-- no_cdx: 20
+- no_cdx: 28
 
 ## Top Unresolved Games
 
@@ -31,13 +31,13 @@ Generated: 2026-07-02T01:00:07Z
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | SpaceWarrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| The Funniest Game Ever | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| The Funniest Game Ever | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| The Space Commando | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Zombie Derby 2 | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Animator Vs Animation (BETA) | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Aston Martin Hidden Wheels | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Baby Talking Tom Bathing | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| The Space Commando | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Zombie Derby 2 | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Animator Vs Animation (BETA) | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Aston Martin Hidden Wheels | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Baby Talking Tom Bathing | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Ballamos | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
 | Britney Spears vs Child Servisous | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
