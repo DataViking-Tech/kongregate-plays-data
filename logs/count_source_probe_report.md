@@ -1,19 +1,26 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-02T00:09:07Z
-- Target games: 9
+- Generated: 2026-07-02T00:19:29Z
+- Target games: 6
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 9
-- Endpoint candidates checked: 84
-- Candidate observation rows: 84
-- CDX status counts: cached=26, fetched=58
-- CDX rows found: 0
-- Candidates with CDX rows: 0
+- Games direct-probed from catalog URLs: 6
+- Endpoint candidates checked: 52
+- Candidate observation rows: 52
+- CDX status counts: cached=18, fetched=34
+- CDX rows found: 2
+- Candidates with CDX rows: 2
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 7734 (84 new, 0 refreshed)
+- Accumulated probe-history rows: 7846 (52 new, 0 refreshed)
+
+## Archived Endpoint Hits
+
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| Quantum Of Light | holodeck | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | 1 |
+| Quantum Of Light | holodeck | `https://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | 1 |
 
 ## Interpretation
 
