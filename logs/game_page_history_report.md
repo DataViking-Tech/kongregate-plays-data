@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T08:08:54Z
-- Profile games in scope: 48
-- Selected games sample: Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T08:15:08Z
+- Profile games in scope: 41
+- Selected games sample: Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- CDX rows: 2
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 0
+- No explicit count this run: 2
+- Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2914
+- Known failures: 2916
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
