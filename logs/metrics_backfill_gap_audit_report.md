@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T00:54:34Z
+Generated: 2026-07-02T01:00:07Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T00:54:34Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 14850
+- Missing CDX cache files: 14834
 
 ## Status Counts
 
-- cdx_cache_missing: 313
+- cdx_cache_missing: 309
 - has_metrics: 2668
-- no_cdx: 16
+- no_cdx: 20
 
 ## Top Unresolved Games
 
@@ -27,10 +27,10 @@ Generated: 2026-07-02T00:54:34Z
 | Last Warrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | LT-Breakout | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Make Me 10 | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| Missiles Again | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| Missiles Again | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | Run Bird Run Online | no_cdx | 1 | 0 | 0 | 0 | 0 |
-| SpaceWarrior | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
-| Surrounded | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
+| SpaceWarrior | no_cdx | 1 | 0 | 0 | 0 | 0 |
+| Surrounded | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Funniest Game Ever | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
 | The Saga Of The Wind Mobiles | no_cdx | 1 | 0 | 0 | 0 | 0 |
 | The Space Commando | cdx_cache_missing | 1 | 0 | 0 | 0 | 0 |
