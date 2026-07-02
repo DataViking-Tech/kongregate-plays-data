@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:39:39Z
-- Profile games in scope: 29
-- Selected games sample: Chuck Norris MMORPG, Mini Ninja Coloring, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Giraffe Coloring, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press
+- Run timestamp: 2026-07-02T09:43:16Z
+- Profile games in scope: 3
+- Selected games sample: Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 4
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 3
-- Fetched this run: 3
+- CDX rows: 2
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 3
+- No explicit count this run: 2
+- Failed this run: 2
 - Manifest entries: 367
-- Known failures: 2942
+- Known failures: 2944
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
