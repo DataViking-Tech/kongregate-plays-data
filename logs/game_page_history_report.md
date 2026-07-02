@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T08:35:30Z
-- Profile games in scope: 27
-- Selected games sample: REPLAY The Game, Chat/Read!, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T08:39:45Z
+- Profile games in scope: 24
+- Selected games sample: Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -26,7 +26,7 @@
 - No explicit count this run: 1
 - Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2919
+- Known failures: 2920
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
