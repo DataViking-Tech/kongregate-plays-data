@@ -5596,6 +5596,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140218090145_http_www.kongregate.com_80_games_Ironhidegames_kingdom-rush_metrics.json_aa7a05722b6f86a9.json"
     },
     {
+      "date": "2014-02-28",
+      "game_name": "Crazy Zombie v2.0 Crossing Hero",
+      "game_url": "http://www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero",
+      "plays_count_observed": 1333,
+      "favorites_count_observed": "",
+      "plays_text": "1333",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com:80/games/game4joy",
+      "capture_timestamp": "20140228223116",
+      "capture_url": "https://web.archive.org/web/20140228223116/http://www.kongregate.com:80/games/game4joy",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20140228223116_http_www.kongregate.com_80_games_game4joy_3a640e0230f2e139.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/game4joy differs from target www.kongregate.com/games/game4joy/crazy-zombie-v2-0-crossing-hero"
+    },
+    {
       "date": "2014-03-17",
       "game_name": "Fashion Expert",
       "game_url": "http://www.kongregate.com/games/games2girls/fashion-expert",

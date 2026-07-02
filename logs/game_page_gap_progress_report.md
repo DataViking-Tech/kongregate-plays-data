@@ -1,25 +1,25 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T11:16:07Z
-- Profile games: 326
-- High-value unresolved games: 242
+- Generated: 2026-07-02T11:29:53Z
+- Profile games: 325
+- High-value unresolved games: 241
 
 ## Status Counts
 
-- dynamic_metrics_placeholder: 172
+- dynamic_metrics_placeholder: 171
 - no_page_cdx_rows: 154
 
 ## Recommended Actions
 
-- 172: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 171: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
 - 154: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 172
-- With exact metrics.json probe history: 172
+- Dynamic metric placeholder games: 171
+- With exact metrics.json probe history: 171
 - With exact metrics.json CDX rows: 0
-- With alternate endpoint CDX rows: 37
+- With alternate endpoint CDX rows: 42
 
 ## Top Unresolved Examples
 

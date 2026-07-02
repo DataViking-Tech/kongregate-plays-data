@@ -1,22 +1,22 @@
 # No-CDX Metrics Gap Profile
 
-- Generated: 2026-07-02T11:15:33Z
-- Total no-CDX games: 326
-- High-value follow-up games: 243
-- Ranked-list count-gap games: 242
+- Generated: 2026-07-02T11:29:44Z
+- Total no-CDX games: 325
+- High-value follow-up games: 242
+- Ranked-list count-gap games: 241
 - Complete listing-coverage no-CDX games: 84
 - Low-information single-capture games: 0
 
 ## Buckets
 
-- top_20_ranked_count_gaps_no_metrics: 242
+- top_20_ranked_count_gaps_no_metrics: 241
 - single_capture_listing_count_no_metrics: 83
 - complete_listing_counts_no_metrics: 1
 
 ## Ranked Listing Coverage
 
 - no: 84
-- yes: 242
+- yes: 241
 
 ## Top High-Value Follow-Up Examples
 
