@@ -3,13 +3,13 @@
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
   "games_without_metrics_rows": 329,
-  "generated_at": "2026-07-02T05:25:47Z",
+  "generated_at": "2026-07-02T05:36:40Z",
   "known_failed_captures": 37,
-  "missing_cdx_cache_files": 13769,
+  "missing_cdx_cache_files": 13710,
   "status_counts": {
-    "cdx_cache_missing": 97,
+    "cdx_cache_missing": 84,
     "has_metrics": 2668,
-    "no_cdx": 232
+    "no_cdx": 245
   },
   "top_unresolved_games": [
     {
