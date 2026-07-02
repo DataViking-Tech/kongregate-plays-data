@@ -1,0 +1,174 @@
+{
+  "catalog_games": 2997,
+  "classification_confidence_counts": {
+    "low": 517,
+    "medium": 5
+  },
+  "facebook_social_candidate_counts": {
+    "likely": 5,
+    "no": 2978,
+    "possible": 14
+  },
+  "first_observed_date_range": [
+    "2007-01-20",
+    "2026-07-01"
+  ],
+  "generated_at": "2026-07-02T10:22:23Z",
+  "last_observed_date_range": [
+    "2007-03-24",
+    "2026-07-01"
+  ],
+  "live_metric_status_counts": {
+    "live_metrics_available": 2113,
+    "live_metrics_failed_http_404": 340,
+    "not_checked": 544
+  },
+  "outputs": {
+    "csv": "data/processed/game_lifecycle_catalog.csv",
+    "json": "data/processed/game_lifecycle_catalog.json",
+    "report_json": "logs/game_lifecycle_catalog_report.json",
+    "report_md": "logs/game_lifecycle_catalog_report.md"
+  },
+  "removal_evidence_status_counts": {
+    "live_metrics_available": 2113,
+    "live_metrics_unavailable": 339,
+    "no_removal_evidence": 544,
+    "stale_live_metrics_failure_older_than_last_observation": 1
+  },
+  "rows_with_observed_categories": 579,
+  "top_social_candidates": [
+    {
+      "best_rank": 1,
+      "candidate": "likely",
+      "developer": "5thPlanetGames",
+      "game_name": "Dawn of the Dragons",
+      "signals": "publisher_hint:5thplanetgames; title_or_slug_social_strategy_terms"
+    },
+    {
+      "best_rank": 1,
+      "candidate": "possible",
+      "developer": "FunkyPear",
+      "game_name": "Gravitee Wars Online",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 1,
+      "candidate": "likely",
+      "developer": "synapticon",
+      "game_name": "Tyrant",
+      "signals": "name_or_category:card_battler; publisher_hint:synapticon; title_or_slug_social_strategy_terms"
+    },
+    {
+      "best_rank": 2,
+      "candidate": "likely",
+      "developer": "synapticon",
+      "game_name": "Tyrant Unleashed",
+      "signals": "name_or_category:mmo_multiplayer; name_or_category:card_battler; category:mmo_or_multiplayer; category:card; publisher_hint:synapticon; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 2,
+      "candidate": "possible",
+      "developer": "DragonsOfTheVoid",
+      "game_name": "Dragons of the Void",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 3,
+      "candidate": "likely",
+      "developer": "5thPlanetGames",
+      "game_name": "Clash of the Dragons",
+      "signals": "publisher_hint:5thplanetgames; title_or_slug_social_strategy_terms"
+    },
+    {
+      "best_rank": 5,
+      "candidate": "possible",
+      "developer": "5thPlanetGames",
+      "game_name": "Legacy of a Thousand Suns",
+      "signals": "publisher_hint:5thplanetgames"
+    },
+    {
+      "best_rank": 5,
+      "candidate": "possible",
+      "developer": "R2Games",
+      "game_name": "Wartune",
+      "signals": "publisher_hint:r2games"
+    },
+    {
+      "best_rank": 5,
+      "candidate": "possible",
+      "developer": "KIXEYE",
+      "game_name": "Battle Pirates",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 6,
+      "candidate": "likely",
+      "developer": "synapticon",
+      "game_name": "Spellstone",
+      "signals": "name_or_category:card_battler; category:card; publisher_hint:synapticon; category_social_candidate"
+    },
+    {
+      "best_rank": 8,
+      "candidate": "possible",
+      "developer": "kanoapps",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 9,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Castle Wars 2",
+      "signals": "name_or_category:card_battler; category:card; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 12,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "War Attack",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 14,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Storm Wars",
+      "signals": "name_or_category:card_battler; category:card; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 16,
+      "candidate": "possible",
+      "developer": "R2Games",
+      "game_name": "Heroes of The Banner",
+      "signals": "publisher_hint:r2games"
+    },
+    {
+      "best_rank": 17,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Battle For the Galaxy",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 18,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Castle Wars 2.5",
+      "signals": "name_or_category:card_battler; category:card; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 19,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Music Wars",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    },
+    {
+      "best_rank": 19,
+      "candidate": "possible",
+      "developer": "",
+      "game_name": "Viking Clan",
+      "signals": "name_or_category:mmo_multiplayer; category:mmo_or_multiplayer; title_or_slug_social_strategy_terms; category_social_candidate"
+    }
+  ]
+}

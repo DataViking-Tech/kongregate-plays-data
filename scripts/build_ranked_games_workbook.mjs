@@ -6,6 +6,7 @@ const root = path.resolve(".");
 const rankedJsonPath = path.join(root, "data", "processed", "ranked_games.json");
 const miniCatalogJsonPath = path.join(root, "data", "processed", "mini_catalog.json");
 const gamePlayHistoryJsonPath = path.join(root, "data", "processed", "game_play_history.json");
+const gameLifecycleJsonPath = path.join(root, "data", "processed", "game_lifecycle_catalog.json");
 const reportJsonPath = path.join(root, "logs", "ranked_games_report.json");
 const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const previewDir = path.join(outputDir, "previews");
@@ -81,6 +82,49 @@ const gamePlayHistoryColumns = [
   "notes",
 ];
 
+const gameLifecycleColumns = [
+  "canonical_game_key",
+  "game_name",
+  "developer",
+  "game_url",
+  "kongregate_game_ids",
+  "best_rank",
+  "top_n_appearances",
+  "ranking_types",
+  "observed_categories",
+  "category_tags",
+  "platform_flags",
+  "facebook_social_candidate",
+  "classification_confidence",
+  "classification_signals",
+  "first_observed_date",
+  "first_observed_source",
+  "first_ranked_date",
+  "first_play_history_date",
+  "first_live_metric_date",
+  "likely_added_date",
+  "likely_added_date_confidence",
+  "last_observed_date",
+  "last_observed_source",
+  "last_ranked_date",
+  "last_play_history_date",
+  "last_live_metric_date",
+  "current_live_metric_status",
+  "latest_live_metric_attempt_date",
+  "removal_evidence_status",
+  "removal_evidence_type",
+  "observed_removed_after_date",
+  "observed_removed_by_date",
+  "removal_confidence",
+  "metrics_rows",
+  "listing_play_count_rows",
+  "max_play_count_observed",
+  "page_gap_status",
+  "metrics_audit_status",
+  "count_source_probe_status",
+  "notes",
+];
+
 async function readJsonRows(filePath) {
   try {
     const payload = JSON.parse(await fs.readFile(filePath, "utf8"));
@@ -134,9 +178,13 @@ function styleSheet(sheet, columns, rowCount, tableName) {
     let width = 18;
     if (column === "date") width = 14;
     if (column === "game_name") width = 32;
+    if (column === "canonical_game_key") width = 44;
     if (column === "rank_on_date") width = 14;
+    if (column === "best_rank") width = 12;
     if (column === "plays_count_observed" || column === "plays_rank_within_capture") width = 18;
     if (column === "ranking_basis" || column === "plays_rank_scope") width = 26;
+    if (column.includes("categories") || column.includes("tags") || column.includes("signals") || column.includes("flags")) width = 34;
+    if (column.includes("status") || column.includes("confidence") || column.includes("candidate")) width = 22;
     if (column.includes("url") || column === "notes" || column === "html_path") width = 42;
     if (column.includes("timestamp")) width = 20;
     if (column === "ranking_type" || column === "confidence" || column === "parser") width = 18;
@@ -181,11 +229,13 @@ async function main() {
   const rankedRows = rankedPayload.rows ?? [];
   const miniCatalogRows = await readJsonRows(miniCatalogJsonPath);
   const gamePlayHistoryRows = await readJsonRows(gamePlayHistoryJsonPath);
+  const gameLifecycleRows = await readJsonRows(gameLifecycleJsonPath);
   const reportRows = rankedPayload.sample_reports ?? reportPayload.samples ?? [];
 
   await addSheet(workbook, "ranked_games", rankedColumns, rankedRows, "ranked_games_table");
   await addSheet(workbook, "mini_catalog", miniCatalogColumns, miniCatalogRows, "mini_catalog_table");
   await addSheet(workbook, "game_play_history", gamePlayHistoryColumns, gamePlayHistoryRows, "game_play_history_table");
+  await addSheet(workbook, "game_lifecycle", gameLifecycleColumns, gameLifecycleRows, "game_lifecycle_table");
   await addSheet(workbook, "extraction_report", reportColumns, reportRows, "extraction_report_table");
 
   const inspect = await workbook.inspect({
@@ -208,6 +258,7 @@ async function main() {
     ["ranked_games", rankedColumns, rankedRows],
     ["mini_catalog", miniCatalogColumns, miniCatalogRows],
     ["game_play_history", gamePlayHistoryColumns, gamePlayHistoryRows],
+    ["game_lifecycle", gameLifecycleColumns, gameLifecycleRows],
     ["extraction_report", reportColumns, reportRows],
   ]) {
     const lastCol = columnName(columns.length - 1);
@@ -225,6 +276,7 @@ async function main() {
     rankedRows: rankedRows.length,
     miniCatalogRows: miniCatalogRows.length,
     gamePlayHistoryRows: gamePlayHistoryRows.length,
+    gameLifecycleRows: gameLifecycleRows.length,
     reportRows: reportRows.length,
   }, null, 2));
 }

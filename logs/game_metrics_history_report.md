@@ -1,21 +1,21 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-02T07:08:10Z
+- Run timestamp: 2026-07-02T10:18:35Z
 - Catalog games: 2997
-- Catalog scope: offset 0, limit all (1 games)
-- Audit statuses: cdx_cache_missing
+- Catalog scope: offset 1000, limit all (215 games)
+- Audit statuses: no_cdx
 - Audit pending only: False
-- Audit missing CDX only: True
+- Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: murder
+- Game-name filter: none
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 1
+- CDX games considered: 10
 - CDX rows found: 0
-- CDX wall timeout: 12.0
-- Metrics wall timeout: 14.0
+- CDX wall timeout: 24.0
+- Metrics wall timeout: 18.0
 - Missing CDX cache files skipped: 0
 - Metrics jobs: 0
 - Pending before run: 0
@@ -23,6 +23,6 @@
 - Fetched this run: 0
 - Failed this run: 0
 - Manifest entries: 5452
-- History rows: 7933
-- Games with history: 2787
+- History rows: 7934
+- Games with history: 2788
 - History date range: 2007-03-24 to 2026-07-01

@@ -186,13 +186,15 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 160 continued the slower head-of-queue tier-3 page-history retry. Stickman Adventure and Touch me NOW! moved into `html_without_explicit_count`, while How to make an MMORPG moved into `no_page_cdx_rows`; no play-count rows were recovered, and the all-tier page-history profile now has 168 cached-HTML/no-static-count cases, 147 no-page-CDX cases, and 14 not-yet-checked cases.
 - Checkpoint 161 continued the slower tier-3 page-history sweep. zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, and Eternal-Red moved into `no_page_cdx_rows`; no play-count rows were recovered, and the all-tier page-history profile now has 168 cached-HTML/no-static-count cases, 152 no-page-CDX cases, and 9 not-yet-checked cases.
 - Checkpoint 162 finished the remaining all-tier no-metrics page-history `not_checked` bucket. Clear Vision Elite yielded one additional archived game-page play-count row, the final unresolved checks were classified, and the profile now has 172 cached-HTML/no-static-count cases, 156 no-page-CDX cases, 1 parsed-page-count case, and 0 not-yet-checked cases.
+- Checkpoint 163 sampled expanded `http`/`https`/`/en/games` metrics-route variants across three deeper no-CDX slices; all sampled routes were cached-empty with 0 archived metrics rows. It also added `game_lifecycle_catalog` as the first evidence-backed metadata layer for category tags, provisional Facebook/social-platform candidates, observed first/last dates, and cautious live-metrics removal evidence, and added that data as a `game_lifecycle` sheet in the workbook.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 328 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 329 games without any per-game metrics rows, 0 expanded-route CDX cache-missing games, 329 confirmed no-CDX games, and 13,296 expanded-route CDX cache files still missing from the full variant queue.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 328 games without any per-game metrics rows, 0 expanded-route CDX cache-missing games, 328 confirmed no-CDX games, and 13,296 expanded-route CDX cache files still missing from the full variant queue.
+- The lifecycle catalog covers all 2,997 mini-catalog games. It preserves observed Kongregate category labels for 579 games, flags 5 likely and 14 possible Facebook/social-platform candidates using conservative evidence signals, and records live metrics endpoint evidence for 2,113 available endpoints, 339 unavailable endpoints, 544 not-yet-checked endpoints, and 1 stale live failure older than a later observation.
 - The no-CDX profile covers 329 originally no-history/no-CDX games. Exact-match alternate endpoint probing is complete for the full profile; page-history status is now tracked across all 329 games with 172 cached-HTML/no-static-count cases, 156 no-page-CDX cases, 1 parsed-page-count case, and 0 not-yet-checked page-history cases. Remaining recovery work is focused on broader page-history CDX sweeps, archived JavaScript/API behavior, or outside source shapes rather than untried exact-match side endpoints.
 - True monotonic play-count decreases now scan at 0. Two suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 353 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
 - Final chart leaders have current live metrics observations as of 2026-07-01.
@@ -202,10 +204,12 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `index.html` - GitHub Pages entry point for the animated observed-plays chart.
 - `outputs/kongregate_ranked_games/play_count_bar_chart_race.html` - same chart at the generated output path.
 - `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` - chart frame data.
-- `outputs/kongregate_ranked_games/kongregate_ranked_games.xlsx` - workbook with ranked rows, mini catalog, metrics history, and extraction report.
+- `outputs/kongregate_ranked_games/kongregate_ranked_games.xlsx` - workbook with ranked rows, mini catalog, metrics history, lifecycle metadata, and extraction report.
 - `data/processed/ranked_games.csv` - date, game, rank, ranking type, and listing play-count observations.
 - `data/processed/mini_catalog.csv` - games that reached top 20 at least once, including observed Kongregate game IDs when present in ranked-list HTML.
 - `data/processed/game_play_history.csv` - per-game metrics JSON, live metrics, and archived game-page observations.
+- `data/processed/game_lifecycle_catalog.csv` - evidence-backed first/last observed dates, provisional category/platform tags, live metrics availability, and cautious removal-evidence fields.
+- `logs/game_lifecycle_catalog_report.*` - summary of lifecycle categories, Facebook/social candidates, and live metrics endpoint evidence.
 - `logs/*report.*` - run reports for extraction and scrape phases.
 - `data/processed/data_quality_issues.csv` - current QA issue register.
 - `data/processed/suspicious_metric_route_decreases.csv` - metrics-route drops that look like alias/route anomalies rather than true counter decreases.
@@ -244,6 +248,7 @@ python3 scripts/fetch_live_ranked_pages.py
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
 python3 scripts/scan_data_quality.py --as-of 2026-07-01
+python3 scripts/build_game_lifecycle_catalog.py
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs
 node scripts/build_play_count_bar_chart_race.mjs
 ```
