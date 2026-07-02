@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T10:42:21Z",
+  "generated_at": "2026-07-02T10:46:41Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -43,7 +43,7 @@
       "dynamic_metric_placeholder_pages": 2,
       "game_metrics_updater_pages": 2,
       "blank_gameplays_count_pages": 2,
-      "metrics_json_probe_observations": 4,
+      "metrics_json_probe_observations": 6,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 96,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -69,7 +69,7 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 2,
+      "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 2,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -95,7 +95,7 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 2,
+      "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 2,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -121,7 +121,7 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 2,
+      "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 2,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -173,7 +173,7 @@
       "dynamic_metric_placeholder_pages": 11,
       "game_metrics_updater_pages": 11,
       "blank_gameplays_count_pages": 11,
-      "metrics_json_probe_observations": 4,
+      "metrics_json_probe_observations": 8,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 330,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."

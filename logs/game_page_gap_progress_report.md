@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T10:42:21Z
+- Generated: 2026-07-02T10:46:41Z
 - Profile games: 328
 - High-value unresolved games: 242
 
@@ -25,12 +25,12 @@
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Make Me 10 | 1 | dynamic_metrics_placeholder | 1 | 8 | 2 | 4 | 0 | 2017-05-16 |
-| Key to Success | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 2 | 0 | 2017-05-25 |
-| Missiles Again | 1 | dynamic_metrics_placeholder | 6 | 1 | 1 | 2 | 0 | 2017-05-26 |
-| The Space Commando | 1 | dynamic_metrics_placeholder | 1 | 1 | 1 | 2 | 0 | 2017-08-17 |
+| Make Me 10 | 1 | dynamic_metrics_placeholder | 1 | 8 | 2 | 6 | 0 | 2017-05-16 |
+| Key to Success | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2017-05-25 |
+| Missiles Again | 1 | dynamic_metrics_placeholder | 6 | 1 | 1 | 4 | 0 | 2017-05-26 |
+| The Space Commando | 1 | dynamic_metrics_placeholder | 1 | 1 | 1 | 4 | 0 | 2017-08-17 |
 | Run Bird Run Online | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2017-08-25 |
-| LT-Breakout | 1 | dynamic_metrics_placeholder | 1 | 55 | 11 | 4 | 0 | 2017-10-24 |
+| LT-Breakout | 1 | dynamic_metrics_placeholder | 1 | 55 | 11 | 8 | 0 | 2017-10-24 |
 | Surrounded | 1 | dynamic_metrics_placeholder | 2 | 7 | 3 | 2 | 0 | 2021-11-12 |
 | Last Warrior | 1 | no_page_cdx_rows | 5 | 0 | 0 | 2 | 0 | 2014-09-02 |
 | SpaceWarrior | 1 | no_page_cdx_rows | 6 | 0 | 0 | 2 | 0 | 2014-09-12 |

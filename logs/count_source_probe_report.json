@@ -5,8 +5,9 @@
   "cdx_lookups": 16,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 14,
-    "fetched": 2
+    "cached": 2,
+    "failed": 4,
+    "fetched": 10
   },
   "cdx_wall_timeout": 14.0,
   "collapse": "digest",
@@ -15,7 +16,7 @@
   "games_with_cached_pages": 6,
   "games_without_cached_pages": 0,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
-  "match_type": "exact",
+  "match_type": "prefix",
   "max_candidates_per_page": 4,
   "max_cdx_lookups": 24,
   "max_pages_per_game": 2,
@@ -90,11 +91,11 @@
     "total": 1
   },
   "persisted_probe_history": {
-    "added": 16,
-    "total": 7872,
-    "updated": 0
+    "added": 12,
+    "total": 7884,
+    "updated": 4
   },
-  "run_timestamp": "2026-07-02T10:40:55Z",
+  "run_timestamp": "2026-07-02T10:46:30Z",
   "source_types": [
     "metrics_json"
   ],
