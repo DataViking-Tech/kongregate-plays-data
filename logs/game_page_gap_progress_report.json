@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T10:18:55Z",
+  "generated_at": "2026-07-02T10:29:33Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -7,16 +7,14 @@
     3
   ],
   "metrics_row_status": "no_metrics",
-  "profile_games": 329,
+  "profile_games": 328,
   "status_counts": {
     "html_without_explicit_count": 172,
-    "no_page_cdx_rows": 156,
-    "parsed_page_count": 1
+    "no_page_cdx_rows": 156
   },
   "recommended_action_counts": {
     "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 172,
-    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 156,
-    "No immediate action; page HTML has yielded at least one play-count observation.": 1
+    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 156
   },
   "high_value_unresolved_games": 242,
   "top_unresolved_examples": [

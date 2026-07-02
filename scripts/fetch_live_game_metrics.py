@@ -365,7 +365,7 @@ def main() -> None:
                 "# Kongregate Live Game Metrics Report",
                 "",
                 f"- Run timestamp: {report['run_timestamp']}",
-                f"- Target statuses: {', '.join(report['statuses'])}",
+                f"- Target statuses: {', '.join(report['statuses']) or 'all'}",
                 f"- Targeted games: {report['targeted_games']}",
                 f"- Games in scope: {report['games_in_scope']}",
                 f"- Known failures skipped: {report['known_failures_skipped']}",

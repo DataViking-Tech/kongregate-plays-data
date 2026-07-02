@@ -1,10 +1,10 @@
 # Kongregate Live Ranked Pages Report
 
-- Run timestamp: 2026-07-01T04:20:40Z
-- Capture timestamp: 20260701042035
-- Sources selected: 8
-- Fetched this run: 7
-- Failed this run: 1
+- Run timestamp: 2026-07-02T10:28:33Z
+- Capture timestamp: 20260702102822
+- Sources selected: 14
+- Fetched this run: 14
+- Failed this run: 0
 - Skipped unknown source: 0
-- Valid cached for timestamp: 7
-- Manifest entries: 3351
+- Valid cached for timestamp: 14
+- Manifest entries: 3365

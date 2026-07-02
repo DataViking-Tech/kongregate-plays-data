@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-02T07:24:53Z",
-  "total_no_cdx_games": 329,
+  "generated_at": "2026-07-02T10:29:24Z",
+  "total_no_cdx_games": 328,
   "followup_tier_counts": {
     "1": 242,
     "2": 1,
-    "3": 86
+    "3": 85
   },
   "profile_bucket_counts": {
     "top_20_ranked_count_gaps_no_metrics": 242,
-    "single_capture_listing_count_no_metrics": 86,
+    "single_capture_listing_count_no_metrics": 85,
     "complete_listing_counts_no_metrics": 1
   },
   "ranked_listing_coverage_counts": {
-    "no": 87,
+    "no": 86,
     "yes": 242
   },
   "first_seen_year_counts": {
-    "2008": 2,
+    "2008": 1,
     "2009": 3,
     "2010": 7,
     "2011": 51,
@@ -32,7 +32,7 @@
   "high_value_followup_games": 243,
   "low_information_single_capture_games": 0,
   "ranked_listing_count_gap_games": 242,
-  "complete_listing_coverage_no_cdx_games": 87,
+  "complete_listing_coverage_no_cdx_games": 86,
   "top_high_value_examples": [
     {
       "followup_tier": 1,
