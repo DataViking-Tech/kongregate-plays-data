@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T08:20:53Z
-- Profile games in scope: 36
-- Selected games sample: gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T08:25:42Z
+- Profile games in scope: 31
+- Selected games sample: Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
