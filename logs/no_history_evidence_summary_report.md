@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-02T13:27:44Z
+- Generated: 2026-07-02T13:44:40Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 112
-- No archived endpoint rows games: 213
+- Endpoint-hit/no-count games: 120
+- No archived endpoint rows games: 205
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -14,16 +14,16 @@
 
 ## Evidence Buckets
 
-- no_game_page_or_endpoint_archives: 86
 - partial_listing_counts_no_page_metrics: 84
-- dynamic_placeholder_endpoint_archives_no_count: 73
-- dynamic_placeholder_no_exact_endpoint_archives: 62
-- no_game_page_cdx_alt_archives_no_count: 20
+- no_game_page_or_endpoint_archives: 84
+- dynamic_placeholder_endpoint_archives_no_count: 79
+- dynamic_placeholder_no_exact_endpoint_archives: 56
+- no_game_page_cdx_alt_archives_no_count: 22
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 213
-- archived_endpoint_hit_no_count: 112
+- no_archived_endpoint_rows_observed: 205
+- archived_endpoint_hit_no_count: 120
 
 ## Top Recovery Examples
 
@@ -44,6 +44,7 @@
 | Chevrolet Cruze Puzzle | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
 | Sky Knight | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
 | Horse Racing | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-26 |
+| Britney Spears vs Child Servisous | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-07-20 |
 | Cherrie New Spring Trends | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-08-25 |
 | ATV Ride 2016 | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-08-20 |
 | SUV Car Cartoon Puzzle | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
@@ -52,5 +53,4 @@
 | DoodiaMan Find Wife | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-01-02 |
 | BMW M5 E34 | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-05-06 |
 | Mr.Miner | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
-| Viking Workout | 5 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-11-06 |
-| Mining Truck | 6 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-17 |
+| Kung Fu Adventure | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-07-28 |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T13:27:32Z",
+  "generated_at": "2026-07-02T13:43:56Z",
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -20,7 +20,7 @@
   "dynamic_metric_placeholder_games": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
-  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 84,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 90,
   "high_value_unresolved_games": 241,
   "top_unresolved_examples": [
     {
@@ -98,7 +98,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 718,
+      "alternate_endpoint_cdx_rows": 769,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -150,7 +150,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 717,
+      "alternate_endpoint_cdx_rows": 768,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -566,7 +566,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 5,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 717,
+      "alternate_endpoint_cdx_rows": 768,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -670,7 +670,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 714,
+      "alternate_endpoint_cdx_rows": 765,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -696,7 +696,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 612,
+      "alternate_endpoint_cdx_rows": 663,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -722,7 +722,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 3,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -748,7 +748,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 612,
+      "alternate_endpoint_cdx_rows": 663,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
