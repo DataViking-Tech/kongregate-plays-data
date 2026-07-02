@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T08:44:24Z
-- Profile games in scope: 21
-- Selected games sample: Xiao 4, super mario crossover, Fruit Game, Pizza Truck, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T08:49:06Z
+- Profile games in scope: 18
+- Selected games sample: super mario crossover, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- CDX rows: 1
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 1
+- Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2922
+- Known failures: 2923
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
