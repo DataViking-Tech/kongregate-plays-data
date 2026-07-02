@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T01:09:52Z
+Generated: 2026-07-02T01:24:36Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T01:09:52Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 14797
+- Missing CDX cache files: 14763
 
 ## Status Counts
 
-- cdx_cache_missing: 301
+- cdx_cache_missing: 294
 - has_metrics: 2668
-- no_cdx: 28
+- no_cdx: 35
 
 ## Top Unresolved Games
 
@@ -38,12 +38,12 @@ Generated: 2026-07-02T01:09:52Z
 | Animator Vs Animation (BETA) | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Aston Martin Hidden Wheels | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Baby Talking Tom Bathing | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Ballamos | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Britney Spears vs Child Servisous | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Caralhinhos Voadores - Age Of Delicia | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| changetype() | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| Ballamos | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Britney Spears vs Child Servisous | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
+| changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| Chevrolet Cruze Puzzle | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
 | cuube | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
 

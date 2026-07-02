@@ -1,8 +1,8 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-02T01:09:36Z
+- Run timestamp: 2026-07-02T01:24:24Z
 - Catalog games: 2997
-- Catalog scope: offset 0, limit all (305 games)
+- Catalog scope: offset 0, limit all (298 games)
 - Audit statuses: cdx_cache_missing
 - Audit pending only: False
 - Audit missing CDX only: True
