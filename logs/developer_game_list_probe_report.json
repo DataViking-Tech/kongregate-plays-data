@@ -1,20 +1,21 @@
 {
-  "candidate_observation_rows": 3,
+  "candidate_observation_rows": 9,
   "captures_sampled": 0,
   "cdx_status_counts": {
-    "fetched": 3
+    "fetched": 9
   },
   "developer_filters": [
-    "phacanu"
+    "breakdo",
+    "munoz20"
   ],
   "game_name_contains": [],
   "include_account_pages": true,
   "input_csv": "data/processed/no_history_evidence_summary.csv",
   "match_type": "prefix",
   "max_captures_per_source": 1,
-  "max_cdx_lookups": 3,
+  "max_cdx_lookups": 8,
   "max_developers": 0,
-  "max_games": 3,
+  "max_games": 4,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -29,21 +30,22 @@
     "total": 6
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 12069,
+    "added": 9,
+    "total": 12285,
     "updated": 0
   },
-  "pre_cap_target_developers": 1,
-  "pre_cap_target_games": 2,
-  "run_timestamp": "2026-07-02T13:44:20Z",
+  "pre_cap_target_developers": 2,
+  "pre_cap_target_games": 3,
+  "run_timestamp": "2026-07-02T14:04:25Z",
   "selected_games_by_developer": {
-    "phacanu": 2
+    "breakdo": 1,
+    "munoz20": 2
   },
   "skipped_developers_due_to_caps": [],
-  "source_cdx_lookups": 3,
+  "source_cdx_lookups": 6,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 1,
-  "target_games": 2,
+  "target_developers": 2,
+  "target_games": 3,
   "target_links_found": 0,
   "tiers": "1",
   "top_recovered_rows": [],

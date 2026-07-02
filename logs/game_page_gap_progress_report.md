@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T13:43:56Z
+- Generated: 2026-07-02T14:04:34Z
 - Profile games: 325
 - High-value unresolved games: 241
 
@@ -19,7 +19,7 @@
 - Dynamic metric placeholder games: 171
 - With exact metrics.json probe history: 171
 - With exact metrics.json CDX rows: 0
-- With alternate endpoint CDX rows: 90
+- With alternate endpoint CDX rows: 92
 
 ## Top Unresolved Examples
 

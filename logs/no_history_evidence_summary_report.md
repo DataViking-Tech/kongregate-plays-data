@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-02T13:44:40Z
+- Generated: 2026-07-02T14:04:46Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 120
-- No archived endpoint rows games: 205
+- Endpoint-hit/no-count games: 124
+- No archived endpoint rows games: 201
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -15,15 +15,15 @@
 ## Evidence Buckets
 
 - partial_listing_counts_no_page_metrics: 84
-- no_game_page_or_endpoint_archives: 84
-- dynamic_placeholder_endpoint_archives_no_count: 79
-- dynamic_placeholder_no_exact_endpoint_archives: 56
-- no_game_page_cdx_alt_archives_no_count: 22
+- no_game_page_or_endpoint_archives: 82
+- dynamic_placeholder_endpoint_archives_no_count: 81
+- dynamic_placeholder_no_exact_endpoint_archives: 54
+- no_game_page_cdx_alt_archives_no_count: 24
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 205
-- archived_endpoint_hit_no_count: 120
+- no_archived_endpoint_rows_observed: 201
+- archived_endpoint_hit_no_count: 124
 
 ## Top Recovery Examples
 
