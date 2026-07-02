@@ -1,19 +1,33 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-02T10:46:30Z
-- Target games: 6
-- Status filter: none
-- Games with cached archived pages: 6
+- Generated: 2026-07-02T11:57:54Z
+- Target games: 4
+- Status filter: transient_failures_remaining
+- Games with cached archived pages: 4
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 16
-- Candidate observation rows: 16
-- CDX status counts: cached=2, failed=4, fetched=10
-- CDX rows found: 0
-- Candidates with CDX rows: 0
+- Endpoint candidates checked: 10
+- Candidate observation rows: 10
+- CDX status counts: cached=8, failed=1, fetched=1
+- CDX rows found: 33
+- Candidates with CDX rows: 9
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
-- Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 7884 (12 new, 4 refreshed)
+- Deduped recovered play-count observations: 6 (0 new this run)
+- Accumulated probe-history rows: 9419 (6 new, 4 refreshed)
+
+## Archived Endpoint Hits
+
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| Surrounded | game_path_prefix | `http://www.kongregate.com/games/JasonNumberXIII/surrounded` | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | 7 |
+| Surrounded | game_path_prefix | `http://www.kongregate.com/games/JasonNumberXIII/surrounded` | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | 7 |
+| Surrounded | game_path_prefix | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | 7 |
+| Surrounded | game_path_prefix | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | `https://www.kongregate.com/games/JasonNumberXIII/surrounded` | 7 |
+| Mini Jumper | game_path_prefix | `http://www.kongregate.com/games/mafagames/mini-jumper` | `http://www.kongregate.com:80/games/mafagames/mini-jumper` | 1 |
+| Mini Jumper | game_path_prefix | `https://www.kongregate.com/games/mafagames/mini-jumper` | `http://www.kongregate.com:80/games/mafagames/mini-jumper` | 1 |
+| Missiles Again | game_path_prefix | `http://www.kongregate.com/games/mafagames/missiles-again` | `http://www.kongregate.com:80/games/mafagames/missiles-again` | 1 |
+| Missiles Again | game_path_prefix | `https://www.kongregate.com/games/mafagames/missiles-again` | `http://www.kongregate.com:80/games/mafagames/missiles-again` | 1 |
+| Run Bird Run Online | game_path_prefix | `https://www.kongregate.com/games/mafagames/run-bird-run-online` | `http://www.kongregate.com:80/games/mafagames/run-bird-run-online` | 1 |
 
 ## Interpretation
 
@@ -21,7 +35,7 @@ No sampled alternate endpoint exposed a parseable play-count field in this run. 
 
 ## Retry Note
 
-4 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+1 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 

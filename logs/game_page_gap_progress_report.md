@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T11:47:02Z
+- Generated: 2026-07-02T11:58:04Z
 - Profile games: 325
 - High-value unresolved games: 241
 
@@ -19,7 +19,7 @@
 - Dynamic metric placeholder games: 171
 - With exact metrics.json probe history: 171
 - With exact metrics.json CDX rows: 0
-- With alternate endpoint CDX rows: 44
+- With alternate endpoint CDX rows: 45
 
 ## Top Unresolved Examples
 
@@ -29,9 +29,9 @@
 | Key to Success | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2017-05-25 |
 | Missiles Again | 1 | dynamic_metrics_placeholder | 6 | 1 | 1 | 4 | 0 | 2017-05-26 |
 | The Space Commando | 1 | dynamic_metrics_placeholder | 1 | 1 | 1 | 4 | 0 | 2017-08-17 |
-| Run Bird Run Online | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2017-08-25 |
+| Run Bird Run Online | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2017-08-25 |
 | LT-Breakout | 1 | dynamic_metrics_placeholder | 1 | 55 | 11 | 8 | 0 | 2017-10-24 |
-| Surrounded | 1 | dynamic_metrics_placeholder | 2 | 7 | 3 | 2 | 0 | 2021-11-12 |
+| Surrounded | 1 | dynamic_metrics_placeholder | 2 | 7 | 3 | 4 | 0 | 2021-11-12 |
 | Last Warrior | 1 | no_page_cdx_rows | 5 | 0 | 0 | 2 | 0 | 2014-09-02 |
 | SpaceWarrior | 1 | no_page_cdx_rows | 6 | 0 | 0 | 2 | 0 | 2014-09-12 |
 | The Funniest Game Ever | 1 | no_page_cdx_rows | 2 | 0 | 0 | 2 | 0 | 2014-10-24 |

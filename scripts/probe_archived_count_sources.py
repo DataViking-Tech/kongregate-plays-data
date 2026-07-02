@@ -645,7 +645,7 @@ def decode_payload(payload: bytes, headers) -> str:
     return payload.decode("utf-8", errors="replace")
 
 
-def fetch_payload(timestamp: str, original: str, timeout_s: int, wall_timeout_s: float) -> tuple[str, str, str]:
+def fetch_payload(timestamp: str, original: str, timeout_s: int, wall_timeout_s: float, max_bytes: int) -> tuple[str, str, str]:
     target = payload_cache_path(timestamp, original)
     if target.exists() and target.stat().st_size > 0:
         return target.read_text(errors="replace"), relative(target), "cached"
@@ -657,9 +657,17 @@ def fetch_payload(timestamp: str, original: str, timeout_s: int, wall_timeout_s:
     try:
         with wall_clock_timeout(wall_timeout_s):
             with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                text = decode_payload(response.read(), response.headers)
+                payload = response.read(max_bytes + 1 if max_bytes else -1)
+                truncated = bool(max_bytes and len(payload) > max_bytes)
+                if truncated:
+                    payload = payload[:max_bytes]
+                text = decode_payload(payload, response.headers)
     except urllib.error.HTTPError as exc:
-        text = decode_payload(exc.read(), exc.headers)
+        payload = exc.read(max_bytes + 1 if max_bytes else -1)
+        truncated = bool(max_bytes and len(payload) > max_bytes)
+        if truncated:
+            payload = payload[:max_bytes]
+        text = decode_payload(payload, exc.headers)
         if exc.code >= 500:
             ERROR_LOG.open("a", encoding="utf-8").write(f"{utc_now()}\tpayload\t{timestamp}\t{original}\thttp_{exc.code}\n")
             return "", "", f"failed: http_{exc.code}"
@@ -671,7 +679,8 @@ def fetch_payload(timestamp: str, original: str, timeout_s: int, wall_timeout_s:
         return "", "", "empty"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(text, encoding="utf-8")
-    return text, relative(target), "fetched"
+    status = "fetched_truncated" if truncated else "fetched"
+    return text, relative(target), status
 
 
 def select_rows_near_page(rows: list[dict[str, str]], page_timestamp: str, limit: int) -> list[dict[str, str]]:
@@ -887,6 +896,7 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "max_pages_per_game": args.max_pages_per_game,
         "max_candidates_per_page": args.max_candidates_per_page,
         "max_cdx_lookups": args.max_cdx_lookups,
+        "max_payload_bytes": args.max_payload_bytes,
         "stopped_after_cdx_lookup_cap": bool(getattr(args, "stopped_after_cdx_lookup_cap", False)),
         "source_types": sorted(args.source_types_set),
         "match_type": args.match_type,
@@ -1023,6 +1033,7 @@ def main() -> None:
     parser.add_argument("--retry-sleep", type=float, default=1.0, help="Initial seconds to back off between CDX retries.")
     parser.add_argument("--max-samples-per-candidate", type=int, default=1, help="Archived endpoint payloads to inspect per candidate.")
     parser.add_argument("--max-fetches", type=int, default=40, help="Total archived endpoint payload fetches to inspect. 0 means none.")
+    parser.add_argument("--max-payload-bytes", type=int, default=2000000, help="Maximum bytes to read from each archived endpoint payload before parsing.")
     parser.add_argument("--max-cdx-lookups", type=int, default=0, help="Total endpoint CDX lookups to perform. 0 means no cap.")
     parser.add_argument("--refresh-cdx", action="store_true", help="Refresh cached CDX responses.")
     parser.add_argument("--cached-cdx-only", action="store_true", help="Use only existing CDX cache files.")
@@ -1120,6 +1131,7 @@ def main() -> None:
                             row.get("original", ""),
                             args.timeout,
                             args.payload_wall_timeout,
+                            args.max_payload_bytes,
                         )
                         payload_fetches += 1
                         if fetch_status not in {"cached"}:
