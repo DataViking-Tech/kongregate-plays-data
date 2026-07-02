@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T10:01:32Z
+- Run timestamp: 2026-07-02T10:11:39Z
 - Profile games in scope: 5
-- Selected games sample: zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red
+- Selected games sample: Fadious Dragon, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- CDX rows: 2
+- Page jobs: 2
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 0
-- Manifest entries: 367
-- Known failures: 2954
-- Combined history rows: 7933
-- Game-page history rows: 367
+- No explicit count this run: 2
+- Failed this run: 2
+- Manifest entries: 368
+- Known failures: 2960
+- Combined history rows: 7934
+- Game-page history rows: 368
 - Report only: False
