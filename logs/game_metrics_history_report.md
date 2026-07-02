@@ -1,8 +1,8 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-02T06:00:00Z
+- Run timestamp: 2026-07-02T06:16:19Z
 - Catalog games: 2997
-- Catalog scope: offset 0, limit all (66 games)
+- Catalog scope: offset 0, limit all (46 games)
 - Audit statuses: cdx_cache_missing
 - Audit pending only: False
 - Audit missing CDX only: True
@@ -12,10 +12,10 @@
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 10
+- CDX games considered: 5
 - CDX rows found: 0
-- CDX wall timeout: 14.0
-- Metrics wall timeout: 16.0
+- CDX wall timeout: 12.0
+- Metrics wall timeout: 14.0
 - Missing CDX cache files skipped: 0
 - Metrics jobs: 0
 - Pending before run: 0
