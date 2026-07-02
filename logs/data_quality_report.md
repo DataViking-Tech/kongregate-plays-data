@@ -1,6 +1,6 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-07-02T15:36:17Z
+- Run timestamp: 2026-07-02T15:53:21Z
 - As of: 2026-07-02
 - Ranked rows: 48584
 - Ranked rows with play counts: 15916
@@ -16,7 +16,7 @@
 ## Top Issues
 
 - MEDIUM plays/ranked_months_without_listing_play_counts: 134 - Use data/processed/ranked_games_observed_plays.csv or the published .csv.gz for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses.
-- MEDIUM plays/ranked_rows_without_aggregate_asof_play_count: 5095 - Prioritize these rows for per-game metrics/page-history recovery; no play count has been observed on or before their rank date.
+- MEDIUM plays/ranked_rows_without_aggregate_asof_play_count: 5095 - Use data/processed/ranked_asof_missing_recovery_priorities.csv to target the games and date windows driving these misses.
 - HIGH metrics/catalog_games_without_metrics_history: 325 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 2247 - Continue per-game metrics history backfill.
 - MEDIUM plays/suspicious_metric_route_decreases: 2 - Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts.

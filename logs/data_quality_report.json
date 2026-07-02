@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-02T15:36:17Z",
+  "run_timestamp": "2026-07-02T15:53:21Z",
   "as_of": "2026-07-02",
   "ranked_rows": 48584,
   "ranked_rows_with_play_counts": 15916,
@@ -60,7 +60,7 @@
       "first_date": "2014-07-26",
       "last_date": "2026-01-05",
       "example": "AZ Tank Game",
-      "recommended_action": "Prioritize these rows for per-game metrics/page-history recovery; no play count has been observed on or before their rank date."
+      "recommended_action": "Use data/processed/ranked_asof_missing_recovery_priorities.csv to target the games and date windows driving these misses."
     },
     {
       "severity": "high",

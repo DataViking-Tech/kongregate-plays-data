@@ -666,7 +666,7 @@ def main() -> None:
         issues.append(issue(severity, "plays", "ranked_months_without_listing_play_counts", len(zero_play_count_months), first_zero["month"], last_zero["month"], first_zero["example_missing_game"], recommendation))
     if ranked_asof_missing_rows:
         first_missing_dates = sorted(row.get("date", "") for row in ranked_asof_missing_rows if row.get("date"))
-        issues.append(issue("medium", "plays", "ranked_rows_without_aggregate_asof_play_count", len(ranked_asof_missing_rows), first_missing_dates[0] if first_missing_dates else "", first_missing_dates[-1] if first_missing_dates else "", ranked_asof_missing_rows[0].get("game_name", ""), "Prioritize these rows for per-game metrics/page-history recovery; no play count has been observed on or before their rank date."))
+        issues.append(issue("medium", "plays", "ranked_rows_without_aggregate_asof_play_count", len(ranked_asof_missing_rows), first_missing_dates[0] if first_missing_dates else "", first_missing_dates[-1] if first_missing_dates else "", ranked_asof_missing_rows[0].get("game_name", ""), "Use data/processed/ranked_asof_missing_recovery_priorities.csv to target the games and date windows driving these misses."))
     games_without_metrics = [row for row in priority_rows if int(row["metrics_rows"]) == 0]
     if games_without_metrics:
         issues.append(issue("high", "metrics", "catalog_games_without_metrics_history", len(games_without_metrics), "", "", games_without_metrics[0]["game_name"], "Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit."))
