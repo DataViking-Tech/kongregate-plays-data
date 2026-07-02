@@ -18,9 +18,9 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Ranked-list rows with observed play counts: 15,916
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 7,934 across 2,669 canonical games
-- Observed play-count rows used by the chart: 23,850
-- Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,338 observed capture-date frames.
+- Per-game play-history rows: 7,938 across 2,671 canonical games
+- Observed play-count rows used by the chart: 23,854
+- Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,341 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-02
 - Per-game play-history date range: 2007-03-24 to 2026-07-02
 
@@ -28,7 +28,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 
 ## Current QA Focus
 
-- Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-01, plus current live category pages captured on 2026-07-01. The latest Wayback ranked-list capture remains 2026-06-26, and live chart-leader metrics are refreshed through 2026-07-01.
+- Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-02, plus current live category pages captured on 2026-07-02. The latest Wayback ranked-list capture remains 2026-06-26, and live chart-leader metrics are refreshed through 2026-07-02.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,351 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
@@ -191,15 +191,16 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 165 classified the remaining cached-page/no-count bucket more precisely. All 172 unresolved cached page cases contain blank `gameplays_count` placeholders driven by `GameMetricsUpdater.update()`, all 172 now have exact `metrics.json` probe history, and none have archived exact `metrics.json` CDX rows. The current no-metrics gap is therefore 172 `dynamic_metrics_placeholder` games plus 156 `no_page_cdx_rows` games, with no unprobed exact side-endpoint queue left.
 - Checkpoint 166 added a small prefix-match `metrics.json` probe for the six highest-priority dynamic-placeholder games. It added 12 probe-history observations, found 0 archived metric rows and 0 count signals, and left the no-metrics gap unchanged at 172 dynamic metric-placeholder games plus 156 no-page-CDX games.
 - Checkpoint 167 refreshed the lifecycle catalog and workbook after the dynamic-placeholder audit so `game_lifecycle_catalog` now uses the same 172 `dynamic_metrics_placeholder` and 156 `no_page_cdx_rows` gap labels as the current page-gap report. The lifecycle layer still covers all 2,997 mini-catalog games and flags 5 likely plus 14 possible Facebook/social-platform candidates.
+- Checkpoint 168 added a bounded archived developer-game-list probe and recovered 4 new alternate-source play-count observations: three for Fashion Expert and one for How to make an MMORPG. The combined play-history table now has 7,938 rows across 2,671 games, the chart data has 23,854 observed rows across 2,341 frames, and the unresolved no-history gap is down to 326 games: 172 `dynamic_metrics_placeholder` plus 154 `no_page_cdx_rows`.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
 - Checkpoint 28 recovered all 10 archived `metrics.json` observations for DPS IDLE and cleared the last known-failures-only metrics case.
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
-- 328 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
-- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 328 games without any per-game metrics rows, 0 expanded-route CDX cache-missing games, 328 confirmed no-CDX games, and 13,296 expanded-route CDX cache files still missing from the full variant queue.
+- 326 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
+- Metrics gap audit currently has 0 fresh pending captures, 37 known failed archived captures, 326 games without any per-game metrics rows, 0 expanded-route CDX cache-missing games, 326 confirmed no-CDX games, and 13,296 expanded-route CDX cache files still missing from the full variant queue.
 - The lifecycle catalog covers all 2,997 mini-catalog games. It preserves observed Kongregate category labels for 579 games, flags 5 likely and 14 possible Facebook/social-platform candidates using conservative evidence signals, and records live metrics endpoint evidence for 2,113 available endpoints, 339 unavailable endpoints, 544 not-yet-checked endpoints, and 1 stale live failure older than a later observation.
-- The no-CDX profile started with 329 originally no-history/no-CDX games. One now has a recovered parsed page count; the current no-metrics gap is 328 games: 172 dynamic metric-placeholder pages whose exact archived `metrics.json` endpoints have no CDX rows, and 156 games whose checked page URL variants have no usable CDX rows. Remaining recovery work is focused on broader prefix/listing/source sweeps or outside source shapes rather than untried exact-match side endpoints.
+- The no-CDX profile started with 329 originally no-history/no-CDX games. Three now have recovered alternate or parsed page counts; the current no-metrics gap is 326 games: 172 dynamic metric-placeholder pages whose exact archived `metrics.json` endpoints have no CDX rows, and 154 games whose checked page URL variants have no usable CDX rows. Remaining recovery work is focused on broader prefix/listing/source sweeps or outside source shapes rather than untried exact-match side endpoints.
 - True monotonic play-count decreases now scan at 0. Two suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 432 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
 - Final chart leaders have current live metrics observations as of 2026-07-02.
 
@@ -225,6 +226,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/metrics_no_cdx_profile.csv` and `logs/metrics_no_cdx_profile_report.*` - triage profile for the remaining no-CDX games.
 - `logs/high_value_no_cdx_targeted_probe_report.*` - checkpoint report for the targeted high-value no-CDX page/metrics probe.
 - `data/processed/count_source_probe_candidates.csv` and `logs/count_source_probe_report.*` - alternate endpoint source-shape probe for unresolved play-count gaps.
+- `data/processed/developer_game_list_probe_candidates.csv` and `logs/developer_game_list_probe_report.*` - archived developer-list source-shape probe for older unresolved play-count gaps.
+- `data/processed/count_source_play_counts.csv` - deduped alternate-source play-count observations folded into `game_play_history`.
 - `scripts/` - scraper, extractor, catalog, metrics-history, workbook, and chart builders.
 
 ## Rebuild Commands
@@ -243,6 +246,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-
 python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --max-cdx-games 3 --cdx-only --expanded-route-variants
 python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --game-name-contains 'RPgTest,Mining Truck,Swimwear Store' --max-cdx-games 3 --expanded-route-variants
 python3 scripts/probe_archived_count_sources.py --max-games 7 --max-pages-per-game 1 --max-candidates-per-page 10 --match-type prefix --max-fetches 40
+python3 scripts/probe_archived_developer_game_lists.py --tiers 3 --match-type prefix --max-games 25 --max-captures-per-source 8
 python3 scripts/fetch_game_page_history.py --tiers 1 --max-cdx-games 9 --variant-limit 2 --max-fetches 160
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains 'diaper,papa,swords' --cached-cdx-only --max-fetches 120
 python3 scripts/fetch_game_page_history.py --tiers 1 --game-name-contains ufomania --cached-cdx-only --variant-limit 2 --max-fetches 60

@@ -5536,6 +5536,36 @@
       "notes": "Extracted from archived game page HTML data/raw/game_pages/html/20090825115345_http_www.kongregate.com_80_games_ArmorGames_sonny_5bf8d27fe98f79ef.html"
     },
     {
+      "date": "2012-06-13",
+      "game_name": "How to make an MMORPG",
+      "game_url": "http://www.kongregate.com/games/PaperCup/how-to-make-an-mmorpg",
+      "plays_count_observed": 2370,
+      "favorites_count_observed": "",
+      "plays_text": "2370",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com:80/games/PaperCup",
+      "capture_timestamp": "20120613173408",
+      "capture_url": "https://web.archive.org/web/20120613173408/http://www.kongregate.com:80/games/PaperCup",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20120613173408_http_www.kongregate.com_80_games_PaperCup_1732c2975160743b.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/papercup differs from target www.kongregate.com/games/papercup/how-to-make-an-mmorpg"
+    },
+    {
+      "date": "2013-03-31",
+      "game_name": "Fashion Expert",
+      "game_url": "http://www.kongregate.com/games/games2girls/fashion-expert",
+      "plays_count_observed": 4223,
+      "favorites_count_observed": "",
+      "plays_text": "4223",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com/games/games2girls",
+      "capture_timestamp": "20130331073714",
+      "capture_url": "https://web.archive.org/web/20130331073714/http://www.kongregate.com/games/games2girls",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20130331073714_http_www.kongregate.com_games_games2girls_e0d037e7b98995b5.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com/games/games2girls differs from target www.kongregate.com/games/games2girls/fashion-expert"
+    },
+    {
       "date": "2013-09-18",
       "game_name": "Kingdom Rush",
       "game_url": "https://www.kongregate.com/games/Ironhidegames/kingdom-rush",
@@ -5564,6 +5594,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20140218090145_http_www.kongregate.com_80_games_Ironhidegames_kingdom-rush_metrics.json_aa7a05722b6f86a9.json"
+    },
+    {
+      "date": "2014-03-17",
+      "game_name": "Fashion Expert",
+      "game_url": "http://www.kongregate.com/games/games2girls/fashion-expert",
+      "plays_count_observed": 4223,
+      "favorites_count_observed": "",
+      "plays_text": "4223",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com:80/games/games2girls",
+      "capture_timestamp": "20140317235353",
+      "capture_url": "https://web.archive.org/web/20140317235353/http://www.kongregate.com:80/games/games2girls",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20140317235353_http_www.kongregate.com_80_games_games2girls_7e5cc1781a2a86ca.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/games2girls differs from target www.kongregate.com/games/games2girls/fashion-expert"
+    },
+    {
+      "date": "2014-03-19",
+      "game_name": "Fashion Expert",
+      "game_url": "http://www.kongregate.com/games/games2girls/fashion-expert",
+      "plays_count_observed": 4224,
+      "favorites_count_observed": "",
+      "plays_text": "4224",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com:80/games/games2girls",
+      "capture_timestamp": "20140319042920",
+      "capture_url": "https://web.archive.org/web/20140319042920/http://www.kongregate.com:80/games/games2girls",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20140319042920_http_www.kongregate.com_80_games_games2girls_cfedf25aa39540b6.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/games2girls differs from target www.kongregate.com/games/games2girls/fashion-expert"
     },
     {
       "date": "2014-07-15",

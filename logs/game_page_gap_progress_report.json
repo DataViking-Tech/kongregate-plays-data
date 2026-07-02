@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T10:46:41Z",
+  "generated_at": "2026-07-02T11:16:07Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -7,19 +7,19 @@
     3
   ],
   "metrics_row_status": "no_metrics",
-  "profile_games": 328,
+  "profile_games": 326,
   "status_counts": {
     "dynamic_metrics_placeholder": 172,
-    "no_page_cdx_rows": 156
+    "no_page_cdx_rows": 154
   },
   "recommended_action_counts": {
     "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 172,
-    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 156
+    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 154
   },
   "dynamic_metric_placeholder_games": 172,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 172,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
-  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 23,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 37,
   "high_value_unresolved_games": 242,
   "top_unresolved_examples": [
     {
@@ -617,7 +617,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 2,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 150,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -643,7 +643,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 16,
+      "alternate_endpoint_cdx_rows": 166,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
