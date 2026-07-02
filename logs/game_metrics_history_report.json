@@ -9,7 +9,7 @@
   "cached_cdx_only": false,
   "cached_selected_this_run": 0,
   "catalog_games": 2997,
-  "catalog_games_in_scope": 258,
+  "catalog_games_in_scope": 251,
   "catalog_limit": 0,
   "catalog_offset": 0,
   "cdx_games_considered": 5,
@@ -34,7 +34,7 @@
   "metrics_wall_timeout": 16.0,
   "needs_history_only": false,
   "pending_before_run": 0,
-  "run_timestamp": "2026-07-02T02:12:46Z",
+  "run_timestamp": "2026-07-02T02:33:25Z",
   "schemes": [
     "http",
     "https"
