@@ -20,7 +20,7 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Catalog games with recovered Kongregate game IDs: 2,386
 - Per-game play-history rows: 7,933 across 2,668 canonical games
 - Observed play-count rows used by the chart: 23,150
-- Chart playback: Smooth mode uses 22,465 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
+- Chart playback: Smooth mode uses 11,233 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-01
 - Per-game play-history date range: 2007-03-24 to 2026-07-01
 
@@ -131,6 +131,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 106 ran two additional guarded five-game expanded-route metrics slices. Together they fetched 35 more CDX route caches, reused 20 cached route checks, hit 5 transient CDX failures, found 0 archived metrics rows, and moved the expanded-route queue to 269 `cdx_cache_missing` games plus 60 confirmed `no_cdx` games.
 - Checkpoint 107 ran two additional guarded five-game expanded-route metrics slices. Together they fetched 31 more CDX route caches, reused 25 cached route checks, hit 4 transient CDX failures, found 0 archived metrics rows, and moved the expanded-route queue to 262 `cdx_cache_missing` games plus 67 confirmed `no_cdx` games.
 - Checkpoint 108 ran two additional guarded five-game expanded-route metrics slices. Together they fetched 38 more CDX route caches, reused 15 cached route checks, hit 7 transient CDX failures, found 0 archived metrics rows, and moved the expanded-route queue to 255 `cdx_cache_missing` games plus 74 confirmed `no_cdx` games.
+- Visualization polish after checkpoint 108 reduces Smooth-mode jitter by driving playback from fractional elapsed time, giving entering and exiting rows a short fade/slide, and keeping bar-width updates direct while row rank changes ease between lanes. The live chart remains hooked to `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` in this repo at runtime.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

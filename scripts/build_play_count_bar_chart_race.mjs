@@ -662,9 +662,9 @@ function htmlDocument() {
     const transitionMs = 760;
     const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
-    const rowPositionPrecision = 1;
-    const barScalePrecision = 2000;
-    const barScaleThreshold = 0.0005;
+    const rowPositionPrecision = 2;
+    const barScalePrecision = 5000;
+    const barScaleThreshold = 0.0002;
     const rowsByKey = new Map();
 
     let frameIndex = 0;
@@ -673,6 +673,7 @@ function htmlDocument() {
     let rafId = null;
     let playbackMode = "smooth";
     let lastSliderSyncFrame = -1;
+    let lastRenderedPosition = null;
 
     async function loadPayload() {
       const candidates = [
@@ -887,15 +888,16 @@ function htmlDocument() {
 
     function syncFrameSlider(index, options = {}) {
       if (!frames.length) return;
+      const sliderIndex = Math.floor(Number(index) || 0);
       const force = options.force === true;
       const shouldSync = force
         || playbackMode !== "smooth"
-        || Math.abs(index - lastSliderSyncFrame) >= sliderSyncEvery
-        || index === 0
-        || index === frames.length - 1;
+        || Math.abs(sliderIndex - lastSliderSyncFrame) >= sliderSyncEvery
+        || sliderIndex === 0
+        || sliderIndex === frames.length - 1;
       if (!shouldSync) return;
-      frameSlider.value = String(index);
-      lastSliderSyncFrame = index;
+      frameSlider.value = String(sliderIndex);
+      lastSliderSyncFrame = sliderIndex;
     }
 
     function normalizeFrameIndex(index) {
@@ -903,6 +905,13 @@ function htmlDocument() {
       const numericIndex = Number(index);
       if (!Number.isFinite(numericIndex)) return 0;
       return ((Math.trunc(numericIndex) % frames.length) + frames.length) % frames.length;
+    }
+
+    function normalizeFramePosition(index) {
+      if (!frames.length) return 0;
+      const numericIndex = Number(index);
+      if (!Number.isFinite(numericIndex)) return 0;
+      return ((numericIndex % frames.length) + frames.length) % frames.length;
     }
 
     function interpolateFrame(startFrame, endFrame, ratio) {
@@ -982,6 +991,28 @@ function htmlDocument() {
       return smoothFrames;
     }
 
+    function playbackFrameAt(position) {
+      const safePosition = normalizeFramePosition(position);
+      const lowerIndex = Math.floor(safePosition);
+      const lowerFrame = frames[lowerIndex];
+      if (!lowerFrame) return null;
+
+      const ratio = safePosition - lowerIndex;
+      if (ratio <= 0.001 || lowerIndex >= frames.length - 1) return lowerFrame;
+
+      const upperFrame = frames[lowerIndex + 1];
+      if (!upperFrame) return lowerFrame;
+      return motionReadyFrame(interpolateFrame(lowerFrame, upperFrame, ratio));
+    }
+
+    function currentFrameAnchor() {
+      if (!frames.length) return null;
+      const safeIndex = playbackMode === "smooth"
+        ? Math.floor(normalizeFramePosition(frameIndex))
+        : normalizeFrameIndex(frameIndex);
+      return frames[safeIndex] || null;
+    }
+
     function frameScaleMax(entries) {
       const topValue = Math.max(1, ...entries.map((entry) => entry.plays || 0));
       return topValue * 1.08;
@@ -1018,6 +1049,7 @@ function htmlDocument() {
       frameSlider.max = Math.max(frames.length - 1, 0);
       rowsEl.classList.toggle("isDirectMotion", playbackMode === "smooth");
       lastSliderSyncFrame = -1;
+      lastRenderedPosition = null;
       syncFrameSlider(frameIndex, { force: true });
       if (modeChanged) resetRows();
       updateModeButtons();
@@ -1029,6 +1061,7 @@ function htmlDocument() {
       rowsByKey.clear();
       rowsEl.replaceChildren();
       rowsEl.dataset.ready = "true";
+      lastRenderedPosition = null;
     }
 
     function formatPlays(value) {
@@ -1168,12 +1201,6 @@ function htmlDocument() {
 
     function removeInactiveRow(key, row) {
       if (row.dataset.exiting === "true") return;
-      if (playbackMode === "smooth") {
-        clearTimeout(row._removeTimer);
-        rowsByKey.delete(key);
-        row.remove();
-        return;
-      }
       row.dataset.exiting = "true";
       row.classList.remove("isVisible");
       row.classList.add("isExiting");
@@ -1185,7 +1212,7 @@ function htmlDocument() {
         if (row.dataset.exiting !== "true") return;
         rowsByKey.delete(key);
         row.remove();
-      }, transitionMs + 220);
+      }, playbackMode === "smooth" ? 260 : transitionMs + 220);
     }
 
     function renderFrame(nextIndex) {
@@ -1194,9 +1221,12 @@ function htmlDocument() {
         return;
       }
 
-      const safeIndex = normalizeFrameIndex(nextIndex);
-      if (safeIndex !== nextIndex) frameIndex = safeIndex;
-      const frame = frames[safeIndex];
+      const safePosition = playbackMode === "smooth"
+        ? normalizeFramePosition(nextIndex)
+        : normalizeFrameIndex(nextIndex);
+      if (safePosition !== nextIndex) frameIndex = safePosition;
+      const safeIndex = Math.floor(safePosition);
+      const frame = playbackMode === "smooth" ? playbackFrameAt(safePosition) : frames[safeIndex];
       if (!frame) return;
       const entries = frame.entries.slice(0, renderedRows);
       const maxValue = Number.isFinite(frame.scaleMax) ? frame.scaleMax : frameScaleMax(entries);
@@ -1232,10 +1262,9 @@ function htmlDocument() {
         if (!row) {
           row = rowElement(entry);
           row.dataset.key = rowKey;
-          if (playbackMode === "smooth") setStyleIfChanged(row, "transform", targetTransform);
           rowsByKey.set(rowKey, row);
           rowsEl.append(row);
-          if (playbackMode !== "smooth") row.getBoundingClientRect();
+          if (animateNewRows) row.getBoundingClientRect();
         }
         updateRow(row, entry, maxValue, index);
         row.dataset.exiting = "false";
@@ -1244,7 +1273,7 @@ function htmlDocument() {
         row.classList.toggle("isBuffered", index >= visibleRows);
         activeKeys.add(rowKey);
         if (isNew) {
-          if (!animateNewRows || playbackMode === "smooth") {
+          if (!animateNewRows) {
             setStyleIfChanged(row, "transform", targetTransform);
             row.classList.add("isVisible");
           } else {
@@ -1302,10 +1331,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(24, Math.min(90, delay * 0.78))
+        ? 0
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? duration
+        ? Math.max(110, Math.min(180, delay * 1.45))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
@@ -1343,11 +1372,18 @@ function htmlDocument() {
           return;
         }
 
-        if (now - lastAdvancedAt >= delay) {
+        if (playbackMode === "smooth") {
+          const elapsed = Math.min(Math.max(0, now - lastAdvancedAt), delay * 4);
+          lastAdvancedAt = now;
+          frameIndex = normalizeFramePosition(frameIndex + (elapsed / delay));
+          const renderPosition = Math.round(frameIndex * 100) / 100;
+          if (lastRenderedPosition === null || Math.abs(renderPosition - lastRenderedPosition) >= 0.01) {
+            renderFrame(renderPosition);
+            lastRenderedPosition = renderPosition;
+          }
+        } else if (now - lastAdvancedAt >= delay) {
           const elapsedSteps = Math.floor((now - lastAdvancedAt) / delay);
-          const stepCount = playbackMode === "smooth"
-            ? 1
-            : Math.max(1, Math.min(2, elapsedSteps));
+          const stepCount = Math.max(1, Math.min(2, elapsedSteps));
           frameIndex = normalizeFrameIndex(frameIndex + stepCount);
           renderFrame(frameIndex);
           lastAdvancedAt = elapsedSteps > stepCount
@@ -1377,7 +1413,8 @@ function htmlDocument() {
     for (const button of modeButtons) {
       button.addEventListener("click", () => {
         if (button.dataset.mode === playbackMode) return;
-        const targetDate = frames[frameIndex]?.sourceDate || frames[frameIndex]?.date;
+        const currentFrame = currentFrameAnchor();
+        const targetDate = currentFrame?.sourceDate || currentFrame?.date;
         setPlaybackMode(button.dataset.mode, targetDate);
         syncMotionTiming();
         renderFrame(frameIndex);
