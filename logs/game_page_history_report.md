@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:00:59Z
-- Profile games in scope: 8
-- Selected games sample: Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T09:07:07Z
+- Profile games in scope: 4
+- Selected games sample: rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
-- CDX games considered: 5
+- CDX games considered: 4
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 12s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 1
-- Page jobs: 1
-- Pending before run: 1
-- Attempted this run: 1
-- Fetched this run: 1
+- CDX rows: 13
+- Page jobs: 13
+- Pending before run: 13
+- Attempted this run: 4
+- Fetched this run: 4
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 1
+- No explicit count this run: 4
+- Failed this run: 4
 - Manifest entries: 367
-- Known failures: 2925
+- Known failures: 2929
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
