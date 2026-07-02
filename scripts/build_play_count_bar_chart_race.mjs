@@ -801,7 +801,7 @@ function htmlDocument() {
     }
 
     function smoothRatio(ratio) {
-      return ratio * ratio * (3 - (2 * ratio));
+      return Math.max(0, Math.min(1, ratio));
     }
 
     function numericMonth(monthId) {
@@ -935,12 +935,17 @@ function htmlDocument() {
         .slice(0, renderedRows);
 
       const entries = sortedEntries
-        .map((entry, index) => ({
-          ...entry,
-          rank: index + 1,
-          displayOrder: index + 1,
-          slotPosition: index,
-        }));
+        .map((entry, index) => {
+          const visualRankPosition = Number.isFinite(Number(entry.rankPosition))
+            ? Number(entry.rankPosition)
+            : index + 1;
+          return {
+            ...entry,
+            rank: index + 1,
+            displayOrder: visualRankPosition,
+            slotPosition: clampedSlotPosition(visualRankPosition - 1),
+          };
+        });
 
       const displayDate = interpolatedDisplayDate(startFrame, endFrame, ratio).slice(0, 7);
 
@@ -1296,10 +1301,10 @@ function htmlDocument() {
     function syncMotionTiming() {
       const delay = playbackDelay();
       const duration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(260, delay * 2.05))
+        ? Math.max(42, Math.min(140, delay * 1.35))
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(90, Math.min(260, delay * 2.05))
+        ? duration
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
@@ -1340,7 +1345,7 @@ function htmlDocument() {
         if (now - lastAdvancedAt >= delay) {
           const elapsedSteps = Math.floor((now - lastAdvancedAt) / delay);
           const stepCount = playbackMode === "smooth"
-            ? Math.max(1, Math.min(3, elapsedSteps))
+            ? 1
             : Math.max(1, Math.min(2, elapsedSteps));
           frameIndex = normalizeFrameIndex(frameIndex + stepCount);
           renderFrame(frameIndex);
