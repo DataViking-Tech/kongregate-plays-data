@@ -3,12 +3,13 @@
   "fresh_pending_captures": 0,
   "games_with_fresh_pending_captures": 0,
   "games_without_metrics_rows": 329,
-  "generated_at": "2026-07-01T11:27:33Z",
+  "generated_at": "2026-07-02T00:42:44Z",
   "known_failed_captures": 37,
-  "missing_cdx_cache_files": 157,
+  "missing_cdx_cache_files": 14879,
   "status_counts": {
+    "cdx_cache_missing": 319,
     "has_metrics": 2668,
-    "no_cdx": 329
+    "no_cdx": 10
   },
   "top_unresolved_games": [
     {
@@ -42,7 +43,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -53,7 +54,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -75,7 +76,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -86,7 +87,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -108,7 +109,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -119,7 +120,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -130,7 +131,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -152,7 +153,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "1",
@@ -163,7 +164,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3351,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -174,7 +175,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -185,7 +186,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -196,7 +197,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -207,7 +208,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -218,7 +219,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -229,7 +230,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -240,7 +241,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -251,7 +252,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -262,7 +263,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -273,7 +274,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     },
     {
       "best_rank": "2",
@@ -284,7 +285,7 @@
       "known_failed_captures": 0,
       "metrics_rows": 0,
       "priority_score": 3251,
-      "status": "no_cdx"
+      "status": "cdx_cache_missing"
     }
   ],
   "valid_cached_captures": 5454

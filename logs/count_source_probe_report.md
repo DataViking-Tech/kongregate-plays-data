@@ -1,26 +1,40 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-02T00:19:29Z
-- Target games: 6
-- Status filter: transient_failures_remaining
-- Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 6
-- Endpoint candidates checked: 52
-- Candidate observation rows: 52
-- CDX status counts: cached=18, fetched=34
-- CDX rows found: 2
-- Candidates with CDX rows: 2
+- Generated: 2026-07-02T00:36:17Z
+- Target games: 5
+- Status filter: archived_endpoint_hit_no_count
+- Games with cached archived pages: 5
+- Games direct-probed from catalog URLs: 0
+- Endpoint candidates checked: 10
+- Candidate observation rows: 16
+- CDX status counts: cached=16
+- CDX rows found: 72
+- Candidates with CDX rows: 16
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 1 (0 new this run)
-- Accumulated probe-history rows: 7846 (52 new, 0 refreshed)
+- Accumulated probe-history rows: 7856 (0 new, 16 refreshed)
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Quantum Of Light | holodeck | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | 1 |
-| Quantum Of Light | holodeck | `https://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | `http://www.kongregate.com/games/foumart/quantum-of-light/holodeck` | 1 |
+| Make Me 10 | game_path_prefix | `http://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `http://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `http://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `http://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `https://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `https://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `https://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Make Me 10 | game_path_prefix | `https://www.kongregate.com/games/LinhVo1611/make-me-10` | `http://www.kongregate.com:80/games/LinhVo1611/make-me-10` | 8 |
+| Key to Success | game_path_prefix | `http://www.kongregate.com/games/SamuelVenable/key-to-success` | `http://www.kongregate.com:80/games/SamuelVenable/key-to-success` | 1 |
+| Key to Success | game_path_prefix | `https://www.kongregate.com/games/SamuelVenable/key-to-success` | `http://www.kongregate.com:80/games/SamuelVenable/key-to-success` | 1 |
+| Missiles Again | game_path_prefix | `http://www.kongregate.com/games/mafagames/missiles-again` | `http://www.kongregate.com:80/games/mafagames/missiles-again` | 1 |
+| Missiles Again | game_path_prefix | `https://www.kongregate.com/games/mafagames/missiles-again` | `http://www.kongregate.com:80/games/mafagames/missiles-again` | 1 |
+| Run Bird Run Online | game_path_prefix | `http://www.kongregate.com/games/mafagames/run-bird-run-online` | `http://www.kongregate.com:80/games/mafagames/run-bird-run-online` | 1 |
+| Run Bird Run Online | game_path_prefix | `https://www.kongregate.com/games/mafagames/run-bird-run-online` | `http://www.kongregate.com:80/games/mafagames/run-bird-run-online` | 1 |
+| The Space Commando | game_path_prefix | `http://www.kongregate.com/games/Eternal_Vanguard/the-space-commando` | `http://www.kongregate.com:80/games/Eternal_Vanguard/the-space-commando` | 1 |
+| The Space Commando | game_path_prefix | `https://www.kongregate.com/games/Eternal_Vanguard/the-space-commando` | `http://www.kongregate.com:80/games/Eternal_Vanguard/the-space-commando` | 1 |
 
 ## Interpretation
 

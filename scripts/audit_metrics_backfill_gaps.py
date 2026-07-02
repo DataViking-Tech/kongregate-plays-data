@@ -145,7 +145,7 @@ def cached_cdx_rows(catalog_index: int, game_url: str, game_name: str, variants:
     missing_cache_files = 0
     metrics_urls = []
     for variant in variants or (game_url,):
-        metrics_urls.extend(metric_cdx_keys_for_game(variant))
+        metrics_urls.extend(metric_cdx_keys_for_game(variant, expanded_routes=True))
     for metrics_url in dict.fromkeys(metrics_urls):
         cache_path = cdx_cache_path(metrics_url)
         if not cache_path.exists():

@@ -1,18 +1,18 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-01T07:18:25Z
+- Run timestamp: 2026-07-02T00:42:30Z
 - Catalog games: 2997
-- Catalog scope: offset 0, limit all (4 games)
-- Audit statuses: no_cdx
+- Catalog scope: offset 0, limit all (324 games)
+- Audit statuses: cdx_cache_missing
 - Audit pending only: False
-- Audit missing CDX only: False
+- Audit missing CDX only: True
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: Last Warrior,SpaceWarrior,SuperBall Idle,Surrounded
+- Game-name filter: none
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 4
+- CDX games considered: 20
 - CDX rows found: 0
 - Missing CDX cache files skipped: 0
 - Metrics jobs: 0
@@ -21,6 +21,6 @@
 - Fetched this run: 0
 - Failed this run: 0
 - Manifest entries: 5452
-- History rows: 7932
-- Games with history: 2786
+- History rows: 7933
+- Games with history: 2787
 - History date range: 2007-03-24 to 2026-07-01

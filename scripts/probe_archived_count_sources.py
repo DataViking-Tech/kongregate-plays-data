@@ -70,6 +70,18 @@ HISTORY_COLUMNS = [
     "probe_seen_count",
     *CSV_COLUMNS,
 ]
+ZERO_PLACEHOLDER_SIGNALS = {
+    "gameplays_count_with_delimiter",
+    "gameplays_count",
+    "plays_count",
+}
+GENERIC_COUNT_TERM_NOTES = {
+    "gameplays_count",
+    "gameplays",
+    "plays",
+    "favorites_count",
+    "favorite_message",
+}
 
 
 class RequestWallClockTimeout(TimeoutError):
@@ -673,23 +685,55 @@ def analyze_payload(text: str) -> tuple[str, int, str]:
     if not text:
         return "", 0, ""
     patterns = [
-        ("gameplays_count_with_delimiter", r"gameplays_count_with_delimiter[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
-        ("gameplays_count", r"gameplays_count[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
-        ("plays_count", r"plays_count[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
+        ("gameplays_count_with_delimiter", r"(?<![A-Za-z0-9_])gameplays_count_with_delimiter[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
+        ("gameplays_count", r"(?<![A-Za-z0-9_])gameplays_count[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
+        ("plays_count", r"(?<![A-Za-z0-9_])plays_count[\"']?\s*[:=]\s*[\"']?(\d[\d,]*)"),
         ("favorite_game_block", r"Favorited\s+\d[\d,]*\s+times\s+(\d[\d,]*)\s+(?:gameplays|plays)\b"),
         ("plain_gameplays", r"(\d[\d,]*)\s+(?:gameplays|plays)\b"),
     ]
+    zero_terms = []
     for label, pattern in patterns:
-        match = re.search(pattern, text, flags=re.IGNORECASE)
-        if match:
-            return label, parse_int(match.group(1)), ""
+        for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+            plays = parse_int(match.group(1))
+            if plays > 0:
+                return label, plays, ""
+            if label in ZERO_PLACEHOLDER_SIGNALS:
+                zero_terms.append(f"zero_{label}")
     terms = []
-    for term in ["gameplays_count", "gameplays", "plays", "favorites_count", "favorite_message"]:
-        if term.lower() in text.lower():
+    term_patterns = [
+        ("gameplays_count", r"(?<![A-Za-z0-9_])gameplays_count(?![A-Za-z0-9_])"),
+        ("gameplays", r"(?<![A-Za-z0-9_])gameplays(?![A-Za-z0-9_])"),
+        ("plays", r"(?<![A-Za-z0-9_])plays(?![A-Za-z0-9_])"),
+        ("favorites_count", r"(?<![A-Za-z0-9_])favorites_count(?![A-Za-z0-9_])"),
+        ("favorite_message", r"(?<![A-Za-z0-9_])favorite_message(?![A-Za-z0-9_])"),
+    ]
+    for term, pattern in term_patterns:
+        if re.search(pattern, text, flags=re.IGNORECASE):
             terms.append(term)
+    zero_notes = list(dict.fromkeys(zero_terms))
+    if zero_notes:
+        return "", 0, ",".join(zero_notes)
     if terms:
-        return "term_only", 0, ",".join(terms)
+        return "term_only", 0, ",".join(list(dict.fromkeys([*zero_notes, *terms])))
+    if zero_notes:
+        return "", 0, ",".join(zero_notes)
     return "", 0, ""
+
+
+def normalize_candidate_row(row: dict[str, object]) -> dict[str, object]:
+    normalized = dict(row)
+    for column in CSV_COLUMNS:
+        normalized.setdefault(column, "")
+    signal = str(normalized.get("count_signal", ""))
+    if parse_int(normalized.get("parsed_plays")) <= 0 and signal in ZERO_PLACEHOLDER_SIGNALS:
+        notes = [part for part in str(normalized.get("notes", "")).split(",") if part]
+        notes.append(f"zero_{signal}")
+        normalized["count_signal"] = ""
+        normalized["notes"] = ",".join(dict.fromkeys(notes))
+    notes = [part for part in str(normalized.get("notes", "")).split(",") if part]
+    if any(part.startswith("zero_") for part in notes):
+        normalized["notes"] = ",".join(part for part in dict.fromkeys(notes) if part not in GENERIC_COUNT_TERM_NOTES)
+    return normalized
 
 
 def write_candidates(rows: list[dict[str, object]]) -> None:
@@ -697,7 +741,7 @@ def write_candidates(rows: list[dict[str, object]]) -> None:
     with CANDIDATES_CSV.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=CSV_COLUMNS, lineterminator="\n")
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(normalize_candidate_row(row) for row in rows)
 
 
 def history_row_key(row: dict[str, object]) -> tuple[str, ...]:
@@ -714,6 +758,7 @@ def merge_candidate_history(rows: list[dict[str, object]], run_timestamp: str) -
     for row in existing_rows:
         if cdx_status_prefix(row.get("cdx_status")) == "missing_cache_skipped":
             continue
+        row = normalize_candidate_row(row)
         key = history_row_key(row)
         merged[key] = {column: row.get(column, "") for column in HISTORY_COLUMNS}
 
@@ -722,6 +767,7 @@ def merge_candidate_history(rows: list[dict[str, object]], run_timestamp: str) -
     for row in rows:
         if cdx_status_prefix(row.get("cdx_status")) == "missing_cache_skipped":
             continue
+        row = normalize_candidate_row(row)
         key = history_row_key(row)
         if key not in merged:
             merged[key] = {
