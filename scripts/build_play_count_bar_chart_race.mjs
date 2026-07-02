@@ -429,7 +429,7 @@ function htmlDocument() {
 
     .rows.isDirectMotion .barRow {
       transition:
-        transform var(--row-move-duration) linear,
+        transform var(--row-move-duration) cubic-bezier(0.2, 0, 0, 1),
         opacity 140ms ease;
     }
 
@@ -583,7 +583,7 @@ function htmlDocument() {
 
       .rows.isDirectMotion .barRow {
         transition:
-          transform var(--row-move-duration) linear,
+          transform var(--row-move-duration) cubic-bezier(0.2, 0, 0, 1),
           opacity 140ms ease;
       }
 
@@ -1346,7 +1346,7 @@ function htmlDocument() {
         ? 0
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(70, Math.min(120, delay * 0.9))
+        ? Math.max(220, Math.min(360, delay * 3.2))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
