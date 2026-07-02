@@ -6717,7 +6717,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -8271,7 +8271,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -8733,7 +8733,7 @@
       "max_play_count_observed": 5,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -9321,7 +9321,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -10203,7 +10203,7 @@
       "max_play_count_observed": 10,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -10413,7 +10413,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -14403,7 +14403,7 @@
       "max_play_count_observed": 13,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -14781,7 +14781,7 @@
       "max_play_count_observed": 331,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -17595,7 +17595,7 @@
       "max_play_count_observed": 5,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -18057,7 +18057,7 @@
       "max_play_count_observed": 2,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -18267,7 +18267,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -18309,7 +18309,7 @@
       "max_play_count_observed": 21,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -19065,7 +19065,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -19275,7 +19275,7 @@
       "max_play_count_observed": 241,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -19569,7 +19569,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -24231,7 +24231,7 @@
       "max_play_count_observed": 122,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -24861,7 +24861,7 @@
       "max_play_count_observed": 21,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -26163,7 +26163,7 @@
       "max_play_count_observed": 27,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -27465,7 +27465,7 @@
       "max_play_count_observed": 38,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -27717,7 +27717,7 @@
       "max_play_count_observed": 431,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -28305,7 +28305,7 @@
       "max_play_count_observed": 86,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -28893,7 +28893,7 @@
       "max_play_count_observed": 122,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -29481,7 +29481,7 @@
       "max_play_count_observed": 315,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -32715,7 +32715,7 @@
       "max_play_count_observed": 230,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -32925,7 +32925,7 @@
       "max_play_count_observed": 24,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -34185,7 +34185,7 @@
       "max_play_count_observed": 8,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -34773,7 +34773,7 @@
       "max_play_count_observed": 252,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -34941,7 +34941,7 @@
       "max_play_count_observed": 159,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -37041,7 +37041,7 @@
       "max_play_count_observed": 243,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -37881,7 +37881,7 @@
       "max_play_count_observed": 101,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -38133,7 +38133,7 @@
       "max_play_count_observed": 190,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -41493,7 +41493,7 @@
       "max_play_count_observed": 103,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -42165,7 +42165,7 @@
       "max_play_count_observed": 133,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -42291,7 +42291,7 @@
       "max_play_count_observed": 14,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -43089,7 +43089,7 @@
       "max_play_count_observed": 8,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -44013,7 +44013,7 @@
       "max_play_count_observed": 45,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -44097,7 +44097,7 @@
       "max_play_count_observed": 997,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -44601,7 +44601,7 @@
       "max_play_count_observed": 452,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -46155,7 +46155,7 @@
       "max_play_count_observed": 99,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -47835,7 +47835,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -50103,7 +50103,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -50649,7 +50649,7 @@
       "max_play_count_observed": 28,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -51069,7 +51069,7 @@
       "max_play_count_observed": 182,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -51279,7 +51279,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -51783,7 +51783,7 @@
       "max_play_count_observed": 146,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -57411,7 +57411,7 @@
       "max_play_count_observed": 35,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -60687,7 +60687,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -60855,7 +60855,7 @@
       "max_play_count_observed": 16,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -61485,7 +61485,7 @@
       "max_play_count_observed": 15,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -63837,7 +63837,7 @@
       "max_play_count_observed": 367,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -64383,7 +64383,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -65475,7 +65475,7 @@
       "max_play_count_observed": 235,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -66189,7 +66189,7 @@
       "max_play_count_observed": 21,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -68919,7 +68919,7 @@
       "max_play_count_observed": 355,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -69465,7 +69465,7 @@
       "max_play_count_observed": 294,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -69885,7 +69885,7 @@
       "max_play_count_observed": 386,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -71691,7 +71691,7 @@
       "max_play_count_observed": 150,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -71775,7 +71775,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -71817,7 +71817,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -72447,7 +72447,7 @@
       "max_play_count_observed": 176,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -72699,7 +72699,7 @@
       "max_play_count_observed": 55,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -74169,7 +74169,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -74295,7 +74295,7 @@
       "max_play_count_observed": 123,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -76983,7 +76983,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -84879,7 +84879,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -98067,7 +98067,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -100797,7 +100797,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -101847,7 +101847,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -106887,7 +106887,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -111297,7 +111297,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -112431,7 +112431,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -113145,7 +113145,7 @@
       "max_play_count_observed": 163,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -114069,7 +114069,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -116169,7 +116169,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "dynamic_metrics_placeholder",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -118983,7 +118983,7 @@
       "max_play_count_observed": 0,
       "page_gap_status": "no_page_cdx_rows",
       "metrics_audit_status": "no_cdx",
-      "count_source_probe_status": "transient_failures_remaining",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification. Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
