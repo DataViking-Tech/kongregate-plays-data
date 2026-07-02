@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T10:29:33Z",
+  "generated_at": "2026-07-02T10:42:21Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -9,17 +9,21 @@
   "metrics_row_status": "no_metrics",
   "profile_games": 328,
   "status_counts": {
-    "html_without_explicit_count": 172,
+    "dynamic_metrics_placeholder": 172,
     "no_page_cdx_rows": 156
   },
   "recommended_action_counts": {
-    "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.": 172,
+    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 172,
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 156
   },
+  "dynamic_metric_placeholder_games": 172,
+  "dynamic_metric_placeholder_games_with_metrics_json_probe": 172,
+  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 23,
   "high_value_unresolved_games": 242,
   "top_unresolved_examples": [
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Make Me 10",
       "game_url": "http://www.kongregate.com/games/LinhVo1611/make-me-10",
@@ -36,10 +40,16 @@
       "failed_page_rows": 2,
       "no_explicit_count_failures": 2,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 2,
+      "game_metrics_updater_pages": 2,
+      "blank_gameplays_count_pages": 2,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 96,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Key to Success",
       "game_url": "http://www.kongregate.com/games/SamuelVenable/key-to-success",
@@ -56,10 +66,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 2,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Missiles Again",
       "game_url": "http://www.kongregate.com/games/mafagames/missiles-again",
@@ -76,10 +92,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 2,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "The Space Commando",
       "game_url": "http://www.kongregate.com/games/Eternal_Vanguard/the-space-commando",
@@ -96,10 +118,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 2,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Run Bird Run Online",
       "game_url": "http://www.kongregate.com/games/mafagames/run-bird-run-online",
@@ -116,10 +144,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 2,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "LT-Breakout",
       "game_url": "http://www.kongregate.com/games/SandmanZA/lt-breakout",
@@ -136,10 +170,16 @@
       "failed_page_rows": 22,
       "no_explicit_count_failures": 11,
       "network_or_fetch_failures": 11,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 11,
+      "game_metrics_updater_pages": 11,
+      "blank_gameplays_count_pages": 11,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 330,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Surrounded",
       "game_url": "https://www.kongregate.com/games/JasonNumberXIII/surrounded",
@@ -156,7 +196,13 @@
       "failed_page_rows": 7,
       "no_explicit_count_failures": 3,
       "network_or_fetch_failures": 4,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 3,
+      "game_metrics_updater_pages": 3,
+      "blank_gameplays_count_pages": 3,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "no_page_cdx_rows",
@@ -176,6 +222,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -196,6 +248,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -216,6 +274,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -236,6 +300,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -256,6 +326,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -276,6 +352,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -296,10 +378,16 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Kns run",
       "game_url": "http://www.kongregate.com/games/hikkigamer/kns-run",
@@ -316,10 +404,16 @@
       "failed_page_rows": 4,
       "no_explicit_count_failures": 3,
       "network_or_fetch_failures": 1,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 3,
+      "game_metrics_updater_pages": 3,
+      "blank_gameplays_count_pages": 3,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "cuube",
       "game_url": "http://www.kongregate.com/games/dmarcy/cuube",
@@ -336,10 +430,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 3,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Nowere Safe 3",
       "game_url": "http://www.kongregate.com/games/LexZ1/nowere-safe-3",
@@ -356,10 +456,16 @@
       "failed_page_rows": 2,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 1,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 2,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Elsa And Anna Chinese Dress Up",
       "game_url": "http://www.kongregate.com/games/game4joy/elsa-and-anna-chinese-dress-up",
@@ -376,10 +482,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "changetype()",
       "game_url": "http://www.kongregate.com/games/inventor_123/changetype",
@@ -396,10 +508,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "CountryBalls 4",
       "game_url": "http://www.kongregate.com/games/NicoleWatterson/countryballs-4",
@@ -416,10 +534,16 @@
       "failed_page_rows": 2,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 1,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Mini Jumper",
       "game_url": "http://www.kongregate.com/games/mafagames/mini-jumper",
@@ -436,10 +560,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 5,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "dat boi",
       "game_url": "http://www.kongregate.com/games/Regone/dat-boi",
@@ -456,10 +586,16 @@
       "failed_page_rows": 2,
       "no_explicit_count_failures": 2,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 2,
+      "game_metrics_updater_pages": 2,
+      "blank_gameplays_count_pages": 2,
+      "metrics_json_probe_observations": 6,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Aston Martin Hidden Wheels",
       "game_url": "http://www.kongregate.com/games/natalibt/aston-martin-hidden-wheels",
@@ -476,10 +612,16 @@
       "failed_page_rows": 2,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 1,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Chevrolet Cruze Puzzle",
       "game_url": "http://www.kongregate.com/games/natalibt/chevrolet-cruze-puzzle",
@@ -496,10 +638,16 @@
       "failed_page_rows": 3,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 2,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 16,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Sky Knight",
       "game_url": "http://www.kongregate.com/games/mafagames/sky-knight",
@@ -516,10 +664,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Horse Racing",
       "game_url": "http://www.kongregate.com/games/mafagames/horse-racing",
@@ -536,10 +690,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Britney Spears vs Child Servisous",
       "game_url": "http://www.kongregate.com/games/thunderstorm38/britney-spears-vs-child-servisous",
@@ -556,10 +716,16 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
-      "status": "html_without_explicit_count",
+      "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
       "game_name": "Cherrie New Spring Trends",
       "game_url": "http://www.kongregate.com/games/mafagames/cherrie-new-spring-trends",
@@ -576,7 +742,13 @@
       "failed_page_rows": 1,
       "no_explicit_count_failures": 1,
       "network_or_fetch_failures": 0,
-      "recommended_next_action": "Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics."
+      "dynamic_metric_placeholder_pages": 1,
+      "game_metrics_updater_pages": 1,
+      "blank_gameplays_count_pages": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "no_page_cdx_rows",
@@ -596,6 +768,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
@@ -616,6 +794,12 @@
       "failed_page_rows": 0,
       "no_explicit_count_failures": 0,
       "network_or_fetch_failures": 0,
+      "dynamic_metric_placeholder_pages": 0,
+      "game_metrics_updater_pages": 0,
+      "blank_gameplays_count_pages": 0,
+      "metrics_json_probe_observations": 6,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     }
   ],
