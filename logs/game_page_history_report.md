@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T07:55:23Z
-- Profile games in scope: 74
-- Selected games sample: Jamproject Classic Roc..., Chuck Norris MMORPG, I Don't Even Know, Mini Ninja Coloring, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Active Ashfield's Conversion Challenge, Photogrounds, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu
-- Selected games omitted from sample: 24
-- CDX games considered: 3
+- Run timestamp: 2026-07-02T08:01:17Z
+- Profile games in scope: 67
+- Selected games sample: Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Active Ashfield's Conversion Challenge, Photogrounds, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor, Ayla Cook: Picnic Menu, Argentina y sus Provin..., Ultimate doodle man, Xiao 4, Jjj, super mario crossover, Fruit Game, Pizza Truck
+- Selected games omitted from sample: 17
+- CDX games considered: 4
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 10s
-- CDX wall-clock cap: 10.0
+- CDX timeout: 8s
+- CDX wall-clock cap: 8.0
 - CDX date-window days: 365
-- Page timeout: 10s
-- Page wall-clock cap: 12.0
+- Page timeout: 8s
+- Page wall-clock cap: 10.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 1
-- Page jobs: 1
-- Pending before run: 1
-- Attempted this run: 1
-- Fetched this run: 1
+- CDX rows: 0
+- Page jobs: 0
+- Pending before run: 0
+- Attempted this run: 0
+- Fetched this run: 0
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 1
+- No explicit count this run: 0
+- Failed this run: 0
 - Manifest entries: 367
 - Known failures: 2912
 - Combined history rows: 7933
