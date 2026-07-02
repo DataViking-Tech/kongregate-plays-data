@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:28:57Z
-- Profile games in scope: 11
-- Selected games sample: gold panic, Giraffe Coloring, super mario crossover, The 10 Question Quiz 2!, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press, Chain Gun Rex, Fish Rush, Ninja Quest
+- Run timestamp: 2026-07-02T09:34:46Z
+- Profile games in scope: 3
+- Selected games sample: Chain Gun Rex, Fish Rush, Ninja Quest
 - Selected games omitted from sample: 0
-- CDX games considered: 5
+- CDX games considered: 3
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 12s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- CDX rows: 1
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 1
+- Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2938
+- Known failures: 2939
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
