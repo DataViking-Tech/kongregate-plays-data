@@ -1,6 +1,6 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-02T15:35:44Z
+- Generated: 2026-07-02T17:28:49Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
 - Endpoint-hit/no-count games: 133
@@ -16,9 +16,9 @@
 
 - dynamic_placeholder_endpoint_archives_no_count: 88
 - partial_listing_counts_no_page_metrics: 84
-- no_game_page_or_endpoint_archives: 81
+- no_game_page_or_endpoint_archives: 80
 - dynamic_placeholder_no_exact_endpoint_archives: 47
-- no_game_page_cdx_alt_archives_no_count: 25
+- no_game_page_cdx_alt_archives_no_count: 26
 
 ## Count Source Probe Status
 
