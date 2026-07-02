@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:47:09Z
+- Run timestamp: 2026-07-02T09:51:33Z
 - Profile games in scope: 3
-- Selected games sample: PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY
+- Selected games sample: Office Supply Team!, Blozorz Hacked, Jumbo Adventure
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
@@ -26,7 +26,7 @@
 - No explicit count this run: 3
 - Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2947
+- Known failures: 2950
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
