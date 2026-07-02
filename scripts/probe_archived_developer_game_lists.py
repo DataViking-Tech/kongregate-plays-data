@@ -122,12 +122,19 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def developer_source_identity(source_url: str) -> str:
+    parsed = urllib.parse.urlsplit(source_url or "")
+    path = urllib.parse.unquote(parsed.path).rstrip("/") or "/"
+    query = f"?{parsed.query.lower()}" if parsed.query else ""
+    return f"{path.lower()}{query}"
+
+
 def unresolved_failed_developer_endpoint_filter(history_csv: Path) -> set[tuple[str, str]]:
     grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     for row in read_csv(history_csv):
         if row.get("source_type") != "developer_game_list":
             continue
-        key = (canonical_game_url(row.get("game_url", "")), row.get("endpoint_url", ""))
+        key = (canonical_game_url(row.get("game_url", "")), developer_source_identity(row.get("endpoint_url", "")))
         if not key[0] or not key[1]:
             continue
         grouped[key].append(row)
@@ -547,8 +554,9 @@ def run_probe(args) -> dict[str, object]:
         for source_url in developer_source_urls(developer, args.include_account_pages):
             source_targets = developer_targets
             if failed_endpoint_filter is not None:
+                source_identity = developer_source_identity(source_url)
                 source_targets = [
-                    target for target in developer_targets if (target.canonical_key, source_url) in failed_endpoint_filter
+                    target for target in developer_targets if (target.canonical_key, source_identity) in failed_endpoint_filter
                 ]
                 if not source_targets:
                     continue

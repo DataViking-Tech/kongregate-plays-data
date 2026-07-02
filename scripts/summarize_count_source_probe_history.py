@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import json
+import urllib.parse
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -53,8 +54,19 @@ def cdx_status_prefix(row: dict[str, str]) -> str:
     return str(row.get("cdx_status", "")).split(":", 1)[0] or "unknown"
 
 
+def developer_endpoint_identity(endpoint_url: str) -> str:
+    parsed = urllib.parse.urlsplit(endpoint_url or "")
+    path = urllib.parse.unquote(parsed.path).rstrip("/") or "/"
+    query = f"?{parsed.query.lower()}" if parsed.query else ""
+    return f"{path.lower()}{query}"
+
+
 def endpoint_probe_key(row: dict[str, str]) -> tuple[str, str]:
-    return (row.get("source_type", ""), row.get("endpoint_url", ""))
+    source_type = row.get("source_type", "")
+    endpoint_url = row.get("endpoint_url", "")
+    if source_type == "developer_game_list":
+        endpoint_url = developer_endpoint_identity(endpoint_url)
+    return (source_type, endpoint_url)
 
 
 def unresolved_failed_endpoint_groups(rows: list[dict[str, str]]) -> list[tuple[tuple[str, str], list[dict[str, str]]]]:

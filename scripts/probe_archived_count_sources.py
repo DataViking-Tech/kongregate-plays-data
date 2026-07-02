@@ -187,6 +187,19 @@ def cdx_status_prefix(value: object) -> str:
     return str(value or "").split(":", 1)[0] or "unknown"
 
 
+def developer_endpoint_identity(endpoint_url: str) -> str:
+    parsed = urllib.parse.urlsplit(endpoint_url or "")
+    path = urllib.parse.unquote(parsed.path).rstrip("/") or "/"
+    query = f"?{parsed.query.lower()}" if parsed.query else ""
+    return f"{path.lower()}{query}"
+
+
+def endpoint_retry_identity(source_type: str, endpoint_url: str) -> str:
+    if source_type == "developer_game_list":
+        return developer_endpoint_identity(endpoint_url)
+    return endpoint_url
+
+
 def parse_date(value: str):
     text = str(value or "")[:10]
     if not text:
@@ -261,7 +274,7 @@ def unresolved_failed_endpoint_filter(history_csv: Path) -> set[tuple[str, str, 
         key = (
             canonical_game_url(row.get("game_url", "")),
             row.get("source_type", ""),
-            row.get("endpoint_url", ""),
+            endpoint_retry_identity(row.get("source_type", ""), row.get("endpoint_url", "")),
         )
         if not key[0] or not key[1] or not key[2]:
             continue
@@ -1101,17 +1114,21 @@ def main() -> None:
         for candidates in candidate_batches:
             if stopped_after_cdx_lookup_cap:
                 break
-                accepted_candidates = 0
-                for candidate in candidates:
-                    page = candidate.page
-                    if args.source_types_set and candidate.source_type not in args.source_types_set:
+            accepted_candidates = 0
+            for candidate in candidates:
+                page = candidate.page
+                if args.source_types_set and candidate.source_type not in args.source_types_set:
+                    continue
+                if failed_endpoint_filter is not None:
+                    candidate_key = (
+                        game.canonical_key,
+                        candidate.source_type,
+                        endpoint_retry_identity(candidate.source_type, candidate.endpoint_url),
+                    )
+                    if candidate_key not in failed_endpoint_filter:
                         continue
-                    if failed_endpoint_filter is not None:
-                        candidate_key = (game.canonical_key, candidate.source_type, candidate.endpoint_url)
-                        if candidate_key not in failed_endpoint_filter:
-                            continue
-                    if args.max_candidates_per_page and accepted_candidates >= args.max_candidates_per_page:
-                        break
+                if args.max_candidates_per_page and accepted_candidates >= args.max_candidates_per_page:
+                    break
                 accepted_candidates += 1
                 if args.max_cdx_lookups and cdx_lookups >= args.max_cdx_lookups:
                     stopped_after_cdx_lookup_cap = True
