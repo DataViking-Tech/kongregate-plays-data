@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:34:46Z
-- Profile games in scope: 3
-- Selected games sample: Chain Gun Rex, Fish Rush, Ninja Quest
+- Run timestamp: 2026-07-02T09:39:39Z
+- Profile games in scope: 29
+- Selected games sample: Chuck Norris MMORPG, Mini Ninja Coloring, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Giraffe Coloring, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 12s
-- CDX wall-clock cap: 12.0
+- CDX timeout: 20s
+- CDX wall-clock cap: 22.0
 - CDX date-window days: 365
-- Page timeout: 12s
-- Page wall-clock cap: 12.0
+- Page timeout: 18s
+- Page wall-clock cap: 18.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 1
-- Page jobs: 1
-- Pending before run: 1
-- Attempted this run: 1
-- Fetched this run: 1
+- CDX rows: 4
+- Page jobs: 4
+- Pending before run: 4
+- Attempted this run: 3
+- Fetched this run: 3
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 1
+- No explicit count this run: 3
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2939
+- Known failures: 2942
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
