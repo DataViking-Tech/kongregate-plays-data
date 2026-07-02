@@ -47,7 +47,7 @@ REPORT_JSON = LOGS / "developer_game_list_probe_report.json"
 REPORT_MD = LOGS / "developer_game_list_probe_report.md"
 ERROR_LOG = LOGS / "developer_game_list_probe_errors.log"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdx/"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]
 

@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T10:11:39Z
-- Profile games in scope: 5
-- Selected games sample: Fadious Dragon, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press
+- Run timestamp: 2026-07-02T16:35:30Z
+- Profile games in scope: 2
+- Selected games sample: Supermechs, Bloons Monkey City
 - Selected games omitted from sample: 0
-- CDX games considered: 5
-- Cached CDX only: False
-- Cached HTML only: False
-- CDX timeout: 20s
-- CDX wall-clock cap: 22.0
-- CDX date-window days: 365
-- Page timeout: 18s
-- Page wall-clock cap: 18.0
+- CDX games considered: 2
+- Cached CDX only: True
+- Cached HTML only: True
+- CDX timeout: 25s
+- CDX wall-clock cap: none
+- CDX date-window days: 90
+- Page timeout: 25s
+- Page wall-clock cap: none
 - Game-name filter: none
-- Metrics row filter: no_metrics
-- Progress status filter: not_checked
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
-- Cached HTML selected this run: 0
+- Metrics row filter: has_metrics
+- Progress status filter: none
+- CDX rows: 1770
+- Page jobs: 590
+- Pending before run: 590
+- Attempted this run: 12
+- Fetched this run: 0
+- Cached HTML selected this run: 12
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 0
+- Failed this run: 12
 - Manifest entries: 368
-- Known failures: 2960
-- Combined history rows: 7934
+- Known failures: 2974
+- Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False

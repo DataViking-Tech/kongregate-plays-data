@@ -211,6 +211,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 183 added `ranked_games_observed_plays.csv.gz`, a compressed rank-row analysis table that preserves the direct listing count separately from the aggregate as-of count. Direct listing counts still cover 15,916 ranked rows and have the known 2014-09 to 2025-10 listing-layer gap, but aggregate as-of counts now cover 43,489 ranked rows and every ranked month. The remaining 5,095 ranked rows have no observed play count on or before their rank date and are now isolated for targeted recovery.
 - Checkpoint 184 made archived developer/account-list probes resumable by sorted target offset, refreshed full no-history gap progress by default, and added 59 additional probe-history observations from cached developer/account-list evidence. No new play-count rows were recovered; the no-history split is now 133 archived-endpoint-hit/no-count games and 192 no-archived-endpoint-row games, with 0 unresolved failed endpoint groups.
 - Checkpoint 185 added `ranked_asof_missing_recovery_priorities.csv`, a compact game-level queue for the 5,095 rank rows without aggregate as-of counts. The gap collapses to 1,993 canonical games: 1,739 need earlier history before a later observed count, 135 are no-count dynamic-placeholder mini-catalog games, 106 are no-count/no-page-CDX mini-catalog games, and 13 no-count games are outside the current top-20 mini-catalog scope.
+- Checkpoint 186 added `ranked_asof_game_page_probe_progress.csv` for the as-of recovery queue and made `fetch_game_page_history.py` consume `ranked_asof_missing_recovery_priorities.csv` directly. The top as-of recovery target, Supermechs, now has 206 cached page-CDX rows and 12 cached pages classified as dynamic metrics placeholders; Bloons Monkey City has 384 cached page-CDX rows pending page parsing. The remaining as-of gap is unchanged at 5,095 ranked rows, but the next recovery path is more explicit.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -234,6 +235,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `data/processed/ranked_games_observed_plays.csv.gz` - compressed ranked rows enriched with the highest observed aggregate play count on or before each rank date, plus source and lag fields. Running `scripts/build_ranked_games_observed_plays.py` also creates the raw `.csv` locally.
 - `logs/ranked_games_observed_plays_report.*` - coverage report for direct listing counts versus aggregate as-of counts.
 - `data/processed/ranked_asof_missing_recovery_priorities.csv` and `logs/ranked_asof_missing_recovery_report.*` - game-level queue for rank rows that still lack an observed play count on or before the rank date.
+- `data/processed/ranked_asof_game_page_probe_progress.csv` and `logs/ranked_asof_game_page_probe_progress_report.*` - page-CDX/page-HTML probe status for the as-of recovery queue.
 - `data/processed/mini_catalog.csv` - games that reached top 20 at least once, including observed Kongregate game IDs when present in ranked-list HTML.
 - `data/processed/game_play_history.csv` - per-game metrics JSON, live metrics, and archived game-page observations.
 - `data/processed/game_lifecycle_catalog.csv` - evidence-backed first/last observed dates, provisional category/platform tags, live metrics availability, and cautious removal-evidence fields.
@@ -281,8 +283,9 @@ python3 scripts/fetch_live_ranked_pages.py
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
 python3 scripts/build_ranked_games_observed_plays.py
+python3 scripts/summarize_game_page_gap_progress.py --input-csv data/processed/ranked_asof_missing_recovery_priorities.csv --tiers 1 --metrics-row-status has_metrics --output-csv data/processed/ranked_asof_game_page_probe_progress.csv --report-json logs/ranked_asof_game_page_probe_progress_report.json --report-md logs/ranked_asof_game_page_probe_progress_report.md
 python3 scripts/build_ranked_asof_missing_recovery_priorities.py
-python3 scripts/scan_data_quality.py --as-of 2026-07-01
+python3 scripts/scan_data_quality.py --as-of 2026-07-02
 python3 scripts/build_game_lifecycle_catalog.py
 python3 scripts/summarize_no_history_evidence.py
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs

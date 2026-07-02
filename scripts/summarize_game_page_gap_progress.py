@@ -49,6 +49,12 @@ OUTPUT_COLUMNS = [
     "recommended_next_action",
 ]
 
+NO_COUNT_FAILURE_ERRORS = {
+    "no_explicit_count",
+    "dynamic_metrics_placeholder",
+    "empty_gameplays_count_placeholder",
+}
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -116,7 +122,12 @@ def cached_page_evidence(failures: list[dict[str, object]]) -> dict[str, int]:
         "blank_gameplays_count_pages": 0,
     }
     for failure in failures:
-        if failure.get("last_error") != "no_explicit_count":
+        if failure.get("last_error") not in NO_COUNT_FAILURE_ERRORS:
+            continue
+        if failure.get("last_error") == "dynamic_metrics_placeholder":
+            evidence["dynamic_metric_placeholder_pages"] += 1
+            evidence["game_metrics_updater_pages"] += 1
+            evidence["blank_gameplays_count_pages"] += 1
             continue
         relative_path = str(failure.get("cached_html", "") or "")
         if not relative_path:
@@ -157,7 +168,7 @@ def status_and_action(
     page_evidence: dict[str, int],
     endpoint_evidence: dict[str, int],
 ) -> tuple[str, str]:
-    no_explicit = sum(1 for failure in failures if failure.get("last_error") == "no_explicit_count")
+    no_explicit = sum(1 for failure in failures if failure.get("last_error") in NO_COUNT_FAILURE_ERRORS)
     network_or_fetch = len(failures) - no_explicit
     if parsed_rows:
         return "parsed_page_count", "No immediate action; page HTML has yielded at least one play-count observation."
@@ -214,7 +225,7 @@ def progress_rows(args) -> list[dict[str, object]]:
             page_evidence,
             endpoint_evidence,
         )
-        no_explicit = sum(1 for failure in game_failures if failure.get("last_error") == "no_explicit_count")
+        no_explicit = sum(1 for failure in game_failures if failure.get("last_error") in NO_COUNT_FAILURE_ERRORS)
         rows.append(
             {
                 "status": status,
@@ -252,6 +263,9 @@ def progress_rows(args) -> list[dict[str, object]]:
 
 
 def write_report(rows: list[dict[str, object]], args) -> dict[str, object]:
+    output_csv = Path(args.output_csv)
+    report_json = Path(args.report_json)
+    report_md = Path(args.report_md)
     status_counts = Counter(str(row["status"]) for row in rows)
     action_counts = Counter(str(row["recommended_next_action"]) for row in rows)
     high_value_unresolved = [
@@ -281,12 +295,14 @@ def write_report(rows: list[dict[str, object]], args) -> dict[str, object]:
         "high_value_unresolved_games": len(high_value_unresolved),
         "top_unresolved_examples": examples,
         "outputs": {
-            "progress_csv": str(OUTPUT_CSV.relative_to(ROOT)),
-            "report_json": str(REPORT_JSON.relative_to(ROOT)),
-            "report_md": str(REPORT_MD.relative_to(ROOT)),
+            "progress_csv": relative(output_csv),
+            "report_json": relative(report_json),
+            "report_md": relative(report_md),
         },
     }
-    REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    report_json.parent.mkdir(parents=True, exist_ok=True)
+    report_md.parent.mkdir(parents=True, exist_ok=True)
+    report_json.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     status_lines = [f"- {status}: {count}" for status, count in report["status_counts"].items()]
     action_lines = [f"- {count}: {action}" for action, count in report["recommended_action_counts"].items()]
     example_lines = [
@@ -295,7 +311,7 @@ def write_report(rows: list[dict[str, object]], args) -> dict[str, object]:
         )
         for row in examples[:25]
     ]
-    REPORT_MD.write_text(
+    report_md.write_text(
         "\n".join(
             [
                 "# Game Page Gap Progress",
@@ -342,10 +358,13 @@ def main() -> None:
         default="no_metrics",
         help="Filter profile games by whether they already have per-game metrics rows.",
     )
+    parser.add_argument("--output-csv", default=str(OUTPUT_CSV), help="Progress CSV to write.")
+    parser.add_argument("--report-json", default=str(REPORT_JSON), help="JSON report path to write.")
+    parser.add_argument("--report-md", default=str(REPORT_MD), help="Markdown report path to write.")
     args = parser.parse_args()
 
     rows = progress_rows(args)
-    write_csv(OUTPUT_CSV, rows)
+    write_csv(Path(args.output_csv), rows)
     report = write_report(rows, args)
     print(json.dumps(report, indent=2, ensure_ascii=False))
 

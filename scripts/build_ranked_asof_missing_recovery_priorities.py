@@ -23,6 +23,7 @@ HISTORY_CSV = PROCESSED / "game_play_history.csv"
 MINI_CATALOG_CSV = PROCESSED / "mini_catalog.csv"
 METRICS_AUDIT_CSV = PROCESSED / "metrics_backfill_gap_audit.csv"
 NO_HISTORY_SUMMARY_CSV = PROCESSED / "no_history_evidence_summary.csv"
+ASOF_PAGE_PROGRESS_CSV = PROCESSED / "ranked_asof_game_page_probe_progress.csv"
 
 OUTPUT_CSV = PROCESSED / "ranked_asof_missing_recovery_priorities.csv"
 REPORT_JSON = LOGS / "ranked_asof_missing_recovery_report.json"
@@ -240,6 +241,17 @@ def recovery_class_and_track(
                 "identity_or_date_mismatch_review",
                 "Review canonical URL aliases or date parsing; at least one missing row is on/after the first observed count date.",
             )
+        page_status = no_history.get("page_gap_status", "")
+        if page_status == "dynamic_metrics_placeholder":
+            return (
+                "earlier_history_needed",
+                "Archived game pages in the missing window defer counts to dynamic metrics placeholders; prioritize exact metrics.json, alternate endpoints, and list/account captures before the first observed count.",
+            )
+        if page_status == "page_cdx_pending":
+            return (
+                "earlier_history_needed",
+                "Archived game-page CDX rows exist in the missing window; fetch and parse those captures before moving to alternate endpoints.",
+            )
         return (
             "earlier_history_needed",
             "Search earlier game-page, metrics, developer/account-list, and category/list captures before the first observed play count.",
@@ -282,6 +294,7 @@ def build_rows() -> tuple[list[dict[str, object]], dict[str, object]]:
     catalog_by_key = load_lookup(MINI_CATALOG_CSV)
     audit_by_key = load_lookup(METRICS_AUDIT_CSV)
     no_history_by_key = load_lookup(NO_HISTORY_SUMMARY_CSV)
+    asof_page_progress_by_key = load_lookup(ASOF_PAGE_PROGRESS_CSV)
 
     rows: list[dict[str, object]] = []
     for key, missing_rows in missing_rows_by_key.items():
@@ -305,7 +318,10 @@ def build_rows() -> tuple[list[dict[str, object]], dict[str, object]]:
 
         catalog = catalog_by_key.get(key, {})
         audit = audit_by_key.get(key, {})
-        no_history = no_history_by_key.get(key, {})
+        no_history = dict(no_history_by_key.get(key, {}))
+        asof_page_progress = asof_page_progress_by_key.get(key, {})
+        if asof_page_progress and not no_history.get("page_gap_status"):
+            no_history["page_gap_status"] = asof_page_progress.get("status", "")
         in_mini_catalog = bool(catalog)
         has_observation = bool(observations)
         recovery_class, track = recovery_class_and_track(

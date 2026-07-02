@@ -44,7 +44,7 @@ HISTORY_CSV = PROCESSED / "count_source_probe_history.csv"
 PLAY_COUNTS_CSV = PROCESSED / "count_source_play_counts.csv"
 ERROR_LOG = LOGS / "count_source_probe_errors.log"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdx/"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]
 CSV_COLUMNS = [

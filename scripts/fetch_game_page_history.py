@@ -11,6 +11,7 @@ import json
 import re
 import signal
 import socket
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -41,7 +42,7 @@ REPORT_JSON = LOGS / "game_page_history_report.json"
 REPORT_MD = LOGS / "game_page_history_report.md"
 ERROR_LOG = LOGS / "game_page_history_errors.log"
 
-CDX_ENDPOINT = "https://web.archive.org/cdx"
+CDX_ENDPOINT = "https://web.archive.org/cdx/"
 WAYBACK_RAW = "https://web.archive.org/web/{timestamp}id_/{original}"
 CDX_FIELDS = ["timestamp", "original", "statuscode", "mimetype", "digest", "length"]
 
@@ -231,10 +232,17 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
     games: list[ProfileGame] = []
     with profile_csv.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
-            tier = parse_int(row.get("followup_tier"))
+            tier = parse_int(row.get("followup_tier") or row.get("tier"))
             if not tier:
+                recovery_class = str(row.get("recovery_class", "")).strip()
                 need = str(row.get("needs_game_page_history", "")).strip().lower()
-                if need == "yes":
+                if recovery_class == "earlier_history_needed":
+                    tier = 1
+                elif recovery_class in {"no_count_dynamic_placeholder", "no_count_no_page_cdx"}:
+                    tier = 2
+                elif recovery_class:
+                    tier = 3
+                elif need == "yes":
                     tier = 1
                 elif need == "partial":
                     tier = 2
@@ -244,19 +252,25 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
                 continue
             game_url = row.get("game_url", "")
             canonical_key = row.get("canonical_game_key") or canonical_game_url(game_url)
+            priority_score = parse_int(row.get("priority_score") or row.get("recovery_priority_score"))
+            best_rank = parse_int(row.get("best_rank") or row.get("best_missing_rank") or row.get("catalog_best_rank"))
+            top_n_appearances = parse_int(row.get("top_n_appearances") or row.get("catalog_top_n_appearances") or row.get("missing_rank_rows"))
+            listing_play_count_rows = parse_int(row.get("listing_play_count_rows") or row.get("catalog_listing_play_count_rows"))
+            first_seen_date = row.get("first_seen_date") or row.get("first_missing_rank_date") or row.get("catalog_first_seen_date", "")
+            last_seen_date = row.get("last_seen_date") or row.get("last_missing_rank_date") or row.get("catalog_last_seen_date", "")
             games.append(
                 ProfileGame(
                     game_url=game_url,
                     game_name=row.get("game_name", ""),
                     canonical_key=canonical_key,
                     tier=tier,
-                    priority_score=parse_int(row.get("priority_score")),
-                    best_rank=parse_int(row.get("best_rank")),
-                    top_n_appearances=parse_int(row.get("top_n_appearances")),
-                    listing_play_count_rows=parse_int(row.get("listing_play_count_rows")),
+                    priority_score=priority_score,
+                    best_rank=best_rank,
+                    top_n_appearances=top_n_appearances,
+                    listing_play_count_rows=listing_play_count_rows,
                     metrics_rows=parse_int(row.get("metrics_rows")),
-                    first_seen_date=row.get("first_seen_date", ""),
-                    last_seen_date=row.get("last_seen_date", ""),
+                    first_seen_date=first_seen_date,
+                    last_seen_date=last_seen_date,
                     game_url_variants=page_url_variants(game_url, catalog_variants.get(canonical_key, ())),
                 )
             )
@@ -354,18 +368,15 @@ def fetch_cdx(
     if cached_only and not refresh:
         return [], "missing_cache_skipped"
 
-    request = urllib.request.Request(
-        cdx_query_url(page_url, collapse, from_timestamp=from_timestamp, to_timestamp=to_timestamp),
-        headers={"User-Agent": "KongregateGamePageHistory/0.1"},
-    )
+    request_url = cdx_query_url(page_url, collapse, from_timestamp=from_timestamp, to_timestamp=to_timestamp)
+    request_headers = {"User-Agent": "KongregateGamePageHistory/0.1"}
     last_error = ""
     for attempt in range(retries + 1):
         try:
-            with wall_clock_timeout(wall_timeout_s):
-                with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                    data = json.loads(response.read().decode("utf-8", errors="replace"))
+            payload = fetch_bytes_with_hard_timeout(request_url, request_headers, timeout_s, wall_timeout_s)
+            data = json.loads(payload.decode("utf-8", errors="replace"))
             break
-        except (TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
+        except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
             last_error = str(exc)
             if attempt < retries:
                 time.sleep(retry_sleep_s * (attempt + 1))
@@ -483,6 +494,38 @@ def decode_payload(payload: bytes, headers) -> str:
     return payload.decode("utf-8", errors="replace")
 
 
+def fetch_bytes_with_hard_timeout(url: str, headers: dict[str, str], timeout_s: int, wall_timeout_s: float) -> bytes:
+    max_time = wall_timeout_s or timeout_s
+    connect_timeout = min(max_time, 10) if max_time else timeout_s
+    args = [
+        "curl",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--compressed",
+        "--max-time",
+        f"{max_time:g}",
+        "--connect-timeout",
+        f"{connect_timeout:g}",
+    ]
+    for key, value in headers.items():
+        if key.lower() == "user-agent":
+            args.extend(["--user-agent", value])
+        else:
+            args.extend(["--header", f"{key}: {value}"])
+    args.append(url)
+    try:
+        result = subprocess.run(args, check=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=max_time + 5)
+    except subprocess.TimeoutExpired as exc:
+        raise RequestWallClockTimeout(f"curl_subprocess_timeout_{max_time:g}s") from exc
+    except FileNotFoundError as exc:
+        raise RequestWallClockTimeout("curl_not_available") from exc
+    if result.returncode != 0 and not result.stdout:
+        detail = result.stderr.decode("utf-8", errors="replace").strip() or f"curl_exit_{result.returncode}"
+        raise RequestWallClockTimeout(detail)
+    return result.stdout
+
+
 def strip_html(markup: str) -> str:
     markup = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", markup)
     text = re.sub(r"(?s)<[^>]+>", " ", markup)
@@ -533,29 +576,32 @@ def parse_game_page_counts(markup: str) -> dict[str, object] | None:
     return None
 
 
+def no_count_detail(markup: str) -> str:
+    has_empty_count_placeholder = bool(
+        re.search(r"class=[\"'][^\"']*\bgameplays_count\b[^\"']*[\"'][^>]*>\s*</span>", markup, flags=re.IGNORECASE)
+    )
+    if has_empty_count_placeholder and "GameMetricsUpdater.update" in markup:
+        return "dynamic_metrics_placeholder"
+    if has_empty_count_placeholder:
+        return "empty_gameplays_count_placeholder"
+    return "no_explicit_count"
+
+
 def fetch_page(job: GamePageJob, timeout_s: int, wall_timeout_s: float, retries: int, retry_sleep_s: float) -> tuple[bool, str, dict[str, object] | None]:
     target = html_cache_path(job)
     if target.exists() and target.stat().st_size > 0:
         markup = target.read_text(errors="replace")
     else:
-        request = urllib.request.Request(
-            WAYBACK_RAW.format(timestamp=job.timestamp, original=job.original),
-            headers={"User-Agent": "KongregateGamePageHistory/0.1", "Accept": "text/html,*/*"},
-        )
+        url = WAYBACK_RAW.format(timestamp=job.timestamp, original=job.original)
+        headers = {"User-Agent": "KongregateGamePageHistory/0.1", "Accept": "text/html,*/*"}
         markup = ""
         last_error = ""
         for attempt in range(retries + 1):
             try:
-                with wall_clock_timeout(wall_timeout_s):
-                    with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                        markup = decode_payload(response.read(), response.headers)
+                payload = fetch_bytes_with_hard_timeout(url, headers, timeout_s, wall_timeout_s)
+                markup = payload.decode("utf-8", errors="replace")
                 break
-            except urllib.error.HTTPError as exc:
-                markup = decode_payload(exc.read(), exc.headers)
-                if exc.code < 500:
-                    break
-                last_error = f"http_{exc.code}"
-            except (TimeoutError, socket.timeout, urllib.error.URLError) as exc:
+            except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError) as exc:
                 last_error = str(exc)
             if attempt < retries:
                 time.sleep(retry_sleep_s * (attempt + 1))
@@ -569,7 +615,7 @@ def fetch_page(job: GamePageJob, timeout_s: int, wall_timeout_s: float, retries:
 
     parsed = parse_game_page_counts(markup)
     if not parsed or not parse_int(parsed.get("plays")):
-        return False, "no_explicit_count", None
+        return False, no_count_detail(markup), None
     return True, str(target.relative_to(ROOT)), parsed
 
 
