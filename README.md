@@ -14,15 +14,15 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 
 ## Current Snapshot
 
-- Ranked-list rows: 47,885
-- Ranked-list rows with observed play counts: 15,217
+- Ranked-list rows: 48,584
+- Ranked-list rows with observed play counts: 15,916
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 7,933 across 2,668 canonical games
-- Observed play-count rows used by the chart: 23,150
-- Chart playback: Smooth mode uses 11,233 interpolated month-paced display frames by default; Captures mode exposes all 2,337 observed capture-date frames.
-- Ranked-list date range: 2007-01-20 to 2026-07-01
-- Per-game play-history date range: 2007-03-24 to 2026-07-01
+- Per-game play-history rows: 7,934 across 2,669 canonical games
+- Observed play-count rows used by the chart: 23,850
+- Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,338 observed capture-date frames.
+- Ranked-list date range: 2007-01-20 to 2026-07-02
+- Per-game play-history date range: 2007-03-24 to 2026-07-02
 
 This scrape is still being expanded. The processed files are coherent snapshots, but coverage is not final.
 
@@ -190,6 +190,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 164 refreshed the current live Kongregate category/listing pages on 2026-07-02. All 14 live sources fetched successfully, the ranked dataset now runs through 2026-07-02 with 48,584 ranked rows and 15,916 ranked rows with listing play counts, the chart data now has 23,850 observed play-count rows across 2,338 frames, and the workbook was rebuilt with 48,584 ranked rows, 2,997 mini-catalog rows, 7,934 game-play-history rows, and 2,997 lifecycle rows.
 - Checkpoint 165 classified the remaining cached-page/no-count bucket more precisely. All 172 unresolved cached page cases contain blank `gameplays_count` placeholders driven by `GameMetricsUpdater.update()`, all 172 now have exact `metrics.json` probe history, and none have archived exact `metrics.json` CDX rows. The current no-metrics gap is therefore 172 `dynamic_metrics_placeholder` games plus 156 `no_page_cdx_rows` games, with no unprobed exact side-endpoint queue left.
 - Checkpoint 166 added a small prefix-match `metrics.json` probe for the six highest-priority dynamic-placeholder games. It added 12 probe-history observations, found 0 archived metric rows and 0 count signals, and left the no-metrics gap unchanged at 172 dynamic metric-placeholder games plus 156 no-page-CDX games.
+- Checkpoint 167 refreshed the lifecycle catalog and workbook after the dynamic-placeholder audit so `game_lifecycle_catalog` now uses the same 172 `dynamic_metrics_placeholder` and 156 `no_page_cdx_rows` gap labels as the current page-gap report. The lifecycle layer still covers all 2,997 mini-catalog games and flags 5 likely plus 14 possible Facebook/social-platform candidates.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
