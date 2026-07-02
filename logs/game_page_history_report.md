@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:43:16Z
+- Run timestamp: 2026-07-02T09:47:09Z
 - Profile games in scope: 3
-- Selected games sample: Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP
+- Selected games sample: PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 2
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- CDX rows: 3
+- Page jobs: 3
+- Pending before run: 3
+- Attempted this run: 3
+- Fetched this run: 3
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 2
-- Failed this run: 2
+- No explicit count this run: 3
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2944
+- Known failures: 2947
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
