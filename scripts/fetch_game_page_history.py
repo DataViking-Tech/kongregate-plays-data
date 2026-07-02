@@ -18,7 +18,7 @@ import urllib.request
 from collections import defaultdict
 from contextlib import contextmanager
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from hashlib import sha1
 from pathlib import Path
 
@@ -287,11 +287,38 @@ def load_progress_status_filter_keys(progress_csv: Path, statuses: set[str]) -> 
     return keys
 
 
-def cdx_cache_path(page_url: str) -> Path:
-    return RAW_CDX / f"{safe_name(page_url)}_{sha(page_url)}.json"
+def cdx_cache_path(page_url: str, from_timestamp: str = "", to_timestamp: str = "") -> Path:
+    window = ""
+    key = page_url
+    if from_timestamp or to_timestamp:
+        window = f"_{from_timestamp[:8] or 'start'}_{to_timestamp[:8] or 'end'}"
+        key = f"{page_url}\t{from_timestamp}\t{to_timestamp}"
+    return RAW_CDX / f"{safe_name(page_url)}{window}_{sha(key)}.json"
 
 
-def cdx_query_url(page_url: str, collapse: str) -> str:
+def cdx_cache_paths_for_url(page_url: str) -> list[Path]:
+    exact_path = cdx_cache_path(page_url)
+    if not RAW_CDX.exists():
+        return [exact_path]
+    paths = sorted(RAW_CDX.glob(f"{safe_name(page_url)}_*.json"))
+    if exact_path.exists() and exact_path not in paths:
+        paths.insert(0, exact_path)
+    return paths or [exact_path]
+
+
+def cdx_window_for_game(game: ProfileGame, window_days: int) -> tuple[str, str]:
+    if window_days <= 0:
+        return "", ""
+    first_seen = parse_iso_date(game.first_seen_date)
+    last_seen = parse_iso_date(game.last_seen_date) or first_seen
+    if not first_seen or not last_seen:
+        return "", ""
+    start = min(first_seen, last_seen) - timedelta(days=window_days)
+    end = max(first_seen, last_seen) + timedelta(days=window_days)
+    return start.strftime("%Y%m%d000000"), end.strftime("%Y%m%d235959")
+
+
+def cdx_query_url(page_url: str, collapse: str, from_timestamp: str = "", to_timestamp: str = "") -> str:
     params = [
         ("url", page_url),
         ("output", "json"),
@@ -299,6 +326,10 @@ def cdx_query_url(page_url: str, collapse: str) -> str:
         ("filter", "statuscode:200"),
         ("filter", "mimetype:text/html"),
     ]
+    if from_timestamp:
+        params.append(("from", from_timestamp))
+    if to_timestamp:
+        params.append(("to", to_timestamp))
     if collapse:
         params.append(("collapse", collapse))
     return f"{CDX_ENDPOINT}?{urllib.parse.urlencode(params)}"
@@ -313,15 +344,20 @@ def fetch_cdx(
     retries: int,
     retry_sleep_s: float,
     cached_only: bool,
+    from_timestamp: str = "",
+    to_timestamp: str = "",
 ) -> tuple[list[dict[str, str]], str]:
     RAW_CDX.mkdir(parents=True, exist_ok=True)
-    cache_path = cdx_cache_path(page_url)
+    cache_path = cdx_cache_path(page_url, from_timestamp=from_timestamp, to_timestamp=to_timestamp)
     if cache_path.exists() and not refresh:
         return json.loads(cache_path.read_text()), "cached"
     if cached_only and not refresh:
         return [], "missing_cache_skipped"
 
-    request = urllib.request.Request(cdx_query_url(page_url, collapse), headers={"User-Agent": "KongregateGamePageHistory/0.1"})
+    request = urllib.request.Request(
+        cdx_query_url(page_url, collapse, from_timestamp=from_timestamp, to_timestamp=to_timestamp),
+        headers={"User-Agent": "KongregateGamePageHistory/0.1"},
+    )
     last_error = ""
     for attempt in range(retries + 1):
         try:
@@ -355,6 +391,7 @@ def build_jobs(
     cdx_retries: int,
     cdx_retry_sleep_s: float,
     cached_cdx_only: bool,
+    cdx_date_window_days: int,
 ) -> tuple[list[GamePageJob], dict[str, int]]:
     jobs: list[GamePageJob] = []
     stats = {
@@ -370,6 +407,7 @@ def build_jobs(
             break
         stats["cdx_games_considered"] += 1
         variants = game.game_url_variants[:variant_limit] if variant_limit else game.game_url_variants
+        from_timestamp, to_timestamp = cdx_window_for_game(game, cdx_date_window_days)
         for page_url in variants:
             rows, status = fetch_cdx(
                 page_url,
@@ -380,6 +418,8 @@ def build_jobs(
                 retries=cdx_retries,
                 retry_sleep_s=cdx_retry_sleep_s,
                 cached_only=cached_cdx_only,
+                from_timestamp=from_timestamp,
+                to_timestamp=to_timestamp,
             )
             if status == "cached":
                 stats["cdx_urls_cached"] += 1
@@ -588,6 +628,7 @@ def make_report(
         "timeout": args.timeout,
         "cdx_timeout": args.cdx_timeout or args.timeout,
         "cdx_wall_timeout": args.cdx_wall_timeout,
+        "cdx_date_window_days": args.cdx_date_window_days,
         "page_wall_timeout": args.page_wall_timeout,
         "cached_cdx_only": args.cached_cdx_only,
         "cached_html_only": args.cached_html_only,
@@ -637,6 +678,7 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Cached HTML only: {report['cached_html_only']}",
                 f"- CDX timeout: {report['cdx_timeout']}s",
                 f"- CDX wall-clock cap: {report['cdx_wall_timeout'] or 'none'}",
+                f"- CDX date-window days: {report['cdx_date_window_days'] or 'none'}",
                 f"- Page timeout: {report['timeout']}s",
                 f"- Page wall-clock cap: {report['page_wall_timeout'] or 'none'}",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
@@ -678,6 +720,7 @@ def main() -> None:
     parser.add_argument("--timeout", type=int, default=25, help="Per-request timeout in seconds.")
     parser.add_argument("--cdx-timeout", type=int, default=0, help="Per-request timeout for CDX lookups. Defaults to --timeout when omitted.")
     parser.add_argument("--cdx-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each CDX lookup, including slow redirects/reads.")
+    parser.add_argument("--cdx-date-window-days", type=int, default=0, help="Limit CDX lookups to this many days before first seen and after last seen. 0 means full URL history.")
     parser.add_argument("--page-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each archived page fetch, including slow connects/reads.")
     parser.add_argument("--sleep", type=float, default=0.5, help="Seconds to sleep after an archived page fetch.")
     parser.add_argument("--cdx-sleep", type=float, default=0.8, help="Seconds to sleep after a fresh CDX lookup.")
@@ -768,6 +811,7 @@ def main() -> None:
         cdx_retries=args.cdx_retries,
         cdx_retry_sleep_s=args.cdx_retry_sleep,
         cached_cdx_only=args.cached_cdx_only,
+        cdx_date_window_days=args.cdx_date_window_days,
     )
 
     def job_needs_fetch_or_parse(job: GamePageJob) -> bool:

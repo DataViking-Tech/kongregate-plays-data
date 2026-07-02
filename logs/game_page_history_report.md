@@ -1,16 +1,17 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T07:33:21Z
-- Profile games in scope: 78
-- Selected games sample: First Date, Battle For Gondor, RPG Shooter, Jamproject Classic Roc..., Chuck Norris MMORPG, I Don't Even Know, Mini Ninja Coloring, "The Game" Chat, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Active Ashfield's Conversion Challenge, Photogrounds, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show
-- Selected games omitted from sample: 28
-- CDX games considered: 78
-- Cached CDX only: True
+- Run timestamp: 2026-07-02T07:42:09Z
+- Profile games in scope: 75
+- Selected games sample: Jamproject Classic Roc..., Chuck Norris MMORPG, I Don't Even Know, Mini Ninja Coloring, "The Game" Chat, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Active Ashfield's Conversion Challenge, Photogrounds, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game, Get Ready for the Horse Show, Click the Squirrel, Chat/Read!, BearBoy and the Cursor
+- Selected games omitted from sample: 25
+- CDX games considered: 5
+- Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 6s
-- CDX wall-clock cap: none
-- Page timeout: 6s
-- Page wall-clock cap: 8.0
+- CDX timeout: 12s
+- CDX wall-clock cap: 16.0
+- CDX date-window days: 365
+- Page timeout: 12s
+- Page wall-clock cap: 14.0
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
@@ -25,7 +26,7 @@
 - No explicit count this run: 0
 - Failed this run: 0
 - Manifest entries: 367
-- Known failures: 2908
+- Known failures: 2909
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False

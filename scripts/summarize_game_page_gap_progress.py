@@ -10,7 +10,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-from fetch_game_page_history import FAILURE_PATH, MANIFEST_PATH, PROFILE_CSV, ROOT, cdx_cache_path, load_profile_games, parse_int
+from fetch_game_page_history import FAILURE_PATH, MANIFEST_PATH, PROFILE_CSV, ROOT, cdx_cache_paths_for_url, load_profile_games, parse_int
 
 
 PROCESSED = ROOT / "data" / "processed"
@@ -67,16 +67,17 @@ def cdx_rows_for_game(game) -> tuple[int, int]:
     cached_variants = 0
     unique_rows = set()
     for page_url in game.game_url_variants:
-        path = cdx_cache_path(page_url)
-        if not path.exists():
+        paths = [path for path in cdx_cache_paths_for_url(page_url) if path.exists()]
+        if not paths:
             continue
         cached_variants += 1
-        try:
-            rows = json.loads(path.read_text())
-        except json.JSONDecodeError:
-            continue
-        for row in rows:
-            unique_rows.add((row.get("timestamp", ""), row.get("original", ""), row.get("digest", "")))
+        for path in paths:
+            try:
+                rows = json.loads(path.read_text())
+            except json.JSONDecodeError:
+                continue
+            for row in rows:
+                unique_rows.add((row.get("timestamp", ""), row.get("original", ""), row.get("digest", "")))
     return cached_variants, len(unique_rows)
 
 
