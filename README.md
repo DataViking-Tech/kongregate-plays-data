@@ -16,6 +16,7 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 
 - Ranked-list rows: 48,584
 - Ranked-list rows with observed play counts: 15,916
+- Ranked-list rows with aggregate as-of observed play counts: 43,489
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
 - Per-game play-history rows: 7,939 across 2,672 canonical games
@@ -32,6 +33,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,351 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
 - Recovery checkpoints have filled all previously empty ranked months; no calendar month from the first ranked capture through the latest ranked capture is empty in the processed dataset.
+- `ranked_games_observed_plays.csv` now joins the rank spine to the highest observed play count for each game on or before each rank date. This keeps the raw listing-count gap honest while covering 43,489 ranked rows and reducing ranked months with no aggregate as-of play-count coverage to 0.
 - Checkpoint 30 merged 525 raw URL-split mini-catalog identities into canonical games, retained the raw forms in `game_url_variants`, and duplicate canonical catalog games now scan at 0.
 - Checkpoint 30 also smooths the chart race playback with denser month-paced display frames, stable row lanes, lighter metadata updates during playback, and hidden-tab pause instead of bursty catch-up.
 - Checkpoint 31 added targeted `--audit-missing-cdx-only --needs-history-only` metrics-history recovery, fetched 18 additional archived metrics observations, and cut missing CDX cache files from 355 to 301. A follow-up 50-game audit-only pass found no additional rows and reduced missing CDX cache files to 290.
@@ -206,6 +208,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 180 continued the tier-1 developer/account-list audit for remaining multi-game developers. The pass added 207 developer-list probe-history observations, found 6 target links in archived developer/account pages, raised archived-endpoint-hit/no-count games to 120, lowered no-archived-endpoint-row games to 205, and cleared the transient retry queue to 0 unresolved failed endpoint groups. No new play-count rows were recovered in this checkpoint.
 - Checkpoint 181 probed the remaining no-exact-evidence developer/account-list queue for dense tier-1 developers, then cleared the resulting retry queue. The pass raised accumulated probe-history observations to 12,285, raised archived-endpoint-hit/no-count games to 124, lowered no-archived-endpoint-row games to 201, and kept unresolved failed endpoint groups at 0. No new play-count rows were recovered in this checkpoint.
 - Checkpoint 182 ran a focused no-exact-evidence developer/account-list probe for targeted tier-1 games, then cleared the resulting retry queue. The pass raised accumulated probe-history observations to 12,435, raised archived-endpoint-hit/no-count games to 132, lowered no-archived-endpoint-row games to 193, and kept unresolved failed endpoint groups at 0. No new play-count rows were recovered in this checkpoint.
+- Checkpoint 183 added `ranked_games_observed_plays.csv`, a rank-row analysis table that preserves the direct listing count separately from the aggregate as-of count. Direct listing counts still cover 15,916 ranked rows and have the known 2014-09 to 2025-10 listing-layer gap, but aggregate as-of counts now cover 43,489 ranked rows and every ranked month. The remaining 5,095 ranked rows have no observed play count on or before their rank date and are now isolated for targeted recovery.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
@@ -226,6 +229,8 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` - chart frame data.
 - `outputs/kongregate_ranked_games/kongregate_ranked_games.xlsx` - workbook with ranked rows, mini catalog, metrics history, lifecycle metadata, and extraction report.
 - `data/processed/ranked_games.csv` - date, game, rank, ranking type, and listing play-count observations.
+- `data/processed/ranked_games_observed_plays.csv` - ranked rows enriched with the highest observed aggregate play count on or before each rank date, plus source and lag fields.
+- `logs/ranked_games_observed_plays_report.*` - coverage report for direct listing counts versus aggregate as-of counts.
 - `data/processed/mini_catalog.csv` - games that reached top 20 at least once, including observed Kongregate game IDs when present in ranked-list HTML.
 - `data/processed/game_play_history.csv` - per-game metrics JSON, live metrics, and archived game-page observations.
 - `data/processed/game_lifecycle_catalog.csv` - evidence-backed first/last observed dates, provisional category/platform tags, live metrics availability, and cautious removal-evidence fields.
@@ -271,6 +276,7 @@ python3 scripts/fetch_game_page_history.py --input-csv data/processed/catalog_hi
 python3 scripts/fetch_live_ranked_pages.py
 python3 scripts/audit_metrics_backfill_gaps.py
 python3 scripts/profile_metrics_no_cdx_gaps.py
+python3 scripts/build_ranked_games_observed_plays.py
 python3 scripts/scan_data_quality.py --as-of 2026-07-01
 python3 scripts/build_game_lifecycle_catalog.py
 python3 scripts/summarize_no_history_evidence.py

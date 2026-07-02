@@ -1,0 +1,45 @@
+{
+  "run_timestamp": "2026-07-02T15:00:28Z",
+  "ranked_rows": 48584,
+  "game_play_history_rows": 7939,
+  "rows_with_direct_listing_play_counts": 15916,
+  "rows_with_aggregate_asof_play_counts": 43489,
+  "direct_listing_coverage_rate": 0.3276,
+  "aggregate_asof_coverage_rate": 0.8951,
+  "ranked_months_without_direct_listing_play_counts": 134,
+  "ranked_months_without_aggregate_asof_play_counts": 0,
+  "direct_listing_zero_month_range": [
+    "2014-09",
+    "2025-10"
+  ],
+  "aggregate_asof_zero_month_range": [
+    "",
+    ""
+  ],
+  "aggregate_asof_method_counts": {
+    "direct_listing_plus_prior_or_same_day_max": 3350,
+    "direct_listing_same_capture": 12566,
+    "no_observed_play_count_asof_rank_date": 5095,
+    "aggregate_asof_from_prior_observation": 27573
+  },
+  "aggregate_asof_source_counts": {
+    "ranked_listing": 20939,
+    "game_page_html": 35,
+    "metrics_json": 22360,
+    "count_source_probe": 21,
+    "live_metrics_json": 134
+  },
+  "aggregate_asof_staleness_counts": {
+    "same_day": 16351,
+    "1-30_days": 5148,
+    "over_365_days": 10241,
+    "31-180_days": 8181,
+    "181-365_days": 3568
+  },
+  "aggregate_asof_max_lag_days": 5956,
+  "outputs": {
+    "csv": "data/processed/ranked_games_observed_plays.csv",
+    "report_json": "logs/ranked_games_observed_plays_report.json",
+    "report_md": "logs/ranked_games_observed_plays_report.md"
+  }
+}

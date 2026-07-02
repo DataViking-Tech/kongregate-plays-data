@@ -1,8 +1,9 @@
 {
-  "run_timestamp": "2026-07-02T14:25:37Z",
+  "run_timestamp": "2026-07-02T14:56:47Z",
   "as_of": "2026-07-02",
   "ranked_rows": 48584,
   "ranked_rows_with_play_counts": 15916,
+  "ranked_rows_with_aggregate_asof_play_counts": 43489,
   "ranked_date_range": [
     "2007-01-20",
     "2026-07-02"
@@ -20,6 +21,12 @@
     "2014-09",
     "2025-10"
   ],
+  "ranked_months_without_aggregate_asof_play_counts": 0,
+  "ranked_aggregate_asof_play_count_zero_month_range": [
+    "",
+    ""
+  ],
+  "ranked_rows_without_aggregate_asof_play_count": 5095,
   "catalog_games_without_metrics_history": 325,
   "catalog_games_need_page_history": 2247,
   "final_chart_entries_stale_over_one_year": 0,
@@ -36,14 +43,24 @@
   "stale_listing_play_count_observations": 432,
   "issues": [
     {
-      "severity": "high",
+      "severity": "medium",
       "area": "plays",
       "issue_type": "ranked_months_without_listing_play_counts",
       "count": 134,
       "first_date": "2014-09",
       "last_date": "2025-10",
       "example": "Last Warrior",
-      "recommended_action": "Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text."
+      "recommended_action": "Use data/processed/ranked_games_observed_plays.csv for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses."
+    },
+    {
+      "severity": "medium",
+      "area": "plays",
+      "issue_type": "ranked_rows_without_aggregate_asof_play_count",
+      "count": 5095,
+      "first_date": "2014-07-26",
+      "last_date": "2026-01-05",
+      "example": "AZ Tank Game",
+      "recommended_action": "Prioritize these rows for per-game metrics/page-history recovery; no play count has been observed on or before their rank date."
     },
     {
       "severity": "high",
