@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T01:32:19Z
+Generated: 2026-07-02T01:39:59Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T01:32:19Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 14729
+- Missing CDX cache files: 14700
 
 ## Status Counts
 
-- cdx_cache_missing: 289
+- cdx_cache_missing: 283
 - has_metrics: 2668
-- no_cdx: 40
+- no_cdx: 46
 
 ## Top Unresolved Games
 
@@ -44,7 +44,7 @@ Generated: 2026-07-02T01:32:19Z
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| CountryBalls 4 | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| CountryBalls 4 | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | cuube | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
