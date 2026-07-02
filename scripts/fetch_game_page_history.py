@@ -375,7 +375,7 @@ def build_jobs(
                 stats["cdx_urls_missing_cache_skipped"] += 1
             else:
                 stats["cdx_urls_failed"] += 1
-            if status != "cached":
+            if status not in {"cached", "missing_cache_skipped"}:
                 time.sleep(cdx_sleep_s)
             stats["cdx_rows"] += len(rows)
             for row in rows:

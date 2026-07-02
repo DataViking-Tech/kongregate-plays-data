@@ -1,30 +1,30 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-01T11:15:43Z
-- Profile games in scope: 5
-- Selected games sample: Flap Cat Halloween, Kosmogon, Bus & Subway Runner, Murder, Life Of A Golf Ball
-- Selected games omitted from sample: 0
-- CDX games considered: 5
+- Run timestamp: 2026-07-02T07:24:40Z
+- Profile games in scope: 79
+- Selected games sample: Jupiter OGame, First Date, Battle For Gondor, RPG Shooter, Jamproject Classic Roc..., Chuck Norris MMORPG, I Don't Even Know, Mini Ninja Coloring, "The Game" Chat, Motivational Chatroom ..., Another of Stafforb's Pokemon Battles., Make Butter Waffles, Broken World WIP, PhysicsWars, Run And Monetize, Chocolate Rain TAY ZONDAY, Office Supply Team!, Blozorz Hacked, Jumbo Adventure, Stickman Adventure, Touch me NOW!, How to make an MMORPG, zombie dolls, GTA Portable, Fruit connect, Paper Doors Escape, Eternal-Red, Clear Vision Elite, Active Ashfield's Conversion Challenge, Photogrounds, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, arch_diagram, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Fiat Puzzle, Crazy Chaotic Chicken Chase, Is your brother EVIL?!?, gold panic, Back To Future-The Game, Chaos Faction 2, Giraffe Coloring, wolvorin, Electric Man 2Hs, REPLAY The Game
+- Selected games omitted from sample: 29
+- CDX games considered: 10
 - Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 12s
-- CDX wall-clock cap: 18.0
-- Page timeout: 12s
-- Page wall-clock cap: 15.0
-- Game-name filter: Flap Cat Halloween,Kosmogon,Bus & Subway Runner,Murder,Life Of A Golf Ball
+- CDX timeout: 5s
+- CDX wall-clock cap: 8.0
+- Page timeout: 6s
+- Page wall-clock cap: 8.0
+- Game-name filter: none
 - Metrics row filter: no_metrics
-- CDX rows: 3
-- Page jobs: 3
-- Pending before run: 3
-- Attempted this run: 3
-- Fetched this run: 3
+- CDX rows: 0
+- Page jobs: 0
+- Pending before run: 0
+- Attempted this run: 0
+- Fetched this run: 0
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 3
+- No explicit count this run: 0
+- Failed this run: 0
 - Manifest entries: 367
 - Known failures: 2908
-- Combined history rows: 7932
+- Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
