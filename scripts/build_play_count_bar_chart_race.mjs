@@ -429,12 +429,12 @@ function htmlDocument() {
 
     .rows.isDirectMotion .barRow {
       transition:
-        transform var(--row-move-duration) var(--move-ease),
+        transform var(--row-move-duration) linear,
         opacity 140ms ease;
     }
 
     .rows.isDirectMotion .bar {
-      transition: transform var(--move-duration) var(--move-ease);
+      transition: none;
     }
 
     .rank {
@@ -583,12 +583,12 @@ function htmlDocument() {
 
       .rows.isDirectMotion .barRow {
         transition:
-          transform var(--row-move-duration) var(--move-ease),
+          transform var(--row-move-duration) linear,
           opacity 140ms ease;
       }
 
       .rows.isDirectMotion .bar {
-        transition: transform var(--move-duration) var(--move-ease);
+        transition: none;
       }
     }
   </style>
@@ -662,7 +662,7 @@ function htmlDocument() {
     const transitionMs = 760;
     const smoothStepsPerMonth = 48;
     const sliderSyncEvery = Math.max(1, Math.round(smoothStepsPerMonth / 4));
-    const rowPositionPrecision = 2;
+    const rowPositionPrecision = 3;
     const barScalePrecision = 5000;
     const barScaleThreshold = 0.0002;
     const rowsByKey = new Map();
@@ -780,6 +780,13 @@ function htmlDocument() {
       const numericSlot = Number(slot);
       if (!Number.isFinite(numericSlot)) return 0;
       return Math.max(0, Math.min(renderedRows + 1.5, numericSlot));
+    }
+
+    function entryRankPosition(entry, fallback) {
+      const rankPosition = Number(entry?.rankPosition);
+      if (Number.isFinite(rankPosition)) return rankPosition;
+      const rank = Number(entry?.rank);
+      return Number.isFinite(rank) ? rank : fallback;
     }
 
     function motionReadyFrame(frame) {
@@ -930,8 +937,8 @@ function htmlDocument() {
           const baseEntry = endEntry || startEntry;
           const startPlays = startEntry ? startEntry.plays : Math.min(endEntry.plays, joinFloor);
           const endPlays = endEntry ? endEntry.plays : startEntry.plays;
-          const startRank = startEntry?.rank ?? offscreenRank;
-          const endRank = endEntry?.rank ?? offscreenRank;
+          const startRank = entryRankPosition(startEntry, offscreenRank);
+          const endRank = entryRankPosition(endEntry, offscreenRank);
           const rankPosition = startRank + ((endRank - startRank) * eased);
           return {
             ...baseEntry,
@@ -1077,6 +1084,11 @@ function htmlDocument() {
       return palette[Math.abs(hash) % palette.length];
     }
 
+    function displayRankFor(entry, fallbackIndex) {
+      const rank = Number(entry.rank);
+      return Number.isFinite(rank) ? rank : fallbackIndex + 1;
+    }
+
     function detailText(entry) {
       const parts = [];
       if (entry.developer) parts.push(entry.developer);
@@ -1173,7 +1185,7 @@ function htmlDocument() {
     }
 
     function updateRow(row, entry, maxValue, fallbackIndex) {
-      setTextIfChanged(row.querySelector(".rank"), entry.rank ?? fallbackIndex + 1);
+      setTextIfChanged(row.querySelector(".rank"), displayRankFor(entry, fallbackIndex));
       const gameName = row.querySelector(".gameName");
       setTextIfChanged(gameName, entry.gameName);
       if (entry.gameUrl && gameName.tagName === "A") gameName.href = entry.gameUrl;
@@ -1253,7 +1265,7 @@ function htmlDocument() {
         rowsEl.dataset.ready = "true";
       }
 
-      const animateNewRows = rowsByKey.size > 0;
+      const animateNewRows = playbackMode !== "smooth" && rowsByKey.size > 0;
       entries.forEach((entry, index) => {
         const rowKey = entry.key;
         let row = rowsByKey.get(rowKey);
@@ -1334,7 +1346,7 @@ function htmlDocument() {
         ? 0
         : Math.max(260, Math.min(900, delay * 0.86));
       const rowDuration = playbackMode === "smooth"
-        ? Math.max(110, Math.min(180, delay * 1.45))
+        ? Math.max(70, Math.min(120, delay * 0.9))
         : duration;
       document.documentElement.style.setProperty("--move-duration", Math.round(duration) + "ms");
       document.documentElement.style.setProperty("--row-move-duration", Math.round(rowDuration) + "ms");
