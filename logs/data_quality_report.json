@@ -1,5 +1,5 @@
 {
-  "run_timestamp": "2026-07-02T14:56:47Z",
+  "run_timestamp": "2026-07-02T15:14:48Z",
   "as_of": "2026-07-02",
   "ranked_rows": 48584,
   "ranked_rows_with_play_counts": 15916,
@@ -50,7 +50,7 @@
       "first_date": "2014-09",
       "last_date": "2025-10",
       "example": "Last Warrior",
-      "recommended_action": "Use data/processed/ranked_games_observed_plays.csv for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses."
+      "recommended_action": "Use data/processed/ranked_games_observed_plays.csv or the published .csv.gz for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses."
     },
     {
       "severity": "medium",

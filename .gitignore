@@ -7,3 +7,4 @@ logs/*errors.log
 publish/
 *.inspect.ndjson
 outputs/kongregate_ranked_games/*.png
+data/processed/ranked_games_observed_plays.csv

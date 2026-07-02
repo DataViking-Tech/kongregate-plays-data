@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gzip
 import json
 import re
 import urllib.parse
@@ -109,10 +110,15 @@ HISTORY_SOURCES = {"metrics_json", "live_metrics_json", "game_page_html"}
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as handle:
+            return list(csv.DictReader(handle))
+    gzip_path = path.with_suffix(path.suffix + ".gz")
+    if gzip_path.exists():
+        with gzip.open(gzip_path, "rt", newline="", encoding="utf-8") as handle:
+            return list(csv.DictReader(handle))
     if not path.exists():
         return []
-    with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle))
 
 
 def write_csv(path: Path, columns: list[str], rows: list[dict[str, object]]) -> None:
@@ -653,7 +659,7 @@ def main() -> None:
         last_zero = zero_play_count_months[-1]
         severity = "medium" if ranked_observed_play_rows and not ranked_asof_zero_months else "high"
         recommendation = (
-            "Use data/processed/ranked_games_observed_plays.csv for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses."
+            "Use data/processed/ranked_games_observed_plays.csv or the published .csv.gz for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses."
             if ranked_observed_play_rows and not ranked_asof_zero_months
             else "Use per-game metrics/page-history backfill for this era; archived ranked-list rows are present but the observed layout often omits public play-count text."
         )

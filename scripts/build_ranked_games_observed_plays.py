@@ -5,7 +5,9 @@ from __future__ import annotations
 
 import bisect
 import csv
+import gzip
 import json
+import shutil
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -20,6 +22,7 @@ LOGS = ROOT / "logs"
 RANKED_CSV = PROCESSED / "ranked_games.csv"
 HISTORY_CSV = PROCESSED / "game_play_history.csv"
 OUTPUT_CSV = PROCESSED / "ranked_games_observed_plays.csv"
+OUTPUT_CSV_GZ = PROCESSED / "ranked_games_observed_plays.csv.gz"
 REPORT_JSON = LOGS / "ranked_games_observed_plays_report.json"
 REPORT_MD = LOGS / "ranked_games_observed_plays_report.md"
 
@@ -64,6 +67,11 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
         writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
+
+
+def write_gzip_copy(source: Path, target: Path) -> None:
+    with source.open("rb") as source_handle, gzip.open(target, "wb", compresslevel=9) as target_handle:
+        shutil.copyfileobj(source_handle, target_handle)
 
 
 def parse_int(value: object) -> int:
@@ -279,6 +287,7 @@ def write_report(rows: list[dict[str, object]], ranked_rows: list[dict[str, str]
         "aggregate_asof_max_lag_days": max(lag_values) if lag_values else 0,
         "outputs": {
             "csv": str(OUTPUT_CSV.relative_to(ROOT)),
+            "csv_gzip": str(OUTPUT_CSV_GZ.relative_to(ROOT)),
             "report_json": str(REPORT_JSON.relative_to(ROOT)),
             "report_md": str(REPORT_MD.relative_to(ROOT)),
         },
@@ -321,6 +330,7 @@ def main() -> None:
     history_rows = read_csv(HISTORY_CSV)
     rows = build_rows(ranked_rows, history_rows)
     write_csv(OUTPUT_CSV, rows)
+    write_gzip_copy(OUTPUT_CSV, OUTPUT_CSV_GZ)
     report = write_report(rows, ranked_rows, history_rows)
     print(json.dumps(report, indent=2))
 
