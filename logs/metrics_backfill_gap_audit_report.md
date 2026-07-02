@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T01:24:36Z
+Generated: 2026-07-02T01:32:19Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T01:24:36Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 14763
+- Missing CDX cache files: 14729
 
 ## Status Counts
 
-- cdx_cache_missing: 294
+- cdx_cache_missing: 289
 - has_metrics: 2668
-- no_cdx: 35
+- no_cdx: 40
 
 ## Top Unresolved Games
 
@@ -42,10 +42,10 @@ Generated: 2026-07-02T01:24:36Z
 | Britney Spears vs Child Servisous | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Caralhinhos Voadores - Age Of Delicia | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | changetype() | no_cdx | 2 | 0 | 0 | 0 | 0 |
-| Cherrie New Spring Trends | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| Cherrie New Spring Trends | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | Chevrolet Cruze Puzzle | no_cdx | 2 | 0 | 0 | 0 | 0 |
 | CountryBalls 4 | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
-| cuube | cdx_cache_missing | 2 | 0 | 0 | 0 | 0 |
+| cuube | no_cdx | 2 | 0 | 0 | 0 | 0 |
 
 ## Output Files
 
