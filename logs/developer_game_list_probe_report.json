@@ -1,17 +1,20 @@
 {
   "candidate_observation_rows": 9,
-  "captures_sampled": 0,
+  "captures_sampled": 3,
   "cdx_status_counts": {
-    "fetched": 9
+    "cached": 1,
+    "fetched": 8
   },
   "developer_filters": [
-    "Zueirao34"
+    "FkidsPR",
+    "foumart",
+    "ctnumber1"
   ],
   "game_name_contains": [],
   "include_account_pages": true,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "prefix",
-  "max_captures_per_source": 3,
+  "max_captures_per_source": 1,
   "max_cdx_lookups": 0,
   "max_developers": 0,
   "max_games": 0,
@@ -30,22 +33,24 @@
   },
   "persisted_probe_history": {
     "added": 9,
-    "total": 9555,
+    "total": 9640,
     "updated": 0
   },
-  "pre_cap_target_developers": 1,
+  "pre_cap_target_developers": 3,
   "pre_cap_target_games": 3,
-  "run_timestamp": "2026-07-02T12:31:08Z",
+  "run_timestamp": "2026-07-02T12:44:26Z",
   "selected_games_by_developer": {
-    "Zueirao34": 3
+    "FkidsPR": 1,
+    "ctnumber1": 1,
+    "foumart": 1
   },
   "skipped_developers_due_to_caps": [],
-  "source_cdx_lookups": 3,
+  "source_cdx_lookups": 9,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 1,
+  "target_developers": 3,
   "target_games": 3,
   "target_links_found": 0,
-  "tiers": "1",
+  "tiers": "3",
   "top_recovered_rows": [],
   "unresolved_failed_endpoints_only": true
 }

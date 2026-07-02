@@ -595,12 +595,12 @@ def run_probe(args) -> dict[str, object]:
                             candidate_row(
                                 target,
                                 source_url,
-                                html_status,
+                                cdx_status,
                                 len(cdx_rows),
                                 sample_timestamp=timestamp,
                                 sample_original=original,
                                 sample_mimetype=cdx_row.get("mimetype", ""),
-                                notes="developer_game_list_html_unavailable",
+                                notes=f"developer_game_list_html_unavailable; html_status={html_status}",
                             )
                         )
                     continue
