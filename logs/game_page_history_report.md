@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:07:07Z
-- Profile games in scope: 4
-- Selected games sample: rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T09:12:09Z
+- Profile games in scope: 23
+- Selected games sample: Clear Vision Elite, Spongebob VS. Larry Ve..., Fadious Dragon, Snow Fight 3.0, Fantasy Warriors, Escape the Ship, Hidden Dungeons MMORPG, Hidden Car Keys, Modern War, Countdown Striker, Crazy Chaotic Chicken Chase, gold panic, Back To Future-The Game, Giraffe Coloring, super mario crossover, The 10 Question Quiz 2!, Fashion Expert, Where's My Water Fighting Planes, Garage Rush, Do Not Press, Chain Gun Rex, Fish Rush, Ninja Quest
 - Selected games omitted from sample: 0
-- CDX games considered: 4
+- CDX games considered: 5
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 12s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 13
-- Page jobs: 13
-- Pending before run: 13
-- Attempted this run: 4
-- Fetched this run: 4
+- CDX rows: 3
+- Page jobs: 3
+- Pending before run: 3
+- Attempted this run: 3
+- Fetched this run: 3
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 4
-- Failed this run: 4
+- No explicit count this run: 3
+- Failed this run: 3
 - Manifest entries: 367
-- Known failures: 2929
+- Known failures: 2932
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False

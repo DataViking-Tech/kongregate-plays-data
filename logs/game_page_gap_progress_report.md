@@ -1,20 +1,20 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T09:07:20Z
+- Generated: 2026-07-02T09:12:24Z
 - Profile games: 329
 - High-value unresolved games: 242
 
 ## Status Counts
 
-- html_without_explicit_count: 155
+- html_without_explicit_count: 156
 - no_page_cdx_rows: 131
-- not_checked: 43
+- not_checked: 42
 
 ## Recommended Actions
 
-- 155: Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.
+- 156: Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.
 - 131: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
-- 43: Run a bounded page-history CDX shard for this game.
+- 42: Run a bounded page-history CDX shard for this game.
 
 ## Top Unresolved Examples
 
