@@ -1,6 +1,6 @@
 # Metrics Backfill Gap Audit
 
-Generated: 2026-07-02T05:02:36Z
+Generated: 2026-07-02T05:13:31Z
 
 ## Summary
 
@@ -9,13 +9,13 @@ Generated: 2026-07-02T05:02:36Z
 - Games with fresh pending captures: 0
 - Fresh pending captures: 0
 - Known failed captures: 37
-- Missing CDX cache files: 13894
+- Missing CDX cache files: 13835
 
 ## Status Counts
 
-- cdx_cache_missing: 122
+- cdx_cache_missing: 110
 - has_metrics: 2668
-- no_cdx: 207
+- no_cdx: 219
 
 ## Top Unresolved Games
 
