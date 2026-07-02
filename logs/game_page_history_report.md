@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T08:49:06Z
-- Profile games in scope: 18
-- Selected games sample: super mario crossover, The 10 Question Quiz 2!, Fashion Expert, The Game, Sliding Plate Adventure, Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
+- Run timestamp: 2026-07-02T08:56:56Z
+- Profile games in scope: 13
+- Selected games sample: Where's My Water Fighting Planes, Dynamite Soccer Online, Garage Rush, Maze, 2, Platform Block Demo, Do Not Press, Chain Gun Rex, Fish Rush, The Bill Cosby Fun Game, rocks vs gold version 1.4, Quantum Of Light, Robin the Archer in Pixeland, Ninja Quest
 - Selected games omitted from sample: 0
 - CDX games considered: 5
 - Cached CDX only: False
@@ -26,7 +26,7 @@
 - No explicit count this run: 1
 - Failed this run: 1
 - Manifest entries: 367
-- Known failures: 2923
+- Known failures: 2924
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
