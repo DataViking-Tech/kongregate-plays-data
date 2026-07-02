@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T09:51:33Z
+- Run timestamp: 2026-07-02T09:56:14Z
 - Profile games in scope: 3
-- Selected games sample: Office Supply Team!, Blozorz Hacked, Jumbo Adventure
+- Selected games sample: Stickman Adventure, Touch me NOW!, How to make an MMORPG
 - Selected games omitted from sample: 0
 - CDX games considered: 3
 - Cached CDX only: False
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: no_metrics
 - Progress status filter: not_checked
-- CDX rows: 3
-- Page jobs: 3
-- Pending before run: 3
-- Attempted this run: 3
-- Fetched this run: 3
+- CDX rows: 4
+- Page jobs: 4
+- Pending before run: 4
+- Attempted this run: 4
+- Fetched this run: 4
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 3
+- No explicit count this run: 4
+- Failed this run: 4
 - Manifest entries: 367
-- Known failures: 2950
+- Known failures: 2954
 - Combined history rows: 7933
 - Game-page history rows: 367
 - Report only: False
