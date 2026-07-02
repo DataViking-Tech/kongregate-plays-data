@@ -34,6 +34,7 @@ LOGS = ROOT / "logs"
 
 CATALOG_CSV = PROCESSED / "mini_catalog.csv"
 PROFILE_CSV = PROCESSED / "metrics_no_cdx_profile.csv"
+PROGRESS_CSV = PROCESSED / "game_page_gap_progress.csv"
 MANIFEST_PATH = RAW_GAME_PAGES / "manifest.json"
 FAILURE_PATH = RAW_GAME_PAGES / "failures.json"
 REPORT_JSON = LOGS / "game_page_history_report.json"
@@ -271,6 +272,19 @@ def load_profile_games(profile_csv: Path, tiers: set[int]) -> list[ProfileGame]:
         )
     )
     return games
+
+
+def load_progress_status_filter_keys(progress_csv: Path, statuses: set[str]) -> set[str]:
+    if not progress_csv.exists():
+        raise SystemExit(f"Progress status filter requested, but {progress_csv} does not exist.")
+    keys: set[str] = set()
+    with progress_csv.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            if str(row.get("status", "")).strip() in statuses:
+                key = row.get("canonical_game_key") or canonical_game_url(row.get("game_url", ""))
+                if key:
+                    keys.add(key)
+    return keys
 
 
 def cdx_cache_path(page_url: str) -> Path:
@@ -579,6 +593,8 @@ def make_report(
         "cached_html_only": args.cached_html_only,
         "game_name_contains": args.game_name_contains,
         "metrics_row_status": args.metrics_row_status,
+        "progress_status_filter": args.progress_status_filter,
+        "progress_csv": str(Path(args.progress_csv).relative_to(ROOT)) if Path(args.progress_csv).is_relative_to(ROOT) else args.progress_csv,
         "retry_failures": args.retry_failures,
         "report_only": args.report_only,
         **cdx_stats,
@@ -625,6 +641,7 @@ def write_report(report: dict[str, object]) -> None:
                 f"- Page wall-clock cap: {report['page_wall_timeout'] or 'none'}",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
                 f"- Metrics row filter: {report['metrics_row_status']}",
+                f"- Progress status filter: {report['progress_status_filter'] or 'none'}",
                 f"- CDX rows: {report['cdx_rows']}",
                 f"- Page jobs: {report['page_jobs']}",
                 f"- Pending before run: {report['pending_before_run']}",
@@ -680,6 +697,8 @@ def main() -> None:
         default="any",
         help="Filter profile games by whether they already have per-game metrics rows.",
     )
+    parser.add_argument("--progress-status-filter", default="", help="Comma-separated statuses from game_page_gap_progress.csv to target, such as not_checked.")
+    parser.add_argument("--progress-csv", default=str(PROGRESS_CSV), help="Progress CSV used with --progress-status-filter.")
     args = parser.parse_args()
 
     profile_csv = Path(args.input_csv)
@@ -695,6 +714,10 @@ def main() -> None:
             for game in games
             if any(value in game.game_name.lower() or value in game.game_url.lower() for value in name_filters)
         ]
+    progress_statuses = {value.strip() for value in args.progress_status_filter.split(",") if value.strip()}
+    if progress_statuses:
+        progress_keys = load_progress_status_filter_keys(Path(args.progress_csv), progress_statuses)
+        games = [game for game in games if game.canonical_key in progress_keys]
     if args.metrics_row_status == "no_metrics":
         games = [game for game in games if game.metrics_rows == 0]
     elif args.metrics_row_status == "has_metrics":
