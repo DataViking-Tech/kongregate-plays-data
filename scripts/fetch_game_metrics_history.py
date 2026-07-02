@@ -8,11 +8,13 @@ import csv
 import gzip
 import json
 import re
+import signal
 import socket
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha1
@@ -79,6 +81,30 @@ class MetricsJob:
     digest: str
     mimetype: str
     length: str
+
+
+class RequestWallClockTimeout(TimeoutError):
+    pass
+
+
+@contextmanager
+def wall_clock_timeout(seconds: float):
+    if seconds <= 0 or not hasattr(signal, "setitimer"):
+        yield
+        return
+
+    def timeout_handler(_signum, _frame):
+        raise RequestWallClockTimeout(f"wall_clock_timeout_{seconds:g}s")
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    previous_timer = signal.getitimer(signal.ITIMER_REAL)
+    signal.signal(signal.SIGALRM, timeout_handler)
+    signal.setitimer(signal.ITIMER_REAL, seconds)
+    try:
+        yield
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, *previous_timer)
+        signal.signal(signal.SIGALRM, previous_handler)
 
 
 def utc_now() -> str:
@@ -210,7 +236,15 @@ def row_scheme(original: str) -> str:
     return urllib.parse.urlsplit(original).scheme.lower()
 
 
-def fetch_cdx(metrics_url: str, timeout_s: int, collapse: str, refresh: bool, retries: int, retry_sleep_s: float) -> tuple[list[dict[str, str]], str]:
+def fetch_cdx(
+    metrics_url: str,
+    timeout_s: int,
+    wall_timeout_s: float,
+    collapse: str,
+    refresh: bool,
+    retries: int,
+    retry_sleep_s: float,
+) -> tuple[list[dict[str, str]], str]:
     RAW_CDX.mkdir(parents=True, exist_ok=True)
     cache_path = cdx_cache_path(metrics_url)
     if cache_path.exists() and not refresh:
@@ -220,10 +254,11 @@ def fetch_cdx(metrics_url: str, timeout_s: int, collapse: str, refresh: bool, re
     last_error = ""
     for attempt in range(retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                data = json.loads(response.read().decode("utf-8", errors="replace"))
+            with wall_clock_timeout(wall_timeout_s):
+                with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                    data = json.loads(response.read().decode("utf-8", errors="replace"))
             break
-        except (TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
+        except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as exc:
             last_error = str(exc)
             if attempt < retries:
                 time.sleep(retry_sleep_s * (attempt + 1))
@@ -240,6 +275,7 @@ def fetch_cdx(metrics_url: str, timeout_s: int, collapse: str, refresh: bool, re
 def load_cdx(
     metrics_url: str,
     timeout_s: int,
+    wall_timeout_s: float,
     collapse: str,
     refresh: bool,
     retries: int,
@@ -249,7 +285,7 @@ def load_cdx(
     cache_path = cdx_cache_path(metrics_url)
     if cached_only and not refresh and not cache_path.exists():
         return [], "missing_cache_skipped"
-    return fetch_cdx(metrics_url, timeout_s, collapse, refresh, retries, retry_sleep_s)
+    return fetch_cdx(metrics_url, timeout_s, wall_timeout_s, collapse, refresh, retries, retry_sleep_s)
 
 
 def metrics_cache_path(job: MetricsJob) -> Path:
@@ -290,7 +326,7 @@ def metrics_json_is_valid(path: Path) -> bool:
     return bool(parse_int(payload.get("gameplays_count") or payload.get("gameplays_count_with_delimiter")))
 
 
-def fetch_metrics(job: MetricsJob, timeout_s: int, retries: int, retry_sleep_s: float) -> tuple[bool, str]:
+def fetch_metrics(job: MetricsJob, timeout_s: int, wall_timeout_s: float, retries: int, retry_sleep_s: float) -> tuple[bool, str]:
     target = metrics_cache_path(job)
     if metrics_json_is_valid(target):
         return True, "cached"
@@ -303,15 +339,16 @@ def fetch_metrics(job: MetricsJob, timeout_s: int, retries: int, retry_sleep_s: 
     last_error = ""
     for attempt in range(retries + 1):
         try:
-            with urllib.request.urlopen(request, timeout=timeout_s) as response:
-                payload = decode_payload(response.read(), response.headers)
+            with wall_clock_timeout(wall_timeout_s):
+                with urllib.request.urlopen(request, timeout=timeout_s) as response:
+                    payload = decode_payload(response.read(), response.headers)
             break
         except urllib.error.HTTPError as exc:
             payload = decode_payload(exc.read(), exc.headers)
             if exc.code < 500:
                 break
             last_error = f"http_{exc.code}"
-        except (TimeoutError, socket.timeout, urllib.error.URLError) as exc:
+        except (RequestWallClockTimeout, TimeoutError, socket.timeout, urllib.error.URLError) as exc:
             last_error = str(exc)
         if attempt < retries:
             time.sleep(retry_sleep_s * (attempt + 1))
@@ -345,6 +382,7 @@ def build_jobs(
     games: list[CatalogGame],
     schemes: set[str],
     timeout_s: int,
+    cdx_wall_timeout_s: float,
     cdx_sleep_s: float,
     refresh_cdx: bool,
     max_cdx_games: int,
@@ -374,6 +412,7 @@ def build_jobs(
             rows, status = load_cdx(
                 metrics_url,
                 timeout_s=timeout_s,
+                wall_timeout_s=cdx_wall_timeout_s,
                 collapse=collapse,
                 refresh=refresh_cdx,
                 retries=cdx_retries,
@@ -476,6 +515,8 @@ def main() -> None:
     parser.add_argument("--schemes", default="http,https", help="Comma-separated URL schemes to query, usually http,https.")
     parser.add_argument("--collapse", default="", help="Optional CDX collapse value, e.g. digest. Empty means retain every capture.")
     parser.add_argument("--timeout", type=int, default=18, help="Per-request timeout in seconds.")
+    parser.add_argument("--cdx-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each CDX lookup.")
+    parser.add_argument("--metrics-wall-timeout", type=float, default=0, help="Optional wall-clock cap for each archived metrics JSON fetch.")
     parser.add_argument("--sleep", type=float, default=0.35, help="Seconds to sleep after a metrics JSON fetch.")
     parser.add_argument("--cdx-sleep", type=float, default=0.25, help="Seconds to sleep after a fresh CDX fetch.")
     parser.add_argument("--cdx-retries", type=int, default=1, help="Retries for transient CDX lookup failures.")
@@ -528,6 +569,7 @@ def main() -> None:
         catalog_scope,
         schemes,
         args.timeout,
+        args.cdx_wall_timeout,
         args.cdx_sleep,
         args.refresh_cdx,
         args.max_cdx_games,
@@ -553,7 +595,7 @@ def main() -> None:
     cached = 0
     failed = 0
     for job in selected:
-        ok, detail = fetch_metrics(job, args.timeout, args.metrics_retries, args.retry_sleep)
+        ok, detail = fetch_metrics(job, args.timeout, args.metrics_wall_timeout, args.metrics_retries, args.retry_sleep)
         key = f"{job.game_url}\t{job.timestamp}\t{job.original}"
         if ok:
             if detail == "cached":
@@ -614,6 +656,8 @@ def main() -> None:
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
+        "cdx_wall_timeout": args.cdx_wall_timeout,
+        "metrics_wall_timeout": args.metrics_wall_timeout,
         "cached_cdx_only": args.cached_cdx_only,
         "expanded_route_variants": args.expanded_route_variants,
         **cdx_stats,
@@ -650,6 +694,8 @@ def main() -> None:
                 f"- Expanded route variants: {report['expanded_route_variants']}",
                 f"- CDX games considered: {report['cdx_games_considered']}",
                 f"- CDX rows found: {report['cdx_rows']}",
+                f"- CDX wall timeout: {report['cdx_wall_timeout']}",
+                f"- Metrics wall timeout: {report['metrics_wall_timeout']}",
                 f"- Missing CDX cache files skipped: {report['cdx_urls_missing_cache_skipped']}",
                 f"- Metrics jobs: {report['metrics_jobs']}",
                 f"- Pending before run: {report['pending_before_run']}",
