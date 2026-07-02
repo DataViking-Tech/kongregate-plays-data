@@ -1,23 +1,40 @@
 {
-  "candidate_observation_rows": 9,
-  "captures_sampled": 3,
+  "candidate_observation_rows": 2577,
+  "captures_sampled": 251,
   "cdx_status_counts": {
-    "cached": 1,
-    "fetched": 8
+    "cached": 2332,
+    "missing_cache_skipped": 245
   },
   "developer_filters": [
-    "FkidsPR",
-    "foumart",
-    "ctnumber1"
+    "Allkiko1",
+    "del7244009",
+    "Eternal_Vanguard",
+    "game4joy",
+    "games2girls",
+    "gamesrishti",
+    "JasonNumberXIII",
+    "KillingPigs123",
+    "LexZ1",
+    "LinhVo1611",
+    "mafagames",
+    "mobilTR",
+    "natalibt",
+    "omkara",
+    "OneManArmy3D",
+    "SamuelVenable",
+    "SandmanZA",
+    "TapTapInfinity",
+    "wowsomegames",
+    "xiatiandaole"
   ],
   "game_name_contains": [],
   "include_account_pages": true,
-  "input_csv": "data/processed/metrics_no_cdx_profile.csv",
+  "input_csv": "data/processed/no_history_evidence_summary.csv",
   "match_type": "prefix",
-  "max_captures_per_source": 1,
+  "max_captures_per_source": 12,
   "max_cdx_lookups": 0,
   "max_developers": 0,
-  "max_games": 0,
+  "max_games": 80,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -32,25 +49,43 @@
     "total": 6
   },
   "persisted_probe_history": {
-    "added": 9,
-    "total": 9640,
-    "updated": 0
+    "added": 2032,
+    "total": 11672,
+    "updated": 300
   },
-  "pre_cap_target_developers": 3,
-  "pre_cap_target_games": 3,
-  "run_timestamp": "2026-07-02T12:44:26Z",
+  "pre_cap_target_developers": 20,
+  "pre_cap_target_games": 90,
+  "run_timestamp": "2026-07-02T13:15:09Z",
   "selected_games_by_developer": {
-    "FkidsPR": 1,
-    "ctnumber1": 1,
-    "foumart": 1
+    "Allkiko1": 1,
+    "Eternal_Vanguard": 1,
+    "JasonNumberXIII": 2,
+    "LexZ1": 1,
+    "LinhVo1611": 2,
+    "OneManArmy3D": 1,
+    "SamuelVenable": 1,
+    "SandmanZA": 1,
+    "TapTapInfinity": 1,
+    "del7244009": 4,
+    "game4joy": 1,
+    "games2girls": 1,
+    "gamesrishti": 2,
+    "mafagames": 36,
+    "mobilTR": 4,
+    "natalibt": 15,
+    "omkara": 1,
+    "wowsomegames": 3,
+    "xiatiandaole": 2
   },
-  "skipped_developers_due_to_caps": [],
-  "source_cdx_lookups": 9,
+  "skipped_developers_due_to_caps": [
+    "KillingPigs123"
+  ],
+  "source_cdx_lookups": 171,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 3,
-  "target_games": 3,
-  "target_links_found": 0,
-  "tiers": "3",
+  "target_developers": 19,
+  "target_games": 80,
+  "target_links_found": 84,
+  "tiers": "1",
   "top_recovered_rows": [],
-  "unresolved_failed_endpoints_only": true
+  "unresolved_failed_endpoints_only": false
 }

@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-02T12:54:59Z
+- Generated: 2026-07-02T13:15:37Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 70
-- No archived endpoint rows games: 255
+- Endpoint-hit/no-count games: 102
+- No archived endpoint rows games: 223
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -14,16 +14,16 @@
 
 ## Evidence Buckets
 
-- no_game_page_or_endpoint_archives: 100
-- dynamic_placeholder_no_exact_endpoint_archives: 90
+- no_game_page_or_endpoint_archives: 90
 - partial_listing_counts_no_page_metrics: 84
-- dynamic_placeholder_endpoint_archives_no_count: 45
-- no_game_page_cdx_alt_archives_no_count: 6
+- dynamic_placeholder_no_exact_endpoint_archives: 68
+- dynamic_placeholder_endpoint_archives_no_count: 67
+- no_game_page_cdx_alt_archives_no_count: 16
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 255
-- archived_endpoint_hit_no_count: 70
+- no_archived_endpoint_rows_observed: 223
+- archived_endpoint_hit_no_count: 102
 
 ## Top Recovery Examples
 
@@ -42,15 +42,15 @@
 | Aston Martin Hidden Wheels | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-05-24 |
 | Chevrolet Cruze Puzzle | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
 | Sky Knight | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
+| Horse Racing | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-26 |
+| Cherrie New Spring Trends | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-08-25 |
 | SUV Car Cartoon Puzzle | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
+| Boat Rush | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
 | Defense Math | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-06-16 |
 | BMW M5 E34 | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-05-06 |
+| Mr.Miner | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
 | Viking Workout | 5 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-11-06 |
 | Mining Truck | 6 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-17 |
 | Bubble Shooter Rotation Xmas | 6 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2015-12-18 |
 | American Cars Memory | 6 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-25 |
 | Blocky Warrior | 6 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-11-06 |
-| Dragon Dash | 7 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-11-06 |
-| Baby Talking Tom Great Makeover | 8 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-10 |
-| Super Mario Puzzle | 8 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-13 |
-| Love Story | 8 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2015-09-09 |
