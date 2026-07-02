@@ -1,34 +1,34 @@
 # Count Source Probe History
 
-- Generated: 2026-07-02T11:29:52Z
+- Generated: 2026-07-02T11:47:01Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 9145
+- Accumulated endpoint observations: 9354
 - Games with probe history: 329
 - Recovered count rows: 6
-- Unresolved failed endpoint groups: 124
-- Status counts: archived_endpoint_hit_no_count=50, no_archived_endpoint_rows_observed=231, recovered_count=4, transient_failures_remaining=45
-- Tier-1 status counts: archived_endpoint_hit_no_count=36, no_archived_endpoint_rows_observed=205
-- CDX status counts: cached=2459, failed=2484, fetched=4202
+- Unresolved failed endpoint groups: 236
+- Status counts: archived_endpoint_hit_no_count=47, no_archived_endpoint_rows_observed=193, recovered_count=4, transient_failures_remaining=86
+- Tier-1 status counts: archived_endpoint_hit_no_count=34, no_archived_endpoint_rows_observed=170, transient_failures_remaining=37
+- CDX status counts: cached=2489, failed=2599, fetched=4266
 
 ## Retry Queue
 
 | Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
 | --- | ---: | ---: | ---: | --- |
-| Penguin Heroes | 1 | 3 | 10 | 2026-07-02T11:29:00Z |
-| Stafforb's Worst Pokemon Battle | 1 | 3 | 11 | 2026-07-02T11:29:00Z |
-| Jupiter OGame | 1 | 3 | 7 | 2026-07-02T11:29:00Z |
-| Battle For Gondor | 2 | 2 | 2 | 2026-07-02T11:14:53Z |
-| RPG Shooter | 2 | 3 | 9 | 2026-07-02T11:14:53Z |
-| I Don't Even Know | 2 | 3 | 5 | 2026-07-02T11:14:53Z |
-| Mini Ninja Coloring | 2 | 3 | 11 | 2026-07-02T11:26:29Z |
-| Another of Stafforb's Pokemon Battles. | 2 | 3 | 11 | 2026-07-02T11:29:00Z |
-| Make Butter Waffles | 2 | 3 | 10 | 2026-07-02T11:29:00Z |
-| PhysicsWars | 3 | 3 | 9 | 2026-07-02T11:26:29Z |
-| Run And Monetize | 3 | 3 | 11 | 2026-07-02T11:26:29Z |
-| Chocolate Rain TAY ZONDAY | 3 | 3 | 5 | 2026-07-02T11:26:29Z |
-| Office Supply Team! | 3 | 3 | 7 | 2026-07-02T11:26:29Z |
-| Blozorz Hacked | 3 | 3 | 11 | 2026-07-02T11:26:29Z |
-| Stickman Adventure | 3 | 3 | 8 | 2026-07-02T11:14:53Z |
+| Missiles Again | 1 | 1 | 1 | 2026-07-02T11:46:35Z |
+| Run Bird Run Online | 1 | 1 | 1 | 2026-07-02T11:46:35Z |
+| Football Legends 2016 | 1 | 2 | 9 | 2026-07-02T11:43:27Z |
+| Surrounded | 1 | 3 | 4 | 2026-07-02T11:43:27Z |
+| Talking Ginger Paw Caring | 2 | 3 | 13 | 2026-07-02T11:43:27Z |
+| Baby Talking Tom Bathing | 2 | 3 | 12 | 2026-07-02T11:43:27Z |
+| Mini Jumper | 2 | 1 | 13 | 2026-07-02T11:46:35Z |
+| Sky Knight | 2 | 1 | 13 | 2026-07-02T11:46:35Z |
+| Britney Spears vs Child Servisous | 2 | 3 | 15 | 2026-07-02T11:43:27Z |
+| Raze 3 | 2 | 2 | 14 | 2026-07-02T11:43:27Z |
+| Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game) | 4 | 3 | 15 | 2026-07-02T11:43:27Z |
+| Kung Fu Adventure | 4 | 3 | 15 | 2026-07-02T11:43:27Z |
+| Viking Workout | 5 | 3 | 15 | 2026-07-02T11:43:27Z |
+| RPgTest | 6 | 3 | 3 | 2026-07-02T11:43:27Z |
+| Naruto Suspend | 6 | 3 | 10 | 2026-07-02T11:43:27Z |
 
 ## Output Files
 

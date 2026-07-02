@@ -203,19 +203,48 @@ def load_targets(args) -> list[TargetGame]:
                 last_seen_date=row.get("last_seen_date", ""),
             )
         )
-        if args.max_games and len(targets) >= args.max_games:
-            break
     targets.sort(key=lambda target: (target.tier or 99, target.best_rank or 999999, target.first_seen_date, target.game_name.lower()))
+    args.pre_cap_target_games = len(targets)
+    args.pre_cap_target_developers = len({target.developer for target in targets})
+    args.pre_cap_games_by_developer = dict(sorted(Counter(target.developer for target in targets).items()))
+    if args.max_games_per_developer:
+        capped_targets: list[TargetGame] = []
+        games_by_developer: Counter[str] = Counter()
+        for target in targets:
+            if games_by_developer[target.developer] >= args.max_games_per_developer:
+                continue
+            capped_targets.append(target)
+            games_by_developer[target.developer] += 1
+        targets = capped_targets
+    if args.max_games:
+        targets = targets[: args.max_games]
+    args.selected_games_by_developer = dict(sorted(Counter(target.developer for target in targets).items()))
+    selected_developers = set(args.selected_games_by_developer)
+    args.skipped_developers_due_to_caps = [
+        developer for developer in sorted(args.pre_cap_games_by_developer) if developer not in selected_developers
+    ]
     return targets
 
 
-def developer_source_urls(developer: str) -> list[str]:
+def developer_source_urls(developer: str, include_account_pages: bool = False) -> list[str]:
     quoted = urllib.parse.quote(developer, safe="")
-    return [
+    urls = [
         f"http://www.kongregate.com/games/{quoted}",
         f"http://www.kongregate.com:80/games/{quoted}",
         f"https://www.kongregate.com/games/{quoted}",
     ]
+    if include_account_pages:
+        urls.extend(
+            [
+                f"http://www.kongregate.com/accounts/{quoted}",
+                f"http://www.kongregate.com:80/accounts/{quoted}",
+                f"https://www.kongregate.com/accounts/{quoted}",
+                f"http://www.kongregate.com/accounts/{quoted}/games",
+                f"http://www.kongregate.com:80/accounts/{quoted}/games",
+                f"https://www.kongregate.com/accounts/{quoted}/games",
+            ]
+        )
+    return urls
 
 
 def cdx_cache_path(source_url: str, match_type: str) -> Path:
@@ -270,11 +299,12 @@ def fetch_cdx(source_url: str, args) -> tuple[list[dict[str, str]], str]:
     return rows, "fetched"
 
 
-def is_developer_list_original(original: str, developer: str) -> bool:
+def is_source_original(original: str, source_url: str) -> bool:
     parsed = urllib.parse.urlsplit(original or "")
-    path = urllib.parse.unquote(parsed.path).rstrip("/")
-    developer_path = f"/games/{developer}".rstrip("/")
-    return path == developer_path
+    source = urllib.parse.urlsplit(source_url or "")
+    path = urllib.parse.unquote(parsed.path).rstrip("/") or "/"
+    source_path = urllib.parse.unquote(source.path).rstrip("/") or "/"
+    return path == source_path
 
 
 def html_cache_path(timestamp: str, original: str) -> Path:
@@ -479,6 +509,13 @@ def run_probe(args) -> dict[str, object]:
         selected_developers = list(targets_by_developer)[: args.max_developers]
         targets_by_developer = {developer: targets_by_developer[developer] for developer in selected_developers}
         targets = [target for developer in selected_developers for target in targets_by_developer[developer]]
+    selected_games_by_developer = dict(sorted(Counter(target.developer for target in targets).items()))
+    selected_developers = set(selected_games_by_developer)
+    skipped_developers_due_to_caps = [
+        developer
+        for developer in sorted(getattr(args, "pre_cap_games_by_developer", {}))
+        if developer not in selected_developers
+    ]
 
     all_rows: list[dict[str, object]] = []
     source_cdx_lookups = 0
@@ -487,14 +524,14 @@ def run_probe(args) -> dict[str, object]:
 
     for developer, developer_targets in targets_by_developer.items():
         target_by_key = {target.canonical_key: target for target in developer_targets}
-        for source_url in developer_source_urls(developer):
+        for source_url in developer_source_urls(developer, args.include_account_pages):
             if args.max_cdx_lookups and source_cdx_lookups >= args.max_cdx_lookups:
                 args.stopped_after_cdx_lookup_cap = True
                 break
             cdx_rows, cdx_status = fetch_cdx(source_url, args)
             source_cdx_lookups += 1
             if args.match_type == "prefix":
-                cdx_rows = [row for row in cdx_rows if is_developer_list_original(row.get("original", ""), developer)]
+                cdx_rows = [row for row in cdx_rows if is_source_original(row.get("original", ""), source_url)]
             if not cdx_rows:
                 for target in developer_targets:
                     all_rows.append(
@@ -580,11 +617,17 @@ def run_probe(args) -> dict[str, object]:
         "developer_filters": args.developer,
         "target_games": len(targets),
         "target_developers": len(targets_by_developer),
+        "pre_cap_target_games": getattr(args, "pre_cap_target_games", len(targets)),
+        "pre_cap_target_developers": getattr(args, "pre_cap_target_developers", len(targets_by_developer)),
+        "selected_games_by_developer": selected_games_by_developer,
+        "skipped_developers_due_to_caps": skipped_developers_due_to_caps,
         "max_games": args.max_games,
+        "max_games_per_developer": args.max_games_per_developer,
         "max_developers": args.max_developers,
         "max_cdx_lookups": args.max_cdx_lookups,
         "max_captures_per_source": args.max_captures_per_source,
         "match_type": args.match_type,
+        "include_account_pages": args.include_account_pages,
         "source_cdx_lookups": source_cdx_lookups,
         "captures_sampled": captures_sampled,
         "stopped_after_cdx_lookup_cap": bool(getattr(args, "stopped_after_cdx_lookup_cap", False)),
@@ -614,10 +657,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--game-name-contains", action="append", default=[])
     parser.add_argument("--developer", action="append", default=[])
     parser.add_argument("--max-games", type=int, default=12)
+    parser.add_argument("--max-games-per-developer", type=int, default=0)
     parser.add_argument("--max-developers", type=int, default=0)
     parser.add_argument("--max-cdx-lookups", type=int, default=0)
     parser.add_argument("--max-captures-per-source", type=int, default=2)
     parser.add_argument("--match-type", choices=["", "exact", "prefix"], default="exact")
+    parser.add_argument("--include-account-pages", action="store_true")
     parser.add_argument("--collapse", default="digest")
     parser.add_argument("--cached-cdx-only", action="store_true")
     parser.add_argument("--cached-html-only", action="store_true")

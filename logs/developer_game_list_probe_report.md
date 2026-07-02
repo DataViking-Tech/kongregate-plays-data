@@ -1,16 +1,16 @@
 # Archived Developer Game-List Probe
 
-- Generated: 2026-07-02T11:29:01Z
-- Target games: 25
-- Target developers: 8
-- Source URL CDX lookups: 24
-- Developer-page captures sampled: 51
-- Candidate observation rows: 354
-- CDX status counts: cached=270, failed=18, fetched=66
-- Target links found in sampled pages: 12
-- Recovered play-count rows in this run: 3
-- Deduped recovered play-count observations: 6 (1 new this run)
-- Accumulated probe-history rows: 9145 (354 new, 0 refreshed)
+- Generated: 2026-07-02T11:46:35Z
+- Target games: 4
+- Target developers: 1
+- Source URL CDX lookups: 9
+- Developer-page captures sampled: 4
+- Candidate observation rows: 44
+- CDX status counts: cached=12, failed=4, fetched=28
+- Target links found in sampled pages: 2
+- Recovered play-count rows in this run: 0
+- Deduped recovered play-count observations: 6 (0 new this run)
+- Accumulated probe-history rows: 9354 (44 new, 0 refreshed)
 
 ## Outputs
 
@@ -20,10 +20,6 @@
 - `logs/developer_game_list_probe_report.json`
 - `logs/developer_game_list_probe_report.md`
 
-## Recovered Rows
+## Interpretation
 
-| Game | Plays | Capture | Source |
-| --- | ---: | --- | --- |
-| Crazy Zombie v2.0 Crossing Hero | 1,333 | 20140228223116 | `http://www.kongregate.com:80/games/game4joy` |
-| Crazy Zombie v2.0 Crossing Hero | 1,333 | 20140228223116 | `http://www.kongregate.com:80/games/game4joy` |
-| Crazy Zombie v2.0 Crossing Hero | 1,333 | 20140228223116 | `http://www.kongregate.com:80/games/game4joy` |
+This run did not recover new play-count rows from sampled developer game-list pages. Pages with target links either omitted visible count text or were unavailable in the sampled archived captures.
