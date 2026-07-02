@@ -250,6 +250,32 @@ def load_status_filter_keys(status_csv: Path, statuses: set[str]) -> set[str] | 
     return keys
 
 
+def unresolved_failed_endpoint_filter(history_csv: Path) -> set[tuple[str, str, str]]:
+    rows = []
+    if history_csv.exists():
+        with history_csv.open(newline="", encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+
+    grouped: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        key = (
+            canonical_game_url(row.get("game_url", "")),
+            row.get("source_type", ""),
+            row.get("endpoint_url", ""),
+        )
+        if not key[0] or not key[1] or not key[2]:
+            continue
+        grouped[key].append(row)
+
+    retry_keys: set[tuple[str, str, str]] = set()
+    for key, group_rows in grouped.items():
+        has_failure = any(cdx_status_prefix(row.get("cdx_status")) == "failed" for row in group_rows)
+        has_successful_retry = any(cdx_status_prefix(row.get("cdx_status")) in {"cached", "fetched"} for row in group_rows)
+        if has_failure and not has_successful_retry:
+            retry_keys.add(key)
+    return retry_keys
+
+
 def load_targets(
     input_csv: Path,
     tiers: set[int],
@@ -899,6 +925,7 @@ def make_report(args, targets: list[TargetGame], pages_by_key: dict[str, list[Pa
         "max_payload_bytes": args.max_payload_bytes,
         "stopped_after_cdx_lookup_cap": bool(getattr(args, "stopped_after_cdx_lookup_cap", False)),
         "source_types": sorted(args.source_types_set),
+        "unresolved_failed_endpoints_only": args.unresolved_failed_endpoints_only,
         "match_type": args.match_type,
         "collapse": args.collapse,
         "cdx_wall_timeout": args.cdx_wall_timeout,
@@ -1023,6 +1050,7 @@ def main() -> None:
     parser.add_argument("--max-pages-per-game", type=int, default=2, help="Cached archived pages to inspect per game.")
     parser.add_argument("--max-candidates-per-page", type=int, default=12, help="Endpoint candidates to query per cached page.")
     parser.add_argument("--source-types", default="", help="Comma-separated endpoint source types to include, e.g. metrics_json, recommended_games, game_path_prefix. Empty means all.")
+    parser.add_argument("--unresolved-failed-endpoints-only", action="store_true", help="Retry only endpoint URLs that currently have a failed CDX observation and no cached/fetched retry in probe history.")
     parser.add_argument("--match-type", default="exact", choices=["exact", "prefix"], help="CDX match type for candidate endpoints.")
     parser.add_argument("--collapse", default="digest", help="Optional CDX collapse value.")
     parser.add_argument("--timeout", type=int, default=12, help="Per-request timeout in seconds.")
@@ -1047,6 +1075,7 @@ def main() -> None:
 
     name_filters = [value.lower() for value in csv_list(args.game_name_contains)]
     status_filter_keys = load_status_filter_keys(Path(args.status_csv), args.status_filter_set)
+    failed_endpoint_filter = unresolved_failed_endpoint_filter(HISTORY_CSV) if args.unresolved_failed_endpoints_only else None
     targets = load_targets(Path(args.input_csv), args.tiers_set, name_filters, status_filter_keys, args.max_games)
     pages_by_key = load_page_refs(targets)
     candidate_rows: list[dict[str, object]] = []
@@ -1072,13 +1101,17 @@ def main() -> None:
         for candidates in candidate_batches:
             if stopped_after_cdx_lookup_cap:
                 break
-            accepted_candidates = 0
-            for candidate in candidates:
-                page = candidate.page
-                if args.source_types_set and candidate.source_type not in args.source_types_set:
-                    continue
-                if args.max_candidates_per_page and accepted_candidates >= args.max_candidates_per_page:
-                    break
+                accepted_candidates = 0
+                for candidate in candidates:
+                    page = candidate.page
+                    if args.source_types_set and candidate.source_type not in args.source_types_set:
+                        continue
+                    if failed_endpoint_filter is not None:
+                        candidate_key = (game.canonical_key, candidate.source_type, candidate.endpoint_url)
+                        if candidate_key not in failed_endpoint_filter:
+                            continue
+                    if args.max_candidates_per_page and accepted_candidates >= args.max_candidates_per_page:
+                        break
                 accepted_candidates += 1
                 if args.max_cdx_lookups and cdx_lookups >= args.max_cdx_lookups:
                     stopped_after_cdx_lookup_cap = True

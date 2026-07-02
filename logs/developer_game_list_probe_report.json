@@ -1,22 +1,32 @@
 {
-  "candidate_observation_rows": 44,
-  "captures_sampled": 4,
+  "candidate_observation_rows": 114,
+  "captures_sampled": 3,
   "cdx_status_counts": {
-    "cached": 12,
-    "failed": 4,
-    "fetched": 28
+    "failed": 81,
+    "fetched": 33
   },
   "developer_filters": [
-    "mafagames"
+    "mobilTR",
+    "thunderstorm38",
+    "szunyi",
+    "yvolcano4",
+    "del7244009",
+    "wowsomegames",
+    "Zueirao34",
+    "5tea",
+    "Nicolo974jtm34",
+    "Stafforb_Pokemon",
+    "TecknozThaBezt",
+    "DXInteractive"
   ],
   "game_name_contains": [],
   "include_account_pages": true,
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "match_type": "prefix",
   "max_captures_per_source": 2,
-  "max_cdx_lookups": 9,
+  "max_cdx_lookups": 80,
   "max_developers": 0,
-  "max_games": 4,
+  "max_games": 60,
   "max_games_per_developer": 4,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -31,22 +41,34 @@
     "total": 6
   },
   "persisted_probe_history": {
-    "added": 44,
-    "total": 9354,
-    "updated": 0
+    "added": 33,
+    "total": 9452,
+    "updated": 81
   },
-  "pre_cap_target_developers": 1,
-  "pre_cap_target_games": 41,
-  "run_timestamp": "2026-07-02T11:46:35Z",
+  "pre_cap_target_developers": 12,
+  "pre_cap_target_games": 43,
+  "run_timestamp": "2026-07-02T12:05:18Z",
   "selected_games_by_developer": {
-    "mafagames": 4
+    "5tea": 3,
+    "DXInteractive": 2,
+    "Nicolo974jtm34": 3,
+    "Stafforb_Pokemon": 2,
+    "TecknozThaBezt": 2,
+    "Zueirao34": 3,
+    "del7244009": 4,
+    "mobilTR": 4,
+    "szunyi": 4,
+    "thunderstorm38": 4,
+    "wowsomegames": 3,
+    "yvolcano4": 4
   },
   "skipped_developers_due_to_caps": [],
-  "source_cdx_lookups": 9,
+  "source_cdx_lookups": 36,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 1,
-  "target_games": 4,
-  "target_links_found": 2,
+  "target_developers": 12,
+  "target_games": 38,
+  "target_links_found": 6,
   "tiers": "1,2,3",
-  "top_recovered_rows": []
+  "top_recovered_rows": [],
+  "unresolved_failed_endpoints_only": true
 }

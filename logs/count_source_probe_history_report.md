@@ -1,14 +1,14 @@
 # Count Source Probe History
 
-- Generated: 2026-07-02T11:58:03Z
+- Generated: 2026-07-02T12:05:25Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 9419
+- Accumulated endpoint observations: 9452
 - Games with probe history: 329
 - Recovered count rows: 6
-- Unresolved failed endpoint groups: 238
-- Status counts: archived_endpoint_hit_no_count=47, no_archived_endpoint_rows_observed=193, recovered_count=4, transient_failures_remaining=86
-- Tier-1 status counts: archived_endpoint_hit_no_count=34, no_archived_endpoint_rows_observed=170, transient_failures_remaining=37
-- CDX status counts: cached=2543, failed=2603, fetched=4273
+- Unresolved failed endpoint groups: 205
+- Status counts: archived_endpoint_hit_no_count=50, no_archived_endpoint_rows_observed=201, recovered_count=4, transient_failures_remaining=75
+- Tier-1 status counts: archived_endpoint_hit_no_count=37, no_archived_endpoint_rows_observed=178, transient_failures_remaining=26
+- CDX status counts: cached=2543, failed=2603, fetched=4306
 
 ## Retry Queue
 
@@ -18,17 +18,17 @@
 | Run Bird Run Online | 1 | 1 | 2 | 2026-07-02T11:57:54Z |
 | Football Legends 2016 | 1 | 4 | 11 | 2026-07-02T11:56:37Z |
 | Surrounded | 1 | 3 | 4 | 2026-07-02T11:57:54Z |
-| Talking Ginger Paw Caring | 2 | 3 | 13 | 2026-07-02T11:56:37Z |
-| Baby Talking Tom Bathing | 2 | 3 | 12 | 2026-07-02T11:56:37Z |
 | Mini Jumper | 2 | 1 | 14 | 2026-07-02T11:57:54Z |
 | Sky Knight | 2 | 1 | 13 | 2026-07-02T11:46:35Z |
-| Britney Spears vs Child Servisous | 2 | 3 | 15 | 2026-07-02T11:43:27Z |
 | Raze 3 | 2 | 2 | 14 | 2026-07-02T11:43:27Z |
-| Super Mario Worlds Ep.1: The Dark World (SMB Fan-made Game) | 4 | 3 | 15 | 2026-07-02T11:43:27Z |
-| Kung Fu Adventure | 4 | 3 | 15 | 2026-07-02T11:43:27Z |
-| Viking Workout | 5 | 3 | 15 | 2026-07-02T11:43:27Z |
-| RPgTest | 6 | 3 | 3 | 2026-07-02T11:43:27Z |
-| Naruto Suspend | 6 | 3 | 10 | 2026-07-02T11:43:27Z |
+| Viking Workout | 5 | 3 | 15 | 2026-07-02T12:05:18Z |
+| RPgTest | 6 | 3 | 3 | 2026-07-02T12:05:18Z |
+| Blocky Warrior | 6 | 3 | 7 | 2026-07-02T12:05:18Z |
+| Sands of Doom | 7 | 3 | 8 | 2026-07-02T12:05:18Z |
+| Dragon Dash | 7 | 3 | 13 | 2026-07-02T12:05:18Z |
+| Terrorist Hunt | 8 | 3 | 13 | 2026-07-02T12:05:18Z |
+| Minifield | 8 | 3 | 14 | 2026-07-02T11:43:27Z |
+| Mighty Motors - Drag Racing | 8 | 3 | 9 | 2026-07-02T12:05:18Z |
 
 ## Output Files
 

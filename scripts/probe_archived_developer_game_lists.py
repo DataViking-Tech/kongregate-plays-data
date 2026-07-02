@@ -42,6 +42,7 @@ LOGS = ROOT / "logs"
 
 DEFAULT_INPUT_CSV = PROCESSED / "metrics_no_cdx_profile.csv"
 CURRENT_CSV = PROCESSED / "developer_game_list_probe_candidates.csv"
+HISTORY_CSV = PROCESSED / "count_source_probe_history.csv"
 REPORT_JSON = LOGS / "developer_game_list_probe_report.json"
 REPORT_MD = LOGS / "developer_game_list_probe_report.md"
 ERROR_LOG = LOGS / "developer_game_list_probe_errors.log"
@@ -119,6 +120,25 @@ def read_csv(path: Path) -> list[dict[str, str]]:
         return []
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
+
+
+def unresolved_failed_developer_endpoint_filter(history_csv: Path) -> set[tuple[str, str]]:
+    grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
+    for row in read_csv(history_csv):
+        if row.get("source_type") != "developer_game_list":
+            continue
+        key = (canonical_game_url(row.get("game_url", "")), row.get("endpoint_url", ""))
+        if not key[0] or not key[1]:
+            continue
+        grouped[key].append(row)
+
+    retry_keys: set[tuple[str, str]] = set()
+    for key, rows in grouped.items():
+        has_failure = any(cdx_status_prefix(row.get("cdx_status")) == "failed" for row in rows)
+        has_successful_retry = any(cdx_status_prefix(row.get("cdx_status")) in {"cached", "fetched"} for row in rows)
+        if has_failure and not has_successful_retry:
+            retry_keys.add(key)
+    return retry_keys
 
 
 def write_json(path: Path, payload) -> None:
@@ -502,6 +522,7 @@ def write_report(report: dict[str, object]) -> None:
 
 def run_probe(args) -> dict[str, object]:
     targets = load_targets(args)
+    failed_endpoint_filter = unresolved_failed_developer_endpoint_filter(HISTORY_CSV) if args.unresolved_failed_endpoints_only else None
     targets_by_developer: dict[str, list[TargetGame]] = defaultdict(list)
     for target in targets:
         targets_by_developer[target.developer].append(target)
@@ -523,8 +544,15 @@ def run_probe(args) -> dict[str, object]:
     target_links_found = 0
 
     for developer, developer_targets in targets_by_developer.items():
-        target_by_key = {target.canonical_key: target for target in developer_targets}
         for source_url in developer_source_urls(developer, args.include_account_pages):
+            source_targets = developer_targets
+            if failed_endpoint_filter is not None:
+                source_targets = [
+                    target for target in developer_targets if (target.canonical_key, source_url) in failed_endpoint_filter
+                ]
+                if not source_targets:
+                    continue
+            target_by_key = {target.canonical_key: target for target in source_targets}
             if args.max_cdx_lookups and source_cdx_lookups >= args.max_cdx_lookups:
                 args.stopped_after_cdx_lookup_cap = True
                 break
@@ -533,7 +561,7 @@ def run_probe(args) -> dict[str, object]:
             if args.match_type == "prefix":
                 cdx_rows = [row for row in cdx_rows if is_source_original(row.get("original", ""), source_url)]
             if not cdx_rows:
-                for target in developer_targets:
+                for target in source_targets:
                     all_rows.append(
                         candidate_row(
                             target,
@@ -545,7 +573,7 @@ def run_probe(args) -> dict[str, object]:
                     )
                 continue
 
-            selected_rows = sorted(cdx_rows, key=lambda row: (capture_distance(row, developer_targets), row.get("timestamp", "")))
+            selected_rows = sorted(cdx_rows, key=lambda row: (capture_distance(row, source_targets), row.get("timestamp", "")))
             if args.max_captures_per_source:
                 selected_rows = selected_rows[: args.max_captures_per_source]
             for cdx_row in selected_rows:
@@ -554,7 +582,7 @@ def run_probe(args) -> dict[str, object]:
                 text, sample_path, html_status = fetch_html(timestamp, original, args)
                 captures_sampled += 1
                 if not text:
-                    for target in developer_targets:
+                    for target in source_targets:
                         all_rows.append(
                             candidate_row(
                                 target,
@@ -571,7 +599,7 @@ def run_probe(args) -> dict[str, object]:
 
                 counts, found_keys = parse_developer_page(text, target_by_key)
                 target_links_found += len(found_keys)
-                for target in developer_targets:
+                for target in source_targets:
                     plays = 0
                     plays_text = ""
                     if target.canonical_key in counts:
@@ -628,6 +656,7 @@ def run_probe(args) -> dict[str, object]:
         "max_captures_per_source": args.max_captures_per_source,
         "match_type": args.match_type,
         "include_account_pages": args.include_account_pages,
+        "unresolved_failed_endpoints_only": args.unresolved_failed_endpoints_only,
         "source_cdx_lookups": source_cdx_lookups,
         "captures_sampled": captures_sampled,
         "stopped_after_cdx_lookup_cap": bool(getattr(args, "stopped_after_cdx_lookup_cap", False)),
@@ -663,6 +692,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-captures-per-source", type=int, default=2)
     parser.add_argument("--match-type", choices=["", "exact", "prefix"], default="exact")
     parser.add_argument("--include-account-pages", action="store_true")
+    parser.add_argument("--unresolved-failed-endpoints-only", action="store_true")
     parser.add_argument("--collapse", default="digest")
     parser.add_argument("--cached-cdx-only", action="store_true")
     parser.add_argument("--cached-html-only", action="store_true")

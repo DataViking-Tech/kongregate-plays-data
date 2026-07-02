@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T11:58:04Z",
+  "generated_at": "2026-07-02T12:05:27Z",
   "input_csv": "/Users/njord/Documents/Kongregate/data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -19,7 +19,7 @@
   "dynamic_metric_placeholder_games": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
-  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 45,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 46,
   "high_value_unresolved_games": 241,
   "top_unresolved_examples": [
     {
@@ -773,7 +773,7 @@
       "blank_gameplays_count_pages": 0,
       "metrics_json_probe_observations": 2,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 3,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
