@@ -1,21 +1,20 @@
 {
-  "candidate_observation_rows": 9,
-  "captures_sampled": 0,
+  "candidate_observation_rows": 3,
+  "captures_sampled": 3,
   "cdx_status_counts": {
-    "fetched": 9
+    "fetched": 3
   },
   "developer_filters": [
-    "breakdo",
-    "munoz20"
+    "PaulHTML5"
   ],
   "game_name_contains": [],
   "include_account_pages": true,
   "input_csv": "data/processed/no_history_evidence_summary.csv",
   "match_type": "prefix",
   "max_captures_per_source": 1,
-  "max_cdx_lookups": 8,
+  "max_cdx_lookups": 3,
   "max_developers": 0,
-  "max_games": 4,
+  "max_games": 2,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -30,22 +29,21 @@
     "total": 6
   },
   "persisted_probe_history": {
-    "added": 9,
-    "total": 12285,
+    "added": 3,
+    "total": 12435,
     "updated": 0
   },
-  "pre_cap_target_developers": 2,
-  "pre_cap_target_games": 3,
-  "run_timestamp": "2026-07-02T14:04:25Z",
+  "pre_cap_target_developers": 1,
+  "pre_cap_target_games": 1,
+  "run_timestamp": "2026-07-02T14:25:16Z",
   "selected_games_by_developer": {
-    "breakdo": 1,
-    "munoz20": 2
+    "PaulHTML5": 1
   },
   "skipped_developers_due_to_caps": [],
-  "source_cdx_lookups": 6,
+  "source_cdx_lookups": 3,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 2,
-  "target_games": 3,
+  "target_developers": 1,
+  "target_games": 1,
   "target_links_found": 0,
   "tiers": "1",
   "top_recovered_rows": [],
