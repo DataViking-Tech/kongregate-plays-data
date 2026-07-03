@@ -1,6 +1,6 @@
 # Ranked Games Observed Plays Report
 
-- Run timestamp: 2026-07-03T13:31:53Z
+- Run timestamp: 2026-07-03T13:42:31Z
 - Ranked rows: 48584
 - Direct listing play-count rows: 15916 (32.76%)
 - Aggregate as-of play-count rows: 43489 (89.51%)

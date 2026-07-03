@@ -1,27 +1,53 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T13:31:19Z
-- Target games: 2
+- Generated: 2026-07-03T13:41:51Z
+- Target games: 3
 - Status filter: none
-- Games with cached archived pages: 2
+- Games with cached archived pages: 3
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 10
-- Candidate observation rows: 10
-- CDX status counts: cached=5, failed=1, fetched=4
-- CDX rows found: 0
-- Candidates with CDX rows: 0
-- Payloads with count-like signals: 0
-- Parsed play-count rows: 0
-- Deduped recovered play-count observations: 75 (0 new this run)
-- Accumulated probe-history rows: 12947 (10 new, 0 refreshed)
+- Endpoint candidates checked: 16
+- Candidate observation rows: 22
+- CDX status counts: cached=14, fetched=8
+- CDX rows found: 48
+- Candidates with CDX rows: 12
+- Payloads with count-like signals: 12
+- Parsed play-count rows: 12
+- Deduped recovered play-count observations: 81 (6 new this run)
+- Accumulated probe-history rows: 12969 (22 new, 0 refreshed)
 
-## Interpretation
+## Count Signals
 
-No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
+| Game | Source | Endpoint | Sample | Signal | Plays |
+| --- | --- | --- | --- | --- | --- |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 375299 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | gameplays_count_with_delimiter | 19773 |
 
-## Retry Note
+## Archived Endpoint Hits
 
-1 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
+| What's inside the box? | metrics_json | `https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | `http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json` | 4 |
 
 ## Output Files
 

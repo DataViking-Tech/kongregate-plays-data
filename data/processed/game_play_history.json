@@ -8261,6 +8261,21 @@
       "metrics_url": "http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
       "capture_timestamp": "20160524110427",
       "capture_url": "https://web.archive.org/web/20160524110427/http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160524110427_http_www.kongregate.com_games_bontegames_whats-inside-the-box_metrics.json_e4a305e1b6ce4b55.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-05-24",
+      "game_name": "What's inside the box?",
+      "game_url": "http://www.kongregate.com/games/bontegames/whats-inside-the-box",
+      "plays_count_observed": 19773,
+      "favorites_count_observed": 147,
+      "plays_text": "19,773",
+      "favorites_text": "147",
+      "metrics_url": "http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
+      "capture_timestamp": "20160524110427",
+      "capture_url": "https://web.archive.org/web/20160524110427/http://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160524110427_http_www.kongregate.com_games_bontegames_whats-inside-the-box_metrics.json_e4a305e1b6ce4b55.json"
@@ -12599,6 +12614,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072719_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_9bf7383fdc2b0f38.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "What's inside the box?",
+      "game_url": "http://www.kongregate.com/games/bontegames/whats-inside-the-box",
+      "plays_count_observed": 375299,
+      "favorites_count_observed": 1763,
+      "plays_text": "375,299",
+      "favorites_text": "1,763",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
+      "capture_timestamp": "20190702072652",
+      "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/bontegames/whats-inside-the-box/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072652_https_www.kongregate.com_games_bontegames_whats-inside-the-box_metrics.json_2e5962531103a512.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-07-02",
