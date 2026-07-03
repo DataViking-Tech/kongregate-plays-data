@@ -1,69 +1,69 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T15:54:51Z
+- Generated: 2026-07-03T16:03:48Z
 - Target games: 8
 - Status filter: none
 - Games with cached archived pages: 8
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 48
-- Candidate observation rows: 216
-- CDX status counts: cached=192, missing_cache_skipped=24
-- CDX rows found: 4200
-- Candidates with CDX rows: 192
-- Payloads with count-like signals: 85
-- Parsed play-count rows: 85
-- Deduped recovered play-count observations: 238 (78 new this run)
-- Accumulated probe-history rows: 13450 (192 new, 0 refreshed)
+- Endpoint candidates checked: 46
+- Candidate observation rows: 149
+- CDX status counts: cached=126, missing_cache_skipped=23
+- CDX rows found: 2724
+- Candidates with CDX rows: 126
+- Payloads with count-like signals: 87
+- Parsed play-count rows: 87
+- Deduped recovered play-count observations: 313 (75 new this run)
+- Accumulated probe-history rows: 13574 (124 new, 2 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9538655 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9538655 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9087225 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9087225 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9034179 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9034179 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9025715 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 9025715 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 8915772 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 8915772 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 8901581 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4389610 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4389610 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4389610 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4289823 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4289823 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | gameplays_count_with_delimiter | 4289823 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | gameplays_count_with_delimiter | 641755 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | gameplays_count_with_delimiter | 641755 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | gameplays_count_with_delimiter | 641755 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
-| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Trimps | metrics_json | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | `http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json` | 39 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | 2 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | 2 |
+| Mu Complex : Episode One | metrics_json | `http://www.kongregate.com/games/StudioCime/mu-complex-episode-one/metrics.json` | `http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json` | 2 |
 
 ## Output Files
 

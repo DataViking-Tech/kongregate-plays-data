@@ -13998,6 +13998,21 @@
     {
       "date": "2019-10-17",
       "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 8901581,
+      "favorites_count_observed": 21525,
+      "plays_text": "8,901,581",
+      "favorites_text": "21,525",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20191017183753",
+      "capture_url": "https://web.archive.org/web/20191017183753/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183753_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_e0b06fa067e8e747.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Trimps",
       "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
       "plays_count_observed": 8901581,
       "favorites_count_observed": 21525,
@@ -14298,6 +14313,21 @@
     {
       "date": "2019-10-21",
       "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 419589,
+      "favorites_count_observed": 2870,
+      "plays_text": "419,589",
+      "favorites_text": "2,870",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20191021040558",
+      "capture_url": "https://web.archive.org/web/20191021040558/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191021040558_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_3a70eafb64cebf7e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-21",
+      "game_name": "Unpuzzle 2",
       "game_url": "http://www.kongregate.com/games/KekGames/unpuzzle-2",
       "plays_count_observed": 419589,
       "favorites_count_observed": 2870,
@@ -14384,6 +14414,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191023143208_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_9448d41448e06805.json"
+    },
+    {
+      "date": "2019-10-24",
+      "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 8915772,
+      "favorites_count_observed": 21545,
+      "plays_text": "8,915,772",
+      "favorites_text": "21,545",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20191024004356",
+      "capture_url": "https://web.archive.org/web/20191024004356/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191024004356_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_63c82cee16d35cf9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-24",
@@ -15344,6 +15389,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191107154544_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_6348fd75b2776c81.json"
+    },
+    {
+      "date": "2019-11-07",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 425639,
+      "favorites_count_observed": 2893,
+      "plays_text": "425,639",
+      "favorites_text": "2,893",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20191107154617",
+      "capture_url": "https://web.archive.org/web/20191107154617/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191107154617_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_b0809da2cf10ce4c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-11-07",
@@ -16413,6 +16473,21 @@
     {
       "date": "2019-12-11",
       "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9025715,
+      "favorites_count_observed": 21733,
+      "plays_text": "9,025,715",
+      "favorites_text": "21,733",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20191211135655",
+      "capture_url": "https://web.archive.org/web/20191211135655/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191211135655_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_21408b3810a67601.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-11",
+      "game_name": "Trimps",
       "game_url": "https://www.kongregate.com/en/games/GreenSatellite/trimps",
       "plays_count_observed": 9025715,
       "favorites_count_observed": 21733,
@@ -16784,6 +16859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_d05390621ccf4b6b.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9034179,
+      "favorites_count_observed": 21746,
+      "plays_text": "9,034,179",
+      "favorites_text": "21,746",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20191215034653",
+      "capture_url": "https://web.archive.org/web/20191215034653/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034653_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_04f70bcf416507ce.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -17328,6 +17418,21 @@
     {
       "date": "2020-01-08",
       "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9087225,
+      "favorites_count_observed": 21799,
+      "plays_text": "9,087,225",
+      "favorites_text": "21,799",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20200108214044",
+      "capture_url": "https://web.archive.org/web/20200108214044/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214044_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_b58481422fbfa7b6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Trimps",
       "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
       "plays_count_observed": 9087225,
       "favorites_count_observed": 21799,
@@ -17339,6 +17444,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214044_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_b58481422fbfa7b6.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 446019,
+      "favorites_count_observed": 2987,
+      "plays_text": "446,019",
+      "favorites_text": "2,987",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20200108214043",
+      "capture_url": "https://web.archive.org/web/20200108214043/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214043_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_124b33f71a2a77f8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-08",
@@ -17804,6 +17924,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_63a438f3b02888cd.json"
+    },
+    {
+      "date": "2020-01-21",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 449158,
+      "favorites_count_observed": 2998,
+      "plays_text": "449,158",
+      "favorites_text": "2,998",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20200121045139",
+      "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200121045139_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_b4751af959a83c45.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-21",
@@ -20703,6 +20838,21 @@
     {
       "date": "2020-04-29",
       "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 477195,
+      "favorites_count_observed": 3124,
+      "plays_text": "477,195",
+      "favorites_text": "3,124",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200429125446_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_f8407c141081e45d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Unpuzzle 2",
       "game_url": "http://www.kongregate.com/games/KekGames/unpuzzle-2",
       "plays_count_observed": 477195,
       "favorites_count_observed": 3124,
@@ -21423,6 +21573,21 @@
     {
       "date": "2020-06-22",
       "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 113536,
+      "favorites_count_observed": 818,
+      "plays_text": "113,536",
+      "favorites_text": "818",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200622071946",
+      "capture_url": "https://web.archive.org/web/20200622071946/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200622071946_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0ae31ef053fcb94c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-06-22",
+      "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 113536,
       "favorites_count_observed": 818,
@@ -21749,6 +21914,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173340_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_489a349e5ae9a204.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 127520,
+      "favorites_count_observed": 901,
+      "plays_text": "127,520",
+      "favorites_text": "901",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200716172805",
+      "capture_url": "https://web.archive.org/web/20200716172805/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716172805_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_7abd1aca6333f526.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-16",
@@ -22518,6 +22698,21 @@
     {
       "date": "2020-07-16",
       "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 9538655,
+      "favorites_count_observed": 22512,
+      "plays_text": "9,538,655",
+      "favorites_text": "22,512",
+      "metrics_url": "https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20200716172907",
+      "capture_url": "https://web.archive.org/web/20200716172907/https://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716172907_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_9b3eba8bb0cbb413.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Trimps",
       "game_url": "http://www.kongregate.com/games/GreenSatellite/trimps",
       "plays_count_observed": 9538655,
       "favorites_count_observed": 22512,
@@ -22529,6 +22724,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172907_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_9b3eba8bb0cbb413.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 496331,
+      "favorites_count_observed": 3207,
+      "plays_text": "496,331",
+      "favorites_text": "3,207",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20200716172747",
+      "capture_url": "https://web.archive.org/web/20200716172747/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716172747_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_d00808aeb26dbbce.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-16",
@@ -26073,6 +26283,21 @@
     {
       "date": "2020-11-07",
       "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 179562,
+      "favorites_count_observed": 1181,
+      "plays_text": "179,562",
+      "favorites_text": "1,181",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201107014207",
+      "capture_url": "https://web.archive.org/web/20201107014207/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201107014207_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_49617a4f86f7a52f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 179562,
       "favorites_count_observed": 1181,
@@ -26084,6 +26309,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107014207_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_49617a4f86f7a52f.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 179588,
+      "favorites_count_observed": 1181,
+      "plays_text": "179,588",
+      "favorites_text": "1,181",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201107024802",
+      "capture_url": "https://web.archive.org/web/20201107024802/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201107024802_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_41e44db3c52aa843.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-07",
@@ -26219,6 +26459,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201110150450_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_6bf283aa89d8807c.json"
+    },
+    {
+      "date": "2020-11-10",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 180767,
+      "favorites_count_observed": 1190,
+      "plays_text": "180,767",
+      "favorites_text": "1,190",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201110031124",
+      "capture_url": "https://web.archive.org/web/20201110031124/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201110031124_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_9980907f1a7d24a5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-10",
@@ -27194,6 +27449,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204303_https_www.kongregate.com_games_kupo707_epic-battle-fantasy-5_metrics.json_381339f6acb9414b.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 189696,
+      "favorites_count_observed": 1235,
+      "plays_text": "189,696",
+      "favorites_text": "1,235",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20201201204617",
+      "capture_url": "https://web.archive.org/web/20201201204617/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201201204617_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_fd7a813046bd9e53.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-12-01",
@@ -68508,6 +68778,21 @@
     {
       "date": "2024-01-17",
       "game_name": "Medieval Chronicles 4",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
+      "plays_count_observed": 66032,
+      "favorites_count_observed": 645,
+      "plays_text": "66,032",
+      "favorites_text": "645",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "capture_timestamp": "20240117074922",
+      "capture_url": "https://web.archive.org/web/20240117074922/https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117074922_https_www.kongregate.com_games_VasantJ_medieval-chronicles-4_metrics.json_e25e41aa4fe33c66.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Medieval Chronicles 4",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
       "plays_count_observed": 66032,
       "favorites_count_observed": 645,
@@ -69753,6 +70038,21 @@
     {
       "date": "2024-01-19",
       "game_name": "Medieval Chronicles 4",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
+      "plays_count_observed": 66050,
+      "favorites_count_observed": 645,
+      "plays_text": "66,050",
+      "favorites_text": "645",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "capture_timestamp": "20240119201211",
+      "capture_url": "https://web.archive.org/web/20240119201211/https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119201211_https_www.kongregate.com_games_VasantJ_medieval-chronicles-4_metrics.json_637bc95af3262c85.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Medieval Chronicles 4",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
       "plays_count_observed": 66050,
       "favorites_count_observed": 645,
@@ -70274,6 +70574,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120164247_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_3908ad5167a786bd.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Medieval Chronicles 7",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7",
+      "plays_count_observed": 52559,
+      "favorites_count_observed": 495,
+      "plays_text": "52,559",
+      "favorites_text": "495",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "capture_timestamp": "20240120164241",
+      "capture_url": "https://web.archive.org/web/20240120164241/https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120164241_https_www.kongregate.com_games_VasantJ_medieval-chronicles-7_metrics.json_fbd4ff07afaa121c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-20",
@@ -73574,6 +73889,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222190542_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_8a6dfedd7f67ef3c.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Medieval Chronicles 4",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
+      "plays_count_observed": 66116,
+      "favorites_count_observed": 646,
+      "plays_text": "66,116",
+      "favorites_text": "646",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "capture_timestamp": "20240222203933",
+      "capture_url": "https://web.archive.org/web/20240222203933/https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240222203933_https_www.kongregate.com_games_VasantJ_medieval-chronicles-4_metrics.json_31e68441e8cf4a14.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-22",

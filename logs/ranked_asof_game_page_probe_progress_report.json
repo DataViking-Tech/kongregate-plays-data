@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T15:55:28Z",
+  "generated_at": "2026-07-03T16:04:30Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -460,8 +460,8 @@
       "dynamic_metric_placeholder_pages": 14,
       "game_metrics_updater_pages": 14,
       "blank_gameplays_count_pages": 14,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 4,
+      "metrics_json_probe_observations": 8,
+      "metrics_json_cdx_rows": 16,
       "alternate_endpoint_cdx_rows": 150,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -590,8 +590,8 @@
       "dynamic_metric_placeholder_pages": 15,
       "game_metrics_updater_pages": 15,
       "blank_gameplays_count_pages": 15,
-      "metrics_json_probe_observations": 1,
-      "metrics_json_cdx_rows": 1,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 4,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
