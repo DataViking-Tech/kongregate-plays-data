@@ -1,22 +1,23 @@
 {
-  "cached_cdx_only": true,
-  "candidate_observation_rows": 16,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 16,
-  "cdx_rows_found": 0,
+  "cached_cdx_only": false,
+  "candidate_observation_rows": 18,
+  "candidates_with_cdx": 6,
+  "cdx_lookups": 18,
+  "cdx_rows_found": 6,
   "cdx_status_counts": {
-    "cached": 16
+    "cached": 8,
+    "fetched": 10
   },
   "cdx_wall_timeout": 12.0,
   "collapse": "digest",
-  "game_name_contains": "Space Hero,Nature Hidden Objects,Spell Sorter,Unlock prototype",
+  "game_name_contains": "Melon Madness,Square Jump: Revision of the Icy Tower,Adam and Eve 2,Retro Shuriken,Soul Shadows",
   "games_direct_probed": 0,
-  "games_with_cached_pages": 4,
+  "games_with_cached_pages": 5,
   "games_without_cached_pages": 0,
   "input_csv": "data/processed/ranked_asof_game_page_probe_progress.csv",
   "match_type": "exact",
   "max_candidates_per_page": 3,
-  "max_cdx_lookups": 32,
+  "max_cdx_lookups": 40,
   "max_pages_per_game": 3,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -30,39 +31,48 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Nature Hidden Objects": {
-      "candidates_with_cdx": 0,
+    "Adam and Eve 2": {
+      "candidates_with_cdx": 6,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 6,
-      "game_url": "http://www.kongregate.com/games/Kooxpi/nature-hidden-objects",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
       "pages_checked": 3,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Space Hero": {
+    "Melon Madness": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 6,
+      "game_url": "http://www.kongregate.com/games/WalrusSlayer44/melon-madness",
+      "pages_checked": 3,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Retro Shuriken": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/george2222teodor/space-hero",
+      "game_url": "http://www.kongregate.com/games/minininja956/retro-shuriken",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Spell Sorter": {
+    "Soul Shadows": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/314owen/spell-sorter",
-      "pages_checked": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/minininja956/soul-shadows",
+      "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Unlock prototype": {
+    "Square Jump: Revision of the Icy Tower": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/zeeshahmad/unlock-prototype",
-      "pages_checked": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/marek123061/square-jump-revision-of-the-icy-tower",
+      "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -72,23 +82,126 @@
     "total": 81
   },
   "persisted_probe_history": {
-    "added": 8,
-    "total": 12993,
-    "updated": 8
+    "added": 18,
+    "total": 13011,
+    "updated": 0
   },
-  "run_timestamp": "2026-07-03T13:57:22Z",
+  "run_timestamp": "2026-07-03T14:06:00Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 4,
+  "target_games": 5,
   "target_games_with_kongregate_ids": 0,
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [],
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,failed: <urlopen error [Errno 61] Connection refused>",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160919163444_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_cdf9217f4c2acae8.html",
+      "source_page_timestamp": "20160919163444",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,fetched",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20260301061645_http_www.kongregate.com_games_fastgames_adam-and-eve-2_metrics.json_4eb854fb1699384b.txt",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160924213008_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_2a0967d81f807f48.html",
+      "source_page_timestamp": "20160924213008",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20260301061645_http_www.kongregate.com_games_fastgames_adam-and-eve-2_metrics.json_4eb854fb1699384b.txt",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160927112143_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_cdf76218714ba82a.html",
+      "source_page_timestamp": "20160927112143",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,failed: <urlopen error [Errno 61] Connection refused>",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160919163444_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_cdf9217f4c2acae8.html",
+      "source_page_timestamp": "20160919163444",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20260301061645_http_www.kongregate.com_games_fastgames_adam-and-eve-2_metrics.json_4eb854fb1699384b.txt",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160924213008_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_2a0967d81f807f48.html",
+      "source_page_timestamp": "20160924213008",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "cached",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "game_name": "Adam and Eve 2",
+      "game_url": "http://www.kongregate.com/games/fastgames/adam-and-eve-2",
+      "notes": "generated_from_game_path,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20260301061645_http_www.kongregate.com_games_fastgames_adam-and-eve-2_metrics.json_4eb854fb1699384b.txt",
+      "sample_timestamp": "20260301061645",
+      "source_page_path": "data/raw/game_pages/html/20160927112143_http_www.kongregate.com_80_games_fastgames_adam-and-eve-2_cdf76218714ba82a.html",
+      "source_page_timestamp": "20160927112143",
+      "source_type": "metrics_json"
+    }
+  ],
   "top_count_signals": [],
   "unresolved_failed_endpoints_only": false
 }

@@ -1,19 +1,30 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T13:57:22Z
-- Target games: 4
+- Generated: 2026-07-03T14:06:00Z
+- Target games: 5
 - Status filter: none
-- Games with cached archived pages: 4
+- Games with cached archived pages: 5
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 16
-- Candidate observation rows: 16
-- CDX status counts: cached=16
-- CDX rows found: 0
-- Candidates with CDX rows: 0
+- Endpoint candidates checked: 18
+- Candidate observation rows: 18
+- CDX status counts: cached=8, fetched=10
+- CDX rows found: 6
+- Candidates with CDX rows: 6
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
 - Deduped recovered play-count observations: 81 (0 new this run)
-- Accumulated probe-history rows: 12993 (8 new, 8 refreshed)
+- Accumulated probe-history rows: 13011 (18 new, 0 refreshed)
+
+## Archived Endpoint Hits
+
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| Adam and Eve 2 | metrics_json | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
+| Adam and Eve 2 | metrics_json | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
+| Adam and Eve 2 | metrics_json | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
+| Adam and Eve 2 | metrics_json | `https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
+| Adam and Eve 2 | metrics_json | `https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
+| Adam and Eve 2 | metrics_json | `https://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | `http://www.kongregate.com/games/fastgames/adam-and-eve-2/metrics.json` | 1 |
 
 ## Interpretation
 
