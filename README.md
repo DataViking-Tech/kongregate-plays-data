@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1SqyxuRdZaOtL7sKq_TGi3MW8q8BWAoJzFNhdnEIhYmQ
+https://docs.google.com/spreadsheets/d/1cN3G5Rj1rSBc4sS1i3Y3H8s3JNRy8OM5POA7oOpDq1A
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1SqyxuRdZaOtL7sKq_TGi3MW8q8BWAoJzFNhdnEIh
 - Ranked-list rows with aggregate as-of observed play counts: 44,188
 - Mini catalog: 2,998 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,322 across 2,673 canonical games
-- Observed play-count rows used by the chart: 24,937
+- Per-game play-history rows: 8,330 across 2,673 canonical games
+- Observed play-count rows used by the chart: 24,945
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,342 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-03
 - Per-game play-history date range: 2007-03-24 to 2026-07-03
@@ -305,6 +305,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 277 ran a 32-game bounded exact-metrics shard and retried the 11 transient CDX misses with slower settings. Exact `metrics.json` archives recovered four new Scalak observations from 2019-07-02 through 2021-10-18, from 213,030 to 261,139 plays. Those captures start after Scalak's open missing rank window, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,536 observations, recovered count rows are 618, unified play-history rows are 8,316, chart observed rows are 24,931, and the bounded exact-metrics queue is down to 1,324. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 278 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered four new play-history rows: Lost Ethereal at 49,031 plays, Pixel Modern SWAT VS Mercenary at 196 plays, and Feed The D (Christian-Friendly) at 296 and 304 plays. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,637 observations, recovered count rows are 622, unified play-history rows are 8,320, chart observed rows are 24,935, and the bounded exact-metrics queue is down to 1,292. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 279 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered two new play-history rows: IdlePixelGemMiner at 4,705 plays and Afterburner at 250 plays. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,738 observations, recovered count rows are 624, unified play-history rows are 8,322, chart observed rows are 24,937, and the bounded exact-metrics queue is down to 1,260. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
+- Checkpoint 280 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with three slower follow-up passes. Exact `metrics.json` archives recovered eight new play-history rows across Battle Pirates, White, Pixel Warfare, December Problems, Headless Zombie 2, and You are the Monst-Hair. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,844 observations, recovered count rows are 632, unified play-history rows are 8,330, chart observed rows are 24,945, and the bounded exact-metrics queue is down to 1,228. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

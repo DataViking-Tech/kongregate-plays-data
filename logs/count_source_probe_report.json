@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 16,
-  "candidates_with_cdx": 2,
-  "cdx_lookups": 16,
-  "cdx_rows_found": 2,
+  "candidate_observation_rows": 6,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 6,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 5,
-    "fetched": 11
+    "cached": 2,
+    "fetched": 4
   },
-  "cdx_wall_timeout": 20.0,
+  "cdx_wall_timeout": 25.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 8,
+  "games_direct_probed": 3,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 8,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_279_retry2.csv",
+  "games_without_cached_pages": 3,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_280_retry3.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 50,
+  "max_cdx_lookups": 20,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -27,176 +27,58 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 2,
+  "parsed_play_count_rows": 0,
   "payload_wall_timeout": 12.0,
-  "payloads_with_count_signal": 2,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "Afterburner": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        250,
-        250
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Ancient palace": {
+    "Japanese Language - Hiragana & Katakana Exceed": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/top10newgames/ancient-palace",
+      "game_url": "http://www.kongregate.com/games/Pidroh/japanese-language-hiragana-katakana-exceed",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dragon Clicker 0.2": {
+    "KoGaMa | \u2666 GEOMETRY DASH \u2666": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "https://www.kongregate.com/games/DanimalsTCGYT/dragon-clicker-0-2",
+      "game_url": "http://www.kongregate.com/games/KoGaMaDaniel/kogama-geometry-dash",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "GodClicker": {
+    "Super Pirate Adventure": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/BullerSweety/godclicker",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Hunter House Escape": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Nsrgames/hunter-house-escape",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Sea Is Below": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "https://www.kongregate.com/games/Abhinav_kun/sea-is-below",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "The Forgotten Art": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Stav_S/the-forgotten-art",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "n": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Legenderyhero24/n",
+      "game_url": "http://www.kongregate.com/games/Gamesdeveloper/super-pirate-adventure",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 1,
-    "total": 624
+    "added": 0,
+    "total": 632
   },
   "persisted_probe_history": {
-    "added": 13,
-    "total": 15738,
-    "updated": 3
+    "added": 4,
+    "total": 15844,
+    "updated": 2
   },
-  "run_timestamp": "2026-07-03T20:54:42Z",
+  "run_timestamp": "2026-07-03T21:09:02Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 8,
+  "target_games": 3,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "game_name": "Afterburner",
-      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 250,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.txt",
-      "sample_timestamp": "20230913222706",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "game_name": "Afterburner",
-      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 250,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.txt",
-      "sample_timestamp": "20230913222706",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    }
-  ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "game_name": "Afterburner",
-      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 250,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.txt",
-      "sample_timestamp": "20230913222706",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "game_name": "Afterburner",
-      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 250,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.txt",
-      "sample_timestamp": "20230913222706",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": false
 }
