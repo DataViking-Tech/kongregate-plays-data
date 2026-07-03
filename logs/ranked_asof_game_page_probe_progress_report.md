@@ -1,24 +1,24 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T09:19:50Z
+- Generated: 2026-07-03T09:24:07Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1697
-- dynamic_metrics_placeholder: 34
+- not_checked: 1696
+- dynamic_metrics_placeholder: 35
 - no_page_cdx_rows: 1
 
 ## Recommended Actions
 
-- 1697: Run a bounded page-history CDX shard for this game.
-- 34: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1696: Run a bounded page-history CDX shard for this game.
+- 35: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 - 1: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 34
+- Dynamic metric placeholder games: 35
 - With exact metrics.json probe history: 0
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -31,6 +31,7 @@
 | The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
 | Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 0 | 0 | 2015-02-23 |
 | Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 0 | 0 | 2015-08-09 |
+| Swords and Souls | 1 | dynamic_metrics_placeholder | 3 | 73 | 16 | 0 | 0 | 2015-10-29 |
 | There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 0 | 0 | 2016-03-07 |
 | SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 0 | 0 | 2016-03-24 |
 | Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
@@ -51,4 +52,3 @@
 | Bakery French Bread | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-04 |
 | Opulent Sunflappiness 3 | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-09 |
 | Umbrella Revolution | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-10 |
-| Freeze Tag | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-13 |
