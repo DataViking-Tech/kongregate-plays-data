@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 9,
+  "candidate_observation_rows": 2,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 9,
+  "cdx_lookups": 2,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 9
+    "fetched": 2
   },
-  "cdx_wall_timeout": 25.0,
+  "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 7,
+  "games_direct_probed": 2,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 7,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_289.csv",
+  "games_without_cached_pages": 2,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_290.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 80,
+  "max_cdx_lookups": 20,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -27,68 +27,23 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 18.0,
+  "payload_wall_timeout": 20.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Black Bit Ninja 2": {
+    "Alien Mystery : Palace": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/HeroPunchTeam/black-bit-ninja-2",
+      "game_url": "http://www.kongregate.com/games/Enagamess/alien-mystery-palace",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Clickbot": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/studio23/clickbot",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Doorway to Darkness": {
+    "The Cave Explorer": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/SandraKim/doorway-to-darkness",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Flappy Bird Mobile": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Foizur197/flappy-bird-mobile",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Get rid of Red": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/dailybraingames/get-rid-of-red",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Let's get 45 or 5 time 9": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/chichay2010/lets-get-45-or-5-time-9",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Zombuddies": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/GroZZleR/zombuddies",
+      "game_url": "http://www.kongregate.com/games/mrnannings/the-cave-explorer",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -99,18 +54,18 @@
     "total": 706
   },
   "persisted_probe_history": {
-    "added": 9,
-    "total": 16837,
+    "added": 2,
+    "total": 16944,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T23:09:46Z",
+  "run_timestamp": "2026-07-03T23:22:01Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 7,
+  "target_games": 2,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],

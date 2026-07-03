@@ -1,6 +1,6 @@
 # As-Of Recovery Feasibility Audit
 
-- Generated: 2026-07-03T23:10:30Z
+- Generated: 2026-07-03T23:22:41Z
 - Ranked as-of gap rows audited: 1993
 
 ## Exact Metrics Gap Status
@@ -12,8 +12,8 @@
 
 ## Recommended Actions
 
-- Run a bounded exact metrics CDX check before escalating.: 940
-- Escalate to broader list/account captures or external corroboration.: 861
+- Run a bounded exact metrics CDX check before escalating.: 908
+- Escalate to broader list/account captures or external corroboration.: 893
 - Exact metrics start too late; pursue broader list/account captures or external corroboration.: 182
 - Exact metrics start too late and side endpoints lack public counts; pursue list/account captures or external corroboration.: 8
 - Treat exact metrics as weak for this window; inspect payload schema only if this game is strategically important.: 1
