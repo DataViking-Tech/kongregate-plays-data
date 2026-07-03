@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T14:36:08Z
-- Profile games in scope: 1609
-- Selected games sample: Space Defender YM, Shootyship, Little Bitty Byte, EZ MONEY ALL DAYYY, Shootrio, Desert Bus 3D, Zombie Cannon Attack!, Good Apprentice Pelo 2021, Back To Home, Supervivencia en la Selva, Escape From Ghost House 3, Warscrap, SCP 079, test, Salads by Chef: Merge Сraft, Tracesoccer, Idle Bouncer, Holyday City, Animation Throwdown, Zombie Derby 2, Tyrant Unleashed, Factory idle, Tap Adventure, Decision 3, Soccer Random, Colorize, Crush Crush, Hero Simulator, Bad Eggs Online, Holyday City Reloaded, Red Crucible: Firestorm, 3D Zombie Hell, Fruit Frenzy, Old Taxi Jigsaw, UnpuzzleR, Bullet Heaven 2, Card Hunter, Medieval Chronicles 8, Armor Mayhem, Revolution Idle 2, Factory Balls forever, Dear Edmund, Ghost Climb, EggDrop, Pair My Alphabets, Tutti - The Skater Capybara, Dead Ops, Fastest Lap, SpongeBob Save Crab, Humans vs. Golems: Soccer
-- Selected games omitted from sample: 1559
-- CDX games considered: 10
-- Cached CDX only: False
+- Run timestamp: 2026-07-03T14:51:25Z
+- Profile games in scope: 5
+- Selected games sample: Space Defender YM, Shootrio, Zombie Cannon Attack!, Warscrap, test
+- Selected games omitted from sample: 0
+- CDX games considered: 5
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: 12.0
+- CDX wall-clock cap: 8.0
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
 - Game-name filter: none
 - Metrics row filter: has_metrics
-- Progress status filter: not_checked
-- CDX rows: 7
-- Page jobs: 7
-- Pending before run: 7
-- Attempted this run: 7
-- Fetched this run: 6
+- Progress status filter: page_cdx_pending
+- CDX rows: 40
+- Page jobs: 20
+- Pending before run: 20
+- Attempted this run: 20
+- Fetched this run: 18
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 1
+- Network fetch failed this run: 2
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 7
+- Failed this run: 20
 - Manifest entries: 368
-- Known failures: 3880
-- Combined history rows: 8013
+- Known failures: 3900
+- Combined history rows: 8016
 - Game-page history rows: 368
 - Report only: False
