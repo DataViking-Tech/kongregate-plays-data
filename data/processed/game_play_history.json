@@ -9911,6 +9911,21 @@
       "metrics_url": "http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
       "capture_timestamp": "20170930110332",
       "capture_url": "https://web.archive.org/web/20170930110332/http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170930110332_http_www.kongregate.com_games_clarusvictoria_pre-civilization-bronze-age_metrics.json_395d829a6fe5e65a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-09-30",
+      "game_name": "Pre-Civilization Bronze Age",
+      "game_url": "http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age",
+      "plays_count_observed": 483821,
+      "favorites_count_observed": 2813,
+      "plays_text": "483,821",
+      "favorites_text": "2,813",
+      "metrics_url": "http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
+      "capture_timestamp": "20170930110332",
+      "capture_url": "https://web.archive.org/web/20170930110332/http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170930110332_http_www.kongregate.com_games_clarusvictoria_pre-civilization-bronze-age_metrics.json_395d829a6fe5e65a.json"
@@ -49556,6 +49571,21 @@
       "metrics_url": "https://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
       "capture_timestamp": "20220720023204",
       "capture_url": "https://web.archive.org/web/20220720023204/https://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220720023204_https_www.kongregate.com_games_clarusvictoria_pre-civilization-bronze-age_metrics.json_5f8f4e809117d9d5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-07-20",
+      "game_name": "Pre-Civilization Bronze Age",
+      "game_url": "http://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age",
+      "plays_count_observed": 608422,
+      "favorites_count_observed": 3263,
+      "plays_text": "608,422",
+      "favorites_text": "3,263",
+      "metrics_url": "https://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
+      "capture_timestamp": "20220720023204",
+      "capture_url": "https://web.archive.org/web/20220720023204/https://www.kongregate.com/games/clarusvictoria/pre-civilization-bronze-age/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220720023204_https_www.kongregate.com_games_clarusvictoria_pre-civilization-bronze-age_metrics.json_5f8f4e809117d9d5.json"
@@ -60746,6 +60776,21 @@
       "metrics_url": "https://www.kongregate.com/games/swipefaststudios/button-game-adventure/metrics.json",
       "capture_timestamp": "20230511222802",
       "capture_url": "https://web.archive.org/web/20230511222802/https://www.kongregate.com/games/swipefaststudios/button-game-adventure/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230511222802_https_www.kongregate.com_games_swipefaststudios_button-game-adventure_metrics.json_a9f8383189e7c727.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-05-11",
+      "game_name": "Button Game Adventure",
+      "game_url": "http://www.kongregate.com/games/swipefaststudios/button-game-adventure",
+      "plays_count_observed": 66,
+      "favorites_count_observed": 0,
+      "plays_text": "66",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/swipefaststudios/button-game-adventure/metrics.json",
+      "capture_timestamp": "20230511222802",
+      "capture_url": "https://web.archive.org/web/20230511222802/https://www.kongregate.com/games/swipefaststudios/button-game-adventure/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230511222802_https_www.kongregate.com_games_swipefaststudios_button-game-adventure_metrics.json_a9f8383189e7c727.json"
@@ -71456,6 +71501,21 @@
       "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
       "capture_timestamp": "20240117045819",
       "capture_url": "https://web.archive.org/web/20240117045819/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117045819_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_8254d8d71b1c3ae6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11137,
+      "favorites_count_observed": 49,
+      "plays_text": "11,137",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240117045819",
+      "capture_url": "https://web.archive.org/web/20240117045819/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117045819_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_8254d8d71b1c3ae6.json"
@@ -72794,6 +72854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119214809_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_9dbf0018a338f446.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11139,
+      "favorites_count_observed": 49,
+      "plays_text": "11,139",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240119215930",
+      "capture_url": "https://web.archive.org/web/20240119215930/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119215930_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d4e3367df868d7f5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-19",
@@ -76844,6 +76919,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222221224_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_21951c7b26975925.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "Necromancer's Quest Beta",
+      "game_url": "http://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta",
+      "plays_count_observed": 11149,
+      "favorites_count_observed": 49,
+      "plays_text": "11,149",
+      "favorites_text": "49",
+      "metrics_url": "https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "capture_timestamp": "20240222222904",
+      "capture_url": "https://web.archive.org/web/20240222222904/https://www.kongregate.com/games/ExperaGameStudio/necromancers-quest-beta/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240222222904_https_www.kongregate.com_games_ExperaGameStudio_necromancers-quest-beta_metrics.json_d78f6c9c9585a20f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-22",
