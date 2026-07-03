@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T07:45:40Z
+- Run timestamp: 2026-07-03T07:51:01Z
 - Profile games in scope: 1
-- Selected games sample: Superfighters
+- Selected games sample: N Step Steve: Part 1
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: superfighters
+- Game-name filter: n step steve
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 72
-- Page jobs: 24
-- Pending before run: 24
-- Attempted this run: 24
-- Fetched this run: 14
+- CDX rows: 21
+- Page jobs: 7
+- Pending before run: 7
+- Attempted this run: 7
+- Fetched this run: 7
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 10
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 24
+- No explicit count this run: 3
+- Failed this run: 7
 - Manifest entries: 368
-- Known failures: 3194
+- Known failures: 3201
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
