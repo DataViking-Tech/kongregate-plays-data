@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 16,
+  "candidate_observation_rows": 22,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 16,
+  "cdx_lookups": 22,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 2,
-    "fetched": 14
+    "cached": 4,
+    "fetched": 18
   },
   "cdx_wall_timeout": 15.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 8,
+  "games_direct_probed": 11,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 8,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_276_retry.csv",
+  "games_without_cached_pages": 11,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_277_retry.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 40,
+  "max_cdx_lookups": 60,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -31,74 +31,101 @@
   "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Defense Prototype 3": {
+    "3D Snake!": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mikhog/defense-prototype-3",
+      "game_url": "http://www.kongregate.com/games/JaredTimpson/3d-snake",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dr. Steward 75K's Intergalactic Darryl Naturam 2021": {
+    "Airport Minibus Parking": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/stewardhklarlove/dr-steward-75ks-intergalactic-darryl-naturam-2021",
+      "game_url": "http://www.kongregate.com/games/funnychasegames/airport-minibus-parking",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Last Man Alive": {
+    "Classic Jon": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/storm_howard/last-man-alive",
+      "game_url": "http://www.kongregate.com/games/CoolFlow/classic-jon",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Rango": {
+    "Egg in the Air": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/sadistfairy/rango",
+      "game_url": "http://www.kongregate.com/games/indiejump/egg-in-the-air",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "SS17 SuperCarla": {
+    "Escape From Forbidden Forest": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/lionel_ict/ss17-supercarla",
+      "game_url": "http://www.kongregate.com/games/Enagamess/escape-from-forbidden-forest",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Space Stranger": {
+    "Far Away Home - Alpha gameplay planet Sidon": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/LatypovKamil/space-stranger",
+      "game_url": "http://www.kongregate.com/games/MiniLimoStudio/far-away-home-alpha-gameplay-planet-sidon",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Stardust": {
+    "Fun to Boot": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/voidExec/stardust",
+      "game_url": "http://www.kongregate.com/games/PlexusPuzzles/fun-to-boot",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Summoner's Tale (in developing)": {
+    "King Slime 2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Mohamed_Negm/summoners-tale-in-developing",
+      "game_url": "http://www.kongregate.com/games/guvigo2/king-slime-2",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tic Tac Toe": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/EmperorMason/tic-tac-toe",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tom and Jerry Jigsaw": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/game4joy1/tom-and-jerry-jigsaw",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Unlimited Bunker": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/ainarsa/unlimited-bunker",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -106,21 +133,21 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 614
+    "total": 618
   },
   "persisted_probe_history": {
-    "added": 16,
-    "total": 15444,
+    "added": 22,
+    "total": 15536,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T20:16:17Z",
+  "run_timestamp": "2026-07-03T20:29:13Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 8,
+  "target_games": 11,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],

@@ -13233,6 +13233,21 @@
     {
       "date": "2019-07-02",
       "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/games/chomi3/scalak",
+      "plays_count_observed": 213030,
+      "favorites_count_observed": 1535,
+      "plays_text": "213,030",
+      "favorites_text": "1,535",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20190702072654",
+      "capture_url": "https://web.archive.org/web/20190702072654/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072654_https_www.kongregate.com_games_chomi3_scalak_metrics.json_0a0dad1c8890ba73.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Scalak",
       "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
       "plays_count_observed": 213030,
       "favorites_count_observed": 1535,
@@ -36933,6 +36948,21 @@
     {
       "date": "2021-06-20",
       "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/games/chomi3/scalak",
+      "plays_count_observed": 258130,
+      "favorites_count_observed": 1885,
+      "plays_text": "258,130",
+      "favorites_text": "1,885",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20210620191312",
+      "capture_url": "https://web.archive.org/web/20210620191312/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210620191312_https_www.kongregate.com_games_chomi3_scalak_metrics.json_0be6bc3f09b19a11.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-06-20",
+      "game_name": "Scalak",
       "game_url": "https://www.kongregate.com/en/games/chomi3/scalak",
       "plays_count_observed": 258130,
       "favorites_count_observed": 1885,
@@ -36944,6 +36974,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210620191312_https_www.kongregate.com_games_chomi3_scalak_metrics.json_0be6bc3f09b19a11.json"
+    },
+    {
+      "date": "2021-06-20",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/games/chomi3/scalak",
+      "plays_count_observed": 258133,
+      "favorites_count_observed": 1886,
+      "plays_text": "258,133",
+      "favorites_text": "1,886",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20210620202543",
+      "capture_url": "https://web.archive.org/web/20210620202543/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210620202543_https_www.kongregate.com_games_chomi3_scalak_metrics.json_4f0b0214d600d663.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-06-20",
@@ -39269,6 +39314,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211017123413_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_a880f4b05cde7dc3.json"
+    },
+    {
+      "date": "2021-10-18",
+      "game_name": "Scalak",
+      "game_url": "https://www.kongregate.com/games/chomi3/scalak",
+      "plays_count_observed": 261139,
+      "favorites_count_observed": 1905,
+      "plays_text": "261,139",
+      "favorites_text": "1,905",
+      "metrics_url": "https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "capture_timestamp": "20211018024121",
+      "capture_url": "https://web.archive.org/web/20211018024121/https://www.kongregate.com/games/chomi3/scalak/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211018024121_https_www.kongregate.com_games_chomi3_scalak_metrics.json_301c973015187b57.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-10-18",
