@@ -1,54 +1,58 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T11:55:23Z
+- Generated: 2026-07-03T12:00:58Z
 - Target games: 10
 - Status filter: none
-- Games with cached archived pages: 10
-- Games direct-probed from catalog URLs: 0
+- Games with cached archived pages: 8
+- Games direct-probed from catalog URLs: 2
 - Endpoint candidates checked: 10
-- Candidate observation rows: 15
-- CDX status counts: cached=1, failed=1, fetched=13
-- CDX rows found: 115
-- Candidates with CDX rows: 13
-- Payloads with count-like signals: 12
-- Parsed play-count rows: 12
-- Deduped recovered play-count observations: 49 (12 new this run)
-- Accumulated probe-history rows: 12754 (15 new, 0 refreshed)
+- Candidate observation rows: 18
+- CDX status counts: cached=2, failed=1, fetched=15
+- CDX rows found: 186
+- Candidates with CDX rows: 16
+- Payloads with count-like signals: 13
+- Parsed play-count rows: 13
+- Deduped recovered play-count observations: 60 (11 new this run)
+- Accumulated probe-history rows: 12772 (18 new, 0 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | gameplays_count_with_delimiter | 12940807 |
-| KingsRoad | metrics_json | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | gameplays_count_with_delimiter | 5667526 |
-| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | gameplays_count_with_delimiter | 4947705 |
-| Miscrits | metrics_json | `http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json` | `http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json` | gameplays_count_with_delimiter | 1817399 |
-| Sports Heads: Football Championship | metrics_json | `http://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json` | `https://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json` | gameplays_count_with_delimiter | 1510580 |
+| The Very Organized Thief | metrics_json | `http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | `https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | gameplays_count_with_delimiter | 1524637 |
+| Unpuzzle | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | gameplays_count_with_delimiter | 456583 |
 | Unpuzzle 2 | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | gameplays_count_with_delimiter | 418603 |
+| Unpuzzle | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | gameplays_count_with_delimiter | 417768 |
 | Unpuzzle 2 | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | gameplays_count_with_delimiter | 379847 |
-| Evo Explores | metrics_json | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | gameplays_count_with_delimiter | 354416 |
-| Medieval Chronicles 4 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | gameplays_count_with_delimiter | 64111 |
-| Medieval Chronicles 7 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | gameplays_count_with_delimiter | 51387 |
-| Medieval Chronicles 4 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | gameplays_count_with_delimiter | 43633 |
-| Medieval Chronicles 7 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | gameplays_count_with_delimiter | 7990 |
+| UnpuzzleR | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | gameplays_count_with_delimiter | 116588 |
+| Medieval Cop 8 -DeathWish- (Part 3) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | gameplays_count_with_delimiter | 103819 |
+| Medieval Cop 8 -DeathWish- (Part 3) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | gameplays_count_with_delimiter | 102235 |
+| UnpuzzleR | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | gameplays_count_with_delimiter | 76203 |
+| Medieval Cop 9 -Song & Silence- (Part 1) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | gameplays_count_with_delimiter | 67090 |
+| Medieval Cop 9 -Song & Silence- (Part 1) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | gameplays_count_with_delimiter | 52621 |
+| Medieval Chronicles 9 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | gameplays_count_with_delimiter | 18129 |
+| Medieval Chronicles 9 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | gameplays_count_with_delimiter | 18128 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | 8 |
-| KingsRoad | metrics_json | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | 1 |
-| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | 8 |
-| Miscrits | metrics_json | `http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json` | `http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json` | 1 |
-| Sports Heads: Football Championship | metrics_json | `http://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json` | `https://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json` | 1 |
+| The Very Organized Thief | metrics_json | `http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | `https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | 5 |
+| Unpuzzle | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | 13 |
 | Unpuzzle 2 | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | 24 |
+| Unpuzzle | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json` | 13 |
 | Unpuzzle 2 | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json` | 24 |
-| Evo Explores | metrics_json | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | 16 |
-| Medieval Chronicles 4 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | 5 |
-| Medieval Chronicles 7 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | 3 |
-| Medieval Chronicles 4 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json` | 5 |
-| Medieval Chronicles 7 | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json` | 3 |
-| Evo Explores | metrics_json | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | `http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json` | 16 |
+| UnpuzzleR | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | 13 |
+| Medieval Cop 8 -DeathWish- (Part 3) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | 5 |
+| Medieval Cop 8 -DeathWish- (Part 3) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json` | 5 |
+| UnpuzzleR | metrics_json | `http://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | `https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json` | 13 |
+| Medieval Cop 9 -Song & Silence- (Part 1) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | 4 |
+| Medieval Cop 9 -Song & Silence- (Part 1) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json` | 4 |
+| Medieval Chronicles 9 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | 16 |
+| Medieval Chronicles 9 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json` | 16 |
+| Medieval Chronicles 8 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-8-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-8-part-2/metrics.json` | 13 |
+| Medieval Chronicles 8 (Part 2) | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-chronicles-8-part-2/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-chronicles-8-part-2/metrics.json` | 13 |
+| The Very Organized Thief | metrics_json | `http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | `http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json` | 5 |
 
 ## Retry Note
 

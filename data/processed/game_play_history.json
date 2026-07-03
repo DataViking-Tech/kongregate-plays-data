@@ -12476,9 +12476,39 @@
       "metrics_url": "https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
       "capture_timestamp": "20190702072655",
       "capture_url": "https://web.archive.org/web/20190702072655/https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072655_https_www.kongregate.com_games_arcan3artist_the-very-organized-thief_metrics.json_5ce719b12b762847.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "The Very Organized Thief",
+      "game_url": "http://www.kongregate.com/games/arcan3artist/the-very-organized-thief",
+      "plays_count_observed": 1524637,
+      "favorites_count_observed": 6036,
+      "plays_text": "1,524,637",
+      "favorites_text": "6,036",
+      "metrics_url": "https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
+      "capture_timestamp": "20190702072655",
+      "capture_url": "https://web.archive.org/web/20190702072655/https://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072655_https_www.kongregate.com_games_arcan3artist_the-very-organized-thief_metrics.json_5ce719b12b762847.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Unpuzzle",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle",
+      "plays_count_observed": 417768,
+      "favorites_count_observed": 3302,
+      "plays_text": "417,768",
+      "favorites_text": "3,302",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json",
+      "capture_timestamp": "20190702072652",
+      "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072652_https_www.kongregate.com_games_KekGames_unpuzzle_metrics.json_2026c465998d131a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-07-02",
@@ -17606,6 +17636,21 @@
       "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
       "capture_timestamp": "20200220143109",
       "capture_url": "https://web.archive.org/web/20200220143109/https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200220143109_https_www.kongregate.com_games_KekGames_unpuzzler_metrics.json_e39c73327fd581d4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-02-20",
+      "game_name": "UnpuzzleR",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzler",
+      "plays_count_observed": 76203,
+      "favorites_count_observed": 571,
+      "plays_text": "76,203",
+      "favorites_text": "571",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
+      "capture_timestamp": "20200220143109",
+      "capture_url": "https://web.archive.org/web/20200220143109/https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200220143109_https_www.kongregate.com_games_KekGames_unpuzzler_metrics.json_e39c73327fd581d4.json"
@@ -19593,6 +19638,21 @@
     {
       "date": "2020-04-27",
       "game_name": "Medieval Cop 9 -Song & Silence- (Part 1)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1",
+      "plays_count_observed": 52621,
+      "favorites_count_observed": 714,
+      "plays_text": "52,621",
+      "favorites_text": "714",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json",
+      "capture_timestamp": "20200427132201",
+      "capture_url": "https://web.archive.org/web/20200427132201/https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200427132201_https_www.kongregate.com_games_VasantJ_medieval-cop-9-song-silence-part-1_metrics.json_4df57805c8a76099.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Medieval Cop 9 -Song & Silence- (Part 1)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-9-song-silence-part-1",
       "plays_count_observed": 52621,
       "favorites_count_observed": 714,
@@ -20159,6 +20219,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125446_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_4f69e9adfc2a0567.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Unpuzzle",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle",
+      "plays_count_observed": 456583,
+      "favorites_count_observed": 3558,
+      "plays_text": "456,583",
+      "favorites_text": "3,558",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json",
+      "capture_timestamp": "20200429125448",
+      "capture_url": "https://web.archive.org/web/20200429125448/https://www.kongregate.com/games/KekGames/unpuzzle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200429125448_https_www.kongregate.com_games_KekGames_unpuzzle_metrics.json_0c8693ec7ffed01d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-04-29",
@@ -21558,6 +21633,21 @@
     {
       "date": "2020-07-16",
       "game_name": "Medieval Chronicles 9 (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2",
+      "plays_count_observed": 18128,
+      "favorites_count_observed": 338,
+      "plays_text": "18,128",
+      "favorites_text": "338",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json",
+      "capture_timestamp": "20200716172755",
+      "capture_url": "https://web.archive.org/web/20200716172755/https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716172755_https_www.kongregate.com_games_VasantJ_medieval-chronicles-9-part-2_metrics.json_adf640982be449a6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Medieval Chronicles 9 (Part 2)",
       "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-chronicles-9-part-2",
       "plays_count_observed": 18128,
       "favorites_count_observed": 338,
@@ -21569,6 +21659,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172755_https_www.kongregate.com_games_VasantJ_medieval-chronicles-9-part-2_metrics.json_adf640982be449a6.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Medieval Chronicles 9 (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2",
+      "plays_count_observed": 18129,
+      "favorites_count_observed": 338,
+      "plays_text": "18,129",
+      "favorites_text": "338",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json",
+      "capture_timestamp": "20200716173851",
+      "capture_url": "https://web.archive.org/web/20200716173851/https://www.kongregate.com/games/VasantJ/medieval-chronicles-9-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716173851_https_www.kongregate.com_games_VasantJ_medieval-chronicles-9-part-2_metrics.json_00e76a42096763ff.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-16",
@@ -22799,6 +22904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200731212701_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_965650d479a3275e.json"
+    },
+    {
+      "date": "2020-07-31",
+      "game_name": "UnpuzzleR",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzler",
+      "plays_count_observed": 116588,
+      "favorites_count_observed": 850,
+      "plays_text": "116,588",
+      "favorites_text": "850",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
+      "capture_timestamp": "20200731212719",
+      "capture_url": "https://web.archive.org/web/20200731212719/https://www.kongregate.com/games/KekGames/unpuzzler/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200731212719_https_www.kongregate.com_games_KekGames_unpuzzler_metrics.json_f886eed7df7c6b92.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-31",
@@ -35471,9 +35591,39 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
       "capture_timestamp": "20210902151156",
       "capture_url": "https://web.archive.org/web/20210902151156/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210902151156_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-3_metrics.json_f7398ffac209570f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-09-02",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 3)",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3",
+      "plays_count_observed": 102235,
+      "favorites_count_observed": 1247,
+      "plays_text": "102,235",
+      "favorites_text": "1,247",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
+      "capture_timestamp": "20210902151156",
+      "capture_url": "https://web.archive.org/web/20210902151156/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210902151156_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-3_metrics.json_f7398ffac209570f.json"
+    },
+    {
+      "date": "2021-09-03",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 3)",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3",
+      "plays_count_observed": 103819,
+      "favorites_count_observed": 1248,
+      "plays_text": "103,819",
+      "favorites_text": "1,248",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
+      "capture_timestamp": "20210903015252",
+      "capture_url": "https://web.archive.org/web/20210903015252/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210903015252_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-3_metrics.json_d121c9aacce8570a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-09-03",
@@ -67589,6 +67739,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117074908_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-3_metrics.json_fb89c98a99444811.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Medieval Cop 9 -Song & Silence- (Part 1)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1",
+      "plays_count_observed": 67090,
+      "favorites_count_observed": 837,
+      "plays_text": "67,090",
+      "favorites_text": "837",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json",
+      "capture_timestamp": "20240117074936",
+      "capture_url": "https://web.archive.org/web/20240117074936/https://www.kongregate.com/games/VasantJ/medieval-cop-9-song-silence-part-1/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117074936_https_www.kongregate.com_games_VasantJ_medieval-cop-9-song-silence-part-1_metrics.json_5b1dd4f674cd2f04.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-17",

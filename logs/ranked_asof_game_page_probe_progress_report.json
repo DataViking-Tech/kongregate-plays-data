@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T11:55:43Z",
+  "generated_at": "2026-07-03T12:01:21Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -13,13 +13,13 @@
   },
   "recommended_action_counts": {
     "Run a bounded page-history CDX shard for this game.": 1672,
-    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 44,
-    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 12,
+    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 42,
+    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 14,
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 4
   },
   "dynamic_metric_placeholder_games": 56,
-  "dynamic_metric_placeholder_games_with_metrics_json_probe": 39,
-  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 27,
+  "dynamic_metric_placeholder_games_with_metrics_json_probe": 46,
+  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 32,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 8,
   "high_value_unresolved_games": 1732,
   "top_unresolved_examples": [
@@ -590,8 +590,8 @@
       "dynamic_metric_placeholder_pages": 13,
       "game_metrics_updater_pages": 13,
       "blank_gameplays_count_pages": 13,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 48,
+      "metrics_json_probe_observations": 4,
+      "metrics_json_cdx_rows": 96,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
