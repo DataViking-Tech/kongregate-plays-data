@@ -1,28 +1,28 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-02T10:18:35Z
+- Run timestamp: 2026-07-03T11:29:18Z
 - Catalog games: 2997
-- Catalog scope: offset 1000, limit all (215 games)
-- Audit statuses: no_cdx
+- Catalog scope: offset 0, limit all (16 games)
+- Audit statuses: all
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: none
+- Game-name filter: supermechs,bloons monkey city,crusaders of the lost idols,mu complex,there is no game,cosmos quest,the enchanted cave 2,kingsroad,blockade3d,swarm simulator,trimps,realm grinder,fleeing the complex
 - Schemes: http, https
-- Cached CDX only: False
+- Cached CDX only: True
 - Expanded route variants: True
-- CDX games considered: 10
-- CDX rows found: 0
-- CDX wall timeout: 24.0
-- Metrics wall timeout: 18.0
-- Missing CDX cache files skipped: 0
-- Metrics jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
+- CDX games considered: 13
+- CDX rows found: 545
+- CDX wall timeout: 0
+- Metrics wall timeout: 12.0
+- Missing CDX cache files skipped: 30
+- Metrics jobs: 226
+- Pending before run: 1
+- Attempted this run: 1
 - Fetched this run: 0
-- Failed this run: 0
+- Failed this run: 1
 - Manifest entries: 5452
-- History rows: 7934
-- Games with history: 2788
-- History date range: 2007-03-24 to 2026-07-01
+- History rows: 7969
+- Games with history: 2795
+- History date range: 2007-03-24 to 2026-07-02

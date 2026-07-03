@@ -1,14 +1,20 @@
 # Count Source Probe History
 
-- Generated: 2026-07-03T11:13:44Z
+- Generated: 2026-07-03T11:32:39Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 12550
-- Games with probe history: 354
+- Accumulated endpoint observations: 12734
+- Games with probe history: 356
 - Recovered count rows: 36
-- Unresolved failed endpoint groups: 0
-- Status counts: archived_endpoint_hit_no_count=133, no_archived_endpoint_rows_observed=200, recovered_count=22
+- Unresolved failed endpoint groups: 4
+- Status counts: archived_endpoint_hit_no_count=134, no_archived_endpoint_rows_observed=200, recovered_count=22, transient_failures_remaining=1
 - Tier-1 status counts: archived_endpoint_hit_no_count=114, no_archived_endpoint_rows_observed=127
-- CDX status counts: cached=4850, failed=2928, fetched=4771, missing_html_cache_skipped=1
+- CDX status counts: cached=4850, failed=2989, fetched=4894, missing_html_cache_skipped=1
+
+## Retry Queue
+
+| Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
+| --- | ---: | ---: | ---: | --- |
+| KingsRoad | n/a | 1 | 9 | 2026-07-03T11:32:29Z |
 
 ## Output Files
 

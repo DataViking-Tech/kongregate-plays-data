@@ -209,7 +209,10 @@ def load_targets(args) -> list[TargetGame]:
         if not parts:
             continue
         developer, slug = parts
-        tier = parse_int(row.get("followup_tier") or row.get("tier"))
+        tier = parse_int(row.get("followup_tier") or row.get("tier") or row.get("priority_rank"))
+        best_rank = parse_int(row.get("best_rank") or row.get("catalog_best_rank") or row.get("best_missing_rank"))
+        first_seen_date = row.get("first_seen_date") or row.get("catalog_first_seen_date") or row.get("first_missing_rank_date")
+        last_seen_date = row.get("last_seen_date") or row.get("catalog_last_seen_date") or row.get("last_missing_rank_date")
         if tiers and tier not in tiers:
             continue
         if developer_filters and developer.lower() not in developer_filters:
@@ -225,9 +228,9 @@ def load_targets(args) -> list[TargetGame]:
                 developer=developer,
                 slug=slug,
                 tier=tier,
-                best_rank=parse_int(row.get("best_rank")),
-                first_seen_date=row.get("first_seen_date", ""),
-                last_seen_date=row.get("last_seen_date", ""),
+                best_rank=best_rank,
+                first_seen_date=first_seen_date,
+                last_seen_date=last_seen_date,
             )
         )
     targets.sort(key=lambda target: (target.tier or 99, target.best_rank or 999999, target.first_seen_date, target.game_name.lower()))
