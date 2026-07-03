@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T10:21:38Z
+- Run timestamp: 2026-07-03T10:30:29Z
 - Profile games in scope: 1
-- Selected games sample: The Adventures of Bit and Ravh
+- Selected games sample: Dino Storm
 - Selected games omitted from sample: 0
 - CDX games considered: 1
-- Cached CDX only: False
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: 10.0
+- CDX wall-clock cap: none
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: the adventures of bit and ravh
+- Game-name filter: dino storm
 - Metrics row filter: has_metrics
-- Progress status filter: none
-- CDX rows: 6
-- Page jobs: 2
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
+- Progress status filter: page_cdx_pending
+- CDX rows: 459
+- Page jobs: 153
+- Pending before run: 153
+- Attempted this run: 20
+- Fetched this run: 16
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 0
+- Network fetch failed this run: 4
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 2
+- Failed this run: 20
 - Manifest entries: 368
-- Known failures: 3698
+- Known failures: 3731
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
