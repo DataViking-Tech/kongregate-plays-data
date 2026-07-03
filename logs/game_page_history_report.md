@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T08:58:57Z
+- Run timestamp: 2026-07-03T09:03:51Z
 - Profile games in scope: 1
-- Selected games sample: Super Hot
+- Selected games sample: Evo Explores
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: super hot
+- Game-name filter: evo explores
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 218
-- Page jobs: 109
-- Pending before run: 109
+- CDX rows: 232
+- Page jobs: 116
+- Pending before run: 116
 - Attempted this run: 30
-- Fetched this run: 15
+- Fetched this run: 16
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 15
+- Network fetch failed this run: 14
 - Parsed rows this run: 0
 - No explicit count this run: 0
 - Failed this run: 30
 - Manifest entries: 368
-- Known failures: 3460
+- Known failures: 3490
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
