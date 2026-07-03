@@ -1,22 +1,24 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 2,
+  "candidate_observation_rows": 10,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 2,
+  "cdx_lookups": 10,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 2
+    "cached": 5,
+    "failed": 1,
+    "fetched": 4
   },
   "cdx_wall_timeout": 12.0,
   "collapse": "digest",
-  "game_name_contains": "OrangeLandia",
+  "game_name_contains": "Dark Scary House Escape,Captain Reverso",
   "games_direct_probed": 0,
-  "games_with_cached_pages": 1,
+  "games_with_cached_pages": 2,
   "games_without_cached_pages": 0,
   "input_csv": "data/processed/ranked_asof_game_page_probe_progress.csv",
   "match_type": "exact",
   "max_candidates_per_page": 3,
-  "max_cdx_lookups": 12,
+  "max_cdx_lookups": 18,
   "max_pages_per_game": 3,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -30,12 +32,21 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "OrangeLandia": {
+    "Captain Reverso": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/manogyaacharya/orangelandia",
-      "pages_checked": 1,
+      "endpoint_candidates": 4,
+      "game_url": "http://www.kongregate.com/games/PaulHTML5/captain-reverso",
+      "pages_checked": 2,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Dark Scary House Escape": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 6,
+      "game_url": "http://www.kongregate.com/games/yolkgamez/dark-scary-house-escape",
+      "pages_checked": 3,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -45,18 +56,18 @@
     "total": 75
   },
   "persisted_probe_history": {
-    "added": 2,
-    "total": 12937,
+    "added": 10,
+    "total": 12947,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T13:23:07Z",
+  "run_timestamp": "2026-07-03T13:31:19Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 1,
+  "target_games": 2,
   "target_games_with_kongregate_ids": 0,
   "tiers": [
     1
