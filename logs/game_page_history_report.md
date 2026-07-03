@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T07:28:14Z
+- Run timestamp: 2026-07-03T07:35:10Z
 - Profile games in scope: 1
-- Selected games sample: There is no game
+- Selected games sample: KingsRoad
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: there is no game
+- Game-name filter: kingsroad
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 528
-- Page jobs: 176
-- Pending before run: 176
+- CDX rows: 705
+- Page jobs: 235
+- Pending before run: 235
 - Attempted this run: 30
-- Fetched this run: 17
+- Fetched this run: 14
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 13
+- Network fetch failed this run: 16
 - Parsed rows this run: 0
 - No explicit count this run: 0
 - Failed this run: 30
 - Manifest entries: 368
-- Known failures: 3110
+- Known failures: 3140
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
