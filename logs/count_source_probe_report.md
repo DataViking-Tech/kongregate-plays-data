@@ -1,69 +1,52 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T16:22:05Z
-- Target games: 8
+- Generated: 2026-07-03T16:39:48Z
+- Target games: 2
 - Status filter: none
-- Games with cached archived pages: 8
+- Games with cached archived pages: 2
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 48
-- Candidate observation rows: 252
-- CDX status counts: cached=237, missing_cache_skipped=15
-- CDX rows found: 9387
-- Candidates with CDX rows: 237
-- Payloads with count-like signals: 85
-- Parsed play-count rows: 85
-- Deduped recovered play-count observations: 405 (35 new this run)
-- Accumulated probe-history rows: 13979 (223 new, 14 refreshed)
-
-## Count Signals
-
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8786627 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8786627 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8786627 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8786627 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412986 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412986 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412984 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412984 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412984 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8412984 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191834 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191834 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191834 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191834 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191831 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191831 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191831 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191831 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191831 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | gameplays_count_with_delimiter | 8191829 |
+- Endpoint candidates checked: 64
+- Candidate observation rows: 92
+- CDX status counts: cached=59, failed=11, fetched=22
+- CDX rows found: 2862
+- Candidates with CDX rows: 42
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 405 (0 new this run)
+- Accumulated probe-history rows: 14425 (92 new, 0 refreshed)
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
-| Animation Throwdown | metrics_json | `http://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | `https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json` | 94 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Bad Eggs Online 2 | holodeck | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/holodeck` | `http://www.kongregate.com:80/games/Rob_Almighty/bad-eggs-online-2/holodeck` | 75 |
+| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
+| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
+
+## Interpretation
+
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
+
+## Retry Note
+
+11 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 
