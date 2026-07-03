@@ -1,25 +1,25 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T09:59:26Z
+- Generated: 2026-07-03T10:04:41Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1691
-- dynamic_metrics_placeholder: 40
+- not_checked: 1690
+- dynamic_metrics_placeholder: 41
 - no_page_cdx_rows: 1
 
 ## Recommended Actions
 
-- 1691: Run a bounded page-history CDX shard for this game.
-- 39: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1690: Run a bounded page-history CDX shard for this game.
+- 40: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 - 1: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 - 1: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 40
+- Dynamic metric placeholder games: 41
 - With exact metrics.json probe history: 1
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -40,6 +40,7 @@
 | Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
 | Unpuzzle 2 | 1 | dynamic_metrics_placeholder | 3 | 17 | 13 | 0 | 0 | 2018-03-10 |
 | Medieval Chronicles 4 | 1 | dynamic_metrics_placeholder | 3 | 14 | 13 | 0 | 0 | 2019-05-06 |
+| Escape Game - Computer Office Escape | 1 | dynamic_metrics_placeholder | 2 | 17 | 14 | 0 | 0 | 2020-06-02 |
 | Pou Popper | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-08 |
 | Wheelie Legend | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-22 |
 | Battle Of Heroes | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-26 |
@@ -52,4 +53,3 @@
 | Evolve | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-26 |
 | Robo-Jump | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-03 |
 | Bakery French Bread | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-04 |
-| Opulent Sunflappiness 3 | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-09 |
