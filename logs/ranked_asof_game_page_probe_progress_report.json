@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:40:16Z",
+  "generated_at": "2026-07-03T16:47:58Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -252,7 +252,7 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 1,
+      "metrics_json_probe_observations": 3,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -278,7 +278,7 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 1,
+      "metrics_json_probe_observations": 3,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
@@ -382,7 +382,7 @@
       "dynamic_metric_placeholder_pages": 2,
       "game_metrics_updater_pages": 2,
       "blank_gameplays_count_pages": 2,
-      "metrics_json_probe_observations": 1,
+      "metrics_json_probe_observations": 5,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."

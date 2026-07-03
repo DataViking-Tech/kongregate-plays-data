@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T16:40:16Z
+- Generated: 2026-07-03T16:47:58Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
@@ -36,12 +36,12 @@
 | Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 4 | 4 | 1 | 1 | 2014-09-19 |
 | Brakeless Trials Game 2014 | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-09-20 |
 | Evolve | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 1 | 0 | 2014-09-26 |
-| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-09-26 |
-| Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-10-03 |
+| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 3 | 0 | 2014-09-26 |
+| Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 3 | 0 | 2014-10-03 |
 | Bakery French Bread | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2014-10-04 |
 | Umbrella Revolution | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 4 | 0 | 2014-10-10 |
 | Freeze Tag | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2014-10-13 |
-| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 1 | 0 | 2014-10-17 |
+| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 5 | 0 | 2014-10-17 |
 | March | 1 | dynamic_metrics_placeholder | 3 | 3 | 3 | 6 | 0 | 2014-10-18 |
 | shieldshooting | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 2 | 0 | 2014-10-29 |
 | Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 8 | 16 | 2014-11-11 |
