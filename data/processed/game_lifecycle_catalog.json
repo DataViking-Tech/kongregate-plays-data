@@ -13684,12 +13684,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 136,
+      "metrics_rows": 140,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 90933,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -14193,7 +14193,7 @@
       "max_play_count_observed": 170,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -14907,7 +14907,7 @@
       "max_play_count_observed": 91,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -16083,7 +16083,7 @@
       "max_play_count_observed": 1812,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -16377,7 +16377,7 @@
       "max_play_count_observed": 305,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -16671,7 +16671,7 @@
       "max_play_count_observed": 159,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -16797,7 +16797,7 @@
       "max_play_count_observed": 119,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -16923,7 +16923,7 @@
       "max_play_count_observed": 89,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -17007,7 +17007,7 @@
       "max_play_count_observed": 311,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -17553,7 +17553,7 @@
       "max_play_count_observed": 319,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -18183,7 +18183,7 @@
       "max_play_count_observed": 76,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -18771,7 +18771,7 @@
       "max_play_count_observed": 75,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -19695,7 +19695,7 @@
       "max_play_count_observed": 432,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -20199,7 +20199,7 @@
       "max_play_count_observed": 117,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -20577,7 +20577,7 @@
       "max_play_count_observed": 1268,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -20787,7 +20787,7 @@
       "max_play_count_observed": 58,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {

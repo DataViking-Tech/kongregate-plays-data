@@ -22608,6 +22608,21 @@
     {
       "date": "2020-06-24",
       "game_name": "Medieval Chronicles 8",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8",
+      "plays_count_observed": 32747,
+      "favorites_count_observed": 369,
+      "plays_text": "32,747",
+      "favorites_text": "369",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "capture_timestamp": "20200624014734",
+      "capture_url": "https://web.archive.org/web/20200624014734/https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200624014734_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_eeae49330941dd01.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-06-24",
+      "game_name": "Medieval Chronicles 8",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-8",
       "plays_count_observed": 32747,
       "favorites_count_observed": 369,
@@ -22619,6 +22634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200624014734_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_eeae49330941dd01.json"
+    },
+    {
+      "date": "2020-06-28",
+      "game_name": "Medieval Chronicles 8",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8",
+      "plays_count_observed": 34402,
+      "favorites_count_observed": 376,
+      "plays_text": "34,402",
+      "favorites_text": "376",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "capture_timestamp": "20200628105456",
+      "capture_url": "https://web.archive.org/web/20200628105456/https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200628105456_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_15b9a67215885683.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-06-28",
@@ -23219,6 +23249,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172536_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_6673ce9643153e7c.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Medieval Chronicles 8",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8",
+      "plays_count_observed": 37173,
+      "favorites_count_observed": 388,
+      "plays_text": "37,173",
+      "favorites_text": "388",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "capture_timestamp": "20200716173610",
+      "capture_url": "https://web.archive.org/web/20200716173610/https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716173610_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_a05eb0a294251746.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-16",
@@ -23939,6 +23984,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200717121525_https_www.kongregate.com_games_mmx95_happy-cube_metrics.json_f95078a3bf8b7ba0.json"
+    },
+    {
+      "date": "2020-07-17",
+      "game_name": "Medieval Chronicles 8",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8",
+      "plays_count_observed": 37268,
+      "favorites_count_observed": 388,
+      "plays_text": "37,268",
+      "favorites_text": "388",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "capture_timestamp": "20200717185230",
+      "capture_url": "https://web.archive.org/web/20200717185230/https://www.kongregate.com/games/VasantJ/medieval-chronicles-8/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200717185230_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_15eee06fff44a77c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-17",
