@@ -11981,6 +11981,21 @@
       "metrics_url": "http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
       "capture_timestamp": "20190227161719",
       "capture_url": "https://web.archive.org/web/20190227161719/http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190227161719_http_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_1d4253377e8995d5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-02-27",
+      "game_name": "Hero Simulator",
+      "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
+      "plays_count_observed": 1596365,
+      "favorites_count_observed": 11678,
+      "plays_text": "1,596,365",
+      "favorites_text": "11,678",
+      "metrics_url": "http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "capture_timestamp": "20190227161719",
+      "capture_url": "https://web.archive.org/web/20190227161719/http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190227161719_http_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_1d4253377e8995d5.json"
@@ -16319,6 +16334,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034651_http_www.kongregate.com_games_Codename_Enter_crusaders-of-the-lost-idols_metrics.json_e81493e768289d53.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 6169607,
+      "favorites_count_observed": 21114,
+      "plays_text": "6,169,607",
+      "favorites_text": "21,114",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034649_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_ef530e4cf146b693.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -25754,6 +25784,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201106005902_https_www.kongregate.com_games_ConArtists_the-last-stand-union-city_metrics.json_03a66c5380cfe818.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Crush Crush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush",
+      "plays_count_observed": 6617556,
+      "favorites_count_observed": 22652,
+      "plays_text": "6,617,556",
+      "favorites_text": "22,652",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "capture_timestamp": "20201107015530",
+      "capture_url": "https://web.archive.org/web/20201107015530/https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201107015530_https_www.kongregate.com_games_SadPandaStudios_crush-crush_metrics.json_32d8c90f22587d01.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-07",
@@ -39944,6 +39989,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119084512_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_7220d9e38cccf48c.json"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "Hero Simulator",
+      "game_url": "http://www.kongregate.com/games/revanaii/hero-simulator",
+      "plays_count_observed": 1676609,
+      "favorites_count_observed": 12050,
+      "plays_text": "1,676,609",
+      "favorites_text": "12,050",
+      "metrics_url": "https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "capture_timestamp": "20211119094237",
+      "capture_url": "https://web.archive.org/web/20211119094237/https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211119094237_https_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_d287bed4f83acc0e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-11-19",

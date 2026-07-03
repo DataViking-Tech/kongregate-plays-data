@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T15:24:11Z
+- Run timestamp: 2026-07-03T15:40:24Z
 - Profile games in scope: 2
-- Selected games sample: Soccer Random, Bad Eggs Online
+- Selected games sample: Old Taxi Jigsaw, UnpuzzleR
 - Selected games omitted from sample: 0
 - CDX games considered: 2
 - Cached CDX only: True
 - Cached HTML only: False
-- CDX timeout: 6s
+- CDX timeout: 7s
 - CDX wall-clock cap: 8.0
 - CDX date-window days: 120
-- Page timeout: 6s
+- Page timeout: 7s
 - Page wall-clock cap: 8.0
 - Game-name filter: none
 - Metrics row filter: has_metrics
-- Progress status filter: page_fetch_failed
-- CDX rows: 17
-- Page jobs: 14
-- Pending before run: 14
-- Attempted this run: 11
-- Fetched this run: 11
+- Progress status filter: page_cdx_pending
+- CDX rows: 8
+- Page jobs: 4
+- Pending before run: 4
+- Attempted this run: 4
+- Fetched this run: 4
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
-- No explicit count this run: 1
-- Failed this run: 11
+- No explicit count this run: 0
+- Failed this run: 4
 - Manifest entries: 368
-- Known failures: 4003
-- Combined history rows: 8025
+- Known failures: 4016
+- Combined history rows: 8032
 - Game-page history rows: 368
 - Report only: False

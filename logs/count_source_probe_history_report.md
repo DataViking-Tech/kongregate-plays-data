@@ -1,14 +1,14 @@
 # Count Source Probe History
 
-- Generated: 2026-07-03T15:26:53Z
+- Generated: 2026-07-03T15:43:43Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 13224
-- Games with probe history: 458
-- Recovered count rows: 144
+- Accumulated endpoint observations: 13258
+- Games with probe history: 461
+- Recovered count rows: 160
 - Unresolved failed endpoint groups: 4
-- Status counts: archived_endpoint_hit_no_count=137, no_archived_endpoint_rows_observed=260, recovered_count=61
+- Status counts: archived_endpoint_hit_no_count=137, no_archived_endpoint_rows_observed=261, recovered_count=63
 - Tier-1 status counts: archived_endpoint_hit_no_count=114, no_archived_endpoint_rows_observed=127
-- CDX status counts: cached=5053, failed=3022, fetched=5148, missing_html_cache_skipped=1
+- CDX status counts: cached=5075, failed=3022, fetched=5160, missing_html_cache_skipped=1
 
 ## Output Files
 
