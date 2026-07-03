@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T14:13:08Z
-- Profile games in scope: 1622
-- Selected games sample: Space Defender YM, Shadow Adventure, Energy Bay, Halloween Spooky Motocross, Simple factory idle game, [Future Mode] The Warriors Way 0.2, Filler Snake, ASMR Universe(Web), Making a Batch File, Shootyship, Snappy Shark, calculator, Idle Spinner, Tricoloma Home, Faraway: Puzzle Escape, Little Bitty Byte, EZ MONEY ALL DAYYY, Shootrio, Desert Bus 3D, Zombie Cannon Attack!, Good Apprentice Pelo 2021, Back To Home, Supervivencia en la Selva, Escape From Ghost House 3, Warscrap, SCP 079, test, Salads by Chef: Merge Сraft, Tracesoccer, Idle Bouncer, Holyday City, Animation Throwdown, Zombie Derby 2, Tyrant Unleashed, Factory idle, Tap Adventure, Decision 3, Soccer Random, Colorize, Crush Crush, Hero Simulator, Bad Eggs Online, Holyday City Reloaded, Red Crucible: Firestorm, 3D Zombie Hell, Fruit Frenzy, Old Taxi Jigsaw, UnpuzzleR, Bullet Heaven 2, Card Hunter
-- Selected games omitted from sample: 1572
-- CDX games considered: 8
+- Run timestamp: 2026-07-03T14:22:56Z
+- Profile games in scope: 1616
+- Selected games sample: Space Defender YM, Shadow Adventure, Making a Batch File, Shootyship, Snappy Shark, calculator, Idle Spinner, Tricoloma Home, Faraway: Puzzle Escape, Little Bitty Byte, EZ MONEY ALL DAYYY, Shootrio, Desert Bus 3D, Zombie Cannon Attack!, Good Apprentice Pelo 2021, Back To Home, Supervivencia en la Selva, Escape From Ghost House 3, Warscrap, SCP 079, test, Salads by Chef: Merge Сraft, Tracesoccer, Idle Bouncer, Holyday City, Animation Throwdown, Zombie Derby 2, Tyrant Unleashed, Factory idle, Tap Adventure, Decision 3, Soccer Random, Colorize, Crush Crush, Hero Simulator, Bad Eggs Online, Holyday City Reloaded, Red Crucible: Firestorm, 3D Zombie Hell, Fruit Frenzy, Old Taxi Jigsaw, UnpuzzleR, Bullet Heaven 2, Card Hunter, Medieval Chronicles 8, Armor Mayhem, Revolution Idle 2, Factory Balls forever, Dear Edmund, Ghost Climb
+- Selected games omitted from sample: 1566
+- CDX games considered: 10
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: has_metrics
 - Progress status filter: not_checked
-- CDX rows: 29
-- Page jobs: 19
-- Pending before run: 19
-- Attempted this run: 17
-- Fetched this run: 16
+- CDX rows: 72
+- Page jobs: 40
+- Pending before run: 40
+- Attempted this run: 18
+- Fetched this run: 14
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 1
+- Network fetch failed this run: 4
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 17
+- Failed this run: 18
 - Manifest entries: 368
-- Known failures: 3855
+- Known failures: 3873
 - Combined history rows: 8008
 - Game-page history rows: 368
 - Report only: False
