@@ -6491,6 +6491,21 @@
       "metrics_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
       "capture_timestamp": "20150611071632",
       "capture_url": "https://web.archive.org/web/20150611071632/http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150611071632_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_d6763dea7ba45b1d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-06-11",
+      "game_name": "Mutilate-a-Doll 2",
+      "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
+      "plays_count_observed": 5400636,
+      "favorites_count_observed": 21843,
+      "plays_text": "5,400,636",
+      "favorites_text": "21,843",
+      "metrics_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "capture_timestamp": "20150611071632",
+      "capture_url": "https://web.archive.org/web/20150611071632/http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150611071632_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_d6763dea7ba45b1d.json"
@@ -6719,6 +6734,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150929055847_http_www.kongregate.com_games_DJStatika_starfighter-disputed-galaxy_metrics.json_e165cde4ba551ba3.json"
+    },
+    {
+      "date": "2015-10-10",
+      "game_name": "Mutilate-a-Doll 2",
+      "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
+      "plays_count_observed": 8185810,
+      "favorites_count_observed": 30271,
+      "plays_text": "8,185,810",
+      "favorites_text": "30,271",
+      "metrics_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "capture_timestamp": "20151010031805",
+      "capture_url": "https://web.archive.org/web/20151010031805/http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151010031805_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_dda2bce9950be562.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-10-10",
@@ -7466,6 +7496,21 @@
       "metrics_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
       "capture_timestamp": "20160125113540",
       "capture_url": "https://web.archive.org/web/20160125113540/http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160125113540_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_40fda9e91ee6947b.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-01-25",
+      "game_name": "Mutilate-a-Doll 2",
+      "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
+      "plays_count_observed": 10973084,
+      "favorites_count_observed": 38220,
+      "plays_text": "10,973,084",
+      "favorites_text": "38,220",
+      "metrics_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
+      "capture_timestamp": "20160125113540",
+      "capture_url": "https://web.archive.org/web/20160125113540/http://www.kongregate.com/games/0rava/mutilate-a-doll-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160125113540_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_40fda9e91ee6947b.json"
@@ -7589,6 +7634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160202134932_http_www.kongregate.com_games_Dragy_portal-the-flash-version_metrics.json_343004d24c7d88f2.json"
+    },
+    {
+      "date": "2016-02-10",
+      "game_name": "Mutilate-a-Doll 2",
+      "game_url": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
+      "plays_count_observed": 11351453,
+      "favorites_count_observed": 39407,
+      "plays_text": "11,351,453",
+      "favorites_text": "39,407",
+      "metrics_url": "http://www.kongregate.com:80/games/0rava/mutilate-a-doll-2/metrics.json",
+      "capture_timestamp": "20160210052845",
+      "capture_url": "https://web.archive.org/web/20160210052845/http://www.kongregate.com:80/games/0rava/mutilate-a-doll-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160210052845_http_www.kongregate.com_80_games_0rava_mutilate-a-doll-2_metrics.json_84e596362a092236.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2016-02-10",
@@ -9888,6 +9948,21 @@
     {
       "date": "2017-11-24",
       "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1387061,
+      "favorites_count_observed": 10920,
+      "plays_text": "1,387,061",
+      "favorites_text": "10,920",
+      "metrics_url": "http://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20171124231755",
+      "capture_url": "https://web.archive.org/web/20171124231755/http://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171124231755_http_www.kongregate.com_games_jetspice_grindcraft_metrics.json_d123b60954970c73.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-11-24",
+      "game_name": "GrindCraft",
       "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
       "plays_count_observed": 1387061,
       "favorites_count_observed": 10920,
@@ -10334,6 +10409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180301165527_http_www.kongregate.com_80_games_IvanStorm_afterwind_metrics.json_b75dce740147b720.json"
+    },
+    {
+      "date": "2018-03-04",
+      "game_name": "Akaneiro",
+      "game_url": "http://www.kongregate.com/games/Spicyhorse/akaneiro",
+      "plays_count_observed": 953427,
+      "favorites_count_observed": 11149,
+      "plays_text": "953,427",
+      "favorites_text": "11,149",
+      "metrics_url": "http://www.kongregate.com/games/spicyhorse/akaneiro/metrics.json",
+      "capture_timestamp": "20180304021930",
+      "capture_url": "https://web.archive.org/web/20180304021930/http://www.kongregate.com/games/spicyhorse/akaneiro/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180304021930_http_www.kongregate.com_games_spicyhorse_akaneiro_metrics.json_76cfcdd14628f8dd.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-03-04",
@@ -16991,6 +17081,21 @@
       "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
       "capture_timestamp": "20191215034649",
       "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034649_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_fa4d178a8140a8fe.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1793686,
+      "favorites_count_observed": 14130,
+      "plays_text": "1,793,686",
+      "favorites_text": "14,130",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_fa4d178a8140a8fe.json"
@@ -20928,6 +21033,21 @@
     {
       "date": "2020-04-29",
       "game_name": "Gravitee Wars Online",
+      "game_url": "http://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2088795,
+      "favorites_count_observed": 25567,
+      "plays_text": "2,088,795",
+      "favorites_text": "25,567",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200429125446_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_cd9ed1f9db2defaa.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Gravitee Wars Online",
       "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
       "plays_count_observed": 2088795,
       "favorites_count_observed": 25567,
@@ -22353,6 +22473,21 @@
     {
       "date": "2020-07-16",
       "game_name": "Gravitee Wars Online",
+      "game_url": "http://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2103981,
+      "favorites_count_observed": 25666,
+      "plays_text": "2,103,981",
+      "favorites_text": "25,666",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20200716172621",
+      "capture_url": "https://web.archive.org/web/20200716172621/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716172621_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_7b7ae8515dd8008d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Gravitee Wars Online",
       "game_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
       "plays_count_observed": 2103981,
       "favorites_count_observed": 25666,
@@ -22364,6 +22499,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716172621_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_7b7ae8515dd8008d.json"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1885997,
+      "favorites_count_observed": 14730,
+      "plays_text": "1,885,997",
+      "favorites_text": "14,730",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20200716173211",
+      "capture_url": "https://web.archive.org/web/20200716173211/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716173211_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_97e72d037f9beb76.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-07-16",
@@ -25233,6 +25383,21 @@
     {
       "date": "2020-10-20",
       "game_name": "GrindCraft",
+      "game_url": "https://www.kongregate.com/games/jetspice/grindcraft",
+      "plays_count_observed": 1921405,
+      "favorites_count_observed": 14927,
+      "plays_text": "1,921,405",
+      "favorites_text": "14,927",
+      "metrics_url": "https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "capture_timestamp": "20201020181542",
+      "capture_url": "https://web.archive.org/web/20201020181542/https://www.kongregate.com/games/jetspice/grindcraft/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201020181542_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_afe140926cbef69d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-10-20",
+      "game_name": "GrindCraft",
       "game_url": "https://www.kongregate.com/en/games/jetspice/grindcraft",
       "plays_count_observed": 1921405,
       "favorites_count_observed": 14927,
@@ -25739,6 +25904,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201023171222_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_ea1507007d404da4.json"
+    },
+    {
+      "date": "2020-10-24",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "http://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2118191,
+      "favorites_count_observed": 25751,
+      "plays_text": "2,118,191",
+      "favorites_text": "25,751",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20201024230650",
+      "capture_url": "https://web.archive.org/web/20201024230650/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201024230650_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_b5daeea8e5bcfa64.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-10-24",
@@ -27899,6 +28079,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201201204232_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_ad37f8db53de2d6e.json"
+    },
+    {
+      "date": "2020-12-01",
+      "game_name": "Gravitee Wars Online",
+      "game_url": "http://www.kongregate.com/games/FunkyPear/gravitee-wars-online",
+      "plays_count_observed": 2123054,
+      "favorites_count_observed": 25785,
+      "plays_text": "2,123,054",
+      "favorites_text": "25,785",
+      "metrics_url": "https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "capture_timestamp": "20201201204118",
+      "capture_url": "https://web.archive.org/web/20201201204118/https://www.kongregate.com/games/FunkyPear/gravitee-wars-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201201204118_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_711668312595bb11.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-12-01",
@@ -31289,6 +31484,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210111230205_https_www.kongregate.com_games_Vitaly_endless-war-3_metrics.json_259062deb60d5e51.json"
+    },
+    {
+      "date": "2021-01-11",
+      "game_name": "Falling Sands",
+      "game_url": "http://www.kongregate.com/games/ajs11893/falling-sands",
+      "plays_count_observed": 1537708,
+      "favorites_count_observed": 6501,
+      "plays_text": "1,537,708",
+      "favorites_text": "6,501",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20210111233307",
+      "capture_url": "https://web.archive.org/web/20210111233307/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210111233307_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_b814f56e2554eb9f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-01-11",
@@ -36089,6 +36299,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210628140937_https_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_d309d1c4673c265d.json"
+    },
+    {
+      "date": "2021-06-28",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2",
+      "plays_count_observed": 101598,
+      "favorites_count_observed": 863,
+      "plays_text": "101,598",
+      "favorites_text": "863",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "capture_timestamp": "20210628140022",
+      "capture_url": "https://web.archive.org/web/20210628140022/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210628140022_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-2_metrics.json_e7730e577174a12a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-06-28",
@@ -47853,6 +48078,21 @@
     {
       "date": "2022-06-27",
       "game_name": "Falling Sands",
+      "game_url": "http://www.kongregate.com/games/ajs11893/falling-sands",
+      "plays_count_observed": 1558227,
+      "favorites_count_observed": 6522,
+      "plays_text": "1,558,227",
+      "favorites_text": "6,522",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20220627181219",
+      "capture_url": "https://web.archive.org/web/20220627181219/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220627181219_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_7803c3f0ef20adf8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-06-27",
+      "game_name": "Falling Sands",
       "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
       "plays_count_observed": 1558227,
       "favorites_count_observed": 6522,
@@ -50343,6 +50583,21 @@
     {
       "date": "2022-10-11",
       "game_name": "Medieval Cop 8 -DeathWish- (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2",
+      "plays_count_observed": 122367,
+      "favorites_count_observed": 903,
+      "plays_text": "122,367",
+      "favorites_text": "903",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "capture_timestamp": "20221011155821",
+      "capture_url": "https://web.archive.org/web/20221011155821/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221011155821_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-2_metrics.json_4015fe9c1a23b86e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-10-11",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 2)",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2",
       "plays_count_observed": 122367,
       "favorites_count_observed": 903,
@@ -50354,6 +50609,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221011155821_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-2_metrics.json_4015fe9c1a23b86e.json"
+    },
+    {
+      "date": "2022-10-11",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2",
+      "plays_count_observed": 122679,
+      "favorites_count_observed": 903,
+      "plays_text": "122,679",
+      "favorites_text": "903",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "capture_timestamp": "20221011180530",
+      "capture_url": "https://web.archive.org/web/20221011180530/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221011180530_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-2_metrics.json_c50a7fe20ed5c1d2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-10-11",
@@ -65598,6 +65868,21 @@
     {
       "date": "2023-11-06",
       "game_name": "Falling Sands",
+      "game_url": "http://www.kongregate.com/games/ajs11893/falling-sands",
+      "plays_count_observed": 1564581,
+      "favorites_count_observed": 6165,
+      "plays_text": "1,564,581",
+      "favorites_text": "6,165",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20231106215757",
+      "capture_url": "https://web.archive.org/web/20231106215757/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231106215757_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_4903fcc8a85419a7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-11-06",
+      "game_name": "Falling Sands",
       "game_url": "https://www.kongregate.com/en/games/ajs11893/falling-sands",
       "plays_count_observed": 1564581,
       "favorites_count_observed": 6165,
@@ -70964,6 +71249,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119201316_https_www.kongregate.com_games_VasantJ_medieval-cop-the-invidia-games-part-3_metrics.json_714d8c0d59616fa6.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Medieval Cop 8 -DeathWish- (Part 2)",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2",
+      "plays_count_observed": 127894,
+      "favorites_count_observed": 870,
+      "plays_text": "127,894",
+      "favorites_text": "870",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "capture_timestamp": "20240119201405",
+      "capture_url": "https://web.archive.org/web/20240119201405/https://www.kongregate.com/games/VasantJ/medieval-cop-8-deathwish-part-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119201405_https_www.kongregate.com_games_VasantJ_medieval-cop-8-deathwish-part-2_metrics.json_74f909dd3d551dc5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-19",
@@ -82739,6 +83039,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240927234455_https_www.kongregate.com_games_Krystman_excit_metrics.json_2398fe1de427280e.json"
+    },
+    {
+      "date": "2024-09-27",
+      "game_name": "Falling Sands",
+      "game_url": "http://www.kongregate.com/games/ajs11893/falling-sands",
+      "plays_count_observed": 1568623,
+      "favorites_count_observed": 6167,
+      "plays_text": "1,568,623",
+      "favorites_text": "6,167",
+      "metrics_url": "https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "capture_timestamp": "20240927231146",
+      "capture_url": "https://web.archive.org/web/20240927231146/https://www.kongregate.com/games/ajs11893/falling-sands/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240927231146_https_www.kongregate.com_games_ajs11893_falling-sands_metrics.json_5c898e834b082a70.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-09-27",
