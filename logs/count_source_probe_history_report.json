@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 5573,
+    "cached": 5796,
     "failed": 3022,
     "fetched": 5160,
     "missing_html_cache_skipped": 1
   },
   "history_games": 461,
-  "history_observation_rows": 13756,
+  "history_observation_rows": 13979,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -15,15 +15,15 @@
     "report_md": "logs/count_source_probe_history_report.md"
   },
   "profile_games": 325,
-  "recovered_count_rows": 370,
-  "run_timestamp": "2026-07-03T16:13:24Z",
+  "recovered_count_rows": 405,
+  "run_timestamp": "2026-07-03T16:23:37Z",
   "source_type_counts": {
     "chat_achievements": 1412,
     "chat_js": 1432,
     "developer_game_list": 4727,
     "game_path_prefix": 60,
     "holodeck": 1441,
-    "metrics_json": 2435,
+    "metrics_json": 2658,
     "recommended_games": 2249
   },
   "status_counts": {
