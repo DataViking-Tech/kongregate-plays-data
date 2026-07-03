@@ -1,24 +1,24 @@
 {
-  "cached_cdx_only": false,
-  "candidate_observation_rows": 2,
+  "cached_cdx_only": true,
+  "candidate_observation_rows": 10,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 2,
+  "cdx_lookups": 10,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 2
+    "cached": 10
   },
-  "cdx_wall_timeout": 35.0,
+  "cdx_wall_timeout": 10.0,
   "collapse": "digest",
-  "game_name_contains": "Football Legends 2016",
-  "games_direct_probed": 1,
-  "games_with_cached_pages": 0,
-  "games_without_cached_pages": 1,
-  "input_csv": "data/processed/metrics_no_cdx_profile.csv",
-  "match_type": "prefix",
-  "max_candidates_per_page": 0,
-  "max_cdx_lookups": 10,
-  "max_pages_per_game": 0,
-  "max_payload_bytes": 500000,
+  "game_name_contains": "footie fight",
+  "games_direct_probed": 0,
+  "games_with_cached_pages": 1,
+  "games_without_cached_pages": 0,
+  "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
+  "match_type": "exact",
+  "max_candidates_per_page": 6,
+  "max_cdx_lookups": 20,
+  "max_pages_per_game": 5,
+  "max_payload_bytes": 2000000,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -27,15 +27,15 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 20.0,
+  "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Football Legends 2016": {
+    "Footie Fight": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/CoralCnora/football-legends-2016",
-      "pages_checked": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 10,
+      "game_url": "https://www.kongregate.com/games/oogzyent/footie-fight",
+      "pages_checked": 5,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -45,23 +45,21 @@
     "total": 6
   },
   "persisted_probe_history": {
-    "added": 2,
-    "total": 9546,
-    "updated": 0
+    "added": 3,
+    "total": 12507,
+    "updated": 7
   },
-  "run_timestamp": "2026-07-02T12:30:55Z",
+  "run_timestamp": "2026-07-03T09:46:45Z",
   "source_types": [
-    "game_path_prefix"
+    "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 1,
-  "target_games_with_kongregate_ids": 1,
-  "tiers": [
-    1
-  ],
+  "target_games_with_kongregate_ids": 0,
+  "tiers": [],
   "top_candidates_with_cdx": [],
   "top_count_signals": [],
-  "unresolved_failed_endpoints_only": true
+  "unresolved_failed_endpoints_only": false
 }
