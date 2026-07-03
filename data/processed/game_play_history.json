@@ -10031,6 +10031,21 @@
       "metrics_url": "http://www.kongregate.com/games/Mentor31/castle-woodwarf/metrics.json",
       "capture_timestamp": "20171010215949",
       "capture_url": "https://web.archive.org/web/20171010215949/http://www.kongregate.com/games/Mentor31/castle-woodwarf/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171010215949_http_www.kongregate.com_games_Mentor31_castle-woodwarf_metrics.json_ba393b2da8e15740.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-10-10",
+      "game_name": "Castle Woodwarf",
+      "game_url": "http://www.kongregate.com/games/Mentor31/castle-woodwarf",
+      "plays_count_observed": 188301,
+      "favorites_count_observed": 1524,
+      "plays_text": "188,301",
+      "favorites_text": "1,524",
+      "metrics_url": "http://www.kongregate.com/games/Mentor31/castle-woodwarf/metrics.json",
+      "capture_timestamp": "20171010215949",
+      "capture_url": "https://web.archive.org/web/20171010215949/http://www.kongregate.com/games/Mentor31/castle-woodwarf/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171010215949_http_www.kongregate.com_games_Mentor31_castle-woodwarf_metrics.json_ba393b2da8e15740.json"
@@ -46649,6 +46664,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220302192519_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_7e71b8a3a6d41764.json"
+    },
+    {
+      "date": "2022-03-02",
+      "game_name": "Windows XP Simulator",
+      "game_url": "http://www.kongregate.com/games/TinotinTube/windows-xp-simulator",
+      "plays_count_observed": 4218,
+      "favorites_count_observed": 3,
+      "plays_text": "4,218",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/TinotinTube/windows-xp-simulator/metrics.json",
+      "capture_timestamp": "20220302135919",
+      "capture_url": "https://web.archive.org/web/20220302135919/https://www.kongregate.com/games/TinotinTube/windows-xp-simulator/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220302135919_https_www.kongregate.com_games_TinotinTube_windows-xp-simulator_metrics.json_79b7101597ca32e8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-03-02",

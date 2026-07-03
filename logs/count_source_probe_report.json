@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 2,
+  "candidate_observation_rows": 11,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 2,
+  "cdx_lookups": 11,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 2
+    "fetched": 11
   },
   "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 2,
+  "games_direct_probed": 6,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 2,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_290.csv",
+  "games_without_cached_pages": 6,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_291.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 20,
+  "max_cdx_lookups": 80,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -30,20 +30,56 @@
   "payload_wall_timeout": 20.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Alien Mystery : Palace": {
+    "Chamber Traveler": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Enagamess/alien-mystery-palace",
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/tadster/chamber-traveler",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Cave Explorer": {
+    "Knf Find The Energy Drink": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/knfescapegame/knf-find-the-energy-drink",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Ninja Game Teste": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/AlunosI/ninja-game-teste",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "SpaceBird3d": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/NoodleArmedGames/spacebird3d",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "TetrisMtjaras": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/mrnannings/the-cave-explorer",
+      "game_url": "http://www.kongregate.com/games/mtjaras/tetrismtjaras",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Wormhole Rider": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/goblikstudios/wormhole-rider",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -51,21 +87,21 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 706
+    "total": 708
   },
   "persisted_probe_history": {
-    "added": 2,
-    "total": 16944,
+    "added": 11,
+    "total": 17040,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T23:22:01Z",
+  "run_timestamp": "2026-07-03T23:33:51Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 2,
+  "target_games": 6,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
