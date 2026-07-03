@@ -15701,6 +15701,21 @@
       "metrics_url": "https://www.kongregate.com/games/myplayyard/wandering-eyes/metrics.json",
       "capture_timestamp": "20191031034249",
       "capture_url": "https://web.archive.org/web/20191031034249/https://www.kongregate.com/games/myplayyard/wandering-eyes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191031034249_https_www.kongregate.com_games_myplayyard_wandering-eyes_metrics.json_9e89061ea7be0cfc.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-31",
+      "game_name": "Wandering Eyes",
+      "game_url": "http://www.kongregate.com/games/myplayyard/wandering-eyes",
+      "plays_count_observed": 4447,
+      "favorites_count_observed": 36,
+      "plays_text": "4,447",
+      "favorites_text": "36",
+      "metrics_url": "https://www.kongregate.com/games/myplayyard/wandering-eyes/metrics.json",
+      "capture_timestamp": "20191031034249",
+      "capture_url": "https://web.archive.org/web/20191031034249/https://www.kongregate.com/games/myplayyard/wandering-eyes/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191031034249_https_www.kongregate.com_games_myplayyard_wandering-eyes_metrics.json_9e89061ea7be0cfc.json"
@@ -27659,6 +27674,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107014105_https_www.kongregate.com_games_BerzerkStudio_gunbot_metrics.json_4d4ac92b4291d785.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Redshift",
+      "game_url": "http://www.kongregate.com/games/ClipwireGames/redshift",
+      "plays_count_observed": 2390866,
+      "favorites_count_observed": 7074,
+      "plays_text": "2,390,866",
+      "favorites_text": "7,074",
+      "metrics_url": "http://www.kongregate.com/games/ClipwireGames/redshift/metrics.json",
+      "capture_timestamp": "20201107120507",
+      "capture_url": "https://web.archive.org/web/20201107120507/http://www.kongregate.com/games/ClipwireGames/redshift/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201107120507_http_www.kongregate.com_games_ClipwireGames_redshift_metrics.json_bfe6896bce25cd3f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-07",
@@ -64436,6 +64466,21 @@
       "metrics_url": "https://www.kongregate.com/games/redux/blang/metrics.json",
       "capture_timestamp": "20230906005734",
       "capture_url": "https://web.archive.org/web/20230906005734/https://www.kongregate.com/games/redux/blang/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230906005734_https_www.kongregate.com_games_redux_blang_metrics.json_34a974ba686f2bae.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-06",
+      "game_name": "Blang",
+      "game_url": "http://www.kongregate.com/games/redux/blang",
+      "plays_count_observed": 27008,
+      "favorites_count_observed": 71,
+      "plays_text": "27,008",
+      "favorites_text": "71",
+      "metrics_url": "https://www.kongregate.com/games/redux/blang/metrics.json",
+      "capture_timestamp": "20230906005734",
+      "capture_url": "https://web.archive.org/web/20230906005734/https://www.kongregate.com/games/redux/blang/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230906005734_https_www.kongregate.com_games_redux_blang_metrics.json_34a974ba686f2bae.json"
@@ -71891,6 +71936,21 @@
       "metrics_url": "https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
       "capture_timestamp": "20240118030352",
       "capture_url": "https://web.archive.org/web/20240118030352/https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240118030352_https_www.kongregate.com_games_MindTheGrease_dear-edmund_metrics.json_5f5eb13f69f8cb0a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-18",
+      "game_name": "Dear Edmund",
+      "game_url": "https://www.kongregate.com/games/MindTheGrease/dear-edmund",
+      "plays_count_observed": 317,
+      "favorites_count_observed": 1,
+      "plays_text": "317",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
+      "capture_timestamp": "20240118030352",
+      "capture_url": "https://web.archive.org/web/20240118030352/https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240118030352_https_www.kongregate.com_games_MindTheGrease_dear-edmund_metrics.json_5f5eb13f69f8cb0a.json"
@@ -75809,6 +75869,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240206211400_https_www.kongregate.com_games_Void_hack-slash-crawl_metrics.json_cb01d48e156efb9f.json"
+    },
+    {
+      "date": "2024-02-07",
+      "game_name": "Dear Edmund",
+      "game_url": "https://www.kongregate.com/games/MindTheGrease/dear-edmund",
+      "plays_count_observed": 9797,
+      "favorites_count_observed": 30,
+      "plays_text": "9,797",
+      "favorites_text": "30",
+      "metrics_url": "https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
+      "capture_timestamp": "20240207010658",
+      "capture_url": "https://web.archive.org/web/20240207010658/https://www.kongregate.com/games/MindTheGrease/dear-edmund/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240207010658_https_www.kongregate.com_games_MindTheGrease_dear-edmund_metrics.json_f9787085016276c6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-07",
