@@ -9671,6 +9671,21 @@
       "metrics_url": "http://www.kongregate.com:80/games/Kongregate/idleplex/metrics.json",
       "capture_timestamp": "20170724074725",
       "capture_url": "https://web.archive.org/web/20170724074725/http://www.kongregate.com:80/games/Kongregate/idleplex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170724074725_http_www.kongregate.com_80_games_Kongregate_idleplex_metrics.json_05fbb11ecd809f4a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-07-24",
+      "game_name": "Idleplex",
+      "game_url": "http://www.kongregate.com/games/Kongregate/idleplex",
+      "plays_count_observed": 1544948,
+      "favorites_count_observed": 14653,
+      "plays_text": "1,544,948",
+      "favorites_text": "14,653",
+      "metrics_url": "http://www.kongregate.com:80/games/Kongregate/idleplex/metrics.json",
+      "capture_timestamp": "20170724074725",
+      "capture_url": "https://web.archive.org/web/20170724074725/http://www.kongregate.com:80/games/Kongregate/idleplex/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170724074725_http_www.kongregate.com_80_games_Kongregate_idleplex_metrics.json_05fbb11ecd809f4a.json"
@@ -12719,6 +12734,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072757_https_www.kongregate.com_games_glimajr_continuity_metrics.json_c0c77b2f28a67988.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Cube Escape: Birthday",
+      "game_url": "http://www.kongregate.com/games/RustyLake/cube-escape-birthday",
+      "plays_count_observed": 322179,
+      "favorites_count_observed": 2141,
+      "plays_text": "322,179",
+      "favorites_text": "2,141",
+      "metrics_url": "https://www.kongregate.com/games/RustyLake/cube-escape-birthday/metrics.json",
+      "capture_timestamp": "20190702072656",
+      "capture_url": "https://web.archive.org/web/20190702072656/https://www.kongregate.com/games/RustyLake/cube-escape-birthday/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072656_https_www.kongregate.com_games_RustyLake_cube-escape-birthday_metrics.json_0e37b021e7aa81ee.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-07-02",
@@ -30146,6 +30176,21 @@
       "metrics_url": "http://www.kongregate.com/games/NivalPublishing/prime-world-defenders/metrics.json",
       "capture_timestamp": "20201228024721",
       "capture_url": "https://web.archive.org/web/20201228024721/http://www.kongregate.com/games/NivalPublishing/prime-world-defenders/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201228024721_http_www.kongregate.com_games_NivalPublishing_prime-world-defenders_metrics.json_9e175297605e1c71.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-12-28",
+      "game_name": "Prime World: Defenders",
+      "game_url": "http://www.kongregate.com/games/NivalPublishing/prime-world-defenders",
+      "plays_count_observed": 1747861,
+      "favorites_count_observed": 9833,
+      "plays_text": "1,747,861",
+      "favorites_text": "9,833",
+      "metrics_url": "http://www.kongregate.com/games/NivalPublishing/prime-world-defenders/metrics.json",
+      "capture_timestamp": "20201228024721",
+      "capture_url": "https://web.archive.org/web/20201228024721/http://www.kongregate.com/games/NivalPublishing/prime-world-defenders/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201228024721_http_www.kongregate.com_games_NivalPublishing_prime-world-defenders_metrics.json_9e175297605e1c71.json"
@@ -30359,6 +30404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210101054619_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-2_metrics.json_bca35e6f087977b2.json"
+    },
+    {
+      "date": "2021-01-01",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 381580,
+      "favorites_count_observed": 2313,
+      "plays_text": "381,580",
+      "favorites_text": "2,313",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20210101053108",
+      "capture_url": "https://web.archive.org/web/20210101053108/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210101053108_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_14257f043937c681.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-01-01",
@@ -33011,6 +33071,21 @@
       "metrics_url": "http://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
       "capture_timestamp": "20210323033935",
       "capture_url": "https://web.archive.org/web/20210323033935/http://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210323033935_http_www.kongregate.com_games_nerdook_cluesweeper_metrics.json_ebd61063fa6d192d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-03-23",
+      "game_name": "ClueSweeper",
+      "game_url": "http://www.kongregate.com/games/nerdook/cluesweeper",
+      "plays_count_observed": 1800298,
+      "favorites_count_observed": 16197,
+      "plays_text": "1,800,298",
+      "favorites_text": "16,197",
+      "metrics_url": "http://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
+      "capture_timestamp": "20210323033935",
+      "capture_url": "https://web.archive.org/web/20210323033935/http://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210323033935_http_www.kongregate.com_games_nerdook_cluesweeper_metrics.json_ebd61063fa6d192d.json"
@@ -35084,6 +35159,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210529063647_http_www.kongregate.com_games_CarbonTech_carbon-combat_metrics.json_57ee4c6ab418b30a.json"
+    },
+    {
+      "date": "2021-05-29",
+      "game_name": "Cube Escape: Birthday",
+      "game_url": "http://www.kongregate.com/games/RustyLake/cube-escape-birthday",
+      "plays_count_observed": 341602,
+      "favorites_count_observed": 2253,
+      "plays_text": "341,602",
+      "favorites_text": "2,253",
+      "metrics_url": "https://www.kongregate.com/games/RustyLake/cube-escape-birthday/metrics.json",
+      "capture_timestamp": "20210529205724",
+      "capture_url": "https://web.archive.org/web/20210529205724/https://www.kongregate.com/games/RustyLake/cube-escape-birthday/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210529205724_https_www.kongregate.com_games_RustyLake_cube-escape-birthday_metrics.json_8c57a657ebd6dc2f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-05-29",
@@ -41396,6 +41486,21 @@
       "metrics_url": "https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
       "capture_timestamp": "20211119143747",
       "capture_url": "https://web.archive.org/web/20211119143747/https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211119143747_https_www.kongregate.com_games_Kongregate_idleplex_metrics.json_56058b170ce68ab3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "Idleplex",
+      "game_url": "http://www.kongregate.com/games/Kongregate/idleplex",
+      "plays_count_observed": 1735955,
+      "favorites_count_observed": 15843,
+      "plays_text": "1,735,955",
+      "favorites_text": "15,843",
+      "metrics_url": "https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "capture_timestamp": "20211119143747",
+      "capture_url": "https://web.archive.org/web/20211119143747/https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119143747_https_www.kongregate.com_games_Kongregate_idleplex_metrics.json_56058b170ce68ab3.json"
@@ -42209,6 +42314,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211120111450_https_www.kongregate.com_games_ArmorGames_upgrade-complete_metrics.json_6d6792e5078b93e2.json"
+    },
+    {
+      "date": "2021-11-21",
+      "game_name": "Idleplex",
+      "game_url": "http://www.kongregate.com/games/Kongregate/idleplex",
+      "plays_count_observed": 1736011,
+      "favorites_count_observed": 15843,
+      "plays_text": "1,736,011",
+      "favorites_text": "15,843",
+      "metrics_url": "https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "capture_timestamp": "20211121124824",
+      "capture_url": "https://web.archive.org/web/20211121124824/https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211121124824_https_www.kongregate.com_games_Kongregate_idleplex_metrics.json_2ad4829e4b3ca2b2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-11-21",
@@ -50546,6 +50666,21 @@
       "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
       "capture_timestamp": "20221011180700",
       "capture_url": "https://web.archive.org/web/20221011180700/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221011180700_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_36651c47361b7830.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-10-11",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 396003,
+      "favorites_count_observed": 2332,
+      "plays_text": "396,003",
+      "favorites_text": "2,332",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20221011180700",
+      "capture_url": "https://web.archive.org/web/20221011180700/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221011180700_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_36651c47361b7830.json"
@@ -53801,6 +53936,21 @@
       "metrics_url": "http://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
       "capture_timestamp": "20221229042441",
       "capture_url": "https://web.archive.org/web/20221229042441/http://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221229042441_http_www.kongregate.com_games_Abra24_grindquest-censored_metrics.json_d98718a518183439.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-12-29",
+      "game_name": "GrindQuest Censored",
+      "game_url": "http://www.kongregate.com/games/Abra24/grindquest-censored",
+      "plays_count_observed": 625477,
+      "favorites_count_observed": 3487,
+      "plays_text": "625,477",
+      "favorites_text": "3,487",
+      "metrics_url": "http://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "capture_timestamp": "20221229042441",
+      "capture_url": "https://web.archive.org/web/20221229042441/http://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221229042441_http_www.kongregate.com_games_Abra24_grindquest-censored_metrics.json_d98718a518183439.json"
@@ -54596,6 +54746,21 @@
       "metrics_url": "https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
       "capture_timestamp": "20230201050447",
       "capture_url": "https://web.archive.org/web/20230201050447/https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230201050447_https_www.kongregate.com_games_Kongregate_idleplex_metrics.json_1a5e6f030786594f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-02-01",
+      "game_name": "Idleplex",
+      "game_url": "http://www.kongregate.com/games/Kongregate/idleplex",
+      "plays_count_observed": 1749237,
+      "favorites_count_observed": 14939,
+      "plays_text": "1,749,237",
+      "favorites_text": "14,939",
+      "metrics_url": "https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
+      "capture_timestamp": "20230201050447",
+      "capture_url": "https://web.archive.org/web/20230201050447/https://www.kongregate.com/games/Kongregate/idleplex/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230201050447_https_www.kongregate.com_games_Kongregate_idleplex_metrics.json_1a5e6f030786594f.json"
@@ -55109,6 +55274,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230207204826_http_www.kongregate.com_games_TogeProductions_necronator_metrics.json_3eaf8d3bc43932cb.json"
+    },
+    {
+      "date": "2023-02-09",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 397788,
+      "favorites_count_observed": 2314,
+      "plays_text": "397,788",
+      "favorites_text": "2,314",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20230209214623",
+      "capture_url": "https://web.archive.org/web/20230209214623/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230209214623_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_5055a08156f632f9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-02-09",
@@ -66626,6 +66806,21 @@
       "metrics_url": "https://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
       "capture_timestamp": "20231125074952",
       "capture_url": "https://web.archive.org/web/20231125074952/https://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231125074952_https_www.kongregate.com_games_nerdook_cluesweeper_metrics.json_834083cbdea97eaa.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-11-25",
+      "game_name": "ClueSweeper",
+      "game_url": "http://www.kongregate.com/games/nerdook/cluesweeper",
+      "plays_count_observed": 1806882,
+      "favorites_count_observed": 16183,
+      "plays_text": "1,806,882",
+      "favorites_text": "16,183",
+      "metrics_url": "https://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
+      "capture_timestamp": "20231125074952",
+      "capture_url": "https://web.archive.org/web/20231125074952/https://www.kongregate.com/games/nerdook/cluesweeper/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231125074952_https_www.kongregate.com_games_nerdook_cluesweeper_metrics.json_834083cbdea97eaa.json"
@@ -69611,6 +69806,21 @@
       "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
       "capture_timestamp": "20240117041157",
       "capture_url": "https://web.archive.org/web/20240117041157/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117041157_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_f46c3366847fa97a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Cat in Japan",
+      "game_url": "https://www.kongregate.com/en/games/bontegames/cat-in-japan",
+      "plays_count_observed": 402088,
+      "favorites_count_observed": 2330,
+      "plays_text": "402,088",
+      "favorites_text": "2,330",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
+      "capture_timestamp": "20240117041157",
+      "capture_url": "https://web.archive.org/web/20240117041157/https://www.kongregate.com/games/bontegames/cat-in-japan/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117041157_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_f46c3366847fa97a.json"
@@ -70889,6 +71099,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119152049_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_b3dc6b5a7efe29df.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "GrindQuest Censored",
+      "game_url": "http://www.kongregate.com/games/Abra24/grindquest-censored",
+      "plays_count_observed": 629906,
+      "favorites_count_observed": 3502,
+      "plays_text": "629,906",
+      "favorites_text": "3,502",
+      "metrics_url": "https://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "capture_timestamp": "20240119152623",
+      "capture_url": "https://web.archive.org/web/20240119152623/https://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119152623_https_www.kongregate.com_games_Abra24_grindquest-censored_metrics.json_541e6e956910545b.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-19",
@@ -74984,6 +75209,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240222152231_https_www.kongregate.com_games_FunkyPear_gravitee-wars-online_metrics.json_ef42443d681d3aff.json"
+    },
+    {
+      "date": "2024-02-22",
+      "game_name": "GrindQuest Censored",
+      "game_url": "http://www.kongregate.com/games/Abra24/grindquest-censored",
+      "plays_count_observed": 630455,
+      "favorites_count_observed": 3503,
+      "plays_text": "630,455",
+      "favorites_text": "3,503",
+      "metrics_url": "https://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "capture_timestamp": "20240222152723",
+      "capture_url": "https://web.archive.org/web/20240222152723/https://www.kongregate.com/games/Abra24/grindquest-censored/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240222152723_https_www.kongregate.com_games_Abra24_grindquest-censored_metrics.json_bf167f48285d705f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-22",
