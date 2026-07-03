@@ -1,23 +1,41 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T12:41:45Z
-- Target games: 2
-- Status filter: transient_failures_remaining
-- Games with cached archived pages: 2
+- Generated: 2026-07-03T12:51:50Z
+- Target games: 7
+- Status filter: none
+- Games with cached archived pages: 7
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 5
-- Candidate observation rows: 5
-- CDX status counts: cached=2, fetched=3
-- CDX rows found: 0
-- Candidates with CDX rows: 0
-- Payloads with count-like signals: 0
-- Parsed play-count rows: 0
-- Deduped recovered play-count observations: 72 (0 new this run)
-- Accumulated probe-history rows: 12894 (5 new, 0 refreshed)
+- Endpoint candidates checked: 22
+- Candidate observation rows: 22
+- CDX status counts: cached=8, fetched=14
+- CDX rows found: 6
+- Candidates with CDX rows: 6
+- Payloads with count-like signals: 6
+- Parsed play-count rows: 6
+- Deduped recovered play-count observations: 75 (3 new this run)
+- Accumulated probe-history rows: 12916 (22 new, 0 refreshed)
 
-## Interpretation
+## Count Signals
 
-No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
+| Game | Source | Endpoint | Sample | Signal | Plays |
+| --- | --- | --- | --- | --- | --- |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | gameplays_count_with_delimiter | 10103 |
+
+## Archived Endpoint Hits
+
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
+| Monster Love | metrics_json | `http://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
+| Monster Love | metrics_json | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | `https://www.kongregate.com/games/esthetix/monster-love/metrics.json` | 1 |
 
 ## Output Files
 

@@ -39896,6 +39896,21 @@
       "metrics_url": "https://www.kongregate.com/games/esthetix/monster-love/metrics.json",
       "capture_timestamp": "20211119112611",
       "capture_url": "https://web.archive.org/web/20211119112611/https://www.kongregate.com/games/esthetix/monster-love/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211119112611_https_www.kongregate.com_games_esthetix_monster-love_metrics.json_3f128a0650b685d1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "Monster Love",
+      "game_url": "http://www.kongregate.com/games/esthetix/monster-love",
+      "plays_count_observed": 10103,
+      "favorites_count_observed": 35,
+      "plays_text": "10,103",
+      "favorites_text": "35",
+      "metrics_url": "https://www.kongregate.com/games/esthetix/monster-love/metrics.json",
+      "capture_timestamp": "20211119112611",
+      "capture_url": "https://web.archive.org/web/20211119112611/https://www.kongregate.com/games/esthetix/monster-love/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119112611_https_www.kongregate.com_games_esthetix_monster-love_metrics.json_3f128a0650b685d1.json"
