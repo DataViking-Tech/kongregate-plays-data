@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T09:55:19Z
+- Run timestamp: 2026-07-03T09:59:11Z
 - Profile games in scope: 1
-- Selected games sample: Medieval Cop - Dregg Me To Hell
+- Selected games sample: The Gates of Heaven
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: dregg me to hell
+- Game-name filter: the gates of heaven
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 13
-- Page jobs: 13
-- Pending before run: 13
-- Attempted this run: 13
-- Fetched this run: 13
+- CDX rows: 3
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 13
+- Failed this run: 1
 - Manifest entries: 368
-- Known failures: 3644
+- Known failures: 3645
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
