@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T08:16:03Z
-- Profile games in scope: 2
-- Selected games sample: Medieval Chronicles 8 (Part 2), Medieval Chronicles 8
+- Run timestamp: 2026-07-03T08:20:40Z
+- Profile games in scope: 1
+- Selected games sample: Fleeing the Complex
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: medieval chronicles 8
+- Game-name filter: fleeing the complex
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 8
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 4
-- Fetched this run: 4
+- CDX rows: 364
+- Page jobs: 182
+- Pending before run: 182
+- Attempted this run: 30
+- Fetched this run: 15
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 0
+- Network fetch failed this run: 15
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 4
+- Failed this run: 30
 - Manifest entries: 368
-- Known failures: 3278
+- Known failures: 3308
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
