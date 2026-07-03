@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 18,
+  "candidate_observation_rows": 2,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 18,
+  "cdx_lookups": 2,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 7,
-    "fetched": 11
+    "cached": 1,
+    "fetched": 1
   },
-  "cdx_wall_timeout": 10.0,
+  "cdx_wall_timeout": 15.0,
   "collapse": "digest",
-  "game_name_contains": "Wheelie Legend,Alexia Crow and the pandora's box,The world most bugged game,Classical Snake,Brakeless Trials Game 2014,Evolve,Opulent Sunflappiness 3,Out Of Order",
-  "games_direct_probed": 3,
-  "games_with_cached_pages": 5,
-  "games_without_cached_pages": 3,
+  "game_name_contains": "Lost Viking",
+  "games_direct_probed": 1,
+  "games_with_cached_pages": 0,
+  "games_without_cached_pages": 1,
   "input_csv": "data/processed/asof_recovery_feasibility_audit.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 64,
+  "max_cdx_lookups": 8,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -31,75 +31,12 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Alexia Crow and the pandora's box": {
+    "Lost Viking": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/josepho/alexia-crow-and-the-pandoras-box",
+      "game_url": "http://www.kongregate.com/games/xraymonx2/lost-viking",
       "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Brakeless Trials Game 2014": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/lpunderground1/brakeless-trials-game-2014",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Classical Snake": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/bilinmexx/classical-snake",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Evolve": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/MohtashamS/evolve",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Opulent Sunflappiness 3": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/stewardhklarlove/opulent-sunflappiness-3",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Out Of Order": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/bigmonkeyfactory/out-of-order",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "The world most bugged game": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/ErnaniR/the-world-most-bugged-game",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Wheelie Legend": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/colburt187/wheelie-legend",
-      "pages_checked": 2,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -109,18 +46,18 @@
     "total": 564
   },
   "persisted_probe_history": {
-    "added": 18,
-    "total": 14811,
+    "added": 2,
+    "total": 14829,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T18:15:49Z",
+  "run_timestamp": "2026-07-03T18:28:36Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 8,
+  "target_games": 1,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
