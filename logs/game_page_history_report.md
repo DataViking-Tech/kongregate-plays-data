@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T08:25:18Z
+- Run timestamp: 2026-07-03T08:31:22Z
 - Profile games in scope: 1
-- Selected games sample: Medieval Chronicles 4
+- Selected games sample: Medieval Cop 8 -DeathWish- (Part 3)
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: medieval chronicles 4
+- Game-name filter: medieval cop 8 -deathwish- (part 3)
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 42
-- Page jobs: 14
-- Pending before run: 14
-- Attempted this run: 14
-- Fetched this run: 13
+- CDX rows: 58
+- Page jobs: 29
+- Pending before run: 29
+- Attempted this run: 29
+- Fetched this run: 15
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 1
+- Network fetch failed this run: 14
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 14
+- Failed this run: 29
 - Manifest entries: 368
-- Known failures: 3322
+- Known failures: 3351
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
