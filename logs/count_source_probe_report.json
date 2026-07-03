@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 2,
+  "candidate_observation_rows": 10,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 2,
+  "cdx_lookups": 10,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 1,
-    "fetched": 1
+    "cached": 2,
+    "fetched": 8
   },
-  "cdx_wall_timeout": 20.0,
+  "cdx_wall_timeout": 15.0,
   "collapse": "digest",
-  "game_name_contains": "Card game",
-  "games_direct_probed": 1,
+  "game_name_contains": "Heroes vs Devil,KNF mysterious snow forest escape,Space Assault,The Secret Lab,Tittu And Annie 11",
+  "games_direct_probed": 5,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 1,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_274.csv",
+  "games_without_cached_pages": 5,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_275.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 8,
+  "max_cdx_lookups": 40,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -31,11 +31,47 @@
   "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Card game": {
+    "Heroes vs Devil": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/badfitz100/card-game",
+      "game_url": "http://www.kongregate.com/games/Husenicar/heroes-vs-devil",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "KNF mysterious snow forest escape": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/knfgame1/knf-mysterious-snow-forest-escape",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Space Assault": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/tete94/space-assault",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Secret Lab": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/SandraKim/the-secret-lab",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tittu And Annie 11": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Enagamess/tittu-and-annie-11",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -43,21 +79,21 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 613
+    "total": 614
   },
   "persisted_probe_history": {
-    "added": 2,
-    "total": 15322,
+    "added": 10,
+    "total": 15380,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T19:48:22Z",
+  "run_timestamp": "2026-07-03T20:02:47Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 1,
+  "target_games": 5,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
