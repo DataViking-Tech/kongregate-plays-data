@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1aC7jWIKkKRkeCbJy8lgDAC2heM9t69i6GD1_uSLH-C8
+https://docs.google.com/spreadsheets/d/1OhwU_UvYOvDzX28GezJEPrd6aBNaX0OBuRp3nJOLq9s
 
 ## Current Snapshot
 
