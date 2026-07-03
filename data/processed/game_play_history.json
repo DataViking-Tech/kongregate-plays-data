@@ -7503,6 +7503,21 @@
     {
       "date": "2016-01-22",
       "game_name": "Sands of the Coliseum",
+      "game_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum",
+      "plays_count_observed": 3516233,
+      "favorites_count_observed": 43051,
+      "plays_text": "3,516,233",
+      "favorites_text": "43,051",
+      "metrics_url": "http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "capture_timestamp": "20160122202942",
+      "capture_url": "https://web.archive.org/web/20160122202942/http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160122202942_http_www.kongregate.com_games_BerzerkStudio_sands-of-the-coliseum_metrics.json_9ad1272e3e586d78.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-01-22",
+      "game_name": "Sands of the Coliseum",
       "game_url": "http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum",
       "plays_count_observed": 3516233,
       "favorites_count_observed": 43051,
@@ -7604,6 +7619,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160129210349_http_www.kongregate.com_games_kupo707_epic-battle-fantasy-3_metrics.json_9601a092ba7ee82f.json"
+    },
+    {
+      "date": "2016-02-01",
+      "game_name": "Sands of the Coliseum",
+      "game_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum",
+      "plays_count_observed": 3531464,
+      "favorites_count_observed": 43242,
+      "plays_text": "3,531,464",
+      "favorites_text": "43,242",
+      "metrics_url": "http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "capture_timestamp": "20160201202537",
+      "capture_url": "https://web.archive.org/web/20160201202537/http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160201202537_http_www.kongregate.com_games_BerzerkStudio_sands-of-the-coliseum_metrics.json_f93205ae0a7feca2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2016-02-01",
@@ -10406,6 +10436,21 @@
       "metrics_url": "http://www.kongregate.com/games/sciencemuseum/transmission/metrics.json",
       "capture_timestamp": "20180218032203",
       "capture_url": "https://web.archive.org/web/20180218032203/http://www.kongregate.com/games/sciencemuseum/transmission/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180218032203_http_www.kongregate.com_games_sciencemuseum_transmission_metrics.json_54ec75a112833499.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-18",
+      "game_name": "Transmission",
+      "game_url": "http://www.kongregate.com/games/ScienceMuseum/transmission",
+      "plays_count_observed": 578252,
+      "favorites_count_observed": 5700,
+      "plays_text": "578,252",
+      "favorites_text": "5,700",
+      "metrics_url": "http://www.kongregate.com/games/sciencemuseum/transmission/metrics.json",
+      "capture_timestamp": "20180218032203",
+      "capture_url": "https://web.archive.org/web/20180218032203/http://www.kongregate.com/games/sciencemuseum/transmission/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180218032203_http_www.kongregate.com_games_sciencemuseum_transmission_metrics.json_54ec75a112833499.json"
@@ -11204,6 +11249,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180525153657_http_www.kongregate.com_games_deeperbeige_hanna-in-a-choppa_metrics.json_451648d3865934e6.json"
+    },
+    {
+      "date": "2018-06-05",
+      "game_name": "Slurpy Derpy",
+      "game_url": "http://www.kongregate.com/games/ScaryBee/slurpy-derpy",
+      "plays_count_observed": 654684,
+      "favorites_count_observed": 2473,
+      "plays_text": "654,684",
+      "favorites_text": "2,473",
+      "metrics_url": "http://www.kongregate.com/games/scarybee/slurpy-derpy/metrics.json",
+      "capture_timestamp": "20180605173441",
+      "capture_url": "https://web.archive.org/web/20180605173441/http://www.kongregate.com/games/scarybee/slurpy-derpy/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180605173441_http_www.kongregate.com_games_scarybee_slurpy-derpy_metrics.json_81f721c09c492dff.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-06-05",
@@ -12479,6 +12539,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190213165629_http_www.kongregate.com_games_JellyGames_the-vault_metrics.json_94586d271e2eda79.json"
+    },
+    {
+      "date": "2019-02-13",
+      "game_name": "Time Clickers",
+      "game_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers",
+      "plays_count_observed": 1928651,
+      "favorites_count_observed": 8072,
+      "plays_text": "1,928,651",
+      "favorites_text": "8,072",
+      "metrics_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "capture_timestamp": "20190213044928",
+      "capture_url": "https://web.archive.org/web/20190213044928/http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190213044928_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_ce120c3000d076eb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-02-13",
@@ -14351,6 +14426,21 @@
       "metrics_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
       "capture_timestamp": "20191017183755",
       "capture_url": "https://web.archive.org/web/20191017183755/https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183755_https_www.kongregate.com_games_BerzerkStudio_sands-of-the-coliseum_metrics.json_0801f54de5f552c6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Sands of the Coliseum",
+      "game_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum",
+      "plays_count_observed": 4875843,
+      "favorites_count_observed": 55994,
+      "plays_text": "4,875,843",
+      "favorites_text": "55,994",
+      "metrics_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "capture_timestamp": "20191017183755",
+      "capture_url": "https://web.archive.org/web/20191017183755/https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183755_https_www.kongregate.com_games_BerzerkStudio_sands-of-the-coliseum_metrics.json_0801f54de5f552c6.json"
@@ -14819,6 +14909,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040600_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_be5d60801998c935.json"
+    },
+    {
+      "date": "2019-10-21",
+      "game_name": "The King of Towers",
+      "game_url": "http://www.kongregate.com/games/Shinezone/thekingoftowers",
+      "plays_count_observed": 6946647,
+      "favorites_count_observed": 12095,
+      "plays_text": "6,946,647",
+      "favorites_text": "12,095",
+      "metrics_url": "https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "capture_timestamp": "20191021040559",
+      "capture_url": "https://web.archive.org/web/20191021040559/https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191021040559_https_www.kongregate.com_games_Shinezone_thekingoftowers_metrics.json_595ef5075b335993.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-21",
@@ -15389,6 +15494,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045009_https_www.kongregate.com_games_Wild_Shadow_realm-of-the-mad-god_metrics.json_303ea5a52940ff8a.json"
+    },
+    {
+      "date": "2019-10-27",
+      "game_name": "Sands of the Coliseum",
+      "game_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum",
+      "plays_count_observed": 4881012,
+      "favorites_count_observed": 56035,
+      "plays_text": "4,881,012",
+      "favorites_text": "56,035",
+      "metrics_url": "https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "capture_timestamp": "20191027045009",
+      "capture_url": "https://web.archive.org/web/20191027045009/https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191027045009_https_www.kongregate.com_games_BerzerkStudio_sands-of-the-coliseum_metrics.json_9e554e48f768a1ed.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-27",
@@ -18236,9 +18356,39 @@
       "metrics_url": "https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
       "capture_timestamp": "20200113153454",
       "capture_url": "https://web.archive.org/web/20200113153454/https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200113153454_https_www.kongregate.com_games_ScaryBee_slurpy-derpy_metrics.json_d9603499ab7e9bb0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-01-13",
+      "game_name": "Slurpy Derpy",
+      "game_url": "http://www.kongregate.com/games/ScaryBee/slurpy-derpy",
+      "plays_count_observed": 769413,
+      "favorites_count_observed": 2843,
+      "plays_text": "769,413",
+      "favorites_text": "2,843",
+      "metrics_url": "https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "capture_timestamp": "20200113153454",
+      "capture_url": "https://web.archive.org/web/20200113153454/https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200113153454_https_www.kongregate.com_games_ScaryBee_slurpy-derpy_metrics.json_d9603499ab7e9bb0.json"
+    },
+    {
+      "date": "2020-01-13",
+      "game_name": "Slurpy Derpy",
+      "game_url": "http://www.kongregate.com/games/ScaryBee/slurpy-derpy",
+      "plays_count_observed": 769414,
+      "favorites_count_observed": 2843,
+      "plays_text": "769,414",
+      "favorites_text": "2,843",
+      "metrics_url": "https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "capture_timestamp": "20200113153513",
+      "capture_url": "https://web.archive.org/web/20200113153513/https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200113153513_https_www.kongregate.com_games_ScaryBee_slurpy-derpy_metrics.json_ef280e06ba6f62d3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-13",
@@ -18641,6 +18791,21 @@
       "metrics_url": "https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
       "capture_timestamp": "20200121045139",
       "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200121045139_https_www.kongregate.com_games_Shinezone_thekingoftowers_metrics.json_54121368eabaab58.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-01-21",
+      "game_name": "The King of Towers",
+      "game_url": "http://www.kongregate.com/games/Shinezone/thekingoftowers",
+      "plays_count_observed": 7068232,
+      "favorites_count_observed": 12176,
+      "plays_text": "7,068,232",
+      "favorites_text": "12,176",
+      "metrics_url": "https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "capture_timestamp": "20200121045139",
+      "capture_url": "https://web.archive.org/web/20200121045139/https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200121045139_https_www.kongregate.com_games_Shinezone_thekingoftowers_metrics.json_54121368eabaab58.json"
@@ -18764,6 +18929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200128093857_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_69b1bec19754d071.json"
+    },
+    {
+      "date": "2020-01-28",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 889520,
+      "favorites_count_observed": 4916,
+      "plays_text": "889,520",
+      "favorites_text": "4,916",
+      "metrics_url": "http://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20200128200648",
+      "capture_url": "https://web.archive.org/web/20200128200648/http://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200128200648_http_www.kongregate.com_games_truefire_press-the-button_metrics.json_b7c31df2204eefc9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-28",
@@ -21089,6 +21269,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132205_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_ac5b21de5939ded7.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "The King of Towers",
+      "game_url": "http://www.kongregate.com/games/Shinezone/thekingoftowers",
+      "plays_count_observed": 7200710,
+      "favorites_count_observed": 12293,
+      "plays_text": "7,200,710",
+      "favorites_text": "12,293",
+      "metrics_url": "https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "capture_timestamp": "20200427132204",
+      "capture_url": "https://web.archive.org/web/20200427132204/https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200427132204_https_www.kongregate.com_games_Shinezone_thekingoftowers_metrics.json_1e8b687f6b3b87d6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-04-27",
@@ -43556,6 +43751,21 @@
       "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
       "capture_timestamp": "20220101184206",
       "capture_url": "https://web.archive.org/web/20220101184206/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220101184206_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c5ffaf213b77e1b9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-01-01",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1170162,
+      "favorites_count_observed": 6221,
+      "plays_text": "1,170,162",
+      "favorites_text": "6,221",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220101184206",
+      "capture_url": "https://web.archive.org/web/20220101184206/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220101184206_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c5ffaf213b77e1b9.json"
@@ -43604,6 +43814,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220109035536_http_www.kongregate.com_games_master_machines_music-quest_metrics.json_58196ad7f4e47c90.json"
+    },
+    {
+      "date": "2022-01-10",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1171469,
+      "favorites_count_observed": 6223,
+      "plays_text": "1,171,469",
+      "favorites_text": "6,223",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220110130831",
+      "capture_url": "https://web.archive.org/web/20220110130831/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220110130831_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_0149477ad851a4b4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-01-10",
@@ -47996,6 +48221,21 @@
       "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
       "capture_timestamp": "20220525202551",
       "capture_url": "https://web.archive.org/web/20220525202551/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220525202551_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c99f3487a34a86c1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-05-25",
+      "game_name": "Press The Button",
+      "game_url": "https://www.kongregate.com/games/truefire/press-the-button",
+      "plays_count_observed": 1193821,
+      "favorites_count_observed": 6273,
+      "plays_text": "1,193,821",
+      "favorites_text": "6,273",
+      "metrics_url": "https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
+      "capture_timestamp": "20220525202551",
+      "capture_url": "https://web.archive.org/web/20220525202551/https://www.kongregate.com/games/truefire/press-the-button/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220525202551_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c99f3487a34a86c1.json"
@@ -48329,6 +48569,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220618213520_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_934a39b7df3bd252.json"
+    },
+    {
+      "date": "2022-06-18",
+      "game_name": "Time Clickers",
+      "game_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers",
+      "plays_count_observed": 2108993,
+      "favorites_count_observed": 8579,
+      "plays_text": "2,108,993",
+      "favorites_text": "8,579",
+      "metrics_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "capture_timestamp": "20220618000443",
+      "capture_url": "https://web.archive.org/web/20220618000443/http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220618000443_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_865537aafd0e7d49.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-06-18",
@@ -65606,6 +65861,21 @@
       "metrics_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
       "capture_timestamp": "20230929151604",
       "capture_url": "https://web.archive.org/web/20230929151604/http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230929151604_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_da902ade263121fb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-29",
+      "game_name": "Time Clickers",
+      "game_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers",
+      "plays_count_observed": 2133498,
+      "favorites_count_observed": 8336,
+      "plays_text": "2,133,498",
+      "favorites_text": "8,336",
+      "metrics_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "capture_timestamp": "20230929151604",
+      "capture_url": "https://web.archive.org/web/20230929151604/http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230929151604_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_da902ade263121fb.json"
@@ -73181,6 +73451,21 @@
       "metrics_url": "https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
       "capture_timestamp": "20240120034320",
       "capture_url": "https://web.archive.org/web/20240120034320/https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120034320_https_www.kongregate.com_games_ScaryBee_slurpy-derpy_metrics.json_3e5b574385557d49.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Slurpy Derpy",
+      "game_url": "http://www.kongregate.com/games/ScaryBee/slurpy-derpy",
+      "plays_count_observed": 878028,
+      "favorites_count_observed": 3118,
+      "plays_text": "878,028",
+      "favorites_text": "3,118",
+      "metrics_url": "https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
+      "capture_timestamp": "20240120034320",
+      "capture_url": "https://web.archive.org/web/20240120034320/https://www.kongregate.com/games/ScaryBee/slurpy-derpy/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120034320_https_www.kongregate.com_games_ScaryBee_slurpy-derpy_metrics.json_3e5b574385557d49.json"
@@ -73214,6 +73499,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120041753_https_www.kongregate.com_games_jlong64_soul-tax_metrics.json_8b45379576d508d2.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Space Invaderz Tutorial",
+      "game_url": "http://www.kongregate.com/games/scotty42/space-invaderz-tutorial",
+      "plays_count_observed": 10192,
+      "favorites_count_observed": 58,
+      "plays_text": "10,192",
+      "favorites_text": "58",
+      "metrics_url": "https://www.kongregate.com/games/scotty42/space-invaderz-tutorial/metrics.json",
+      "capture_timestamp": "20240120042025",
+      "capture_url": "https://web.archive.org/web/20240120042025/https://www.kongregate.com/games/scotty42/space-invaderz-tutorial/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120042025_https_www.kongregate.com_games_scotty42_space-invaderz-tutorial_metrics.json_3f0acd62363c65de.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-20",
@@ -73289,6 +73589,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120060409_https_www.kongregate.com_games_ScaryBee_swarm-simulator-evolution_metrics.json_1f5e52947c144f49.json"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Swoop-to-Nuts",
+      "game_url": "http://www.kongregate.com/games/Fusionary/swoop-to-nuts",
+      "plays_count_observed": 16757,
+      "favorites_count_observed": 94,
+      "plays_text": "16,757",
+      "favorites_text": "94",
+      "metrics_url": "https://www.kongregate.com/games/Fusionary/swoop-to-nuts/metrics.json",
+      "capture_timestamp": "20240120060734",
+      "capture_url": "https://web.archive.org/web/20240120060734/https://www.kongregate.com/games/Fusionary/swoop-to-nuts/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120060734_https_www.kongregate.com_games_Fusionary_swoop-to-nuts_metrics.json_7c076329cd284229.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-20",
@@ -74069,6 +74384,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121161334_https_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_588a5a534bda384d.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Time Clickers",
+      "game_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers",
+      "plays_count_observed": 2137280,
+      "favorites_count_observed": 8349,
+      "plays_text": "2,137,280",
+      "favorites_text": "8,349",
+      "metrics_url": "http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "capture_timestamp": "20240121133623",
+      "capture_url": "https://web.archive.org/web/20240121133623/http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121133623_http_www.kongregate.com_games_ProtonStudio_time-clickers_metrics.json_16fc477290180502.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-21",
@@ -76739,6 +77069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223121145_https_www.kongregate.com_games_ScaryBee_swarm-simulator-evolution_metrics.json_804e810d533b721e.json"
+    },
+    {
+      "date": "2024-02-23",
+      "game_name": "Swoop-to-Nuts",
+      "game_url": "http://www.kongregate.com/games/Fusionary/swoop-to-nuts",
+      "plays_count_observed": 16758,
+      "favorites_count_observed": 94,
+      "plays_text": "16,758",
+      "favorites_text": "94",
+      "metrics_url": "https://www.kongregate.com/games/Fusionary/swoop-to-nuts/metrics.json",
+      "capture_timestamp": "20240223121502",
+      "capture_url": "https://web.archive.org/web/20240223121502/https://www.kongregate.com/games/Fusionary/swoop-to-nuts/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240223121502_https_www.kongregate.com_games_Fusionary_swoop-to-nuts_metrics.json_593d8453895bd616.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-23",

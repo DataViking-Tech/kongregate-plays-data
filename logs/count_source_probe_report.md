@@ -1,69 +1,69 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T17:53:29Z
+- Generated: 2026-07-03T18:02:57Z
 - Target games: 8
 - Status filter: none
-- Games with cached archived pages: 1
-- Games direct-probed from catalog URLs: 7
-- Endpoint candidates checked: 22
-- Candidate observation rows: 32
-- CDX status counts: cached=6, fetched=26
-- CDX rows found: 88
-- Candidates with CDX rows: 28
-- Payloads with count-like signals: 26
-- Parsed play-count rows: 26
-- Deduped recovered play-count observations: 541 (14 new this run)
-- Accumulated probe-history rows: 14747 (32 new, 0 refreshed)
+- Games with cached archived pages: 0
+- Games direct-probed from catalog URLs: 8
+- Endpoint candidates checked: 16
+- Candidate observation rows: 46
+- CDX status counts: fetched=46
+- CDX rows found: 454
+- Candidates with CDX rows: 46
+- Payloads with count-like signals: 45
+- Parsed play-count rows: 45
+- Deduped recovered play-count observations: 564 (23 new this run)
+- Accumulated probe-history rows: 14793 (46 new, 0 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 2026498 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 2026498 |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 2025148 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 2025148 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | gameplays_count_with_delimiter | 1963838 |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `http://www.kongregate.com:80/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 1870738 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `http://www.kongregate.com:80/games/mrcaboom/idle-blacksmith/metrics.json` | gameplays_count_with_delimiter | 1870738 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 855218 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 852460 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 852460 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 834084 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 834084 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `http://www.kongregate.com:80/games/KingsWill/idle-tree/metrics.json` | gameplays_count_with_delimiter | 752425 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | gameplays_count_with_delimiter | 7200710 |
+| The King of Towers | metrics_json | `http://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | gameplays_count_with_delimiter | 7068232 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | gameplays_count_with_delimiter | 7068232 |
+| The King of Towers | metrics_json | `http://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | gameplays_count_with_delimiter | 6946647 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | gameplays_count_with_delimiter | 6946647 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 4881012 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 4881012 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 4875843 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 4875843 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 3531464 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 3531464 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 3516233 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | gameplays_count_with_delimiter | 3516233 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2137280 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2137280 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2133498 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2133498 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2108993 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 2108993 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | gameplays_count_with_delimiter | 1928651 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Red Crucible: Firestorm | metrics_json | `https://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | `http://www.kongregate.com/games/rocketeergames/red-crucible-firestorm/metrics.json` | 1 |
-| Idle Blacksmith | metrics_json | `http://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `http://www.kongregate.com:80/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Idle Blacksmith | metrics_json | `https://www.kongregate.com/games/mrcaboom/idle-blacksmith/metrics.json` | `http://www.kongregate.com:80/games/mrcaboom/idle-blacksmith/metrics.json` | 3 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | 7 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | 7 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | 7 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | 7 |
-| Idle Tree | metrics_json | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `https://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | 7 |
-| Idle Tree | metrics_json | `http://www.kongregate.com/games/KingsWill/idle-tree/metrics.json` | `http://www.kongregate.com:80/games/KingsWill/idle-tree/metrics.json` | 7 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | 3 |
+| The King of Towers | metrics_json | `http://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | 3 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | 3 |
+| The King of Towers | metrics_json | `http://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | 3 |
+| The King of Towers | metrics_json | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | `https://www.kongregate.com/games/Shinezone/thekingoftowers/metrics.json` | 3 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Sands of the Coliseum | metrics_json | `https://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | `http://www.kongregate.com/games/BerzerkStudio/sands-of-the-coliseum/metrics.json` | 26 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `https://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
+| Time Clickers | metrics_json | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | `http://www.kongregate.com/games/ProtonStudio/time-clickers/metrics.json` | 8 |
 
 ## Output Files
 
