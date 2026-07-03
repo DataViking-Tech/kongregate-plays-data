@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-02T18:45:40Z
+- Run timestamp: 2026-07-03T05:52:27Z
 - Profile games in scope: 1
-- Selected games sample: Incremancer
+- Selected games sample: The Enchanted Cave 2
 - Selected games omitted from sample: 0
 - CDX games considered: 1
-- Cached CDX only: False
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: 10.0
-- CDX date-window days: 90
+- CDX wall-clock cap: none
+- CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: incremancer
+- Game-name filter: the enchanted cave 2
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 4
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 4
-- Fetched this run: 4
+- CDX rows: 144
+- Page jobs: 72
+- Pending before run: 72
+- Attempted this run: 20
+- Fetched this run: 19
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 0
+- Network fetch failed this run: 1
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 4
+- Failed this run: 20
 - Manifest entries: 368
-- Known failures: 3008
+- Known failures: 3040
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False

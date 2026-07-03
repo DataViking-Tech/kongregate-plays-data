@@ -1,22 +1,22 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-02T18:45:56Z
+- Generated: 2026-07-03T05:52:48Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1722
-- dynamic_metrics_placeholder: 10
+- not_checked: 1720
+- dynamic_metrics_placeholder: 12
 
 ## Recommended Actions
 
-- 1722: Run a bounded page-history CDX shard for this game.
-- 10: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1720: Run a bounded page-history CDX shard for this game.
+- 12: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 10
+- Dynamic metric placeholder games: 12
 - With exact metrics.json probe history: 0
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -25,8 +25,10 @@
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
 | Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 0 | 0 | 2015-02-23 |
 | SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 0 | 0 | 2016-03-24 |
+| Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
 | Pou Popper | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-08 |
 | Wheelie Legend | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-22 |
 | Battle Of Heroes | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-26 |
@@ -48,5 +50,3 @@
 | shieldshooting | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-29 |
 | Out Of Order | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-31 |
 | Minions Bejeweled | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-11-11 |
-| Mu Complex : Episode One | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-11-11 |
-| The Experimental Platformer (v1.2b7) | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-11-25 |
