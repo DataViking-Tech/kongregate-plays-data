@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1zHMZAYhH9hbXfcfXt9bnq8l_3RI4TaOgYyA-6PbpK7U
+https://docs.google.com/spreadsheets/d/1WyVg7PSjapdpCHsYNiSxIrb-ZfVpHeqrN67GLaxZX-8
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1zHMZAYhH9hbXfcfXt9bnq8l_3RI4TaOgYyA-6Pbp
 - Ranked-list rows with aggregate as-of observed play counts: 44,188
 - Mini catalog: 2,998 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,383 across 2,673 canonical games
-- Observed play-count rows used by the chart: 24,998
+- Per-game play-history rows: 8,385 across 2,673 canonical games
+- Observed play-count rows used by the chart: 25,000
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,342 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-03
 - Per-game play-history date range: 2007-03-24 to 2026-07-03
@@ -311,6 +311,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 283 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered 18 new play-history rows: Squid Ink at 885,955, 1,323,163, 1,323,164, and 1,921,611 plays; Rush Team Free FPS Multiplayers at 9,174,859, 9,369,586, 9,371,084, and 9,373,562 plays; Computer Evolution at 692,111, 776,349, 850,065, and 852,076 plays; Idle Raiders: Second Run at 637,218 plays; Hexologic with four observations from 86,077 to 86,081 plays; and This is the ABSOLUTE best game in Kongregate history and you will not regret clicking that play button ever in your entire life, i like pie at 4,997 plays. The Swordman had archived exact endpoint rows but no parseable count signal. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 16,218 observations, recovered count rows are 669, unified play-history rows are 8,367, chart observed rows are 24,982, and the bounded exact-metrics queue is down to 1,132. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 284 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered 9 new play-history rows: #VoteStabby at 10,046 plays; Famous Paintings Parodies at 66,865 and 66,873 plays; Quotidian at 24,833, 25,273, and two timestamped 25,293-play observations; GameToilet Mobile#2 : Watch Paint Dry at 901 plays; and Dragon Fortress at 277,764 plays. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 16,324 observations, recovered count rows are 678, unified play-history rows are 8,376, chart observed rows are 24,991, and the bounded exact-metrics queue is down to 1,100. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 285 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered 7 new play-history rows: Gordo's Oddisey at 57 plays; Snake Cuby at 28 plays; Idle Skilling at 924,570, 924,579, and two timestamped 924,584-play observations; and The depths idle at 265,969 plays. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 16,429 observations, recovered count rows are 685, unified play-history rows are 8,383, chart observed rows are 24,998, and the bounded exact-metrics queue is down to 1,068. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
+- Checkpoint 286 ran the next 32-game bounded exact-metrics shard and cleared the transient CDX retry queue with two slower follow-up passes. Exact `metrics.json` archives recovered 2 new play-history rows: Angry Birds Rebuilding Warrior at 879 plays and Button Clicker 2 at 1,193 plays. These captures are later than their open missing rank windows, so aggregate as-of coverage remains 44,188 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 16,529 observations, recovered count rows are 687, unified play-history rows are 8,385, chart observed rows are 25,000, and the bounded exact-metrics queue is down to 1,036. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint and now includes the lifecycle catalog tab.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

@@ -61901,6 +61901,21 @@
       "metrics_url": "https://www.kongregate.com/games/PulisProgramming/button-clicker-2/metrics.json",
       "capture_timestamp": "20230521001807",
       "capture_url": "https://web.archive.org/web/20230521001807/https://www.kongregate.com/games/PulisProgramming/button-clicker-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230521001807_https_www.kongregate.com_games_PulisProgramming_button-clicker-2_metrics.json_f662a27a42b93a5a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-05-21",
+      "game_name": "Button Clicker 2",
+      "game_url": "http://www.kongregate.com/games/PulisProgramming/button-clicker-2",
+      "plays_count_observed": 1193,
+      "favorites_count_observed": 8,
+      "plays_text": "1,193",
+      "favorites_text": "8",
+      "metrics_url": "https://www.kongregate.com/games/PulisProgramming/button-clicker-2/metrics.json",
+      "capture_timestamp": "20230521001807",
+      "capture_url": "https://web.archive.org/web/20230521001807/https://www.kongregate.com/games/PulisProgramming/button-clicker-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230521001807_https_www.kongregate.com_games_PulisProgramming_button-clicker-2_metrics.json_f662a27a42b93a5a.json"
@@ -64244,6 +64259,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230809162704_https_www.kongregate.com_games_nutcasenightmare_we-become-what-we-behold_metrics.json_269c315b8d38d105.json"
+    },
+    {
+      "date": "2023-08-11",
+      "game_name": "Angry Birds Rebuilding Warrior",
+      "game_url": "http://www.kongregate.com/games/hibiscus070133/angry-birds-rebuilding-warrior",
+      "plays_count_observed": 879,
+      "favorites_count_observed": 3,
+      "plays_text": "879",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/hibiscus070133/angry-birds-rebuilding-warrior/metrics.json",
+      "capture_timestamp": "20230811023218",
+      "capture_url": "https://web.archive.org/web/20230811023218/https://www.kongregate.com/games/hibiscus070133/angry-birds-rebuilding-warrior/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230811023218_https_www.kongregate.com_games_hibiscus070133_angry-birds-rebuilding-warrior_metrics.json_feef41dfc22dcd20.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-08-11",
