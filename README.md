@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/17uHAfWs6L9ODjWuxCIBv679xu5TpzR5IhodtdymO
 - Ranked-list rows with aggregate as-of observed play counts: 43,489
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 7,993 across 2,672 canonical games
-- Observed play-count rows used by the chart: 23,909
+- Per-game play-history rows: 8,005 across 2,672 canonical games
+- Observed play-count rows used by the chart: 23,921
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,341 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-02
 - Per-game play-history date range: 2007-03-24 to 2026-07-02
@@ -259,6 +259,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 231 advanced the unchecked page-history queue and cached-CDX follow-ups. Alexia Crow and the pandora's box moved to no-page-CDX evidence, while Jellydad Hero, The world most bugged game, Classical Snake, Brakeless Trials Game 2014, and Evolve moved to dynamic-metrics-placeholder evidence after archived pages exposed only JavaScript-filled metric placeholders. Exact archived `metrics.json` probes for those five recovered one new count-source row for Jellydad Hero: 31,610 plays from 2021-06-08. Unified play-history rows now stand at 7,970, count-source recovered rows at 37, and aggregate as-of coverage remains 43,489 rows.
 - Checkpoint 232 recovered 12 additional archived `metrics.json` count-source rows from dynamic-placeholder games: Cosmos Quest, Unpuzzle 2, Medieval Chronicles 4, Medieval Chronicles 7, Miscrits, Sports Heads: Football Championship, KingsRoad, and Evo Explores. A tiny page-CDX shard also moved Opulent Sunflappiness 3 to no-page-CDX evidence. Unified play-history rows now stand at 7,982, count-source recovered rows at 49, and aggregate as-of coverage remains 43,489 rows because the recovered observations are still later than the open rank-date gaps.
 - Checkpoint 233 recovered 11 additional archived `metrics.json` count-source rows from the next dynamic-placeholder endpoint shard, including Medieval Cop 8 -DeathWish- (Part 3), Unpuzzle, Medieval Cop 9 -Song & Silence- (Part 1), The Very Organized Thief, UnpuzzleR, and Medieval Chronicles 9 (Part 2). Unified play-history rows now stand at 7,993, count-source recovered rows at 60, and aggregate as-of coverage remains 43,489 rows; N Step Steve: Part 1 and Trader of Stories - Chapter 3 now have exact-endpoint absence/failure evidence to retry or escalate.
+- Checkpoint 234 finished exact `metrics.json` probing across all 56 dynamic-placeholder games, then retried the transient endpoint queue. It recovered 12 more count-source rows across Bad Eggs Online 2, Dino Storm, Super Hot, Superfighters, UnpuzzleX, Medieval Chronicles 9, Medieval Chronicles 9 (Part 2), and Medieval Cop - Dregg Me To Hell. The transient endpoint queue is now clear, unified play-history rows stand at 8,005, count-source recovered rows at 72, and aggregate as-of coverage remains 43,489 rows.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

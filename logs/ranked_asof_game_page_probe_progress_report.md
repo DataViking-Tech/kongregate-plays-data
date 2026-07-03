@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T12:01:21Z
+- Generated: 2026-07-03T12:08:38Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
@@ -13,15 +13,15 @@
 ## Recommended Actions
 
 - 1672: Run a bounded page-history CDX shard for this game.
-- 42: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 14: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 40: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 16: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
 - 4: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
 - Dynamic metric placeholder games: 56
-- With exact metrics.json probe history: 46
-- With exact metrics.json CDX rows: 32
+- With exact metrics.json probe history: 56
+- With exact metrics.json CDX rows: 40
 - With alternate endpoint CDX rows: 8
 
 ## Top Unresolved Examples
