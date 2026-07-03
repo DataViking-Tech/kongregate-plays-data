@@ -1,69 +1,69 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T16:55:39Z
+- Generated: 2026-07-03T17:04:20Z
 - Target games: 8
 - Status filter: none
 - Games with cached archived pages: 0
 - Games direct-probed from catalog URLs: 8
 - Endpoint candidates checked: 16
-- Candidate observation rows: 44
-- CDX status counts: fetched=44
-- CDX rows found: 352
-- Candidates with CDX rows: 44
-- Payloads with count-like signals: 36
-- Parsed play-count rows: 36
-- Deduped recovered play-count observations: 426 (21 new this run)
-- Accumulated probe-history rows: 14499 (44 new, 0 refreshed)
+- Candidate observation rows: 46
+- CDX status counts: fetched=46
+- CDX rows found: 206
+- Candidates with CDX rows: 46
+- Payloads with count-like signals: 45
+- Parsed play-count rows: 45
+- Deduped recovered play-count observations: 449 (23 new this run)
+- Accumulated probe-history rows: 14545 (46 new, 0 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4570430 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4570430 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4565571 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4565571 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4557934 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 4557934 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 3993172 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | gameplays_count_with_delimiter | 3993172 |
-| Incursion | metrics_json | `https://www.kongregate.com/games/booblycCom/incursion/metrics.json` | `http://www.kongregate.com/games/booblycCom/incursion/metrics.json` | gameplays_count_with_delimiter | 3102209 |
-| Earn to Die | metrics_json | `http://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | gameplays_count_with_delimiter | 2575372 |
-| Earn to Die | metrics_json | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | gameplays_count_with_delimiter | 2575372 |
-| Earn to Die | metrics_json | `http://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | gameplays_count_with_delimiter | 2572042 |
-| Earn to Die | metrics_json | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | gameplays_count_with_delimiter | 2572042 |
-| WarLight: Multi-Player | metrics_json | `http://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | gameplays_count_with_delimiter | 906405 |
-| WarLight: Multi-Player | metrics_json | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | gameplays_count_with_delimiter | 906405 |
-| Red Remover Player Pack | metrics_json | `http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | gameplays_count_with_delimiter | 637316 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | gameplays_count_with_delimiter | 637316 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | gameplays_count_with_delimiter | 636582 |
-| Red Remover Player Pack | metrics_json | `http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | gameplays_count_with_delimiter | 635225 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | gameplays_count_with_delimiter | 635225 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2414415 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2414415 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2337081 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2337081 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2306055 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2306055 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2042887 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | gameplays_count_with_delimiter | 2042887 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1911045 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1911045 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1908954 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1908954 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1908644 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1908644 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1908101 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1908101 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1902621 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | gameplays_count_with_delimiter | 1902621 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1876215 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | gameplays_count_with_delimiter | 1876215 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| SAS: Zombie Assault 3 | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json` | 28 |
-| Incursion | metrics_json | `https://www.kongregate.com/games/booblycCom/incursion/metrics.json` | `http://www.kongregate.com/games/booblycCom/incursion/metrics.json` | 1 |
-| Earn to Die | metrics_json | `http://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | 2 |
-| Earn to Die | metrics_json | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | 2 |
-| Earn to Die | metrics_json | `http://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | 2 |
-| Earn to Die | metrics_json | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | `https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json` | 2 |
-| WarLight: Multi-Player | metrics_json | `http://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | 1 |
-| WarLight: Multi-Player | metrics_json | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | `https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json` | 1 |
-| Red Remover Player Pack | metrics_json | `http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | 3 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | 3 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | 3 |
-| Red Remover Player Pack | metrics_json | `http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | 3 |
-| Red Remover Player Pack | metrics_json | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | `https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json` | 3 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| GemCraft - Chasing Shadows | metrics_json | `https://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | `http://www.kongregate.com/games/gameinabottle/gemcraft-chasing-shadows/metrics.json` | 5 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Sierra 7 | metrics_json | `http://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Sierra 7 | metrics_json | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | `https://www.kongregate.com/games/simonhason/sierra-7/metrics.json` | 4 |
+| Arcuz (Full Version) | metrics_json | `http://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
+| Arcuz (Full Version) | metrics_json | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | `https://www.kongregate.com/games/funnaut/arcuz-full-version/metrics.json` | 5 |
 
 ## Output Files
 
