@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T09:31:13Z
+- Run timestamp: 2026-07-03T09:39:12Z
 - Profile games in scope: 1
-- Selected games sample: Game of Thrones Ascent
+- Selected games sample: Mu Complex : Episode Two
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: game of thrones ascent
+- Game-name filter: mu complex : episode two
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 939
-- Page jobs: 313
-- Pending before run: 313
-- Attempted this run: 30
-- Fetched this run: 14
+- CDX rows: 54
+- Page jobs: 27
+- Pending before run: 27
+- Attempted this run: 27
+- Fetched this run: 15
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 16
+- Network fetch failed this run: 12
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 30
+- Failed this run: 27
 - Manifest entries: 368
-- Known failures: 3599
+- Known failures: 3626
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
