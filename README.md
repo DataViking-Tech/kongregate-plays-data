@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1jWUQ7c84j6dwIN3r6Eka28Ya18SenpWZfZZNh6yY93k
+https://docs.google.com/spreadsheets/d/10e6yuD8vMomyWM1yATejGTQNtTRn15TAt4auL8bFfzw
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1jWUQ7c84j6dwIN3r6Eka28Ya18SenpWZfZZNh6yY
 - Ranked-list rows with aggregate as-of observed play counts: 43,489
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,239 across 2,672 canonical games
-- Observed play-count rows used by the chart: 24,155
+- Per-game play-history rows: 8,250 across 2,672 canonical games
+- Observed play-count rows used by the chart: 24,166
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,341 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-02
 - Per-game play-history date range: 2007-03-24 to 2026-07-02
@@ -289,6 +289,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 261 ran the next unambiguous exact-metrics shard: Idleplex, Inferno 2: Meltdown, Pirates of the Stupid Seas!, Prime World: Defenders, Cat in Japan, Cube Escape: Birthday, ClueSweeper, and GrindQuest Censored. The pass added 36 endpoint observations and recovered 16 new public play-count rows for Cat in Japan, ClueSweeper, Cube Escape: Birthday, GrindQuest Censored, Idleplex, and Prime World: Defenders; Inferno 2: Meltdown and Pirates of the Stupid Seas! had no archived exact-metrics rows in this pass. Unified play-history rows now stand at 8,198, count-source recovered rows at 486, chart observed rows at 24,114, and the bounded exact-metrics queue is down to 1,595. Aggregate as-of coverage remains 43,489 rows because the recovered observations still land after each game's open missing rank window. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 262 ran a URL-safe exact-metrics shard for the original Mike Shadow: I paid for it! URL plus Gun Mayhem 2:More Mayhem, Red Crucible: Reloaded, Shop Heroes, Tabletop idle, Sift Heads World act 7 - Ultimatum, Idle Evolution, and Medieval Chronicles 6. The pass found archived exact-metrics rows for all 8 games, added 44 endpoint observations, and recovered 22 new public play-count rows. Unified play-history rows now stand at 8,220, count-source recovered rows at 508, chart observed rows at 24,136, and the bounded exact-metrics queue is down to 1,587. Aggregate as-of coverage remains 43,489 rows because the recovered observations still land after each game's open missing rank window. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 263 ran the next exact-metrics shard for Legend of the Void 2, Revolution Idle 2, Idle Tower Defense, Card Hunter, SPACEPLAN Prototype, Medieval Cop V - The Secrets of Lucifer's Wings, Carbon Combat, and Swords & Potions 2. The pass found archived exact-metrics rows for all 8 games, added 38 endpoint observations, and recovered 19 new public play-count rows. Unified play-history rows now stand at 8,239, count-source recovered rows at 527, chart observed rows at 24,155, and the bounded exact-metrics queue is down to 1,579. Aggregate as-of coverage remains 43,489 rows because the recovered observations still land after each game's open missing rank window. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
+- Checkpoint 264 ran the next exact-metrics shard for Idle Tree, Idle Blacksmith, Red Crucible: Firestorm, Demon War: Idle Rebellion, Cube Escape: Case 23, Galactic Gravity Golf, Galactic Gravity Golf Deluxe, and Power-Copter. The pass added 32 endpoint observations and recovered 14 new public play-count rows; Galactic Gravity Golf and Galactic Gravity Golf Deluxe had no archived exact-metrics rows in this pass. Unified play-history rows now stand at 8,250, count-source recovered rows at 541, chart observed rows at 24,166, and the bounded exact-metrics queue is down to 1,571. Aggregate as-of coverage remains 43,489 rows because the recovered observations still land after each game's open missing rank window. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.

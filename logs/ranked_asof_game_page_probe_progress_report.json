@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:43:45Z",
+  "generated_at": "2026-07-03T17:54:34Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -18,8 +18,8 @@
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 26
   },
   "dynamic_metric_placeholder_games": 130,
-  "dynamic_metric_placeholder_games_with_metrics_json_probe": 129,
-  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 61,
+  "dynamic_metric_placeholder_games_with_metrics_json_probe": 130,
+  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 62,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 11,
   "high_value_unresolved_games": 1732,
   "top_unresolved_examples": [
