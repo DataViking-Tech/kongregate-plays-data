@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T10:04:25Z
+- Run timestamp: 2026-07-03T10:09:04Z
 - Profile games in scope: 1
-- Selected games sample: Escape Game - Computer Office Escape
+- Selected games sample: Bad Eggs Online 2
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: computer office escape
+- Game-name filter: bad eggs online 2
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 34
-- Page jobs: 17
-- Pending before run: 17
-- Attempted this run: 17
-- Fetched this run: 14
+- CDX rows: 531
+- Page jobs: 177
+- Pending before run: 177
+- Attempted this run: 30
+- Fetched this run: 16
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 3
+- Network fetch failed this run: 14
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 17
+- Failed this run: 30
 - Manifest entries: 368
-- Known failures: 3662
+- Known failures: 3692
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False

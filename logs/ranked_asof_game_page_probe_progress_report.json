@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:04:41Z",
+  "generated_at": "2026-07-03T10:09:20Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -7,17 +7,17 @@
   "metrics_row_status": "has_metrics",
   "profile_games": 1732,
   "status_counts": {
-    "not_checked": 1690,
-    "dynamic_metrics_placeholder": 41,
+    "not_checked": 1689,
+    "dynamic_metrics_placeholder": 42,
     "no_page_cdx_rows": 1
   },
   "recommended_action_counts": {
-    "Run a bounded page-history CDX shard for this game.": 1690,
-    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 40,
+    "Run a bounded page-history CDX shard for this game.": 1689,
+    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 41,
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 1,
     "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 1
   },
-  "dynamic_metric_placeholder_games": 41,
+  "dynamic_metric_placeholder_games": 42,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 1,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 0,
