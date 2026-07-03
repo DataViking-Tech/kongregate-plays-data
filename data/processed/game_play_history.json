@@ -7841,6 +7841,21 @@
       "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "capture_timestamp": "20160307154149",
       "capture_url": "https://web.archive.org/web/20160307154149/http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160307154149_http_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_981795b7c55fa702.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-03-07",
+      "game_name": "SAS: Zombie Assault 3",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3",
+      "plays_count_observed": 3993172,
+      "favorites_count_observed": 54570,
+      "plays_text": "3,993,172",
+      "favorites_text": "54,570",
+      "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "capture_timestamp": "20160307154149",
+      "capture_url": "https://web.archive.org/web/20160307154149/http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160307154149_http_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_981795b7c55fa702.json"
@@ -10361,9 +10376,39 @@
       "metrics_url": "http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
       "capture_timestamp": "20180308154703",
       "capture_url": "https://web.archive.org/web/20180308154703/http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180308154703_http_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_14402d920c12d6c0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 411295,
+      "favorites_count_observed": 4598,
+      "plays_text": "411,295",
+      "favorites_text": "4,598",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20180308154703",
+      "capture_url": "https://web.archive.org/web/20180308154703/http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180308154703_http_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_14402d920c12d6c0.json"
+    },
+    {
+      "date": "2018-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 411296,
+      "favorites_count_observed": 4598,
+      "plays_text": "411,296",
+      "favorites_text": "4,598",
+      "metrics_url": "http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20180308160036",
+      "capture_url": "https://web.archive.org/web/20180308160036/http://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180308160036_http_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_0974884f27b42e0a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-03-08",
@@ -14321,6 +14366,21 @@
       "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "capture_timestamp": "20191021040602",
       "capture_url": "https://web.archive.org/web/20191021040602/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191021040602_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_acedea869aa50be4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-21",
+      "game_name": "SAS: Zombie Assault 3",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3",
+      "plays_count_observed": 4557934,
+      "favorites_count_observed": 59524,
+      "plays_text": "4,557,934",
+      "favorites_text": "59,524",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "capture_timestamp": "20191021040602",
+      "capture_url": "https://web.archive.org/web/20191021040602/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040602_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_acedea869aa50be4.json"
@@ -16256,6 +16316,21 @@
       "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "capture_timestamp": "20191207205520",
       "capture_url": "https://web.archive.org/web/20191207205520/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191207205520_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_0bdb38463e1d9f5a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "SAS: Zombie Assault 3",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3",
+      "plays_count_observed": 4565571,
+      "favorites_count_observed": 59562,
+      "plays_text": "4,565,571",
+      "favorites_text": "59,562",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "capture_timestamp": "20191207205520",
+      "capture_url": "https://web.archive.org/web/20191207205520/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205520_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_0bdb38463e1d9f5a.json"
@@ -17489,6 +17564,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214040_https_www.kongregate.com_games_IriySoft_road-of-fury-2_metrics.json_60b78c11f22ac0d5.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "SAS: Zombie Assault 3",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3",
+      "plays_count_observed": 4570430,
+      "favorites_count_observed": 59604,
+      "plays_text": "4,570,430",
+      "favorites_text": "59,604",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "capture_timestamp": "20200108214123",
+      "capture_url": "https://web.archive.org/web/20200108214123/https://www.kongregate.com/games/Ninjakiwi/sas-zombie-assault-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214123_https_www.kongregate.com_games_Ninjakiwi_sas-zombie-assault-3_metrics.json_51077f9928c9e618.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-08",
@@ -26834,6 +26924,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201112180230_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_2c2dd4ee9265a2bc.json"
+    },
+    {
+      "date": "2020-11-12",
+      "game_name": "WarLight: Multi-Player",
+      "game_url": "https://www.kongregate.com/games/FizzerWL/warlight-multi-player",
+      "plays_count_observed": 906405,
+      "favorites_count_observed": 5247,
+      "plays_text": "906,405",
+      "favorites_text": "5,247",
+      "metrics_url": "https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json",
+      "capture_timestamp": "20201112170913",
+      "capture_url": "https://web.archive.org/web/20201112170913/https://www.kongregate.com/games/FizzerWL/warlight-multi-player/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201112170913_https_www.kongregate.com_games_FizzerWL_warlight-multi-player_metrics.json_a991954e63ecebdc.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-12",
@@ -41951,6 +42056,21 @@
       "metrics_url": "http://www.kongregate.com/games/juicybit/armor-mayhem/metrics.json",
       "capture_timestamp": "20211124203416",
       "capture_url": "https://web.archive.org/web/20211124203416/http://www.kongregate.com/games/juicybit/armor-mayhem/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211124203416_http_www.kongregate.com_games_juicybit_armor-mayhem_metrics.json_6a1d32b027e0a09d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-11-24",
+      "game_name": "Armor Mayhem",
+      "game_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem",
+      "plays_count_observed": 129333,
+      "favorites_count_observed": 1938,
+      "plays_text": "129,333",
+      "favorites_text": "1,938",
+      "metrics_url": "http://www.kongregate.com/games/juicybit/armor-mayhem/metrics.json",
+      "capture_timestamp": "20211124203416",
+      "capture_url": "https://web.archive.org/web/20211124203416/http://www.kongregate.com/games/juicybit/armor-mayhem/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211124203416_http_www.kongregate.com_games_juicybit_armor-mayhem_metrics.json_6a1d32b027e0a09d.json"
@@ -47024,6 +47144,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220603062532_http_www.kongregate.com_games_FlyAnvil_decision-2_metrics.json_5e92681883127a62.json"
+    },
+    {
+      "date": "2022-06-03",
+      "game_name": "Incursion",
+      "game_url": "http://www.kongregate.com/games/booblycCom/incursion",
+      "plays_count_observed": 3102209,
+      "favorites_count_observed": 30764,
+      "plays_text": "3,102,209",
+      "favorites_text": "30,764",
+      "metrics_url": "http://www.kongregate.com/games/booblycCom/incursion/metrics.json",
+      "capture_timestamp": "20220603164209",
+      "capture_url": "https://web.archive.org/web/20220603164209/http://www.kongregate.com/games/booblycCom/incursion/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220603164209_http_www.kongregate.com_games_booblycCom_incursion_metrics.json_a5aa8adb4edd3a7f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-06-03",
@@ -54723,6 +54858,21 @@
     {
       "date": "2023-02-14",
       "game_name": "Blush Blush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush",
+      "plays_count_observed": 496791,
+      "favorites_count_observed": 3403,
+      "plays_text": "496,791",
+      "favorites_text": "3,403",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "capture_timestamp": "20230214163212",
+      "capture_url": "https://web.archive.org/web/20230214163212/https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230214163212_https_www.kongregate.com_games_SadPandaStudios_blush-blush_metrics.json_57667c1ad3d629fe.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-02-14",
+      "game_name": "Blush Blush",
       "game_url": "https://www.kongregate.com/en/games/SadPandaStudios/blush-blush",
       "plays_count_observed": 496791,
       "favorites_count_observed": 3403,
@@ -56114,6 +56264,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230226165508_https_www.kongregate.com_games_RogueSword_dungeoneers_metrics.json_ad469a59ab4902e8.json"
+    },
+    {
+      "date": "2023-02-26",
+      "game_name": "Earn to Die",
+      "game_url": "https://www.kongregate.com/games/ToffeeGames/earn-to-die",
+      "plays_count_observed": 2572042,
+      "favorites_count_observed": 24760,
+      "plays_text": "2,572,042",
+      "favorites_text": "24,760",
+      "metrics_url": "https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json",
+      "capture_timestamp": "20230226163932",
+      "capture_url": "https://web.archive.org/web/20230226163932/https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230226163932_https_www.kongregate.com_games_ToffeeGames_earn-to-die_metrics.json_91a51929299b2674.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-02-26",
@@ -59429,6 +59594,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230525220936_https_www.kongregate.com_games_innocuousGames_amorphous_metrics.json_48327929331a60ad.json"
+    },
+    {
+      "date": "2023-05-25",
+      "game_name": "Earn to Die",
+      "game_url": "https://www.kongregate.com/games/ToffeeGames/earn-to-die",
+      "plays_count_observed": 2575372,
+      "favorites_count_observed": 24769,
+      "plays_text": "2,575,372",
+      "favorites_text": "24,769",
+      "metrics_url": "https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json",
+      "capture_timestamp": "20230525155144",
+      "capture_url": "https://web.archive.org/web/20230525155144/https://www.kongregate.com/games/ToffeeGames/earn-to-die/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230525155144_https_www.kongregate.com_games_ToffeeGames_earn-to-die_metrics.json_9dab25703a21bbe0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-05-25",
@@ -68696,6 +68876,21 @@
       "metrics_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
       "capture_timestamp": "20240117081228",
       "capture_url": "https://web.archive.org/web/20240117081228/https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117081228_https_www.kongregate.com_games_JuicyBit_armor-mayhem_metrics.json_647187211ca439c2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Armor Mayhem",
+      "game_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem",
+      "plays_count_observed": 157120,
+      "favorites_count_observed": 1935,
+      "plays_text": "157,120",
+      "favorites_text": "1,935",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
+      "capture_timestamp": "20240117081228",
+      "capture_url": "https://web.archive.org/web/20240117081228/https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117081228_https_www.kongregate.com_games_JuicyBit_armor-mayhem_metrics.json_647187211ca439c2.json"
@@ -69704,6 +69899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119065957_https_www.kongregate.com_games_Ninjakiwi_bloons-tower-defense-4_metrics.json_4270c4a9ec88b5b0.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Blush Blush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush",
+      "plays_count_observed": 576457,
+      "favorites_count_observed": 3594,
+      "plays_text": "576,457",
+      "favorites_text": "3,594",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "capture_timestamp": "20240119070350",
+      "capture_url": "https://web.archive.org/web/20240119070350/https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119070350_https_www.kongregate.com_games_SadPandaStudios_blush-blush_metrics.json_c6ec29dab6fddc75.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-19",
@@ -72074,6 +72284,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121135625_https_www.kongregate.com_games_TogeProductions_infectonator-world-dominator_metrics.json_b35dd96ff025b3e8.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 461868,
+      "favorites_count_observed": 4790,
+      "plays_text": "461,868",
+      "favorites_text": "4,790",
+      "metrics_url": "https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20240121225120",
+      "capture_url": "https://web.archive.org/web/20240121225120/https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121225120_https_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_5f188983dc0443b4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-21",
@@ -76106,6 +76331,21 @@
       "metrics_url": "https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
       "capture_timestamp": "20240308184906",
       "capture_url": "https://web.archive.org/web/20240308184906/https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240308184906_https_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_acd46364becec991.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "Man or Monster",
+      "game_url": "http://www.kongregate.com/games/miniclip/man-or-monster",
+      "plays_count_observed": 462049,
+      "favorites_count_observed": 4790,
+      "plays_text": "462,049",
+      "favorites_text": "4,790",
+      "metrics_url": "https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
+      "capture_timestamp": "20240308184906",
+      "capture_url": "https://web.archive.org/web/20240308184906/https://www.kongregate.com/games/miniclip/man-or-monster/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308184906_https_www.kongregate.com_games_miniclip_man-or-monster_metrics.json_acd46364becec991.json"
@@ -77774,6 +78014,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240506035746_https_www.kongregate.com_games_DrNeroCF_fancy-pants-adventure-world-2_metrics.json_4a5ebc96aa9c8b1a.json"
+    },
+    {
+      "date": "2024-05-06",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 635225,
+      "favorites_count_observed": 4471,
+      "plays_text": "635,225",
+      "favorites_text": "4,471",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20240506065439",
+      "capture_url": "https://web.archive.org/web/20240506065439/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240506065439_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_66c68792ce5e05eb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-05-06",
@@ -79514,6 +79769,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240722234841_https_www.kongregate.com_games_Platonic_synergism_metrics.json_f306ec3682e8bba9.json"
+    },
+    {
+      "date": "2024-07-23",
+      "game_name": "Blush Blush",
+      "game_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush",
+      "plays_count_observed": 615746,
+      "favorites_count_observed": 3656,
+      "plays_text": "615,746",
+      "favorites_text": "3,656",
+      "metrics_url": "https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "capture_timestamp": "20240723002107",
+      "capture_url": "https://web.archive.org/web/20240723002107/https://www.kongregate.com/games/SadPandaStudios/blush-blush/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240723002107_https_www.kongregate.com_games_SadPandaStudios_blush-blush_metrics.json_2eabf3e196b8debd.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-07-23",
@@ -82376,6 +82646,21 @@
       "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
       "capture_timestamp": "20240930180018",
       "capture_url": "https://web.archive.org/web/20240930180018/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240930180018_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_644c584bc21450e2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-09-30",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 636582,
+      "favorites_count_observed": 4474,
+      "plays_text": "636,582",
+      "favorites_text": "4,474",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20240930180018",
+      "capture_url": "https://web.archive.org/web/20240930180018/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240930180018_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_644c584bc21450e2.json"
@@ -83444,6 +83729,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241213061710_https_www.kongregate.com_games_TheGameHomepage_red-remover_metrics.json_9b63cc803f46a4bc.json"
+    },
+    {
+      "date": "2024-12-13",
+      "game_name": "Red Remover Player Pack",
+      "game_url": "http://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack",
+      "plays_count_observed": 637316,
+      "favorites_count_observed": 4476,
+      "plays_text": "637,316",
+      "favorites_text": "4,476",
+      "metrics_url": "https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "capture_timestamp": "20241213063655",
+      "capture_url": "https://web.archive.org/web/20241213063655/https://www.kongregate.com/games/TheGameHomepage/red-remover-player-pack/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20241213063655_https_www.kongregate.com_games_TheGameHomepage_red-remover-player-pack_metrics.json_224843bb18306f02.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-12-13",
@@ -84599,6 +84899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250212004715_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_a6194e4a8435cffa.json"
+    },
+    {
+      "date": "2025-02-12",
+      "game_name": "Armor Mayhem",
+      "game_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem",
+      "plays_count_observed": 161813,
+      "favorites_count_observed": 1953,
+      "plays_text": "161,813",
+      "favorites_text": "1,953",
+      "metrics_url": "https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
+      "capture_timestamp": "20250212030436",
+      "capture_url": "https://web.archive.org/web/20250212030436/https://www.kongregate.com/games/JuicyBit/armor-mayhem/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250212030436_https_www.kongregate.com_games_JuicyBit_armor-mayhem_metrics.json_ebe4bd3da8b33298.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-02-12",
