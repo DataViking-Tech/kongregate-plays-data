@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T18:04:00Z
+- Generated: 2026-07-03T20:16:54Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
@@ -28,14 +28,14 @@
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Wheelie Legend | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 1 | 0 | 2014-08-22 |
+| Wheelie Legend | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 5 | 0 | 2014-08-22 |
 | Battle Of Heroes | 1 | dynamic_metrics_placeholder | 1 | 5 | 5 | 1 | 1 | 2014-08-26 |
 | Jellydad Hero | 1 | dynamic_metrics_placeholder | 1 | 18 | 5 | 1 | 1 | 2014-08-29 |
-| The world most bugged game | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 1 | 0 | 2014-09-14 |
-| Classical Snake | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 1 | 0 | 2014-09-19 |
+| The world most bugged game | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 3 | 0 | 2014-09-14 |
+| Classical Snake | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 3 | 0 | 2014-09-19 |
 | Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 4 | 4 | 1 | 1 | 2014-09-19 |
-| Brakeless Trials Game 2014 | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-09-20 |
-| Evolve | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 1 | 0 | 2014-09-26 |
+| Brakeless Trials Game 2014 | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 3 | 0 | 2014-09-20 |
+| Evolve | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 3 | 0 | 2014-09-26 |
 | The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 3 | 0 | 2014-09-26 |
 | Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 3 | 0 | 2014-10-03 |
 | Bakery French Bread | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2014-10-04 |

@@ -1,20 +1,20 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 10,
+  "candidate_observation_rows": 16,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 10,
+  "cdx_lookups": 16,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
     "cached": 2,
-    "fetched": 8
+    "fetched": 14
   },
   "cdx_wall_timeout": 15.0,
   "collapse": "digest",
-  "game_name_contains": "Heroes vs Devil,KNF mysterious snow forest escape,Space Assault,The Secret Lab,Tittu And Annie 11",
-  "games_direct_probed": 5,
+  "game_name_contains": "",
+  "games_direct_probed": 8,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 5,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_275.csv",
+  "games_without_cached_pages": 8,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_276_retry.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
   "max_cdx_lookups": 40,
@@ -31,47 +31,74 @@
   "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Heroes vs Devil": {
+    "Defense Prototype 3": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Husenicar/heroes-vs-devil",
+      "game_url": "http://www.kongregate.com/games/mikhog/defense-prototype-3",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "KNF mysterious snow forest escape": {
+    "Dr. Steward 75K's Intergalactic Darryl Naturam 2021": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/knfgame1/knf-mysterious-snow-forest-escape",
+      "game_url": "http://www.kongregate.com/games/stewardhklarlove/dr-steward-75ks-intergalactic-darryl-naturam-2021",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Space Assault": {
+    "Last Man Alive": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/tete94/space-assault",
+      "game_url": "http://www.kongregate.com/games/storm_howard/last-man-alive",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Secret Lab": {
+    "Rango": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/SandraKim/the-secret-lab",
+      "game_url": "http://www.kongregate.com/games/sadistfairy/rango",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Tittu And Annie 11": {
+    "SS17 SuperCarla": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Enagamess/tittu-and-annie-11",
+      "game_url": "http://www.kongregate.com/games/lionel_ict/ss17-supercarla",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Space Stranger": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/LatypovKamil/space-stranger",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Stardust": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/voidExec/stardust",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Summoner's Tale (in developing)": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Mohamed_Negm/summoners-tale-in-developing",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -82,18 +109,18 @@
     "total": 614
   },
   "persisted_probe_history": {
-    "added": 10,
-    "total": 15380,
+    "added": 16,
+    "total": 15444,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T20:02:47Z",
+  "run_timestamp": "2026-07-03T20:16:17Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 5,
+  "target_games": 8,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
