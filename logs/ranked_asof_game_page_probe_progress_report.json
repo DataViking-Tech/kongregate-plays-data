@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T07:17:44Z",
+  "generated_at": "2026-07-03T07:23:21Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -7,19 +7,45 @@
   "metrics_row_status": "has_metrics",
   "profile_games": 1732,
   "status_counts": {
-    "not_checked": 1719,
-    "dynamic_metrics_placeholder": 13
+    "not_checked": 1718,
+    "dynamic_metrics_placeholder": 14
   },
   "recommended_action_counts": {
-    "Run a bounded page-history CDX shard for this game.": 1719,
-    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 13
+    "Run a bounded page-history CDX shard for this game.": 1718,
+    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 14
   },
-  "dynamic_metric_placeholder_games": 13,
+  "dynamic_metric_placeholder_games": 14,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 0,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 0,
   "high_value_unresolved_games": 1732,
   "top_unresolved_examples": [
+    {
+      "status": "dynamic_metrics_placeholder",
+      "followup_tier": 1,
+      "game_name": "Mu Complex : Episode One",
+      "game_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-one",
+      "canonical_game_key": "www.kongregate.com/games/studiocime/mu-complex-episode-one",
+      "best_rank": 1,
+      "top_n_appearances": 20,
+      "listing_play_count_rows": 0,
+      "needs_game_page_history": "yes",
+      "first_seen_date": "2014-11-11",
+      "last_seen_date": "2015-10-03",
+      "cached_cdx_variants": 3,
+      "unique_cdx_rows": 56,
+      "parsed_page_rows": 0,
+      "failed_page_rows": 20,
+      "no_explicit_count_failures": 14,
+      "network_or_fetch_failures": 6,
+      "dynamic_metric_placeholder_pages": 14,
+      "game_metrics_updater_pages": 14,
+      "blank_gameplays_count_pages": 14,
+      "metrics_json_probe_observations": 0,
+      "metrics_json_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 0,
+      "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
+    },
     {
       "status": "dynamic_metrics_placeholder",
       "followup_tier": 1,
@@ -682,32 +708,6 @@
       "needs_game_page_history": "yes",
       "first_seen_date": "2014-11-11",
       "last_seen_date": "2014-11-11",
-      "cached_cdx_variants": 0,
-      "unique_cdx_rows": 0,
-      "parsed_page_rows": 0,
-      "failed_page_rows": 0,
-      "no_explicit_count_failures": 0,
-      "network_or_fetch_failures": 0,
-      "dynamic_metric_placeholder_pages": 0,
-      "game_metrics_updater_pages": 0,
-      "blank_gameplays_count_pages": 0,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Run a bounded page-history CDX shard for this game."
-    },
-    {
-      "status": "not_checked",
-      "followup_tier": 1,
-      "game_name": "Mu Complex : Episode One",
-      "game_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-one",
-      "canonical_game_key": "www.kongregate.com/games/studiocime/mu-complex-episode-one",
-      "best_rank": 1,
-      "top_n_appearances": 20,
-      "listing_play_count_rows": 0,
-      "needs_game_page_history": "yes",
-      "first_seen_date": "2014-11-11",
-      "last_seen_date": "2015-10-03",
       "cached_cdx_variants": 0,
       "unique_cdx_rows": 0,
       "parsed_page_rows": 0,

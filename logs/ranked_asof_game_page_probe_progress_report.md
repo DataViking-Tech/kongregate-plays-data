@@ -1,22 +1,22 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T07:17:44Z
+- Generated: 2026-07-03T07:23:21Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1719
-- dynamic_metrics_placeholder: 13
+- not_checked: 1718
+- dynamic_metrics_placeholder: 14
 
 ## Recommended Actions
 
-- 1719: Run a bounded page-history CDX shard for this game.
-- 13: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1718: Run a bounded page-history CDX shard for this game.
+- 14: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 13
+- Dynamic metric placeholder games: 14
 - With exact metrics.json probe history: 0
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -25,6 +25,7 @@
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 0 | 0 | 2014-11-11 |
 | The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
 | Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 0 | 0 | 2015-02-23 |
 | Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 0 | 0 | 2015-08-09 |
@@ -49,4 +50,3 @@
 | The Adventures of Bit and Ravh | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-17 |
 | March | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-18 |
 | shieldshooting | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-29 |
-| Out Of Order | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-31 |

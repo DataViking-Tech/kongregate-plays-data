@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T07:17:31Z
-- Profile games in scope: 1
-- Selected games sample: Crusaders of the Lost Idols
+- Run timestamp: 2026-07-03T07:23:06Z
+- Profile games in scope: 2
+- Selected games sample: Mu Complex : Episode One, Mu Complex : Episode Two
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: crusaders of the lost idols
+- Game-name filter: mu complex
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 1512
-- Page jobs: 504
-- Pending before run: 504
+- CDX rows: 168
+- Page jobs: 56
+- Pending before run: 56
 - Attempted this run: 20
-- Fetched this run: 18
+- Fetched this run: 14
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 2
+- Network fetch failed this run: 6
 - Parsed rows this run: 0
 - No explicit count this run: 0
 - Failed this run: 20
 - Manifest entries: 368
-- Known failures: 3060
+- Known failures: 3080
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
