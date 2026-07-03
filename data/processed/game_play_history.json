@@ -13166,6 +13166,21 @@
       "metrics_url": "https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
       "capture_timestamp": "20190702072652",
       "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072652_https_www.kongregate.com_games_theLucre_lost-ethereal_metrics.json_591e71d7609a34df.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Lost Ethereal",
+      "game_url": "http://www.kongregate.com/games/theLucre/lost-ethereal",
+      "plays_count_observed": 49031,
+      "favorites_count_observed": 313,
+      "plays_text": "49,031",
+      "favorites_text": "313",
+      "metrics_url": "https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
+      "capture_timestamp": "20190702072652",
+      "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/theLucre/lost-ethereal/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072652_https_www.kongregate.com_games_theLucre_lost-ethereal_metrics.json_591e71d7609a34df.json"
@@ -52241,6 +52256,21 @@
       "metrics_url": "https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
       "capture_timestamp": "20221021092500",
       "capture_url": "https://web.archive.org/web/20221021092500/https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221021092500_https_www.kongregate.com_games_AnAlt_Ver3_feed-the-d-christian-friendly_metrics.json_a56e49761c38fa62.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-10-21",
+      "game_name": "Feed The D (Christian-Friendly)",
+      "game_url": "http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly",
+      "plays_count_observed": 296,
+      "favorites_count_observed": 2,
+      "plays_text": "296",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "capture_timestamp": "20221021092500",
+      "capture_url": "https://web.archive.org/web/20221021092500/https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221021092500_https_www.kongregate.com_games_AnAlt_Ver3_feed-the-d-christian-friendly_metrics.json_a56e49761c38fa62.json"
@@ -63224,6 +63254,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230802145637_https_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_862f55381fc76384.json"
+    },
+    {
+      "date": "2023-08-02",
+      "game_name": "Feed The D (Christian-Friendly)",
+      "game_url": "http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly",
+      "plays_count_observed": 304,
+      "favorites_count_observed": 2,
+      "plays_text": "304",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "capture_timestamp": "20230802011150",
+      "capture_url": "https://web.archive.org/web/20230802011150/https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230802011150_https_www.kongregate.com_games_AnAlt_Ver3_feed-the-d-christian-friendly_metrics.json_890914991ced7815.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-08-02",
@@ -91754,6 +91799,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250807165020_https_www.kongregate.com_games_draugiemlauris_oceania_metrics.json_3bc5ffd9801df43a.json"
+    },
+    {
+      "date": "2025-08-07",
+      "game_name": "Pixel Modern SWAT VS Mercenary",
+      "game_url": "http://www.kongregate.com/games/mentolatux/pixel-modern-swat-vs-mercenary",
+      "plays_count_observed": 196,
+      "favorites_count_observed": 0,
+      "plays_text": "196",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/mentolatux/pixel-modern-swat-vs-mercenary/metrics.json",
+      "capture_timestamp": "20250807180126",
+      "capture_url": "https://web.archive.org/web/20250807180126/https://www.kongregate.com/games/mentolatux/pixel-modern-swat-vs-mercenary/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250807180126_https_www.kongregate.com_games_mentolatux_pixel-modern-swat-vs-mercenary_metrics.json_5d320875e8a3f1ed.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-08-07",
