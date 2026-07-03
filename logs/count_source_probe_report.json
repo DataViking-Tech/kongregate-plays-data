@@ -1,19 +1,19 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 17,
-  "candidates_with_cdx": 4,
-  "cdx_lookups": 17,
-  "cdx_rows_found": 4,
+  "candidate_observation_rows": 15,
+  "candidates_with_cdx": 1,
+  "cdx_lookups": 15,
+  "cdx_rows_found": 1,
   "cdx_status_counts": {
-    "fetched": 17
+    "fetched": 15
   },
   "cdx_wall_timeout": 25.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 9,
+  "games_direct_probed": 12,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 9,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_284.csv",
+  "games_without_cached_pages": 12,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_285.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
   "max_cdx_lookups": 70,
@@ -26,115 +26,138 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 4,
+  "parsed_play_count_rows": 1,
   "payload_wall_timeout": 18.0,
-  "payloads_with_count_signal": 4,
+  "payloads_with_count_signal": 1,
   "per_game": {
-    "Attack On Trump": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/dci05049/attack-on-trump",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Dragon Fortress": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        277764,
-        277764
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "GameToilet Mobile#2 : Watch Paint Dry": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        901,
-        901
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Pink Panther Jigsaw": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/newgamess/pink-panther-jigsaw",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Replica": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Klatu/replica",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Solek adventure in green lime land": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/TowaOffKranuh/solek-adventure-in-green-lime-land",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Super Monkey Adventure": {
+    "Bat-Battery": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/flowlab/super-monkey-adventure",
+      "game_url": "http://www.kongregate.com/games/cenullum/bat-battery",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Zombie Kentaur 2": {
+    "Caveman Chuck": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/TheronK71/zombie-kentaur-2",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/PrimeBitGames/caveman-chuck",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "sad Buble shotter": {
+    "Fashionistas Boho vs Grunge": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/IdeaStudio/fashionistas-boho-vs-grunge",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Girl Throat Surgery": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/k25507891/girl-throat-surgery",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Jerry's Quest": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/techidwarf/sad-buble-shotter",
+      "game_url": "http://www.kongregate.com/games/MojoUS/jerrys-quest",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Lake City": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Enagamess/lake-city",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Ore Hunt": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/KlasseMia19/ore-hunt",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "ROOFRUNNER X": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/Sincitysaint/roofrunner-x",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Forest Mirror": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/JosephMoonGolf/the-forest-mirror",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Locker - Bullet Factory": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/Enagamess/the-locker-bullet-factory",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The depths idle": {
+      "candidates_with_cdx": 1,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle",
+      "pages_checked": 0,
+      "parsed_play_counts": [
+        265969
+      ],
+      "payloads_with_count_signal": 1
+    },
+    "Try This Room Escape": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/8bgames/try-this-room-escape",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 2,
-    "total": 678
+    "added": 1,
+    "total": 685
   },
   "persisted_probe_history": {
-    "added": 17,
-    "total": 16324,
+    "added": 15,
+    "total": 16429,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T22:04:11Z",
+  "run_timestamp": "2026-07-03T22:17:34Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 9,
+  "target_games": 12,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [
@@ -142,66 +165,15 @@
       "cdx_rows": 1,
       "cdx_status": "fetched",
       "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "game_name": "Dragon Fortress",
-      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
+      "endpoint_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "game_name": "The depths idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle",
       "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 277764,
+      "parsed_plays": 265969,
       "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.txt",
-      "sample_timestamp": "20211027111834",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "game_name": "Dragon Fortress",
-      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 277764,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.txt",
-      "sample_timestamp": "20211027111834",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "game_name": "GameToilet Mobile#2 : Watch Paint Dry",
-      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 901,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119072852_https_www.kongregate.com_games_kingbaggot_gametoilet-mobile-2-watch-paint-dry_metrics.json_189705b40da772b4.txt",
-      "sample_timestamp": "20211119072852",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "game_name": "GameToilet Mobile#2 : Watch Paint Dry",
-      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 901,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119072852_https_www.kongregate.com_games_kingbaggot_gametoilet-mobile-2-watch-paint-dry_metrics.json_189705b40da772b4.txt",
-      "sample_timestamp": "20211119072852",
+      "sample_original": "https://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20250402214527_https_www.kongregate.com_games_omgnoob191_the-depths-idle_metrics.json_839170726c6e195c.txt",
+      "sample_timestamp": "20250402214527",
       "source_page_path": "",
       "source_page_timestamp": "",
       "source_type": "metrics_json"
@@ -212,66 +184,15 @@
       "cdx_rows": 1,
       "cdx_status": "fetched",
       "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "game_name": "Dragon Fortress",
-      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
+      "endpoint_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "game_name": "The depths idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/the-depths-idle",
       "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 277764,
+      "parsed_plays": 265969,
       "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.txt",
-      "sample_timestamp": "20211027111834",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "game_name": "Dragon Fortress",
-      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 277764,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.txt",
-      "sample_timestamp": "20211027111834",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "game_name": "GameToilet Mobile#2 : Watch Paint Dry",
-      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 901,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119072852_https_www.kongregate.com_games_kingbaggot_gametoilet-mobile-2-watch-paint-dry_metrics.json_189705b40da772b4.txt",
-      "sample_timestamp": "20211119072852",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "game_name": "GameToilet Mobile#2 : Watch Paint Dry",
-      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 901,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119072852_https_www.kongregate.com_games_kingbaggot_gametoilet-mobile-2-watch-paint-dry_metrics.json_189705b40da772b4.txt",
-      "sample_timestamp": "20211119072852",
+      "sample_original": "https://www.kongregate.com/games/omgnoob191/the-depths-idle/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20250402214527_https_www.kongregate.com_games_omgnoob191_the-depths-idle_metrics.json_839170726c6e195c.txt",
+      "sample_timestamp": "20250402214527",
       "source_page_path": "",
       "source_page_timestamp": "",
       "source_type": "metrics_json"
