@@ -1,6 +1,6 @@
 # Kongregate Game Lifecycle Catalog Report
 
-- Generated at: 2026-07-03T14:24:46Z
+- Generated at: 2026-07-03T14:39:10Z
 - Catalog games: 2997
 - Rows with observed categories: 579
 - Facebook/social candidate counts: {'likely': 5, 'no': 2978, 'possible': 14}

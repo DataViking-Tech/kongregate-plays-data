@@ -58406,6 +58406,21 @@
       "metrics_url": "https://www.kongregate.com/games/adry_fab/supervivencia-en-la-selva/metrics.json",
       "capture_timestamp": "20230603214118",
       "capture_url": "https://web.archive.org/web/20230603214118/https://www.kongregate.com/games/adry_fab/supervivencia-en-la-selva/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230603214118_https_www.kongregate.com_games_adry_fab_supervivencia-en-la-selva_metrics.json_c925f640da7db1c7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-06-03",
+      "game_name": "Supervivencia en la Selva",
+      "game_url": "http://www.kongregate.com/games/adry_fab/supervivencia-en-la-selva",
+      "plays_count_observed": 97,
+      "favorites_count_observed": 0,
+      "plays_text": "97",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/adry_fab/supervivencia-en-la-selva/metrics.json",
+      "capture_timestamp": "20230603214118",
+      "capture_url": "https://web.archive.org/web/20230603214118/https://www.kongregate.com/games/adry_fab/supervivencia-en-la-selva/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230603214118_https_www.kongregate.com_games_adry_fab_supervivencia-en-la-selva_metrics.json_c925f640da7db1c7.json"
@@ -59624,6 +59639,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230726145737_https_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_633b8620ca6b6100.json"
+    },
+    {
+      "date": "2023-07-27",
+      "game_name": "Desert Bus 3D",
+      "game_url": "http://www.kongregate.com/games/firkinstudios/desert-bus-3d",
+      "plays_count_observed": 1345,
+      "favorites_count_observed": 1,
+      "plays_text": "1,345",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "capture_timestamp": "20230727021005",
+      "capture_url": "https://web.archive.org/web/20230727021005/https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230727021005_https_www.kongregate.com_games_firkinstudios_desert-bus-3d_metrics.json_b1d2cfa4b21cec36.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-07-27",
@@ -61469,6 +61499,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913221023_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_4a38f9ee7657ff2a.json"
+    },
+    {
+      "date": "2023-09-13",
+      "game_name": "Desert Bus 3D",
+      "game_url": "http://www.kongregate.com/games/firkinstudios/desert-bus-3d",
+      "plays_count_observed": 1350,
+      "favorites_count_observed": 1,
+      "plays_text": "1,350",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "capture_timestamp": "20230913221812",
+      "capture_url": "https://web.archive.org/web/20230913221812/https://www.kongregate.com/games/firkinstudios/desert-bus-3d/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230913221812_https_www.kongregate.com_games_firkinstudios_desert-bus-3d_metrics.json_5521ed3844752197.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-09-13",
