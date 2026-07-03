@@ -1,9 +1,9 @@
 # Ranked Games Observed Plays Report
 
-- Run timestamp: 2026-07-03T19:34:16Z
-- Ranked rows: 48584
-- Direct listing play-count rows: 15916 (32.76%)
-- Aggregate as-of play-count rows: 43489 (89.51%)
+- Run timestamp: 2026-07-03T19:49:45Z
+- Ranked rows: 49283
+- Direct listing play-count rows: 16615 (33.71%)
+- Aggregate as-of play-count rows: 44188 (89.66%)
 - Ranked months with rows but no direct listing play counts: 134 (2014-09 to 2025-10)
 - Ranked months with rows but no aggregate as-of play counts: 0 (n/a)
 - Max aggregate as-of observation lag: 5956 days

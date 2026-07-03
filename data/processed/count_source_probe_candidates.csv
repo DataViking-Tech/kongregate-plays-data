@@ -1,7 +1,3 @@
 game_name,game_url,source_page_timestamp,source_page_path,source_type,endpoint_url,cdx_status,cdx_rows,sample_timestamp,sample_original,sample_mimetype,sample_path,count_signal,parsed_plays,notes
-[TEST] AvengerHeroWorld,http://www.kongregate.com/games/galaxymika/test-avengerheroworld,,,metrics_json,http://www.kongregate.com/games/galaxymika/test-avengerheroworld/metrics.json,cached,0,,,,,,,generated_from_catalog_game_url
-[TEST] AvengerHeroWorld,http://www.kongregate.com/games/galaxymika/test-avengerheroworld,,,metrics_json,https://www.kongregate.com/games/galaxymika/test-avengerheroworld/metrics.json,fetched,0,,,,,,,generated_from_catalog_game_url
-Burro Bandito,http://www.kongregate.com/games/corralezd/burro-bandito,,,metrics_json,http://www.kongregate.com/games/corralezd/burro-bandito/metrics.json,fetched,0,,,,,,,generated_from_catalog_game_url
-Burro Bandito,http://www.kongregate.com/games/corralezd/burro-bandito,,,metrics_json,https://www.kongregate.com/games/corralezd/burro-bandito/metrics.json,cached,0,,,,,,,generated_from_catalog_game_url
-Match It RGB,http://www.kongregate.com/games/Danieo6/match-it-rgb,,,metrics_json,http://www.kongregate.com/games/Danieo6/match-it-rgb/metrics.json,cached,0,,,,,,,generated_from_catalog_game_url
-Match It RGB,http://www.kongregate.com/games/Danieo6/match-it-rgb,,,metrics_json,https://www.kongregate.com/games/Danieo6/match-it-rgb/metrics.json,fetched,0,,,,,,,generated_from_catalog_game_url
+Card game,http://www.kongregate.com/games/badfitz100/card-game,,,metrics_json,http://www.kongregate.com/games/badfitz100/card-game/metrics.json,fetched,0,,,,,,,generated_from_catalog_game_url
+Card game,http://www.kongregate.com/games/badfitz100/card-game,,,metrics_json,https://www.kongregate.com/games/badfitz100/card-game/metrics.json,cached,0,,,,,,,generated_from_catalog_game_url

@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 6,
+  "candidate_observation_rows": 2,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 6,
+  "cdx_lookups": 2,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 3,
-    "fetched": 3
+    "cached": 1,
+    "fetched": 1
   },
   "cdx_wall_timeout": 20.0,
   "collapse": "digest",
-  "game_name_contains": "[TEST] AvengerHeroWorld,Burro Bandito,Match It RGB",
-  "games_direct_probed": 3,
+  "game_name_contains": "Card game",
+  "games_direct_probed": 1,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 3,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_273.csv",
+  "games_without_cached_pages": 1,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_274.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 24,
+  "max_cdx_lookups": 8,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -31,29 +31,11 @@
   "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Burro Bandito": {
+    "Card game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/corralezd/burro-bandito",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Match It RGB": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Danieo6/match-it-rgb",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "[TEST] AvengerHeroWorld": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/galaxymika/test-avengerheroworld",
+      "game_url": "http://www.kongregate.com/games/badfitz100/card-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -61,21 +43,21 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 612
+    "total": 613
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 15256,
-    "updated": 3
+    "added": 2,
+    "total": 15322,
+    "updated": 0
   },
-  "run_timestamp": "2026-07-03T19:33:51Z",
+  "run_timestamp": "2026-07-03T19:48:22Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 3,
+  "target_games": 1,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],

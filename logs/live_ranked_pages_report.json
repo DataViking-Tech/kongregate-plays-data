@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-07-02T10:28:33Z",
-  "capture_timestamp": "20260702102822",
+  "run_timestamp": "2026-07-03T19:47:45Z",
+  "capture_timestamp": "20260703194735",
   "sources_selected": 14,
   "fetched_this_run": 14,
   "failed_this_run": 0,
   "skipped_unknown_source": 0,
   "valid_cached_for_timestamp": 14,
-  "manifest_entries": 3365,
+  "manifest_entries": 3379,
   "sources": [
     {
       "source_id": "live_en_action_games",

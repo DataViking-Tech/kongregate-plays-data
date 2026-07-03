@@ -1,25 +1,25 @@
 {
-  "catalog_games": 2997,
+  "catalog_games": 2998,
   "classification_confidence_counts": {
-    "low": 517,
+    "low": 518,
     "medium": 5
   },
   "facebook_social_candidate_counts": {
     "likely": 5,
-    "no": 2978,
+    "no": 2979,
     "possible": 14
   },
   "first_observed_date_range": [
     "2007-01-20",
-    "2026-07-01"
+    "2026-07-03"
   ],
-  "generated_at": "2026-07-03T19:36:37Z",
+  "generated_at": "2026-07-03T19:50:13Z",
   "last_observed_date_range": [
     "2007-03-24",
-    "2026-07-02"
+    "2026-07-03"
   ],
   "live_metric_status_counts": {
-    "live_metrics_available": 2113,
+    "live_metrics_available": 2114,
     "live_metrics_failed_http_404": 340,
     "not_checked": 544
   },
@@ -30,12 +30,12 @@
     "report_md": "logs/game_lifecycle_catalog_report.md"
   },
   "removal_evidence_status_counts": {
-    "live_metrics_available": 2113,
+    "live_metrics_available": 2114,
     "live_metrics_unavailable": 339,
     "no_removal_evidence": 544,
     "stale_live_metrics_failure_older_than_last_observation": 1
   },
-  "rows_with_observed_categories": 579,
+  "rows_with_observed_categories": 580,
   "top_social_candidates": [
     {
       "best_rank": 1,

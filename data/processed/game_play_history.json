@@ -88796,6 +88796,21 @@
       "metrics_url": "https://www.kongregate.com/games/omgnoob191/spell-idle-2/metrics.json",
       "capture_timestamp": "20250402214550",
       "capture_url": "https://web.archive.org/web/20250402214550/https://www.kongregate.com/games/omgnoob191/spell-idle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250402214550_https_www.kongregate.com_games_omgnoob191_spell-idle-2_metrics.json_7ae60d22ae34b263.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2025-04-02",
+      "game_name": "Spell idle 2",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/spell-idle-2",
+      "plays_count_observed": 341944,
+      "favorites_count_observed": 2145,
+      "plays_text": "341,944",
+      "favorites_text": "2,145",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/spell-idle-2/metrics.json",
+      "capture_timestamp": "20250402214550",
+      "capture_url": "https://web.archive.org/web/20250402214550/https://www.kongregate.com/games/omgnoob191/spell-idle-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402214550_https_www.kongregate.com_games_omgnoob191_spell-idle-2_metrics.json_7ae60d22ae34b263.json"
@@ -124649,6 +124664,21 @@
       "parser": "live_metrics_json",
       "confidence": "high",
       "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_synapticon_tyrant_d3d2666c90b514c4.json"
+    },
+    {
+      "date": "2026-07-03",
+      "game_name": "Tile Clash Arena",
+      "game_url": "https://www.kongregate.com/en/games/shubhtiwari/tile-clash-arena",
+      "plays_count_observed": 41,
+      "favorites_count_observed": 1,
+      "plays_text": "41",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/shubhtiwari/tile-clash-arena/metrics.json",
+      "capture_timestamp": "20260703194929",
+      "capture_url": "https://www.kongregate.com/games/shubhtiwari/tile-clash-arena/metrics.json",
+      "parser": "live_metrics_json",
+      "confidence": "high",
+      "notes": "Fetched from live Kongregate metrics JSON data/raw/game_metrics/live_json/www.kongregate.com_games_shubhtiwari_tile-clash-arena_7a1741963607e1ac.json"
     }
   ]
 }

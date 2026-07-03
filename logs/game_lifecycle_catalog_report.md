@@ -1,14 +1,14 @@
 # Kongregate Game Lifecycle Catalog Report
 
-- Generated at: 2026-07-03T19:36:37Z
-- Catalog games: 2997
-- Rows with observed categories: 579
-- Facebook/social candidate counts: {'likely': 5, 'no': 2978, 'possible': 14}
-- Classification confidence counts: {'low': 517, 'medium': 5}
-- Live metric status counts: {'live_metrics_available': 2113, 'live_metrics_failed_http_404': 340, 'not_checked': 544}
-- Removal evidence status counts: {'live_metrics_available': 2113, 'live_metrics_unavailable': 339, 'no_removal_evidence': 544, 'stale_live_metrics_failure_older_than_last_observation': 1}
-- First observed date range: 2007-01-20 to 2026-07-01
-- Last observed date range: 2007-03-24 to 2026-07-02
+- Generated at: 2026-07-03T19:50:13Z
+- Catalog games: 2998
+- Rows with observed categories: 580
+- Facebook/social candidate counts: {'likely': 5, 'no': 2979, 'possible': 14}
+- Classification confidence counts: {'low': 518, 'medium': 5}
+- Live metric status counts: {'live_metrics_available': 2114, 'live_metrics_failed_http_404': 340, 'not_checked': 544}
+- Removal evidence status counts: {'live_metrics_available': 2114, 'live_metrics_unavailable': 339, 'no_removal_evidence': 544, 'stale_live_metrics_failure_older_than_last_observation': 1}
+- First observed date range: 2007-01-20 to 2026-07-03
+- Last observed date range: 2007-03-24 to 2026-07-03
 
 ## Outputs
 
