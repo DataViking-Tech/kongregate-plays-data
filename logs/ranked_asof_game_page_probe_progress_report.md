@@ -1,6 +1,6 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T10:57:48Z
+- Generated: 2026-07-03T11:07:14Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
@@ -13,15 +13,15 @@
 ## Recommended Actions
 
 - 1679: Run a bounded page-history CDX shard for this game.
-- 47: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 4: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 44: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 7: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
 - 2: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
 - Dynamic metric placeholder games: 51
-- With exact metrics.json probe history: 5
-- With exact metrics.json CDX rows: 1
+- With exact metrics.json probe history: 15
+- With exact metrics.json CDX rows: 8
 - With alternate endpoint CDX rows: 0
 
 ## Top Unresolved Examples
@@ -30,18 +30,18 @@
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | Wheelie Legend | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 1 | 0 | 2014-08-22 |
 | Battle Of Heroes | 1 | dynamic_metrics_placeholder | 1 | 5 | 5 | 1 | 1 | 2014-08-26 |
-| Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 4 | 4 | 0 | 0 | 2014-09-19 |
-| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 0 | 0 | 2014-09-26 |
+| Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 4 | 4 | 1 | 1 | 2014-09-19 |
+| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-09-26 |
 | Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2014-10-03 |
-| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 0 | 0 | 2014-10-17 |
-| Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 0 | 0 | 2014-11-11 |
-| The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
-| Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 0 | 0 | 2015-02-23 |
-| Mu Complex : Episode Two | 1 | dynamic_metrics_placeholder | 2 | 27 | 15 | 0 | 0 | 2015-05-12 |
-| Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 0 | 0 | 2015-08-09 |
-| Swords and Souls | 1 | dynamic_metrics_placeholder | 3 | 73 | 16 | 0 | 0 | 2015-10-29 |
+| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 1 | 0 | 2014-10-17 |
+| Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 2 | 4 | 2014-11-11 |
+| The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 2 | 58 | 2015-02-07 |
+| Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 2 | 30 | 2015-02-23 |
+| Mu Complex : Episode Two | 1 | dynamic_metrics_placeholder | 2 | 27 | 15 | 1 | 1 | 2015-05-12 |
+| Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 2 | 16 | 2015-08-09 |
+| Swords and Souls | 1 | dynamic_metrics_placeholder | 3 | 73 | 16 | 2 | 102 | 2015-10-29 |
 | Discover | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2016-01-16 |
-| There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 0 | 0 | 2016-03-07 |
+| There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 1 | 0 | 2016-03-07 |
 | SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 0 | 0 | 2016-03-24 |
 | Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
 | Unpuzzle 2 | 1 | dynamic_metrics_placeholder | 3 | 17 | 13 | 0 | 0 | 2018-03-10 |

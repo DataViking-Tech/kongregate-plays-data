@@ -1,31 +1,27 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T10:57:30Z
-- Target games: 4
+- Generated: 2026-07-03T11:07:30Z
+- Target games: 1
 - Status filter: none
-- Games with cached archived pages: 4
+- Games with cached archived pages: 1
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 4
-- Candidate observation rows: 4
-- CDX status counts: fetched=4
-- CDX rows found: 1
-- Candidates with CDX rows: 1
-- Payloads with count-like signals: 1
-- Parsed play-count rows: 1
-- Deduped recovered play-count observations: 7 (1 new this run)
-- Accumulated probe-history rows: 12511 (4 new, 0 refreshed)
+- Endpoint candidates checked: 1
+- Candidate observation rows: 1
+- CDX status counts: failed=1
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 17 (0 new this run)
+- Accumulated probe-history rows: 12526 (0 new, 1 refreshed)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Battle Of Heroes | metrics_json | `http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json` | `http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json` | gameplays_count_with_delimiter | 57018 |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
-## Archived Endpoint Hits
+## Retry Note
 
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Battle Of Heroes | metrics_json | `http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json` | `http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json` | 1 |
+1 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 

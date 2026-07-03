@@ -6633,6 +6633,21 @@
     {
       "date": "2015-09-18",
       "game_name": "The Enchanted Cave 2",
+      "game_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 1545521,
+      "favorites_count_observed": 29708,
+      "plays_text": "1,545,521",
+      "favorites_text": "29,708",
+      "metrics_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20150918160715",
+      "capture_url": "https://web.archive.org/web/20150918160715/http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150918160715_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_13cb7a09d24e767a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-09-18",
+      "game_name": "The Enchanted Cave 2",
       "game_url": "https://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
       "plays_count_observed": 1545521,
       "favorites_count_observed": 29708,
@@ -6644,6 +6659,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150918160715_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_13cb7a09d24e767a.json"
+    },
+    {
+      "date": "2015-09-18",
+      "game_name": "The Enchanted Cave 2",
+      "game_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2",
+      "plays_count_observed": 1545521,
+      "favorites_count_observed": 29708,
+      "plays_text": "1,545,521",
+      "favorites_text": "29,708",
+      "metrics_url": "http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "capture_timestamp": "20150918160716",
+      "capture_url": "https://web.archive.org/web/20150918160716/http://www.kongregate.com/games/DustinAux/the-enchanted-cave-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150918160716_http_www.kongregate.com_games_DustinAux_the-enchanted-cave-2_metrics.json_0572fcaec0a2a2e7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-09-18",
@@ -6824,6 +6854,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151120202617_http_www.kongregate.com_games_Avaloid_tap-adventure_metrics.json_cfe36dda73b7e64c.json"
+    },
+    {
+      "date": "2015-11-22",
+      "game_name": "Swords and Souls",
+      "game_url": "https://www.kongregate.com/games/SoulGame/swords-and-souls",
+      "plays_count_observed": 1362561,
+      "favorites_count_observed": 21833,
+      "plays_text": "1,362,561",
+      "favorites_text": "21,833",
+      "metrics_url": "http://www.kongregate.com/games/SoulGame/swords-and-souls/metrics.json",
+      "capture_timestamp": "20151122173511",
+      "capture_url": "https://web.archive.org/web/20151122173511/http://www.kongregate.com/games/SoulGame/swords-and-souls/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151122173511_http_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_9484526ae1adb4c9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-11-22",
@@ -9266,6 +9311,21 @@
       "metrics_url": "http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
       "capture_timestamp": "20170901014445",
       "capture_url": "https://web.archive.org/web/20170901014445/http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170901014445_http_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_0aff808d12b5eac7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-09-01",
+      "game_name": "Swarm Simulator",
+      "game_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator",
+      "plays_count_observed": 9854193,
+      "favorites_count_observed": 25101,
+      "plays_text": "9,854,193",
+      "favorites_text": "25,101",
+      "metrics_url": "http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
+      "capture_timestamp": "20170901014445",
+      "capture_url": "https://web.archive.org/web/20170901014445/http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170901014445_http_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_0aff808d12b5eac7.json"
@@ -10211,6 +10271,21 @@
       "metrics_url": "http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json",
       "capture_timestamp": "20180415161811",
       "capture_url": "https://web.archive.org/web/20180415161811/http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180415161811_http_www.kongregate.com_80_games_StudioCime_mu-complex-episode-one_metrics.json_a14c99c90f5eed25.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-04-15",
+      "game_name": "Mu Complex : Episode One",
+      "game_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-one",
+      "plays_count_observed": 641755,
+      "favorites_count_observed": 10079,
+      "plays_text": "641,755",
+      "favorites_text": "10,079",
+      "metrics_url": "http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json",
+      "capture_timestamp": "20180415161811",
+      "capture_url": "https://web.archive.org/web/20180415161811/http://www.kongregate.com:80/games/StudioCime/mu-complex-episode-one/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180415161811_http_www.kongregate.com_80_games_StudioCime_mu-complex-episode-one_metrics.json_a14c99c90f5eed25.json"
@@ -10229,6 +10304,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180416091532_http_www.kongregate.com_80_games_Justin_wang123_rogue-fable-ii_metrics.json_396944b9652e0850.json"
+    },
+    {
+      "date": "2018-04-19",
+      "game_name": "Crusaders of the Lost Idols",
+      "game_url": "https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols",
+      "plays_count_observed": 17651487,
+      "favorites_count_observed": 36719,
+      "plays_text": "17,651,487",
+      "favorites_text": "36,719",
+      "metrics_url": "http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json",
+      "capture_timestamp": "20180419181056",
+      "capture_url": "https://web.archive.org/web/20180419181056/http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180419181056_http_www.kongregate.com_games_Codename_Enter_crusaders-of-the-lost-idols_metrics.json_289ec3d621b87eb6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-04-19",
@@ -14786,6 +14876,21 @@
       "metrics_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
       "capture_timestamp": "20191203173742",
       "capture_url": "https://web.archive.org/web/20191203173742/https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191203173742_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_8caae1038ef8620f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-03",
+      "game_name": "Swarm Simulator",
+      "game_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator",
+      "plays_count_observed": 11250645,
+      "favorites_count_observed": 27475,
+      "plays_text": "11,250,645",
+      "favorites_text": "27,475",
+      "metrics_url": "https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
+      "capture_timestamp": "20191203173742",
+      "capture_url": "https://web.archive.org/web/20191203173742/https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191203173742_https_www.kongregate.com_games_swarmsim_swarm-simulator_metrics.json_8caae1038ef8620f.json"
@@ -15614,6 +15719,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034653_https_www.kongregate.com_games_glimajr_continuity_metrics.json_e4354c7fc10fdc75.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Crusaders of the Lost Idols",
+      "game_url": "https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols",
+      "plays_count_observed": 21944735,
+      "favorites_count_observed": 39157,
+      "plays_text": "21,944,735",
+      "favorites_text": "39,157",
+      "metrics_url": "http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json",
+      "capture_timestamp": "20191215034651",
+      "capture_url": "https://web.archive.org/web/20191215034651/http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034651_http_www.kongregate.com_games_Codename_Enter_crusaders-of-the-lost-idols_metrics.json_e81493e768289d53.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -18134,6 +18254,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200325193659_https_www.kongregate.com_games_turboNuke_turbo-golf_metrics.json_da0a178f80450eda.json"
+    },
+    {
+      "date": "2020-03-27",
+      "game_name": "Mu Complex : Episode Two",
+      "game_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-two",
+      "plays_count_observed": 293193,
+      "favorites_count_observed": 3401,
+      "plays_text": "293,193",
+      "favorites_text": "3,401",
+      "metrics_url": "http://www.kongregate.com/games/StudioCime/mu-complex-episode-two/metrics.json",
+      "capture_timestamp": "20200327002425",
+      "capture_url": "https://web.archive.org/web/20200327002425/http://www.kongregate.com/games/StudioCime/mu-complex-episode-two/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200327002425_http_www.kongregate.com_games_StudioCime_mu-complex-episode-two_metrics.json_1b12c456e3e3f3c1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-03-27",
@@ -62999,6 +63134,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231106191243_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_9181c3be1ac6d3ab.json"
+    },
+    {
+      "date": "2023-11-06",
+      "game_name": "Robo Racing",
+      "game_url": "http://www.kongregate.com/games/smokoko/robo-racing",
+      "plays_count_observed": 5156,
+      "favorites_count_observed": 31,
+      "plays_text": "5,156",
+      "favorites_text": "31",
+      "metrics_url": "https://www.kongregate.com/games/smokoko/robo-racing/metrics.json",
+      "capture_timestamp": "20231106234720",
+      "capture_url": "https://web.archive.org/web/20231106234720/https://www.kongregate.com/games/smokoko/robo-racing/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231106234720_https_www.kongregate.com_games_smokoko_robo-racing_metrics.json_6d9fd0caaa67c0d3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-11-06",

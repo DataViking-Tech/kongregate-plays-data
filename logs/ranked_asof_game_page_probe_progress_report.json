@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:57:48Z",
+  "generated_at": "2026-07-03T11:07:14Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -13,13 +13,13 @@
   },
   "recommended_action_counts": {
     "Run a bounded page-history CDX shard for this game.": 1679,
-    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 47,
-    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 4,
+    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 44,
+    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 7,
     "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 2
   },
   "dynamic_metric_placeholder_games": 51,
-  "dynamic_metric_placeholder_games_with_metrics_json_probe": 5,
-  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 1,
+  "dynamic_metric_placeholder_games_with_metrics_json_probe": 15,
+  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 8,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 0,
   "high_value_unresolved_games": 1732,
   "top_unresolved_examples": [
@@ -96,8 +96,8 @@
       "dynamic_metric_placeholder_pages": 4,
       "game_metrics_updater_pages": 4,
       "blank_gameplays_count_pages": 4,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 1,
+      "metrics_json_cdx_rows": 1,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -122,10 +122,10 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 0,
+      "metrics_json_probe_observations": 1,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "dynamic_metrics_placeholder",
@@ -174,10 +174,10 @@
       "dynamic_metric_placeholder_pages": 2,
       "game_metrics_updater_pages": 2,
       "blank_gameplays_count_pages": 2,
-      "metrics_json_probe_observations": 0,
+      "metrics_json_probe_observations": 1,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "dynamic_metrics_placeholder",
@@ -200,8 +200,8 @@
       "dynamic_metric_placeholder_pages": 14,
       "game_metrics_updater_pages": 14,
       "blank_gameplays_count_pages": 14,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 4,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -226,8 +226,8 @@
       "dynamic_metric_placeholder_pages": 19,
       "game_metrics_updater_pages": 19,
       "blank_gameplays_count_pages": 19,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 58,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -252,8 +252,8 @@
       "dynamic_metric_placeholder_pages": 35,
       "game_metrics_updater_pages": 35,
       "blank_gameplays_count_pages": 35,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 30,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -278,8 +278,8 @@
       "dynamic_metric_placeholder_pages": 15,
       "game_metrics_updater_pages": 15,
       "blank_gameplays_count_pages": 15,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 1,
+      "metrics_json_cdx_rows": 1,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -304,8 +304,8 @@
       "dynamic_metric_placeholder_pages": 18,
       "game_metrics_updater_pages": 18,
       "blank_gameplays_count_pages": 18,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 16,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -330,8 +330,8 @@
       "dynamic_metric_placeholder_pages": 16,
       "game_metrics_updater_pages": 16,
       "blank_gameplays_count_pages": 16,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 102,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -382,10 +382,10 @@
       "dynamic_metric_placeholder_pages": 17,
       "game_metrics_updater_pages": 17,
       "blank_gameplays_count_pages": 17,
-      "metrics_json_probe_observations": 0,
+      "metrics_json_probe_observations": 1,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "dynamic_metrics_placeholder",

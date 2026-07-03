@@ -286,12 +286,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 29,
+      "metrics_rows": 31,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 3925064,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -328,12 +328,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 51,
+      "metrics_rows": 52,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 13107038,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -1420,12 +1420,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 15,
+      "metrics_rows": 17,
       "listing_play_count_rows": 17,
       "max_play_count_observed": 12600000,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -1546,12 +1546,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 8,
+      "metrics_rows": 10,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 23393475,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -2181,7 +2181,7 @@
       "max_play_count_observed": 1400000,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "transient_failures_remaining",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -3509,7 +3509,7 @@
       "likely_added_date": "2014-11-11",
       "likely_added_date_confidence": "observed_first_seen_not_launch_date",
       "last_observed_date": "2018-04-15",
-      "last_observed_source": "metrics_json",
+      "last_observed_source": "count_source_probe; metrics_json",
       "last_ranked_date": "2015-10-03",
       "last_play_history_date": "2018-04-15",
       "last_live_metric_date": "",
@@ -3520,12 +3520,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 1,
+      "metrics_rows": 2,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 641755,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -4055,7 +4055,7 @@
       "likely_added_date": "2015-05-12",
       "likely_added_date_confidence": "observed_first_seen_not_launch_date",
       "last_observed_date": "2020-03-27",
-      "last_observed_source": "metrics_json",
+      "last_observed_source": "count_source_probe; metrics_json",
       "last_ranked_date": "2015-10-03",
       "last_play_history_date": "2020-03-27",
       "last_live_metric_date": "",
@@ -4066,12 +4066,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 1,
+      "metrics_rows": 2,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 293193,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -4307,7 +4307,7 @@
       "likely_added_date": "2014-09-19",
       "likely_added_date_confidence": "observed_first_seen_not_launch_date",
       "last_observed_date": "2023-11-06",
-      "last_observed_source": "metrics_json",
+      "last_observed_source": "count_source_probe; metrics_json",
       "last_ranked_date": "2014-09-19",
       "last_play_history_date": "2023-11-06",
       "last_live_metric_date": "",
@@ -4318,12 +4318,12 @@
       "observed_removed_after_date": "",
       "observed_removed_by_date": "",
       "removal_confidence": "",
-      "metrics_rows": 1,
+      "metrics_rows": 2,
       "listing_play_count_rows": 0,
       "max_play_count_observed": 5156,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "recovered_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -4449,7 +4449,7 @@
       "max_play_count_observed": 367,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -4491,7 +4491,7 @@
       "max_play_count_observed": 306,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "",
+      "count_source_probe_status": "no_archived_endpoint_rows_observed",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
