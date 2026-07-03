@@ -1,23 +1,24 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 17,
+  "candidate_observation_rows": 18,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 17,
+  "cdx_lookups": 18,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 17
+    "cached": 6,
+    "fetched": 12
   },
-  "cdx_wall_timeout": 15.0,
+  "cdx_wall_timeout": 12.0,
   "collapse": "digest",
-  "game_name_contains": "",
+  "game_name_contains": "Bakery French Bread,Umbrella Revolution,Freeze Tag,March,shieldshooting,Shooter Jet Crystal",
   "games_direct_probed": 0,
-  "games_with_cached_pages": 5,
+  "games_with_cached_pages": 6,
   "games_without_cached_pages": 0,
-  "input_csv": "data/processed/count_source_probe_game_status.csv",
-  "match_type": "prefix",
-  "max_candidates_per_page": 5,
-  "max_cdx_lookups": 40,
-  "max_pages_per_game": 1,
+  "input_csv": "data/processed/ranked_asof_game_page_probe_progress.csv",
+  "match_type": "exact",
+  "max_candidates_per_page": 3,
+  "max_cdx_lookups": 30,
+  "max_pages_per_game": 3,
   "max_payload_bytes": 500000,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -27,50 +28,59 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 12.0,
+  "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Brakeless Trials Game 2014": {
+    "Bakery French Bread": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/lpunderground1/brakeless-trials-game-2014",
+      "game_url": "http://www.kongregate.com/games/IanStokes/bakery-french-bread",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Evolve": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 5,
-      "game_url": "http://www.kongregate.com/games/MohtashamS/evolve",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Robo-Jump": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 3,
-      "game_url": "http://www.kongregate.com/games/gr33ngunner007/robo-jump",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "The Adventures of Bit and Ravh": {
+    "Freeze Tag": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/gillenew/the-adventures-of-bit-and-ravh",
+      "game_url": "http://www.kongregate.com/games/codenforjesus/freeze-tag",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Gates of Heaven": {
+    "March": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 5,
-      "game_url": "http://www.kongregate.com/games/EmperorMason/the-gates-of-heaven",
+      "endpoint_candidates": 6,
+      "game_url": "http://www.kongregate.com/games/UncleBig2D/march",
+      "pages_checked": 3,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Shooter Jet Crystal": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/BrenetComics/shooter-jet-crystal",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Umbrella Revolution": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 4,
+      "game_url": "http://www.kongregate.com/games/dingjun/umbrella-revolution",
+      "pages_checked": 2,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "shieldshooting": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/youugames/shieldshooting",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -81,25 +91,23 @@
     "total": 72
   },
   "persisted_probe_history": {
-    "added": 17,
-    "total": 12849,
+    "added": 18,
+    "total": 12867,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T12:17:33Z",
+  "run_timestamp": "2026-07-03T12:30:15Z",
   "source_types": [
-    "chat_achievements",
-    "chat_js",
-    "game_path_prefix",
-    "holodeck",
-    "recommended_games"
+    "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
-  "status_filter": "transient_failures_remaining",
+  "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 5,
+  "target_games": 6,
   "target_games_with_kongregate_ids": 0,
-  "tiers": [],
+  "tiers": [
+    1
+  ],
   "top_candidates_with_cdx": [],
   "top_count_signals": [],
-  "unresolved_failed_endpoints_only": true
+  "unresolved_failed_endpoints_only": false
 }

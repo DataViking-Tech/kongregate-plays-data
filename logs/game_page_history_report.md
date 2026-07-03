@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T11:54:07Z
-- Profile games in scope: 1673
-- Selected games sample: Bakery French Bread, Opulent Sunflappiness 3, Umbrella Revolution, Freeze Tag, March, shieldshooting, Out Of Order, Minions Bejeweled, The Experimental Platformer (v1.2b7), The Monster Dash, Toeter Shooter, Guess the city2, Shooter Jet Crystal, Robo Jump, Cute Baby Girl Spring Outing, Alien Space Blaster 0.1, Monster War Zone 3, uJet - Jetpack Controller Demonstration, Funny Pets, Lost Viking, Cool battle, Alien survival Beta 2, Escape to Home, Monster Love, DanTDM Runner, New Traffic Jam City, Clash of the Races 5, Geoshape beta, Space Breakout!, Roller Ball Plat, Tactical Anomaly, Digimon Pyramid Adventure, Journey through Wind and Fire I, Aliens Hurry Home 2, Hurdle Jump, What's inside the box?, Atv Mashup, Kindness and PAI, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype
-- Selected games omitted from sample: 1623
-- CDX games considered: 3
+- Run timestamp: 2026-07-03T12:28:49Z
+- Profile games in scope: 1672
+- Selected games sample: Bakery French Bread, Umbrella Revolution, Freeze Tag, March, shieldshooting, Out Of Order, Minions Bejeweled, The Experimental Platformer (v1.2b7), The Monster Dash, Toeter Shooter, Guess the city2, Shooter Jet Crystal, Robo Jump, Cute Baby Girl Spring Outing, Alien Space Blaster 0.1, Monster War Zone 3, uJet - Jetpack Controller Demonstration, Funny Pets, Lost Viking, Cool battle, Alien survival Beta 2, Escape to Home, Monster Love, DanTDM Runner, New Traffic Jam City, Clash of the Races 5, Geoshape beta, Space Breakout!, Roller Ball Plat, Tactical Anomaly, Digimon Pyramid Adventure, Journey through Wind and Fire I, Aliens Hurry Home 2, Hurdle Jump, What's inside the box?, Atv Mashup, Kindness and PAI, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype, Adam and Eve 2
+- Selected games omitted from sample: 1622
+- CDX games considered: 12
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: 10.0
-- CDX date-window days: 365
+- CDX wall-clock cap: 12.0
+- CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
 - Game-name filter: none
 - Metrics row filter: has_metrics
 - Progress status filter: not_checked
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- CDX rows: 26
+- Page jobs: 9
+- Pending before run: 9
+- Attempted this run: 9
+- Fetched this run: 9
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 0
+- Failed this run: 9
 - Manifest entries: 368
-- Known failures: 3749
-- Combined history rows: 7970
+- Known failures: 3758
+- Combined history rows: 8005
 - Game-page history rows: 368
 - Report only: False
