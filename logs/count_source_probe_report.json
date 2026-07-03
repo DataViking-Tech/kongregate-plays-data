@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 2,
+  "candidate_observation_rows": 12,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 2,
+  "cdx_lookups": 12,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 1,
-    "fetched": 1
+    "cached": 3,
+    "fetched": 9
   },
   "cdx_wall_timeout": 15.0,
   "collapse": "digest",
-  "game_name_contains": "Lost Viking",
-  "games_direct_probed": 1,
+  "game_name_contains": "Back To Home,EZ MONEY ALL DAYYY,Salads by Chef: Merge \u0421raft,SCP 079,Snappy Shark,Tracesoccer",
+  "games_direct_probed": 6,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 1,
+  "games_without_cached_pages": 6,
   "input_csv": "data/processed/asof_recovery_feasibility_audit.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 8,
+  "max_cdx_lookups": 48,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -31,11 +31,56 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Lost Viking": {
+    "Back To Home": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/xraymonx2/lost-viking",
+      "game_url": "http://www.kongregate.com/games/spacegrid/back-to-home",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "EZ MONEY ALL DAYYY": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/colenye/ez-money-all-dayyy",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "SCP 079": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "https://www.kongregate.com/games/DevHeroNatio/scp-079",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Salads by Chef: Merge \u0421raft": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "https://www.kongregate.com/games/gpush_games/salads-by-chef-merge-sraft",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Snappy Shark": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/johnnyk022181/snappy-shark",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tracesoccer": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "https://www.kongregate.com/games/Nevolane/tracesoccer",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -43,21 +88,21 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 564
+    "total": 584
   },
   "persisted_probe_history": {
-    "added": 2,
-    "total": 14829,
+    "added": 12,
+    "total": 14907,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T18:28:36Z",
+  "run_timestamp": "2026-07-03T18:39:36Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 1,
+  "target_games": 6,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
