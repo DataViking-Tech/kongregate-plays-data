@@ -40241,6 +40241,21 @@
       "metrics_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
       "capture_timestamp": "20211027111834",
       "capture_url": "https://web.archive.org/web/20211027111834/http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-10-27",
+      "game_name": "Dragon Fortress",
+      "game_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress",
+      "plays_count_observed": 277764,
+      "favorites_count_observed": 3251,
+      "plays_text": "277,764",
+      "favorites_text": "3,251",
+      "metrics_url": "http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
+      "capture_timestamp": "20211027111834",
+      "capture_url": "https://web.archive.org/web/20211027111834/http://www.kongregate.com/games/littlegiantworld/dragon-fortress/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211027111834_http_www.kongregate.com_games_littlegiantworld_dragon-fortress_metrics.json_ebc4d78028160ff0.json"
@@ -42689,6 +42704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119143805_https_www.kongregate.com_games_Kongregate_curl-up-and-fly_metrics.json_0b77d1647456879c.json"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "GameToilet Mobile#2 : Watch Paint Dry",
+      "game_url": "http://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry",
+      "plays_count_observed": 901,
+      "favorites_count_observed": 4,
+      "plays_text": "901",
+      "favorites_text": "4",
+      "metrics_url": "https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
+      "capture_timestamp": "20211119072852",
+      "capture_url": "https://web.archive.org/web/20211119072852/https://www.kongregate.com/games/kingbaggot/gametoilet-mobile-2-watch-paint-dry/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211119072852_https_www.kongregate.com_games_kingbaggot_gametoilet-mobile-2-watch-paint-dry_metrics.json_189705b40da772b4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-11-19",
@@ -53039,6 +53069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221101034856_https_www.kongregate.com_games_terra0nova_aground_metrics.json_f019b831dee6096c.json"
+    },
+    {
+      "date": "2022-11-01",
+      "game_name": "Quotidian",
+      "game_url": "http://www.kongregate.com/games/terra0nova/quotidian",
+      "plays_count_observed": 24833,
+      "favorites_count_observed": 328,
+      "plays_text": "24,833",
+      "favorites_text": "328",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "capture_timestamp": "20221101025921",
+      "capture_url": "https://web.archive.org/web/20221101025921/https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221101025921_https_www.kongregate.com_games_terra0nova_quotidian_metrics.json_3c9f1cfd275b0f31.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-11-01",
@@ -64451,6 +64496,21 @@
       "metrics_url": "https://www.kongregate.com/games/YAYitsAndrew/votestabby/metrics.json",
       "capture_timestamp": "20230819020536",
       "capture_url": "https://web.archive.org/web/20230819020536/https://www.kongregate.com/games/YAYitsAndrew/votestabby/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230819020536_https_www.kongregate.com_games_YAYitsAndrew_votestabby_metrics.json_9fe9e18a73cbb9e5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-08-19",
+      "game_name": "#VoteStabby",
+      "game_url": "http://www.kongregate.com/games/YAYitsAndrew/votestabby",
+      "plays_count_observed": 10046,
+      "favorites_count_observed": 43,
+      "plays_text": "10,046",
+      "favorites_text": "43",
+      "metrics_url": "https://www.kongregate.com/games/YAYitsAndrew/votestabby/metrics.json",
+      "capture_timestamp": "20230819020536",
+      "capture_url": "https://web.archive.org/web/20230819020536/https://www.kongregate.com/games/YAYitsAndrew/votestabby/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230819020536_https_www.kongregate.com_games_YAYitsAndrew_votestabby_metrics.json_9fe9e18a73cbb9e5.json"
@@ -75221,6 +75281,21 @@
       "metrics_url": "https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
       "capture_timestamp": "20240121110445",
       "capture_url": "https://web.archive.org/web/20240121110445/https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121110445_https_www.kongregate.com_games_Munguia_famous-paintings-parodies_metrics.json_af98ac0c0ce3dbf2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Famous Paintings Parodies",
+      "game_url": "http://www.kongregate.com/games/Munguia/famous-paintings-parodies",
+      "plays_count_observed": 66865,
+      "favorites_count_observed": 276,
+      "plays_text": "66,865",
+      "favorites_text": "276",
+      "metrics_url": "https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
+      "capture_timestamp": "20240121110445",
+      "capture_url": "https://web.archive.org/web/20240121110445/https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121110445_https_www.kongregate.com_games_Munguia_famous-paintings-parodies_metrics.json_af98ac0c0ce3dbf2.json"
@@ -75479,6 +75554,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121085224_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_c52f47ba7a3290be.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "Quotidian",
+      "game_url": "http://www.kongregate.com/games/terra0nova/quotidian",
+      "plays_count_observed": 25273,
+      "favorites_count_observed": 329,
+      "plays_text": "25,273",
+      "favorites_text": "329",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "capture_timestamp": "20240121124408",
+      "capture_url": "https://web.archive.org/web/20240121124408/https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121124408_https_www.kongregate.com_games_terra0nova_quotidian_metrics.json_82e118891d0cd7e4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-21",
@@ -79106,6 +79196,21 @@
       "metrics_url": "https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
       "capture_timestamp": "20240307150745",
       "capture_url": "https://web.archive.org/web/20240307150745/https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240307150745_https_www.kongregate.com_games_Munguia_famous-paintings-parodies_metrics.json_fe7550a7b6a5887c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-03-07",
+      "game_name": "Famous Paintings Parodies",
+      "game_url": "http://www.kongregate.com/games/Munguia/famous-paintings-parodies",
+      "plays_count_observed": 66873,
+      "favorites_count_observed": 276,
+      "plays_text": "66,873",
+      "favorites_text": "276",
+      "metrics_url": "https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
+      "capture_timestamp": "20240307150745",
+      "capture_url": "https://web.archive.org/web/20240307150745/https://www.kongregate.com/games/Munguia/famous-paintings-parodies/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307150745_https_www.kongregate.com_games_Munguia_famous-paintings-parodies_metrics.json_fe7550a7b6a5887c.json"
@@ -79244,6 +79349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240307232436_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_aa72322f059aa60d.json"
+    },
+    {
+      "date": "2024-03-07",
+      "game_name": "Quotidian",
+      "game_url": "http://www.kongregate.com/games/terra0nova/quotidian",
+      "plays_count_observed": 25293,
+      "favorites_count_observed": 329,
+      "plays_text": "25,293",
+      "favorites_text": "329",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "capture_timestamp": "20240307204842",
+      "capture_url": "https://web.archive.org/web/20240307204842/https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240307204842_https_www.kongregate.com_games_terra0nova_quotidian_metrics.json_6a4b49891121e191.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-03-07",
@@ -79619,6 +79739,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308081950_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_a5680b3b0d8c281d.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "Quotidian",
+      "game_url": "http://www.kongregate.com/games/terra0nova/quotidian",
+      "plays_count_observed": 25293,
+      "favorites_count_observed": 329,
+      "plays_text": "25,293",
+      "favorites_text": "329",
+      "metrics_url": "https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "capture_timestamp": "20240308054715",
+      "capture_url": "https://web.archive.org/web/20240308054715/https://www.kongregate.com/games/terra0nova/quotidian/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240308054715_https_www.kongregate.com_games_terra0nova_quotidian_metrics.json_16b9a1e472f9bb3c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-03-08",
