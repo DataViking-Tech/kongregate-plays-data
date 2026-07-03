@@ -6933,6 +6933,21 @@
     {
       "date": "2015-12-02",
       "game_name": "Realm Grinder",
+      "game_url": "https://www.kongregate.com/games/DivineGames/realm-grinder",
+      "plays_count_observed": 6889634,
+      "favorites_count_observed": 15458,
+      "plays_text": "6,889,634",
+      "favorites_text": "15,458",
+      "metrics_url": "http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json",
+      "capture_timestamp": "20151202191328",
+      "capture_url": "https://web.archive.org/web/20151202191328/http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151202191328_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_539de92a8ab54140.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-12-02",
+      "game_name": "Realm Grinder",
       "game_url": "http://www.kongregate.com/games/DivineGames/realm-grinder",
       "plays_count_observed": 6889634,
       "favorites_count_observed": 15458,
@@ -6944,6 +6959,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151202191328_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_539de92a8ab54140.json"
+    },
+    {
+      "date": "2015-12-09",
+      "game_name": "Realm Grinder",
+      "game_url": "https://www.kongregate.com/games/DivineGames/realm-grinder",
+      "plays_count_observed": 7111812,
+      "favorites_count_observed": 15806,
+      "plays_text": "7,111,812",
+      "favorites_text": "15,806",
+      "metrics_url": "http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json",
+      "capture_timestamp": "20151209171606",
+      "capture_url": "https://web.archive.org/web/20151209171606/http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151209171606_http_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_0e6db20abbd80c81.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-12-09",
@@ -8531,6 +8561,21 @@
       "metrics_url": "http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
       "capture_timestamp": "20160917160747",
       "capture_url": "https://web.archive.org/web/20160917160747/http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160917160747_http_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_796486d10b7edec6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-09-17",
+      "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 4289823,
+      "favorites_count_observed": 12728,
+      "plays_text": "4,289,823",
+      "favorites_text": "12,728",
+      "metrics_url": "http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20160917160747",
+      "capture_url": "https://web.archive.org/web/20160917160747/http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160917160747_http_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_796486d10b7edec6.json"
@@ -8654,6 +8699,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20161004190916_http_www.kongregate.com_games_2DArray_the-company-of-myself_metrics.json_853122541be3ce9c.json"
+    },
+    {
+      "date": "2016-10-04",
+      "game_name": "Trimps",
+      "game_url": "https://www.kongregate.com/games/GreenSatellite/trimps",
+      "plays_count_observed": 4389610,
+      "favorites_count_observed": 12916,
+      "plays_text": "4,389,610",
+      "favorites_text": "12,916",
+      "metrics_url": "http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "capture_timestamp": "20161004190852",
+      "capture_url": "https://web.archive.org/web/20161004190852/http://www.kongregate.com/games/GreenSatellite/trimps/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20161004190852_http_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_12a84edcebfff673.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2016-10-04",
@@ -9101,9 +9161,39 @@
       "metrics_url": "http://www.kongregate.com/games/Juppiomenz/bit-heroes/metrics.json",
       "capture_timestamp": "20170323034917",
       "capture_url": "https://web.archive.org/web/20170323034917/http://www.kongregate.com/games/Juppiomenz/bit-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170323034917_http_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_c0f98ab8a4b1db5c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-03-23",
+      "game_name": "Bit Heroes",
+      "game_url": "https://www.kongregate.com/games/Juppiomenz/bit-heroes",
+      "plays_count_observed": 2082850,
+      "favorites_count_observed": 15399,
+      "plays_text": "2,082,850",
+      "favorites_text": "15,399",
+      "metrics_url": "http://www.kongregate.com/games/Juppiomenz/bit-heroes/metrics.json",
+      "capture_timestamp": "20170323034917",
+      "capture_url": "https://web.archive.org/web/20170323034917/http://www.kongregate.com/games/Juppiomenz/bit-heroes/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170323034917_http_www.kongregate.com_games_Juppiomenz_bit-heroes_metrics.json_c0f98ab8a4b1db5c.json"
+    },
+    {
+      "date": "2017-03-29",
+      "game_name": "There is no game",
+      "game_url": "https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game",
+      "plays_count_observed": 743305,
+      "favorites_count_observed": 8576,
+      "plays_text": "743,305",
+      "favorites_text": "8,576",
+      "metrics_url": "http://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game/metrics.json",
+      "capture_timestamp": "20170329151722",
+      "capture_url": "https://web.archive.org/web/20170329151722/http://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170329151722_http_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_e6af98595c5adfe3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2017-03-29",
@@ -9836,6 +9926,21 @@
       "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
       "capture_timestamp": "20180221184255",
       "capture_url": "https://web.archive.org/web/20180221184255/http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180221184255_http_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_b133eb4755fa60e2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-21",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 12681018,
+      "favorites_count_observed": 68837,
+      "plays_text": "12,681,018",
+      "favorites_text": "68,837",
+      "metrics_url": "http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20180221184255",
+      "capture_url": "https://web.archive.org/web/20180221184255/http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180221184255_http_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_b133eb4755fa60e2.json"
@@ -10451,6 +10556,21 @@
       "metrics_url": "http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
       "capture_timestamp": "20180512033149",
       "capture_url": "https://web.archive.org/web/20180512033149/http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180512033149_http_www.kongregate.com_80_games_Puffballs_United_fleeing-the-complex_metrics.json_e2556a896c29ba08.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-05-12",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1107903,
+      "favorites_count_observed": 21429,
+      "plays_text": "1,107,903",
+      "favorites_text": "21,429",
+      "metrics_url": "http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20180512033149",
+      "capture_url": "https://web.archive.org/web/20180512033149/http://www.kongregate.com:80/games/Puffballs_United/fleeing-the-complex/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180512033149_http_www.kongregate.com_80_games_Puffballs_United_fleeing-the-complex_metrics.json_e2556a896c29ba08.json"
@@ -10814,6 +10934,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181217125546_http_www.kongregate.com_80_games_almostidle_idle-bouncer_metrics.json_9a7f614fea9e5970.json"
+    },
+    {
+      "date": "2018-12-17",
+      "game_name": "Supermechs",
+      "game_url": "http://www.kongregate.com/games/Tacticsoft/supermechs",
+      "plays_count_observed": 3398196,
+      "favorites_count_observed": 36459,
+      "plays_text": "3,398,196",
+      "favorites_text": "36,459",
+      "metrics_url": "http://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "capture_timestamp": "20181217174817",
+      "capture_url": "https://web.archive.org/web/20181217174817/http://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20181217174817_http_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_cac2919251456896.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-12-17",
@@ -11789,6 +11924,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190327211450_http_www.kongregate.com_games_nerdook_monster-slayers_metrics.json_4538c50600803221.json"
+    },
+    {
+      "date": "2019-03-28",
+      "game_name": "Blockade3D",
+      "game_url": "https://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 535039,
+      "favorites_count_observed": 3711,
+      "plays_text": "535,039",
+      "favorites_text": "3,711",
+      "metrics_url": "http://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20190328185431",
+      "capture_url": "https://web.archive.org/web/20190328185431/http://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190328185431_http_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_df70aeb9b6f02228.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-03-28",
@@ -12873,6 +13023,21 @@
     {
       "date": "2019-10-17",
       "game_name": "Blockade3D",
+      "game_url": "https://www.kongregate.com/games/blockadeboss/blockade3d",
+      "plays_count_observed": 560396,
+      "favorites_count_observed": 3844,
+      "plays_text": "560,396",
+      "favorites_text": "3,844",
+      "metrics_url": "https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "capture_timestamp": "20191017183754",
+      "capture_url": "https://web.archive.org/web/20191017183754/https://www.kongregate.com/games/blockadeboss/blockade3d/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183754_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_4de7b2b2a9944b5d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Blockade3D",
       "game_url": "http://www.kongregate.com/games/blockadeboss/blockade3d",
       "plays_count_observed": 560396,
       "favorites_count_observed": 3844,
@@ -12884,6 +13049,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183754_https_www.kongregate.com_games_blockadeboss_blockade3d_metrics.json_4de7b2b2a9944b5d.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Bloons Monkey City",
+      "game_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city",
+      "plays_count_observed": 14101982,
+      "favorites_count_observed": 73207,
+      "plays_text": "14,101,982",
+      "favorites_text": "73,207",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "capture_timestamp": "20191017183744",
+      "capture_url": "https://web.archive.org/web/20191017183744/https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183744_https_www.kongregate.com_games_Ninjakiwi_bloons-monkey-city_metrics.json_f109b7beb896cba9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-17",
@@ -12989,6 +13169,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183752_https_www.kongregate.com_games_EntForge_epic-boss-fighter-2_metrics.json_067a533a2df08d85.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Fleeing the Complex",
+      "game_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex",
+      "plays_count_observed": 1364806,
+      "favorites_count_observed": 23631,
+      "plays_text": "1,364,806",
+      "favorites_text": "23,631",
+      "metrics_url": "https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "capture_timestamp": "20191017183748",
+      "capture_url": "https://web.archive.org/web/20191017183748/https://www.kongregate.com/games/Puffballs_United/fleeing-the-complex/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183748_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_78c52d9c1567d333.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-17",
@@ -13308,6 +13503,21 @@
     {
       "date": "2019-10-17",
       "game_name": "There is no game",
+      "game_url": "https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game",
+      "plays_count_observed": 1180233,
+      "favorites_count_observed": 12240,
+      "plays_text": "1,180,233",
+      "favorites_text": "12,240",
+      "metrics_url": "https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game/metrics.json",
+      "capture_timestamp": "20191017183848",
+      "capture_url": "https://web.archive.org/web/20191017183848/https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183848_https_www.kongregate.com_games_KaMiZoTo_Creator_there-is-no-game_metrics.json_d3b386a0a81aa641.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "There is no game",
       "game_url": "https://www.kongregate.com/en/games/KaMiZoTo_Creator/there-is-no-game",
       "plays_count_observed": 1180233,
       "favorites_count_observed": 12240,
@@ -13544,6 +13754,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191021040558_https_www.kongregate.com_games_JuiceTin_strike-force-heroes_metrics.json_9cbc1d976cf99827.json"
+    },
+    {
+      "date": "2019-10-21",
+      "game_name": "Supermechs",
+      "game_url": "http://www.kongregate.com/games/Tacticsoft/supermechs",
+      "plays_count_observed": 3831228,
+      "favorites_count_observed": 38187,
+      "plays_text": "3,831,228",
+      "favorites_text": "38,187",
+      "metrics_url": "https://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "capture_timestamp": "20191021040603",
+      "capture_url": "https://web.archive.org/web/20191021040603/https://www.kongregate.com/games/Tacticsoft/supermechs/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191021040603_https_www.kongregate.com_games_Tacticsoft_supermechs_metrics.json_76a46d44ad7df590.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-21",
@@ -14703,6 +14928,21 @@
     {
       "date": "2019-11-18",
       "game_name": "Incremancer",
+      "game_url": "https://www.kongregate.com/games/JamesG466/incremancer",
+      "plays_count_observed": 227819,
+      "favorites_count_observed": 2066,
+      "plays_text": "227,819",
+      "favorites_text": "2,066",
+      "metrics_url": "https://www.kongregate.com/games/JamesG466/incremancer/metrics.json",
+      "capture_timestamp": "20191118152421",
+      "capture_url": "https://web.archive.org/web/20191118152421/https://www.kongregate.com/games/JamesG466/incremancer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191118152421_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_8ee0d65501dae125.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-11-18",
+      "game_name": "Incremancer",
       "game_url": "https://www.kongregate.com/en/games/JamesG466/incremancer",
       "plays_count_observed": 227819,
       "favorites_count_observed": 2066,
@@ -15119,6 +15359,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205641_https_www.kongregate.com_games_Puffballs_United_fleeing-the-complex_metrics.json_90d20fee9ebbdb70.json"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "Incremancer",
+      "game_url": "https://www.kongregate.com/games/JamesG466/incremancer",
+      "plays_count_observed": 364493,
+      "favorites_count_observed": 2857,
+      "plays_text": "364,493",
+      "favorites_text": "2,857",
+      "metrics_url": "https://www.kongregate.com/games/JamesG466/incremancer/metrics.json",
+      "capture_timestamp": "20191207205528",
+      "capture_url": "https://web.archive.org/web/20191207205528/https://www.kongregate.com/games/JamesG466/incremancer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191207205528_https_www.kongregate.com_games_JamesG466_incremancer_metrics.json_d0b606127a4e7727.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-07",
@@ -20448,6 +20703,21 @@
     {
       "date": "2020-06-21",
       "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 112505,
+      "favorites_count_observed": 811,
+      "plays_text": "112,505",
+      "favorites_text": "811",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200621070256",
+      "capture_url": "https://web.archive.org/web/20200621070256/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200621070256_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0826fbad85d45278.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-06-21",
+      "game_name": "Escape Game - Computer Office Escape",
       "game_url": "https://www.kongregate.com/en/games/masasgames/escape-game-computer-office-escape",
       "plays_count_observed": 112505,
       "favorites_count_observed": 811,
@@ -20459,6 +20729,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200621070256_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0826fbad85d45278.json"
+    },
+    {
+      "date": "2020-06-21",
+      "game_name": "Escape Game - Computer Office Escape",
+      "game_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape",
+      "plays_count_observed": 112506,
+      "favorites_count_observed": 811,
+      "plays_text": "112,506",
+      "favorites_text": "811",
+      "metrics_url": "https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "capture_timestamp": "20200621070324",
+      "capture_url": "https://web.archive.org/web/20200621070324/https://www.kongregate.com/games/masasgames/escape-game-computer-office-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200621070324_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_31e148ca157d8070.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-06-21",

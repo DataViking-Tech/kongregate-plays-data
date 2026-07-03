@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
     "cached": 4850,
-    "failed": 2925,
-    "fetched": 4750,
+    "failed": 2928,
+    "fetched": 4771,
     "missing_html_cache_skipped": 1
   },
-  "history_games": 344,
-  "history_observation_rows": 12526,
+  "history_games": 354,
+  "history_observation_rows": 12550,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -15,46 +15,27 @@
     "report_md": "logs/count_source_probe_history_report.md"
   },
   "profile_games": 325,
-  "recovered_count_rows": 17,
-  "run_timestamp": "2026-07-03T11:07:53Z",
+  "recovered_count_rows": 36,
+  "run_timestamp": "2026-07-03T11:13:44Z",
   "source_type_counts": {
     "chat_achievements": 1400,
     "chat_js": 1410,
     "developer_game_list": 4543,
     "game_path_prefix": 60,
     "holodeck": 1418,
-    "metrics_json": 1446,
+    "metrics_json": 1470,
     "recommended_games": 2249
   },
   "status_counts": {
     "archived_endpoint_hit_no_count": 133,
-    "no_archived_endpoint_rows_observed": 199,
-    "recovered_count": 12,
-    "transient_failures_remaining": 1
+    "no_archived_endpoint_rows_observed": 200,
+    "recovered_count": 22
   },
   "tier1_status_counts": {
     "archived_endpoint_hit_no_count": 114,
     "no_archived_endpoint_rows_observed": 127
   },
-  "top_transient_failures": [
-    {
-      "best_rank": "",
-      "candidates_with_cdx_rows": 0,
-      "canonical_game_key": "www.kongregate.com/games/kamizoto_creator/there-is-no-game",
-      "endpoint_observations": 1,
-      "failed_observations": 1,
-      "first_seen_date": "",
-      "followup_tier": "",
-      "game_name": "There is no game",
-      "game_url": "https://www.kongregate.com/games/KaMiZoTo_Creator/there-is-no-game",
-      "latest_probe_run_timestamp": "2026-07-03T11:07:30Z",
-      "parsed_probe_count_rows": 0,
-      "recovered_count_rows": 0,
-      "source_types_seen": "metrics_json",
-      "status": "transient_failures_remaining",
-      "unresolved_failed_endpoints": 1
-    }
-  ],
+  "top_transient_failures": [],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 1
+  "unresolved_failed_endpoint_groups": 0
 }
