@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T21:21:23Z",
+  "generated_at": "2026-07-03T21:36:20Z",
   "input_csv": "data/processed/catalog_history_priorities.csv",
   "tiers": [
     1,
@@ -804,7 +804,7 @@
     }
   ],
   "outputs": {
-    "progress_csv": "data/processed/game_page_gap_progress.csv",
+    "progress_csv": "data/processed/catalog_game_page_probe_progress.csv",
     "report_json": "logs/game_page_gap_progress_report.json",
     "report_md": "logs/game_page_gap_progress_report.md"
   }
