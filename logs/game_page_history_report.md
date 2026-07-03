@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T07:51:01Z
-- Profile games in scope: 1
-- Selected games sample: N Step Steve: Part 1
+- Run timestamp: 2026-07-03T07:56:49Z
+- Profile games in scope: 2
+- Selected games sample: Trimps, Trimps Preview
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: n step steve
+- Game-name filter: trimps
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 21
-- Page jobs: 7
-- Pending before run: 7
-- Attempted this run: 7
-- Fetched this run: 7
+- CDX rows: 684
+- Page jobs: 228
+- Pending before run: 228
+- Attempted this run: 30
+- Fetched this run: 14
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 0
+- Network fetch failed this run: 16
 - Parsed rows this run: 0
-- No explicit count this run: 3
-- Failed this run: 7
+- No explicit count this run: 0
+- Failed this run: 30
 - Manifest entries: 368
-- Known failures: 3201
+- Known failures: 3231
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
