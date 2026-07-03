@@ -10196,6 +10196,21 @@
       "metrics_url": "http://www.kongregate.com:80/games/IDNoise/death-squad/metrics.json",
       "capture_timestamp": "20180103224138",
       "capture_url": "https://web.archive.org/web/20180103224138/http://www.kongregate.com:80/games/IDNoise/death-squad/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180103224138_http_www.kongregate.com_80_games_IDNoise_death-squad_metrics.json_0e0ffffcb4ca9f9d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-01-03",
+      "game_name": "Death Squad",
+      "game_url": "http://www.kongregate.com/games/IDNoise/death-squad",
+      "plays_count_observed": 939027,
+      "favorites_count_observed": 3180,
+      "plays_text": "939,027",
+      "favorites_text": "3,180",
+      "metrics_url": "http://www.kongregate.com:80/games/IDNoise/death-squad/metrics.json",
+      "capture_timestamp": "20180103224138",
+      "capture_url": "https://web.archive.org/web/20180103224138/http://www.kongregate.com:80/games/IDNoise/death-squad/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180103224138_http_www.kongregate.com_80_games_IDNoise_death-squad_metrics.json_0e0ffffcb4ca9f9d.json"
@@ -12869,6 +12884,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190227161719_http_www.kongregate.com_games_revanaii_hero-simulator_metrics.json_1d4253377e8995d5.json"
+    },
+    {
+      "date": "2019-02-28",
+      "game_name": "Iron Snout",
+      "game_url": "http://www.kongregate.com/games/SnoutUp/iron-snout",
+      "plays_count_observed": 21833,
+      "favorites_count_observed": 140,
+      "plays_text": "21,833",
+      "favorites_text": "140",
+      "metrics_url": "http://www.kongregate.com/games/SnoutUp/iron-snout/metrics.json",
+      "capture_timestamp": "20190228222227",
+      "capture_url": "https://web.archive.org/web/20190228222227/http://www.kongregate.com/games/SnoutUp/iron-snout/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190228222227_http_www.kongregate.com_games_SnoutUp_iron-snout_metrics.json_0ef3e5b8ef07cb95.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-02-28",
@@ -35051,6 +35081,21 @@
       "metrics_url": "http://www.kongregate.com/games/epace/demons-down-under/metrics.json",
       "capture_timestamp": "20210511131505",
       "capture_url": "https://web.archive.org/web/20210511131505/http://www.kongregate.com/games/epace/demons-down-under/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210511131505_http_www.kongregate.com_games_epace_demons-down-under_metrics.json_c4bc0f514bdf22bd.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-05-11",
+      "game_name": "Demons Down Under",
+      "game_url": "http://www.kongregate.com/games/epace/demons-down-under",
+      "plays_count_observed": 388745,
+      "favorites_count_observed": 4723,
+      "plays_text": "388,745",
+      "favorites_text": "4,723",
+      "metrics_url": "http://www.kongregate.com/games/epace/demons-down-under/metrics.json",
+      "capture_timestamp": "20210511131505",
+      "capture_url": "https://web.archive.org/web/20210511131505/http://www.kongregate.com/games/epace/demons-down-under/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210511131505_http_www.kongregate.com_games_epace_demons-down-under_metrics.json_c4bc0f514bdf22bd.json"
@@ -50006,6 +50051,21 @@
       "metrics_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
       "capture_timestamp": "20220703142724",
       "capture_url": "https://web.archive.org/web/20220703142724/http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220703142724_http_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_ecb066e3bc3ab46b.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-07-03",
+      "game_name": "Rogue Legend: Tame the Wild",
+      "game_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild",
+      "plays_count_observed": 307728,
+      "favorites_count_observed": 3620,
+      "plays_text": "307,728",
+      "favorites_text": "3,620",
+      "metrics_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "capture_timestamp": "20220703142724",
+      "capture_url": "https://web.archive.org/web/20220703142724/http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220703142724_http_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_ecb066e3bc3ab46b.json"
@@ -63644,6 +63704,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230726194824_https_www.kongregate.com_games_kingk_dream-world_metrics.json_5e079eb4bee8c22c.json"
+    },
+    {
+      "date": "2023-07-26",
+      "game_name": "Rogue Legend: Tame the Wild",
+      "game_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild",
+      "plays_count_observed": 309545,
+      "favorites_count_observed": 3576,
+      "plays_text": "309,545",
+      "favorites_text": "3,576",
+      "metrics_url": "https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "capture_timestamp": "20230726145737",
+      "capture_url": "https://web.archive.org/web/20230726145737/https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230726145737_https_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_633b8620ca6b6100.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-07-26",
@@ -89726,6 +89801,21 @@
       "metrics_url": "https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
       "capture_timestamp": "20250330110923",
       "capture_url": "https://web.archive.org/web/20250330110923/https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250330110923_https_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_1716d86861a62a5e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2025-03-30",
+      "game_name": "Rogue Legend: Tame the Wild",
+      "game_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild",
+      "plays_count_observed": 311091,
+      "favorites_count_observed": 3580,
+      "plays_text": "311,091",
+      "favorites_text": "3,580",
+      "metrics_url": "https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "capture_timestamp": "20250330110923",
+      "capture_url": "https://web.archive.org/web/20250330110923/https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250330110923_https_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_1716d86861a62a5e.json"
@@ -92714,6 +92804,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250718152159_https_www.kongregate.com_games_TogeProductions_necronator_metrics.json_c3d1e4d1746bdf50.json"
+    },
+    {
+      "date": "2025-07-18",
+      "game_name": "Rogue Legend: Tame the Wild",
+      "game_url": "http://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild",
+      "plays_count_observed": 311292,
+      "favorites_count_observed": 3579,
+      "plays_text": "311,292",
+      "favorites_text": "3,579",
+      "metrics_url": "https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "capture_timestamp": "20250718153024",
+      "capture_url": "https://web.archive.org/web/20250718153024/https://www.kongregate.com/games/HelpIMadeAGame/rogue-legend-tame-the-wild/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250718153024_https_www.kongregate.com_games_HelpIMadeAGame_rogue-legend-tame-the-wild_metrics.json_8186d5677861eba8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-07-18",
