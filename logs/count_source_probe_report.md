@@ -1,37 +1,30 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T21:35:23Z
-- Target games: 9
+- Generated: 2026-07-03T21:48:52Z
+- Target games: 11
 - Status filter: none
-- Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 9
-- Endpoint candidates checked: 18
-- Candidate observation rows: 18
-- CDX status counts: cached=1, fetched=17
-- CDX rows found: 4
-- Candidates with CDX rows: 4
-- Payloads with count-like signals: 4
-- Parsed play-count rows: 4
-- Deduped recovered play-count observations: 651 (2 new this run)
-- Accumulated probe-history rows: 16076 (18 new, 0 refreshed)
-
-## Count Signals
-
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Tanki Online | metrics_json | `http://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json` | `http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json` | gameplays_count_with_delimiter | 1343409 |
-| Tanki Online | metrics_json | `https://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json` | `http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json` | gameplays_count_with_delimiter | 1343409 |
-| Straw Hat Samurai: Duels | metrics_json | `http://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json` | `http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json` | gameplays_count_with_delimiter | 510730 |
-| Straw Hat Samurai: Duels | metrics_json | `https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json` | `http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json` | gameplays_count_with_delimiter | 510730 |
+- Games with cached archived pages: 1
+- Games direct-probed from catalog URLs: 10
+- Endpoint candidates checked: 28
+- Candidate observation rows: 28
+- CDX status counts: cached=11, fetched=17
+- CDX rows found: 2
+- Candidates with CDX rows: 2
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 669 (0 new this run)
+- Accumulated probe-history rows: 16218 (24 new, 4 refreshed)
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Tanki Online | metrics_json | `http://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json` | `http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json` | 1 |
-| Tanki Online | metrics_json | `https://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json` | `http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json` | 1 |
-| Straw Hat Samurai: Duels | metrics_json | `http://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json` | `http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json` | 1 |
-| Straw Hat Samurai: Duels | metrics_json | `https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json` | `http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json` | 1 |
+| The Swordman | metrics_json | `http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json` | `http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json` | 1 |
+| The Swordman | metrics_json | `https://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json` | `http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json` | 1 |
+
+## Interpretation
+
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
 ## Output Files
 

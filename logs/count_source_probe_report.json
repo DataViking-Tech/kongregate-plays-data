@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 18,
-  "candidates_with_cdx": 4,
-  "cdx_lookups": 18,
-  "cdx_rows_found": 4,
+  "candidate_observation_rows": 28,
+  "candidates_with_cdx": 2,
+  "cdx_lookups": 28,
+  "cdx_rows_found": 2,
   "cdx_status_counts": {
-    "cached": 1,
+    "cached": 11,
     "fetched": 17
   },
   "cdx_wall_timeout": 25.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 9,
-  "games_with_cached_pages": 0,
-  "games_without_cached_pages": 9,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_282_retry2.csv",
+  "games_direct_probed": 10,
+  "games_with_cached_pages": 1,
+  "games_without_cached_pages": 10,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_283_retry2.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 60,
+  "max_cdx_lookups": 70,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -27,256 +27,165 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 4,
+  "parsed_play_count_rows": 0,
   "payload_wall_timeout": 18.0,
-  "payloads_with_count_signal": 4,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "FWG Flight": {
+    "Baby Daisy Cooking Time": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/FreeWorldGroup/fwg-flight",
+      "game_url": "http://www.kongregate.com/games/niklec/baby-daisy-cooking-time",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Mushroom Clicker": {
+    "Bunny Defender": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mushroomfanlol/mushroom-clicker",
+      "game_url": "http://www.kongregate.com/games/MujahidK2/bunny-defender",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Rubber Dinghy": {
+    "Idle Artisian Miner(Beta2)": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/greatguygames/rubber-dinghy",
+      "game_url": "http://www.kongregate.com/games/CremeenGraphics/idle-artisian-miner-beta2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Seas The Day": {
+    "Mecha Galaxy": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 8,
+      "game_url": "https://www.kongregate.com/games/VictoryAwaits/mecha-galaxy",
+      "pages_checked": 4,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Run Hikari Run": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/ankhgames/seas-the-day",
+      "game_url": "http://www.kongregate.com/games/MrYayak/run-hikari-run",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Shprot - Sprat Diet": {
+    "Secret Cave Escape": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "https://www.kongregate.com/games/kbvpneofit/shprot-sprat-diet",
+      "game_url": "http://www.kongregate.com/games/Enagamess/secret-cave-escape",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Straw Hat Samurai: Duels": {
+    "Sir. Killer": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/galaxymika/sir-killer",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Space Flash": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/spectr_006/space-flash",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Test Game 1": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/mandheer/test-game-1",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tetristeroids": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/benbrunton/tetristeroids",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Swordman": {
       "candidates_with_cdx": 2,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        510730,
-        510730
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Tanki Online": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        1343409,
-        1343409
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Teddy Time": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/pbooty/teddy-time",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "The Elder Bones": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/PolakX3/the-elder-bones",
+      "game_url": "http://www.kongregate.com/games/TheGameFather/the-swordman",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 2,
-    "total": 651
+    "added": 0,
+    "total": 669
   },
   "persisted_probe_history": {
-    "added": 18,
-    "total": 16076,
-    "updated": 0
+    "added": 24,
+    "total": 16218,
+    "updated": 4
   },
-  "run_timestamp": "2026-07-03T21:35:23Z",
+  "run_timestamp": "2026-07-03T21:48:52Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 9,
+  "target_games": 11,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [
     {
       "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json",
-      "game_name": "Tanki Online",
-      "game_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 1343409,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180316011558_http_www.kongregate.com_80_games_tankionlineuser_tanki-online_metrics.json_3ddbbe0a909ee064.txt",
-      "sample_timestamp": "20180316011558",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json",
-      "game_name": "Tanki Online",
-      "game_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 1343409,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180316011558_http_www.kongregate.com_80_games_tankionlineuser_tanki-online_metrics.json_3ddbbe0a909ee064.txt",
-      "sample_timestamp": "20180316011558",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "game_name": "Straw Hat Samurai: Duels",
-      "game_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 510730,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20181219192245_http_www.kongregate.com_80_games_Lutgames_straw-hat-samurai-duels_metrics.json_0fbad64735ccb2d2.txt",
-      "sample_timestamp": "20181219192245",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
       "cdx_status": "cached",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "game_name": "Straw Hat Samurai: Duels",
-      "game_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 510730,
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json",
+      "game_name": "The Swordman",
+      "game_url": "http://www.kongregate.com/games/TheGameFather/the-swordman",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": "",
       "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20181219192245_http_www.kongregate.com_80_games_Lutgames_straw-hat-samurai-duels_metrics.json_0fbad64735ccb2d2.txt",
-      "sample_timestamp": "20181219192245",
+      "sample_original": "http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20240627112308_http_www.kongregate.com_games_TheGameFather_the-swordman_metrics.json_ba6f54480e99f1b4.txt",
+      "sample_timestamp": "20240627112308",
+      "source_page_path": "",
+      "source_page_timestamp": "",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json",
+      "game_name": "The Swordman",
+      "game_url": "http://www.kongregate.com/games/TheGameFather/the-swordman",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/TheGameFather/the-swordman/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20240627112308_http_www.kongregate.com_games_TheGameFather_the-swordman_metrics.json_ba6f54480e99f1b4.txt",
+      "sample_timestamp": "20240627112308",
       "source_page_path": "",
       "source_page_timestamp": "",
       "source_type": "metrics_json"
     }
   ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json",
-      "game_name": "Tanki Online",
-      "game_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 1343409,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180316011558_http_www.kongregate.com_80_games_tankionlineuser_tanki-online_metrics.json_3ddbbe0a909ee064.txt",
-      "sample_timestamp": "20180316011558",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/tankionlineuser/tanki-online/metrics.json",
-      "game_name": "Tanki Online",
-      "game_url": "http://www.kongregate.com/games/tankionlineuser/tanki-online",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 1343409,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/tankionlineuser/tanki-online/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180316011558_http_www.kongregate.com_80_games_tankionlineuser_tanki-online_metrics.json_3ddbbe0a909ee064.txt",
-      "sample_timestamp": "20180316011558",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "game_name": "Straw Hat Samurai: Duels",
-      "game_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 510730,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20181219192245_http_www.kongregate.com_80_games_Lutgames_straw-hat-samurai-duels_metrics.json_0fbad64735ccb2d2.txt",
-      "sample_timestamp": "20181219192245",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "cached",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "game_name": "Straw Hat Samurai: Duels",
-      "game_url": "https://www.kongregate.com/games/Lutgames/straw-hat-samurai-duels",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 510730,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Lutgames/straw-hat-samurai-duels/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20181219192245_http_www.kongregate.com_80_games_Lutgames_straw-hat-samurai-duels_metrics.json_0fbad64735ccb2d2.txt",
-      "sample_timestamp": "20181219192245",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": false
 }
