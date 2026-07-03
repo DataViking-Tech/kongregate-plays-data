@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T15:44:10Z",
+  "generated_at": "2026-07-03T15:55:28Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -538,8 +538,8 @@
       "dynamic_metric_placeholder_pages": 19,
       "game_metrics_updater_pages": 19,
       "blank_gameplays_count_pages": 19,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 58,
+      "metrics_json_probe_observations": 26,
+      "metrics_json_cdx_rows": 754,
       "alternate_endpoint_cdx_rows": 1482,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -564,8 +564,8 @@
       "dynamic_metric_placeholder_pages": 35,
       "game_metrics_updater_pages": 35,
       "blank_gameplays_count_pages": 35,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 30,
+      "metrics_json_probe_observations": 26,
+      "metrics_json_cdx_rows": 390,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -616,8 +616,8 @@
       "dynamic_metric_placeholder_pages": 18,
       "game_metrics_updater_pages": 18,
       "blank_gameplays_count_pages": 18,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 16,
+      "metrics_json_probe_observations": 26,
+      "metrics_json_cdx_rows": 208,
       "alternate_endpoint_cdx_rows": 951,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -746,8 +746,8 @@
       "dynamic_metric_placeholder_pages": 16,
       "game_metrics_updater_pages": 16,
       "blank_gameplays_count_pages": 16,
-      "metrics_json_probe_observations": 2,
-      "metrics_json_cdx_rows": 102,
+      "metrics_json_probe_observations": 26,
+      "metrics_json_cdx_rows": 1326,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },

@@ -1,69 +1,69 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T15:43:29Z
-- Target games: 4
+- Generated: 2026-07-03T15:54:51Z
+- Target games: 8
 - Status filter: none
-- Games with cached archived pages: 4
+- Games with cached archived pages: 8
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 18
-- Candidate observation rows: 34
-- CDX status counts: cached=22, fetched=12
-- CDX rows found: 552
-- Candidates with CDX rows: 32
-- Payloads with count-like signals: 32
-- Parsed play-count rows: 32
-- Deduped recovered play-count observations: 160 (16 new this run)
-- Accumulated probe-history rows: 13258 (34 new, 0 refreshed)
+- Endpoint candidates checked: 48
+- Candidate observation rows: 216
+- CDX status counts: cached=192, missing_cache_skipped=24
+- CDX rows found: 4200
+- Candidates with CDX rows: 192
+- Payloads with count-like signals: 85
+- Parsed play-count rows: 85
+- Deduped recovered play-count observations: 238 (78 new this run)
+- Accumulated probe-history rows: 13450 (192 new, 0 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6617556 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | gameplays_count_with_delimiter | 6169607 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1676609 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1676609 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1676609 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1676609 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1596365 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1596365 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1596365 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | gameplays_count_with_delimiter | 1596365 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23393475 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23375156 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23362047 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23307866 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23207646 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 23205957 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `http://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Crush Crush | metrics_json | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | `https://www.kongregate.com/games/SadPandaStudios/crush-crush/metrics.json` | 31 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
-| Hero Simulator | metrics_json | `https://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | `http://www.kongregate.com/games/revanaii/hero-simulator/metrics.json` | 3 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
 
 ## Output Files
 
