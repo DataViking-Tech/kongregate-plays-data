@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T09:08:20Z
-- Profile games in scope: 2
-- Selected games sample: Medieval Chronicles 9, Medieval Chronicles 9 (Part 2)
+- Run timestamp: 2026-07-03T09:12:09Z
+- Profile games in scope: 1
+- Selected games sample: Miscrits
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: medieval chronicles 9
+- Game-name filter: miscrits
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 72
-- Page jobs: 24
-- Pending before run: 24
-- Attempted this run: 24
-- Fetched this run: 14
+- CDX rows: 75
+- Page jobs: 25
+- Pending before run: 25
+- Attempted this run: 25
+- Fetched this run: 17
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 10
+- Network fetch failed this run: 8
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 24
+- Failed this run: 25
 - Manifest entries: 368
-- Known failures: 3514
+- Known failures: 3539
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
