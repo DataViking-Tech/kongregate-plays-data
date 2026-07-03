@@ -6341,6 +6341,21 @@
       "metrics_url": "http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
       "capture_timestamp": "20150304142752",
       "capture_url": "https://web.archive.org/web/20150304142752/http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150304142752_http_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_5f05977b29c5b381.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-03-04",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 647464,
+      "favorites_count_observed": 4171,
+      "plays_text": "647,464",
+      "favorites_text": "4,171",
+      "metrics_url": "http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20150304142752",
+      "capture_url": "https://web.archive.org/web/20150304142752/http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150304142752_http_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_5f05977b29c5b381.json"
@@ -6794,6 +6809,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151010031805_http_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_dda2bce9950be562.json"
+    },
+    {
+      "date": "2015-10-21",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 843129,
+      "favorites_count_observed": 5139,
+      "plays_text": "843,129",
+      "favorites_text": "5,139",
+      "metrics_url": "http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20151021201500",
+      "capture_url": "https://web.archive.org/web/20151021201500/http://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151021201500_http_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_8111b82557da1501.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-10-21",
@@ -10301,6 +10331,21 @@
       "metrics_url": "http://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
       "capture_timestamp": "20180204035626",
       "capture_url": "https://web.archive.org/web/20180204035626/http://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180204035626_http_www.kongregate.com_games_graebor_sort-the-court_metrics.json_03132f1dcb4ff02c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-04",
+      "game_name": "Sort the Court!",
+      "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
+      "plays_count_observed": 541008,
+      "favorites_count_observed": 7020,
+      "plays_text": "541,008",
+      "favorites_text": "7,020",
+      "metrics_url": "http://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "capture_timestamp": "20180204035626",
+      "capture_url": "https://web.archive.org/web/20180204035626/http://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180204035626_http_www.kongregate.com_games_graebor_sort-the-court_metrics.json_03132f1dcb4ff02c.json"
@@ -11999,6 +12044,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190116070512_https_www.kongregate.com_games_synapticon_spellstone_metrics.json_1521bdc56abbea53.json"
+    },
+    {
+      "date": "2019-01-16",
+      "game_name": "Strikeforce Kitty 2",
+      "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
+      "plays_count_observed": 887006,
+      "favorites_count_observed": 9157,
+      "plays_text": "887,006",
+      "favorites_text": "9,157",
+      "metrics_url": "https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "capture_timestamp": "20190116070455",
+      "capture_url": "https://web.archive.org/web/20190116070455/https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190116070455_https_www.kongregate.com_games_MARTINIRosso_strikeforce-kitty-2_metrics.json_0b8a733ef8f41179.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-01-16",
@@ -27731,6 +27791,21 @@
       "metrics_url": "https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
       "capture_timestamp": "20201103042151",
       "capture_url": "https://web.archive.org/web/20201103042151/https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201103042151_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_89aade6c40e95607.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-11-03",
+      "game_name": "Sort the Court!",
+      "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
+      "plays_count_observed": 2180692,
+      "favorites_count_observed": 20348,
+      "plays_text": "2,180,692",
+      "favorites_text": "20,348",
+      "metrics_url": "https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "capture_timestamp": "20201103042151",
+      "capture_url": "https://web.archive.org/web/20201103042151/https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201103042151_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_89aade6c40e95607.json"
@@ -28124,6 +28199,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201107120507_http_www.kongregate.com_games_ClipwireGames_redshift_metrics.json_bfe6896bce25cd3f.json"
+    },
+    {
+      "date": "2020-11-07",
+      "game_name": "Sort the Court!",
+      "game_url": "https://www.kongregate.com/games/graebor/sort-the-court",
+      "plays_count_observed": 2183969,
+      "favorites_count_observed": 20384,
+      "plays_text": "2,183,969",
+      "favorites_text": "20,384",
+      "metrics_url": "https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "capture_timestamp": "20201107020939",
+      "capture_url": "https://web.archive.org/web/20201107020939/https://www.kongregate.com/games/graebor/sort-the-court/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201107020939_https_www.kongregate.com_games_graebor_sort-the-court_metrics.json_773a1a2b9b6ec280.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-07",
@@ -36899,6 +36989,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210611170949_https_www.kongregate.com_games_TenebrousP_accelerator_metrics.json_48ab8c6042961387.json"
+    },
+    {
+      "date": "2021-06-11",
+      "game_name": "Idle Conquest",
+      "game_url": "http://www.kongregate.com/games/CodeRiftStudios/idle-conquest",
+      "plays_count_observed": 2229323,
+      "favorites_count_observed": 6129,
+      "plays_text": "2,229,323",
+      "favorites_text": "6,129",
+      "metrics_url": "http://www.kongregate.com/games/CodeRiftStudios/idle-conquest/metrics.json",
+      "capture_timestamp": "20210611114054",
+      "capture_url": "https://web.archive.org/web/20210611114054/http://www.kongregate.com/games/CodeRiftStudios/idle-conquest/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210611114054_http_www.kongregate.com_games_CodeRiftStudios_idle-conquest_metrics.json_6b7a790be39b2872.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-06-11",
@@ -52661,9 +52766,39 @@
       "metrics_url": "https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
       "capture_timestamp": "20221011155717",
       "capture_url": "https://web.archive.org/web/20221011155717/https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221011155717_https_www.kongregate.com_games_MARTINIRosso_strikeforce-kitty-2_metrics.json_95cb7f158c29b3ee.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-10-11",
+      "game_name": "Strikeforce Kitty 2",
+      "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
+      "plays_count_observed": 915577,
+      "favorites_count_observed": 9435,
+      "plays_text": "915,577",
+      "favorites_text": "9,435",
+      "metrics_url": "https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "capture_timestamp": "20221011155717",
+      "capture_url": "https://web.archive.org/web/20221011155717/https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221011155717_https_www.kongregate.com_games_MARTINIRosso_strikeforce-kitty-2_metrics.json_95cb7f158c29b3ee.json"
+    },
+    {
+      "date": "2022-10-11",
+      "game_name": "Strikeforce Kitty 2",
+      "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
+      "plays_count_observed": 915579,
+      "favorites_count_observed": 9436,
+      "plays_text": "915,579",
+      "favorites_text": "9,436",
+      "metrics_url": "https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "capture_timestamp": "20221011171332",
+      "capture_url": "https://web.archive.org/web/20221011171332/https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221011171332_https_www.kongregate.com_games_MARTINIRosso_strikeforce-kitty-2_metrics.json_423a0f8e39009e4f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-10-11",
@@ -52724,6 +52859,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221014195247_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_69809bcdfb046a06.json"
+    },
+    {
+      "date": "2022-10-14",
+      "game_name": "Strikeforce Kitty 2",
+      "game_url": "http://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2",
+      "plays_count_observed": 915601,
+      "favorites_count_observed": 9436,
+      "plays_text": "915,601",
+      "favorites_text": "9,436",
+      "metrics_url": "https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "capture_timestamp": "20221014195157",
+      "capture_url": "https://web.archive.org/web/20221014195157/https://www.kongregate.com/games/MARTINIRosso/strikeforce-kitty-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221014195157_https_www.kongregate.com_games_MARTINIRosso_strikeforce-kitty-2_metrics.json_b6134f2d608c96c0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-10-14",
@@ -74471,6 +74621,21 @@
       "metrics_url": "https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
       "capture_timestamp": "20240120225637",
       "capture_url": "https://web.archive.org/web/20240120225637/https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120225637_https_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_022646fc887badab.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "Galactic Clicker",
+      "game_url": "http://www.kongregate.com/games/ceptri/galactic-clicker",
+      "plays_count_observed": 1510298,
+      "favorites_count_observed": 8315,
+      "plays_text": "1,510,298",
+      "favorites_text": "8,315",
+      "metrics_url": "https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
+      "capture_timestamp": "20240120225637",
+      "capture_url": "https://web.archive.org/web/20240120225637/https://www.kongregate.com/games/ceptri/galactic-clicker/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120225637_https_www.kongregate.com_games_ceptri_galactic-clicker_metrics.json_022646fc887badab.json"
@@ -76244,6 +76409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122171259_https_www.kongregate.com_games_oultrox_cubito-mayhem_metrics.json_0ff6536007eb140a.json"
+    },
+    {
+      "date": "2024-01-22",
+      "game_name": "Extreme Treadmill Survival",
+      "game_url": "http://www.kongregate.com/games/AndresasLidell/extreme-treadmill-survival",
+      "plays_count_observed": 2377,
+      "favorites_count_observed": 7,
+      "plays_text": "2,377",
+      "favorites_text": "7",
+      "metrics_url": "https://www.kongregate.com/games/AndresasLidell/extreme-treadmill-survival/metrics.json",
+      "capture_timestamp": "20240122200145",
+      "capture_url": "https://web.archive.org/web/20240122200145/https://www.kongregate.com/games/AndresasLidell/extreme-treadmill-survival/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240122200145_https_www.kongregate.com_games_AndresasLidell_extreme-treadmill-survival_metrics.json_1f963c962e7141f2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-22",
