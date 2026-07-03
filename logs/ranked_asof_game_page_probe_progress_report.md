@@ -1,25 +1,25 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T10:09:20Z
+- Generated: 2026-07-03T10:17:31Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1689
-- dynamic_metrics_placeholder: 42
+- not_checked: 1688
+- dynamic_metrics_placeholder: 43
 - no_page_cdx_rows: 1
 
 ## Recommended Actions
 
-- 1689: Run a bounded page-history CDX shard for this game.
-- 41: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1688: Run a bounded page-history CDX shard for this game.
+- 42: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 - 1: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 - 1: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 42
+- Dynamic metric placeholder games: 43
 - With exact metrics.json probe history: 1
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -28,6 +28,7 @@
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 4 | 4 | 0 | 0 | 2014-09-19 |
 | The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 0 | 0 | 2014-09-26 |
 | Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 0 | 0 | 2014-11-11 |
 | The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
@@ -48,7 +49,6 @@
 | Alexia Crow and the pandora's box | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-05 |
 | The world most bugged game | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-14 |
 | Classical Snake | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-19 |
-| Robo Racing | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-19 |
 | Brakeless Trials Game 2014 | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-20 |
 | Evolve | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-09-26 |
 | Robo-Jump | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-03 |
