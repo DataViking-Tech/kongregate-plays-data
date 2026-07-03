@@ -1,33 +1,23 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T12:08:19Z
-- Target games: 3
+- Generated: 2026-07-03T12:17:33Z
+- Target games: 5
 - Status filter: transient_failures_remaining
-- Games with cached archived pages: 3
+- Games with cached archived pages: 5
 - Games direct-probed from catalog URLs: 0
-- Endpoint candidates checked: 3
-- Candidate observation rows: 4
-- CDX status counts: fetched=4
-- CDX rows found: 10
-- Candidates with CDX rows: 2
-- Payloads with count-like signals: 2
-- Parsed play-count rows: 2
-- Deduped recovered play-count observations: 72 (2 new this run)
-- Accumulated probe-history rows: 12792 (4 new, 0 refreshed)
+- Endpoint candidates checked: 17
+- Candidate observation rows: 17
+- CDX status counts: fetched=17
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 72 (0 new this run)
+- Accumulated probe-history rows: 12849 (17 new, 0 refreshed)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Medieval Cop - Dregg Me To Hell | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | gameplays_count_with_delimiter | 145144 |
-| Medieval Cop - Dregg Me To Hell | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | gameplays_count_with_delimiter | 144385 |
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Medieval Cop - Dregg Me To Hell | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | 5 |
-| Medieval Cop - Dregg Me To Hell | metrics_json | `http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | `https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json` | 5 |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
 ## Output Files
 

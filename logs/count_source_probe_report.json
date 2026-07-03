@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 4,
-  "candidates_with_cdx": 2,
-  "cdx_lookups": 3,
-  "cdx_rows_found": 10,
+  "candidate_observation_rows": 17,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 17,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 4
+    "fetched": 17
   },
   "cdx_wall_timeout": 15.0,
   "collapse": "digest",
   "game_name_contains": "",
   "games_direct_probed": 0,
-  "games_with_cached_pages": 3,
+  "games_with_cached_pages": 5,
   "games_without_cached_pages": 0,
   "input_csv": "data/processed/count_source_probe_game_status.csv",
-  "match_type": "exact",
-  "max_candidates_per_page": 1,
-  "max_cdx_lookups": 5,
+  "match_type": "prefix",
+  "max_candidates_per_page": 5,
+  "max_cdx_lookups": 40,
   "max_pages_per_game": 1,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -26,131 +26,80 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 2,
+  "parsed_play_count_rows": 0,
   "payload_wall_timeout": 12.0,
-  "payloads_with_count_signal": 2,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "Medieval Cop - Dregg Me To Hell": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
-      "pages_checked": 1,
-      "parsed_play_counts": [
-        145144,
-        144385
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Sift Heads World Act 5 - An Exotic Job": {
+    "Brakeless Trials Game 2014": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 1,
-      "game_url": "https://www.kongregate.com/games/WebCypher/sift-heads-world-act-5-an-exotic-job",
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/lpunderground1/brakeless-trials-game-2014",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Trader of Stories - Chapter 3": {
+    "Evolve": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 1,
-      "game_url": "https://www.kongregate.com/games/mrudi/trader-of-stories-chapter-3",
+      "endpoint_candidates": 5,
+      "game_url": "http://www.kongregate.com/games/MohtashamS/evolve",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Robo-Jump": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 3,
+      "game_url": "http://www.kongregate.com/games/gr33ngunner007/robo-jump",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Adventures of Bit and Ravh": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/gillenew/the-adventures-of-bit-and-ravh",
+      "pages_checked": 1,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Gates of Heaven": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 5,
+      "game_url": "http://www.kongregate.com/games/EmperorMason/the-gates-of-heaven",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 2,
+    "added": 0,
     "total": 72
   },
   "persisted_probe_history": {
-    "added": 4,
-    "total": 12792,
+    "added": 17,
+    "total": 12849,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T12:08:19Z",
+  "run_timestamp": "2026-07-03T12:17:33Z",
   "source_types": [
-    "metrics_json"
+    "chat_achievements",
+    "chat_js",
+    "game_path_prefix",
+    "holodeck",
+    "recommended_games"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 3,
+  "target_games": 5,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 5,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "game_name": "Medieval Cop - Dregg Me To Hell",
-      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
-      "notes": "generated_from_game_path,fetched",
-      "parsed_plays": 145144,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230821125313_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_84387435a36a37b8.txt",
-      "sample_timestamp": "20230821125313",
-      "source_page_path": "data/raw/game_pages/html/20161119055933_http_www.kongregate.com_80_games_VasantJ_medieval-cop-dregg-me-to-hell_cc79a3e35c70ebb1.html",
-      "source_page_timestamp": "20161119055933",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 5,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "game_name": "Medieval Cop - Dregg Me To Hell",
-      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
-      "notes": "generated_from_game_path,fetched",
-      "parsed_plays": 144385,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230821084613_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_d9b191834a6e07a0.txt",
-      "sample_timestamp": "20230821084613",
-      "source_page_path": "data/raw/game_pages/html/20161119055933_http_www.kongregate.com_80_games_VasantJ_medieval-cop-dregg-me-to-hell_cc79a3e35c70ebb1.html",
-      "source_page_timestamp": "20161119055933",
-      "source_type": "metrics_json"
-    }
-  ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 5,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "game_name": "Medieval Cop - Dregg Me To Hell",
-      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
-      "notes": "generated_from_game_path,fetched",
-      "parsed_plays": 145144,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230821125313_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_84387435a36a37b8.txt",
-      "sample_timestamp": "20230821125313",
-      "source_page_path": "data/raw/game_pages/html/20161119055933_http_www.kongregate.com_80_games_VasantJ_medieval-cop-dregg-me-to-hell_cc79a3e35c70ebb1.html",
-      "source_page_timestamp": "20161119055933",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 5,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "game_name": "Medieval Cop - Dregg Me To Hell",
-      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
-      "notes": "generated_from_game_path,fetched",
-      "parsed_plays": 144385,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230821084613_https_www.kongregate.com_games_VasantJ_medieval-cop-dregg-me-to-hell_metrics.json_d9b191834a6e07a0.txt",
-      "sample_timestamp": "20230821084613",
-      "source_page_path": "data/raw/game_pages/html/20161119055933_http_www.kongregate.com_80_games_VasantJ_medieval-cop-dregg-me-to-hell_cc79a3e35c70ebb1.html",
-      "source_page_timestamp": "20161119055933",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": true
 }
