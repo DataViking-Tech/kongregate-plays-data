@@ -1,8 +1,8 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T09:12:09Z
+- Run timestamp: 2026-07-03T09:19:33Z
 - Profile games in scope: 1
-- Selected games sample: Miscrits
+- Selected games sample: Drift Race in the open world
 - Selected games omitted from sample: 0
 - CDX games considered: 1
 - Cached CDX only: False
@@ -12,19 +12,19 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: miscrits
+- Game-name filter: drift race in the open world
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 75
-- Page jobs: 25
-- Pending before run: 25
-- Attempted this run: 25
-- Fetched this run: 17
+- CDX rows: 0
+- Page jobs: 0
+- Pending before run: 0
+- Attempted this run: 0
+- Fetched this run: 0
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 8
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 25
+- Failed this run: 0
 - Manifest entries: 368
 - Known failures: 3539
 - Combined history rows: 7939
