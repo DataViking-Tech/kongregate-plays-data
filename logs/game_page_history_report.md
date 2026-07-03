@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T14:51:25Z
-- Profile games in scope: 5
-- Selected games sample: Space Defender YM, Shootrio, Zombie Cannon Attack!, Warscrap, test
+- Run timestamp: 2026-07-03T15:04:36Z
+- Profile games in scope: 2
+- Selected games sample: Tyrant Unleashed, Tap Adventure
 - Selected games omitted from sample: 0
-- CDX games considered: 5
+- CDX games considered: 2
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
 - CDX wall-clock cap: 8.0
 - CDX date-window days: 120
 - Page timeout: 8s
-- Page wall-clock cap: 10.0
+- Page wall-clock cap: 12.0
 - Game-name filter: none
 - Metrics row filter: has_metrics
-- Progress status filter: page_cdx_pending
-- CDX rows: 40
-- Page jobs: 20
-- Pending before run: 20
-- Attempted this run: 20
-- Fetched this run: 18
+- Progress status filter: page_fetch_failed
+- CDX rows: 151
+- Page jobs: 151
+- Pending before run: 151
+- Attempted this run: 24
+- Fetched this run: 23
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 2
+- Network fetch failed this run: 1
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 20
+- Failed this run: 24
 - Manifest entries: 368
-- Known failures: 3900
-- Combined history rows: 8016
+- Known failures: 3941
+- Combined history rows: 8021
 - Game-page history rows: 368
 - Report only: False

@@ -6843,6 +6843,21 @@
     {
       "date": "2015-11-20",
       "game_name": "Tap Adventure",
+      "game_url": "https://www.kongregate.com/games/Avaloid/tap-adventure",
+      "plays_count_observed": 1215944,
+      "favorites_count_observed": 5070,
+      "plays_text": "1,215,944",
+      "favorites_text": "5,070",
+      "metrics_url": "http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json",
+      "capture_timestamp": "20151120202617",
+      "capture_url": "https://web.archive.org/web/20151120202617/http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151120202617_http_www.kongregate.com_games_Avaloid_tap-adventure_metrics.json_cfe36dda73b7e64c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-11-20",
+      "game_name": "Tap Adventure",
       "game_url": "http://www.kongregate.com/games/Avaloid/tap-adventure",
       "plays_count_observed": 1215944,
       "favorites_count_observed": 5070,
@@ -6884,6 +6899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151122173511_http_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_9484526ae1adb4c9.json"
+    },
+    {
+      "date": "2015-11-24",
+      "game_name": "Tap Adventure",
+      "game_url": "https://www.kongregate.com/games/Avaloid/tap-adventure",
+      "plays_count_observed": 1287888,
+      "favorites_count_observed": 5375,
+      "plays_text": "1,287,888",
+      "favorites_text": "5,375",
+      "metrics_url": "http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json",
+      "capture_timestamp": "20151124145621",
+      "capture_url": "https://web.archive.org/web/20151124145621/http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151124145621_http_www.kongregate.com_games_Avaloid_tap-adventure_metrics.json_3b57db1ba8b22a93.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-11-24",
@@ -9918,6 +9948,21 @@
     {
       "date": "2018-02-15",
       "game_name": "Animation Throwdown",
+      "game_url": "http://www.kongregate.com/games/Throwdown/animation-throwdown",
+      "plays_count_observed": 4339559,
+      "favorites_count_observed": 18581,
+      "plays_text": "4,339,559",
+      "favorites_text": "18,581",
+      "metrics_url": "http://www.kongregate.com/games/throwdown/animation-throwdown/metrics.json",
+      "capture_timestamp": "20180215134357",
+      "capture_url": "https://web.archive.org/web/20180215134357/http://www.kongregate.com/games/throwdown/animation-throwdown/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180215134357_http_www.kongregate.com_games_throwdown_animation-throwdown_metrics.json_4bc613d4cc99cf7d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-15",
+      "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
       "plays_count_observed": 4339559,
       "favorites_count_observed": 18581,
@@ -10979,6 +11024,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181205152750_http_www.kongregate.com_80_games_ArmorGames_achievement-unlocked_metrics.json_6bd6f344644b1cb7.json"
+    },
+    {
+      "date": "2018-12-17",
+      "game_name": "Idle Bouncer",
+      "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
+      "plays_count_observed": 1505802,
+      "favorites_count_observed": 5993,
+      "plays_text": "1,505,802",
+      "favorites_text": "5,993",
+      "metrics_url": "http://www.kongregate.com:80/games/almostidle/idle-bouncer/metrics.json",
+      "capture_timestamp": "20181217125546",
+      "capture_url": "https://web.archive.org/web/20181217125546/http://www.kongregate.com:80/games/almostidle/idle-bouncer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20181217125546_http_www.kongregate.com_80_games_almostidle_idle-bouncer_metrics.json_9a7f614fea9e5970.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-12-17",
@@ -13019,6 +13079,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191003194114_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_0fe499124de12ef7.json"
+    },
+    {
+      "date": "2019-10-05",
+      "game_name": "Animation Throwdown",
+      "game_url": "http://www.kongregate.com/games/Throwdown/animation-throwdown",
+      "plays_count_observed": 8191826,
+      "favorites_count_observed": 26882,
+      "plays_text": "8,191,826",
+      "favorites_text": "26,882",
+      "metrics_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json",
+      "capture_timestamp": "20191005060337",
+      "capture_url": "https://web.archive.org/web/20191005060337/https://www.kongregate.com/games/Throwdown/animation-throwdown/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191005060337_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_07559ab8a603a693.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-05",
@@ -32928,6 +33003,21 @@
     {
       "date": "2021-05-13",
       "game_name": "Tyrant Unleashed",
+      "game_url": "https://www.kongregate.com/games/synapticon/tyrant-unleashed-web",
+      "plays_count_observed": 12852143,
+      "favorites_count_observed": 20865,
+      "plays_text": "12,852,143",
+      "favorites_text": "20,865",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json",
+      "capture_timestamp": "20210513080139",
+      "capture_url": "https://web.archive.org/web/20210513080139/https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210513080139_https_www.kongregate.com_games_synapticon_tyrant-unleashed-web_metrics.json_fe60901ae159d700.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-05-13",
+      "game_name": "Tyrant Unleashed",
       "game_url": "http://www.kongregate.com/games/synapticon/tyrant-unleashed-web",
       "plays_count_observed": 12852143,
       "favorites_count_observed": 20865,
@@ -33524,6 +33614,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210524073239_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_59db54b043aa41f4.json"
+    },
+    {
+      "date": "2021-05-24",
+      "game_name": "Tyrant Unleashed",
+      "game_url": "https://www.kongregate.com/games/synapticon/tyrant-unleashed-web",
+      "plays_count_observed": 12859696,
+      "favorites_count_observed": 20873,
+      "plays_text": "12,859,696",
+      "favorites_text": "20,873",
+      "metrics_url": "https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json",
+      "capture_timestamp": "20210524073108",
+      "capture_url": "https://web.archive.org/web/20210524073108/https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210524073108_https_www.kongregate.com_games_synapticon_tyrant-unleashed-web_metrics.json_9daffb9b4137c2bf.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-05-24",
@@ -45524,6 +45629,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220429235606_http_www.kongregate.com_games_HolydayStudios_midas-gold-plus_metrics.json_5697eeca6e2ad197.json"
+    },
+    {
+      "date": "2022-05-02",
+      "game_name": "Idle Bouncer",
+      "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
+      "plays_count_observed": 1961479,
+      "favorites_count_observed": 7304,
+      "plays_text": "1,961,479",
+      "favorites_text": "7,304",
+      "metrics_url": "https://www.kongregate.com/games/almostidle/idle-bouncer/metrics.json",
+      "capture_timestamp": "20220502110305",
+      "capture_url": "https://web.archive.org/web/20220502110305/https://www.kongregate.com/games/almostidle/idle-bouncer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220502110305_https_www.kongregate.com_games_almostidle_idle-bouncer_metrics.json_95c20b978e46ba36.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-05-02",
