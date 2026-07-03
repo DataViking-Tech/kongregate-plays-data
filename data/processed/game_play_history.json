@@ -64706,6 +64706,21 @@
       "metrics_url": "https://www.kongregate.com/games/LinzioGame/bottle-crash-deluxe/metrics.json",
       "capture_timestamp": "20230914014422",
       "capture_url": "https://web.archive.org/web/20230914014422/https://www.kongregate.com/games/LinzioGame/bottle-crash-deluxe/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230914014422_https_www.kongregate.com_games_LinzioGame_bottle-crash-deluxe_metrics.json_9058e7ea4d2f4b86.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "Bottle Crash Deluxe",
+      "game_url": "http://www.kongregate.com/games/LinzioGame/bottle-crash-deluxe",
+      "plays_count_observed": 55,
+      "favorites_count_observed": 0,
+      "plays_text": "55",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/LinzioGame/bottle-crash-deluxe/metrics.json",
+      "capture_timestamp": "20230914014422",
+      "capture_url": "https://web.archive.org/web/20230914014422/https://www.kongregate.com/games/LinzioGame/bottle-crash-deluxe/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914014422_https_www.kongregate.com_games_LinzioGame_bottle-crash-deluxe_metrics.json_9058e7ea4d2f4b86.json"
@@ -86099,6 +86114,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20241217060615_https_www.kongregate.com_games_k2xl_boomshine_metrics.json_2c3fa8c118584b20.json"
+    },
+    {
+      "date": "2024-12-17",
+      "game_name": "Cat around the world - Alipne Lakes",
+      "game_url": "http://www.kongregate.com/games/myplayyard/cat-around-the-world-alipne-lakes",
+      "plays_count_observed": 733,
+      "favorites_count_observed": 7,
+      "plays_text": "733",
+      "favorites_text": "7",
+      "metrics_url": "https://www.kongregate.com/games/myplayyard/cat-around-the-world-alipne-lakes/metrics.json",
+      "capture_timestamp": "20241217012731",
+      "capture_url": "https://web.archive.org/web/20241217012731/https://www.kongregate.com/games/myplayyard/cat-around-the-world-alipne-lakes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20241217012731_https_www.kongregate.com_games_myplayyard_cat-around-the-world-alipne-lakes_metrics.json_14fe8ae8ddb65004.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-12-17",

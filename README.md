@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1wh3IV_4EADGLfCjFZ1QK--x2jq_xPA6BQCYtHFVpP3k
+https://docs.google.com/spreadsheets/d/1UaGOJcZ6NmhITyXZ5KeR5gi4m6Twt4T6eK8ASd00G_s
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1wh3IV_4EADGLfCjFZ1QK--x2jq_xPA6BQCYtHFVp
 - Ranked-list rows with aggregate as-of observed play counts: 43,489
 - Mini catalog: 2,997 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,291 across 2,672 canonical games
-- Observed play-count rows used by the chart: 24,207
+- Per-game play-history rows: 8,293 across 2,672 canonical games
+- Observed play-count rows used by the chart: 24,209
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,341 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-02
 - Per-game play-history date range: 2007-03-24 to 2026-07-02
@@ -296,6 +296,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 268 ran the next bounded exact-metrics shard for 16 games, then retried the six transient CDX misses from that shard. Exact `metrics.json` rows recovered 20 new public play-count observations for Space Breakout!, Bullet Heaven 2, and Medieval Chronicles 8 (Part 2), adding 8 net unified play-history rows after de-duplication. The recovered rows were still later than each open missing rank window, so aggregate as-of coverage remains 43,489 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 14,907 observations, recovered count rows are 584, unified play-history rows are 8,281, chart observed rows are 24,197, and the bounded exact-metrics queue is down to 1,532. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 269 ran the next exact-row bounded metrics shard, including the ambiguous Medieval Chronicles 8 target without re-probing the Part 2 variant, then retried the eight transient CDX misses from that shard. Exact `metrics.json` rows recovered 4 new public play-count observations for Medieval Chronicles 8, adding 4 net unified play-history rows after de-duplication. The recovered rows were still later than the open missing rank window, so aggregate as-of coverage remains 43,489 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 14,961 observations, recovered count rows are 588, unified play-history rows are 8,285, chart observed rows are 24,201, and the bounded exact-metrics queue is down to 1,516. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 270 ran the next exact-row bounded metrics shard for 16 games, then retried the seven transient CDX misses plus the incomplete Necromancer's Quest Beta payload samples. Exact `metrics.json` rows recovered 6 new public play-count observations across Pre-Civilization Bronze Age, Button Game Adventure, and Necromancer's Quest Beta, adding 6 net unified play-history rows after de-duplication. The recovered rows were still later than the open missing rank windows, so aggregate as-of coverage remains 43,489 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,017 observations, recovered count rows are 594, unified play-history rows are 8,291, chart observed rows are 24,207, and the bounded exact-metrics queue is down to 1,500. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
+- Checkpoint 271 ran the next bounded exact-metrics shard for 24 games, then retried the 12 transient/incomplete cases and gave Another Platform Game one final slow retry. Exact `metrics.json` rows recovered 2 new public play-count observations for Cat around the world - Alipne Lakes and Bottle Crash Deluxe, adding 2 net unified play-history rows after de-duplication. The recovered rows were still later than the open missing rank windows, so aggregate as-of coverage remains 43,489 ranked rows and 5,095 rows still lack an as-of count. Count-source probe history now has 15,090 observations, recovered count rows are 596, unified play-history rows are 8,293, chart observed rows are 24,209, and the bounded exact-metrics queue is down to 1,476. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
