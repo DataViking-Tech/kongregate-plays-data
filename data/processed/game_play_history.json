@@ -6266,9 +6266,39 @@
       "metrics_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
       "capture_timestamp": "20150224175009",
       "capture_url": "https://web.archive.org/web/20150224175009/http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150224175009_http_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_068bda79c6a11246.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-02-24",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 588553,
+      "favorites_count_observed": 12445,
+      "plays_text": "588,553",
+      "favorites_text": "12,445",
+      "metrics_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20150224175009",
+      "capture_url": "https://web.archive.org/web/20150224175009/http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150224175009_http_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_068bda79c6a11246.json"
+    },
+    {
+      "date": "2015-02-24",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 588553,
+      "favorites_count_observed": 12445,
+      "plays_text": "588,553",
+      "favorites_text": "12,445",
+      "metrics_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20150224175010",
+      "capture_url": "https://web.archive.org/web/20150224175010/http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150224175010_http_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_f96ae469bb3b4918.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-02-24",
@@ -10271,6 +10301,21 @@
       "metrics_url": "http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
       "capture_timestamp": "20180214171839",
       "capture_url": "https://web.archive.org/web/20180214171839/http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180214171839_http_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_abfe2d11d6435f45.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-14",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 7949314,
+      "favorites_count_observed": 17274,
+      "plays_text": "7,949,314",
+      "favorites_text": "17,274",
+      "metrics_url": "http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20180214171839",
+      "capture_url": "https://web.archive.org/web/20180214171839/http://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180214171839_http_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_abfe2d11d6435f45.json"
@@ -10949,6 +10994,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180419180435_http_www.kongregate.com_80_games_locos_youkongregate_metrics.json_2f60e2ecdf7d51be.json"
+    },
+    {
+      "date": "2018-04-25",
+      "game_name": "Red Crucible: Reloaded",
+      "game_url": "http://www.kongregate.com/games/rocketeergames/red-crucible-reloaded",
+      "plays_count_observed": 164901,
+      "favorites_count_observed": 1439,
+      "plays_text": "164,901",
+      "favorites_text": "1,439",
+      "metrics_url": "http://www.kongregate.com/games/rocketeergames/red-crucible-reloaded/metrics.json",
+      "capture_timestamp": "20180425023250",
+      "capture_url": "https://web.archive.org/web/20180425023250/http://www.kongregate.com/games/rocketeergames/red-crucible-reloaded/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180425023250_http_www.kongregate.com_games_rocketeergames_red-crucible-reloaded_metrics.json_1ba7dde892b91a6a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-04-25",
@@ -14103,6 +14163,21 @@
     {
       "date": "2019-10-17",
       "game_name": "Medieval Chronicles 6",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 22355,
+      "favorites_count_observed": 303,
+      "plays_text": "22,355",
+      "favorites_text": "303",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191017183743",
+      "capture_url": "https://web.archive.org/web/20191017183743/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183743_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_70531452413ad9e7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Medieval Chronicles 6",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
       "plays_count_observed": 22355,
       "favorites_count_observed": 303,
@@ -14771,6 +14846,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
       "capture_timestamp": "20191023143208",
       "capture_url": "https://web.archive.org/web/20191023143208/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191023143208_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_9448d41448e06805.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-23",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 23723,
+      "favorites_count_observed": 308,
+      "plays_text": "23,723",
+      "favorites_text": "308",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191023143208",
+      "capture_url": "https://web.archive.org/web/20191023143208/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191023143208_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_9448d41448e06805.json"
@@ -15101,6 +15191,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
       "capture_timestamp": "20191027045019",
       "capture_url": "https://web.archive.org/web/20191027045019/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191027045019_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_a4fa7607ddcd868f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-27",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 25423,
+      "favorites_count_observed": 320,
+      "plays_text": "25,423",
+      "favorites_text": "320",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191027045019",
+      "capture_url": "https://web.archive.org/web/20191027045019/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045019_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_a4fa7607ddcd868f.json"
@@ -15299,6 +15404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045014_https_www.kongregate.com_games_dampgnat_wonderputt_metrics.json_0160ce4bd294a096.json"
+    },
+    {
+      "date": "2019-10-31",
+      "game_name": "Medieval Chronicles 6",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6",
+      "plays_count_observed": 26454,
+      "favorites_count_observed": 328,
+      "plays_text": "26,454",
+      "favorites_text": "328",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "capture_timestamp": "20191031033858",
+      "capture_url": "https://web.archive.org/web/20191031033858/https://www.kongregate.com/games/VasantJ/medieval-chronicles-6/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191031033858_https_www.kongregate.com_games_VasantJ_medieval-chronicles-6_metrics.json_6a0fad126c1e0a79.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-31",
@@ -23171,6 +23291,21 @@
       "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "capture_timestamp": "20200716173634",
       "capture_url": "https://web.archive.org/web/20200716173634/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200716173634_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_4e2a13ddff86efd1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-07-16",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 509506,
+      "favorites_count_observed": 2359,
+      "plays_text": "509,506",
+      "favorites_text": "2,359",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20200716173634",
+      "capture_url": "https://web.archive.org/web/20200716173634/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200716173634_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_4e2a13ddff86efd1.json"
@@ -25286,6 +25421,21 @@
       "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "capture_timestamp": "20201017131006",
       "capture_url": "https://web.archive.org/web/20201017131006/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201017131006_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_ce35b5bac4837832.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-10-17",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 513065,
+      "favorites_count_observed": 2379,
+      "plays_text": "513,065",
+      "favorites_text": "2,379",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20201017131006",
+      "capture_url": "https://web.archive.org/web/20201017131006/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017131006_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_ce35b5bac4837832.json"
@@ -25454,6 +25604,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201020201249_https_www.kongregate.com_games_Codename_Enter_idle-champions-of-the-forgotten-realms_metrics.json_0287bee22cb710fe.json"
+    },
+    {
+      "date": "2020-10-20",
+      "game_name": "Idle Evolution",
+      "game_url": "http://www.kongregate.com/games/NewProject1/idle-evolution",
+      "plays_count_observed": 2523061,
+      "favorites_count_observed": 10621,
+      "plays_text": "2,523,061",
+      "favorites_text": "10,621",
+      "metrics_url": "https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "capture_timestamp": "20201020180326",
+      "capture_url": "https://web.archive.org/web/20201020180326/https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201020180326_https_www.kongregate.com_games_NewProject1_idle-evolution_metrics.json_74f4aaedc2744aaa.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-10-20",
@@ -32861,6 +33026,21 @@
       "metrics_url": "https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
       "capture_timestamp": "20210218121818",
       "capture_url": "https://web.archive.org/web/20210218121818/https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210218121818_https_www.kongregate.com_games_NewProject1_idle-evolution_metrics.json_57437c283ff6c213.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-02-18",
+      "game_name": "Idle Evolution",
+      "game_url": "http://www.kongregate.com/games/NewProject1/idle-evolution",
+      "plays_count_observed": 2538881,
+      "favorites_count_observed": 10653,
+      "plays_text": "2,538,881",
+      "favorites_text": "10,653",
+      "metrics_url": "https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "capture_timestamp": "20210218121818",
+      "capture_url": "https://web.archive.org/web/20210218121818/https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210218121818_https_www.kongregate.com_games_NewProject1_idle-evolution_metrics.json_57437c283ff6c213.json"
@@ -33749,6 +33929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210506120722_https_www.kongregate.com_games_Wild_Shadow_realm-of-the-mad-god_metrics.json_a37ad0cd959cca73.json"
+    },
+    {
+      "date": "2021-05-09",
+      "game_name": "Idle Evolution",
+      "game_url": "http://www.kongregate.com/games/NewProject1/idle-evolution",
+      "plays_count_observed": 2548730,
+      "favorites_count_observed": 10671,
+      "plays_text": "2,548,730",
+      "favorites_text": "10,671",
+      "metrics_url": "https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "capture_timestamp": "20210509190941",
+      "capture_url": "https://web.archive.org/web/20210509190941/https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210509190941_https_www.kongregate.com_games_NewProject1_idle-evolution_metrics.json_89b5af869da4fe02.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-05-09",
@@ -37439,6 +37634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210904013730_https_www.kongregate.com_games_Raius__the-journey-home_metrics.json_9eba2b1f764e2860.json"
+    },
+    {
+      "date": "2021-09-06",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1128337,
+      "favorites_count_observed": 17830,
+      "plays_text": "1,128,337",
+      "favorites_text": "17,830",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20210906165353",
+      "capture_url": "https://web.archive.org/web/20210906165353/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210906165353_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_03bd84cd4a5c9f30.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-09-06",
@@ -42806,6 +43016,21 @@
       "metrics_url": "http://www.kongregate.com/games/AwesomePixels/gun-mayhem-2-more-mayhem/metrics.json",
       "capture_timestamp": "20211209160338",
       "capture_url": "https://web.archive.org/web/20211209160338/http://www.kongregate.com/games/AwesomePixels/gun-mayhem-2-more-mayhem/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211209160338_http_www.kongregate.com_games_AwesomePixels_gun-mayhem-2-more-mayhem_metrics.json_2eba9c361d013eb4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-12-09",
+      "game_name": "Gun Mayhem 2:More Mayhem",
+      "game_url": "https://www.kongregate.com/games/AwesomePixels/gun-mayhem-2-more-mayhem",
+      "plays_count_observed": 138133,
+      "favorites_count_observed": 1819,
+      "plays_text": "138,133",
+      "favorites_text": "1,819",
+      "metrics_url": "http://www.kongregate.com/games/AwesomePixels/gun-mayhem-2-more-mayhem/metrics.json",
+      "capture_timestamp": "20211209160338",
+      "capture_url": "https://web.archive.org/web/20211209160338/http://www.kongregate.com/games/AwesomePixels/gun-mayhem-2-more-mayhem/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211209160338_http_www.kongregate.com_games_AwesomePixels_gun-mayhem-2-more-mayhem_metrics.json_2eba9c361d013eb4.json"
@@ -43154,6 +43379,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220110130831_https_www.kongregate.com_games_truefire_press-the-button_metrics.json_0149477ad851a4b4.json"
+    },
+    {
+      "date": "2022-01-10",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 10973560,
+      "favorites_count_observed": 20252,
+      "plays_text": "10,973,560",
+      "favorites_text": "20,252",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220110180110",
+      "capture_url": "https://web.archive.org/web/20220110180110/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220110180110_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_83459de013ebaac7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-01-10",
@@ -44984,6 +45224,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220226152723_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_20c0dc36180edcd6.json"
+    },
+    {
+      "date": "2022-02-26",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 11004298,
+      "favorites_count_observed": 20258,
+      "plays_text": "11,004,298",
+      "favorites_text": "20,258",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220226011715",
+      "capture_url": "https://web.archive.org/web/20220226011715/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220226011715_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_75289387a2b0a509.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-02-26",
@@ -47129,6 +47384,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220413131536_https_www.kongregate.com_games_thekastudio_raid-heroes-total-war_metrics.json_d7db6b7b4b44739f.json"
+    },
+    {
+      "date": "2022-04-13",
+      "game_name": "Shop Heroes",
+      "game_url": "http://www.kongregate.com/games/cloudcade/shop-heroes",
+      "plays_count_observed": 11033217,
+      "favorites_count_observed": 20272,
+      "plays_text": "11,033,217",
+      "favorites_text": "20,272",
+      "metrics_url": "https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "capture_timestamp": "20220413131458",
+      "capture_url": "https://web.archive.org/web/20220413131458/https://www.kongregate.com/games/cloudcade/shop-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220413131458_https_www.kongregate.com_games_cloudcade_shop-heroes_metrics.json_793b8714517d60b9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-04-13",
@@ -49886,6 +50156,21 @@
       "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
       "capture_timestamp": "20220911215210",
       "capture_url": "https://web.archive.org/web/20220911215210/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220911215210_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_d9d41d8b719374a4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-09-11",
+      "game_name": "Mike Shadow: I paid for it!",
+      "game_url": "http://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it",
+      "plays_count_observed": 1144097,
+      "favorites_count_observed": 17857,
+      "plays_text": "1,144,097",
+      "favorites_text": "17,857",
+      "metrics_url": "https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
+      "capture_timestamp": "20220911215210",
+      "capture_url": "https://web.archive.org/web/20220911215210/https://www.kongregate.com/games/Tanoku/mike-shadow-i-paid-for-it/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220911215210_https_www.kongregate.com_games_Tanoku_mike-shadow-i-paid-for-it_metrics.json_d9d41d8b719374a4.json"
@@ -50324,6 +50609,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220921114956_https_www.kongregate.com_games_mmx95_happy-cube_metrics.json_9a0bb41a53e2b141.json"
+    },
+    {
+      "date": "2022-09-21",
+      "game_name": "Idle Evolution",
+      "game_url": "http://www.kongregate.com/games/NewProject1/idle-evolution",
+      "plays_count_observed": 2583874,
+      "favorites_count_observed": 10748,
+      "plays_text": "2,583,874",
+      "favorites_text": "10,748",
+      "metrics_url": "https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "capture_timestamp": "20220921082116",
+      "capture_url": "https://web.archive.org/web/20220921082116/https://www.kongregate.com/games/NewProject1/idle-evolution/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220921082116_https_www.kongregate.com_games_NewProject1_idle-evolution_metrics.json_ca046c7c956ddcd8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-09-21",
@@ -87191,6 +87491,21 @@
       "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "capture_timestamp": "20250402214657",
       "capture_url": "https://web.archive.org/web/20250402214657/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250402214657_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_36271fdf6c847f92.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2025-04-02",
+      "game_name": "Tabletop idle",
+      "game_url": "http://www.kongregate.com/games/omgnoob191/tabletop-idle",
+      "plays_count_observed": 533442,
+      "favorites_count_observed": 2447,
+      "plays_text": "533,442",
+      "favorites_text": "2,447",
+      "metrics_url": "https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
+      "capture_timestamp": "20250402214657",
+      "capture_url": "https://web.archive.org/web/20250402214657/https://www.kongregate.com/games/omgnoob191/tabletop-idle/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250402214657_https_www.kongregate.com_games_omgnoob191_tabletop-idle_metrics.json_36271fdf6c847f92.json"
@@ -88259,6 +88574,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250426222527_https_www.kongregate.com_games_siread_retro-bowl_metrics.json_ee9ab23ff54237b5.json"
+    },
+    {
+      "date": "2025-04-26",
+      "game_name": "Sift Heads World act 7 - Ultimatum",
+      "game_url": "https://www.kongregate.com/en/games/WebCypher/sift-heads-world-act-7-ultimatum",
+      "plays_count_observed": 410989,
+      "favorites_count_observed": 2215,
+      "plays_text": "410,989",
+      "favorites_text": "2,215",
+      "metrics_url": "https://www.kongregate.com/games/WebCypher/sift-heads-world-act-7-ultimatum/metrics.json",
+      "capture_timestamp": "20250426224210",
+      "capture_url": "https://web.archive.org/web/20250426224210/https://www.kongregate.com/games/WebCypher/sift-heads-world-act-7-ultimatum/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250426224210_https_www.kongregate.com_games_WebCypher_sift-heads-world-act-7-ultimatum_metrics.json_51d291d7ab3eb6d5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-04-26",
