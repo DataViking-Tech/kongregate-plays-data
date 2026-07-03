@@ -1,27 +1,27 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T11:45:18Z
+- Generated: 2026-07-03T11:55:43Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1673
+- not_checked: 1672
 - dynamic_metrics_placeholder: 56
-- no_page_cdx_rows: 3
+- no_page_cdx_rows: 4
 
 ## Recommended Actions
 
-- 1673: Run a bounded page-history CDX shard for this game.
-- 46: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 10: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
-- 3: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
+- 1672: Run a bounded page-history CDX shard for this game.
+- 44: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 12: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 4: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
 - Dynamic metric placeholder games: 56
-- With exact metrics.json probe history: 29
-- With exact metrics.json CDX rows: 19
+- With exact metrics.json probe history: 39
+- With exact metrics.json CDX rows: 27
 - With alternate endpoint CDX rows: 8
 
 ## Top Unresolved Examples
@@ -47,9 +47,9 @@
 | Swords and Souls | 1 | dynamic_metrics_placeholder | 3 | 73 | 16 | 2 | 102 | 2015-10-29 |
 | Discover | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2016-01-16 |
 | There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 3 | 40 | 2016-03-07 |
-| SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 0 | 0 | 2016-03-24 |
-| Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
-| Unpuzzle 2 | 1 | dynamic_metrics_placeholder | 3 | 17 | 13 | 0 | 0 | 2018-03-10 |
-| Medieval Chronicles 4 | 1 | dynamic_metrics_placeholder | 3 | 14 | 13 | 0 | 0 | 2019-05-06 |
-| Medieval Chronicles 7 | 1 | dynamic_metrics_placeholder | 2 | 2 | 2 | 0 | 0 | 2020-01-01 |
+| SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 1 | 0 | 2016-03-24 |
+| Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 2 | 16 | 2017-03-04 |
+| Unpuzzle 2 | 1 | dynamic_metrics_placeholder | 3 | 17 | 13 | 2 | 48 | 2018-03-10 |
+| Medieval Chronicles 4 | 1 | dynamic_metrics_placeholder | 3 | 14 | 13 | 2 | 10 | 2019-05-06 |
+| Medieval Chronicles 7 | 1 | dynamic_metrics_placeholder | 2 | 2 | 2 | 2 | 6 | 2020-01-01 |
 | Escape Game - Computer Office Escape | 1 | dynamic_metrics_placeholder | 2 | 17 | 14 | 2 | 76 | 2020-06-02 |

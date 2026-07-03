@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T11:45:18Z",
+  "generated_at": "2026-07-03T11:55:43Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -7,19 +7,19 @@
   "metrics_row_status": "has_metrics",
   "profile_games": 1732,
   "status_counts": {
-    "not_checked": 1673,
+    "not_checked": 1672,
     "dynamic_metrics_placeholder": 56,
-    "no_page_cdx_rows": 3
+    "no_page_cdx_rows": 4
   },
   "recommended_action_counts": {
-    "Run a bounded page-history CDX shard for this game.": 1673,
-    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 46,
-    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 10,
-    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 3
+    "Run a bounded page-history CDX shard for this game.": 1672,
+    "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.": 44,
+    "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.": 12,
+    "Escalate to alternate count sources; checked page URL variants have no usable CDX rows.": 4
   },
   "dynamic_metric_placeholder_games": 56,
-  "dynamic_metric_placeholder_games_with_metrics_json_probe": 29,
-  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 19,
+  "dynamic_metric_placeholder_games_with_metrics_json_probe": 39,
+  "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 27,
   "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 8,
   "high_value_unresolved_games": 1732,
   "top_unresolved_examples": [
@@ -538,10 +538,10 @@
       "dynamic_metric_placeholder_pages": 1,
       "game_metrics_updater_pages": 1,
       "blank_gameplays_count_pages": 1,
-      "metrics_json_probe_observations": 0,
+      "metrics_json_probe_observations": 1,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
+      "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
       "status": "dynamic_metrics_placeholder",
@@ -564,8 +564,8 @@
       "dynamic_metric_placeholder_pages": 11,
       "game_metrics_updater_pages": 11,
       "blank_gameplays_count_pages": 11,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 16,
       "alternate_endpoint_cdx_rows": 657,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -590,8 +590,8 @@
       "dynamic_metric_placeholder_pages": 13,
       "game_metrics_updater_pages": 13,
       "blank_gameplays_count_pages": 13,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 48,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -616,8 +616,8 @@
       "dynamic_metric_placeholder_pages": 13,
       "game_metrics_updater_pages": 13,
       "blank_gameplays_count_pages": 13,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 10,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -642,8 +642,8 @@
       "dynamic_metric_placeholder_pages": 2,
       "game_metrics_updater_pages": 2,
       "blank_gameplays_count_pages": 2,
-      "metrics_json_probe_observations": 0,
-      "metrics_json_cdx_rows": 0,
+      "metrics_json_probe_observations": 2,
+      "metrics_json_cdx_rows": 6,
       "alternate_endpoint_cdx_rows": 0,
       "recommended_next_action": "Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics."
     },
@@ -726,18 +726,18 @@
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
-      "status": "not_checked",
+      "status": "no_page_cdx_rows",
       "followup_tier": 1,
-      "game_name": "Bakery French Bread",
-      "game_url": "http://www.kongregate.com/games/IanStokes/bakery-french-bread",
-      "canonical_game_key": "www.kongregate.com/games/ianstokes/bakery-french-bread",
+      "game_name": "Opulent Sunflappiness 3",
+      "game_url": "http://www.kongregate.com/games/stewardhklarlove/opulent-sunflappiness-3",
+      "canonical_game_key": "www.kongregate.com/games/stewardhklarlove/opulent-sunflappiness-3",
       "best_rank": 1,
       "top_n_appearances": 1,
       "listing_play_count_rows": 0,
       "needs_game_page_history": "yes",
-      "first_seen_date": "2014-10-04",
-      "last_seen_date": "2014-10-04",
-      "cached_cdx_variants": 0,
+      "first_seen_date": "2014-10-09",
+      "last_seen_date": "2014-10-09",
+      "cached_cdx_variants": 2,
       "unique_cdx_rows": 0,
       "parsed_page_rows": 0,
       "failed_page_rows": 0,
@@ -749,20 +749,20 @@
       "metrics_json_probe_observations": 0,
       "metrics_json_cdx_rows": 0,
       "alternate_endpoint_cdx_rows": 0,
-      "recommended_next_action": "Run a bounded page-history CDX shard for this game."
+      "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {
       "status": "not_checked",
       "followup_tier": 1,
-      "game_name": "Opulent Sunflappiness 3",
-      "game_url": "http://www.kongregate.com/games/stewardhklarlove/opulent-sunflappiness-3",
-      "canonical_game_key": "www.kongregate.com/games/stewardhklarlove/opulent-sunflappiness-3",
+      "game_name": "Bakery French Bread",
+      "game_url": "http://www.kongregate.com/games/IanStokes/bakery-french-bread",
+      "canonical_game_key": "www.kongregate.com/games/ianstokes/bakery-french-bread",
       "best_rank": 1,
       "top_n_appearances": 1,
       "listing_play_count_rows": 0,
       "needs_game_page_history": "yes",
-      "first_seen_date": "2014-10-09",
-      "last_seen_date": "2014-10-09",
+      "first_seen_date": "2014-10-04",
+      "last_seen_date": "2014-10-04",
       "cached_cdx_variants": 0,
       "unique_cdx_rows": 0,
       "parsed_page_rows": 0,

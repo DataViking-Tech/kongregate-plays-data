@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 4850,
-    "failed": 2989,
-    "fetched": 4899,
+    "cached": 4851,
+    "failed": 2990,
+    "fetched": 4912,
     "missing_html_cache_skipped": 1
   },
-  "history_games": 361,
-  "history_observation_rows": 12739,
+  "history_games": 369,
+  "history_observation_rows": 12754,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -15,21 +15,21 @@
     "report_md": "logs/count_source_probe_history_report.md"
   },
   "profile_games": 325,
-  "recovered_count_rows": 37,
-  "run_timestamp": "2026-07-03T11:45:12Z",
+  "recovered_count_rows": 49,
+  "run_timestamp": "2026-07-03T11:55:37Z",
   "source_type_counts": {
     "chat_achievements": 1400,
     "chat_js": 1410,
     "developer_game_list": 4727,
     "game_path_prefix": 60,
     "holodeck": 1418,
-    "metrics_json": 1475,
+    "metrics_json": 1490,
     "recommended_games": 2249
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 134,
+    "archived_endpoint_hit_no_count": 133,
     "no_archived_endpoint_rows_observed": 204,
-    "recovered_count": 23,
+    "recovered_count": 31,
     "transient_failures_remaining": 1
   },
   "tier1_status_counts": {
@@ -39,22 +39,22 @@
   "top_transient_failures": [
     {
       "best_rank": "",
-      "candidates_with_cdx_rows": 6,
-      "canonical_game_key": "www.kongregate.com/games/rumblegames/kingsroad",
-      "endpoint_observations": 18,
-      "failed_observations": 9,
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/vasantj/medieval-cop-dregg-me-to-hell",
+      "endpoint_observations": 1,
+      "failed_observations": 1,
       "first_seen_date": "",
       "followup_tier": "",
-      "game_name": "KingsRoad",
-      "game_url": "http://www.kongregate.com/games/RumbleGames/kingsroad",
-      "latest_probe_run_timestamp": "2026-07-03T11:32:29Z",
+      "game_name": "Medieval Cop - Dregg Me To Hell",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-cop-dregg-me-to-hell",
+      "latest_probe_run_timestamp": "2026-07-03T11:55:23Z",
       "parsed_probe_count_rows": 0,
       "recovered_count_rows": 0,
-      "source_types_seen": "developer_game_list",
+      "source_types_seen": "metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 1
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 4
+  "unresolved_failed_endpoint_groups": 5
 }

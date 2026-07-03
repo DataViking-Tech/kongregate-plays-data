@@ -9423,6 +9423,21 @@
     {
       "date": "2017-09-04",
       "game_name": "Cosmos Quest",
+      "game_url": "https://www.kongregate.com/games/GaiaByte/cosmos-quest",
+      "plays_count_observed": 4947705,
+      "favorites_count_observed": 8953,
+      "plays_text": "4,947,705",
+      "favorites_text": "8,953",
+      "metrics_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json",
+      "capture_timestamp": "20170904091750",
+      "capture_url": "https://web.archive.org/web/20170904091750/http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170904091750_http_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_2a6cdb5251059498.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-09-04",
+      "game_name": "Cosmos Quest",
       "game_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest",
       "plays_count_observed": 4947705,
       "favorites_count_observed": 8953,
@@ -11771,6 +11786,21 @@
       "metrics_url": "http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json",
       "capture_timestamp": "20190209132407",
       "capture_url": "https://web.archive.org/web/20190209132407/http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190209132407_http_www.kongregate.com_games_BrokenBulb_miscrits_metrics.json_a11e26b44dddefbe.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-02-09",
+      "game_name": "Miscrits",
+      "game_url": "http://www.kongregate.com/games/BrokenBulb/miscrits",
+      "plays_count_observed": 1817399,
+      "favorites_count_observed": 20787,
+      "plays_text": "1,817,399",
+      "favorites_text": "20,787",
+      "metrics_url": "http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json",
+      "capture_timestamp": "20190209132407",
+      "capture_url": "https://web.archive.org/web/20190209132407/http://www.kongregate.com/games/BrokenBulb/miscrits/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190209132407_http_www.kongregate.com_games_BrokenBulb_miscrits_metrics.json_a11e26b44dddefbe.json"
@@ -12221,6 +12251,21 @@
       "metrics_url": "http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json",
       "capture_timestamp": "20190702072653",
       "capture_url": "https://web.archive.org/web/20190702072653/http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072653_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_79db8469723f0e92.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Evo Explores",
+      "game_url": "https://www.kongregate.com/games/tobeglad/evo-explores",
+      "plays_count_observed": 354416,
+      "favorites_count_observed": 4294,
+      "plays_text": "354,416",
+      "favorites_text": "4,294",
+      "metrics_url": "http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json",
+      "capture_timestamp": "20190702072653",
+      "capture_url": "https://web.archive.org/web/20190702072653/http://www.kongregate.com/games/tobeglad/evo-explores/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072653_http_www.kongregate.com_games_tobeglad_evo-explores_metrics.json_79db8469723f0e92.json"
@@ -12449,6 +12494,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072652_https_www.kongregate.com_games_KekGames_unpuzzle_metrics.json_2026c465998d131a.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 379847,
+      "favorites_count_observed": 2689,
+      "plays_text": "379,847",
+      "favorites_text": "2,689",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20190702072719",
+      "capture_url": "https://web.archive.org/web/20190702072719/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072719_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_9bf7383fdc2b0f38.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-07-02",
@@ -13308,6 +13368,21 @@
     {
       "date": "2019-10-17",
       "game_name": "Medieval Chronicles 4",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
+      "plays_count_observed": 43633,
+      "favorites_count_observed": 455,
+      "plays_text": "43,633",
+      "favorites_text": "455",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "capture_timestamp": "20191017183753",
+      "capture_url": "https://web.archive.org/web/20191017183753/https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183753_https_www.kongregate.com_games_VasantJ_medieval-chronicles-4_metrics.json_20f72c7058fc434e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Medieval Chronicles 4",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
       "plays_count_observed": 43633,
       "favorites_count_observed": 455,
@@ -13559,6 +13634,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183753_https_www.kongregate.com_games_GreenSatellite_trimps_metrics.json_e0b06fa067e8e747.json"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Unpuzzle 2",
+      "game_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2",
+      "plays_count_observed": 418603,
+      "favorites_count_observed": 2862,
+      "plays_text": "418,603",
+      "favorites_text": "2,862",
+      "metrics_url": "https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "capture_timestamp": "20191017183751",
+      "capture_url": "https://web.archive.org/web/20191017183751/https://www.kongregate.com/games/KekGames/unpuzzle-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183751_https_www.kongregate.com_games_KekGames_unpuzzle-2_metrics.json_d8cb31effd1aa2d3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-17",
@@ -16589,6 +16679,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214041_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_f8bd2517f9ec11aa.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Medieval Chronicles 7",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7",
+      "plays_count_observed": 7990,
+      "favorites_count_observed": 207,
+      "plays_text": "7,990",
+      "favorites_text": "207",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "capture_timestamp": "20200108214043",
+      "capture_url": "https://web.archive.org/web/20200108214043/https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214043_https_www.kongregate.com_games_VasantJ_medieval-chronicles-7_metrics.json_a9a9d7b9a1d573eb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-08",
@@ -31229,6 +31334,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210317232252_https_www.kongregate.com_games_light_bringer777_learn-to-fly-2_metrics.json_c98e208fefb519b1.json"
+    },
+    {
+      "date": "2021-03-18",
+      "game_name": "KingsRoad",
+      "game_url": "http://www.kongregate.com/games/RumbleGames/kingsroad",
+      "plays_count_observed": 5667526,
+      "favorites_count_observed": 27431,
+      "plays_text": "5,667,526",
+      "favorites_text": "27,431",
+      "metrics_url": "http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json",
+      "capture_timestamp": "20210318031906",
+      "capture_url": "https://web.archive.org/web/20210318031906/http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210318031906_http_www.kongregate.com_games_RumbleGames_kingsroad_metrics.json_cc038a36c2cdcaeb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-03-18",
@@ -46203,6 +46323,21 @@
     {
       "date": "2022-07-06",
       "game_name": "Medieval Chronicles 4",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
+      "plays_count_observed": 64111,
+      "favorites_count_observed": 630,
+      "plays_text": "64,111",
+      "favorites_text": "630",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "capture_timestamp": "20220706031300",
+      "capture_url": "https://web.archive.org/web/20220706031300/https://www.kongregate.com/games/VasantJ/medieval-chronicles-4/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220706031300_https_www.kongregate.com_games_VasantJ_medieval-chronicles-4_metrics.json_18ee7a6f60b3e18b.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-07-06",
+      "game_name": "Medieval Chronicles 4",
       "game_url": "http://www.kongregate.com/games/VasantJ/medieval-chronicles-4",
       "plays_count_observed": 64111,
       "favorites_count_observed": 630,
@@ -56568,6 +56703,21 @@
     {
       "date": "2023-04-03",
       "game_name": "Cosmos Quest",
+      "game_url": "https://www.kongregate.com/games/GaiaByte/cosmos-quest",
+      "plays_count_observed": 12940807,
+      "favorites_count_observed": 16381,
+      "plays_text": "12,940,807",
+      "favorites_text": "16,381",
+      "metrics_url": "https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json",
+      "capture_timestamp": "20230403174724",
+      "capture_url": "https://web.archive.org/web/20230403174724/https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230403174724_https_www.kongregate.com_games_GaiaByte_cosmos-quest_metrics.json_1dde3dbcf50907ac.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-04-03",
+      "game_name": "Cosmos Quest",
       "game_url": "http://www.kongregate.com/games/GaiaByte/cosmos-quest",
       "plays_count_observed": 12940807,
       "favorites_count_observed": 16381,
@@ -63179,6 +63329,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231029193807_http_www.kongregate.com_games_likwidgames_castaway-island-td_metrics.json_e114593fda061878.json"
+    },
+    {
+      "date": "2023-10-29",
+      "game_name": "Medieval Chronicles 7",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7",
+      "plays_count_observed": 51387,
+      "favorites_count_observed": 494,
+      "plays_text": "51,387",
+      "favorites_text": "494",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "capture_timestamp": "20231029161834",
+      "capture_url": "https://web.archive.org/web/20231029161834/https://www.kongregate.com/games/VasantJ/medieval-chronicles-7/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231029161834_https_www.kongregate.com_games_VasantJ_medieval-chronicles-7_metrics.json_aa16f75b0b51c10a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-10-29",
@@ -86774,6 +86939,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250819135143_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_aaf329536b66daad.json"
+    },
+    {
+      "date": "2025-08-19",
+      "game_name": "Sports Heads: Football Championship",
+      "game_url": "https://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship",
+      "plays_count_observed": 1510580,
+      "favorites_count_observed": 4198,
+      "plays_text": "1,510,580",
+      "favorites_text": "4,198",
+      "metrics_url": "https://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json",
+      "capture_timestamp": "20250819192148",
+      "capture_url": "https://web.archive.org/web/20250819192148/https://www.kongregate.com/games/Mousebreaker/sports-heads-football-championship/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250819192148_https_www.kongregate.com_games_Mousebreaker_sports-heads-football-championship_metrics.json_e60ddb5550bb9647.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-08-19",
