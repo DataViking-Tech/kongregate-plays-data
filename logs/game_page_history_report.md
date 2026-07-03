@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T10:37:55Z
-- Profile games in scope: 3
-- Selected games sample: Robo-Jump, Discover, Wheelie Legend
+- Run timestamp: 2026-07-03T10:47:42Z
+- Profile games in scope: 1
+- Selected games sample: Jellydad Hero
 - Selected games omitted from sample: 0
-- CDX games considered: 3
-- Cached CDX only: True
+- CDX games considered: 1
+- Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: none
+- CDX wall-clock cap: 5.0
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: gr33ngunner007/robo-jump,n_developer/discover,colburt187/wheelie-legend
+- Game-name filter: piton_/jellydad-hero
 - Metrics row filter: has_metrics
-- Progress status filter: page_cdx_pending
-- CDX rows: 8
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 4
-- Fetched this run: 4
+- Progress status filter: not_checked
+- CDX rows: 0
+- Page jobs: 0
+- Pending before run: 0
+- Attempted this run: 0
+- Fetched this run: 0
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 4
+- Failed this run: 0
 - Manifest entries: 368
-- Known failures: 3735
+- Known failures: 3740
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
