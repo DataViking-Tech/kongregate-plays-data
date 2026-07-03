@@ -45116,6 +45116,21 @@
       "metrics_url": "http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
       "capture_timestamp": "20220618163919",
       "capture_url": "https://web.archive.org/web/20220618163919/http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220618163919_http_www.kongregate.com_games_Andrew_Nyers_battle-of-heroes_metrics.json_571fe24df2d2b93a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-06-18",
+      "game_name": "Battle Of Heroes",
+      "game_url": "http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes",
+      "plays_count_observed": 57018,
+      "favorites_count_observed": 528,
+      "plays_text": "57,018",
+      "favorites_text": "528",
+      "metrics_url": "http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
+      "capture_timestamp": "20220618163919",
+      "capture_url": "https://web.archive.org/web/20220618163919/http://www.kongregate.com/games/Andrew_Nyers/battle-of-heroes/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220618163919_http_www.kongregate.com_games_Andrew_Nyers_battle-of-heroes_metrics.json_571fe24df2d2b93a.json"
