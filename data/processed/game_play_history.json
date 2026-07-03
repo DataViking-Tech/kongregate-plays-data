@@ -33626,6 +33626,21 @@
       "metrics_url": "http://www.kongregate.com/games/PITon_/jellydad-hero/metrics.json",
       "capture_timestamp": "20210608121634",
       "capture_url": "https://web.archive.org/web/20210608121634/http://www.kongregate.com/games/PITon_/jellydad-hero/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210608121634_http_www.kongregate.com_games_PITon__jellydad-hero_metrics.json_698a0b600b2732d8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-06-08",
+      "game_name": "Jellydad Hero",
+      "game_url": "http://www.kongregate.com/games/PITon_/jellydad-hero",
+      "plays_count_observed": 31610,
+      "favorites_count_observed": 203,
+      "plays_text": "31,610",
+      "favorites_text": "203",
+      "metrics_url": "http://www.kongregate.com/games/PITon_/jellydad-hero/metrics.json",
+      "capture_timestamp": "20210608121634",
+      "capture_url": "https://web.archive.org/web/20210608121634/http://www.kongregate.com/games/PITon_/jellydad-hero/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210608121634_http_www.kongregate.com_games_PITon__jellydad-hero_metrics.json_698a0b600b2732d8.json"

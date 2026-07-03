@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T10:47:42Z
-- Profile games in scope: 1
-- Selected games sample: Jellydad Hero
+- Run timestamp: 2026-07-03T11:44:26Z
+- Profile games in scope: 5
+- Selected games sample: Jellydad Hero, The world most bugged game, Classical Snake, Brakeless Trials Game 2014, Evolve
 - Selected games omitted from sample: 0
-- CDX games considered: 1
-- Cached CDX only: False
+- CDX games considered: 5
+- Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
-- CDX wall-clock cap: 5.0
-- CDX date-window days: 120
+- CDX wall-clock cap: none
+- CDX date-window days: 365
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: piton_/jellydad-hero
+- Game-name filter: none
 - Metrics row filter: has_metrics
-- Progress status filter: not_checked
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- Progress status filter: page_cdx_pending
+- CDX rows: 27
+- Page jobs: 22
+- Pending before run: 22
+- Attempted this run: 9
+- Fetched this run: 9
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 0
+- Failed this run: 9
 - Manifest entries: 368
-- Known failures: 3740
-- Combined history rows: 7939
+- Known failures: 3749
+- Combined history rows: 7969
 - Game-page history rows: 368
 - Report only: False
