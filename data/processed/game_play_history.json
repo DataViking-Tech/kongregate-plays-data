@@ -64871,6 +64871,21 @@
       "metrics_url": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
       "capture_timestamp": "20230913222706",
       "capture_url": "https://web.archive.org/web/20230913222706/https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-13",
+      "game_name": "Afterburner",
+      "game_url": "http://www.kongregate.com/games/zerodevider/afterburner",
+      "plays_count_observed": 250,
+      "favorites_count_observed": 1,
+      "plays_text": "250",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
+      "capture_timestamp": "20230913222706",
+      "capture_url": "https://web.archive.org/web/20230913222706/https://www.kongregate.com/games/zerodevider/afterburner/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230913222706_https_www.kongregate.com_games_zerodevider_afterburner_metrics.json_a276be9336ab7ba8.json"
@@ -65084,6 +65099,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914120620_https_www.kongregate.com_games_TwoWizards_idle-wizard_metrics.json_2eca29426116a097.json"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "IdlePixelGemMiner",
+      "game_url": "http://www.kongregate.com/games/Andrei9900/idlepixelgemminer",
+      "plays_count_observed": 4705,
+      "favorites_count_observed": 9,
+      "plays_text": "4,705",
+      "favorites_text": "9",
+      "metrics_url": "https://www.kongregate.com/games/Andrei9900/idlepixelgemminer/metrics.json",
+      "capture_timestamp": "20230914003402",
+      "capture_url": "https://web.archive.org/web/20230914003402/https://www.kongregate.com/games/Andrei9900/idlepixelgemminer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230914003402_https_www.kongregate.com_games_Andrei9900_idlepixelgemminer_metrics.json_8be0f51609823e4a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-09-14",

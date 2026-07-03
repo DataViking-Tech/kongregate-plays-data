@@ -8,7 +8,7 @@ const outputDir = path.join(root, "outputs", "kongregate_ranked_games");
 const htmlPath = path.join(outputDir, "play_count_bar_chart_race.html");
 const dataPath = path.join(outputDir, "play_count_bar_chart_race_data.json");
 const indexHtmlPath = path.join(root, "index.html");
-const sheetUrl = "https://docs.google.com/spreadsheets/d/1WUbOe4AQBgFZi307UZnnL-EL04kiS6s7b_xN8wmaLdU";
+const sheetUrl = "https://docs.google.com/spreadsheets/d/1SqyxuRdZaOtL7sKq_TGi3MW8q8BWAoJzFNhdnEIhYmQ";
 
 const topN = 12;
 

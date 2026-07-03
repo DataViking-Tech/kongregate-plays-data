@@ -1,37 +1,33 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T20:42:46Z
-- Target games: 7
+- Generated: 2026-07-03T20:54:42Z
+- Target games: 8
 - Status filter: none
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 7
-- Endpoint candidates checked: 14
+- Games direct-probed from catalog URLs: 8
+- Endpoint candidates checked: 16
 - Candidate observation rows: 16
-- CDX status counts: cached=2, fetched=14
-- CDX rows found: 8
-- Candidates with CDX rows: 4
-- Payloads with count-like signals: 4
-- Parsed play-count rows: 4
-- Deduped recovered play-count observations: 622 (2 new this run)
-- Accumulated probe-history rows: 15637 (16 new, 0 refreshed)
+- CDX status counts: cached=5, fetched=11
+- CDX rows found: 2
+- Candidates with CDX rows: 2
+- Payloads with count-like signals: 2
+- Parsed play-count rows: 2
+- Deduped recovered play-count observations: 624 (1 new this run)
+- Accumulated probe-history rows: 15738 (13 new, 3 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Feed The D (Christian-Friendly) | metrics_json | `http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | gameplays_count_with_delimiter | 304 |
-| Feed The D (Christian-Friendly) | metrics_json | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | gameplays_count_with_delimiter | 304 |
-| Feed The D (Christian-Friendly) | metrics_json | `http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | gameplays_count_with_delimiter | 296 |
-| Feed The D (Christian-Friendly) | metrics_json | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | gameplays_count_with_delimiter | 296 |
+| Afterburner | metrics_json | `http://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | gameplays_count_with_delimiter | 250 |
+| Afterburner | metrics_json | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | gameplays_count_with_delimiter | 250 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Feed The D (Christian-Friendly) | metrics_json | `http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | 2 |
-| Feed The D (Christian-Friendly) | metrics_json | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | 2 |
-| Feed The D (Christian-Friendly) | metrics_json | `http://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | 2 |
-| Feed The D (Christian-Friendly) | metrics_json | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | `https://www.kongregate.com/games/AnAlt_Ver3/feed-the-d-christian-friendly/metrics.json` | 2 |
+| Afterburner | metrics_json | `http://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | 1 |
+| Afterburner | metrics_json | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | `https://www.kongregate.com/games/zerodevider/afterburner/metrics.json` | 1 |
 
 ## Output Files
 

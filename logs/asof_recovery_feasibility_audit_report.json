@@ -1,10 +1,10 @@
 {
   "exact_metrics_gap_status_counts": {
-    "exact_metrics_no_cached_cdx_rows": 1850,
+    "exact_metrics_no_cached_cdx_rows": 1848,
     "exact_metrics_overlap_sampled_no_count_signal": 1,
-    "exact_metrics_starts_after_missing_window": 142
+    "exact_metrics_starts_after_missing_window": 144
   },
-  "generated_at": "2026-07-03T20:43:41Z",
+  "generated_at": "2026-07-03T20:55:46Z",
   "outputs": {
     "csv": "data/processed/asof_recovery_feasibility_audit.csv",
     "report_json": "logs/asof_recovery_feasibility_audit_report.json",
@@ -12,10 +12,10 @@
   },
   "priority_rows": 1993,
   "recommended_action_counts": {
-    "Escalate to broader list/account captures or external corroboration.": 558,
+    "Escalate to broader list/account captures or external corroboration.": 588,
     "Exact metrics start too late and side endpoints lack public counts; pursue list/account captures or external corroboration.": 8,
-    "Exact metrics start too late; pursue broader list/account captures or external corroboration.": 134,
-    "Run a bounded exact metrics CDX check before escalating.": 1292,
+    "Exact metrics start too late; pursue broader list/account captures or external corroboration.": 136,
+    "Run a bounded exact metrics CDX check before escalating.": 1260,
     "Treat exact metrics as weak for this window; inspect payload schema only if this game is strategically important.": 1
   },
   "top_exact_metrics_overlap_unsampled": [],
