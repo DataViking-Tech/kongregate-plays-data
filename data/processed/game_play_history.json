@@ -9693,6 +9693,21 @@
     {
       "date": "2017-12-16",
       "game_name": "Factory idle",
+      "game_url": "https://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 2134092,
+      "favorites_count_observed": 13398,
+      "plays_text": "2,134,092",
+      "favorites_text": "13,398",
+      "metrics_url": "http://www.kongregate.com/games/baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20171216142030",
+      "capture_url": "https://web.archive.org/web/20171216142030/http://www.kongregate.com/games/baldurans/factory-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171216142030_http_www.kongregate.com_games_baldurans_factory-idle_metrics.json_27506807b0f0a834.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-12-16",
+      "game_name": "Factory idle",
       "game_url": "http://www.kongregate.com/games/Baldurans/factory-idle",
       "plays_count_observed": 2134092,
       "favorites_count_observed": 13398,
@@ -10874,6 +10889,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20181004155124_http_www.kongregate.com_games_tonyrecchia_wasd_metrics.json_fac59d6b2ebcb74d.json"
+    },
+    {
+      "date": "2018-10-07",
+      "game_name": "Bad Eggs Online",
+      "game_url": "http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online",
+      "plays_count_observed": 2176683,
+      "favorites_count_observed": 20475,
+      "plays_text": "2,176,683",
+      "favorites_text": "20,475",
+      "metrics_url": "http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json",
+      "capture_timestamp": "20181007142427",
+      "capture_url": "https://web.archive.org/web/20181007142427/http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20181007142427_http_www.kongregate.com_games_Rob_Almighty_bad-eggs-online_metrics.json_c87f350331b9f796.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2018-10-07",
@@ -16319,6 +16349,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_0dc335f2d674fb38.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Factory idle",
+      "game_url": "https://www.kongregate.com/games/Baldurans/factory-idle",
+      "plays_count_observed": 3001044,
+      "favorites_count_observed": 17657,
+      "plays_text": "3,001,044",
+      "favorites_text": "17,657",
+      "metrics_url": "https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/Baldurans/factory-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034649_https_www.kongregate.com_games_Baldurans_factory-idle_metrics.json_34379199c4f617f9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -32111,6 +32156,21 @@
       "metrics_url": "https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
       "capture_timestamp": "20210430185841",
       "capture_url": "https://web.archive.org/web/20210430185841/https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210430185841_https_www.kongregate.com_games_HolydayStudios_holyday-city-reloaded_metrics.json_bf2e6609d4fc777d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-04-30",
+      "game_name": "Holyday City Reloaded",
+      "game_url": "http://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded",
+      "plays_count_observed": 8240657,
+      "favorites_count_observed": 7653,
+      "plays_text": "8,240,657",
+      "favorites_text": "7,653",
+      "metrics_url": "https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
+      "capture_timestamp": "20210430185841",
+      "capture_url": "https://web.archive.org/web/20210430185841/https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210430185841_https_www.kongregate.com_games_HolydayStudios_holyday-city-reloaded_metrics.json_bf2e6609d4fc777d.json"
@@ -41246,6 +41306,21 @@
       "metrics_url": "http://www.kongregate.com/games/flyanvil/decision-3/metrics.json",
       "capture_timestamp": "20211216204813",
       "capture_url": "https://web.archive.org/web/20211216204813/http://www.kongregate.com/games/flyanvil/decision-3/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211216204813_http_www.kongregate.com_games_flyanvil_decision-3_metrics.json_3335c8299f61343c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-12-16",
+      "game_name": "Decision 3",
+      "game_url": "https://www.kongregate.com/games/FlyAnvil/decision-3",
+      "plays_count_observed": 1427126,
+      "favorites_count_observed": 13794,
+      "plays_text": "1,427,126",
+      "favorites_text": "13,794",
+      "metrics_url": "http://www.kongregate.com/games/flyanvil/decision-3/metrics.json",
+      "capture_timestamp": "20211216204813",
+      "capture_url": "https://web.archive.org/web/20211216204813/http://www.kongregate.com/games/flyanvil/decision-3/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211216204813_http_www.kongregate.com_games_flyanvil_decision-3_metrics.json_3335c8299f61343c.json"
@@ -47429,6 +47504,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220831122756_https_www.kongregate.com_games_rudy_sudarto_epic-war-3_metrics.json_0fae24e80910b672.json"
+    },
+    {
+      "date": "2022-08-31",
+      "game_name": "Holyday City Reloaded",
+      "game_url": "http://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded",
+      "plays_count_observed": 8470422,
+      "favorites_count_observed": 7781,
+      "plays_text": "8,470,422",
+      "favorites_text": "7,781",
+      "metrics_url": "https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
+      "capture_timestamp": "20220831074918",
+      "capture_url": "https://web.archive.org/web/20220831074918/https://www.kongregate.com/games/HolydayStudios/holyday-city-reloaded/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220831074918_https_www.kongregate.com_games_HolydayStudios_holyday-city-reloaded_metrics.json_66bba3c6c2f4b87e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-08-31",
@@ -88619,6 +88709,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251102140427_https_www.kongregate.com_en_games_FunkyPear_gravitee-wars-online_metrics.json_38d316fd0842aaf7.json"
+    },
+    {
+      "date": "2025-11-30",
+      "game_name": "Holyday City",
+      "game_url": "http://www.kongregate.com/games/HolydayStudios/holyday-city",
+      "plays_count_observed": 5324074,
+      "favorites_count_observed": 4648,
+      "plays_text": "5,324,074",
+      "favorites_text": "4,648",
+      "metrics_url": "http://www.kongregate.com/games/holydaystudios/holyday-city/metrics.json",
+      "capture_timestamp": "20251130121942",
+      "capture_url": "https://web.archive.org/web/20251130121942/http://www.kongregate.com/games/holydaystudios/holyday-city/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20251130121942_http_www.kongregate.com_games_holydaystudios_holyday-city_metrics.json_5073f7db8d2054de.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-11-30",

@@ -1,69 +1,65 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T15:05:57Z
+- Generated: 2026-07-03T15:26:39Z
 - Target games: 2
 - Status filter: none
 - Games with cached archived pages: 2
 - Games direct-probed from catalog URLs: 0
 - Endpoint candidates checked: 12
-- Candidate observation rows: 24
-- CDX status counts: cached=16, fetched=8
-- CDX rows found: 228
-- Candidates with CDX rows: 24
-- Payloads with count-like signals: 23
-- Parsed play-count rows: 23
-- Deduped recovered play-count observations: 123 (12 new this run)
-- Accumulated probe-history rows: 13156 (24 new, 0 refreshed)
+- Candidate observation rows: 18
+- CDX status counts: cached=16, fetched=2
+- CDX rows found: 294
+- Candidates with CDX rows: 18
+- Payloads with count-like signals: 18
+- Parsed play-count rows: 18
+- Deduped recovered play-count observations: 144 (3 new this run)
+- Accumulated probe-history rows: 13224 (8 new, 10 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12859696 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | gameplays_count_with_delimiter | 12852143 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1287888 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1215944 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | gameplays_count_with_delimiter | 1215944 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2535753 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | gameplays_count_with_delimiter | 2259109 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | gameplays_count_with_delimiter | 2176683 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `http://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tyrant Unleashed | metrics_json | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | `https://www.kongregate.com/games/synapticon/tyrant-unleashed-web/metrics.json` | 15 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `https://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
-| Tap Adventure | metrics_json | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | `http://www.kongregate.com/games/Avaloid/tap-adventure/metrics.json` | 4 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online 2 | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online-2/metrics.json` | `http://www.kongregate.com/games/rob_almighty/bad-eggs-online-2/metrics.json` | 24 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
+| Bad Eggs Online | metrics_json | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
+| Bad Eggs Online | metrics_json | `https://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | `http://www.kongregate.com/games/Rob_Almighty/bad-eggs-online/metrics.json` | 1 |
 
 ## Output Files
 
