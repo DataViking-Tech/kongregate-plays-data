@@ -18011,6 +18011,21 @@
       "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "capture_timestamp": "20200108214037",
       "capture_url": "https://web.archive.org/web/20200108214037/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214037_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_13f35d66e6e19e95.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 68871,
+      "favorites_count_observed": 576,
+      "plays_text": "68,871",
+      "favorites_text": "576",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200108214037",
+      "capture_url": "https://web.archive.org/web/20200108214037/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214037_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_13f35d66e6e19e95.json"
@@ -18989,6 +19004,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200129194242_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_29e0062bde9e003d.json"
+    },
+    {
+      "date": "2020-01-31",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 89424,
+      "favorites_count_observed": 704,
+      "plays_text": "89,424",
+      "favorites_text": "704",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200131124300",
+      "capture_url": "https://web.archive.org/web/20200131124300/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200131124300_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c1961406b091d978.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-31",
@@ -21131,6 +21161,21 @@
       "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "capture_timestamp": "20200427132159",
       "capture_url": "https://web.archive.org/web/20200427132159/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200427132159_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_ca1cca5f7693eea6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 134989,
+      "favorites_count_observed": 966,
+      "plays_text": "134,989",
+      "favorites_text": "966",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200427132159",
+      "capture_url": "https://web.archive.org/web/20200427132159/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132159_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_ca1cca5f7693eea6.json"
@@ -21491,9 +21536,39 @@
       "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "capture_timestamp": "20200429125445",
       "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200429125445_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c779f13810095aa7.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 136655,
+      "favorites_count_observed": 971,
+      "plays_text": "136,655",
+      "favorites_text": "971",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200429125445",
+      "capture_url": "https://web.archive.org/web/20200429125445/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200429125445_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_c779f13810095aa7.json"
+    },
+    {
+      "date": "2020-04-29",
+      "game_name": "Factory Balls forever",
+      "game_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever",
+      "plays_count_observed": 136655,
+      "favorites_count_observed": 971,
+      "plays_text": "136,655",
+      "favorites_text": "971",
+      "metrics_url": "https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "capture_timestamp": "20200429125446",
+      "capture_url": "https://web.archive.org/web/20200429125446/https://www.kongregate.com/games/bontegames/factory-balls-forever/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200429125446_https_www.kongregate.com_games_bontegames_factory-balls-forever_metrics.json_56381a72e6c10e2d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-04-29",
@@ -49766,6 +49841,21 @@
       "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
       "capture_timestamp": "20220820220335",
       "capture_url": "https://web.archive.org/web/20220820220335/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220820220335_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_e1672ef41c356d34.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-08-20",
+      "game_name": "hi no homo",
+      "game_url": "http://www.kongregate.com/games/zephybite/hi-no-homo",
+      "plays_count_observed": 17764,
+      "favorites_count_observed": 177,
+      "plays_text": "17,764",
+      "favorites_text": "177",
+      "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "capture_timestamp": "20220820220335",
+      "capture_url": "https://web.archive.org/web/20220820220335/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220820220335_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_e1672ef41c356d34.json"
@@ -54974,6 +55064,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221231003251_https_www.kongregate.com_games_0rava_mutilate-a-doll-2_metrics.json_3c7e5943335440be.json"
+    },
+    {
+      "date": "2023-01-03",
+      "game_name": "hi no homo",
+      "game_url": "http://www.kongregate.com/games/zephybite/hi-no-homo",
+      "plays_count_observed": 18307,
+      "favorites_count_observed": 177,
+      "plays_text": "18,307",
+      "favorites_text": "177",
+      "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "capture_timestamp": "20230103231332",
+      "capture_url": "https://web.archive.org/web/20230103231332/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230103231332_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_07503509a7ef8834.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-01-03",
@@ -61769,6 +61874,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230613152836_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_ad828849dc678274.json"
+    },
+    {
+      "date": "2023-06-13",
+      "game_name": "hi no homo",
+      "game_url": "http://www.kongregate.com/games/zephybite/hi-no-homo",
+      "plays_count_observed": 18990,
+      "favorites_count_observed": 179,
+      "plays_text": "18,990",
+      "favorites_text": "179",
+      "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "capture_timestamp": "20230613210357",
+      "capture_url": "https://web.archive.org/web/20230613210357/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230613210357_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_3162e59c5f0fd1f1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-06-13",
@@ -70406,6 +70526,21 @@
       "metrics_url": "https://www.kongregate.com/games/8bgames/duck-witch-escape/metrics.json",
       "capture_timestamp": "20240113202514",
       "capture_url": "https://web.archive.org/web/20240113202514/https://www.kongregate.com/games/8bgames/duck-witch-escape/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240113202514_https_www.kongregate.com_games_8bgames_duck-witch-escape_metrics.json_3018262166015b34.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-13",
+      "game_name": "Duck Witch Escape",
+      "game_url": "http://www.kongregate.com/games/8bgames/duck-witch-escape",
+      "plays_count_observed": 507,
+      "favorites_count_observed": 2,
+      "plays_text": "507",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/8bgames/duck-witch-escape/metrics.json",
+      "capture_timestamp": "20240113202514",
+      "capture_url": "https://web.archive.org/web/20240113202514/https://www.kongregate.com/games/8bgames/duck-witch-escape/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240113202514_https_www.kongregate.com_games_8bgames_duck-witch-escape_metrics.json_3018262166015b34.json"
@@ -74294,6 +74429,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240121182424_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_25ae4e8bc5012afd.json"
+    },
+    {
+      "date": "2024-01-21",
+      "game_name": "hi no homo",
+      "game_url": "http://www.kongregate.com/games/zephybite/hi-no-homo",
+      "plays_count_observed": 19688,
+      "favorites_count_observed": 180,
+      "plays_text": "19,688",
+      "favorites_text": "180",
+      "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "capture_timestamp": "20240121230741",
+      "capture_url": "https://web.archive.org/web/20240121230741/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121230741_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_a3476b621ea8f549.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-21",
@@ -78494,6 +78644,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240308124309_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_0ef48f99908d597f.json"
+    },
+    {
+      "date": "2024-03-08",
+      "game_name": "hi no homo",
+      "game_url": "http://www.kongregate.com/games/zephybite/hi-no-homo",
+      "plays_count_observed": 19874,
+      "favorites_count_observed": 181,
+      "plays_text": "19,874",
+      "favorites_text": "181",
+      "metrics_url": "https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "capture_timestamp": "20240308191224",
+      "capture_url": "https://web.archive.org/web/20240308191224/https://www.kongregate.com/games/zephybite/hi-no-homo/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240308191224_https_www.kongregate.com_games_zephybite_hi-no-homo_metrics.json_17cba3e3661e4a0c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-03-08",
