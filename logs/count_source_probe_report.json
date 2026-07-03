@@ -1,16 +1,15 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 3,
+  "candidate_observation_rows": 2,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 3,
+  "cdx_lookups": 2,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 2,
-    "fetched": 1
+    "fetched": 2
   },
   "cdx_wall_timeout": 12.0,
   "collapse": "digest",
-  "game_name_contains": "Aliens Hurry Home 2",
+  "game_name_contains": "OrangeLandia",
   "games_direct_probed": 0,
   "games_with_cached_pages": 1,
   "games_without_cached_pages": 0,
@@ -31,12 +30,12 @@
   "payload_wall_timeout": 10.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Aliens Hurry Home 2": {
+    "OrangeLandia": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 3,
-      "game_url": "http://www.kongregate.com/games/BenGAMEn/aliens-hurry-home-2",
-      "pages_checked": 3,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/manogyaacharya/orangelandia",
+      "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -46,11 +45,11 @@
     "total": 75
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 12935,
+    "added": 2,
+    "total": 12937,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T13:08:38Z",
+  "run_timestamp": "2026-07-03T13:23:07Z",
   "source_types": [
     "metrics_json"
   ],
@@ -64,5 +63,5 @@
   ],
   "top_candidates_with_cdx": [],
   "top_count_signals": [],
-  "unresolved_failed_endpoints_only": true
+  "unresolved_failed_endpoints_only": false
 }

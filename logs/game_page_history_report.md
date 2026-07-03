@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T13:07:44Z
-- Profile games in scope: 1639
-- Selected games sample: Hurdle Jump, What's inside the box?, Atv Mashup, Kindness and PAI, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype, Adam and Eve 2, Retro Shuriken, Soul Shadows, Energy Bay, Halloween Spooky Motocross, Simple factory idle game, [Future Mode] The Warriors Way 0.2, Filler Snake, ASMR Universe(Web), Making a Batch File, Shootyship, Snappy Shark, calculator, Idle Spinner, Tricoloma Home, Faraway: Puzzle Escape, Little Bitty Byte, EZ MONEY ALL DAYYY, Shootrio, Desert Bus 3D, Zombie Cannon Attack!, Good Apprentice Pelo 2021, Back To Home, Supervivencia en la Selva, Escape From Ghost House 3, Warscrap, SCP 079, test, Salads by Chef: Merge Сraft, Tracesoccer, Idle Bouncer, Holyday City, Animation Throwdown, Zombie Derby 2
-- Selected games omitted from sample: 1589
-- CDX games considered: 4
+- Run timestamp: 2026-07-03T13:22:07Z
+- Profile games in scope: 1638
+- Selected games sample: Hurdle Jump, What's inside the box?, Atv Mashup, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype, Adam and Eve 2, Retro Shuriken, Soul Shadows, Energy Bay, Halloween Spooky Motocross, Simple factory idle game, [Future Mode] The Warriors Way 0.2, Filler Snake, ASMR Universe(Web), Making a Batch File, Shootyship, Snappy Shark, calculator, Idle Spinner, Tricoloma Home, Faraway: Puzzle Escape, Little Bitty Byte, EZ MONEY ALL DAYYY, Shootrio, Desert Bus 3D, Zombie Cannon Attack!, Good Apprentice Pelo 2021, Back To Home, Supervivencia en la Selva, Escape From Ghost House 3, Warscrap, SCP 079, test, Salads by Chef: Merge Сraft, Tracesoccer, Idle Bouncer, Holyday City, Animation Throwdown, Zombie Derby 2, Tyrant Unleashed
+- Selected games omitted from sample: 1588
+- CDX games considered: 6
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 6s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: has_metrics
 - Progress status filter: not_checked
-- CDX rows: 0
-- Page jobs: 0
-- Pending before run: 0
-- Attempted this run: 0
-- Fetched this run: 0
+- CDX rows: 1
+- Page jobs: 1
+- Pending before run: 1
+- Attempted this run: 1
+- Fetched this run: 1
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 0
+- Failed this run: 1
 - Manifest entries: 368
-- Known failures: 3794
+- Known failures: 3795
 - Combined history rows: 8006
 - Game-page history rows: 368
 - Report only: False
