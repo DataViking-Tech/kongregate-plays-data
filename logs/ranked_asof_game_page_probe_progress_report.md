@@ -1,22 +1,22 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T07:23:21Z
+- Generated: 2026-07-03T07:28:53Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1718
-- dynamic_metrics_placeholder: 14
+- not_checked: 1717
+- dynamic_metrics_placeholder: 15
 
 ## Recommended Actions
 
-- 1718: Run a bounded page-history CDX shard for this game.
-- 14: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 1717: Run a bounded page-history CDX shard for this game.
+- 15: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 14
+- Dynamic metric placeholder games: 15
 - With exact metrics.json probe history: 0
 - With exact metrics.json CDX rows: 0
 - With alternate endpoint CDX rows: 0
@@ -29,6 +29,7 @@
 | The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 0 | 0 | 2015-02-07 |
 | Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 0 | 0 | 2015-02-23 |
 | Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 0 | 0 | 2015-08-09 |
+| There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 0 | 0 | 2016-03-07 |
 | SuperBall Idle | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 0 | 0 | 2016-03-24 |
 | Cosmos Quest | 1 | dynamic_metrics_placeholder | 1 | 125 | 11 | 0 | 0 | 2017-03-04 |
 | Pou Popper | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-08-08 |
@@ -49,4 +50,3 @@
 | Freeze Tag | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-13 |
 | The Adventures of Bit and Ravh | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-17 |
 | March | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-18 |
-| shieldshooting | 1 | not_checked | 0 | 0 | 0 | 0 | 0 | 2014-10-29 |
