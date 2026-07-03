@@ -1,23 +1,23 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 18,
+  "candidate_observation_rows": 5,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 18,
+  "cdx_lookups": 5,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "cached": 6,
-    "fetched": 12
+    "cached": 2,
+    "fetched": 3
   },
-  "cdx_wall_timeout": 12.0,
+  "cdx_wall_timeout": 15.0,
   "collapse": "digest",
-  "game_name_contains": "Bakery French Bread,Umbrella Revolution,Freeze Tag,March,shieldshooting,Shooter Jet Crystal",
+  "game_name_contains": "",
   "games_direct_probed": 0,
-  "games_with_cached_pages": 6,
+  "games_with_cached_pages": 2,
   "games_without_cached_pages": 0,
-  "input_csv": "data/processed/ranked_asof_game_page_probe_progress.csv",
+  "input_csv": "data/processed/count_source_probe_game_status.csv",
   "match_type": "exact",
   "max_candidates_per_page": 3,
-  "max_cdx_lookups": 30,
+  "max_cdx_lookups": 10,
   "max_pages_per_game": 3,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -28,60 +28,24 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 10.0,
+  "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "Bakery French Bread": {
+    "Cool battle": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/IanStokes/bakery-french-bread",
+      "game_url": "http://www.kongregate.com/games/inventor_123/cool-battle",
       "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Freeze Tag": {
+    "uJet - Jetpack Controller Demonstration": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/codenforjesus/freeze-tag",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "March": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 6,
-      "game_url": "http://www.kongregate.com/games/UncleBig2D/march",
+      "endpoint_candidates": 3,
+      "game_url": "http://www.kongregate.com/games/Vel_1828/ujet-jetpack-controller-demonstration",
       "pages_checked": 3,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Shooter Jet Crystal": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/BrenetComics/shooter-jet-crystal",
-      "pages_checked": 1,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Umbrella Revolution": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/dingjun/umbrella-revolution",
-      "pages_checked": 2,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "shieldshooting": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/youugames/shieldshooting",
-      "pages_checked": 1,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
@@ -91,23 +55,21 @@
     "total": 72
   },
   "persisted_probe_history": {
-    "added": 18,
-    "total": 12867,
+    "added": 5,
+    "total": 12894,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T12:30:15Z",
+  "run_timestamp": "2026-07-03T12:41:45Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
-  "status_filter": "",
+  "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 6,
+  "target_games": 2,
   "target_games_with_kongregate_ids": 0,
-  "tiers": [
-    1
-  ],
+  "tiers": [],
   "top_candidates_with_cdx": [],
   "top_count_signals": [],
-  "unresolved_failed_endpoints_only": false
+  "unresolved_failed_endpoints_only": true
 }

@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T12:28:49Z
-- Profile games in scope: 1672
-- Selected games sample: Bakery French Bread, Umbrella Revolution, Freeze Tag, March, shieldshooting, Out Of Order, Minions Bejeweled, The Experimental Platformer (v1.2b7), The Monster Dash, Toeter Shooter, Guess the city2, Shooter Jet Crystal, Robo Jump, Cute Baby Girl Spring Outing, Alien Space Blaster 0.1, Monster War Zone 3, uJet - Jetpack Controller Demonstration, Funny Pets, Lost Viking, Cool battle, Alien survival Beta 2, Escape to Home, Monster Love, DanTDM Runner, New Traffic Jam City, Clash of the Races 5, Geoshape beta, Space Breakout!, Roller Ball Plat, Tactical Anomaly, Digimon Pyramid Adventure, Journey through Wind and Fire I, Aliens Hurry Home 2, Hurdle Jump, What's inside the box?, Atv Mashup, Kindness and PAI, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype, Adam and Eve 2
-- Selected games omitted from sample: 1622
-- CDX games considered: 12
+- Run timestamp: 2026-07-03T12:39:56Z
+- Profile games in scope: 1660
+- Selected games sample: Robo Jump, Cute Baby Girl Spring Outing, Alien Space Blaster 0.1, Monster War Zone 3, uJet - Jetpack Controller Demonstration, Funny Pets, Lost Viking, Cool battle, Alien survival Beta 2, Escape to Home, Monster Love, DanTDM Runner, New Traffic Jam City, Clash of the Races 5, Geoshape beta, Space Breakout!, Roller Ball Plat, Tactical Anomaly, Digimon Pyramid Adventure, Journey through Wind and Fire I, Aliens Hurry Home 2, Hurdle Jump, What's inside the box?, Atv Mashup, Kindness and PAI, Make It Fly 2.0, OrangeLandia, Dark Scary House Escape, Space Defender YM, Captain Reverso, Space Hero, Nature Hidden Objects, Shadow Adventure, Melon Madness, Spell Sorter, Square Jump: Revision of the Icy Tower, Unlock prototype, Adam and Eve 2, Retro Shuriken, Soul Shadows, Energy Bay, Halloween Spooky Motocross, Simple factory idle game, [Future Mode] The Warriors Way 0.2, Filler Snake, ASMR Universe(Web), Making a Batch File, Shootyship, Snappy Shark, calculator
+- Selected games omitted from sample: 1610
+- CDX games considered: 8
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 8s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: has_metrics
 - Progress status filter: not_checked
-- CDX rows: 26
-- Page jobs: 9
-- Pending before run: 9
-- Attempted this run: 9
-- Fetched this run: 9
+- CDX rows: 20
+- Page jobs: 11
+- Pending before run: 11
+- Attempted this run: 11
+- Fetched this run: 11
 - Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 9
+- Failed this run: 11
 - Manifest entries: 368
-- Known failures: 3758
+- Known failures: 3769
 - Combined history rows: 8005
 - Game-page history rows: 368
 - Report only: False

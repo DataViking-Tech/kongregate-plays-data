@@ -1,26 +1,26 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-03T12:30:33Z
+- Generated: 2026-07-03T12:42:01Z
 - Profile games: 1732
 - High-value unresolved games: 1732
 
 ## Status Counts
 
-- not_checked: 1660
-- dynamic_metrics_placeholder: 62
-- no_page_cdx_rows: 10
+- not_checked: 1652
+- dynamic_metrics_placeholder: 67
+- no_page_cdx_rows: 13
 
 ## Recommended Actions
 
-- 1660: Run a bounded page-history CDX shard for this game.
+- 1652: Run a bounded page-history CDX shard for this game.
 - 40: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 22: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
-- 10: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
+- 27: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 13: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 62
-- With exact metrics.json probe history: 62
+- Dynamic metric placeholder games: 67
+- With exact metrics.json probe history: 67
 - With exact metrics.json CDX rows: 40
 - With alternate endpoint CDX rows: 8
 
@@ -46,10 +46,10 @@
 | shieldshooting | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 2 | 0 | 2014-10-29 |
 | Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 2 | 4 | 2014-11-11 |
 | Shooter Jet Crystal | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 2 | 0 | 2014-12-28 |
+| Robo Jump | 1 | dynamic_metrics_placeholder | 2 | 2 | 2 | 4 | 0 | 2014-12-30 |
 | The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 2 | 72 | 19 | 2 | 58 | 2015-02-07 |
 | Swarm Simulator | 1 | dynamic_metrics_placeholder | 1 | 304 | 35 | 2 | 30 | 2015-02-23 |
 | Mu Complex : Episode Two | 1 | dynamic_metrics_placeholder | 2 | 27 | 15 | 1 | 1 | 2015-05-12 |
 | Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 504 | 18 | 2 | 16 | 2015-08-09 |
-| Swords and Souls | 1 | dynamic_metrics_placeholder | 3 | 73 | 16 | 2 | 102 | 2015-10-29 |
-| Discover | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 1 | 0 | 2016-01-16 |
-| There is no game | 1 | dynamic_metrics_placeholder | 3 | 176 | 17 | 3 | 40 | 2016-03-07 |
+| Alien Space Blaster 0.1 | 1 | dynamic_metrics_placeholder | 2 | 3 | 3 | 6 | 0 | 2015-09-03 |
+| Monster War Zone 3 | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 4 | 0 | 2015-09-09 |
