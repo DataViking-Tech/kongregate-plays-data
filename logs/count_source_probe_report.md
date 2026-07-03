@@ -1,23 +1,31 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-03T22:31:06Z
-- Target games: 9
+- Generated: 2026-07-03T22:44:04Z
+- Target games: 1
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 9
-- Endpoint candidates checked: 17
-- Candidate observation rows: 17
-- CDX status counts: fetched=17
-- CDX rows found: 0
-- Candidates with CDX rows: 0
-- Payloads with count-like signals: 0
-- Parsed play-count rows: 0
-- Deduped recovered play-count observations: 687 (0 new this run)
-- Accumulated probe-history rows: 16529 (17 new, 0 refreshed)
+- Games direct-probed from catalog URLs: 1
+- Endpoint candidates checked: 1
+- Candidate observation rows: 1
+- CDX status counts: fetched=1
+- CDX rows found: 1
+- Candidates with CDX rows: 1
+- Payloads with count-like signals: 1
+- Parsed play-count rows: 1
+- Deduped recovered play-count observations: 690 (1 new this run)
+- Accumulated probe-history rows: 16632 (1 new, 0 refreshed)
 
-## Interpretation
+## Count Signals
 
-No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
+| Game | Source | Endpoint | Sample | Signal | Plays |
+| --- | --- | --- | --- | --- | --- |
+| R-G-B | metrics_json | `http://www.kongregate.com/games/AttalK/r-g-b/metrics.json` | `https://www.kongregate.com/games/AttalK/r-g-b/metrics.json` | gameplays_count_with_delimiter | 71 |
+
+## Archived Endpoint Hits
+
+| Game | Source | Endpoint | Sample | CDX rows |
+| --- | --- | --- | --- | ---: |
+| R-G-B | metrics_json | `http://www.kongregate.com/games/AttalK/r-g-b/metrics.json` | `https://www.kongregate.com/games/AttalK/r-g-b/metrics.json` | 1 |
 
 ## Output Files
 

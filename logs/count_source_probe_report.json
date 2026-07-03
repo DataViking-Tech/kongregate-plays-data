@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 17,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 17,
-  "cdx_rows_found": 0,
+  "candidate_observation_rows": 1,
+  "candidates_with_cdx": 1,
+  "cdx_lookups": 1,
+  "cdx_rows_found": 1,
   "cdx_status_counts": {
-    "fetched": 17
+    "fetched": 1
   },
-  "cdx_wall_timeout": 25.0,
+  "cdx_wall_timeout": 30.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 9,
+  "games_direct_probed": 1,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 9,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_286.csv",
+  "games_without_cached_pages": 1,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_287.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 70,
+  "max_cdx_lookups": 10,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -26,112 +26,78 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 18.0,
-  "payloads_with_count_signal": 0,
+  "parsed_play_count_rows": 1,
+  "payload_wall_timeout": 25.0,
+  "payloads_with_count_signal": 1,
   "per_game": {
-    "Baby Daisy New Year Party": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/niklec/baby-daisy-new-year-party",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Ben10 Heatblast saviour": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mytoongames/ben10-heatblast-saviour",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Escape Skull Rise": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/learner102/escape-skull-rise",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Flight Of The Bee": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/ggfdev/flight-of-the-bee",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "In Search Of Purpose": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/FreakinTroll/in-search-of-purpose",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Ladder Cube Free": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/dehimer/ladder-cube-free",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "RoboTrip": {
-      "candidates_with_cdx": 0,
+    "R-G-B": {
+      "candidates_with_cdx": 1,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/juhanasuuri/robotrip",
+      "game_url": "http://www.kongregate.com/games/AttalK/r-g-b",
       "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Sofia Cooking Pumpkin Tart": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/wowsomegames/sofia-cooking-pumpkin-tart",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "qiuweigangfirstgame": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/qiuweigang/qiuweigangfirstgame",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
+      "parsed_play_counts": [
+        71
+      ],
+      "payloads_with_count_signal": 1
     }
   },
   "persisted_play_counts": {
-    "added": 0,
-    "total": 687
+    "added": 1,
+    "total": 690
   },
   "persisted_probe_history": {
-    "added": 17,
-    "total": 16529,
+    "added": 1,
+    "total": 16632,
     "updated": 0
   },
-  "run_timestamp": "2026-07-03T22:31:06Z",
+  "run_timestamp": "2026-07-03T22:44:04Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 9,
+  "target_games": 1,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
-  "top_candidates_with_cdx": [],
-  "top_count_signals": [],
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/AttalK/r-g-b/metrics.json",
+      "game_name": "R-G-B",
+      "game_url": "http://www.kongregate.com/games/AttalK/r-g-b",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 71,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/AttalK/r-g-b/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20230914014427_https_www.kongregate.com_games_AttalK_r-g-b_metrics.json_e3ed358d56ed2033.txt",
+      "sample_timestamp": "20230914014427",
+      "source_page_path": "",
+      "source_page_timestamp": "",
+      "source_type": "metrics_json"
+    }
+  ],
+  "top_count_signals": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/AttalK/r-g-b/metrics.json",
+      "game_name": "R-G-B",
+      "game_url": "http://www.kongregate.com/games/AttalK/r-g-b",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 71,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/AttalK/r-g-b/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20230914014427_https_www.kongregate.com_games_AttalK_r-g-b_metrics.json_e3ed358d56ed2033.txt",
+      "sample_timestamp": "20230914014427",
+      "source_page_path": "",
+      "source_page_timestamp": "",
+      "source_type": "metrics_json"
+    }
+  ],
   "unresolved_failed_endpoints_only": true
 }
