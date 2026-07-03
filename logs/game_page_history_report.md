@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T10:30:29Z
-- Profile games in scope: 1
-- Selected games sample: Dino Storm
+- Run timestamp: 2026-07-03T10:37:55Z
+- Profile games in scope: 3
+- Selected games sample: Robo-Jump, Discover, Wheelie Legend
 - Selected games omitted from sample: 0
-- CDX games considered: 1
+- CDX games considered: 3
 - Cached CDX only: True
 - Cached HTML only: False
 - CDX timeout: 8s
@@ -12,21 +12,21 @@
 - CDX date-window days: 120
 - Page timeout: 8s
 - Page wall-clock cap: 10.0
-- Game-name filter: dino storm
+- Game-name filter: gr33ngunner007/robo-jump,n_developer/discover,colburt187/wheelie-legend
 - Metrics row filter: has_metrics
 - Progress status filter: page_cdx_pending
-- CDX rows: 459
-- Page jobs: 153
-- Pending before run: 153
-- Attempted this run: 20
-- Fetched this run: 16
+- CDX rows: 8
+- Page jobs: 4
+- Pending before run: 4
+- Attempted this run: 4
+- Fetched this run: 4
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 4
+- Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 20
+- Failed this run: 4
 - Manifest entries: 368
-- Known failures: 3731
+- Known failures: 3735
 - Combined history rows: 7939
 - Game-page history rows: 368
 - Report only: False
