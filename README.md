@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1R9tblulfKKdUN6d9kCQ8kw967ghtkt6CR1hHnYbmllw
+https://docs.google.com/spreadsheets/d/1yk09l93ou7CtZBZ4sD_9TA76Vsz03nB4uEpkpfpP6Ws
 
 ## Current Snapshot
 
@@ -365,7 +365,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 325 added `fetch_game_metrics_history.py --target-csv` so metrics retries can directly target progress-ledger rows such as `dynamic_metrics_placeholder` games with archived `metrics.json` CDX leads. A first 20-game targeted retry recovered one high-confidence Swords and Souls metrics capture from 2025-10-25 (13,151,210 plays), reduced known failed metrics captures from 39 to 38, cut missing metrics CDX cache files by 30, and raised the chart source to 26,434 observed play-count rows.
 - Checkpoint 326 added `fetch_game_metrics_history.py --target-offset` for paged progress-ledger retries, then ran the second targeted 20-game slice. It recovered one high-confidence Idle Bouncer metrics capture from 2025-10-07 (2,128,258 plays), fetched 33 additional metrics-route CDX caches, left aggregate as-of coverage at 44,900 ranked rows with 5,082 gaps, brought unified play-history rows to 9,121, and raised the chart source to 26,435 observed play-count rows.
 - Checkpoint 327 paged through the remaining rows of the current progress-ledger metrics retry bucket with target offsets 40 and 60. The pass fetched 52 additional metrics-route CDX caches, recovered one high-confidence Fleeing the Complex metrics capture from 2025-10-18 (1,602,311 plays), left aggregate as-of coverage at 44,900 ranked rows with 5,082 gaps, brought unified play-history rows to 9,122, and raised the chart source to 26,436 observed play-count rows.
-- Checkpoint 328 ran the corrected ranked-priority developer/account-list sweep for the next 24 as-of gap targets. The pass sampled 56 archived developer/account captures, found 50 target links, added 62 probe-history observations, and recovered 0 new visible play-count rows. Aggregate as-of coverage remains 44,900 ranked rows with 5,082 gaps, while count-source probe history now has 21,450 observations and the lifecycle catalog remains current across 2,998 games.
+- Checkpoint 328 ran the corrected ranked-priority developer/account-list sweep for the next 24 as-of gap targets. The pass sampled 56 archived developer/account captures, found 50 target links, added 62 probe-history observations, and recovered 0 new visible play-count rows. Aggregate as-of coverage remains 44,900 ranked rows with 5,082 gaps, while count-source probe history now has 21,450 observations, the lifecycle catalog remains current across 2,998 games, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 
 ## Key Files
 
