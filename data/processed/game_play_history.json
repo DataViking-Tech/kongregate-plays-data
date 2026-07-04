@@ -73286,6 +73286,21 @@
       "metrics_url": "https://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2/metrics.json",
       "capture_timestamp": "20240117060723",
       "capture_url": "https://web.archive.org/web/20240117060723/https://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117060723_https_www.kongregate.com_games_HyperHippoGames_catroom-drama-case-2_metrics.json_0d72ab0a270134e9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Catroom Drama - CASE 2",
+      "game_url": "http://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2",
+      "plays_count_observed": 6377,
+      "favorites_count_observed": 18,
+      "plays_text": "6,377",
+      "favorites_text": "18",
+      "metrics_url": "https://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2/metrics.json",
+      "capture_timestamp": "20240117060723",
+      "capture_url": "https://web.archive.org/web/20240117060723/https://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117060723_https_www.kongregate.com_games_HyperHippoGames_catroom-drama-case-2_metrics.json_0d72ab0a270134e9.json"
@@ -74009,6 +74024,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117161623_https_www.kongregate.com_games_OctoBunny_switcheroo-2_metrics.json_0b5bbea7178b7931.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "The Last Bunker",
+      "game_url": "http://www.kongregate.com/games/HyperHippoGames/the-last-bunker",
+      "plays_count_observed": 32919,
+      "favorites_count_observed": 143,
+      "plays_text": "32,919",
+      "favorites_text": "143",
+      "metrics_url": "https://www.kongregate.com/games/HyperHippoGames/the-last-bunker/metrics.json",
+      "capture_timestamp": "20240117060735",
+      "capture_url": "https://web.archive.org/web/20240117060735/https://www.kongregate.com/games/HyperHippoGames/the-last-bunker/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117060735_https_www.kongregate.com_games_HyperHippoGames_the-last-bunker_metrics.json_9e5b7cff979f3fca.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-17",
