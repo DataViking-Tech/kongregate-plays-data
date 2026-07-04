@@ -1,27 +1,27 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-04T08:59:45Z
+- Run timestamp: 2026-07-04T09:26:54Z
 - Catalog games: 2998
-- Catalog scope: offset 0, limit all (15 games)
+- Catalog scope: offset 0, limit all (6 games)
 - Audit statuses: all
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: supermechs,bloons monkey city,crusaders of the lost idols,mu-complex,there-is-no-game,cosmos-quest,the-enchanted-cave-2,kingsroad,blockade3d,superfighters,swarm-simulator,n-step-steve-part-1
+- Game-name filter: animation throwdown,bit heroes,crush crush,swords and souls,realm grinder,idle bouncer
 - Schemes: http, https
 - Cached CDX only: True
 - Expanded route variants: True
-- CDX games considered: 15
-- CDX rows found: 435
+- CDX games considered: 6
+- CDX rows found: 944
 - CDX wall timeout: 10.0
-- Metrics wall timeout: 0
-- Missing CDX cache files skipped: 0
-- Metrics jobs: 145
-- Pending before run: 0
-- Attempted this run: 0
+- Metrics wall timeout: 15.0
+- Missing CDX cache files skipped: 7
+- Metrics jobs: 335
+- Pending before run: 1
+- Attempted this run: 1
 - Fetched this run: 0
-- Failed this run: 0
+- Failed this run: 1
 - Manifest entries: 5452
 - History rows: 9119
 - Games with history: 2876

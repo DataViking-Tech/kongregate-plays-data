@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-04T08:22:30Z
-- Profile games in scope: 20
-- Selected games sample: Supermechs, Bloons Monkey City, Crusaders of the Lost Idols, Mu Complex : Episode One, There is no game, Cosmos Quest, The Enchanted Cave 2, KingsRoad, Blockade3D, Superfighters, Swarm Simulator, N Step Steve: Part 1, Trimps, Sports Heads: Football Championship, Realm Grinder, Medieval Chronicles 8 (Part 2), Fleeing the Complex, Medieval Chronicles 4, Unpuzzle 2, Medieval Cop 8 -DeathWish- (Part 3)
+- Run timestamp: 2026-07-04T09:24:05Z
+- Profile games in scope: 8
+- Selected games sample: Sift Heads World Act 4 - Cold Memories, Karoshi : Suicide Salaryman, Symphonic TD, Warlords 2: Rise of Demons, League of Angels: Pact, Random Number GOD Idle, Arsenal Online, Magirune 2
 - Selected games omitted from sample: 0
-- CDX games considered: 20
-- Cached CDX only: True
+- CDX games considered: 8
+- Cached CDX only: False
 - Cached HTML only: False
-- CDX timeout: 20s
-- CDX wall-clock cap: none
-- CDX date-window days: 365
-- Page timeout: 20s
-- Page wall-clock cap: 25.0
+- CDX timeout: 15s
+- CDX wall-clock cap: 20.0
+- CDX date-window days: 180
+- Page timeout: 15s
+- Page wall-clock cap: 20.0
 - Game-name filter: none
-- Metrics row filter: has_metrics
-- Progress status filter: none
-- CDX rows: 6397
-- Page jobs: 3428
-- Pending before run: 3428
-- Attempted this run: 30
-- Fetched this run: 0
-- Cached HTML selected this run: 30
-- Network fetch failed this run: 0
+- Metrics row filter: any
+- Progress status filter: not_checked
+- CDX rows: 310
+- Page jobs: 124
+- Pending before run: 124
+- Attempted this run: 60
+- Fetched this run: 36
+- Cached HTML selected this run: 0
+- Network fetch failed this run: 24
 - Parsed rows this run: 0
-- No explicit count this run: 0
-- Failed this run: 30
+- No explicit count this run: 17
+- Failed this run: 60
 - Manifest entries: 368
-- Known failures: 4138
+- Known failures: 4198
 - Combined history rows: 9119
 - Game-page history rows: 368
 - Report only: False
