@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-04T15:48:34Z
+- Generated: 2026-07-04T15:58:19Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 135
-- No archived endpoint rows games: 190
+- Endpoint-hit/no-count games: 136
+- No archived endpoint rows games: 189
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -14,16 +14,16 @@
 
 ## Evidence Buckets
 
-- dynamic_placeholder_endpoint_archives_no_count: 89
+- dynamic_placeholder_endpoint_archives_no_count: 90
 - partial_listing_counts_no_page_metrics: 84
 - no_game_page_or_endpoint_archives: 79
-- dynamic_placeholder_no_exact_endpoint_archives: 46
+- dynamic_placeholder_no_exact_endpoint_archives: 45
 - no_game_page_cdx_alt_archives_no_count: 27
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 190
-- archived_endpoint_hit_no_count: 135
+- no_archived_endpoint_rows_observed: 189
+- archived_endpoint_hit_no_count: 136
 
 ## Top Recovery Examples
 
@@ -42,6 +42,7 @@
 | changetype() | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2015-09-30 |
 | CountryBalls 4 | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-03-05 |
 | Mini Jumper | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-03-16 |
+| dat boi | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-05-15 |
 | Aston Martin Hidden Wheels | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-05-24 |
 | Chevrolet Cruze Puzzle | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
 | Sky Knight | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
@@ -53,4 +54,3 @@
 | SUV Car Cartoon Puzzle | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
 | Boat Rush | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
 | Defense Math | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-06-16 |
-| CBS:Escape from the Mall | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2021-11-12 |

@@ -1,19 +1,18 @@
 {
-  "candidate_observation_rows": 8,
-  "captures_sampled": 4,
+  "candidate_observation_rows": 3,
+  "captures_sampled": 0,
   "cdx_status_counts": {
-    "failed": 4,
-    "fetched": 4
+    "fetched": 3
   },
   "developer_filters": [],
   "game_name_contains": [
-    "CountryBalls 4"
+    "jhghj"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 20,
+  "max_cdx_lookups": 10,
   "max_developers": 0,
   "max_games": 1,
   "max_games_per_developer": 0,
@@ -30,23 +29,23 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 4,
-    "total": 23658,
-    "updated": 4
+    "added": 3,
+    "total": 23718,
+    "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T15:48:12Z",
+  "run_timestamp": "2026-07-04T15:58:02Z",
   "selected_games_by_developer": {
-    "NicoleWatterson": 1
+    "Ladybugluver": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
-  "source_cdx_lookups": 6,
+  "source_cdx_lookups": 3,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
-  "target_links_found": 1,
+  "target_links_found": 0,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
