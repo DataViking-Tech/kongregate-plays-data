@@ -1,62 +1,73 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T06:36:28Z
-- Target games: 12
+- Generated: 2026-07-04T07:26:26Z
+- Target games: 120
 - Status filter: none
-- Games with cached archived pages: 11
-- Games direct-probed from catalog URLs: 1
-- Endpoint candidates checked: 120
-- Candidate observation rows: 138
-- CDX status counts: cached=34, failed=86, fetched=18
-- CDX rows found: 1796
-- Candidates with CDX rows: 36
-- Payloads with count-like signals: 4
-- Parsed play-count rows: 0
-- Deduped recovered play-count observations: 880 (0 new this run)
-- Accumulated probe-history rows: 20362 (130 new, 8 refreshed)
-- Stopped after CDX lookup cap: 120
+- Games with cached archived pages: 96
+- Games direct-probed from catalog URLs: 24
+- Endpoint candidates checked: 240
+- Candidate observation rows: 292
+- CDX status counts: cached=248, failed=11, fetched=33
+- CDX rows found: 1661
+- Candidates with CDX rows: 127
+- Payloads with count-like signals: 122
+- Parsed play-count rows: 122
+- Deduped recovered play-count observations: 645 (1 new this run)
+- Accumulated probe-history rows: 20725 (206 new, 86 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | term_only | n/a |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | term_only | n/a |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | term_only | n/a |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | term_only | n/a |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
+| Crusaders of the Lost Idols | metrics_json | `https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 21944735 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 17651487 |
+| Crusaders of the Lost Idols | metrics_json | `https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | gameplays_count_with_delimiter | 17651487 |
+| Bloons Monkey City | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | gameplays_count_with_delimiter | 14101982 |
+| Bloons Monkey City | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | gameplays_count_with_delimiter | 14101982 |
+| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | gameplays_count_with_delimiter | 12940807 |
+| Cosmos Quest | metrics_json | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | gameplays_count_with_delimiter | 12940807 |
+| Bloons Monkey City | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | gameplays_count_with_delimiter | 12681018 |
+| Bloons Monkey City | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | gameplays_count_with_delimiter | 12681018 |
+| Swarm Simulator | metrics_json | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | gameplays_count_with_delimiter | 11250645 |
+| Swarm Simulator | metrics_json | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | gameplays_count_with_delimiter | 11250645 |
+| Swarm Simulator | metrics_json | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | gameplays_count_with_delimiter | 9854193 |
+| Swarm Simulator | metrics_json | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | gameplays_count_with_delimiter | 9854193 |
+| Realm Grinder | metrics_json | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | gameplays_count_with_delimiter | 7111812 |
+| Realm Grinder | metrics_json | `https://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | gameplays_count_with_delimiter | 7111812 |
+| Realm Grinder | metrics_json | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | gameplays_count_with_delimiter | 6889634 |
+| Realm Grinder | metrics_json | `https://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | gameplays_count_with_delimiter | 6889634 |
+| KingsRoad | metrics_json | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | gameplays_count_with_delimiter | 5667526 |
+| KingsRoad | metrics_json | `https://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | gameplays_count_with_delimiter | 5667526 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | 108 |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | 108 |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | 108 |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters/show_hover` | 108 |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/trbw001/superfighters` | 108 |
-| Superfighters | game_path_prefix | `http://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters` | 108 |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/trbw001/superfighters` | 108 |
-| Superfighters | game_path_prefix | `https://www.kongregate.com/games/TRBW001/superfighters` | `https://www.kongregate.com/games/TRBW001/superfighters` | 108 |
-| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `https://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `https://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `https://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Game of Thrones Ascent | holodeck | `https://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | `http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent/holodeck` | 63 |
-| Swarm Simulator | holodeck | `http://www.kongregate.com/games/swarmsim/swarm-simulator/holodeck` | `http://www.kongregate.com:80/games/swarmsim/swarm-simulator/holodeck` | 39 |
-| Swarm Simulator | holodeck | `http://www.kongregate.com/games/swarmsim/swarm-simulator/holodeck` | `http://www.kongregate.com:80/games/swarmsim/swarm-simulator/holodeck` | 39 |
-| Swarm Simulator | holodeck | `http://www.kongregate.com/games/swarmsim/swarm-simulator/holodeck` | `http://www.kongregate.com:80/games/swarmsim/swarm-simulator/holodeck` | 39 |
-| Swarm Simulator | holodeck | `http://www.kongregate.com/games/swarmsim/swarm-simulator/holodeck` | `http://www.kongregate.com:80/games/swarmsim/swarm-simulator/holodeck` | 39 |
-
-## Interpretation
-
-The only count-like terms sampled here were non-public placeholders or guest/user counters, not numeric game play totals. No endpoint payload in this run produced a trusted play-count observation.
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Crusaders of the Lost Idols | metrics_json | `https://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | `http://www.kongregate.com/games/Codename_Enter/crusaders-of-the-lost-idols/metrics.json` | 8 |
+| Bloons Monkey City | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | 26 |
+| Bloons Monkey City | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | 26 |
+| Cosmos Quest | metrics_json | `http://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | 8 |
+| Cosmos Quest | metrics_json | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | `https://www.kongregate.com/games/GaiaByte/cosmos-quest/metrics.json` | 8 |
+| Bloons Monkey City | metrics_json | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | 26 |
+| Bloons Monkey City | metrics_json | `https://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | `http://www.kongregate.com/games/Ninjakiwi/bloons-monkey-city/metrics.json` | 26 |
+| Swarm Simulator | metrics_json | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | 15 |
+| Swarm Simulator | metrics_json | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | 15 |
+| Swarm Simulator | metrics_json | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | 15 |
+| Swarm Simulator | metrics_json | `https://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | `http://www.kongregate.com/games/swarmsim/swarm-simulator/metrics.json` | 15 |
+| Realm Grinder | metrics_json | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | 49 |
+| Realm Grinder | metrics_json | `https://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | 49 |
+| Realm Grinder | metrics_json | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | 49 |
+| Realm Grinder | metrics_json | `https://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | `http://www.kongregate.com/games/DivineGames/realm-grinder/metrics.json` | 49 |
+| KingsRoad | metrics_json | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | 1 |
+| KingsRoad | metrics_json | `https://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | `http://www.kongregate.com/games/RumbleGames/kingsroad/metrics.json` | 1 |
 
 ## Retry Note
 
-86 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+11 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 

@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-03T15:40:24Z
+- Run timestamp: 2026-07-04T07:20:57Z
 - Profile games in scope: 2
-- Selected games sample: Old Taxi Jigsaw, UnpuzzleR
+- Selected games sample: Supermechs, Bloons Monkey City
 - Selected games omitted from sample: 0
 - CDX games considered: 2
 - Cached CDX only: True
-- Cached HTML only: False
-- CDX timeout: 7s
-- CDX wall-clock cap: 8.0
-- CDX date-window days: 120
-- Page timeout: 7s
-- Page wall-clock cap: 8.0
-- Game-name filter: none
+- Cached HTML only: True
+- CDX timeout: 25s
+- CDX wall-clock cap: none
+- CDX date-window days: 90
+- Page timeout: 25s
+- Page wall-clock cap: 10.0
+- Game-name filter: Supermechs,Bloons Monkey City
 - Metrics row filter: has_metrics
-- Progress status filter: page_cdx_pending
-- CDX rows: 8
-- Page jobs: 4
-- Pending before run: 4
-- Attempted this run: 4
-- Fetched this run: 4
-- Cached HTML selected this run: 0
+- Progress status filter: none
+- CDX rows: 1564
+- Page jobs: 590
+- Pending before run: 590
+- Attempted this run: 40
+- Fetched this run: 0
+- Cached HTML selected this run: 40
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 4
+- Failed this run: 40
 - Manifest entries: 368
 - Known failures: 4016
-- Combined history rows: 8032
+- Combined history rows: 9118
 - Game-page history rows: 368
 - Report only: False

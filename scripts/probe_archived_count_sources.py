@@ -325,9 +325,9 @@ def load_targets(
                     )
                 ),
                 tier=tier,
-                best_rank=parse_int(row.get("best_rank")),
-                first_seen_date=row.get("first_seen_date", ""),
-                last_seen_date=row.get("last_seen_date", ""),
+                best_rank=parse_int(row.get("best_rank") or row.get("catalog_best_rank") or row.get("best_missing_rank")),
+                first_seen_date=row.get("first_seen_date") or row.get("catalog_first_seen_date") or row.get("first_missing_rank_date", ""),
+                last_seen_date=row.get("last_seen_date") or row.get("catalog_last_seen_date") or row.get("last_missing_rank_date", ""),
             )
         )
         if max_games and len(targets) >= max_games:
@@ -851,7 +851,7 @@ def merge_candidate_history(rows: list[dict[str, object]], run_timestamp: str) -
 def positive_count_key(row: dict[str, object]) -> tuple[str, str, str, str, int]:
     return (
         canonical_game_url(str(row.get("game_url", ""))),
-        str(row.get("source_page_timestamp", "")),
+        str(row.get("source_type", "")),
         str(row.get("sample_timestamp", "")),
         str(row.get("sample_original", "")),
         parse_int(row.get("parsed_plays")),

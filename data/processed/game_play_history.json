@@ -10383,6 +10383,21 @@
     {
       "date": "2017-11-16",
       "game_name": "The Very Organized Thief",
+      "game_url": "http://www.kongregate.com/games/arcan3artist/the-very-organized-thief",
+      "plays_count_observed": 1394831,
+      "favorites_count_observed": 5883,
+      "plays_text": "1,394,831",
+      "favorites_text": "5,883",
+      "metrics_url": "http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
+      "capture_timestamp": "20171116130055",
+      "capture_url": "https://web.archive.org/web/20171116130055/http://www.kongregate.com/games/arcan3artist/the-very-organized-thief/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171116130055_http_www.kongregate.com_games_arcan3artist_the-very-organized-thief_metrics.json_98680e11dae0dfee.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-11-16",
+      "game_name": "The Very Organized Thief",
       "game_url": "https://www.kongregate.com/games/arcan3artist/the-very-organized-thief",
       "plays_count_observed": 1394831,
       "favorites_count_observed": 5883,
