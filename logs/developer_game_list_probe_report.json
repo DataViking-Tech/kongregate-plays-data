@@ -1,13 +1,12 @@
 {
-  "candidate_observation_rows": 19,
-  "captures_sampled": 15,
+  "candidate_observation_rows": 12,
+  "captures_sampled": 9,
   "cdx_status_counts": {
-    "failed": 1,
-    "fetched": 18
+    "fetched": 12
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Adam and Eve 2"
+    "Filler Snake"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
@@ -30,23 +29,23 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 19,
-    "total": 22958,
+    "added": 12,
+    "total": 23053,
     "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T14:10:29Z",
+  "run_timestamp": "2026-07-04T14:22:22Z",
   "selected_games_by_developer": {
-    "fastgames": 1
+    "eurocrem": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
-  "source_cdx_lookups": 9,
+  "source_cdx_lookups": 6,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
-  "target_links_found": 5,
+  "target_links_found": 0,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
