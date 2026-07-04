@@ -1,19 +1,18 @@
 {
-  "candidate_observation_rows": 9,
-  "captures_sampled": 8,
+  "candidate_observation_rows": 3,
+  "captures_sampled": 0,
   "cdx_status_counts": {
-    "failed": 1,
-    "fetched": 8
+    "fetched": 3
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Trader of Stories"
+    "Drift Race in the open world"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/count_source_probe_game_status.csv",
   "match_type": "exact",
-  "max_captures_per_source": 4,
-  "max_cdx_lookups": 12,
+  "max_captures_per_source": 3,
+  "max_cdx_lookups": 9,
   "max_developers": 0,
   "max_games": 1,
   "max_games_per_developer": 0,
@@ -27,25 +26,25 @@
   "parsed_play_count_rows": 0,
   "persisted_play_counts": {
     "added": 0,
-    "total": 645
+    "total": 647
   },
   "persisted_probe_history": {
-    "added": 8,
-    "total": 21515,
-    "updated": 1
+    "added": 3,
+    "total": 21599,
+    "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T10:33:48Z",
+  "run_timestamp": "2026-07-04T10:50:48Z",
   "selected_games_by_developer": {
-    "mrudi": 1
+    "roman8": 1
   },
   "skipped_developers_due_to_caps": [],
   "source_cdx_lookups": 3,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
-  "target_links_found": 6,
+  "target_links_found": 0,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],

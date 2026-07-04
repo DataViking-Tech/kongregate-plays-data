@@ -5551,6 +5551,21 @@
       "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20120613173408_http_www.kongregate.com_80_games_PaperCup_1732c2975160743b.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/papercup differs from target www.kongregate.com/games/papercup/how-to-make-an-mmorpg"
     },
     {
+      "date": "2013-03-30",
+      "game_name": "Miscrits",
+      "game_url": "http://www.kongregate.com/games/BrokenBulb/miscrits",
+      "plays_count_observed": 761069,
+      "favorites_count_observed": "",
+      "plays_text": "761069",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com/games/BrokenBulb",
+      "capture_timestamp": "20130330013723",
+      "capture_url": "https://web.archive.org/web/20130330013723/http://www.kongregate.com/games/BrokenBulb",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20130330013723_http_www.kongregate.com_games_BrokenBulb_2386e16c433222c2.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com/games/brokenbulb differs from target www.kongregate.com/games/brokenbulb/miscrits"
+    },
+    {
       "date": "2013-03-31",
       "game_name": "Fashion Expert",
       "game_url": "http://www.kongregate.com/games/games2girls/fashion-expert",
@@ -5579,6 +5594,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20130918073206_http_www.kongregate.com_80_games_Ironhidegames_kingdom-rush_metrics.json_b77c4f49e73cedac.json"
+    },
+    {
+      "date": "2013-10-28",
+      "game_name": "Miscrits",
+      "game_url": "http://www.kongregate.com/games/BrokenBulb/miscrits",
+      "plays_count_observed": 1159108,
+      "favorites_count_observed": "",
+      "plays_text": "1159108",
+      "favorites_text": "",
+      "metrics_url": "http://www.kongregate.com:80/games/BrokenBulb",
+      "capture_timestamp": "20131028053338",
+      "capture_url": "https://web.archive.org/web/20131028053338/http://www.kongregate.com:80/games/BrokenBulb",
+      "parser": "count_source_probe",
+      "confidence": "medium",
+      "notes": "Recovered from archived count-source probe data/raw/developer_game_lists/html/20131028053338_http_www.kongregate.com_80_games_BrokenBulb_d6906da6030d27d1.html; source=developer_game_list; signal=developer_game_list_play_text; sample canonical URL http://www.kongregate.com:80/games/brokenbulb differs from target www.kongregate.com/games/brokenbulb/miscrits"
     },
     {
       "date": "2014-02-18",

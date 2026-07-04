@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-04T10:37:10.908Z",
-  "sheetUrl": "https://docs.google.com/spreadsheets/d/1L__1442ueE8uIPKQV-5zAtaU6p728hRTViotVwKKPUg",
+  "generatedAt": "2026-07-04T10:54:36.076Z",
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/1VssK4XlDdcLW2DksDj9QRmKMGyUL5dZTi9Bu3PjcLD8",
   "summary": {
-    "observedRows": 26436,
+    "observedRows": 26438,
     "rankedObservedRows": 17314,
-    "metricsObservedRows": 9122,
-    "frameCount": 2347,
+    "metricsObservedRows": 9124,
+    "frameCount": 2349,
     "firstDate": "2007-01-20",
     "lastDate": "2026-07-04",
     "topN": 12,
@@ -94120,9 +94120,148 @@
       ]
     },
     {
+      "date": "2013-03-30",
+      "observedRows": 1,
+      "trackedGames": 741,
+      "entries": [
+        {
+          "key": "kongregate-game:tyrant",
+          "gameName": "Tyrant",
+          "developer": "synapticon",
+          "gameUrl": "http://www.kongregate.com/games/synapticon/tyrant",
+          "plays": 44326178,
+          "lastObservedDate": "2013-03-07",
+          "rankOnDate": 4,
+          "source": "most_played",
+          "rank": 1
+        },
+        {
+          "key": "kongregate-game:backyard-monsters",
+          "gameName": "Backyard Monsters",
+          "developer": "KIXEYE",
+          "gameUrl": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
+          "plays": 37630447,
+          "lastObservedDate": "2012-11-23",
+          "rankOnDate": 7,
+          "source": "most_played",
+          "rank": 2
+        },
+        {
+          "key": "kongregate-game:dawn-of-the-dragons",
+          "gameName": "Dawn of the Dragons",
+          "developer": "5thPlanetGames",
+          "gameUrl": "http://www.kongregate.com/games/5thPlanetGames/dawn-of-the-dragons",
+          "plays": 31162631,
+          "lastObservedDate": "2013-03-07",
+          "rankOnDate": 1,
+          "source": "most_played",
+          "rank": 3
+        },
+        {
+          "key": "kongregate-game:platform-racing-2",
+          "gameName": "Platform Racing 2",
+          "developer": "Jiggmin",
+          "gameUrl": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
+          "plays": 28755444,
+          "lastObservedDate": "2012-10-29",
+          "rankOnDate": 3,
+          "source": "most_played",
+          "rank": 4
+        },
+        {
+          "key": "kongregate-game:dream-world",
+          "gameName": "Dream World",
+          "developer": "kingk",
+          "gameUrl": "http://www.kongregate.com/games/kingk/dream-world",
+          "plays": 23673568,
+          "lastObservedDate": "2012-10-29",
+          "rankOnDate": 4,
+          "source": "most_played",
+          "rank": 5
+        },
+        {
+          "key": "kongregate-game:warlords-call-to-arms",
+          "gameName": "Warlords: Call to Arms",
+          "developer": "DJStatika",
+          "gameUrl": "http://www.kongregate.com/games/DJStatika/warlords-call-to-arms",
+          "plays": 19589874,
+          "lastObservedDate": "2012-10-29",
+          "rankOnDate": 6,
+          "source": "most_played",
+          "rank": 6
+        },
+        {
+          "key": "kongregate-game:run",
+          "gameName": "Run",
+          "developer": "player_03",
+          "gameUrl": "http://www.kongregate.com/games/player_03/run",
+          "plays": 17776842,
+          "lastObservedDate": "2012-10-29",
+          "rankOnDate": 7,
+          "source": "most_played",
+          "rank": 7
+        },
+        {
+          "key": "kongregate-game:learn-to-fly-2",
+          "gameName": "Learn to Fly 2",
+          "developer": "light_bringer777",
+          "gameUrl": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
+          "plays": 17668469,
+          "lastObservedDate": "2013-03-14",
+          "rankOnDate": 4,
+          "source": "top_rated",
+          "rank": 8
+        },
+        {
+          "key": "kongregate-game:counter-strike-web-browser-based-port-v2",
+          "gameName": "CS Portable",
+          "developer": "IgorLevochkin",
+          "gameUrl": "http://www.kongregate.com/games/IgorLevochkin/counter-strike-web-browser-based-port-v2",
+          "plays": 14777400,
+          "lastObservedDate": "2013-03-14",
+          "rankOnDate": 6,
+          "source": "top_rated",
+          "rank": 9
+        },
+        {
+          "key": "kongregate-game:tdp4-team-battle",
+          "gameName": "TDP4 Team Battle",
+          "developer": "JavelinOU",
+          "gameUrl": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+          "plays": 14534499,
+          "lastObservedDate": "2012-08-15",
+          "rankOnDate": 16,
+          "source": "most_played",
+          "rank": 10
+        },
+        {
+          "key": "kongregate-game:transformice",
+          "gameName": "Transformice",
+          "developer": "Tigrounette",
+          "gameUrl": "http://www.kongregate.com/games/Tigrounette/transformice",
+          "plays": 14081043,
+          "lastObservedDate": "2012-07-05",
+          "rankOnDate": 7,
+          "source": "most_played",
+          "rank": 11
+        },
+        {
+          "key": "kongregate-game:cursed-treasure-dont-touch-my-gems",
+          "gameName": "Cursed Treasure: Don't...",
+          "developer": "IriySoft",
+          "gameUrl": "http://www.kongregate.com/games/IriySoft/cursed-treasure-dont-touch-my-gems",
+          "plays": 13928325,
+          "lastObservedDate": "2013-02-22",
+          "rankOnDate": 3,
+          "source": "category_top / tower-defense",
+          "rank": 12
+        }
+      ]
+    },
+    {
       "date": "2013-03-31",
       "observedRows": 9,
-      "trackedGames": 740,
+      "trackedGames": 741,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94261,7 +94400,7 @@
     {
       "date": "2013-04-06",
       "observedRows": 8,
-      "trackedGames": 740,
+      "trackedGames": 741,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94400,7 +94539,7 @@
     {
       "date": "2013-04-11",
       "observedRows": 8,
-      "trackedGames": 748,
+      "trackedGames": 749,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94539,7 +94678,7 @@
     {
       "date": "2013-05-10",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94678,7 +94817,7 @@
     {
       "date": "2013-05-24",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94817,7 +94956,7 @@
     {
       "date": "2013-05-26",
       "observedRows": 16,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -94956,7 +95095,7 @@
     {
       "date": "2013-06-01",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95095,7 +95234,7 @@
     {
       "date": "2013-06-06",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95234,7 +95373,7 @@
     {
       "date": "2013-06-10",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95373,7 +95512,7 @@
     {
       "date": "2013-06-17",
       "observedRows": 8,
-      "trackedGames": 749,
+      "trackedGames": 750,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95512,7 +95651,7 @@
     {
       "date": "2013-07-02",
       "observedRows": 8,
-      "trackedGames": 750,
+      "trackedGames": 751,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95651,7 +95790,7 @@
     {
       "date": "2013-07-24",
       "observedRows": 8,
-      "trackedGames": 752,
+      "trackedGames": 753,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95790,7 +95929,7 @@
     {
       "date": "2013-08-01",
       "observedRows": 8,
-      "trackedGames": 752,
+      "trackedGames": 753,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -95929,7 +96068,7 @@
     {
       "date": "2013-08-21",
       "observedRows": 8,
-      "trackedGames": 752,
+      "trackedGames": 753,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96068,7 +96207,7 @@
     {
       "date": "2013-09-18",
       "observedRows": 1,
-      "trackedGames": 752,
+      "trackedGames": 753,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96207,7 +96346,7 @@
     {
       "date": "2013-09-30",
       "observedRows": 8,
-      "trackedGames": 760,
+      "trackedGames": 761,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96346,7 +96485,7 @@
     {
       "date": "2013-10-13",
       "observedRows": 16,
-      "trackedGames": 760,
+      "trackedGames": 761,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96485,7 +96624,146 @@
     {
       "date": "2013-10-22",
       "observedRows": 8,
-      "trackedGames": 760,
+      "trackedGames": 761,
+      "entries": [
+        {
+          "key": "kongregate-game:tyrant",
+          "gameName": "Tyrant",
+          "developer": "synapticon",
+          "gameUrl": "http://www.kongregate.com/games/synapticon/tyrant",
+          "plays": 48207823,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 1,
+          "source": "most_played",
+          "rank": 1
+        },
+        {
+          "key": "kongregate-game:backyard-monsters",
+          "gameName": "Backyard Monsters (removed)",
+          "developer": "KIXEYE",
+          "gameUrl": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
+          "plays": 39994125,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 2,
+          "source": "most_played",
+          "rank": 2
+        },
+        {
+          "key": "kongregate-game:dawn-of-the-dragons",
+          "gameName": "Dawn of the Dragons",
+          "developer": "5thPlanetGames",
+          "gameUrl": "http://www.kongregate.com/games/5thPlanetGames/dawn-of-the-dragons",
+          "plays": 38561570,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 3,
+          "source": "most_played",
+          "rank": 3
+        },
+        {
+          "key": "kongregate-game:platform-racing-2",
+          "gameName": "Platform Racing 2",
+          "developer": "Jiggmin",
+          "gameUrl": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
+          "plays": 30126991,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 4,
+          "source": "most_played",
+          "rank": 4
+        },
+        {
+          "key": "kongregate-game:dream-world",
+          "gameName": "Dream World",
+          "developer": "kingk",
+          "gameUrl": "http://www.kongregate.com/games/kingk/dream-world",
+          "plays": 26345089,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 5,
+          "source": "most_played",
+          "rank": 5
+        },
+        {
+          "key": "kongregate-game:counter-strike-web-browser-based-port-v2",
+          "gameName": "CS Portable",
+          "developer": "IgorLevochkin",
+          "gameUrl": "http://www.kongregate.com/games/IgorLevochkin/counter-strike-web-browser-based-port-v2",
+          "plays": 25144178,
+          "lastObservedDate": "2013-10-22",
+          "rankOnDate": 7,
+          "source": "browse",
+          "rank": 6
+        },
+        {
+          "key": "kongregate-game:learn-to-fly-2",
+          "gameName": "Learn to Fly 2",
+          "developer": "light_bringer777",
+          "gameUrl": "http://www.kongregate.com/games/light_bringer777/learn-to-fly-2",
+          "plays": 20049967,
+          "lastObservedDate": "2013-10-22",
+          "rankOnDate": 5,
+          "source": "browse",
+          "rank": 7
+        },
+        {
+          "key": "kongregate-game:warlords-call-to-arms",
+          "gameName": "Warlords: Call to Arms",
+          "developer": "DJStatika",
+          "gameUrl": "http://www.kongregate.com/games/DJStatika/warlords-call-to-arms",
+          "plays": 20047512,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 6,
+          "source": "most_played",
+          "rank": 8
+        },
+        {
+          "key": "kongregate-game:run",
+          "gameName": "Run",
+          "developer": "player_03",
+          "gameUrl": "http://www.kongregate.com/games/player_03/run",
+          "plays": 19471547,
+          "lastObservedDate": "2013-06-10",
+          "rankOnDate": 7,
+          "source": "most_played",
+          "rank": 9
+        },
+        {
+          "key": "kongregate-game:tdp4-team-battle",
+          "gameName": "TDP4 Team Battle",
+          "developer": "JavelinOU",
+          "gameUrl": "http://www.kongregate.com/games/JavelinOU/tdp4-team-battle",
+          "plays": 14534499,
+          "lastObservedDate": "2012-08-15",
+          "rankOnDate": 16,
+          "source": "most_played",
+          "rank": 10
+        },
+        {
+          "key": "kongregate-game:cursed-treasure-dont-touch-my-gems",
+          "gameName": "Cursed Treasure: Don't Touch My Gems!",
+          "developer": "IriySoft",
+          "gameUrl": "http://www.kongregate.com/games/IriySoft/cursed-treasure-dont-touch-my-gems",
+          "plays": 14325235,
+          "lastObservedDate": "2013-07-02",
+          "rankOnDate": 3,
+          "source": "category_top / tower-defense",
+          "rank": 11
+        },
+        {
+          "key": "kongregate-game:transformice",
+          "gameName": "Transformice",
+          "developer": "Tigrounette",
+          "gameUrl": "http://www.kongregate.com/games/Tigrounette/transformice",
+          "plays": 14081043,
+          "lastObservedDate": "2012-07-05",
+          "rankOnDate": 7,
+          "source": "most_played",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "2013-10-28",
+      "observedRows": 1,
+      "trackedGames": 761,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96624,7 +96902,7 @@
     {
       "date": "2013-11-21",
       "observedRows": 8,
-      "trackedGames": 768,
+      "trackedGames": 769,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96763,7 +97041,7 @@
     {
       "date": "2013-12-02",
       "observedRows": 8,
-      "trackedGames": 769,
+      "trackedGames": 770,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -96902,7 +97180,7 @@
     {
       "date": "2013-12-03",
       "observedRows": 8,
-      "trackedGames": 769,
+      "trackedGames": 770,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97041,7 +97319,7 @@
     {
       "date": "2014-01-22",
       "observedRows": 16,
-      "trackedGames": 770,
+      "trackedGames": 771,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97180,7 +97458,7 @@
     {
       "date": "2014-01-23",
       "observedRows": 16,
-      "trackedGames": 770,
+      "trackedGames": 771,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97319,7 +97597,7 @@
     {
       "date": "2014-01-24",
       "observedRows": 8,
-      "trackedGames": 770,
+      "trackedGames": 771,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97458,7 +97736,7 @@
     {
       "date": "2014-01-31",
       "observedRows": 16,
-      "trackedGames": 770,
+      "trackedGames": 771,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97597,7 +97875,7 @@
     {
       "date": "2014-02-01",
       "observedRows": 8,
-      "trackedGames": 770,
+      "trackedGames": 771,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97736,7 +98014,7 @@
     {
       "date": "2014-02-07",
       "observedRows": 32,
-      "trackedGames": 771,
+      "trackedGames": 772,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -97875,7 +98153,7 @@
     {
       "date": "2014-02-09",
       "observedRows": 40,
-      "trackedGames": 771,
+      "trackedGames": 772,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98014,7 +98292,7 @@
     {
       "date": "2014-02-10",
       "observedRows": 8,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98153,7 +98431,7 @@
     {
       "date": "2014-02-14",
       "observedRows": 32,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98292,7 +98570,7 @@
     {
       "date": "2014-02-17",
       "observedRows": 24,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98431,7 +98709,7 @@
     {
       "date": "2014-02-18",
       "observedRows": 17,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98570,7 +98848,7 @@
     {
       "date": "2014-02-19",
       "observedRows": 48,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98709,7 +98987,7 @@
     {
       "date": "2014-02-20",
       "observedRows": 8,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98848,7 +99126,7 @@
     {
       "date": "2014-02-21",
       "observedRows": 24,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -98987,7 +99265,7 @@
     {
       "date": "2014-02-27",
       "observedRows": 8,
-      "trackedGames": 772,
+      "trackedGames": 773,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99126,7 +99404,7 @@
     {
       "date": "2014-02-28",
       "observedRows": 17,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99265,7 +99543,7 @@
     {
       "date": "2014-03-07",
       "observedRows": 8,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99404,7 +99682,7 @@
     {
       "date": "2014-03-14",
       "observedRows": 8,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99543,7 +99821,7 @@
     {
       "date": "2014-03-17",
       "observedRows": 1,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99682,7 +99960,7 @@
     {
       "date": "2014-03-19",
       "observedRows": 1,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99821,7 +100099,7 @@
     {
       "date": "2014-03-21",
       "observedRows": 8,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -99960,7 +100238,7 @@
     {
       "date": "2014-03-28",
       "observedRows": 8,
-      "trackedGames": 773,
+      "trackedGames": 774,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100099,7 +100377,7 @@
     {
       "date": "2014-04-04",
       "observedRows": 24,
-      "trackedGames": 775,
+      "trackedGames": 776,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100238,7 +100516,7 @@
     {
       "date": "2014-04-11",
       "observedRows": 16,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100377,7 +100655,7 @@
     {
       "date": "2014-04-18",
       "observedRows": 16,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100516,7 +100794,7 @@
     {
       "date": "2014-04-25",
       "observedRows": 8,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100655,7 +100933,7 @@
     {
       "date": "2014-05-02",
       "observedRows": 16,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100794,7 +101072,7 @@
     {
       "date": "2014-05-09",
       "observedRows": 8,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -100933,7 +101211,7 @@
     {
       "date": "2014-05-16",
       "observedRows": 8,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101072,7 +101350,7 @@
     {
       "date": "2014-05-23",
       "observedRows": 8,
-      "trackedGames": 783,
+      "trackedGames": 784,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101211,7 +101489,7 @@
     {
       "date": "2014-05-30",
       "observedRows": 16,
-      "trackedGames": 784,
+      "trackedGames": 785,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101350,7 +101628,7 @@
     {
       "date": "2014-06-06",
       "observedRows": 40,
-      "trackedGames": 793,
+      "trackedGames": 794,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101489,7 +101767,7 @@
     {
       "date": "2014-06-13",
       "observedRows": 40,
-      "trackedGames": 801,
+      "trackedGames": 802,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101628,7 +101906,7 @@
     {
       "date": "2014-06-20",
       "observedRows": 40,
-      "trackedGames": 809,
+      "trackedGames": 810,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101767,7 +102045,7 @@
     {
       "date": "2014-06-25",
       "observedRows": 40,
-      "trackedGames": 817,
+      "trackedGames": 818,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -101906,7 +102184,7 @@
     {
       "date": "2014-06-26",
       "observedRows": 8,
-      "trackedGames": 818,
+      "trackedGames": 819,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102045,7 +102323,7 @@
     {
       "date": "2014-06-27",
       "observedRows": 40,
-      "trackedGames": 826,
+      "trackedGames": 827,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102184,7 +102462,7 @@
     {
       "date": "2014-06-28",
       "observedRows": 8,
-      "trackedGames": 826,
+      "trackedGames": 827,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102323,7 +102601,7 @@
     {
       "date": "2014-06-30",
       "observedRows": 16,
-      "trackedGames": 826,
+      "trackedGames": 827,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102462,7 +102740,7 @@
     {
       "date": "2014-07-04",
       "observedRows": 16,
-      "trackedGames": 834,
+      "trackedGames": 835,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102601,7 +102879,7 @@
     {
       "date": "2014-07-11",
       "observedRows": 8,
-      "trackedGames": 834,
+      "trackedGames": 835,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102740,7 +103018,7 @@
     {
       "date": "2014-07-15",
       "observedRows": 1,
-      "trackedGames": 834,
+      "trackedGames": 835,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -102879,7 +103157,7 @@
     {
       "date": "2014-07-18",
       "observedRows": 8,
-      "trackedGames": 834,
+      "trackedGames": 835,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103018,7 +103296,7 @@
     {
       "date": "2014-07-21",
       "observedRows": 8,
-      "trackedGames": 842,
+      "trackedGames": 843,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103157,7 +103435,7 @@
     {
       "date": "2014-07-22",
       "observedRows": 1,
-      "trackedGames": 842,
+      "trackedGames": 843,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103296,7 +103574,7 @@
     {
       "date": "2014-07-25",
       "observedRows": 16,
-      "trackedGames": 850,
+      "trackedGames": 851,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103435,7 +103713,7 @@
     {
       "date": "2014-07-26",
       "observedRows": 7,
-      "trackedGames": 856,
+      "trackedGames": 857,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103574,7 +103852,7 @@
     {
       "date": "2014-07-30",
       "observedRows": 7,
-      "trackedGames": 863,
+      "trackedGames": 864,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103713,7 +103991,7 @@
     {
       "date": "2014-08-01",
       "observedRows": 40,
-      "trackedGames": 872,
+      "trackedGames": 873,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103852,7 +104130,7 @@
     {
       "date": "2014-08-04",
       "observedRows": 8,
-      "trackedGames": 880,
+      "trackedGames": 881,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -103991,7 +104269,7 @@
     {
       "date": "2014-08-05",
       "observedRows": 24,
-      "trackedGames": 880,
+      "trackedGames": 881,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104130,7 +104408,7 @@
     {
       "date": "2014-08-07",
       "observedRows": 17,
-      "trackedGames": 882,
+      "trackedGames": 883,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104269,7 +104547,7 @@
     {
       "date": "2014-08-08",
       "observedRows": 48,
-      "trackedGames": 889,
+      "trackedGames": 890,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104408,7 +104686,7 @@
     {
       "date": "2014-08-11",
       "observedRows": 8,
-      "trackedGames": 897,
+      "trackedGames": 898,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104547,7 +104825,7 @@
     {
       "date": "2014-08-13",
       "observedRows": 24,
-      "trackedGames": 897,
+      "trackedGames": 898,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104686,7 +104964,7 @@
     {
       "date": "2014-08-15",
       "observedRows": 40,
-      "trackedGames": 906,
+      "trackedGames": 907,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104825,7 +105103,7 @@
     {
       "date": "2014-08-16",
       "observedRows": 8,
-      "trackedGames": 913,
+      "trackedGames": 914,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -104964,7 +105242,7 @@
     {
       "date": "2014-08-20",
       "observedRows": 16,
-      "trackedGames": 914,
+      "trackedGames": 915,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105103,7 +105381,7 @@
     {
       "date": "2014-08-25",
       "observedRows": 2,
-      "trackedGames": 914,
+      "trackedGames": 915,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105242,7 +105520,7 @@
     {
       "date": "2014-08-26",
       "observedRows": 2,
-      "trackedGames": 915,
+      "trackedGames": 916,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105381,7 +105659,7 @@
     {
       "date": "2014-09-02",
       "observedRows": 1,
-      "trackedGames": 915,
+      "trackedGames": 916,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105520,7 +105798,7 @@
     {
       "date": "2014-09-09",
       "observedRows": 1,
-      "trackedGames": 915,
+      "trackedGames": 916,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105659,7 +105937,7 @@
     {
       "date": "2014-09-18",
       "observedRows": 1,
-      "trackedGames": 915,
+      "trackedGames": 916,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105798,7 +106076,7 @@
     {
       "date": "2014-09-24",
       "observedRows": 6,
-      "trackedGames": 917,
+      "trackedGames": 918,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -105937,7 +106215,7 @@
     {
       "date": "2014-09-25",
       "observedRows": 1,
-      "trackedGames": 917,
+      "trackedGames": 918,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106076,7 +106354,7 @@
     {
       "date": "2014-09-30",
       "observedRows": 2,
-      "trackedGames": 918,
+      "trackedGames": 919,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106215,7 +106493,7 @@
     {
       "date": "2014-10-09",
       "observedRows": 2,
-      "trackedGames": 918,
+      "trackedGames": 919,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106354,7 +106632,7 @@
     {
       "date": "2014-10-19",
       "observedRows": 1,
-      "trackedGames": 918,
+      "trackedGames": 919,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106493,7 +106771,7 @@
     {
       "date": "2014-10-20",
       "observedRows": 3,
-      "trackedGames": 919,
+      "trackedGames": 920,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106632,7 +106910,7 @@
     {
       "date": "2014-11-13",
       "observedRows": 2,
-      "trackedGames": 919,
+      "trackedGames": 920,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106771,7 +107049,7 @@
     {
       "date": "2014-11-19",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -106910,7 +107188,7 @@
     {
       "date": "2014-11-20",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107049,7 +107327,7 @@
     {
       "date": "2014-11-21",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107188,7 +107466,7 @@
     {
       "date": "2014-12-05",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107327,7 +107605,7 @@
     {
       "date": "2014-12-11",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107466,7 +107744,7 @@
     {
       "date": "2014-12-18",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107605,7 +107883,7 @@
     {
       "date": "2014-12-20",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107744,7 +108022,7 @@
     {
       "date": "2014-12-27",
       "observedRows": 1,
-      "trackedGames": 920,
+      "trackedGames": 921,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -107883,7 +108161,7 @@
     {
       "date": "2015-01-25",
       "observedRows": 1,
-      "trackedGames": 921,
+      "trackedGames": 922,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108022,7 +108300,7 @@
     {
       "date": "2015-02-05",
       "observedRows": 1,
-      "trackedGames": 921,
+      "trackedGames": 922,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108161,7 +108439,7 @@
     {
       "date": "2015-02-11",
       "observedRows": 1,
-      "trackedGames": 921,
+      "trackedGames": 922,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108300,7 +108578,7 @@
     {
       "date": "2015-02-12",
       "observedRows": 1,
-      "trackedGames": 922,
+      "trackedGames": 923,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108439,7 +108717,7 @@
     {
       "date": "2015-02-18",
       "observedRows": 1,
-      "trackedGames": 922,
+      "trackedGames": 923,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108578,7 +108856,7 @@
     {
       "date": "2015-02-19",
       "observedRows": 1,
-      "trackedGames": 922,
+      "trackedGames": 923,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108717,7 +108995,7 @@
     {
       "date": "2015-02-24",
       "observedRows": 4,
-      "trackedGames": 923,
+      "trackedGames": 924,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108856,7 +109134,7 @@
     {
       "date": "2015-03-02",
       "observedRows": 1,
-      "trackedGames": 924,
+      "trackedGames": 925,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -108995,7 +109273,7 @@
     {
       "date": "2015-03-04",
       "observedRows": 2,
-      "trackedGames": 925,
+      "trackedGames": 926,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109134,7 +109412,7 @@
     {
       "date": "2015-03-18",
       "observedRows": 1,
-      "trackedGames": 926,
+      "trackedGames": 927,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109273,7 +109551,7 @@
     {
       "date": "2015-04-21",
       "observedRows": 1,
-      "trackedGames": 927,
+      "trackedGames": 928,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109412,7 +109690,7 @@
     {
       "date": "2015-04-24",
       "observedRows": 1,
-      "trackedGames": 928,
+      "trackedGames": 929,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109551,7 +109829,7 @@
     {
       "date": "2015-04-25",
       "observedRows": 1,
-      "trackedGames": 928,
+      "trackedGames": 929,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109690,7 +109968,7 @@
     {
       "date": "2015-04-26",
       "observedRows": 1,
-      "trackedGames": 928,
+      "trackedGames": 929,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109829,7 +110107,7 @@
     {
       "date": "2015-04-30",
       "observedRows": 1,
-      "trackedGames": 928,
+      "trackedGames": 929,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -109968,7 +110246,7 @@
     {
       "date": "2015-05-01",
       "observedRows": 1,
-      "trackedGames": 928,
+      "trackedGames": 929,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110107,7 +110385,7 @@
     {
       "date": "2015-05-07",
       "observedRows": 1,
-      "trackedGames": 929,
+      "trackedGames": 930,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110246,7 +110524,7 @@
     {
       "date": "2015-05-19",
       "observedRows": 1,
-      "trackedGames": 929,
+      "trackedGames": 930,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110385,7 +110663,7 @@
     {
       "date": "2015-05-27",
       "observedRows": 1,
-      "trackedGames": 929,
+      "trackedGames": 930,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110524,7 +110802,7 @@
     {
       "date": "2015-06-08",
       "observedRows": 1,
-      "trackedGames": 929,
+      "trackedGames": 930,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110663,7 +110941,7 @@
     {
       "date": "2015-06-11",
       "observedRows": 2,
-      "trackedGames": 930,
+      "trackedGames": 931,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110802,7 +111080,7 @@
     {
       "date": "2015-06-16",
       "observedRows": 1,
-      "trackedGames": 930,
+      "trackedGames": 931,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -110941,7 +111219,7 @@
     {
       "date": "2015-06-18",
       "observedRows": 1,
-      "trackedGames": 930,
+      "trackedGames": 931,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111080,7 +111358,7 @@
     {
       "date": "2015-08-04",
       "observedRows": 2,
-      "trackedGames": 931,
+      "trackedGames": 932,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111219,7 +111497,7 @@
     {
       "date": "2015-08-20",
       "observedRows": 1,
-      "trackedGames": 931,
+      "trackedGames": 932,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111358,7 +111636,7 @@
     {
       "date": "2015-08-26",
       "observedRows": 1,
-      "trackedGames": 932,
+      "trackedGames": 933,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111497,7 +111775,7 @@
     {
       "date": "2015-08-29",
       "observedRows": 1,
-      "trackedGames": 932,
+      "trackedGames": 933,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111636,7 +111914,7 @@
     {
       "date": "2015-09-03",
       "observedRows": 1,
-      "trackedGames": 932,
+      "trackedGames": 933,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111775,7 +112053,7 @@
     {
       "date": "2015-09-18",
       "observedRows": 6,
-      "trackedGames": 933,
+      "trackedGames": 934,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -111914,7 +112192,7 @@
     {
       "date": "2015-09-28",
       "observedRows": 2,
-      "trackedGames": 933,
+      "trackedGames": 934,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112053,7 +112331,7 @@
     {
       "date": "2015-09-29",
       "observedRows": 1,
-      "trackedGames": 933,
+      "trackedGames": 934,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112192,7 +112470,7 @@
     {
       "date": "2015-10-10",
       "observedRows": 2,
-      "trackedGames": 933,
+      "trackedGames": 934,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112331,7 +112609,7 @@
     {
       "date": "2015-10-21",
       "observedRows": 3,
-      "trackedGames": 933,
+      "trackedGames": 934,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112470,7 +112748,7 @@
     {
       "date": "2015-10-23",
       "observedRows": 1,
-      "trackedGames": 934,
+      "trackedGames": 935,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112609,7 +112887,7 @@
     {
       "date": "2015-10-28",
       "observedRows": 1,
-      "trackedGames": 934,
+      "trackedGames": 935,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112748,7 +113026,7 @@
     {
       "date": "2015-11-05",
       "observedRows": 2,
-      "trackedGames": 934,
+      "trackedGames": 935,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -112887,7 +113165,7 @@
     {
       "date": "2015-11-20",
       "observedRows": 4,
-      "trackedGames": 935,
+      "trackedGames": 936,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113026,7 +113304,7 @@
     {
       "date": "2015-11-22",
       "observedRows": 2,
-      "trackedGames": 936,
+      "trackedGames": 937,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113165,7 +113443,7 @@
     {
       "date": "2015-11-24",
       "observedRows": 2,
-      "trackedGames": 936,
+      "trackedGames": 937,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113304,7 +113582,7 @@
     {
       "date": "2015-11-30",
       "observedRows": 2,
-      "trackedGames": 936,
+      "trackedGames": 937,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113443,7 +113721,7 @@
     {
       "date": "2015-12-02",
       "observedRows": 2,
-      "trackedGames": 937,
+      "trackedGames": 938,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113582,7 +113860,7 @@
     {
       "date": "2015-12-09",
       "observedRows": 3,
-      "trackedGames": 937,
+      "trackedGames": 938,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113721,7 +113999,7 @@
     {
       "date": "2015-12-11",
       "observedRows": 2,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113860,7 +114138,7 @@
     {
       "date": "2015-12-14",
       "observedRows": 4,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -113999,7 +114277,7 @@
     {
       "date": "2015-12-15",
       "observedRows": 2,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114138,7 +114416,7 @@
     {
       "date": "2015-12-22",
       "observedRows": 4,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114277,7 +114555,7 @@
     {
       "date": "2016-01-04",
       "observedRows": 2,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114416,7 +114694,7 @@
     {
       "date": "2016-01-06",
       "observedRows": 4,
-      "trackedGames": 938,
+      "trackedGames": 939,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114555,7 +114833,7 @@
     {
       "date": "2016-01-08",
       "observedRows": 2,
-      "trackedGames": 939,
+      "trackedGames": 940,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114694,7 +114972,7 @@
     {
       "date": "2016-01-18",
       "observedRows": 1,
-      "trackedGames": 939,
+      "trackedGames": 940,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114833,7 +115111,7 @@
     {
       "date": "2016-01-20",
       "observedRows": 5,
-      "trackedGames": 939,
+      "trackedGames": 940,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -114972,7 +115250,7 @@
     {
       "date": "2016-01-21",
       "observedRows": 2,
-      "trackedGames": 939,
+      "trackedGames": 940,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115111,7 +115389,7 @@
     {
       "date": "2016-01-22",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115250,7 +115528,7 @@
     {
       "date": "2016-01-25",
       "observedRows": 3,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115389,7 +115667,7 @@
     {
       "date": "2016-01-26",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115528,7 +115806,7 @@
     {
       "date": "2016-01-29",
       "observedRows": 1,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115667,7 +115945,7 @@
     {
       "date": "2016-02-01",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115806,7 +116084,7 @@
     {
       "date": "2016-02-02",
       "observedRows": 4,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -115945,7 +116223,7 @@
     {
       "date": "2016-02-10",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116084,7 +116362,7 @@
     {
       "date": "2016-02-12",
       "observedRows": 1,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116223,7 +116501,7 @@
     {
       "date": "2016-02-19",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116362,7 +116640,7 @@
     {
       "date": "2016-02-26",
       "observedRows": 2,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116501,7 +116779,7 @@
     {
       "date": "2016-02-27",
       "observedRows": 1,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116640,7 +116918,7 @@
     {
       "date": "2016-02-28",
       "observedRows": 1,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116779,7 +117057,7 @@
     {
       "date": "2016-02-29",
       "observedRows": 7,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -116918,7 +117196,7 @@
     {
       "date": "2016-03-01",
       "observedRows": 1,
-      "trackedGames": 940,
+      "trackedGames": 941,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117057,7 +117335,7 @@
     {
       "date": "2016-03-07",
       "observedRows": 3,
-      "trackedGames": 941,
+      "trackedGames": 942,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117196,7 +117474,7 @@
     {
       "date": "2016-03-11",
       "observedRows": 6,
-      "trackedGames": 942,
+      "trackedGames": 943,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117335,7 +117613,7 @@
     {
       "date": "2016-03-12",
       "observedRows": 1,
-      "trackedGames": 942,
+      "trackedGames": 943,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117474,7 +117752,7 @@
     {
       "date": "2016-03-14",
       "observedRows": 2,
-      "trackedGames": 943,
+      "trackedGames": 944,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117613,7 +117891,7 @@
     {
       "date": "2016-03-15",
       "observedRows": 6,
-      "trackedGames": 943,
+      "trackedGames": 944,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117752,7 +118030,7 @@
     {
       "date": "2016-03-21",
       "observedRows": 3,
-      "trackedGames": 944,
+      "trackedGames": 945,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -117891,7 +118169,7 @@
     {
       "date": "2016-03-22",
       "observedRows": 1,
-      "trackedGames": 944,
+      "trackedGames": 945,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118030,7 +118308,7 @@
     {
       "date": "2016-03-30",
       "observedRows": 1,
-      "trackedGames": 945,
+      "trackedGames": 946,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118169,7 +118447,7 @@
     {
       "date": "2016-04-02",
       "observedRows": 5,
-      "trackedGames": 948,
+      "trackedGames": 949,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118308,7 +118586,7 @@
     {
       "date": "2016-04-14",
       "observedRows": 1,
-      "trackedGames": 949,
+      "trackedGames": 950,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118447,7 +118725,7 @@
     {
       "date": "2016-04-20",
       "observedRows": 1,
-      "trackedGames": 949,
+      "trackedGames": 950,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118586,7 +118864,7 @@
     {
       "date": "2016-04-26",
       "observedRows": 1,
-      "trackedGames": 949,
+      "trackedGames": 950,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118725,7 +119003,7 @@
     {
       "date": "2016-05-03",
       "observedRows": 3,
-      "trackedGames": 950,
+      "trackedGames": 951,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -118864,7 +119142,7 @@
     {
       "date": "2016-05-05",
       "observedRows": 3,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119003,7 +119281,7 @@
     {
       "date": "2016-05-17",
       "observedRows": 1,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119142,7 +119420,7 @@
     {
       "date": "2016-05-18",
       "observedRows": 1,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119281,7 +119559,7 @@
     {
       "date": "2016-05-19",
       "observedRows": 2,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119420,7 +119698,7 @@
     {
       "date": "2016-05-20",
       "observedRows": 3,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119559,7 +119837,7 @@
     {
       "date": "2016-05-23",
       "observedRows": 2,
-      "trackedGames": 951,
+      "trackedGames": 952,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119698,7 +119976,7 @@
     {
       "date": "2016-05-24",
       "observedRows": 2,
-      "trackedGames": 952,
+      "trackedGames": 953,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119837,7 +120115,7 @@
     {
       "date": "2016-05-27",
       "observedRows": 1,
-      "trackedGames": 952,
+      "trackedGames": 953,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -119976,7 +120254,7 @@
     {
       "date": "2016-06-03",
       "observedRows": 2,
-      "trackedGames": 952,
+      "trackedGames": 953,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120115,7 +120393,7 @@
     {
       "date": "2016-06-04",
       "observedRows": 1,
-      "trackedGames": 952,
+      "trackedGames": 953,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120254,7 +120532,7 @@
     {
       "date": "2016-06-06",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120393,7 +120671,7 @@
     {
       "date": "2016-06-07",
       "observedRows": 2,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120532,7 +120810,7 @@
     {
       "date": "2016-06-09",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120671,7 +120949,7 @@
     {
       "date": "2016-06-10",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120810,7 +121088,7 @@
     {
       "date": "2016-07-10",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -120949,7 +121227,7 @@
     {
       "date": "2016-07-20",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121088,7 +121366,7 @@
     {
       "date": "2016-07-29",
       "observedRows": 2,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121227,7 +121505,7 @@
     {
       "date": "2016-08-17",
       "observedRows": 1,
-      "trackedGames": 953,
+      "trackedGames": 954,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121366,7 +121644,7 @@
     {
       "date": "2016-08-26",
       "observedRows": 1,
-      "trackedGames": 954,
+      "trackedGames": 955,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121505,7 +121783,7 @@
     {
       "date": "2016-09-06",
       "observedRows": 1,
-      "trackedGames": 954,
+      "trackedGames": 955,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121644,7 +121922,7 @@
     {
       "date": "2016-09-12",
       "observedRows": 2,
-      "trackedGames": 954,
+      "trackedGames": 955,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121783,7 +122061,7 @@
     {
       "date": "2016-09-13",
       "observedRows": 2,
-      "trackedGames": 955,
+      "trackedGames": 956,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -121922,7 +122200,7 @@
     {
       "date": "2016-09-17",
       "observedRows": 2,
-      "trackedGames": 956,
+      "trackedGames": 957,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122061,7 +122339,7 @@
     {
       "date": "2016-09-18",
       "observedRows": 3,
-      "trackedGames": 956,
+      "trackedGames": 957,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122200,7 +122478,7 @@
     {
       "date": "2016-09-19",
       "observedRows": 2,
-      "trackedGames": 956,
+      "trackedGames": 957,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122339,7 +122617,7 @@
     {
       "date": "2016-09-21",
       "observedRows": 3,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122478,7 +122756,7 @@
     {
       "date": "2016-09-22",
       "observedRows": 1,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122617,7 +122895,7 @@
     {
       "date": "2016-10-04",
       "observedRows": 4,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122756,7 +123034,7 @@
     {
       "date": "2016-10-10",
       "observedRows": 1,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -122895,7 +123173,7 @@
     {
       "date": "2016-10-14",
       "observedRows": 1,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:tyrant",
@@ -123034,7 +123312,7 @@
     {
       "date": "2016-10-16",
       "observedRows": 1,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123173,7 +123451,7 @@
     {
       "date": "2016-10-17",
       "observedRows": 2,
-      "trackedGames": 957,
+      "trackedGames": 958,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123312,7 +123590,7 @@
     {
       "date": "2016-10-31",
       "observedRows": 3,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123451,7 +123729,7 @@
     {
       "date": "2016-11-01",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123590,7 +123868,7 @@
     {
       "date": "2016-11-15",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123729,7 +124007,7 @@
     {
       "date": "2016-12-08",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -123868,7 +124146,7 @@
     {
       "date": "2016-12-11",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124007,7 +124285,7 @@
     {
       "date": "2016-12-15",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124146,7 +124424,7 @@
     {
       "date": "2016-12-19",
       "observedRows": 2,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124285,7 +124563,7 @@
     {
       "date": "2016-12-20",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124424,7 +124702,7 @@
     {
       "date": "2016-12-22",
       "observedRows": 2,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124563,7 +124841,7 @@
     {
       "date": "2017-01-18",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124702,7 +124980,7 @@
     {
       "date": "2017-01-23",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124841,7 +125119,7 @@
     {
       "date": "2017-02-02",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -124980,7 +125258,7 @@
     {
       "date": "2017-02-05",
       "observedRows": 1,
-      "trackedGames": 958,
+      "trackedGames": 959,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125119,7 +125397,7 @@
     {
       "date": "2017-02-08",
       "observedRows": 2,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125258,7 +125536,7 @@
     {
       "date": "2017-02-17",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125397,7 +125675,7 @@
     {
       "date": "2017-02-18",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125536,7 +125814,7 @@
     {
       "date": "2017-03-01",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125675,7 +125953,7 @@
     {
       "date": "2017-03-02",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125814,7 +126092,7 @@
     {
       "date": "2017-03-10",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -125953,7 +126231,7 @@
     {
       "date": "2017-03-15",
       "observedRows": 1,
-      "trackedGames": 959,
+      "trackedGames": 960,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126092,7 +126370,7 @@
     {
       "date": "2017-03-23",
       "observedRows": 2,
-      "trackedGames": 960,
+      "trackedGames": 961,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126231,7 +126509,7 @@
     {
       "date": "2017-03-29",
       "observedRows": 2,
-      "trackedGames": 961,
+      "trackedGames": 962,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126370,7 +126648,7 @@
     {
       "date": "2017-04-03",
       "observedRows": 1,
-      "trackedGames": 962,
+      "trackedGames": 963,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126509,7 +126787,7 @@
     {
       "date": "2017-04-06",
       "observedRows": 1,
-      "trackedGames": 962,
+      "trackedGames": 963,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126648,7 +126926,7 @@
     {
       "date": "2017-04-11",
       "observedRows": 1,
-      "trackedGames": 962,
+      "trackedGames": 963,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126787,7 +127065,7 @@
     {
       "date": "2017-04-13",
       "observedRows": 1,
-      "trackedGames": 962,
+      "trackedGames": 963,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -126926,7 +127204,7 @@
     {
       "date": "2017-04-24",
       "observedRows": 2,
-      "trackedGames": 963,
+      "trackedGames": 964,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127065,7 +127343,7 @@
     {
       "date": "2017-05-26",
       "observedRows": 2,
-      "trackedGames": 963,
+      "trackedGames": 964,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127204,7 +127482,7 @@
     {
       "date": "2017-06-26",
       "observedRows": 2,
-      "trackedGames": 963,
+      "trackedGames": 964,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127343,7 +127621,7 @@
     {
       "date": "2017-07-24",
       "observedRows": 4,
-      "trackedGames": 965,
+      "trackedGames": 966,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127482,7 +127760,7 @@
     {
       "date": "2017-07-27",
       "observedRows": 2,
-      "trackedGames": 965,
+      "trackedGames": 966,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127621,7 +127899,7 @@
     {
       "date": "2017-08-27",
       "observedRows": 1,
-      "trackedGames": 965,
+      "trackedGames": 966,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127760,7 +128038,7 @@
     {
       "date": "2017-08-30",
       "observedRows": 2,
-      "trackedGames": 966,
+      "trackedGames": 967,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -127899,7 +128177,7 @@
     {
       "date": "2017-09-01",
       "observedRows": 2,
-      "trackedGames": 967,
+      "trackedGames": 968,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128038,7 +128316,7 @@
     {
       "date": "2017-09-04",
       "observedRows": 2,
-      "trackedGames": 968,
+      "trackedGames": 969,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128177,7 +128455,7 @@
     {
       "date": "2017-09-15",
       "observedRows": 1,
-      "trackedGames": 968,
+      "trackedGames": 969,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128316,7 +128594,7 @@
     {
       "date": "2017-09-22",
       "observedRows": 2,
-      "trackedGames": 969,
+      "trackedGames": 970,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128455,7 +128733,7 @@
     {
       "date": "2017-09-30",
       "observedRows": 2,
-      "trackedGames": 970,
+      "trackedGames": 971,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128594,7 +128872,7 @@
     {
       "date": "2017-10-03",
       "observedRows": 1,
-      "trackedGames": 970,
+      "trackedGames": 971,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128733,7 +129011,7 @@
     {
       "date": "2017-10-04",
       "observedRows": 1,
-      "trackedGames": 970,
+      "trackedGames": 971,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -128872,7 +129150,7 @@
     {
       "date": "2017-10-05",
       "observedRows": 2,
-      "trackedGames": 971,
+      "trackedGames": 972,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129011,7 +129289,7 @@
     {
       "date": "2017-10-10",
       "observedRows": 2,
-      "trackedGames": 972,
+      "trackedGames": 973,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129150,7 +129428,7 @@
     {
       "date": "2017-10-29",
       "observedRows": 1,
-      "trackedGames": 973,
+      "trackedGames": 974,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129289,7 +129567,7 @@
     {
       "date": "2017-10-31",
       "observedRows": 1,
-      "trackedGames": 974,
+      "trackedGames": 975,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129428,7 +129706,7 @@
     {
       "date": "2017-11-08",
       "observedRows": 1,
-      "trackedGames": 974,
+      "trackedGames": 975,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129567,7 +129845,7 @@
     {
       "date": "2017-11-16",
       "observedRows": 2,
-      "trackedGames": 975,
+      "trackedGames": 976,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129706,7 +129984,7 @@
     {
       "date": "2017-11-17",
       "observedRows": 1,
-      "trackedGames": 976,
+      "trackedGames": 977,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129845,7 +130123,7 @@
     {
       "date": "2017-11-24",
       "observedRows": 2,
-      "trackedGames": 977,
+      "trackedGames": 978,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -129984,7 +130262,7 @@
     {
       "date": "2017-12-10",
       "observedRows": 1,
-      "trackedGames": 977,
+      "trackedGames": 978,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130123,7 +130401,7 @@
     {
       "date": "2017-12-16",
       "observedRows": 2,
-      "trackedGames": 978,
+      "trackedGames": 979,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130262,7 +130540,7 @@
     {
       "date": "2017-12-19",
       "observedRows": 2,
-      "trackedGames": 978,
+      "trackedGames": 979,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130401,7 +130679,7 @@
     {
       "date": "2018-01-03",
       "observedRows": 2,
-      "trackedGames": 979,
+      "trackedGames": 980,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130540,7 +130818,7 @@
     {
       "date": "2018-01-08",
       "observedRows": 1,
-      "trackedGames": 979,
+      "trackedGames": 980,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130679,7 +130957,7 @@
     {
       "date": "2018-01-10",
       "observedRows": 1,
-      "trackedGames": 979,
+      "trackedGames": 980,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130818,7 +131096,7 @@
     {
       "date": "2018-01-19",
       "observedRows": 1,
-      "trackedGames": 979,
+      "trackedGames": 980,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -130957,7 +131235,7 @@
     {
       "date": "2018-02-02",
       "observedRows": 1,
-      "trackedGames": 980,
+      "trackedGames": 981,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131096,7 +131374,7 @@
     {
       "date": "2018-02-04",
       "observedRows": 2,
-      "trackedGames": 981,
+      "trackedGames": 982,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131235,7 +131513,7 @@
     {
       "date": "2018-02-08",
       "observedRows": 3,
-      "trackedGames": 983,
+      "trackedGames": 984,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131374,7 +131652,7 @@
     {
       "date": "2018-02-09",
       "observedRows": 3,
-      "trackedGames": 983,
+      "trackedGames": 984,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131513,7 +131791,7 @@
     {
       "date": "2018-02-10",
       "observedRows": 1,
-      "trackedGames": 983,
+      "trackedGames": 984,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131652,7 +131930,7 @@
     {
       "date": "2018-02-12",
       "observedRows": 1,
-      "trackedGames": 983,
+      "trackedGames": 984,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131791,7 +132069,7 @@
     {
       "date": "2018-02-14",
       "observedRows": 2,
-      "trackedGames": 984,
+      "trackedGames": 985,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -131930,7 +132208,7 @@
     {
       "date": "2018-02-15",
       "observedRows": 4,
-      "trackedGames": 986,
+      "trackedGames": 987,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132069,7 +132347,7 @@
     {
       "date": "2018-02-18",
       "observedRows": 2,
-      "trackedGames": 987,
+      "trackedGames": 988,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132208,7 +132486,7 @@
     {
       "date": "2018-02-21",
       "observedRows": 2,
-      "trackedGames": 988,
+      "trackedGames": 989,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132347,7 +132625,7 @@
     {
       "date": "2018-02-22",
       "observedRows": 2,
-      "trackedGames": 989,
+      "trackedGames": 990,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132486,7 +132764,7 @@
     {
       "date": "2018-02-23",
       "observedRows": 1,
-      "trackedGames": 990,
+      "trackedGames": 991,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132625,7 +132903,7 @@
     {
       "date": "2018-02-26",
       "observedRows": 1,
-      "trackedGames": 990,
+      "trackedGames": 991,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132764,7 +133042,7 @@
     {
       "date": "2018-03-01",
       "observedRows": 1,
-      "trackedGames": 991,
+      "trackedGames": 992,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -132903,7 +133181,7 @@
     {
       "date": "2018-03-04",
       "observedRows": 2,
-      "trackedGames": 992,
+      "trackedGames": 993,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133042,7 +133320,7 @@
     {
       "date": "2018-03-06",
       "observedRows": 1,
-      "trackedGames": 993,
+      "trackedGames": 994,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133181,7 +133459,7 @@
     {
       "date": "2018-03-08",
       "observedRows": 5,
-      "trackedGames": 995,
+      "trackedGames": 996,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133320,7 +133598,7 @@
     {
       "date": "2018-03-12",
       "observedRows": 2,
-      "trackedGames": 996,
+      "trackedGames": 997,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133459,7 +133737,7 @@
     {
       "date": "2018-03-15",
       "observedRows": 3,
-      "trackedGames": 997,
+      "trackedGames": 998,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133598,7 +133876,7 @@
     {
       "date": "2018-03-16",
       "observedRows": 6,
-      "trackedGames": 1000,
+      "trackedGames": 1001,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133737,7 +134015,7 @@
     {
       "date": "2018-03-18",
       "observedRows": 1,
-      "trackedGames": 1000,
+      "trackedGames": 1001,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -133876,7 +134154,7 @@
     {
       "date": "2018-03-22",
       "observedRows": 2,
-      "trackedGames": 1001,
+      "trackedGames": 1002,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134015,7 +134293,7 @@
     {
       "date": "2018-03-23",
       "observedRows": 3,
-      "trackedGames": 1002,
+      "trackedGames": 1003,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134154,7 +134432,7 @@
     {
       "date": "2018-03-26",
       "observedRows": 1,
-      "trackedGames": 1002,
+      "trackedGames": 1003,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134293,7 +134571,7 @@
     {
       "date": "2018-04-03",
       "observedRows": 2,
-      "trackedGames": 1003,
+      "trackedGames": 1004,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134432,7 +134710,7 @@
     {
       "date": "2018-04-06",
       "observedRows": 2,
-      "trackedGames": 1004,
+      "trackedGames": 1005,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134571,7 +134849,7 @@
     {
       "date": "2018-04-08",
       "observedRows": 2,
-      "trackedGames": 1004,
+      "trackedGames": 1005,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134710,7 +134988,7 @@
     {
       "date": "2018-04-15",
       "observedRows": 2,
-      "trackedGames": 1005,
+      "trackedGames": 1006,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134849,7 +135127,7 @@
     {
       "date": "2018-04-16",
       "observedRows": 1,
-      "trackedGames": 1005,
+      "trackedGames": 1006,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -134988,7 +135266,7 @@
     {
       "date": "2018-04-19",
       "observedRows": 3,
-      "trackedGames": 1006,
+      "trackedGames": 1007,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135127,7 +135405,7 @@
     {
       "date": "2018-04-25",
       "observedRows": 2,
-      "trackedGames": 1007,
+      "trackedGames": 1008,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135266,7 +135544,7 @@
     {
       "date": "2018-04-27",
       "observedRows": 1,
-      "trackedGames": 1007,
+      "trackedGames": 1008,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135405,7 +135683,7 @@
     {
       "date": "2018-05-02",
       "observedRows": 2,
-      "trackedGames": 1008,
+      "trackedGames": 1009,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135544,7 +135822,7 @@
     {
       "date": "2018-05-04",
       "observedRows": 1,
-      "trackedGames": 1009,
+      "trackedGames": 1010,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135683,7 +135961,7 @@
     {
       "date": "2018-05-09",
       "observedRows": 1,
-      "trackedGames": 1010,
+      "trackedGames": 1011,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135822,7 +136100,7 @@
     {
       "date": "2018-05-10",
       "observedRows": 1,
-      "trackedGames": 1010,
+      "trackedGames": 1011,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -135961,7 +136239,7 @@
     {
       "date": "2018-05-12",
       "observedRows": 2,
-      "trackedGames": 1011,
+      "trackedGames": 1012,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136100,7 +136378,7 @@
     {
       "date": "2018-05-16",
       "observedRows": 2,
-      "trackedGames": 1012,
+      "trackedGames": 1013,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136239,7 +136517,7 @@
     {
       "date": "2018-05-25",
       "observedRows": 1,
-      "trackedGames": 1012,
+      "trackedGames": 1013,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136378,7 +136656,7 @@
     {
       "date": "2018-06-05",
       "observedRows": 3,
-      "trackedGames": 1013,
+      "trackedGames": 1014,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136517,7 +136795,7 @@
     {
       "date": "2018-06-06",
       "observedRows": 2,
-      "trackedGames": 1014,
+      "trackedGames": 1015,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136656,7 +136934,7 @@
     {
       "date": "2018-08-14",
       "observedRows": 1,
-      "trackedGames": 1014,
+      "trackedGames": 1015,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136795,7 +137073,7 @@
     {
       "date": "2018-08-30",
       "observedRows": 1,
-      "trackedGames": 1014,
+      "trackedGames": 1015,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -136934,7 +137212,7 @@
     {
       "date": "2018-09-13",
       "observedRows": 1,
-      "trackedGames": 1015,
+      "trackedGames": 1016,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137073,7 +137351,7 @@
     {
       "date": "2018-09-16",
       "observedRows": 1,
-      "trackedGames": 1015,
+      "trackedGames": 1016,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137212,7 +137490,7 @@
     {
       "date": "2018-09-21",
       "observedRows": 1,
-      "trackedGames": 1015,
+      "trackedGames": 1016,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137351,7 +137629,7 @@
     {
       "date": "2018-09-22",
       "observedRows": 1,
-      "trackedGames": 1015,
+      "trackedGames": 1016,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137490,7 +137768,7 @@
     {
       "date": "2018-09-28",
       "observedRows": 1,
-      "trackedGames": 1015,
+      "trackedGames": 1016,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137629,7 +137907,7 @@
     {
       "date": "2018-10-04",
       "observedRows": 1,
-      "trackedGames": 1016,
+      "trackedGames": 1017,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137768,7 +138046,7 @@
     {
       "date": "2018-10-07",
       "observedRows": 2,
-      "trackedGames": 1017,
+      "trackedGames": 1018,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -137907,7 +138185,7 @@
     {
       "date": "2018-10-08",
       "observedRows": 1,
-      "trackedGames": 1017,
+      "trackedGames": 1018,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138046,7 +138324,7 @@
     {
       "date": "2018-10-21",
       "observedRows": 1,
-      "trackedGames": 1017,
+      "trackedGames": 1018,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138185,7 +138463,7 @@
     {
       "date": "2018-10-22",
       "observedRows": 1,
-      "trackedGames": 1017,
+      "trackedGames": 1018,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138324,7 +138602,7 @@
     {
       "date": "2018-10-23",
       "observedRows": 2,
-      "trackedGames": 1018,
+      "trackedGames": 1019,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138463,7 +138741,7 @@
     {
       "date": "2018-11-02",
       "observedRows": 1,
-      "trackedGames": 1019,
+      "trackedGames": 1020,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138602,7 +138880,7 @@
     {
       "date": "2018-11-04",
       "observedRows": 1,
-      "trackedGames": 1019,
+      "trackedGames": 1020,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138741,7 +139019,7 @@
     {
       "date": "2018-11-18",
       "observedRows": 1,
-      "trackedGames": 1020,
+      "trackedGames": 1021,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -138880,7 +139158,7 @@
     {
       "date": "2018-11-20",
       "observedRows": 2,
-      "trackedGames": 1021,
+      "trackedGames": 1022,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139019,7 +139297,7 @@
     {
       "date": "2018-12-05",
       "observedRows": 1,
-      "trackedGames": 1021,
+      "trackedGames": 1022,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139158,7 +139436,7 @@
     {
       "date": "2018-12-17",
       "observedRows": 4,
-      "trackedGames": 1023,
+      "trackedGames": 1024,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139297,7 +139575,7 @@
     {
       "date": "2018-12-19",
       "observedRows": 2,
-      "trackedGames": 1024,
+      "trackedGames": 1025,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139436,7 +139714,7 @@
     {
       "date": "2018-12-31",
       "observedRows": 1,
-      "trackedGames": 1024,
+      "trackedGames": 1025,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139575,7 +139853,7 @@
     {
       "date": "2019-01-10",
       "observedRows": 1,
-      "trackedGames": 1024,
+      "trackedGames": 1025,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139714,7 +139992,7 @@
     {
       "date": "2019-01-12",
       "observedRows": 1,
-      "trackedGames": 1024,
+      "trackedGames": 1025,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139853,7 +140131,7 @@
     {
       "date": "2019-01-14",
       "observedRows": 2,
-      "trackedGames": 1024,
+      "trackedGames": 1025,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -139992,7 +140270,7 @@
     {
       "date": "2019-01-16",
       "observedRows": 9,
-      "trackedGames": 1026,
+      "trackedGames": 1027,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -140131,7 +140409,7 @@
     {
       "date": "2019-01-25",
       "observedRows": 1,
-      "trackedGames": 1026,
+      "trackedGames": 1027,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -140270,7 +140548,7 @@
     {
       "date": "2019-01-26",
       "observedRows": 1,
-      "trackedGames": 1027,
+      "trackedGames": 1028,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -140409,7 +140687,7 @@
     {
       "date": "2019-02-03",
       "observedRows": 1,
-      "trackedGames": 1027,
+      "trackedGames": 1028,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",
@@ -140548,7 +140826,7 @@
     {
       "date": "2019-02-05",
       "observedRows": 51,
-      "trackedGames": 1036,
+      "trackedGames": 1037,
       "entries": [
         {
           "key": "kongregate-game:dawn-of-the-dragons",

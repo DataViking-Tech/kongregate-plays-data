@@ -1,15 +1,15 @@
 # Ranked As-Of Missing Recovery Report
 
-- Run timestamp: 2026-07-04T10:34:18Z
+- Run timestamp: 2026-07-04T10:51:02Z
 - Ranked rows: 49982
-- Missing rank rows without aggregate as-of count: 5082
-- Games with missing as-of rank rows: 1983
-- Games with later or other observed counts: 1740
+- Missing rank rows without aggregate as-of count: 5076
+- Games with missing as-of rank rows: 1982
+- Games with later or other observed counts: 1739
 - Games with no observed play count anywhere: 243
 
 ## Recovery Classes
 
-- earlier_history_needed: 1740
+- earlier_history_needed: 1739
 - no_count_dynamic_placeholder: 135
 - no_count_no_page_cdx: 106
 - outside_mini_catalog_scope_no_count: 2
