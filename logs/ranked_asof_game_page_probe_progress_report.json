@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T12:39:31Z",
+  "generated_at": "2026-07-04T12:51:46Z",
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "tiers": [
     1
@@ -20,7 +20,7 @@
   "dynamic_metric_placeholder_games": 134,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 134,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 65,
-  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 37,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 38,
   "high_value_unresolved_games": 1731,
   "top_unresolved_examples": [
     {
@@ -514,7 +514,7 @@
       "blank_gameplays_count_pages": 2,
       "metrics_json_probe_observations": 6,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 48,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
