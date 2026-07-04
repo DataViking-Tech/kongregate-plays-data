@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-04T05:09:23Z
+- Generated: 2026-07-04T05:21:20Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 133
-- No archived endpoint rows games: 192
+- Endpoint-hit/no-count games: 132
+- No archived endpoint rows games: 193
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -14,16 +14,16 @@
 
 ## Evidence Buckets
 
-- dynamic_placeholder_endpoint_archives_no_count: 88
+- dynamic_placeholder_endpoint_archives_no_count: 87
 - partial_listing_counts_no_page_metrics: 84
 - no_game_page_or_endpoint_archives: 80
-- dynamic_placeholder_no_exact_endpoint_archives: 47
+- dynamic_placeholder_no_exact_endpoint_archives: 48
 - no_game_page_cdx_alt_archives_no_count: 26
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 192
-- archived_endpoint_hit_no_count: 133
+- no_archived_endpoint_rows_observed: 193
+- archived_endpoint_hit_no_count: 132
 
 ## Top Recovery Examples
 
@@ -34,7 +34,6 @@
 | Missiles Again | 1 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-26 |
 | The Space Commando | 1 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-08-17 |
 | Run Bird Run Online | 1 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-08-25 |
-| LT-Breakout | 1 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-10-24 |
 | Surrounded | 1 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2021-11-12 |
 | cuube | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-09-26 |
 | Nowere Safe 3 | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-29 |
@@ -54,3 +53,4 @@
 | Defense Math | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-06-16 |
 | CBS:Escape from the Mall | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2021-11-12 |
 | Simple Platformer | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-11-11 |
+| DoodiaMan Find Wife | 4 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-01-02 |

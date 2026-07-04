@@ -13691,6 +13691,21 @@
       "metrics_url": "http://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
       "capture_timestamp": "20190628083824",
       "capture_url": "https://web.archive.org/web/20190628083824/http://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190628083824_http_www.kongregate.com_games_FlyAnvil_decision-medieval_metrics.json_cae7c8fc392eb02e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-06-28",
+      "game_name": "Decision:Medieval",
+      "game_url": "http://www.kongregate.com/games/FlyAnvil/decision-medieval",
+      "plays_count_observed": 1797960,
+      "favorites_count_observed": 22336,
+      "plays_text": "1,797,960",
+      "favorites_text": "22,336",
+      "metrics_url": "http://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
+      "capture_timestamp": "20190628083824",
+      "capture_url": "https://web.archive.org/web/20190628083824/http://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190628083824_http_www.kongregate.com_games_FlyAnvil_decision-medieval_metrics.json_cae7c8fc392eb02e.json"
@@ -46181,6 +46196,21 @@
       "metrics_url": "https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
       "capture_timestamp": "20220111034258",
       "capture_url": "https://web.archive.org/web/20220111034258/https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220111034258_https_www.kongregate.com_games_undefined_protector-iii_metrics.json_5a76fcae99a83370.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-01-11",
+      "game_name": "Protector III",
+      "game_url": "http://www.kongregate.com/games/undefined/protector-iii",
+      "plays_count_observed": 2846293,
+      "favorites_count_observed": 13538,
+      "plays_text": "2,846,293",
+      "favorites_text": "13,538",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
+      "capture_timestamp": "20220111034258",
+      "capture_url": "https://web.archive.org/web/20220111034258/https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220111034258_https_www.kongregate.com_games_undefined_protector-iii_metrics.json_5a76fcae99a83370.json"
@@ -46454,6 +46484,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220112235956_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_ab28348fffb5940f.json"
+    },
+    {
+      "date": "2022-01-12",
+      "game_name": "Protector III",
+      "game_url": "http://www.kongregate.com/games/undefined/protector-iii",
+      "plays_count_observed": 2846320,
+      "favorites_count_observed": 13538,
+      "plays_text": "2,846,320",
+      "favorites_text": "13,538",
+      "metrics_url": "https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
+      "capture_timestamp": "20220112235956",
+      "capture_url": "https://web.archive.org/web/20220112235956/https://www.kongregate.com/games/undefined/protector-iii/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220112235956_https_www.kongregate.com_games_undefined_protector-iii_metrics.json_35041ed88aaf5db5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-01-12",
@@ -51536,6 +51581,21 @@
       "metrics_url": "http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
       "capture_timestamp": "20220809102615",
       "capture_url": "https://web.archive.org/web/20220809102615/http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220809102615_http_www.kongregate.com_games_CasualCollective_splitter-2_metrics.json_dd925dfa3ac2e19b.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-08-09",
+      "game_name": "Splitter 2",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/splitter-2",
+      "plays_count_observed": 3332734,
+      "favorites_count_observed": 9150,
+      "plays_text": "3,332,734",
+      "favorites_text": "9,150",
+      "metrics_url": "http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
+      "capture_timestamp": "20220809102615",
+      "capture_url": "https://web.archive.org/web/20220809102615/http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220809102615_http_www.kongregate.com_games_CasualCollective_splitter-2_metrics.json_dd925dfa3ac2e19b.json"
@@ -54389,6 +54449,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221028074745_https_www.kongregate.com_games_FlyAnvil_decision_metrics.json_6200f06a12e1c340.json"
+    },
+    {
+      "date": "2022-10-28",
+      "game_name": "Decision:Medieval",
+      "game_url": "http://www.kongregate.com/games/FlyAnvil/decision-medieval",
+      "plays_count_observed": 1953775,
+      "favorites_count_observed": 23198,
+      "plays_text": "1,953,775",
+      "favorites_text": "23,198",
+      "metrics_url": "https://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
+      "capture_timestamp": "20221028074546",
+      "capture_url": "https://web.archive.org/web/20221028074546/https://www.kongregate.com/games/FlyAnvil/decision-medieval/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221028074546_https_www.kongregate.com_games_FlyAnvil_decision-medieval_metrics.json_e097ef7638cf6e7d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-10-28",
@@ -78311,6 +78386,21 @@
       "metrics_url": "https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
       "capture_timestamp": "20240122125305",
       "capture_url": "https://web.archive.org/web/20240122125305/https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240122125305_https_www.kongregate.com_games_CasualCollective_splitter-2_metrics.json_05c19591b804d98f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-22",
+      "game_name": "Splitter 2",
+      "game_url": "http://www.kongregate.com/games/CasualCollective/splitter-2",
+      "plays_count_observed": 3335340,
+      "favorites_count_observed": 8764,
+      "plays_text": "3,335,340",
+      "favorites_text": "8,764",
+      "metrics_url": "https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
+      "capture_timestamp": "20240122125305",
+      "capture_url": "https://web.archive.org/web/20240122125305/https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240122125305_https_www.kongregate.com_games_CasualCollective_splitter-2_metrics.json_05c19591b804d98f.json"
@@ -82364,6 +82454,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240311210300_https_www.kongregate.com_games_nerderror_dualforce-idle_metrics.json_6133a151b6bfc700.json"
+    },
+    {
+      "date": "2024-03-11",
+      "game_name": "Supre Survivor gaem",
+      "game_url": "http://www.kongregate.com/games/deco766/supre-survivor-gaem",
+      "plays_count_observed": 662,
+      "favorites_count_observed": 1,
+      "plays_text": "662",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/deco766/supre-survivor-gaem/metrics.json",
+      "capture_timestamp": "20240311190439",
+      "capture_url": "https://web.archive.org/web/20240311190439/https://www.kongregate.com/games/deco766/supre-survivor-gaem/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240311190439_https_www.kongregate.com_games_deco766_supre-survivor-gaem_metrics.json_27b0992fb9b11597.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-03-11",

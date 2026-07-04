@@ -1,20 +1,22 @@
 # Count Source Probe History
 
-- Generated: 2026-07-04T05:08:59Z
+- Generated: 2026-07-04T05:21:01Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 19735
-- Games with probe history: 1966
-- Recovered count rows: 854
-- Unresolved failed endpoint groups: 66
-- Status counts: archived_endpoint_hit_no_count=149, no_archived_endpoint_rows_observed=1502, recovered_count=280, transient_failures_remaining=35
-- Tier-1 status counts: archived_endpoint_hit_no_count=114, no_archived_endpoint_rows_observed=127
-- CDX status counts: cached=6280, failed=4777, fetched=8677, missing_html_cache_skipped=1
+- Accumulated endpoint observations: 19842
+- Games with probe history: 1998
+- Recovered count rows: 861
+- Unresolved failed endpoint groups: 75
+- Status counts: archived_endpoint_hit_no_count=149, no_archived_endpoint_rows_observed=1524, recovered_count=284, transient_failures_remaining=41
+- Tier-1 status counts: archived_endpoint_hit_no_count=113, no_archived_endpoint_rows_observed=128
+- CDX status counts: cached=6274, failed=4829, fetched=8738, missing_html_cache_skipped=1
 
 ## Retry Queue
 
 | Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
 | --- | ---: | ---: | ---: | --- |
 | [Redacted] | n/a | 1 | 2 | 2026-07-04T04:13:46Z |
+| Bomb Transport 3D | n/a | 2 | 2 | 2026-07-04T05:20:08Z |
+| Bow and hunt | n/a | 1 | 2 | 2026-07-04T05:20:08Z |
 | Brothers Treasure Recovery 16 | n/a | 2 | 2 | 2026-07-04T04:52:37Z |
 | Charmed in the Garden | n/a | 1 | 2 | 2026-07-04T03:56:41Z |
 | Cookies Maze | n/a | 1 | 2 | 2026-07-04T04:40:27Z |
@@ -27,8 +29,6 @@
 | Fire hit .Beta | n/a | 1 | 2 | 2026-07-04T03:22:33Z |
 | Five Nights At Freddy's 1 Pacman | n/a | 2 | 2 | 2026-07-04T03:22:33Z |
 | Fufu's Nightmare | n/a | 1 | 2 | 2026-07-04T04:52:37Z |
-| Guess the Number | n/a | 2 | 2 | 2026-07-04T03:56:41Z |
-| Halloween Cat Escape | n/a | 2 | 2 | 2026-07-04T04:40:27Z |
 
 ## Output Files
 
