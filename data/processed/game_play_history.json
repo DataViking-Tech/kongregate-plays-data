@@ -63131,6 +63131,21 @@
       "metrics_url": "https://www.kongregate.com/games/jeagle747/zoon/metrics.json",
       "capture_timestamp": "20230511234526",
       "capture_url": "https://web.archive.org/web/20230511234526/https://www.kongregate.com/games/jeagle747/zoon/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230511234526_https_www.kongregate.com_games_jeagle747_zoon_metrics.json_dbb9039316c82623.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-05-11",
+      "game_name": "ZOON",
+      "game_url": "http://www.kongregate.com/games/jeagle747/zoon",
+      "plays_count_observed": 715,
+      "favorites_count_observed": 2,
+      "plays_text": "715",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/jeagle747/zoon/metrics.json",
+      "capture_timestamp": "20230511234526",
+      "capture_url": "https://web.archive.org/web/20230511234526/https://www.kongregate.com/games/jeagle747/zoon/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230511234526_https_www.kongregate.com_games_jeagle747_zoon_metrics.json_dbb9039316c82623.json"
