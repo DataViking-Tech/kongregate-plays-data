@@ -1,22 +1,22 @@
 # Kongregate Data Quality Report
 
-- Run timestamp: 2026-07-04T01:09:27Z
+- Run timestamp: 2026-07-04T01:26:45Z
 - As of: 2026-07-04
 - Ranked rows: 49982
 - Ranked rows with play counts: 17314
-- Ranked rows with aggregate as-of play counts: 44887
+- Ranked rows with aggregate as-of play counts: 44894
 - Ranked date range: 2007-01-20 to 2026-07-04
 - Ranked months with rows but zero listing play counts: 134 (2014-09 to 2025-10)
 - Ranked months with rows but zero aggregate as-of play counts: 0 (n/a)
 - Mini catalog games: 2998
-- Metrics history rows/games: 8447 / 2673
+- Metrics history rows/games: 8473 / 2684
 - Metrics date range: 2007-03-24 to 2026-07-03
 - Invalid cached HTML files: 0
 
 ## Top Issues
 
 - MEDIUM plays/ranked_months_without_listing_play_counts: 134 - Use data/processed/ranked_games_observed_plays.csv or the published .csv.gz for aggregate as-of counts; continue per-game metrics/page-history backfill for row-level misses.
-- MEDIUM plays/ranked_rows_without_aggregate_asof_play_count: 5095 - Use data/processed/ranked_asof_missing_recovery_priorities.csv to target the games and date windows driving these misses.
+- MEDIUM plays/ranked_rows_without_aggregate_asof_play_count: 5088 - Use data/processed/ranked_asof_missing_recovery_priorities.csv to target the games and date windows driving these misses.
 - HIGH metrics/catalog_games_without_metrics_history: 325 - Sweep metrics.json histories by catalog chunks using --catalog-offset/--catalog-limit.
 - HIGH metrics/catalog_games_need_page_history: 2247 - Continue per-game metrics history backfill.
 - MEDIUM plays/suspicious_metric_route_decreases: 2 - Review canonical URL aliases or quarantine the lower metrics route; chart uses max observed counts.

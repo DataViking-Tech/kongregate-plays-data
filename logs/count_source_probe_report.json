@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 7,
+  "candidate_observation_rows": 5,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 7,
+  "cdx_lookups": 5,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 7
+    "fetched": 5
   },
-  "cdx_wall_timeout": 35.0,
+  "cdx_wall_timeout": 45.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 5,
+  "games_direct_probed": 3,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_298.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_299.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
-  "max_cdx_lookups": 10,
+  "max_cdx_lookups": 8,
   "max_pages_per_game": 1,
   "max_payload_bytes": 2000000,
   "outputs": {
@@ -27,293 +27,293 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 20.0,
+  "payload_wall_timeout": 25.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "21 SaVaGe - No Heart": {
+    "8 Ball Master": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/iDarkzQa/21-savage-no-heart",
+      "game_url": "http://www.kongregate.com/games/GameHollywood/8-ball-master",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Abcd Edu Kids": {
+    "Armor Blitz": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/RedWolves/armor-blitz",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Arsenal Online": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/xWILKINx/arsenal-online",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Berts Brain": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/PenryP/berts-brain",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Bicycle Race": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Nsrgames/abcd-edu-kids",
+      "game_url": "http://www.kongregate.com/games/BombikOyun/bicycle-race",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Act Before Counteract": {
+    "Big Talk Marksman": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/act-before-counteract",
+      "game_url": "http://www.kongregate.com/games/game4joy1/big-talk-marksman",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Adventure of cursed dippa Escape": {
+    "Boxes": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Nsrgames/adventure-of-cursed-dippa-escape",
+      "game_url": "http://www.kongregate.com/games/Llamatron/boxes",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Antimatter Dimensions": {
+    "Candy Hop": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Hevipelle/antimatter-dimensions",
+      "game_url": "http://www.kongregate.com/games/dpub78/candy-hop",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Blue Runner": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Larryquartz/blue-runner",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Boomerang Chang 2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/sushistory/boomerang-chang-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Bow Island - A Bowshooting Game": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/lilgamefactory/bow-island-a-bowshooting-game",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Color Labyrinth": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/garywolflu/color-labyrinth",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Crossbows": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/ciobeni/crossbows",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Dangerous Adventure 2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/MARTINIRosso/dangerous-adventure-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Deep Dive (HTML5)": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/zygomaticgames/deep-dive-html5",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Easy Notepad": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/dw817/easy-notepad",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Elarasi": {
+    "Classic Heroes Jigsaw": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/billorko/elarasi",
+      "game_url": "http://www.kongregate.com/games/newgamess/classic-heroes-jigsaw",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Escape Game: 13 Doors": {
+    "CosmoPirates": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/rahchel321/escape-game-13-doors",
+      "game_url": "http://www.kongregate.com/games/blackmoondev/cosmopirates",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Forest Cave Escape": {
+    "Custom Moon Kombat": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/top10newgames/forest-cave-escape",
+      "game_url": "http://www.kongregate.com/games/Pixeltastic/custom-moon-kombat",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "G7- Happy Halloween": {
+    "Deadly ninjas die when jumped on head, but they are fast so attack them one by one": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Ahamed1989/g7-happy-halloween",
+      "game_url": "http://www.kongregate.com/games/MrLat/deadly-ninjas-die-when-jumped-on-head-but-they-are-fast-so-attack-them-one-by-one",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Halloween Party": {
+    "Dino Meat Hunt 3 Extra": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gonzos/halloween-party",
+      "game_url": "http://www.kongregate.com/games/RHMGames/dino-meat-hunt-3-extra",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Kate's Adventure": {
+    "Dreamolisher": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/bititstudio/kates-adventure",
+      "game_url": "http://www.kongregate.com/games/Luts91/dreamolisher",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Khozz Quiz": {
+    "Fish rain": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/SrOberon/khozz-quiz",
+      "game_url": "http://www.kongregate.com/games/gpush_games/fish-rain",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Knf Car Workshop Escape": {
+    "Flight of the Ninja": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/knfescapegame/knf-car-workshop-escape",
+      "game_url": "http://www.kongregate.com/games/nuggeta/flight-of-the-ninja",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Perspective Beta": {
+    "Grow Defense": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/awsome52486/perspective-beta",
+      "game_url": "http://www.kongregate.com/games/endomlic/grow-defense",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Realistic world": {
+    "Idle Grindia: Dungeon Quest": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/hkirkman/realistic-world",
+      "game_url": "http://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Robert Bodnar's Barnsley Adventure": {
+    "League of Angels: Pact": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/skarpeci/robert-bodnars-barnsley-adventure",
+      "game_url": "http://www.kongregate.com/games/GameHollywood/league-of-angels-pact",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Salvavidas": {
+    "Magirune 2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/srikaran_p/salvavidas",
+      "game_url": "http://www.kongregate.com/games/Fluffy_Lotus/magirune-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Shark Hero Dekino - Platform Runner": {
+    "Mansion on the Hill. LD30": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Keyeske/shark-hero-dekino-platform-runner",
+      "game_url": "http://www.kongregate.com/games/BuffaloPhil/mansion-on-the-hill-ld30",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "SqUaReTa Mayhem": {
+    "Memory Booster Animals": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/PotatoGalaxyX/squareta-mayhem",
+      "game_url": "https://www.kongregate.com/games/dslevis/round-racing",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Square Hopper": {
+    "Mojo Melee: pvp auto chess": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Monster War Zone 2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/OneSlapStudios/square-hopper",
+      "game_url": "http://www.kongregate.com/games/monsterplay999/monster-war-zone-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Jungle Man": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/minininja956/the-jungle-man",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "The Simplest breakout": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/AgaMatt/the-simplest-breakout",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Zombie Match": {
+    "Prince Save Corpse Bride": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/LovattoStudio/zombie-match",
+      "game_url": "http://www.kongregate.com/games/67263915w/prince-save-corpse-bride",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "the supper driver": {
+    "Random Number GOD Idle": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/nrsgames/the-supper-driver",
+      "game_url": "http://www.kongregate.com/games/Moczan/random-number-god-idle",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Reactor Incremental": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Reactor idle": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "https://www.kongregate.com/games/Baldurans/reactor-idle",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Realm Revolutions": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/e_cha/realm-revolutions",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Stretchy Ninja BETA": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/uzzbuzz/stretchy-ninja-beta",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Super Splash Cannon": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/JeremyW/super-splash-cannon",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "War Clicks": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/gamexstudio/war-clicks",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -321,14 +321,14 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 749
+    "total": 775
   },
   "persisted_probe_history": {
-    "added": 7,
-    "total": 17707,
+    "added": 5,
+    "total": 17850,
     "updated": 0
   },
-  "run_timestamp": "2026-07-04T01:08:44Z",
+  "run_timestamp": "2026-07-04T01:25:46Z",
   "source_types": [
     "metrics_json"
   ],
@@ -336,7 +336,7 @@
   "status_filter": "",
   "stopped_after_cdx_lookup_cap": false,
   "target_games": 32,
-  "target_games_with_kongregate_ids": 32,
+  "target_games_with_kongregate_ids": 19,
   "tiers": [
     1
   ],

@@ -7166,6 +7166,21 @@
       "metrics_url": "http://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
       "capture_timestamp": "20151211134456",
       "capture_url": "https://web.archive.org/web/20151211134456/http://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151211134456_http_www.kongregate.com_games_Baldurans_reactor-idle_metrics.json_c3e8dcaf23ede7c8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-12-11",
+      "game_name": "Reactor idle",
+      "game_url": "https://www.kongregate.com/games/Baldurans/reactor-idle",
+      "plays_count_observed": 888542,
+      "favorites_count_observed": 6823,
+      "plays_text": "888,542",
+      "favorites_text": "6,823",
+      "metrics_url": "http://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
+      "capture_timestamp": "20151211134456",
+      "capture_url": "https://web.archive.org/web/20151211134456/http://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151211134456_http_www.kongregate.com_games_Baldurans_reactor-idle_metrics.json_c3e8dcaf23ede7c8.json"
@@ -10406,6 +10421,21 @@
       "metrics_url": "http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
       "capture_timestamp": "20180208151607",
       "capture_url": "https://web.archive.org/web/20180208151607/http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180208151607_http_www.kongregate.com_games_cael_reactor-incremental_metrics.json_a7989c7f25aee9cb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-02-08",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 1692647,
+      "favorites_count_observed": 9551,
+      "plays_text": "1,692,647",
+      "favorites_text": "9,551",
+      "metrics_url": "http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20180208151607",
+      "capture_url": "https://web.archive.org/web/20180208151607/http://www.kongregate.com/games/cael/reactor-incremental/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180208151607_http_www.kongregate.com_games_cael_reactor-incremental_metrics.json_a7989c7f25aee9cb.json"
@@ -13619,6 +13649,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072652_https_www.kongregate.com_games_theLucre_lost-ethereal_metrics.json_591e71d7609a34df.json"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Mansion on the Hill. LD30",
+      "game_url": "http://www.kongregate.com/games/BuffaloPhil/mansion-on-the-hill-ld30",
+      "plays_count_observed": 3353,
+      "favorites_count_observed": 20,
+      "plays_text": "3,353",
+      "favorites_text": "20",
+      "metrics_url": "http://www.kongregate.com/games/BuffaloPhil/mansion-on-the-hill-ld30/metrics.json",
+      "capture_timestamp": "20190702072656",
+      "capture_url": "https://web.archive.org/web/20190702072656/http://www.kongregate.com/games/BuffaloPhil/mansion-on-the-hill-ld30/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072656_http_www.kongregate.com_games_BuffaloPhil_mansion-on-the-hill-ld30_metrics.json_54b7adca54a51117.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-07-02",
@@ -18134,6 +18179,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_66c2f7075858f3af.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Reactor idle",
+      "game_url": "https://www.kongregate.com/games/Baldurans/reactor-idle",
+      "plays_count_observed": 6105873,
+      "favorites_count_observed": 29367,
+      "plays_text": "6,105,873",
+      "favorites_text": "29,367",
+      "metrics_url": "https://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/Baldurans/reactor-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034649_https_www.kongregate.com_games_Baldurans_reactor-idle_metrics.json_4782c2a4047e3e0a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -26429,6 +26489,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201017130551_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_1a69def333198947.json"
+    },
+    {
+      "date": "2020-10-17",
+      "game_name": "Reactor Incremental",
+      "game_url": "https://www.kongregate.com/en/games/Cael/reactor-incremental",
+      "plays_count_observed": 2231694,
+      "favorites_count_observed": 11562,
+      "plays_text": "2,231,694",
+      "favorites_text": "11,562",
+      "metrics_url": "https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "capture_timestamp": "20201017130652",
+      "capture_url": "https://web.archive.org/web/20201017130652/https://www.kongregate.com/games/Cael/reactor-incremental/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201017130652_https_www.kongregate.com_games_Cael_reactor-incremental_metrics.json_1b37db5ab385a6e3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-10-17",
@@ -71147,6 +71222,21 @@
     },
     {
       "date": "2023-12-29",
+      "game_name": "Fish rain",
+      "game_url": "http://www.kongregate.com/games/gpush_games/fish-rain",
+      "plays_count_observed": 965,
+      "favorites_count_observed": 9,
+      "plays_text": "965",
+      "favorites_text": "9",
+      "metrics_url": "https://www.kongregate.com/games/gpush_games/fish-rain/metrics.json",
+      "capture_timestamp": "20231229162349",
+      "capture_url": "https://web.archive.org/web/20231229162349/https://www.kongregate.com/games/gpush_games/fish-rain/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231229162349_https_www.kongregate.com_games_gpush_games_fish-rain_metrics.json_8113a07cbd46e2ef.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-12-29",
       "game_name": "Oceania",
       "game_url": "https://www.kongregate.com/games/draugiemlauris/oceania",
       "plays_count_observed": 312488,
@@ -71234,6 +71324,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231230215707_https_www.kongregate.com_games_HolydayStudios_firestone_metrics.json_a89acb4cf8b281e2.json"
+    },
+    {
+      "date": "2023-12-30",
+      "game_name": "Mojo Melee: pvp auto chess",
+      "game_url": "http://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess",
+      "plays_count_observed": 23257,
+      "favorites_count_observed": 109,
+      "plays_text": "23,257",
+      "favorites_text": "109",
+      "metrics_url": "https://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess/metrics.json",
+      "capture_timestamp": "20231230221647",
+      "capture_url": "https://web.archive.org/web/20231230221647/https://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231230221647_https_www.kongregate.com_games_MysticMoose_mojo-melee-pvp-auto-chess_metrics.json_5a470484d7eb32b0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-12-30",
@@ -71491,6 +71596,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240102221731_http_www.kongregate.com_games_RUSTLTD_robot-butler_metrics.json_e93303db364f6602.json"
     },
     {
+      "date": "2024-01-02",
+      "game_name": "War Clicks",
+      "game_url": "http://www.kongregate.com/games/gamexstudio/war-clicks",
+      "plays_count_observed": 1258033,
+      "favorites_count_observed": 2524,
+      "plays_text": "1,258,033",
+      "favorites_text": "2,524",
+      "metrics_url": "https://www.kongregate.com/games/gamexstudio/war-clicks/metrics.json",
+      "capture_timestamp": "20240102173302",
+      "capture_url": "https://web.archive.org/web/20240102173302/https://www.kongregate.com/games/gamexstudio/war-clicks/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240102173302_https_www.kongregate.com_games_gamexstudio_war-clicks_metrics.json_02189f1df73561da.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
       "date": "2024-01-03",
       "game_name": "Animation Throwdown",
       "game_url": "https://www.kongregate.com/games/Throwdown/animation-throwdown",
@@ -71609,6 +71729,36 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240104160447_https_www.kongregate.com_games_Throwdown_animation-throwdown_metrics.json_aa7262f54cf6e211.json"
+    },
+    {
+      "date": "2024-01-04",
+      "game_name": "Armor Blitz",
+      "game_url": "http://www.kongregate.com/games/RedWolves/armor-blitz",
+      "plays_count_observed": 10729,
+      "favorites_count_observed": 19,
+      "plays_text": "10,729",
+      "favorites_text": "19",
+      "metrics_url": "https://www.kongregate.com/games/RedWolves/armor-blitz/metrics.json",
+      "capture_timestamp": "20240104121701",
+      "capture_url": "https://web.archive.org/web/20240104121701/https://www.kongregate.com/games/RedWolves/armor-blitz/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240104121701_https_www.kongregate.com_games_RedWolves_armor-blitz_metrics.json_255287652773b491.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-04",
+      "game_name": "Armor Blitz",
+      "game_url": "http://www.kongregate.com/games/RedWolves/armor-blitz",
+      "plays_count_observed": 11848,
+      "favorites_count_observed": 20,
+      "plays_text": "11,848",
+      "favorites_text": "20",
+      "metrics_url": "https://www.kongregate.com/games/RedWolves/armor-blitz/metrics.json",
+      "capture_timestamp": "20240104170319",
+      "capture_url": "https://web.archive.org/web/20240104170319/https://www.kongregate.com/games/RedWolves/armor-blitz/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240104170319_https_www.kongregate.com_games_RedWolves_armor-blitz_metrics.json_5cb4ab9e202b8413.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-04",
@@ -71822,6 +71972,21 @@
     },
     {
       "date": "2024-01-06",
+      "game_name": "War Clicks",
+      "game_url": "http://www.kongregate.com/games/gamexstudio/war-clicks",
+      "plays_count_observed": 1260867,
+      "favorites_count_observed": 2527,
+      "plays_text": "1,260,867",
+      "favorites_text": "2,527",
+      "metrics_url": "https://www.kongregate.com/games/gamexstudio/war-clicks/metrics.json",
+      "capture_timestamp": "20240106231012",
+      "capture_url": "https://web.archive.org/web/20240106231012/https://www.kongregate.com/games/gamexstudio/war-clicks/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240106231012_https_www.kongregate.com_games_gamexstudio_war-clicks_metrics.json_a8ee1f51c46bbd36.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-06",
       "game_name": "When he jump, he go up like this",
       "game_url": "https://www.kongregate.com/games/Gun_Safety/when-he-jump-he-go-up-like-this",
       "plays_count_observed": 424472,
@@ -72014,6 +72179,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240109204923_https_www.kongregate.com_games_TwinkleStarGames_electric-box-2_metrics.json_d8883964a4596769.json"
+    },
+    {
+      "date": "2024-01-09",
+      "game_name": "Fish rain",
+      "game_url": "http://www.kongregate.com/games/gpush_games/fish-rain",
+      "plays_count_observed": 2520,
+      "favorites_count_observed": 25,
+      "plays_text": "2,520",
+      "favorites_text": "25",
+      "metrics_url": "https://www.kongregate.com/games/gpush_games/fish-rain/metrics.json",
+      "capture_timestamp": "20240109005256",
+      "capture_url": "https://web.archive.org/web/20240109005256/https://www.kongregate.com/games/gpush_games/fish-rain/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240109005256_https_www.kongregate.com_games_gpush_games_fish-rain_metrics.json_ab13c958b2c9142a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-09",
@@ -72329,6 +72509,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240114160915_https_www.kongregate.com_games_HolydayStudios_firestone_metrics.json_35ca84b6a00804b2.json"
+    },
+    {
+      "date": "2024-01-14",
+      "game_name": "Idle Grindia: Dungeon Quest",
+      "game_url": "http://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest",
+      "plays_count_observed": 1504906,
+      "favorites_count_observed": 3595,
+      "plays_text": "1,504,906",
+      "favorites_text": "3,595",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest/metrics.json",
+      "capture_timestamp": "20240114014527",
+      "capture_url": "https://web.archive.org/web/20240114014527/https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240114014527_https_www.kongregate.com_games_Moczan_idle-grindia-dungeon-quest_metrics.json_9e0e870ddd5b787d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-14",
@@ -72932,6 +73127,21 @@
     },
     {
       "date": "2024-01-17",
+      "game_name": "Grow Defense",
+      "game_url": "http://www.kongregate.com/games/endomlic/grow-defense",
+      "plays_count_observed": 756087,
+      "favorites_count_observed": 2482,
+      "plays_text": "756,087",
+      "favorites_text": "2,482",
+      "metrics_url": "http://www.kongregate.com/games/endomlic/grow-defense/metrics.json",
+      "capture_timestamp": "20240117224308",
+      "capture_url": "https://web.archive.org/web/20240117224308/http://www.kongregate.com/games/endomlic/grow-defense/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117224308_http_www.kongregate.com_games_endomlic_grow-defense_metrics.json_091e0da0fbf771c9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
       "game_name": "Idle Zoo",
       "game_url": "http://www.kongregate.com/games/MinixGame/idle-zoo",
       "plays_count_observed": 17926,
@@ -73409,6 +73619,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117080510_https_www.kongregate.com_games_undefined_protector-iv_metrics.json_d8a8514f1eb89a80.json"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Realm Revolutions",
+      "game_url": "http://www.kongregate.com/games/e_cha/realm-revolutions",
+      "plays_count_observed": 3486090,
+      "favorites_count_observed": 6611,
+      "plays_text": "3,486,090",
+      "favorites_text": "6,611",
+      "metrics_url": "https://www.kongregate.com/games/e_cha/realm-revolutions/metrics.json",
+      "capture_timestamp": "20240117044512",
+      "capture_url": "https://web.archive.org/web/20240117044512/https://www.kongregate.com/games/e_cha/realm-revolutions/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117044512_https_www.kongregate.com_games_e_cha_realm-revolutions_metrics.json_62d1561ebfc47b35.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-17",
@@ -76292,6 +76517,21 @@
     },
     {
       "date": "2024-01-21",
+      "game_name": "Idle Grindia: Dungeon Quest",
+      "game_url": "http://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest",
+      "plays_count_observed": 1514883,
+      "favorites_count_observed": 3624,
+      "plays_text": "1,514,883",
+      "favorites_text": "3,624",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest/metrics.json",
+      "capture_timestamp": "20240121020121",
+      "capture_url": "https://web.archive.org/web/20240121020121/https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240121020121_https_www.kongregate.com_games_Moczan_idle-grindia-dungeon-quest_metrics.json_96831d84a5a5506e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-21",
       "game_name": "Idle Skilling",
       "game_url": "https://www.kongregate.com/games/lavaflame2/idle-skilling",
       "plays_count_observed": 2381785,
@@ -76817,6 +77057,21 @@
     },
     {
       "date": "2024-01-22",
+      "game_name": "Grow Defense",
+      "game_url": "http://www.kongregate.com/games/endomlic/grow-defense",
+      "plays_count_observed": 758317,
+      "favorites_count_observed": 2487,
+      "plays_text": "758,317",
+      "favorites_text": "2,487",
+      "metrics_url": "https://www.kongregate.com/games/endomlic/grow-defense/metrics.json",
+      "capture_timestamp": "20240122171245",
+      "capture_url": "https://web.archive.org/web/20240122171245/https://www.kongregate.com/games/endomlic/grow-defense/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240122171245_https_www.kongregate.com_games_endomlic_grow-defense_metrics.json_14abccd160f9bf1a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-22",
       "game_name": "Insectonator: Zombie mode",
       "game_url": "https://www.kongregate.com/games/FlyAnvil/insectonator-zombie-mode",
       "plays_count_observed": 1695170,
@@ -77132,6 +77387,21 @@
     },
     {
       "date": "2024-01-29",
+      "game_name": "Arsenal Online",
+      "game_url": "http://www.kongregate.com/games/xWILKINx/arsenal-online",
+      "plays_count_observed": 6096,
+      "favorites_count_observed": 32,
+      "plays_text": "6,096",
+      "favorites_text": "32",
+      "metrics_url": "https://www.kongregate.com/games/xWILKINx/arsenal-online/metrics.json",
+      "capture_timestamp": "20240129231016",
+      "capture_url": "https://web.archive.org/web/20240129231016/https://www.kongregate.com/games/xWILKINx/arsenal-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240129231016_https_www.kongregate.com_games_xWILKINx_arsenal-online_metrics.json_17ac86f7cc27caaa.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-29",
       "game_name": "Burrito Bison",
       "game_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison",
       "plays_count_observed": 4574829,
@@ -77354,6 +77624,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240130192023_https_www.kongregate.com_games_DivineGames_realm-grinder_metrics.json_a1090ad9eda6bf1b.json"
+    },
+    {
+      "date": "2024-01-31",
+      "game_name": "Arsenal Online",
+      "game_url": "http://www.kongregate.com/games/xWILKINx/arsenal-online",
+      "plays_count_observed": 6422,
+      "favorites_count_observed": 34,
+      "plays_text": "6,422",
+      "favorites_text": "34",
+      "metrics_url": "https://www.kongregate.com/games/xWILKINx/arsenal-online/metrics.json",
+      "capture_timestamp": "20240131122418",
+      "capture_url": "https://web.archive.org/web/20240131122418/https://www.kongregate.com/games/xWILKINx/arsenal-online/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240131122418_https_www.kongregate.com_games_xWILKINx_arsenal-online_metrics.json_4b7d2f0379ca0af8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-31",
@@ -77791,6 +78076,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240208131127_https_www.kongregate.com_games_kanoapps_mob-wars-la-cosa-nostra_metrics.json_7cf7222c0ce0f9c2.json"
     },
     {
+      "date": "2024-02-08",
+      "game_name": "Random Number GOD Idle",
+      "game_url": "http://www.kongregate.com/games/Moczan/random-number-god-idle",
+      "plays_count_observed": 77286,
+      "favorites_count_observed": 248,
+      "plays_text": "77,286",
+      "favorites_text": "248",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/random-number-god-idle/metrics.json",
+      "capture_timestamp": "20240208190143",
+      "capture_url": "https://web.archive.org/web/20240208190143/https://www.kongregate.com/games/Moczan/random-number-god-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240208190143_https_www.kongregate.com_games_Moczan_random-number-god-idle_metrics.json_647b4182330057f2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
       "date": "2024-02-10",
       "game_name": "Firestone Idle RPG",
       "game_url": "https://www.kongregate.com/games/HolydayStudios/firestone",
@@ -77819,6 +78119,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240210060258_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_b814d007709bf9b2.json"
+    },
+    {
+      "date": "2024-02-10",
+      "game_name": "Random Number GOD Idle",
+      "game_url": "http://www.kongregate.com/games/Moczan/random-number-god-idle",
+      "plays_count_observed": 80737,
+      "favorites_count_observed": 249,
+      "plays_text": "80,737",
+      "favorites_text": "249",
+      "metrics_url": "https://www.kongregate.com/games/Moczan/random-number-god-idle/metrics.json",
+      "capture_timestamp": "20240210191344",
+      "capture_url": "https://web.archive.org/web/20240210191344/https://www.kongregate.com/games/Moczan/random-number-god-idle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240210191344_https_www.kongregate.com_games_Moczan_random-number-god-idle_metrics.json_dc2d990bafceeade.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-11",
@@ -77954,6 +78269,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240215193252_https_www.kongregate.com_games_HeroInteractive_bubble-tanks-tower-defense_metrics.json_59fd3411b5078e76.json"
+    },
+    {
+      "date": "2024-02-15",
+      "game_name": "Magirune 2",
+      "game_url": "http://www.kongregate.com/games/Fluffy_Lotus/magirune-2",
+      "plays_count_observed": 6861,
+      "favorites_count_observed": 50,
+      "plays_text": "6,861",
+      "favorites_text": "50",
+      "metrics_url": "https://www.kongregate.com/games/Fluffy_Lotus/magirune-2/metrics.json",
+      "capture_timestamp": "20240215231525",
+      "capture_url": "https://web.archive.org/web/20240215231525/https://www.kongregate.com/games/Fluffy_Lotus/magirune-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240215231525_https_www.kongregate.com_games_Fluffy_Lotus_magirune-2_metrics.json_3af5979962fd5f39.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-15",
@@ -78104,6 +78434,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240218013351_https_www.kongregate.com_games_MinixGame_idle-zoo_metrics.json_63ef7a9be18126bc.json"
+    },
+    {
+      "date": "2024-02-18",
+      "game_name": "Magirune 2",
+      "game_url": "http://www.kongregate.com/games/Fluffy_Lotus/magirune-2",
+      "plays_count_observed": 10102,
+      "favorites_count_observed": 62,
+      "plays_text": "10,102",
+      "favorites_text": "62",
+      "metrics_url": "https://www.kongregate.com/games/Fluffy_Lotus/magirune-2/metrics.json",
+      "capture_timestamp": "20240218012949",
+      "capture_url": "https://web.archive.org/web/20240218012949/https://www.kongregate.com/games/Fluffy_Lotus/magirune-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240218012949_https_www.kongregate.com_games_Fluffy_Lotus_magirune-2_metrics.json_645903b89ebfb1c0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-18",
@@ -81884,6 +82229,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240406140227_https_www.kongregate.com_games_Moczan_pixels-filling-squares-3-0_metrics.json_9db384ea64a24123.json"
+    },
+    {
+      "date": "2024-04-06",
+      "game_name": "Realm Revolutions",
+      "game_url": "http://www.kongregate.com/games/e_cha/realm-revolutions",
+      "plays_count_observed": 3520454,
+      "favorites_count_observed": 6641,
+      "plays_text": "3,520,454",
+      "favorites_text": "6,641",
+      "metrics_url": "https://www.kongregate.com/games/e_cha/realm-revolutions/metrics.json",
+      "capture_timestamp": "20240406141334",
+      "capture_url": "https://web.archive.org/web/20240406141334/https://www.kongregate.com/games/e_cha/realm-revolutions/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240406141334_https_www.kongregate.com_games_e_cha_realm-revolutions_metrics.json_62afd02e5b9d1e22.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-04-06",
@@ -86039,6 +86399,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240903202906_https_www.kongregate.com_games_Ryu82_idling-to-become-god_metrics.json_20ad0befd4848c8b.json"
+    },
+    {
+      "date": "2024-09-03",
+      "game_name": "Mojo Melee: pvp auto chess",
+      "game_url": "http://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess",
+      "plays_count_observed": 30701,
+      "favorites_count_observed": 116,
+      "plays_text": "30,701",
+      "favorites_text": "116",
+      "metrics_url": "https://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess/metrics.json",
+      "capture_timestamp": "20240903082408",
+      "capture_url": "https://web.archive.org/web/20240903082408/https://www.kongregate.com/games/MysticMoose/mojo-melee-pvp-auto-chess/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240903082408_https_www.kongregate.com_games_MysticMoose_mojo-melee-pvp-auto-chess_metrics.json_3f1d8f7cd6d90648.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-09-03",
@@ -92579,6 +92954,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250529080746_http_www.kongregate.com_games_Tukkun_anti-idle-the-game_metrics.json_fc517c3fb3787778.json"
+    },
+    {
+      "date": "2025-05-29",
+      "game_name": "League of Angels: Pact",
+      "game_url": "http://www.kongregate.com/games/GameHollywood/league-of-angels-pact",
+      "plays_count_observed": 68536,
+      "favorites_count_observed": 129,
+      "plays_text": "68,536",
+      "favorites_text": "129",
+      "metrics_url": "https://www.kongregate.com/games/GameHollywood/league-of-angels-pact/metrics.json",
+      "capture_timestamp": "20250529223615",
+      "capture_url": "https://web.archive.org/web/20250529223615/https://www.kongregate.com/games/GameHollywood/league-of-angels-pact/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250529223615_https_www.kongregate.com_games_GameHollywood_league-of-angels-pact_metrics.json_c712afa12f502dcb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-05-30",
