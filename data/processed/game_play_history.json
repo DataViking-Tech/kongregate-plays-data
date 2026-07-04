@@ -13241,6 +13241,21 @@
       "metrics_url": "http://www.kongregate.com/games/JellyGames/the-vault/metrics.json",
       "capture_timestamp": "20190213165629",
       "capture_url": "https://web.archive.org/web/20190213165629/http://www.kongregate.com/games/JellyGames/the-vault/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190213165629_http_www.kongregate.com_games_JellyGames_the-vault_metrics.json_94586d271e2eda79.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-02-13",
+      "game_name": "The Vault",
+      "game_url": "http://www.kongregate.com/games/JellyGames/the-vault",
+      "plays_count_observed": 510644,
+      "favorites_count_observed": 1807,
+      "plays_text": "510,644",
+      "favorites_text": "1,807",
+      "metrics_url": "http://www.kongregate.com/games/JellyGames/the-vault/metrics.json",
+      "capture_timestamp": "20190213165629",
+      "capture_url": "https://web.archive.org/web/20190213165629/http://www.kongregate.com/games/JellyGames/the-vault/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190213165629_http_www.kongregate.com_games_JellyGames_the-vault_metrics.json_94586d271e2eda79.json"
@@ -13394,6 +13409,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190311004244_http_www.kongregate.com_games_nexontgt_the-grinns-tale_metrics.json_7256b8d1dc2c4eee.json"
+    },
+    {
+      "date": "2019-03-20",
+      "game_name": "Nuke Gun",
+      "game_url": "http://www.kongregate.com/games/kizigames/nuke-gun",
+      "plays_count_observed": 49072,
+      "favorites_count_observed": 521,
+      "plays_text": "49,072",
+      "favorites_text": "521",
+      "metrics_url": "http://www.kongregate.com/games/kizigames/nuke-gun/metrics.json",
+      "capture_timestamp": "20190320220042",
+      "capture_url": "https://web.archive.org/web/20190320220042/http://www.kongregate.com/games/kizigames/nuke-gun/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190320220042_http_www.kongregate.com_games_kizigames_nuke-gun_metrics.json_fbd05895b7477284.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-03-20",
@@ -29666,9 +29696,39 @@
       "metrics_url": "https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
       "capture_timestamp": "20201125024420",
       "capture_url": "https://web.archive.org/web/20201125024420/https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201125024420_https_www.kongregate.com_games_SilenGames_zombies-vs-brains_metrics.json_fa8835f1a012f281.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-11-25",
+      "game_name": "Zombies vs Brains",
+      "game_url": "http://www.kongregate.com/games/SilenGames/zombies-vs-brains",
+      "plays_count_observed": 100539,
+      "favorites_count_observed": 591,
+      "plays_text": "100,539",
+      "favorites_text": "591",
+      "metrics_url": "https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
+      "capture_timestamp": "20201125024420",
+      "capture_url": "https://web.archive.org/web/20201125024420/https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201125024420_https_www.kongregate.com_games_SilenGames_zombies-vs-brains_metrics.json_fa8835f1a012f281.json"
+    },
+    {
+      "date": "2020-11-25",
+      "game_name": "Zombies vs Brains",
+      "game_url": "http://www.kongregate.com/games/SilenGames/zombies-vs-brains",
+      "plays_count_observed": 100542,
+      "favorites_count_observed": 591,
+      "plays_text": "100,542",
+      "favorites_text": "591",
+      "metrics_url": "https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
+      "capture_timestamp": "20201125034525",
+      "capture_url": "https://web.archive.org/web/20201125034525/https://www.kongregate.com/games/SilenGames/zombies-vs-brains/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201125034525_https_www.kongregate.com_games_SilenGames_zombies-vs-brains_metrics.json_63e8d56f855b37b3.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-25",
@@ -67886,6 +67946,21 @@
       "metrics_url": "http://www.kongregate.com/games/OriginalNameOP/rps-multiplayer/metrics.json",
       "capture_timestamp": "20230921203936",
       "capture_url": "https://web.archive.org/web/20230921203936/http://www.kongregate.com/games/OriginalNameOP/rps-multiplayer/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230921203936_http_www.kongregate.com_games_OriginalNameOP_rps-multiplayer_metrics.json_7702632ad4a27f2a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-21",
+      "game_name": "RPS Multiplayer",
+      "game_url": "http://www.kongregate.com/games/OriginalNameOP/rps-multiplayer",
+      "plays_count_observed": 422,
+      "favorites_count_observed": 0,
+      "plays_text": "422",
+      "favorites_text": "0",
+      "metrics_url": "http://www.kongregate.com/games/OriginalNameOP/rps-multiplayer/metrics.json",
+      "capture_timestamp": "20230921203936",
+      "capture_url": "https://web.archive.org/web/20230921203936/http://www.kongregate.com/games/OriginalNameOP/rps-multiplayer/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230921203936_http_www.kongregate.com_games_OriginalNameOP_rps-multiplayer_metrics.json_7702632ad4a27f2a.json"
@@ -70361,6 +70436,21 @@
       "metrics_url": "http://www.kongregate.com/games/R2Games/heroes-of-the-banner/metrics.json",
       "capture_timestamp": "20231119182550",
       "capture_url": "https://web.archive.org/web/20231119182550/http://www.kongregate.com/games/R2Games/heroes-of-the-banner/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231119182550_http_www.kongregate.com_games_R2Games_heroes-of-the-banner_metrics.json_7fd4a6634e4c739a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-11-19",
+      "game_name": "Heroes of The Banner",
+      "game_url": "http://www.kongregate.com/games/R2Games/heroes-of-the-banner",
+      "plays_count_observed": 1508355,
+      "favorites_count_observed": 3956,
+      "plays_text": "1,508,355",
+      "favorites_text": "3,956",
+      "metrics_url": "http://www.kongregate.com/games/R2Games/heroes-of-the-banner/metrics.json",
+      "capture_timestamp": "20231119182550",
+      "capture_url": "https://web.archive.org/web/20231119182550/http://www.kongregate.com/games/R2Games/heroes-of-the-banner/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231119182550_http_www.kongregate.com_games_R2Games_heroes-of-the-banner_metrics.json_7fd4a6634e4c739a.json"
@@ -72659,6 +72749,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240104203553_https_www.kongregate.com_games_DogInLake_polygonal-fury_metrics.json_507b7cad937cf36b.json"
+    },
+    {
+      "date": "2024-01-04",
+      "game_name": "Promise Keepers",
+      "game_url": "http://www.kongregate.com/games/SandraKim/promise-keepers",
+      "plays_count_observed": 65,
+      "favorites_count_observed": 1,
+      "plays_text": "65",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/SandraKim/promise-keepers/metrics.json",
+      "capture_timestamp": "20240104202840",
+      "capture_url": "https://web.archive.org/web/20240104202840/https://www.kongregate.com/games/SandraKim/promise-keepers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240104202840_https_www.kongregate.com_games_SandraKim_promise-keepers_metrics.json_83099a9b5b263827.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-04",
@@ -77021,6 +77126,21 @@
       "metrics_url": "https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
       "capture_timestamp": "20240120064256",
       "capture_url": "https://web.archive.org/web/20240120064256/https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240120064256_https_www.kongregate.com_games_claedalus_that-pokeyman-thing-your-grandkids-are-into_metrics.json_719f15a29671e3c2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-20",
+      "game_name": "That Pokeyman Thing Your Grandkids Are Into",
+      "game_url": "http://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into",
+      "plays_count_observed": 161980,
+      "favorites_count_observed": 1241,
+      "plays_text": "161,980",
+      "favorites_text": "1,241",
+      "metrics_url": "https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
+      "capture_timestamp": "20240120064256",
+      "capture_url": "https://web.archive.org/web/20240120064256/https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240120064256_https_www.kongregate.com_games_claedalus_that-pokeyman-thing-your-grandkids-are-into_metrics.json_719f15a29671e3c2.json"
@@ -80744,6 +80864,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240223121502_https_www.kongregate.com_games_Fusionary_swoop-to-nuts_metrics.json_593d8453895bd616.json"
+    },
+    {
+      "date": "2024-02-23",
+      "game_name": "That Pokeyman Thing Your Grandkids Are Into",
+      "game_url": "http://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into",
+      "plays_count_observed": 162015,
+      "favorites_count_observed": 1242,
+      "plays_text": "162,015",
+      "favorites_text": "1,242",
+      "metrics_url": "https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
+      "capture_timestamp": "20240223125159",
+      "capture_url": "https://web.archive.org/web/20240223125159/https://www.kongregate.com/games/claedalus/that-pokeyman-thing-your-grandkids-are-into/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240223125159_https_www.kongregate.com_games_claedalus_that-pokeyman-thing-your-grandkids-are-into_metrics.json_4cc3969e93d43b7f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-02-23",
