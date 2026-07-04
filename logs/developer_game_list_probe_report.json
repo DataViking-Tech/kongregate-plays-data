@@ -1,20 +1,21 @@
 {
-  "candidate_observation_rows": 77,
-  "captures_sampled": 48,
+  "candidate_observation_rows": 3,
+  "captures_sampled": 0,
   "cdx_status_counts": {
-    "cached": 36,
-    "failed": 9,
-    "fetched": 32
+    "failed": 2,
+    "fetched": 1
   },
   "developer_filters": [],
-  "game_name_contains": [],
+  "game_name_contains": [
+    "The Adventures of Bit and Ravh"
+  ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 45,
+  "max_cdx_lookups": 10,
   "max_developers": 0,
-  "max_games": 5,
+  "max_games": 1,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -29,55 +30,25 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 49,
-    "total": 21781,
-    "updated": 28
+    "added": 1,
+    "total": 21858,
+    "updated": 2
   },
-  "pre_cap_target_developers": 1376,
-  "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T11:26:35Z",
+  "pre_cap_target_developers": 1,
+  "pre_cap_target_games": 1,
+  "run_timestamp": "2026-07-04T11:36:14Z",
   "selected_games_by_developer": {
-    "CoralCnora": 1,
-    "JasonNumberXIII": 1,
-    "Rob_Almighty": 1,
-    "SandmanZA": 1,
-    "brvasil": 1
+    "gillenew": 1
   },
-  "skipped_developer_count": 1371,
-  "skipped_developers_due_to_caps_sample": [
-    "02378",
-    "0rava",
-    "1207732597",
-    "12345102",
-    "123kenny10",
-    "19392",
-    "1BluePineapple",
-    "1CHAAAIN",
-    "1ashl",
-    "2bsocial",
-    "2pgcom",
-    "305070",
-    "314owen",
-    "3rimgames",
-    "404notfound999",
-    "5xplay",
-    "67263915w",
-    "7ECHNOMANCER",
-    "8PixStudio",
-    "8bgames",
-    "9PacStudios",
-    "A72_Games",
-    "AIexT",
-    "ALT_Games",
-    "AOSOJ"
-  ],
-  "source_cdx_lookups": 45,
+  "skipped_developer_count": 0,
+  "skipped_developers_due_to_caps_sample": [],
+  "source_cdx_lookups": 3,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 5,
-  "target_games": 5,
-  "target_links_found": 10,
-  "target_offset": 44,
+  "target_developers": 1,
+  "target_games": 1,
+  "target_links_found": 0,
+  "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
-  "unresolved_failed_endpoints_only": false
+  "unresolved_failed_endpoints_only": true
 }
