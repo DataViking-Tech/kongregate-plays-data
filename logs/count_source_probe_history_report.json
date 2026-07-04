@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 6300,
-    "failed": 4958,
-    "fetched": 8973,
+    "cached": 6326,
+    "failed": 5044,
+    "fetched": 8991,
     "missing_html_cache_skipped": 1
   },
   "history_games": 2080,
-  "history_observation_rows": 20232,
+  "history_observation_rows": 20362,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -14,29 +14,80 @@
     "report_json": "logs/count_source_probe_history_report.json",
     "report_md": "logs/count_source_probe_history_report.md"
   },
-  "profile_games": 325,
+  "profile_games": 92,
   "recovered_count_rows": 880,
-  "run_timestamp": "2026-07-04T06:20:15Z",
+  "run_timestamp": "2026-07-04T06:40:02Z",
   "source_type_counts": {
-    "chat_achievements": 1476,
-    "chat_js": 1568,
+    "chat_achievements": 1504,
+    "chat_js": 1598,
     "developer_game_list": 4727,
-    "game_path_prefix": 54,
-    "holodeck": 1623,
+    "game_path_prefix": 88,
+    "holodeck": 1661,
     "metrics_json": 8471,
     "recommended_games": 2313
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 151,
-    "no_archived_endpoint_rows_observed": 1630,
+    "archived_endpoint_hit_no_count": 150,
+    "no_archived_endpoint_rows_observed": 1627,
     "recovered_count": 297,
-    "transient_failures_remaining": 2
+    "transient_failures_remaining": 6
   },
   "tier1_status_counts": {
-    "archived_endpoint_hit_no_count": 113,
-    "no_archived_endpoint_rows_observed": 128
+    "archived_endpoint_hit_no_count": 47,
+    "no_archived_endpoint_rows_observed": 45
   },
   "top_transient_failures": [
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/roman8/drift-race-in-the-open-world",
+      "endpoint_observations": 10,
+      "failed_observations": 8,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Drift Race in the open world",
+      "game_url": "https://www.kongregate.com/games/roman8/drift-race-in-the-open-world",
+      "latest_probe_run_timestamp": "2026-07-04T06:36:28Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;game_path_prefix;holodeck;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 8
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 29,
+      "canonical_game_key": "www.kongregate.com/games/disruptorbeam/game-of-thrones-ascent",
+      "endpoint_observations": 61,
+      "failed_observations": 4,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Game of Thrones Ascent",
+      "game_url": "http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent",
+      "latest_probe_run_timestamp": "2026-07-04T06:36:28Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;game_path_prefix;holodeck;metrics_json;recommended_games",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/epgstudios/n-step-steve-part-1",
+      "endpoint_observations": 25,
+      "failed_observations": 16,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "N Step Steve: Part 1",
+      "game_url": "https://www.kongregate.com/games/EPGstudios/n-step-steve-part-1",
+      "latest_probe_run_timestamp": "2026-07-04T06:36:28Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;game_path_prefix;holodeck;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 8
+    },
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
@@ -70,8 +121,25 @@
       "source_types_seen": "metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/mrudi/trader-of-stories-chapter-3",
+      "endpoint_observations": 26,
+      "failed_observations": 17,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Trader of Stories - Chapter 3",
+      "game_url": "https://www.kongregate.com/games/mrudi/trader-of-stories-chapter-3",
+      "latest_probe_run_timestamp": "2026-07-04T06:36:28Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;game_path_prefix;holodeck;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 8
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 19
+  "unresolved_failed_endpoint_groups": 66
 }
