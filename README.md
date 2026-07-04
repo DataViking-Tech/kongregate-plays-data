@@ -362,6 +362,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Live category/listing observations are current as of 2026-07-04, and all mini-catalog live metrics endpoint statuses are now either available or dated HTTP 404 as of 2026-07-04.
 - Checkpoint 323 fetched current live `metrics.json` successfully for 80 of 80 high-priority games that were still marked not checked, including Kingdom Rush, Learn to Fly 2, SAS: Zombie Assault 4, The Enchanted Cave 2, Swords and Souls, Bit Heroes, and NGU IDLE. The combined play-history table now has 8,658 rows, the lifecycle catalog records 2,194 live metrics-available endpoints, the chart data has 25,972 observed rows, and the companion Google Sheet now points to Checkpoint 323.
 - Checkpoint 324 fetched current live `metrics.json` for all 464 remaining not-yet-checked games. It recovered 460 current metric rows, recorded dated HTTP 404 failures for 4 unavailable endpoints, reduced not-yet-checked live metrics statuses from 464 to 0, brought the combined play-history table to 9,118 rows, refreshed the chart to 26,432 observed rows, and points the companion Google Sheet to Checkpoint 324.
+- Checkpoint 325 added `fetch_game_metrics_history.py --target-csv` so metrics retries can directly target progress-ledger rows such as `dynamic_metrics_placeholder` games with archived `metrics.json` CDX leads. A first 20-game targeted retry recovered one high-confidence Swords and Souls metrics capture from 2025-10-25 (13,151,210 plays), reduced known failed metrics captures from 39 to 38, cut missing metrics CDX cache files by 30, and raised the chart source to 26,434 observed play-count rows.
 
 ## Key Files
 
@@ -407,6 +408,7 @@ python3 scripts/fetch_game_metrics_history.py --audit-statuses cdx_cache_missing
 python3 scripts/fetch_game_metrics_history.py --audit-missing-cdx-only --needs-history-only --max-cdx-games 50 --max-fetches 50
 python3 scripts/fetch_game_metrics_history.py --audit-known-failures-only --cached-cdx-only --max-fetches 80 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-pending-only --cached-cdx-only --max-fetches 40
+python3 scripts/fetch_game_metrics_history.py --target-csv data/processed/ranked_asof_game_page_probe_progress.csv --target-statuses dynamic_metrics_placeholder --target-min-metrics-json-cdx-rows 1 --target-limit 20 --expanded-route-variants --max-cdx-games 20 --max-fetches 50 --retry-failures
 python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --max-cdx-games 3 --cdx-only --expanded-route-variants
 python3 scripts/fetch_game_metrics_history.py --audit-statuses no_cdx --game-name-contains 'RPgTest,Mining Truck,Swimwear Store' --max-cdx-games 3 --expanded-route-variants
 python3 scripts/probe_archived_count_sources.py --max-games 7 --max-pages-per-game 1 --max-candidates-per-page 10 --match-type prefix --max-fetches 40

@@ -171,6 +171,44 @@ def load_audit_rows() -> dict[str, dict[str, str]]:
     return rows
 
 
+def csv_int(row: dict[str, str], key: str) -> int:
+    try:
+        return int(str(row.get(key, "")).strip() or 0)
+    except ValueError:
+        return 0
+
+
+def target_csv_path(path_text: str) -> Path:
+    path = Path(path_text)
+    return path if path.is_absolute() else ROOT / path
+
+
+def load_target_game_order(
+    path_text: str,
+    statuses: set[str],
+    min_metrics_json_cdx_rows: int,
+    limit: int,
+) -> dict[str, int]:
+    if not path_text:
+        return {}
+    path = target_csv_path(path_text)
+    order: dict[str, int] = {}
+    with path.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            if statuses and row.get("status", "") not in statuses:
+                continue
+            if min_metrics_json_cdx_rows and csv_int(row, "metrics_json_cdx_rows") < min_metrics_json_cdx_rows:
+                continue
+            key = row.get("canonical_game_key", "").strip().lower()
+            if not key:
+                key = canonical_game_url(row.get("game_url", ""))
+            if key and key not in order:
+                order[key] = len(order)
+                if limit and len(order) >= limit:
+                    break
+    return order
+
+
 def game_matches_name_filter(game: CatalogGame, filters: list[str]) -> bool:
     haystacks = [game.game_name, game.game_url, *game.game_url_variants]
     return any(
@@ -529,6 +567,10 @@ def main() -> None:
     parser.add_argument("--expanded-route-variants", action="store_true", help="Also probe explicit http/https and /en/games metrics routes during CDX discovery.")
     parser.add_argument("--retry-failures", action="store_true", help="Retry previously failed metrics JSON captures.")
     parser.add_argument("--game-name-contains", default="", help="Comma-separated case-insensitive substrings to target by game name or URL.")
+    parser.add_argument("--target-csv", default="", help="Optional CSV of target games with game_url or canonical_game_key columns.")
+    parser.add_argument("--target-statuses", default="", help="Comma-separated target CSV statuses to include, e.g. dynamic_metrics_placeholder.")
+    parser.add_argument("--target-min-metrics-json-cdx-rows", type=int, default=0, help="When using --target-csv, include only rows with at least this many metrics_json_cdx_rows.")
+    parser.add_argument("--target-limit", type=int, default=0, help="Limit target CSV rows after filters. 0 means all matched targets.")
     args = parser.parse_args()
 
     for directory in (RAW_CDX, RAW_METRICS_JSON, PROCESSED, LOGS):
@@ -539,6 +581,16 @@ def main() -> None:
     catalog_scope = catalog[args.catalog_offset :]
     if args.catalog_limit:
         catalog_scope = catalog_scope[: args.catalog_limit]
+    target_statuses = {status.strip() for status in args.target_statuses.split(",") if status.strip()}
+    target_order = load_target_game_order(
+        args.target_csv,
+        target_statuses,
+        args.target_min_metrics_json_cdx_rows,
+        args.target_limit,
+    )
+    if args.target_csv:
+        catalog_scope = [game for game in catalog_scope if canonical_game_url(game.game_url) in target_order]
+        catalog_scope.sort(key=lambda game: target_order[canonical_game_url(game.game_url)])
     audit_statuses = {status.strip() for status in args.audit_statuses.split(",") if status.strip()}
     if audit_statuses or args.audit_pending_only or args.audit_missing_cdx_only or args.audit_known_failures_only:
         audit_rows_by_game = load_audit_rows()
@@ -653,6 +705,11 @@ def main() -> None:
         "audit_known_failures_only": args.audit_known_failures_only,
         "needs_history_only": args.needs_history_only,
         "game_name_contains": args.game_name_contains,
+        "target_csv": args.target_csv,
+        "target_statuses": sorted(target_statuses),
+        "target_min_metrics_json_cdx_rows": args.target_min_metrics_json_cdx_rows,
+        "target_limit": args.target_limit,
+        "target_games": len(target_order),
         "catalog_games_in_scope": len(catalog_scope),
         "schemes": sorted(schemes),
         "collapse": args.collapse or "",
@@ -689,6 +746,10 @@ def main() -> None:
                 f"- Audit known failures only: {report['audit_known_failures_only']}",
                 f"- Needs history only: {report['needs_history_only']}",
                 f"- Game-name filter: {report['game_name_contains'] or 'none'}",
+                f"- Target CSV: {report['target_csv'] or 'none'}",
+                f"- Target statuses: {', '.join(report['target_statuses']) or 'all'}",
+                f"- Target metrics.json CDX minimum: {report['target_min_metrics_json_cdx_rows']}",
+                f"- Target games: {report['target_games']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",
                 f"- Expanded route variants: {report['expanded_route_variants']}",

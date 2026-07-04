@@ -1,28 +1,32 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-04T09:26:54Z
+- Run timestamp: 2026-07-04T09:43:57Z
 - Catalog games: 2998
-- Catalog scope: offset 0, limit all (6 games)
+- Catalog scope: offset 0, limit all (20 games)
 - Audit statuses: all
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: animation throwdown,bit heroes,crush crush,swords and souls,realm grinder,idle bouncer
+- Game-name filter: none
+- Target CSV: data/processed/ranked_asof_game_page_probe_progress.csv
+- Target statuses: dynamic_metrics_placeholder
+- Target metrics.json CDX minimum: 1
+- Target games: 20
 - Schemes: http, https
-- Cached CDX only: True
+- Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 6
-- CDX rows found: 944
-- CDX wall timeout: 10.0
+- CDX games considered: 20
+- CDX rows found: 446
+- CDX wall timeout: 15.0
 - Metrics wall timeout: 15.0
-- Missing CDX cache files skipped: 7
-- Metrics jobs: 335
-- Pending before run: 1
-- Attempted this run: 1
+- Missing CDX cache files skipped: 0
+- Metrics jobs: 158
+- Pending before run: 2
+- Attempted this run: 2
 - Fetched this run: 0
-- Failed this run: 1
-- Manifest entries: 5452
-- History rows: 9119
+- Failed this run: 2
+- Manifest entries: 5453
+- History rows: 9120
 - Games with history: 2876
 - History date range: 2007-03-24 to 2026-07-04
