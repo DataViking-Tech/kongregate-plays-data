@@ -6,7 +6,7 @@
     "exact_metrics_overlap_sampled_no_count_signal": 1,
     "exact_metrics_starts_after_missing_window": 298
   },
-  "generated_at": "2026-07-04T10:06:29Z",
+  "generated_at": "2026-07-04T10:16:58Z",
   "outputs": {
     "csv": "data/processed/asof_recovery_feasibility_audit.csv",
     "report_json": "logs/asof_recovery_feasibility_audit_report.json",
@@ -388,8 +388,8 @@
     {
       "best_missing_rank": "3",
       "canonical_game_key": "www.kongregate.com/games/greensatellite/trimps",
-      "developer_list_observations": 9,
-      "developer_list_rows_in_missing_window": 0,
+      "developer_list_observations": 36,
+      "developer_list_rows_in_missing_window": 24,
       "exact_metrics_cached_endpoint_count": 2,
       "exact_metrics_cdx_rows": 39,
       "exact_metrics_cdx_rows_in_missing_window": 0,
@@ -421,8 +421,8 @@
     {
       "best_missing_rank": "3",
       "canonical_game_key": "www.kongregate.com/games/mousebreaker/sports-heads-football-championship",
-      "developer_list_observations": 9,
-      "developer_list_rows_in_missing_window": 0,
+      "developer_list_observations": 13,
+      "developer_list_rows_in_missing_window": 1,
       "exact_metrics_cached_endpoint_count": 2,
       "exact_metrics_cdx_rows": 1,
       "exact_metrics_cdx_rows_in_missing_window": 0,
@@ -619,8 +619,8 @@
     {
       "best_missing_rank": "1",
       "canonical_game_key": "www.kongregate.com/games/kekgames/unpuzzle-2",
-      "developer_list_observations": 9,
-      "developer_list_rows_in_missing_window": 0,
+      "developer_list_observations": 24,
+      "developer_list_rows_in_missing_window": 3,
       "exact_metrics_cached_endpoint_count": 2,
       "exact_metrics_cdx_rows": 24,
       "exact_metrics_cdx_rows_in_missing_window": 0,
@@ -685,8 +685,8 @@
     {
       "best_missing_rank": "5",
       "canonical_game_key": "www.kongregate.com/games/arcan3artist/the-very-organized-thief",
-      "developer_list_observations": 9,
-      "developer_list_rows_in_missing_window": 0,
+      "developer_list_observations": 25,
+      "developer_list_rows_in_missing_window": 16,
       "exact_metrics_cached_endpoint_count": 2,
       "exact_metrics_cdx_rows": 5,
       "exact_metrics_cdx_rows_in_missing_window": 0,

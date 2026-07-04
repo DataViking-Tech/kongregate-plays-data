@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 6915,
-    "failed": 5270,
-    "fetched": 9096,
+    "cached": 6916,
+    "failed": 5304,
+    "fetched": 9229,
     "missing_html_cache_skipped": 1
   },
   "history_games": 2080,
-  "history_observation_rows": 21282,
+  "history_observation_rows": 21450,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -16,27 +16,96 @@
   },
   "profile_games": 325,
   "recovered_count_rows": 645,
-  "run_timestamp": "2026-07-04T09:09:56Z",
+  "run_timestamp": "2026-07-04T10:16:46Z",
   "source_type_counts": {
     "chat_achievements": 1538,
     "chat_js": 1635,
-    "developer_game_list": 5107,
+    "developer_game_list": 5275,
     "game_path_prefix": 127,
     "holodeck": 1705,
     "metrics_json": 8841,
     "recommended_games": 2329
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 151,
-    "no_archived_endpoint_rows_observed": 1630,
+    "archived_endpoint_hit_no_count": 150,
+    "no_archived_endpoint_rows_observed": 1627,
     "recovered_count": 297,
-    "transient_failures_remaining": 2
+    "transient_failures_remaining": 6
   },
   "tier1_status_counts": {
-    "archived_endpoint_hit_no_count": 113,
-    "no_archived_endpoint_rows_observed": 128
+    "archived_endpoint_hit_no_count": 112,
+    "no_archived_endpoint_rows_observed": 125,
+    "transient_failures_remaining": 4
   },
   "top_transient_failures": [
+    {
+      "best_rank": "2",
+      "candidates_with_cdx_rows": 22,
+      "canonical_game_key": "www.kongregate.com/games/wowsomegames/talking-ginger-paw-caring",
+      "endpoint_observations": 64,
+      "failed_observations": 18,
+      "first_seen_date": "2014-08-29",
+      "followup_tier": "1",
+      "game_name": "Talking Ginger Paw Caring",
+      "game_url": "http://www.kongregate.com/games/wowsomegames/talking-ginger-paw-caring",
+      "latest_probe_run_timestamp": "2026-07-04T10:11:34Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;developer_game_list;game_path_prefix;holodeck;metrics_json;recommended_games",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "2",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/playman2/stormfall",
+      "endpoint_observations": 31,
+      "failed_observations": 16,
+      "first_seen_date": "2014-09-05",
+      "followup_tier": "1",
+      "game_name": "StormFall",
+      "game_url": "http://www.kongregate.com/games/playman2/stormfall",
+      "latest_probe_run_timestamp": "2026-07-04T10:11:34Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;developer_game_list;holodeck;metrics_json;recommended_games",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 3
+    },
+    {
+      "best_rank": "2",
+      "candidates_with_cdx_rows": 22,
+      "canonical_game_key": "www.kongregate.com/games/wowsomegames/baby-talking-tom-bathing",
+      "endpoint_observations": 62,
+      "failed_observations": 17,
+      "first_seen_date": "2014-09-12",
+      "followup_tier": "1",
+      "game_name": "Baby Talking Tom Bathing",
+      "game_url": "http://www.kongregate.com/games/wowsomegames/baby-talking-tom-bathing",
+      "latest_probe_run_timestamp": "2026-07-04T10:11:34Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;developer_game_list;game_path_prefix;holodeck;metrics_json;recommended_games",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "2",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
+      "endpoint_observations": 42,
+      "failed_observations": 18,
+      "first_seen_date": "2014-10-03",
+      "followup_tier": "1",
+      "game_name": "Caralhinhos Voadores - Age Of Delicia",
+      "game_url": "http://www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
+      "latest_probe_run_timestamp": "2026-07-04T10:11:34Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "chat_achievements;chat_js;developer_game_list;holodeck;metrics_json;recommended_games",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
+    },
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 12,
@@ -64,7 +133,7 @@
       "followup_tier": "",
       "game_name": "Trader of Stories - Chapter 3",
       "game_url": "https://www.kongregate.com/games/mrudi/trader-of-stories-chapter-3",
-      "latest_probe_run_timestamp": "2026-07-04T09:07:44Z",
+      "latest_probe_run_timestamp": "2026-07-04T10:16:28Z",
       "parsed_probe_count_rows": 0,
       "recovered_count_rows": 0,
       "source_types_seen": "chat_achievements;chat_js;developer_game_list;game_path_prefix;holodeck;metrics_json",
@@ -73,5 +142,5 @@
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 100
+  "unresolved_failed_endpoint_groups": 99
 }

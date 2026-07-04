@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T10:06:31Z",
+  "generated_at": "2026-07-04T10:17:21Z",
   "input_csv": "data/processed/metrics_no_cdx_profile.csv",
   "tiers": [
     1,
@@ -19,7 +19,7 @@
   "dynamic_metric_placeholder_games": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_probe": 171,
   "dynamic_metric_placeholder_games_with_metrics_json_cdx_rows": 0,
-  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 98,
+  "dynamic_metric_placeholder_games_with_alternate_endpoint_cdx_rows": 99,
   "high_value_unresolved_games": 241,
   "top_unresolved_examples": [
     {
@@ -175,7 +175,7 @@
       "blank_gameplays_count_pages": 11,
       "metrics_json_probe_observations": 8,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 0,
+      "alternate_endpoint_cdx_rows": 96,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -201,7 +201,7 @@
       "blank_gameplays_count_pages": 3,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 796,
+      "alternate_endpoint_cdx_rows": 986,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -461,7 +461,7 @@
       "blank_gameplays_count_pages": 1,
       "metrics_json_probe_observations": 4,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 2,
+      "alternate_endpoint_cdx_rows": 118,
       "recommended_next_action": "Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows."
     },
     {
@@ -773,7 +773,7 @@
       "blank_gameplays_count_pages": 0,
       "metrics_json_probe_observations": 2,
       "metrics_json_cdx_rows": 0,
-      "alternate_endpoint_cdx_rows": 162,
+      "alternate_endpoint_cdx_rows": 214,
       "recommended_next_action": "Escalate to alternate count sources; checked page URL variants have no usable CDX rows."
     },
     {

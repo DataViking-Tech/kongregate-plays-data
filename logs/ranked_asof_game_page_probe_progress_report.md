@@ -1,59 +1,42 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-04T10:06:37Z
-- Profile games: 1740
-- High-value unresolved games: 1740
+- Generated: 2026-07-04T10:17:21Z
+- Profile games: 251
+- High-value unresolved games: 8
 
 ## Status Counts
 
-- not_checked: 1571
 - dynamic_metrics_placeholder: 138
-- no_page_cdx_rows: 26
+- no_page_cdx_rows: 106
 - html_without_explicit_count: 4
+- not_checked: 2
 - page_fetch_failed: 1
 
 ## Recommended Actions
 
-- 1571: Run a bounded page-history CDX shard for this game.
-- 69: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
-- 69: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 26: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
+- 135: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 106: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 - 4: Probe adjacent archived JSON/API routes; cached HTML appears to rely on JavaScript-injected metrics.
+- 3: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
+- 2: Run a bounded page-history CDX shard for this game.
 - 1: Retry archived page fetches with a small shard and retry-failures enabled.
 
 ## Dynamic Placeholder Evidence
 
 - Dynamic metric placeholder games: 138
 - With exact metrics.json probe history: 138
-- With exact metrics.json CDX rows: 69
-- With alternate endpoint CDX rows: 16
+- With exact metrics.json CDX rows: 3
+- With alternate endpoint CDX rows: 88
 
 ## Top Unresolved Examples
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Wheelie Legend | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 6 | 0 | 2014-08-22 |
-| Battle Of Heroes | 1 | dynamic_metrics_placeholder | 1 | 5 | 5 | 3 | 2 | 2014-08-26 |
-| Jellydad Hero | 1 | dynamic_metrics_placeholder | 1 | 18 | 5 | 3 | 2 | 2014-08-29 |
-| The world most bugged game | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-14 |
-| Classical Snake | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-19 |
-| Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 7 | 4 | 3 | 2 | 2014-09-19 |
-| Brakeless Trials Game 2014 | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-09-20 |
-| Evolve | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-26 |
-| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-09-26 |
-| Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-03 |
-| Bakery French Bread | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-04 |
-| Umbrella Revolution | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 6 | 0 | 2014-10-10 |
-| Freeze Tag | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-13 |
-| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 6 | 0 | 2014-10-17 |
-| March | 1 | dynamic_metrics_placeholder | 3 | 3 | 3 | 8 | 0 | 2014-10-18 |
-| shieldshooting | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-10-29 |
-| Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 38 | 76 | 2014-11-11 |
-| Shooter Jet Crystal | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-12-28 |
-| Robo Jump | 1 | dynamic_metrics_placeholder | 2 | 2 | 2 | 6 | 0 | 2014-12-30 |
-| The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 3 | 161 | 19 | 28 | 812 | 2015-02-07 |
-| Swarm Simulator | 1 | dynamic_metrics_placeholder | 3 | 304 | 36 | 28 | 420 | 2015-02-23 |
-| Mu Complex : Episode Two | 1 | dynamic_metrics_placeholder | 3 | 27 | 15 | 5 | 4 | 2015-05-12 |
-| Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 644 | 21 | 64 | 512 | 2015-08-09 |
-| Alien Space Blaster 0.1 | 1 | dynamic_metrics_placeholder | 2 | 3 | 3 | 8 | 0 | 2015-09-03 |
-| Monster War Zone 3 | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 6 | 0 | 2015-09-09 |
+| League of Angels: Pact | 25 | page_fetch_failed | 4 | 4 | 0 | 2 | 2 | 2024-01-21 |
+| Random Number GOD Idle | 26 | dynamic_metrics_placeholder | 4 | 33 | 8 | 4 | 36 | 2024-01-21 |
+| Sift Heads World Act 4 - Cold Memories | 26 | html_without_explicit_count | 4 | 16 | 0 | 8 | 0 | 2025-11-22 |
+| Arsenal Online | 30 | dynamic_metrics_placeholder | 4 | 10 | 8 | 5 | 28 | 2024-01-21 |
+| Symphonic TD | 30 | html_without_explicit_count | 4 | 14 | 0 | 6 | 0 | 2025-11-16 |
+| Magirune 2 | 38 | dynamic_metrics_placeholder | 4 | 9 | 3 | 6 | 28 | 2024-01-21 |
+| Karoshi : Suicide Salaryman | 49 | html_without_explicit_count | 4 | 16 | 0 | 6 | 2 | 2025-11-22 |
+| Warlords 2: Rise of Demons | 49 | html_without_explicit_count | 4 | 22 | 0 | 6 | 0 | 2025-11-22 |
