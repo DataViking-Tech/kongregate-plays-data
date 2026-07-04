@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1sz-M7nMJw8Oxjy1sxCaYHpqsuJhH5rKVTh5xk5E3oQU
+https://docs.google.com/spreadsheets/d/156yrP4vfjB4OtAwV-DhtdZQNoiiCqPNlGqco196BM0A
 
 ## Current Snapshot
 
@@ -381,6 +381,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 341 ran the next five-game ranked-priority developer/account-list sweep for Cute Baby Girl Spring Outing, Alien Space Blaster 0.1, Monster War Zone 3, uJet - Jetpack Controller Demonstration, and Funny Pets. The pass and focused retries fetched 64 CDX responses, sampled 39 archived developer/account captures, found 15 target links, added 94 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 22,385 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 - Checkpoint 342 ran the next five-game ranked-priority developer/account-list sweep for Lost Viking, Cool battle, Alien survival Beta 2, Escape to Home, and Monster Love. The pass and focused retry fetched 43 CDX responses, sampled 15 archived developer/account captures, found 3 target links, added 72 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 22,457 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 - Checkpoint 343 ran the next five-game ranked-priority developer/account-list sweep for DanTDM Runner, New Traffic Jam City, Clash of the Races 5, Geoshape beta, and Space Breakout!. The pass and focused retries fetched 56 CDX responses, sampled 39 archived developer/account captures, found 6 target links, added 87 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 22,544 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
+- Checkpoint 344 ran the next five-game ranked-priority developer/account-list sweep for Roller Ball Plat, Tactical Anomaly, Digimon Pyramid Adventure, Journey through Wind and Fire I, and SuperBall Idle. The pass and focused retries fetched 44 CDX responses, sampled 18 archived developer/account captures, found 3 target links, added 73 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 22,617 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 
 ## Key Files
 
