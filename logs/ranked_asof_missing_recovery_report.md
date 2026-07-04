@@ -1,6 +1,6 @@
 # Ranked As-Of Missing Recovery Report
 
-- Run timestamp: 2026-07-04T04:26:25Z
+- Run timestamp: 2026-07-04T04:42:35Z
 - Ranked rows: 49982
 - Missing rank rows without aggregate as-of count: 5088
 - Games with missing as-of rank rows: 1986

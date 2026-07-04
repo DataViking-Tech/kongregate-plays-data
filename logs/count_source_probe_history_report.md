@@ -1,14 +1,14 @@
 # Count Source Probe History
 
-- Generated: 2026-07-04T04:25:57Z
+- Generated: 2026-07-04T04:42:14Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 19408
-- Games with probe history: 1870
-- Recovered count rows: 834
-- Unresolved failed endpoint groups: 44
-- Status counts: archived_endpoint_hit_no_count=148, no_archived_endpoint_rows_observed=1432, recovered_count=267, transient_failures_remaining=23
+- Accumulated endpoint observations: 19529
+- Games with probe history: 1902
+- Recovered count rows: 843
+- Unresolved failed endpoint groups: 48
+- Status counts: archived_endpoint_hit_no_count=148, no_archived_endpoint_rows_observed=1458, recovered_count=271, transient_failures_remaining=25
 - Tier-1 status counts: archived_endpoint_hit_no_count=114, no_archived_endpoint_rows_observed=127
-- CDX status counts: cached=6274, failed=4637, fetched=8496, missing_html_cache_skipped=1
+- CDX status counts: cached=6280, failed=4685, fetched=8563, missing_html_cache_skipped=1
 
 ## Retry Queue
 
@@ -16,6 +16,7 @@
 | --- | ---: | ---: | ---: | --- |
 | [Redacted] | n/a | 1 | 2 | 2026-07-04T04:13:46Z |
 | Charmed in the Garden | n/a | 1 | 2 | 2026-07-04T03:56:41Z |
+| Cookies Maze | n/a | 1 | 2 | 2026-07-04T04:40:27Z |
 | discord | n/a | 2 | 2 | 2026-07-04T04:25:23Z |
 | Dragon Quest | n/a | 1 | 2 | 2026-07-04T03:56:41Z |
 | Drunk Driver | n/a | 1 | 2 | 2026-07-04T04:13:46Z |
@@ -25,10 +26,9 @@
 | Fire hit .Beta | n/a | 1 | 2 | 2026-07-04T03:22:33Z |
 | Five Nights At Freddy's 1 Pacman | n/a | 2 | 2 | 2026-07-04T03:22:33Z |
 | Guess the Number | n/a | 2 | 2 | 2026-07-04T03:56:41Z |
+| Halloween Cat Escape | n/a | 2 | 2 | 2026-07-04T04:40:27Z |
 | Halloween Chunks | n/a | 1 | 2 | 2026-07-04T04:25:23Z |
 | Hello Kitty Defend The Flowers | n/a | 1 | 2 | 2026-07-04T03:56:41Z |
-| Hide! | n/a | 1 | 2 | 2026-07-04T04:25:23Z |
-| MafiaBattle | n/a | 1 | 2 | 2026-07-04T03:22:33Z |
 
 ## Output Files
 
