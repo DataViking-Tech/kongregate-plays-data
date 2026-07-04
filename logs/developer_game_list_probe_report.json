@@ -1,21 +1,21 @@
 {
-  "candidate_observation_rows": 9,
+  "candidate_observation_rows": 3,
   "captures_sampled": 0,
   "cdx_status_counts": {
-    "failed": 9
+    "failed": 1,
+    "fetched": 2
   },
   "developer_filters": [],
   "game_name_contains": [
-    "SCP 079",
-    "test"
+    "Tracesoccer"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 18,
+  "max_cdx_lookups": 12,
   "max_developers": 0,
-  "max_games": 2,
+  "max_games": 1,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -30,48 +30,22 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 0,
-    "total": 23366,
-    "updated": 9
+    "added": 2,
+    "total": 23422,
+    "updated": 1
   },
-  "pre_cap_target_developers": 26,
-  "pre_cap_target_games": 29,
-  "run_timestamp": "2026-07-04T15:04:03Z",
+  "pre_cap_target_developers": 1,
+  "pre_cap_target_games": 1,
+  "run_timestamp": "2026-07-04T15:12:49Z",
   "selected_games_by_developer": {
-    "DevHeroNatio": 1,
-    "eyewars": 1
+    "Nevolane": 1
   },
-  "skipped_developer_count": 24,
-  "skipped_developers_due_to_caps_sample": [
-    "AlunosI",
-    "Guruguy69",
-    "Jonty9999",
-    "LeBanging",
-    "MateusF29",
-    "Nicolo974jtm34",
-    "PanzerGraveyard",
-    "PanzerI",
-    "ShadyShock",
-    "Tolaryn",
-    "Whatahooda",
-    "YAYitsAndrew",
-    "del7244009",
-    "dspiv097",
-    "edugame12",
-    "efefef20",
-    "galaxymika",
-    "gamer70008000",
-    "jimmydelaney19",
-    "ketroketro",
-    "mandheer",
-    "matheusresende47",
-    "ploo98",
-    "toxikb"
-  ],
-  "source_cdx_lookups": 9,
+  "skipped_developer_count": 0,
+  "skipped_developers_due_to_caps_sample": [],
+  "source_cdx_lookups": 3,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 2,
-  "target_games": 2,
+  "target_developers": 1,
+  "target_games": 1,
   "target_links_found": 0,
   "target_offset": 0,
   "tiers": "",
