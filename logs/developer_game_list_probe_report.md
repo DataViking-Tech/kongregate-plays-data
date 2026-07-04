@@ -1,16 +1,16 @@
 # Archived Developer Game-List Probe
 
-- Generated: 2026-07-04T13:40:07Z
+- Generated: 2026-07-04T13:52:46Z
 - Target games: 1
 - Target developers: 1
-- Source URL CDX lookups: 6
-- Developer-page captures sampled: 0
-- Candidate observation rows: 6
-- CDX status counts: failed=6
-- Target links found in sampled pages: 0
+- Source URL CDX lookups: 9
+- Developer-page captures sampled: 3
+- Candidate observation rows: 11
+- CDX status counts: failed=7, fetched=4
+- Target links found in sampled pages: 2
 - Recovered play-count rows in this run: 0
 - Deduped recovered play-count observations: 647 (0 new this run)
-- Accumulated probe-history rows: 22700 (0 new, 6 refreshed)
+- Accumulated probe-history rows: 22781 (4 new, 7 refreshed)
 
 ## Outputs
 
