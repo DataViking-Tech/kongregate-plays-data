@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-07-04T06:39:52Z",
+  "run_timestamp": "2026-07-04T06:54:51Z",
   "ranked_rows": 49982,
-  "game_play_history_rows": 8658,
+  "game_play_history_rows": 9118,
   "rows_with_direct_listing_play_counts": 17314,
   "rows_with_aggregate_asof_play_counts": 44900,
   "direct_listing_coverage_rate": 0.3464,
@@ -17,24 +17,24 @@
     ""
   ],
   "aggregate_asof_method_counts": {
-    "direct_listing_plus_prior_or_same_day_max": 3738,
-    "direct_listing_same_capture": 13576,
+    "direct_listing_plus_prior_or_same_day_max": 3800,
+    "direct_listing_same_capture": 13514,
     "no_observed_play_count_asof_rank_date": 5082,
     "aggregate_asof_from_prior_observation": 27586
   },
   "aggregate_asof_source_counts": {
-    "ranked_listing": 22173,
+    "ranked_listing": 22086,
     "game_page_html": 35,
-    "metrics_json": 22391,
+    "metrics_json": 22377,
     "count_source_probe": 34,
-    "live_metrics_json": 267
+    "live_metrics_json": 368
   },
   "aggregate_asof_staleness_counts": {
-    "same_day": 17611,
+    "same_day": 17625,
     "1-30_days": 5262,
-    "over_365_days": 10272,
+    "over_365_days": 10261,
     "31-180_days": 8181,
-    "181-365_days": 3574
+    "181-365_days": 3571
   },
   "aggregate_asof_max_lag_days": 5956,
   "outputs": {

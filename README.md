@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1tHdxeymc7dkJ5ihOVdH5WujjQ0HMcXZYVplnpWYM3qY
+https://docs.google.com/spreadsheets/d/1R9tblulfKKdUN6d9kCQ8kw967ghtkt6CR1hHnYbmllw
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1tHdxeymc7dkJ5ihOVdH5WujjQ0HMcXZYVplnpWYM
 - Ranked-list rows with aggregate as-of observed play counts: 44,900
 - Mini catalog: 2,998 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,658 across 2,687 canonical games
-- Observed play-count rows used by the chart: 25,972
+- Per-game play-history rows: 9,118 across 2,687 canonical games
+- Observed play-count rows used by the chart: 26,432
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,346 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-04
 - Per-game play-history date range: 2007-03-24 to 2026-07-04
@@ -355,12 +355,13 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Cached-CDX archived metrics retries recovered 48 additional per-game play-count observations in checkpoint 24.
 - 325 mini-catalog games still have no per-game play-history rows, and 2,247 still need deeper page-history backfill.
 - Metrics gap audit currently has 0 fresh pending captures, 38 known failed archived captures, 325 games without any per-game metrics rows, 0 expanded-route CDX cache-missing games, 325 confirmed no-CDX games, and 13,272 expanded-route CDX cache files still missing from the full variant queue.
-- The lifecycle catalog covers all 2,998 mini-catalog games. It preserves observed Kongregate category labels for 580 games, flags 5 likely and 14 possible Facebook/social-platform candidates using conservative evidence signals, and records live metrics endpoint evidence for 2,194 available endpoints, 340 HTTP 404 endpoints, and 464 not-yet-checked endpoints.
+- The lifecycle catalog covers all 2,998 mini-catalog games. It preserves observed Kongregate category labels for 580 games, flags 5 likely and 14 possible Facebook/social-platform candidates using conservative evidence signals, and records live metrics endpoint evidence for 2,654 available endpoints, 344 HTTP 404 endpoints, and 0 not-yet-checked endpoints.
 - The no-CDX profile started with 329 originally no-history/no-CDX games. Four now have recovered alternate or parsed page counts; the current no-metrics gap is 325 games: 132 have archived endpoint/page material that did not expose a parseable count, and 193 have no archived endpoint rows after the current exact and prefix probes. The no-history transient retry queue is clear, with 0 unresolved failed endpoints in the current no-history evidence summary. The as-of exact-metrics queue is down to 2 transient games before broader list/account/source escalation. Remaining recovery work is focused on broader prefix/listing/source sweeps or outside source shapes rather than untried exact-match side endpoints.
 - `no_history_evidence_summary` separates those 325 remaining games into next-action buckets: 84 with partial listing-count evidence, 87 dynamic-placeholder endpoint archives with no count, 48 dynamic placeholders with no exact endpoint archives, 26 no-page-CDX cases with alternate archives but no count, and 80 with no page or endpoint archives after current probes.
-- True monotonic play-count decreases now scan at 0. Three suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 583 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
-- Live category/listing observations are current as of 2026-07-04, and current live metrics remain refreshed through 2026-07-04 for the newest catalog additions and the latest high-priority unchecked batch.
+- True monotonic play-count decreases now scan at 0. Four suspicious metrics-route decreases are isolated in `suspicious_metric_route_decreases.csv`, 7 same-day/cross-listing source conflicts are isolated in `source_conflict_play_count_decreases.csv`, and 665 stale or rounded listing-page echoes are separated into `stale_listing_play_counts.csv`. The chart uses max-observed play counts so these raw-source conflicts do not create visual count drops.
+- Live category/listing observations are current as of 2026-07-04, and all mini-catalog live metrics endpoint statuses are now either available or dated HTTP 404 as of 2026-07-04.
 - Checkpoint 323 fetched current live `metrics.json` successfully for 80 of 80 high-priority games that were still marked not checked, including Kingdom Rush, Learn to Fly 2, SAS: Zombie Assault 4, The Enchanted Cave 2, Swords and Souls, Bit Heroes, and NGU IDLE. The combined play-history table now has 8,658 rows, the lifecycle catalog records 2,194 live metrics-available endpoints, the chart data has 25,972 observed rows, and the companion Google Sheet now points to Checkpoint 323.
+- Checkpoint 324 fetched current live `metrics.json` for all 464 remaining not-yet-checked games. It recovered 460 current metric rows, recorded dated HTTP 404 failures for 4 unavailable endpoints, reduced not-yet-checked live metrics statuses from 464 to 0, brought the combined play-history table to 9,118 rows, refreshed the chart to 26,432 observed rows, and points the companion Google Sheet to Checkpoint 324.
 
 ## Key Files
 

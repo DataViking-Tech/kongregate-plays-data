@@ -13,15 +13,14 @@
     "2007-01-20",
     "2026-07-03"
   ],
-  "generated_at": "2026-07-04T06:40:14Z",
+  "generated_at": "2026-07-04T06:54:50Z",
   "last_observed_date_range": [
     "2007-03-24",
     "2026-07-04"
   ],
   "live_metric_status_counts": {
-    "live_metrics_available": 2194,
-    "live_metrics_failed_http_404": 340,
-    "not_checked": 464
+    "live_metrics_available": 2654,
+    "live_metrics_failed_http_404": 344
   },
   "outputs": {
     "csv": "data/processed/game_lifecycle_catalog.csv",
@@ -30,9 +29,8 @@
     "report_md": "logs/game_lifecycle_catalog_report.md"
   },
   "removal_evidence_status_counts": {
-    "live_metrics_available": 2194,
-    "live_metrics_unavailable": 339,
-    "no_removal_evidence": 464,
+    "live_metrics_available": 2654,
+    "live_metrics_unavailable": 343,
     "stale_live_metrics_failure_older_than_last_observation": 1
   },
   "rows_with_observed_categories": 580,
