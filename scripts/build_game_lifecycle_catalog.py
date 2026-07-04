@@ -29,6 +29,7 @@ PAGE_GAP_CSV = PROCESSED / "game_page_gap_progress.csv"
 COUNT_SOURCE_STATUS_CSV = PROCESSED / "count_source_probe_game_status.csv"
 LIVE_MANIFEST_JSON = RAW_METRICS / "live_manifest.json"
 LIVE_FAILURES_JSON = RAW_METRICS / "live_failures.json"
+LIVE_PAGE_STATUS_JSON = RAW_GAME_PAGES / "live_page_status.json"
 
 OUTPUT_CSV = PROCESSED / "game_lifecycle_catalog.csv"
 OUTPUT_JSON = PROCESSED / "game_lifecycle_catalog.json"
@@ -47,6 +48,7 @@ DATE_COLUMNS = {
     "last_play_history_date",
     "last_live_metric_date",
     "latest_live_metric_attempt_date",
+    "latest_live_page_attempt_date",
     "observed_removed_after_date",
     "observed_removed_by_date",
 }
@@ -83,6 +85,8 @@ OUTPUT_COLUMNS = [
     "last_live_metric_date",
     "current_live_metric_status",
     "latest_live_metric_attempt_date",
+    "current_live_page_status",
+    "latest_live_page_attempt_date",
     "removal_evidence_status",
     "removal_evidence_type",
     "observed_removed_after_date",
@@ -368,6 +372,15 @@ def choose_published_date(evidence: dict[str, object] | None) -> tuple[str, str,
     return published_date, source, confidence
 
 
+def load_live_page_statuses() -> dict[str, dict[str, str]]:
+    statuses = read_json(LIVE_PAGE_STATUS_JSON, {})
+    return {key: row for key, row in statuses.items() if key}
+
+
+def live_page_unavailable(status: str) -> bool:
+    return status.startswith("live_page_http_") or status == "live_page_unavailable_text"
+
+
 def collect_observations() -> tuple[dict[str, dict[str, object]], dict[str, dict[str, str]]]:
     observations: dict[str, dict[str, object]] = defaultdict(lambda: {
         "ranked_dates": [],
@@ -503,6 +516,7 @@ def lifecycle_row(
     catalog_row: dict[str, str],
     observations: dict[str, dict[str, object]],
     live_by_key: dict[str, dict[str, str]],
+    live_page_by_key: dict[str, dict[str, str]],
     published_by_key: dict[str, dict[str, object]],
     audit_by_key: dict[str, dict[str, str]],
     page_gap_by_key: dict[str, dict[str, str]],
@@ -525,13 +539,30 @@ def lifecycle_row(
     first_observed = min_date([first_ranked, first_history, first_live])
     last_observed = max_date([last_ranked, last_history, last_live])
     published_date, published_source, published_confidence = choose_published_date(published_by_key.get(key))
+    live_page = live_page_by_key.get(key, {})
+    live_page_status = live_page.get("status", "not_checked")
+    live_page_attempt_date = iso_date_from_timestamp(live_page.get("last_attempt_timestamp", ""))
 
     removal_status = "no_removal_evidence"
     removal_type = ""
     removed_after = ""
     removed_by = ""
     removal_confidence = ""
-    if live.get("status") == "live_metrics_available":
+    if live_page_status == "live_page_available":
+        removal_status = "live_page_available"
+        removal_confidence = "high_page_available"
+    elif live_page_unavailable(live_page_status):
+        if live_page_attempt_date and last_observed and live_page_attempt_date < last_observed:
+            removal_status = "stale_live_page_failure_older_than_last_observation"
+            removal_type = live_page_status
+            removal_confidence = "not_removal_evidence"
+        else:
+            removal_status = "live_page_unavailable"
+            removal_type = live_page_status
+            removed_after = last_observed
+            removed_by = live_page_attempt_date
+            removal_confidence = "high_live_page_unavailable" if live_page_status.startswith("live_page_http_") else "medium_live_page_unavailable_text"
+    elif live.get("status") == "live_metrics_available":
         removal_status = "live_metrics_available"
         removal_confidence = "high_for_metrics_endpoint"
     elif live.get("status", "").startswith("live_metrics_failed"):
@@ -557,6 +588,10 @@ def lifecycle_row(
 
     category_tags, platform_flags, social_candidate, class_confidence, signals = classify_game(catalog_row)
     notes = []
+    if live_page_status == "live_page_available" and live.get("status", "").startswith("live_metrics_failed"):
+        notes.append("Live game page is available even though the metrics endpoint failed.")
+    if live_page_unavailable(live_page_status):
+        notes.append("Live game page availability check is direct page-level removal evidence.")
     if removal_status == "live_metrics_unavailable":
         notes.append("Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification.")
     if published_conflicts_with_first_observed:
@@ -598,6 +633,8 @@ def lifecycle_row(
         "last_live_metric_date": last_live,
         "current_live_metric_status": live.get("status", "not_checked"),
         "latest_live_metric_attempt_date": live.get("attempt_date", ""),
+        "current_live_page_status": live_page_status,
+        "latest_live_page_attempt_date": live_page_attempt_date,
         "removal_evidence_status": removal_status,
         "removal_evidence_type": removal_type,
         "observed_removed_after_date": removed_after,
@@ -626,13 +663,14 @@ def write_outputs(rows: list[dict[str, object]]) -> None:
 def main() -> None:
     catalog_rows = read_csv(MINI_CATALOG_CSV)
     observations, live_by_key = collect_observations()
+    live_page_by_key = load_live_page_statuses()
     published_by_key = collect_published_dates()
     audit_by_key = build_lookup(read_csv(AUDIT_CSV))
     page_gap_by_key = build_lookup(read_csv(PAGE_GAP_CSV))
     count_source_by_key = build_lookup(read_csv(COUNT_SOURCE_STATUS_CSV))
 
     rows = [
-        lifecycle_row(row, observations, live_by_key, published_by_key, audit_by_key, page_gap_by_key, count_source_by_key)
+        lifecycle_row(row, observations, live_by_key, live_page_by_key, published_by_key, audit_by_key, page_gap_by_key, count_source_by_key)
         for row in catalog_rows
     ]
     rows.sort(key=lambda row: (int(row.get("best_rank") or 9999), -int(row.get("top_n_appearances") or 0), row.get("game_name", "").lower()))
@@ -640,6 +678,7 @@ def main() -> None:
 
     social_counts = Counter(row["facebook_social_candidate"] for row in rows)
     live_counts = Counter(row["current_live_metric_status"] for row in rows)
+    live_page_counts = Counter(row["current_live_page_status"] for row in rows)
     removal_counts = Counter(row["removal_evidence_status"] for row in rows)
     confidence_counts = Counter(row["classification_confidence"] for row in rows if row["classification_confidence"])
     published_confidence_counts = Counter(row["published_date_confidence"] for row in rows if row["published_date_confidence"])
@@ -659,6 +698,7 @@ def main() -> None:
         "facebook_social_candidate_counts": dict(sorted(social_counts.items())),
         "classification_confidence_counts": dict(sorted(confidence_counts.items())),
         "live_metric_status_counts": dict(sorted(live_counts.items())),
+        "live_page_status_counts": dict(sorted(live_page_counts.items())),
         "removal_evidence_status_counts": dict(sorted(removal_counts.items())),
         "first_observed_date_range": [
             min_date([str(row["first_observed_date"]) for row in rows]),
@@ -710,6 +750,7 @@ def main() -> None:
                 f"- Facebook/social candidate counts: {report['facebook_social_candidate_counts']}",
                 f"- Classification confidence counts: {report['classification_confidence_counts']}",
                 f"- Live metric status counts: {report['live_metric_status_counts']}",
+                f"- Live page status counts: {report['live_page_status_counts']}",
                 f"- Removal evidence status counts: {report['removal_evidence_status_counts']}",
                 f"- First observed date range: {report['first_observed_date_range'][0]} to {report['first_observed_date_range'][1]}",
                 f"- Published date range: {report['published_date_range'][0]} to {report['published_date_range'][1]}",

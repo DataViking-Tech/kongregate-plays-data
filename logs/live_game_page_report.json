@@ -1,0 +1,26 @@
+{
+  "attempted_this_run": 0,
+  "available_this_run": 0,
+  "failed_this_run": 0,
+  "fresh_statuses_skipped": 343,
+  "games_in_scope": 343,
+  "input_csv": "data/processed/live_game_page_status.csv",
+  "live_page_status_entries": 343,
+  "metric_statuses": [],
+  "outputs": {
+    "csv": "data/processed/live_game_page_status.csv",
+    "json": "data/processed/live_game_page_status.json",
+    "raw_status_json": "data/raw/game_pages/live_page_status.json",
+    "report_json": "logs/live_game_page_report.json",
+    "report_md": "logs/live_game_page_report.md"
+  },
+  "pending_before_run": 0,
+  "removal_statuses": [],
+  "run_timestamp": "2026-07-04T08:40:20Z",
+  "status_counts": {
+    "live_page_available": 2,
+    "live_page_unavailable_text": 341
+  },
+  "targeted_games": 343,
+  "unavailable_this_run": 0
+}
