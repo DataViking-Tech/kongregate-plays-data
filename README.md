@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1mj0irWzyonZQTCn1QUlsrF-cMRxy68K8TQ4dNqe21i4
+https://docs.google.com/spreadsheets/d/1AqR4emm2ToQ4VfLHXHMyB22w66sbuWJu1NS_vcjqhG0
 
 ## Current Snapshot
 
@@ -373,6 +373,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 333 ran the next five-game ranked-priority developer/account-list sweep for Make Me 10, Key to Success, Missiles Again, The Space Commando, and Run Bird Run Online. The pass sampled 24 archived developer/account captures, found 3 target links, added 26 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and left the transient queue clear. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,732 observations and 647 recovered count rows. The developer-list probe report now records skipped developers as a count plus small sample instead of rewriting the full skipped-developer list on every shard.
 - Checkpoint 334 ran the next five-game ranked-priority developer/account-list sweep for Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded, and Bad Eggs Online 2. The pass sampled 48 archived developer/account captures, found 10 target links, added 49 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and left the transient queue clear. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,781 observations and 647 recovered count rows. The lifecycle catalog now carries current added/removed evidence and first-pass Facebook/social candidates, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 - Checkpoint 335 ran the next five-game ranked-priority developer/account-list sweep for Robo Racing, The Adventures of Bit and Ravh, Dino Storm, Unpuzzle, and Medieval Chronicles 7. The pass sampled 47 archived developer/account captures, found 46 target links, added 77 net developer/account-list probe-history observations after a focused transient retry, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,858 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
+- Checkpoint 336 ran the next five-game ranked-priority developer/account-list sweep for Robo-Jump, Discover, Pou Popper, Wheelie Legend, and Battle Of Heroes. The first pass added 45 probe-history observations but hit transient CDX failures; focused retries for Pou Popper and Wheelie Legend added 22 more developer/account-list observations, found 4 Wheelie Legend target links, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,925 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 
 ## Key Files
 

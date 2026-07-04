@@ -1,13 +1,12 @@
 {
-  "candidate_observation_rows": 3,
-  "captures_sampled": 0,
+  "candidate_observation_rows": 12,
+  "captures_sampled": 9,
   "cdx_status_counts": {
-    "failed": 2,
-    "fetched": 1
+    "fetched": 12
   },
   "developer_filters": [],
   "game_name_contains": [
-    "The Adventures of Bit and Ravh"
+    "Pou Popper"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
@@ -30,19 +29,19 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 1,
-    "total": 21858,
-    "updated": 2
+    "added": 12,
+    "total": 21925,
+    "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T11:36:14Z",
+  "run_timestamp": "2026-07-04T11:44:48Z",
   "selected_games_by_developer": {
-    "gillenew": 1
+    "botsgames": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
-  "source_cdx_lookups": 3,
+  "source_cdx_lookups": 6,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
