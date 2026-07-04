@@ -1,28 +1,28 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-03T15:35:35Z
-- Catalog games: 2997
-- Catalog scope: offset 0, limit all (9 games)
-- Audit statuses: all
+- Run timestamp: 2026-07-04T07:43:21Z
+- Catalog games: 2998
+- Catalog scope: offset 0, limit all (325 games)
+- Audit statuses: no_cdx
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: Supermechs,Bloons Monkey City,Crusaders of the Lost Idols,Mu Complex,There is no game,The Enchanted Cave 2,Fleeing the Complex,Game of Thrones Ascent
+- Game-name filter: none
 - Schemes: http, https
-- Cached CDX only: True
-- Expanded route variants: False
-- CDX games considered: 9
-- CDX rows found: 132
-- CDX wall timeout: 8.0
-- Metrics wall timeout: 8.0
+- Cached CDX only: False
+- Expanded route variants: True
+- CDX games considered: 325
+- CDX rows found: 0
+- CDX wall timeout: 12.0
+- Metrics wall timeout: 12.0
 - Missing CDX cache files skipped: 0
-- Metrics jobs: 132
+- Metrics jobs: 0
 - Pending before run: 0
 - Attempted this run: 0
 - Fetched this run: 0
 - Failed this run: 0
 - Manifest entries: 5452
-- History rows: 8032
-- Games with history: 2806
-- History date range: 2007-03-24 to 2026-07-02
+- History rows: 9119
+- Games with history: 2876
+- History date range: 2007-03-24 to 2026-07-04
