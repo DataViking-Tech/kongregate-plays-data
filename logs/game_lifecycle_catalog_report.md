@@ -1,6 +1,6 @@
 # Kongregate Game Lifecycle Catalog Report
 
-- Generated at: 2026-07-04T09:00:41Z
+- Generated at: 2026-07-04T09:10:29Z
 - Catalog games: 2998
 - Rows with observed categories: 580
 - Rows with archived published/uploaded dates: 363
