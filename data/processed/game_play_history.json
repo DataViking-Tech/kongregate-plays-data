@@ -8231,6 +8231,21 @@
       "metrics_url": "http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
       "capture_timestamp": "20160314155408",
       "capture_url": "https://web.archive.org/web/20160314155408/http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160314155408_http_www.kongregate.com_games_HolydayStudios_midas-gold-plus_metrics.json_e6d90bd20e019338.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-03-14",
+      "game_name": "Midas' Gold Plus",
+      "game_url": "http://www.kongregate.com/games/HolydayStudios/midas-gold-plus",
+      "plays_count_observed": 470319,
+      "favorites_count_observed": 1776,
+      "plays_text": "470,319",
+      "favorites_text": "1,776",
+      "metrics_url": "http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
+      "capture_timestamp": "20160314155408",
+      "capture_url": "https://web.archive.org/web/20160314155408/http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160314155408_http_www.kongregate.com_games_HolydayStudios_midas-gold-plus_metrics.json_e6d90bd20e019338.json"
@@ -9194,6 +9209,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160921235428_http_www.kongregate.com_games_randomnine_cardinal-quest-2_metrics.json_2f0367709ac784c5.json"
+    },
+    {
+      "date": "2016-09-21",
+      "game_name": "Midas' Gold Plus",
+      "game_url": "http://www.kongregate.com/games/HolydayStudios/midas-gold-plus",
+      "plays_count_observed": 2360884,
+      "favorites_count_observed": 5032,
+      "plays_text": "2,360,884",
+      "favorites_text": "5,032",
+      "metrics_url": "http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
+      "capture_timestamp": "20160921120953",
+      "capture_url": "https://web.archive.org/web/20160921120953/http://www.kongregate.com/games/HolydayStudios/midas-gold-plus/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160921120953_http_www.kongregate.com_games_HolydayStudios_midas-gold-plus_metrics.json_3100ec05add7a805.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2016-09-21",
@@ -20981,6 +21011,21 @@
       "metrics_url": "https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
       "capture_timestamp": "20200324163606",
       "capture_url": "https://web.archive.org/web/20200324163606/https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200324163606_https_www.kongregate.com_games_kizigames_roadkill-revenge_metrics.json_ba4ba1a415330cb1.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-03-24",
+      "game_name": "Roadkill Revenge",
+      "game_url": "http://www.kongregate.com/games/kizigames/roadkill-revenge",
+      "plays_count_observed": 949840,
+      "favorites_count_observed": 6175,
+      "plays_text": "949,840",
+      "favorites_text": "6,175",
+      "metrics_url": "https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
+      "capture_timestamp": "20200324163606",
+      "capture_url": "https://web.archive.org/web/20200324163606/https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200324163606_https_www.kongregate.com_games_kizigames_roadkill-revenge_metrics.json_ba4ba1a415330cb1.json"
@@ -21044,6 +21089,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200325193532_https_www.kongregate.com_games_somethingggg_ngu-idle_metrics.json_d0dfb40c32387b12.json"
+    },
+    {
+      "date": "2020-03-25",
+      "game_name": "Roadkill Revenge",
+      "game_url": "http://www.kongregate.com/games/kizigames/roadkill-revenge",
+      "plays_count_observed": 949855,
+      "favorites_count_observed": 6175,
+      "plays_text": "949,855",
+      "favorites_text": "6,175",
+      "metrics_url": "https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
+      "capture_timestamp": "20200325193700",
+      "capture_url": "https://web.archive.org/web/20200325193700/https://www.kongregate.com/games/kizigames/roadkill-revenge/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200325193700_https_www.kongregate.com_games_kizigames_roadkill-revenge_metrics.json_159580ef4fae1810.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-03-25",
