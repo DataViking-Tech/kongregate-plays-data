@@ -1,10 +1,10 @@
 {
   "summary": {
-    "run_timestamp": "2026-07-03T19:48:30Z",
-    "html_samples_considered": 3467,
-    "ranking_rows_extracted": 49283,
-    "rows_with_observed_play_counts": 16615,
-    "captures_with_rows": 3316,
+    "run_timestamp": "2026-07-04T00:36:53Z",
+    "html_samples_considered": 3481,
+    "ranking_rows_extracted": 49982,
+    "rows_with_observed_play_counts": 17314,
+    "captures_with_rows": 3330,
     "captures_without_rows": 151,
     "duplicate_rows_removed": 238,
     "ranking_types": [
@@ -17,7 +17,7 @@
       "top_rated"
     ],
     "first_date": "2007-01-20",
-    "last_date": "2026-07-03"
+    "last_date": "2026-07-04"
   },
   "samples": [
     {
@@ -31222,6 +31222,132 @@
       "rows_extracted": 50,
       "confidence": "medium",
       "html_path": "data/raw/html/20260703194735_https_www.kongregate.com_en_tower-defense-games_21648a6fc27340d5.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/action-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_action-games_e665108675e7c4e4.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/adventure-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_adventure-games_14c318331ad0e69d.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/adventure-rpg-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_adventure-rpg-games_651aae5e7ee37b63.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/card-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 49,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_card-games_5f2af43fba35f05a.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/idle-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_idle-games_09f64608b20a8ca1.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/mmo-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_mmo-games_9cfb23a43e9646d3.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/more-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_more-games_6efee5799c395ba0.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/multiplayer-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_multiplayer-games_da46911f949d9ffd.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/puzzle-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_puzzle-games_051b9a346cf6e31a.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/shooter-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_shooter-games_f865d524e70c7a7c.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/sports-racing-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_sports-racing-games_a344be8f1e691f66.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/strategy-defense-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_strategy-defense-games_da275680ae124a4b.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/strategy-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_strategy-games_8c0b33b2cc42a5bd.html"
+    },
+    {
+      "date": "2026-07-04",
+      "source_url": "https://www.kongregate.com/en/tower-defense-games",
+      "capture_timestamp": "20260704003622",
+      "parser": "modern_card_links",
+      "rows_extracted": 50,
+      "confidence": "medium",
+      "html_path": "data/raw/html/20260704003622_https_www.kongregate.com_en_tower-defense-games_7c5679ea2da29547.html"
     }
   ]
 }

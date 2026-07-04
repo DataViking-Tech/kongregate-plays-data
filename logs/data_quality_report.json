@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-07-04T00:26:29Z",
-  "as_of": "2026-07-03",
-  "ranked_rows": 49283,
-  "ranked_rows_with_play_counts": 16615,
-  "ranked_rows_with_aggregate_asof_play_counts": 44188,
+  "run_timestamp": "2026-07-04T00:39:13Z",
+  "as_of": "2026-07-04",
+  "ranked_rows": 49982,
+  "ranked_rows_with_play_counts": 17314,
+  "ranked_rows_with_aggregate_asof_play_counts": 44887,
   "ranked_date_range": [
     "2007-01-20",
-    "2026-07-03"
+    "2026-07-04"
   ],
   "catalog_games": 2998,
   "metrics_history_rows": 8435,
@@ -40,7 +40,7 @@
   "play_count_decreases": 0,
   "suspicious_metric_route_decreases": 2,
   "source_conflict_play_count_decreases": 7,
-  "stale_listing_play_count_observations": 503,
+  "stale_listing_play_count_observations": 574,
   "issues": [
     {
       "severity": "medium",
@@ -106,9 +106,9 @@
       "severity": "low",
       "area": "plays",
       "issue_type": "stale_listing_play_count_observations",
-      "count": 503,
+      "count": 574,
       "first_date": "2012-03-12",
-      "last_date": "2026-07-03",
+      "last_date": "2026-07-04",
       "example": "Boxhead: More Rooms",
       "recommended_action": "Kept as raw observations, but excluded from true decrease counts because the value repeats an older listing count."
     }

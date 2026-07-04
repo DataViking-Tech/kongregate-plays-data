@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-04T00:28:34.478Z",
-  "sheetUrl": "https://docs.google.com/spreadsheets/d/1bhTDNiMh77txSc09jcNd0_kDWM5MOf2vsm721LBCvrw",
+  "generatedAt": "2026-07-04T00:41:37.112Z",
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/1l9zhsbEwU2bS3LETVUMJoHPXcF_JzYQPBGdrr1WUmEE",
   "summary": {
-    "observedRows": 25050,
-    "rankedObservedRows": 16615,
+    "observedRows": 25749,
+    "rankedObservedRows": 17314,
     "metricsObservedRows": 8435,
-    "frameCount": 2342,
+    "frameCount": 2343,
     "firstDate": "2007-01-20",
-    "lastDate": "2026-07-03",
+    "lastDate": "2026-07-04",
     "topN": 12,
     "dataSources": [
       "data/processed/ranked_games.json",
@@ -325418,6 +325418,145 @@
     {
       "date": "2026-07-03",
       "observedRows": 700,
+      "trackedGames": 3117,
+      "entries": [
+        {
+          "key": "kongregate-game:dawn-of-the-dragons",
+          "gameName": "Dawn of the Dragons",
+          "developer": "5thPlanetGames",
+          "gameUrl": "http://www.kongregate.com/games/5thPlanetGames/dawn-of-the-dragons",
+          "plays": 80027793,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 1
+        },
+        {
+          "key": "kongregate-game:tyrant",
+          "gameName": "Tyrant",
+          "developer": "synapticon",
+          "gameUrl": "http://www.kongregate.com/games/synapticon/tyrant",
+          "plays": 61045090,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 2
+        },
+        {
+          "key": "kongregate-game:contract-wars",
+          "gameName": "Contract Wars",
+          "developer": "tfender",
+          "gameUrl": "http://www.kongregate.com/games/tfender/contract-wars",
+          "plays": 61019792,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 3
+        },
+        {
+          "key": "kongregate-game:adventure-capitalist",
+          "gameName": "AdVenture Capitalist",
+          "developer": "HyperHippoGames",
+          "gameUrl": "http://www.kongregate.com/games/HyperHippoGames/adventure-capitalist",
+          "plays": 51199942,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 4
+        },
+        {
+          "key": "kongregate-game:mutilate-a-doll-2",
+          "gameName": "Mutilate-a-Doll 2",
+          "developer": "0rava",
+          "gameUrl": "http://www.kongregate.com/games/0rava/mutilate-a-doll-2",
+          "plays": 47033253,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 5
+        },
+        {
+          "key": "kongregate-game:counter-strike-web-browser-based-port-v2",
+          "gameName": "CS Portable",
+          "developer": "CriticalForceEt",
+          "gameUrl": "http://www.kongregate.com/games/CriticalForceEt/counter-strike-web-browser-based-port-v2",
+          "plays": 44326156,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 6
+        },
+        {
+          "key": "kongregate-game:backyard-monsters",
+          "gameName": "Backyard Monsters",
+          "developer": "KIXEYE",
+          "gameUrl": "http://www.kongregate.com/games/KIXEYE/backyard-monsters",
+          "plays": 40156446,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 7
+        },
+        {
+          "key": "kongregate-game:realm-grinder",
+          "gameName": "Realm Grinder",
+          "developer": "DivineGames",
+          "gameUrl": "http://www.kongregate.com/games/DivineGames/realm-grinder",
+          "plays": 35838850,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 8
+        },
+        {
+          "key": "kongregate-game:bloons-td-5",
+          "gameName": "Bloons TD 5",
+          "developer": "Ninjakiwi",
+          "gameUrl": "http://www.kongregate.com/games/Ninjakiwi/bloons-td-5",
+          "plays": 35474641,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 9
+        },
+        {
+          "key": "kongregate-game:clicker-heroes",
+          "gameName": "Clicker Heroes",
+          "developer": "Playsaurus",
+          "gameUrl": "http://www.kongregate.com/games/Playsaurus/clicker-heroes",
+          "plays": 34904723,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 10
+        },
+        {
+          "key": "kongregate-game:game-of-thrones-ascent",
+          "gameName": "Game of Thrones Ascent",
+          "developer": "DisruptorBeam",
+          "gameUrl": "http://www.kongregate.com/games/DisruptorBeam/game-of-thrones-ascent",
+          "plays": 34612895,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 11
+        },
+        {
+          "key": "kongregate-game:platform-racing-2",
+          "gameName": "Platform Racing 2",
+          "developer": "Jiggmin",
+          "gameUrl": "http://www.kongregate.com/games/Jiggmin/platform-racing-2",
+          "plays": 33546781,
+          "lastObservedDate": "2026-07-02",
+          "rankOnDate": "",
+          "source": "live_metrics_json",
+          "rank": 12
+        }
+      ]
+    },
+    {
+      "date": "2026-07-04",
+      "observedRows": 699,
       "trackedGames": 3117,
       "entries": [
         {
