@@ -1,19 +1,19 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 3,
+  "candidate_observation_rows": 1,
   "candidates_with_cdx": 0,
-  "cdx_lookups": 3,
+  "cdx_lookups": 1,
   "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 3
+    "fetched": 1
   },
   "cdx_wall_timeout": 45.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 3,
+  "games_direct_probed": 1,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_304.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_305.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
   "max_cdx_lookups": 8,
@@ -30,290 +30,290 @@
   "payload_wall_timeout": 24.0,
   "payloads_with_count_signal": 0,
   "per_game": {
-    "BAW(Alpha Version)": {
+    "Apocalypse Z": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/PixSelStudios/baw-alpha-version",
+      "game_url": "http://www.kongregate.com/games/SanosVerd/apocalypse-z",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "BMX MASTER": {
+    "Bad Manors": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/MASTERMANXD/bmx-master",
+      "game_url": "http://www.kongregate.com/games/YugimonGX/bad-manors",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Beater A": {
+    "Berta - LD30": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/JaDaSpan/berta-ld30",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Calming": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/Slewth1/calming",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Crazy Zombie v3.0": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/coolappsgame/crazy-zombie-v3-0",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Cube Escape: Theatre": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "https://www.kongregate.com/games/RustyLake/cube-escape-theatre",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Escape Mystic Room": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/quicksailor/escape-mystic-room",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Firewall Frenzy": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/sunaj10/firewall-frenzy",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Glue Knight 1.3 + Editor": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/GameReclaim/glue-knight-1-3-editor",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "GoodWitch": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/JeuxBebel/goodwitch",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Humpty's shootout": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/JeremyW/humptys-shootout",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Island Tour": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/MagicCube/island-tour",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Jelly Slice": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/GeorgesE4/beater-a",
+      "game_url": "http://www.kongregate.com/games/TreSensa/jelly-slice",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Bobblehead Boxing": {
+    "Kamacy (kamaci) VS Kermidde (kermaid)": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/AndrewZimmer/bobblehead-boxing",
+      "game_url": "http://www.kongregate.com/games/RHMonGAME/kamacy-kamaci-vs-kermidde-kermaid",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Bouncy Ball": {
+    "Lumber Jack": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/AwesomeApps/bouncy-ball",
+      "game_url": "http://www.kongregate.com/games/trashmail1/lumber-jack",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "CarArena.io": {
+    "Medieval Chronicles 1": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/orndotio/cararena-io",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-1",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Cotswold House Crown Escape": {
+    "Minecraft Block Match": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/yolkgamez/cotswold-house-crown-escape",
+      "game_url": "http://www.kongregate.com/games/naghistefan94/minecraft-block-match",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Crunched metal: Drifting Wars": {
+    "MoleMan": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/PacoGame5/crunched-metal-drifting-wars",
+      "game_url": "https://www.kongregate.com/games/Luigiplayer/moleman",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "CubeBolt": {
+    "Nightfall": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Reconj/cubebolt",
+      "game_url": "http://www.kongregate.com/games/hazard_Gamer/nightfall",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Drill Wars": {
+    "Penguin Clicker (Beta)": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/LordCripplus/drill-wars",
+      "game_url": "http://www.kongregate.com/games/BullerSweety/penguin-clicker-beta",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "El Juego Del adivinador": {
+    "Pizza Delivery Puzzles": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Asesinopro995/el-juego-del-adivinador",
+      "game_url": "https://www.kongregate.com/games/dslevis/foodzong",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Endless Planes": {
+    "Pou Jelly World 3": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Farmerboy562/endless-planes",
+      "game_url": "http://www.kongregate.com/games/pupugames/pou-jelly-world-3",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Escape Dead End 4": {
+    "Rise of Mythos": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/escape-dead-end-4",
+      "game_url": "http://www.kongregate.com/games/GameFuse/rise-of-mythos",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Galactic Convoy 2": {
+    "Sara Motocross Climb": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/DexterReal/galactic-convoy-2",
+      "game_url": "http://www.kongregate.com/games/loogames/sara-motocross-climb",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Joy and Disgust Shopping": {
+    "Soccer Player Idle": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gamesforgirlz/joy-and-disgust-shopping",
+      "game_url": "http://www.kongregate.com/games/ZuvayGame/soccer-player-idle",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Kidnapped!": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/zombiefy/kidnapped",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Knf Halloween Abandoned Theatre Escape": {
+    "The World of Zolcraft": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/knfgames/knf-halloween-abandoned-theatre-escape",
+      "game_url": "http://www.kongregate.com/games/brvasil/the-world-of-zolcraft",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Le Shoot 'Em Up": {
+    "Tower Keepers": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/SaitenHazard/le-shoot-em-up",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/tower-keepers",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Lost Of Kingdom Tunnels": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Enagamess/lost-of-kingdom-tunnels",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "MR LAL The Detective 13": {
+    "Ultraman vs devils": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/mr-lal-the-detective-13",
+      "game_url": "http://www.kongregate.com/games/coolappsgame/ultraman-vs-devils",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Missile Clonando": {
+    "Unexpected Movement": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/NemorisGames/missile-clonando",
+      "game_url": "http://www.kongregate.com/games/SandraKim/unexpected-movement",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Missile Mayhem": {
+    "Zombies Mashed Potatoes": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/demeko/missile-mayhem",
+      "game_url": "http://www.kongregate.com/games/IanStokes/zombies-mashed-potatoes",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "MonsterMash": {
+    "kill the guys": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Gregorio236/monstermash",
+      "game_url": "http://www.kongregate.com/games/superols/kill-the-guys",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Move the Blocks": {
+    "test": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gamer70008000/move-the-blocks",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Platform Legend": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/A72_Games/platform-legend",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Pumpkin Dash": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/FathomSchmidt/pumpkin-dash",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Ripple": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Ric3D/ripple",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Salata Man": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/omerturac/salata-man",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Shift Deviate": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/cruzami4life/shift-deviate",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Stupid Stones Adventure": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Halvarssongames/stupid-stones-adventure",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Trump Jump: The Game": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/SnoBoxStudio/trump-jump-the-game",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Typing Invaders": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Legion111/typing-invaders",
+      "game_url": "http://www.kongregate.com/games/Whatahooda/test",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -321,14 +321,14 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 786
+    "total": 794
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 18402,
+    "added": 1,
+    "total": 18521,
     "updated": 0
   },
-  "run_timestamp": "2026-07-04T02:28:24Z",
+  "run_timestamp": "2026-07-04T02:39:28Z",
   "source_types": [
     "metrics_json"
   ],

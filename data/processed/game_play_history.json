@@ -8531,6 +8531,21 @@
       "metrics_url": "http://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
       "capture_timestamp": "20160503151725",
       "capture_url": "https://web.archive.org/web/20160503151725/http://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160503151725_http_www.kongregate.com_games_RustyLake_cube-escape-theatre_metrics.json_b84c174274247aea.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-05-03",
+      "game_name": "Cube Escape: Theatre",
+      "game_url": "https://www.kongregate.com/games/RustyLake/cube-escape-theatre",
+      "plays_count_observed": 54702,
+      "favorites_count_observed": 573,
+      "plays_text": "54,702",
+      "favorites_text": "573",
+      "metrics_url": "http://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
+      "capture_timestamp": "20160503151725",
+      "capture_url": "https://web.archive.org/web/20160503151725/http://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160503151725_http_www.kongregate.com_games_RustyLake_cube-escape-theatre_metrics.json_b84c174274247aea.json"
@@ -13526,6 +13541,21 @@
       "metrics_url": "https://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
       "capture_timestamp": "20190702072652",
       "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190702072652_https_www.kongregate.com_games_RustyLake_cube-escape-theatre_metrics.json_68ccc8ab5b1b9dd4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-07-02",
+      "game_name": "Cube Escape: Theatre",
+      "game_url": "https://www.kongregate.com/games/RustyLake/cube-escape-theatre",
+      "plays_count_observed": 311392,
+      "favorites_count_observed": 2111,
+      "plays_text": "311,392",
+      "favorites_text": "2,111",
+      "metrics_url": "https://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
+      "capture_timestamp": "20190702072652",
+      "capture_url": "https://web.archive.org/web/20190702072652/https://www.kongregate.com/games/RustyLake/cube-escape-theatre/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072652_https_www.kongregate.com_games_RustyLake_cube-escape-theatre_metrics.json_68ccc8ab5b1b9dd4.json"
@@ -15161,6 +15191,21 @@
       "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
       "capture_timestamp": "20191017183753",
       "capture_url": "https://web.archive.org/web/20191017183753/https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191017183753_https_www.kongregate.com_games_Ninjakiwi_tower-keepers_metrics.json_2b02dbae470f7285.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-10-17",
+      "game_name": "Tower Keepers",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/tower-keepers",
+      "plays_count_observed": 3035376,
+      "favorites_count_observed": 5625,
+      "plays_text": "3,035,376",
+      "favorites_text": "5,625",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
+      "capture_timestamp": "20191017183753",
+      "capture_url": "https://web.archive.org/web/20191017183753/https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191017183753_https_www.kongregate.com_games_Ninjakiwi_tower-keepers_metrics.json_2b02dbae470f7285.json"
@@ -16184,6 +16229,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191027045010_https_www.kongregate.com_games_XmmmX99_the-perfect-tower_metrics.json_84d6888e321d3397.json"
+    },
+    {
+      "date": "2019-10-27",
+      "game_name": "Tower Keepers",
+      "game_url": "http://www.kongregate.com/games/Ninjakiwi/tower-keepers",
+      "plays_count_observed": 3043682,
+      "favorites_count_observed": 5633,
+      "plays_text": "3,043,682",
+      "favorites_text": "5,633",
+      "metrics_url": "https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
+      "capture_timestamp": "20191027045009",
+      "capture_url": "https://web.archive.org/web/20191027045009/https://www.kongregate.com/games/Ninjakiwi/tower-keepers/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191027045009_https_www.kongregate.com_games_Ninjakiwi_tower-keepers_metrics.json_15d086cac392a92e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-27",
@@ -29309,6 +29369,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201127011831_https_www.kongregate.com_games_TheGameHomepage_red-remover_metrics.json_d25341d2302f5b57.json"
+    },
+    {
+      "date": "2020-11-27",
+      "game_name": "Rise of Mythos",
+      "game_url": "http://www.kongregate.com/games/GameFuse/rise-of-mythos",
+      "plays_count_observed": 18934107,
+      "favorites_count_observed": 47,
+      "plays_text": "18,934,107",
+      "favorites_text": "47",
+      "metrics_url": "http://www.kongregate.com/games/GameFuse/rise-of-mythos/metrics.json",
+      "capture_timestamp": "20201127224728",
+      "capture_url": "https://web.archive.org/web/20201127224728/http://www.kongregate.com/games/GameFuse/rise-of-mythos/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201127224728_http_www.kongregate.com_games_GameFuse_rise-of-mythos_metrics.json_9c7f3e796ad16b97.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-11-27",
@@ -47486,6 +47561,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-1/metrics.json",
       "capture_timestamp": "20220315200135",
       "capture_url": "https://web.archive.org/web/20220315200135/https://www.kongregate.com/games/VasantJ/medieval-chronicles-1/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220315200135_https_www.kongregate.com_games_VasantJ_medieval-chronicles-1_metrics.json_ac7cf8febca6b4f2.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-03-15",
+      "game_name": "Medieval Chronicles 1",
+      "game_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-1",
+      "plays_count_observed": 88760,
+      "favorites_count_observed": 849,
+      "plays_text": "88,760",
+      "favorites_text": "849",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-chronicles-1/metrics.json",
+      "capture_timestamp": "20220315200135",
+      "capture_url": "https://web.archive.org/web/20220315200135/https://www.kongregate.com/games/VasantJ/medieval-chronicles-1/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220315200135_https_www.kongregate.com_games_VasantJ_medieval-chronicles-1_metrics.json_ac7cf8febca6b4f2.json"
@@ -64091,6 +64181,21 @@
       "metrics_url": "https://www.kongregate.com/games/SandraKim/unexpected-movement/metrics.json",
       "capture_timestamp": "20230722012252",
       "capture_url": "https://web.archive.org/web/20230722012252/https://www.kongregate.com/games/SandraKim/unexpected-movement/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230722012252_https_www.kongregate.com_games_SandraKim_unexpected-movement_metrics.json_686f894f9ac2f66a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-07-22",
+      "game_name": "Unexpected Movement",
+      "game_url": "http://www.kongregate.com/games/SandraKim/unexpected-movement",
+      "plays_count_observed": 100,
+      "favorites_count_observed": 0,
+      "plays_text": "100",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/SandraKim/unexpected-movement/metrics.json",
+      "capture_timestamp": "20230722012252",
+      "capture_url": "https://web.archive.org/web/20230722012252/https://www.kongregate.com/games/SandraKim/unexpected-movement/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230722012252_https_www.kongregate.com_games_SandraKim_unexpected-movement_metrics.json_686f894f9ac2f66a.json"
@@ -65864,6 +65969,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230901233718_https_www.kongregate.com_games_Embair_konkr-io_metrics.json_ab829941c1eecb7f.json"
+    },
+    {
+      "date": "2023-09-01",
+      "game_name": "Nightfall",
+      "game_url": "http://www.kongregate.com/games/hazard_Gamer/nightfall",
+      "plays_count_observed": 376,
+      "favorites_count_observed": 2,
+      "plays_text": "376",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/hazard_Gamer/nightfall/metrics.json",
+      "capture_timestamp": "20230901235813",
+      "capture_url": "https://web.archive.org/web/20230901235813/https://www.kongregate.com/games/hazard_Gamer/nightfall/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230901235813_https_www.kongregate.com_games_hazard_Gamer_nightfall_metrics.json_3fcd822307ea2286.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-09-01",
