@@ -6,7 +6,7 @@ Live chart:
 
 https://dataviking-tech.github.io/kongregate-plays-data/
 
-The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from this repo at runtime. The Google Sheet is a companion workbook link, not the chart's live data source.
+The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json` from this repo at runtime. The Google Sheet is a companion workbook link, not the chart's live data source. GitHub Pages publishes a small web-facing artifact with the chart and runtime JSON; the full scripts, workbooks, reports, and processed datasets remain in the repository.
 
 Current Google Sheet workbook:
 
