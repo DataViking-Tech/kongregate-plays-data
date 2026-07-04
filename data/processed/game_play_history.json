@@ -9641,6 +9641,21 @@
       "metrics_url": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
       "capture_timestamp": "20170208203211",
       "capture_url": "https://web.archive.org/web/20170208203211/http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170208203211_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_5ec23c82b4765a66.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2017-02-08",
+      "game_name": "Idle Sword 2",
+      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
+      "plays_count_observed": 294492,
+      "favorites_count_observed": 2569,
+      "plays_text": "294,492",
+      "favorites_text": "2,569",
+      "metrics_url": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
+      "capture_timestamp": "20170208203211",
+      "capture_url": "https://web.archive.org/web/20170208203211/http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170208203211_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_5ec23c82b4765a66.json"
@@ -9899,6 +9914,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20170626233239_http_www.kongregate.com_80_games_Justin_wang123_rogue-fable-ii_metrics.json_bc00a967bc3a0e40.json"
+    },
+    {
+      "date": "2017-07-24",
+      "game_name": "Curl Up and Fly!",
+      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
+      "plays_count_observed": 848042,
+      "favorites_count_observed": 12547,
+      "plays_text": "848,042",
+      "favorites_text": "12,547",
+      "metrics_url": "http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json",
+      "capture_timestamp": "20170724072540",
+      "capture_url": "https://web.archive.org/web/20170724072540/http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20170724072540_http_www.kongregate.com_80_games_Kongregate_curl-up-and-fly_metrics.json_66835c2c3a59c916.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2017-07-24",
@@ -11276,6 +11306,21 @@
       "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
       "capture_timestamp": "20180406143856",
       "capture_url": "https://web.archive.org/web/20180406143856/http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20180406143856_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_fc6c60b05bedf60f.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2018-04-06",
+      "game_name": "Burrito Bison: Launcha Libre",
+      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
+      "plays_count_observed": 2282631,
+      "favorites_count_observed": 12939,
+      "plays_text": "2,282,631",
+      "favorites_text": "12,939",
+      "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "capture_timestamp": "20180406143856",
+      "capture_url": "https://web.archive.org/web/20180406143856/http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20180406143856_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_fc6c60b05bedf60f.json"
@@ -12581,6 +12626,21 @@
       "metrics_url": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
       "capture_timestamp": "20190205033138",
       "capture_url": "https://web.archive.org/web/20190205033138/http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190205033138_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_c14b0cb751d3afbc.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Idle Sword 2",
+      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
+      "plays_count_observed": 646160,
+      "favorites_count_observed": 5522,
+      "plays_text": "646,160",
+      "favorites_text": "5,522",
+      "metrics_url": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
+      "capture_timestamp": "20190205033138",
+      "capture_url": "https://web.archive.org/web/20190205033138/http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033138_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_c14b0cb751d3afbc.json"
@@ -13034,6 +13094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Wizard (And Minion) Idle",
+      "game_url": "https://www.kongregate.com/games/Oninou/wami",
+      "plays_count_observed": 364498,
+      "favorites_count_observed": 1066,
+      "plays_text": "364,498",
+      "favorites_text": "1,066",
+      "metrics_url": "https://www.kongregate.com/games/Oninou/wami/metrics.json",
+      "capture_timestamp": "20190205033138",
+      "capture_url": "https://web.archive.org/web/20190205033138/https://www.kongregate.com/games/Oninou/wami/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190205033138_https_www.kongregate.com_games_Oninou_wami_metrics.json_97451587032024e4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-02-05",
@@ -14609,6 +14684,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191011224607_http_www.kongregate.com_games_preecep_desktop-tower-defense-1-5_metrics.json_4d29451019cf02a9.json"
+    },
+    {
+      "date": "2019-10-12",
+      "game_name": "Wizard (And Minion) Idle",
+      "game_url": "https://www.kongregate.com/games/Oninou/wami",
+      "plays_count_observed": 908257,
+      "favorites_count_observed": 1625,
+      "plays_text": "908,257",
+      "favorites_text": "1,625",
+      "metrics_url": "https://www.kongregate.com/games/Oninou/wami/metrics.json",
+      "capture_timestamp": "20191012052844",
+      "capture_url": "https://web.archive.org/web/20191012052844/https://www.kongregate.com/games/Oninou/wami/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191012052844_https_www.kongregate.com_games_Oninou_wami_metrics.json_aece97f7c13f953c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-10-12",
@@ -42461,6 +42551,21 @@
       "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
       "capture_timestamp": "20211110143059",
       "capture_url": "https://web.archive.org/web/20211110143059/http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211110143059_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_4b8729cbee94e351.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-11-10",
+      "game_name": "Burrito Bison: Launcha Libre",
+      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
+      "plays_count_observed": 3670259,
+      "favorites_count_observed": 17313,
+      "plays_text": "3,670,259",
+      "favorites_text": "17,313",
+      "metrics_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
+      "capture_timestamp": "20211110143059",
+      "capture_url": "https://web.archive.org/web/20211110143059/http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211110143059_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_4b8729cbee94e351.json"
@@ -43514,6 +43619,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211119084939_https_www.kongregate.com_games_TerryCavanagh_B_chatchat_metrics.json_e32a6e9f1bb61590.json"
+    },
+    {
+      "date": "2021-11-19",
+      "game_name": "Curl Up and Fly!",
+      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
+      "plays_count_observed": 1004525,
+      "favorites_count_observed": 13719,
+      "plays_text": "1,004,525",
+      "favorites_text": "13,719",
+      "metrics_url": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
+      "capture_timestamp": "20211119143805",
+      "capture_url": "https://web.archive.org/web/20211119143805/https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211119143805_https_www.kongregate.com_games_Kongregate_curl-up-and-fly_metrics.json_0b77d1647456879c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-11-19",
@@ -44969,6 +45089,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20211204214138_http_www.kongregate.com_games_Jiggmin_platform-racing-2_metrics.json_f21be2d3f9b61e13.json"
+    },
+    {
+      "date": "2021-12-09",
+      "game_name": "Dope Slinger Tycoon",
+      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
+      "plays_count_observed": 560859,
+      "favorites_count_observed": 2874,
+      "plays_text": "560,859",
+      "favorites_text": "2,874",
+      "metrics_url": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
+      "capture_timestamp": "20211209174944",
+      "capture_url": "https://web.archive.org/web/20211209174944/https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20211209174944_https_www.kongregate.com_games_JamesG466_dope-slinger-tycoon_metrics.json_ec45e94f337ad924.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-12-09",
