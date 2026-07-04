@@ -1,40 +1,49 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T05:20:08Z
+- Generated: 2026-07-04T05:34:40Z
 - Target games: 32
 - Status filter: none
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 17
-- Endpoint candidates checked: 31
-- Candidate observation rows: 33
-- CDX status counts: failed=9, fetched=24
+- Games direct-probed from catalog URLs: 14
+- Endpoint candidates checked: 26
+- Candidate observation rows: 28
+- CDX status counts: failed=7, fetched=21
 - CDX rows found: 12
-- Candidates with CDX rows: 4
-- Payloads with count-like signals: 3
-- Parsed play-count rows: 3
-- Deduped recovered play-count observations: 861 (2 new this run)
-- Accumulated probe-history rows: 19848 (24 new, 9 refreshed)
+- Candidates with CDX rows: 8
+- Payloads with count-like signals: 8
+- Parsed play-count rows: 8
+- Deduped recovered play-count observations: 867 (4 new this run)
+- Accumulated probe-history rows: 19947 (21 new, 7 refreshed)
 
 ## Count Signals
 
 | Game | Source | Endpoint | Sample | Signal | Plays |
 | --- | --- | --- | --- | --- | --- |
-| Splitter 2 | metrics_json | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | gameplays_count_with_delimiter | 3335340 |
-| Splitter 2 | metrics_json | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | gameplays_count_with_delimiter | 3332734 |
-| Splitter 2 | metrics_json | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | gameplays_count_with_delimiter | 3332734 |
+| Spaceship Shooter | metrics_json | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | gameplays_count_with_delimiter | 8708 |
+| Spaceship Shooter | metrics_json | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | gameplays_count_with_delimiter | 8708 |
+| Spaceship Shooter | metrics_json | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | gameplays_count_with_delimiter | 8659 |
+| Spaceship Shooter | metrics_json | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | gameplays_count_with_delimiter | 8659 |
+| school project 3d forrest | metrics_json | `http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | gameplays_count_with_delimiter | 312 |
+| school project 3d forrest | metrics_json | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | gameplays_count_with_delimiter | 312 |
+| sCHOOL | metrics_json | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | gameplays_count_with_delimiter | 61 |
+| sCHOOL | metrics_json | `https://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | gameplays_count_with_delimiter | 61 |
 
 ## Archived Endpoint Hits
 
 | Game | Source | Endpoint | Sample | CDX rows |
 | --- | --- | --- | --- | ---: |
-| Splitter 2 | metrics_json | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | 3 |
-| Splitter 2 | metrics_json | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | 3 |
-| Splitter 2 | metrics_json | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | 3 |
-| Splitter 2 | metrics_json | `http://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | `https://www.kongregate.com/games/CasualCollective/splitter-2/metrics.json` | 3 |
+| Spaceship Shooter | metrics_json | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | 2 |
+| Spaceship Shooter | metrics_json | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | 2 |
+| Spaceship Shooter | metrics_json | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | 2 |
+| Spaceship Shooter | metrics_json | `https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | `http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json` | 2 |
+| school project 3d forrest | metrics_json | `http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | 1 |
+| school project 3d forrest | metrics_json | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | `https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json` | 1 |
+| sCHOOL | metrics_json | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | 1 |
+| sCHOOL | metrics_json | `https://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | `http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json` | 1 |
 
 ## Retry Note
 
-9 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+7 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 
