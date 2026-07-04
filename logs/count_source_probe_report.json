@@ -1,20 +1,20 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 33,
-  "candidates_with_cdx": 12,
-  "cdx_lookups": 28,
-  "cdx_rows_found": 270,
+  "candidate_observation_rows": 19,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 19,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "failed": 6,
-    "fetched": 27
+    "failed": 3,
+    "fetched": 16
   },
   "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 17,
+  "games_direct_probed": 12,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_311.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_312.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
   "max_cdx_lookups": 80,
@@ -27,321 +27,309 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 8,
+  "parsed_play_count_rows": 0,
   "payload_wall_timeout": 20.0,
-  "payloads_with_count_signal": 8,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "Babysitting for Halloween": {
+    "1010 Puzzle Blocks Game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/funnypeppygames/babysitting-for-halloween",
+      "game_url": "http://www.kongregate.com/games/GeosMedia/1010-puzzle-blocks-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Beach Head Angry Birds": {
+    "20 Clicks": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/hibiscus070133/beach-head-angry-birds",
+      "game_url": "http://www.kongregate.com/games/mdgani11/20-clicks",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Burrito Bison: Launcha Libre": {
-      "candidates_with_cdx": 4,
-      "direct_catalog_probe_candidates": 4,
-      "endpoint_candidates": 4,
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
+    "3/2 Chess": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/shurf771/3-2-chess",
       "pages_checked": 0,
-      "parsed_play_counts": [
-        3670259,
-        2282631
-      ],
-      "payloads_with_count_signal": 2
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
     },
-    "Charmed in the Garden": {
+    "Annihilation Derby": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/RhettBlood/annihilation-derby",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Antraxx Alpha Demo": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/AntraxxGame/antraxx-alpha-demo",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Car Stunt Simulator": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/Gunsling3r/car-stunt-simulator",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Chase the question paper": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Enagamess/chase-the-question-paper",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Christmas Tree Decorations": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/SandraKim/charmed-in-the-garden",
+      "game_url": "http://www.kongregate.com/games/HiHoy/christmas-tree-decorations",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Chess 3d - the classic strategy game": {
+    "Dark Ascent (WIP)": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/pitanello/chess-3d-the-classic-strategy-game",
+      "game_url": "http://www.kongregate.com/games/tommtom9/dark-ascent-wip",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Curl Up and Fly!": {
-      "candidates_with_cdx": 4,
-      "direct_catalog_probe_candidates": 4,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
+    "Dora And Mermaid Birthday": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/qywlgame/dora-and-mermaid-birthday",
       "pages_checked": 0,
-      "parsed_play_counts": [
-        1004525,
-        848042
-      ],
-      "payloads_with_count_signal": 2
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
     },
-    "Destructodon": {
+    "Drunk Driver": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/PaulHTML5/drunk-driver",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Easter Eggs Memory": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/newgamess/easter-eggs-memory",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Fantasy City Builder": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/nagolinc/fantasy-city-builder",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Five Camping Tips": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/SandraKim/five-camping-tips",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Idle metropolis": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/NicoCcino/idle-metropolis",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Lionheart Tactics": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/EmeraldCityGames/lionheart-tactics-web",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Little Bear ALPHA": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/BuffaloPhil/destructodon",
+      "game_url": "http://www.kongregate.com/games/GameDots/little-bear-alpha",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dodger: Ragdoll Edition": {
+    "Miami Mafia Hitman": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/StaticHS/dodger-ragdoll-edition",
+      "game_url": "http://www.kongregate.com/games/gamolition/miami-mafia-hitman",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dope Slinger Tycoon": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
+    "Minimalistic Slotmachine": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/Alberton/minimalistic-slotmachine",
       "pages_checked": 0,
-      "parsed_play_counts": [
-        560859,
-        560859
-      ],
-      "payloads_with_count_signal": 2
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
     },
-    "Dragon Quest": {
+    "Mixer Truck Jigsaw": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/newgamess/mixer-truck-jigsaw",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Reaction Clicker": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Andreu1415/dragon-quest",
+      "game_url": "http://www.kongregate.com/games/SwingShock/reaction-clicker",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Escape From Ghost House": {
+    "Sweet Colony!": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/MossyStump/sweet-colony",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Tap Heroes": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/top10newgames/escape-from-ghost-house",
+      "game_url": "http://www.kongregate.com/games/VaragtP/tap-heroes",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Fotis putsos": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/GiwrgosCh/fotis-putsos",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Gravity Game - Charity Edition": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "https://www.kongregate.com/games/NessieGaming/gravity-game-charity-edition",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Guess the Number": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/ruinmasters/guess-the-number",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Hello Kitty Defend The Flowers": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/yyplay/hello-kitty-defend-the-flowers",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Idle Photosynthesis": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Qmario1/idle-photosynthesis",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Idle Sword 2": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        646160,
-        294492
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Keep Watching": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/KennethBScott/keep-watching",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Keep2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/meok95/keep2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Mara Terminal Velocity": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Dakiu/mara-terminal-velocity",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Max Dirt Bike 3": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Saekism/max-dirt-bike-3",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "My Fathers Hotel": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/SandraKim/my-fathers-hotel",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Nami The Fox": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Tigrra/nami-the-fox",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Roller": {
+    "Tesla X Jigsaw": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Naruku/roller",
+      "game_url": "http://www.kongregate.com/games/newgamess/tesla-x-jigsaw",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Roller Runner": {
+    "The Impossible Game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/RM2369/roller-runner",
+      "game_url": "http://www.kongregate.com/games/piglet777/the-impossible-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Save The US President": {
+    "Unity Ball Roller": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/prepkunow/unity-ball-roller",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Xmas Brickout": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Aiursrage2k/xmas-brickout",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "ZombieAssault": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/eaglelord567/zombieassault",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "[Redacted]": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Enagamess/save-the-us-president",
+      "game_url": "http://www.kongregate.com/games/swirly/redacted",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "SpaceFight": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/alincviv/spacefight",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Stampede": {
+    "crazy dice": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/jinfox91/stampede",
+      "game_url": "http://www.kongregate.com/games/jocmania/crazy-dice",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Super Hair Salon": {
+    "ittwbi": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/oyunlar1com/super-hair-salon",
+      "game_url": "http://www.kongregate.com/games/EGees/ittwbi",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "What Stars are Made of (Pre-Alpha)": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/darksharkmark/what-stars-are-made-of-pre-alpha",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Winged Wheels": {
+    "my first TDS game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Tenfor/winged-wheels",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Wizard (And Minion) Idle": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "https://www.kongregate.com/games/Oninou/wami",
+      "game_url": "http://www.kongregate.com/games/munoz20/my-first-tds-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 6,
-    "total": 823
+    "added": 0,
+    "total": 824
   },
   "persisted_probe_history": {
-    "added": 27,
-    "total": 19176,
-    "updated": 6
+    "added": 16,
+    "total": 19288,
+    "updated": 3
   },
-  "run_timestamp": "2026-07-04T03:56:41Z",
+  "run_timestamp": "2026-07-04T04:13:46Z",
   "source_types": [
     "metrics_json"
   ],
@@ -353,349 +341,7 @@
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 3670259,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211110143059_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_4b8729cbee94e351.txt",
-      "sample_timestamp": "20211110143059",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 2282631,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180406143856_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_fc6c60b05bedf60f.txt",
-      "sample_timestamp": "20180406143856",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 1004525,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119143805_https_www.kongregate.com_games_Kongregate_curl-up-and-fly_metrics.json_0b77d1647456879c.txt",
-      "sample_timestamp": "20211119143805",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 848042,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20170724072540_http_www.kongregate.com_80_games_Kongregate_curl-up-and-fly_metrics.json_66835c2c3a59c916.txt",
-      "sample_timestamp": "20170724072540",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 8,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "game_name": "Idle Sword 2",
-      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 646160,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20190205033138_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_c14b0cb751d3afbc.txt",
-      "sample_timestamp": "20190205033138",
-      "source_page_path": "",
-      "source_page_timestamp": "20170105000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "game_name": "Dope Slinger Tycoon",
-      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 560859,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211209174944_https_www.kongregate.com_games_JamesG466_dope-slinger-tycoon_metrics.json_ec45e94f337ad924.txt",
-      "sample_timestamp": "20211209174944",
-      "source_page_path": "",
-      "source_page_timestamp": "20170506000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "game_name": "Dope Slinger Tycoon",
-      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 560859,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211209174944_https_www.kongregate.com_games_JamesG466_dope-slinger-tycoon_metrics.json_ec45e94f337ad924.txt",
-      "sample_timestamp": "20211209174944",
-      "source_page_path": "",
-      "source_page_timestamp": "20170506000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 8,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "game_name": "Idle Sword 2",
-      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 294492,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20170208203211_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_5ec23c82b4765a66.txt",
-      "sample_timestamp": "20170208203211",
-      "source_page_path": "",
-      "source_page_timestamp": "20170105000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
-      "parsed_plays": "",
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "",
-      "sample_timestamp": "20180406143856",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
-      "parsed_plays": "",
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "",
-      "sample_timestamp": "20211110143059",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
-      "parsed_plays": "",
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "",
-      "sample_timestamp": "20170724072540",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "",
-      "endpoint_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
-      "parsed_plays": "",
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "",
-      "sample_timestamp": "20211119143805",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    }
-  ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 3670259,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211110143059_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_4b8729cbee94e351.txt",
-      "sample_timestamp": "20211110143059",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 59,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "game_name": "Burrito Bison: Launcha Libre",
-      "game_url": "https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 2282631,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20180406143856_http_www.kongregate.com_games_JuicyBeast_burrito-bison-launcha-libre_metrics.json_fc6c60b05bedf60f.txt",
-      "sample_timestamp": "20180406143856",
-      "source_page_path": "",
-      "source_page_timestamp": "20170304000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 1004525,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211119143805_https_www.kongregate.com_games_Kongregate_curl-up-and-fly_metrics.json_0b77d1647456879c.txt",
-      "sample_timestamp": "20211119143805",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 4,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json",
-      "game_name": "Curl Up and Fly!",
-      "game_url": "http://www.kongregate.com/games/Kongregate/curl-up-and-fly",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 848042,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20170724072540_http_www.kongregate.com_80_games_Kongregate_curl-up-and-fly_metrics.json_66835c2c3a59c916.txt",
-      "sample_timestamp": "20170724072540",
-      "source_page_path": "",
-      "source_page_timestamp": "20140822000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 8,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "game_name": "Idle Sword 2",
-      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 646160,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20190205033138_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_c14b0cb751d3afbc.txt",
-      "sample_timestamp": "20190205033138",
-      "source_page_path": "",
-      "source_page_timestamp": "20170105000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "game_name": "Dope Slinger Tycoon",
-      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 560859,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211209174944_https_www.kongregate.com_games_JamesG466_dope-slinger-tycoon_metrics.json_ec45e94f337ad924.txt",
-      "sample_timestamp": "20211209174944",
-      "source_page_path": "",
-      "source_page_timestamp": "20170506000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "game_name": "Dope Slinger Tycoon",
-      "game_url": "http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 560859,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20211209174944_https_www.kongregate.com_games_JamesG466_dope-slinger-tycoon_metrics.json_ec45e94f337ad924.txt",
-      "sample_timestamp": "20211209174944",
-      "source_page_path": "",
-      "source_page_timestamp": "20170506000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 8,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "game_name": "Idle Sword 2",
-      "game_url": "http://www.kongregate.com/games/laFunk/idle-sword-2",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 294492,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20170208203211_http_www.kongregate.com_games_laFunk_idle-sword-2_metrics.json_5ec23c82b4765a66.txt",
-      "sample_timestamp": "20170208203211",
-      "source_page_path": "",
-      "source_page_timestamp": "20170105000000",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": true
 }

@@ -39461,6 +39461,21 @@
       "metrics_url": "http://www.kongregate.com/games/emeraldcitygames/lionheart-tactics-web/metrics.json",
       "capture_timestamp": "20210902065541",
       "capture_url": "https://web.archive.org/web/20210902065541/http://www.kongregate.com/games/emeraldcitygames/lionheart-tactics-web/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210902065541_http_www.kongregate.com_games_emeraldcitygames_lionheart-tactics-web_metrics.json_cfb09878ffaa225a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-09-02",
+      "game_name": "Lionheart Tactics",
+      "game_url": "http://www.kongregate.com/games/EmeraldCityGames/lionheart-tactics-web",
+      "plays_count_observed": 2343031,
+      "favorites_count_observed": 8020,
+      "plays_text": "2,343,031",
+      "favorites_text": "8,020",
+      "metrics_url": "http://www.kongregate.com/games/emeraldcitygames/lionheart-tactics-web/metrics.json",
+      "capture_timestamp": "20210902065541",
+      "capture_url": "https://web.archive.org/web/20210902065541/http://www.kongregate.com/games/emeraldcitygames/lionheart-tactics-web/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210902065541_http_www.kongregate.com_games_emeraldcitygames_lionheart-tactics-web_metrics.json_cfb09878ffaa225a.json"

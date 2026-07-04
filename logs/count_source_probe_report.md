@@ -1,53 +1,27 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T03:56:41Z
+- Generated: 2026-07-04T04:13:46Z
 - Target games: 32
 - Status filter: none
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 17
-- Endpoint candidates checked: 28
-- Candidate observation rows: 33
-- CDX status counts: failed=6, fetched=27
-- CDX rows found: 270
-- Candidates with CDX rows: 12
-- Payloads with count-like signals: 8
-- Parsed play-count rows: 8
-- Deduped recovered play-count observations: 823 (6 new this run)
-- Accumulated probe-history rows: 19176 (27 new, 6 refreshed)
+- Games direct-probed from catalog URLs: 12
+- Endpoint candidates checked: 19
+- Candidate observation rows: 19
+- CDX status counts: failed=3, fetched=16
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 824 (0 new this run)
+- Accumulated probe-history rows: 19288 (16 new, 3 refreshed)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Burrito Bison: Launcha Libre | metrics_json | `https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | gameplays_count_with_delimiter | 3670259 |
-| Burrito Bison: Launcha Libre | metrics_json | `https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | gameplays_count_with_delimiter | 2282631 |
-| Curl Up and Fly! | metrics_json | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | gameplays_count_with_delimiter | 1004525 |
-| Curl Up and Fly! | metrics_json | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json` | gameplays_count_with_delimiter | 848042 |
-| Idle Sword 2 | metrics_json | `https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | `http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | gameplays_count_with_delimiter | 646160 |
-| Dope Slinger Tycoon | metrics_json | `http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | gameplays_count_with_delimiter | 560859 |
-| Dope Slinger Tycoon | metrics_json | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | gameplays_count_with_delimiter | 560859 |
-| Idle Sword 2 | metrics_json | `https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | `http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | gameplays_count_with_delimiter | 294492 |
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Burrito Bison: Launcha Libre | metrics_json | `https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | 59 |
-| Burrito Bison: Launcha Libre | metrics_json | `https://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | 59 |
-| Curl Up and Fly! | metrics_json | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | 4 |
-| Curl Up and Fly! | metrics_json | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json` | 4 |
-| Idle Sword 2 | metrics_json | `https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | `http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | 8 |
-| Dope Slinger Tycoon | metrics_json | `http://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | 1 |
-| Dope Slinger Tycoon | metrics_json | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | `https://www.kongregate.com/games/JamesG466/dope-slinger-tycoon/metrics.json` | 1 |
-| Idle Sword 2 | metrics_json | `https://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | `http://www.kongregate.com/games/laFunk/idle-sword-2/metrics.json` | 8 |
-| Burrito Bison: Launcha Libre | metrics_json | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | 59 |
-| Burrito Bison: Launcha Libre | metrics_json | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | `http://www.kongregate.com/games/JuicyBeast/burrito-bison-launcha-libre/metrics.json` | 59 |
-| Curl Up and Fly! | metrics_json | `http://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `http://www.kongregate.com:80/games/Kongregate/curl-up-and-fly/metrics.json` | 4 |
-| Curl Up and Fly! | metrics_json | `http://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | `https://www.kongregate.com/games/Kongregate/curl-up-and-fly/metrics.json` | 4 |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
 ## Retry Note
 
-6 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
+3 CDX lookups failed during this run, so dry endpoints with failed status should be retried later before being treated as durable absences.
 
 ## Output Files
 
