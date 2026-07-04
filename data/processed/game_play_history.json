@@ -17576,6 +17576,21 @@
       "metrics_url": "https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
       "capture_timestamp": "20191207205525",
       "capture_url": "https://web.archive.org/web/20191207205525/https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191207205525_https_www.kongregate.com_games_IriySoft_road-of-fury-2_metrics.json_7f231b3855e466b6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "Road Of Fury 2",
+      "game_url": "http://www.kongregate.com/games/IriySoft/road-of-fury-2",
+      "plays_count_observed": 522322,
+      "favorites_count_observed": 4684,
+      "plays_text": "522,322",
+      "favorites_text": "4,684",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
+      "capture_timestamp": "20191207205525",
+      "capture_url": "https://web.archive.org/web/20191207205525/https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205525_https_www.kongregate.com_games_IriySoft_road-of-fury-2_metrics.json_7f231b3855e466b6.json"
@@ -18914,6 +18929,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214048_https_www.kongregate.com_games_IcyLime_multitask_metrics.json_9ecf7911641494a0.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Road Of Fury 2",
+      "game_url": "http://www.kongregate.com/games/IriySoft/road-of-fury-2",
+      "plays_count_observed": 524664,
+      "favorites_count_observed": 4688,
+      "plays_text": "524,664",
+      "favorites_text": "4,688",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
+      "capture_timestamp": "20200108214040",
+      "capture_url": "https://web.archive.org/web/20200108214040/https://www.kongregate.com/games/IriySoft/road-of-fury-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214040_https_www.kongregate.com_games_IriySoft_road-of-fury-2_metrics.json_60b78c11f22ac0d5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-08",
@@ -63914,6 +63944,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230703030335_https_www.kongregate.com_games_KekGames_unpuzzler_metrics.json_4f192d4796d5fab4.json"
+    },
+    {
+      "date": "2023-07-08",
+      "game_name": "Halloween Night Mystery",
+      "game_url": "http://www.kongregate.com/games/ainarsa/halloween-night-mystery",
+      "plays_count_observed": 1005,
+      "favorites_count_observed": 3,
+      "plays_text": "1,005",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/ainarsa/halloween-night-mystery/metrics.json",
+      "capture_timestamp": "20230708005909",
+      "capture_url": "https://web.archive.org/web/20230708005909/https://www.kongregate.com/games/ainarsa/halloween-night-mystery/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230708005909_https_www.kongregate.com_games_ainarsa_halloween-night-mystery_metrics.json_0739bda92f501e12.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-07-08",

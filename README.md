@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1_vxzuBr6brbKzNyLzNgXAJmTTiNq1aMUpRYfxZKdnPA
+https://docs.google.com/spreadsheets/d/1c4R4TRV9JFwuxYzG8OKRAGZIy2VHX9whBS6HJnbLOtM
 
 ## Current Snapshot
 
@@ -19,8 +19,8 @@ https://docs.google.com/spreadsheets/d/1_vxzuBr6brbKzNyLzNgXAJmTTiNq1aMUpRYfxZKd
 - Ranked-list rows with aggregate as-of observed play counts: 44,894
 - Mini catalog: 2,998 canonical games that reached top 20 in observed rankings
 - Catalog games with recovered Kongregate game IDs: 2,386
-- Per-game play-history rows: 8,492 across 2,684 canonical games
-- Observed play-count rows used by the chart: 25,806
+- Per-game play-history rows: 8,495 across 2,684 canonical games
+- Observed play-count rows used by the chart: 25,809
 - Chart playback: Smooth mode interpolates between month-paced keyframes; Captures mode exposes all 2,343 observed capture-date frames.
 - Ranked-list date range: 2007-01-20 to 2026-07-04
 - Per-game play-history date range: 2007-03-24 to 2026-07-03
@@ -331,6 +331,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 303 ran the next 32-game bounded exact-metrics shard from Inhuman Fruits through Kongbot In Love and cleared the shard's transient CDX retry queue. Exact `metrics.json` archives found one archived endpoint hit for Troncedo Aliens but recovered 0 new public play-count rows, moving those games out of the bounded exact-metrics queue and into broader-source escalation as needed. Aggregate as-of coverage remains 44,894 ranked rows and the remaining as-of gap remains 5,088 rows. Count-source probe history now has 18,293 observations, recovered count rows remain 785, unified play-history rows remain 8,483, chart observed rows remain 25,797, and the bounded exact-metrics queue is down to 525. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 304 ran the next 32-game bounded exact-metrics shard from BMX MASTER through Galactic Convoy 2 and cleared the shard's transient CDX retry queue. Exact `metrics.json` archives recovered 1 new play-history row for Stupid Stones Adventure at 245 plays. This capture is later than the open missing rank window, so aggregate as-of coverage remains 44,894 ranked rows and the remaining as-of gap remains 5,088 rows. Count-source probe history now has 18,402 observations, recovered count rows are 786, unified play-history rows are 8,484, chart observed rows are 25,798, and the bounded exact-metrics queue is down to 493. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 305 ran the next 32-game bounded exact-metrics shard from Minecraft Block Match through Jelly Slice and cleared the shard's transient CDX retry queue. Exact `metrics.json` archives recovered 8 new play-history rows across Cube Escape: Theatre, Medieval Chronicles 1, Nightfall, Rise of Mythos, Tower Keepers, and Unexpected Movement. These captures do not close additional rank-date misses, so aggregate as-of coverage remains 44,894 ranked rows and the remaining as-of gap remains 5,088 rows. Count-source probe history now has 18,521 observations, recovered count rows are 794, unified play-history rows are 8,492, chart observed rows are 25,806, and the bounded exact-metrics queue is down to 461. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
+- Checkpoint 306 ran the next 32-game bounded exact-metrics shard from Billy Where ya Babas' @ through Fruit Monkey. Exact `metrics.json` archives recovered 3 new play-history rows: Halloween Night Mystery at 1,005 plays, plus Road Of Fury 2 at 522,322 and 524,664 plays. These captures do not close additional rank-date misses, so aggregate as-of coverage remains 44,894 ranked rows and the remaining as-of gap remains 5,088 rows. Count-source probe history now has 18,630 observations, recovered count rows are 797, unified play-history rows are 8,495, chart observed rows are 25,809, and the bounded exact-metrics queue is down to 431. The companion Google Sheet was refreshed from the rebuilt workbook for this checkpoint.
 - Checkpoint 29 removed 238 repeated modern-frame ranked rows and tightened duplicate QA to distinguish valid same-day captures by timestamp; duplicate ranked rows now scan at 0.
 - Checkpoint 27 recovered the remaining 2018-01, 2018-02, and 2018-04 gaps with explicitly labeled `homepage_module` fallback rows: 306 January rows, 90 February rows, and 90 April rows.
 - Checkpoint 26 recovered May 2009 paginated and top-rated `popular_games` captures, adding 207 ranked rows with observed play counts and rank-offset handling for paginated legacy pages.
