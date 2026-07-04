@@ -1,20 +1,20 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 28,
-  "candidates_with_cdx": 8,
-  "cdx_lookups": 26,
-  "cdx_rows_found": 12,
+  "candidate_observation_rows": 31,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 31,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "failed": 7,
+    "failed": 10,
     "fetched": 21
   },
   "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 14,
+  "games_direct_probed": 16,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_318_targets.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_319_targets.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
   "max_cdx_lookups": 100,
@@ -27,320 +27,309 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 8,
+  "parsed_play_count_rows": 0,
   "payload_wall_timeout": 20.0,
-  "payloads_with_count_signal": 8,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "Avalancher": {
+    "Annas Kitchen Zucchini Soup": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/gamesforgirlz/annas-kitchen-zucchini-soup",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Badlands[Online] Alpha": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Vogd/avalancher",
+      "game_url": "http://www.kongregate.com/games/charboozi/badlands-online-alpha",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Chess Evolved Online": {
+    "Bat Palace": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "https://www.kongregate.com/games/TheGrandestine/chess-evolved-online",
+      "game_url": "http://www.kongregate.com/games/Enagamess/bat-palace",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Daylight Robbery": {
+    "Blue Falcon": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/newgamess/blue-falcon",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Cracking Open A Cold One With The Boys Simulator 2017": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/SandraKim/daylight-robbery",
+      "game_url": "http://www.kongregate.com/games/StarvingStudios/cracking-open-a-cold-one-with-the-boys-simulator-2017",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dodge Durst or Die": {
+    "Cross my Heart": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Madsdestruction/dodge-durst-or-die",
+      "game_url": "http://www.kongregate.com/games/SandraKim/cross-my-heart",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "EL Orco Malvado": {
+    "Duelo": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/edher19/el-orco-malvado",
+      "game_url": "http://www.kongregate.com/games/ccamiloo/duelo",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Easter Truck Jigsaw": {
+    "Elsa Restaurant Vegetarian Meatloaf": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/newgamess/easter-truck-jigsaw",
+      "game_url": "http://www.kongregate.com/games/gamesforgirlz/elsa-restaurant-vegetarian-meatloaf",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "FR Find Differences #1": {
+    "Find The Tusk": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/MePlayItOnline/fr-find-differences-1",
+      "game_url": "http://www.kongregate.com/games/top10newgames/find-the-tusk",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Get Back The Fairy": {
+    "Giga Sun Class Game 02": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/gigasun/giga-sun-class-game-02",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Horror Paintings Parodies": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Enagamess/get-back-the-fairy",
+      "game_url": "http://www.kongregate.com/games/Munguia/horror-paintings-parodies",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Gimbo jump 3": {
+    "Ice Cream Sandwich Cake": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/gamesforgirlz/ice-cream-sandwich-cake",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Idle Glow Bugs": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/sgtwombatstudios/idle-glow-bugs",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Light Directions": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/HPieta/light-directions",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Mask Area": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Enagamess/mask-area",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Paint the block": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/AugustoA150/paint-the-block",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "PixelDog: Beach Run": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/PixelCounter/pixeldog-beach-run",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Raging Fist": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/brvasil/raging-fist",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Retro Redux": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/BowWow200/retro-redux",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Romance is Dead": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/SandboxAdventure/romance-is-dead",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Run Chase 9": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/Enagamess/run-chase-9",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Run For Athena!": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/spacegrid/run-for-athena",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Sky Guardian": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/Dumitru_V/sky-guardian",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Summoner's Tale": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/masternegm/summoners-tale",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Super Skeleton II": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/worldhacker/gimbo-jump-3",
+      "game_url": "http://www.kongregate.com/games/javiersan22/super-skeleton-ii",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "MegaBEER": {
+    "Sword HUMMUS": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/fancyork/megabeer",
+      "game_url": "http://www.kongregate.com/games/aymaniscool/sword-hummus",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Modern Home Escape": {
+    "Test2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/modern-home-escape",
+      "game_url": "http://www.kongregate.com/games/PanzerGraveyard/test2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "PRE ALPHA PIXEL THE HEIST": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gamendekiwi/pre-alpha-pixel-the-heist",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Pacman Dash": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/PaulHTML5/pacman-dash",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Pick Up Sticks": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/cranberrygame/pick-up-sticks",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Platt 10": {
+    "The Vessel": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/KAPLOARPLOAR/platt-10",
+      "game_url": "http://www.kongregate.com/games/Enagamess/the-vessel",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Raiders and Traders": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/daggerit/raiders-and-traders",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Rescue My Soul 2": {
+    "Voxel Aliens": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Enagamess/rescue-my-soul-2",
+      "game_url": "http://www.kongregate.com/games/Kovida/voxel-aliens",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "STH .01": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/KyozCorp/sth-01",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Shop Class Slacking": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gg123/shop-class-slacking",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Spaceship Shooter": {
-      "candidates_with_cdx": 4,
-      "direct_catalog_probe_candidates": 4,
-      "endpoint_candidates": 4,
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        8708,
-        8708,
-        8659,
-        8659
-      ],
-      "payloads_with_count_signal": 4
-    },
-    "Terminator Jigsaw": {
+    "W. House Version 0.0.2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/newgamess/terminator-jigsaw",
+      "game_url": "http://www.kongregate.com/games/Mariuskintzs/w-house-version-0-0-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Terrible Old Man": {
+    "Warriors": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/cadgames/the-terrible-old-man",
+      "game_url": "http://www.kongregate.com/games/spacegrid/warriors",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Tig With Xenomorph": {
+    "pantscuer02": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/x2wifi/tig-with-xenomorph",
+      "game_url": "http://www.kongregate.com/games/Anzefuto/pantscuer02",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
-    },
-    "Tower Attraction": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/aptriangle/tower-attraction",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Tractor Mania 3D Parking": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gamolition/tractor-mania-3d-parking",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Ultimate Treasure Dive": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/zooxii/ultimate-treasure-dive",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Unique House Escape 2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/unique-house-escape-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Vandalise The Gas Station": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/tackypoop111/vandalise-the-gas-station",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Weltenstaub 1": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Koemmels/weltenstaub-1",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Who Can Escape Castle Prison": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/rahchel321/who-can-escape-castle-prison",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "sCHOOL": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Iam_GamerPS5/school",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        61,
-        61
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "school project 3d forrest": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        312,
-        312
-      ],
-      "payloads_with_count_signal": 2
     }
   },
   "persisted_play_counts": {
-    "added": 4,
-    "total": 867
+    "added": 0,
+    "total": 868
   },
   "persisted_probe_history": {
     "added": 21,
-    "total": 19947,
-    "updated": 7
+    "total": 20048,
+    "updated": 10
   },
-  "run_timestamp": "2026-07-04T05:34:40Z",
+  "run_timestamp": "2026-07-04T05:44:39Z",
   "source_types": [
     "metrics_json"
   ],
@@ -352,281 +341,7 @@
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 8708,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240122173044_https_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_2c2bd0ffc01e3dd0.txt",
-      "sample_timestamp": "20240122173044",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 8708,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240122173044_https_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_2c2bd0ffc01e3dd0.txt",
-      "sample_timestamp": "20240122173044",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 8659,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230212213653_http_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_f93eda2d9907cf77.txt",
-      "sample_timestamp": "20230212213653",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 8659,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230212213653_http_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_f93eda2d9907cf77.txt",
-      "sample_timestamp": "20230212213653",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "game_name": "school project 3d forrest",
-      "game_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 312,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20250203115902_https_www.kongregate.com_games_mynameisxboard_school-project-3d-forrest_metrics.json_d05ceb7b4989aa97.txt",
-      "sample_timestamp": "20250203115902",
-      "source_page_path": "",
-      "source_page_timestamp": "20160202000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "game_name": "school project 3d forrest",
-      "game_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 312,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20250203115902_https_www.kongregate.com_games_mynameisxboard_school-project-3d-forrest_metrics.json_d05ceb7b4989aa97.txt",
-      "sample_timestamp": "20250203115902",
-      "source_page_path": "",
-      "source_page_timestamp": "20160202000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "game_name": "sCHOOL",
-      "game_url": "http://www.kongregate.com/games/Iam_GamerPS5/school",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 61,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240116193121_http_www.kongregate.com_games_Iam_GamerPS5_school_metrics.json_0ffbb58af822338b.txt",
-      "sample_timestamp": "20240116193121",
-      "source_page_path": "",
-      "source_page_timestamp": "20160125000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "game_name": "sCHOOL",
-      "game_url": "http://www.kongregate.com/games/Iam_GamerPS5/school",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 61,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240116193121_http_www.kongregate.com_games_Iam_GamerPS5_school_metrics.json_0ffbb58af822338b.txt",
-      "sample_timestamp": "20240116193121",
-      "source_page_path": "",
-      "source_page_timestamp": "20160125000000",
-      "source_type": "metrics_json"
-    }
-  ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 8708,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240122173044_https_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_2c2bd0ffc01e3dd0.txt",
-      "sample_timestamp": "20240122173044",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 8708,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240122173044_https_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_2c2bd0ffc01e3dd0.txt",
-      "sample_timestamp": "20240122173044",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 8659,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230212213653_http_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_f93eda2d9907cf77.txt",
-      "sample_timestamp": "20230212213653",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 2,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "game_name": "Spaceship Shooter",
-      "game_url": "http://www.kongregate.com/games/kizigames/spaceship-shooter",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 8659,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/kizigames/spaceship-shooter/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230212213653_http_www.kongregate.com_games_kizigames_spaceship-shooter_metrics.json_f93eda2d9907cf77.txt",
-      "sample_timestamp": "20230212213653",
-      "source_page_path": "",
-      "source_page_timestamp": "20160307000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "game_name": "school project 3d forrest",
-      "game_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 312,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20250203115902_https_www.kongregate.com_games_mynameisxboard_school-project-3d-forrest_metrics.json_d05ceb7b4989aa97.txt",
-      "sample_timestamp": "20250203115902",
-      "source_page_path": "",
-      "source_page_timestamp": "20160202000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "game_name": "school project 3d forrest",
-      "game_url": "http://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 312,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mynameisxboard/school-project-3d-forrest/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20250203115902_https_www.kongregate.com_games_mynameisxboard_school-project-3d-forrest_metrics.json_d05ceb7b4989aa97.txt",
-      "sample_timestamp": "20250203115902",
-      "source_page_path": "",
-      "source_page_timestamp": "20160202000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "game_name": "sCHOOL",
-      "game_url": "http://www.kongregate.com/games/Iam_GamerPS5/school",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 61,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240116193121_http_www.kongregate.com_games_Iam_GamerPS5_school_metrics.json_0ffbb58af822338b.txt",
-      "sample_timestamp": "20240116193121",
-      "source_page_path": "",
-      "source_page_timestamp": "20160125000000",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "game_name": "sCHOOL",
-      "game_url": "http://www.kongregate.com/games/Iam_GamerPS5/school",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 61,
-      "sample_mimetype": "application/json",
-      "sample_original": "http://www.kongregate.com/games/Iam_GamerPS5/school/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20240116193121_http_www.kongregate.com_games_Iam_GamerPS5_school_metrics.json_0ffbb58af822338b.txt",
-      "sample_timestamp": "20240116193121",
-      "source_page_path": "",
-      "source_page_timestamp": "20160125000000",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": true
 }

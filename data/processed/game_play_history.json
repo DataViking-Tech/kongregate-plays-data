@@ -67691,6 +67691,21 @@
       "metrics_url": "https://www.kongregate.com/games/PanzerGraveyard/test2/metrics.json",
       "capture_timestamp": "20230914013017",
       "capture_url": "https://web.archive.org/web/20230914013017/https://www.kongregate.com/games/PanzerGraveyard/test2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230914013017_https_www.kongregate.com_games_PanzerGraveyard_test2_metrics.json_1a399c49b4969988.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-09-14",
+      "game_name": "Test2",
+      "game_url": "http://www.kongregate.com/games/PanzerGraveyard/test2",
+      "plays_count_observed": 47,
+      "favorites_count_observed": 0,
+      "plays_text": "47",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/PanzerGraveyard/test2/metrics.json",
+      "capture_timestamp": "20230914013017",
+      "capture_url": "https://web.archive.org/web/20230914013017/https://www.kongregate.com/games/PanzerGraveyard/test2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230914013017_https_www.kongregate.com_games_PanzerGraveyard_test2_metrics.json_1a399c49b4969988.json"
