@@ -1,6 +1,6 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T00:54:39Z
+- Generated: 2026-07-04T01:08:44Z
 - Target games: 32
 - Status filter: none
 - Games with cached archived pages: 0
@@ -12,8 +12,8 @@
 - Candidates with CDX rows: 0
 - Payloads with count-like signals: 0
 - Parsed play-count rows: 0
-- Deduped recovered play-count observations: 744 (0 new this run)
-- Accumulated probe-history rows: 17589 (7 new, 0 refreshed)
+- Deduped recovered play-count observations: 749 (0 new this run)
+- Accumulated probe-history rows: 17707 (7 new, 0 refreshed)
 
 ## Interpretation
 
