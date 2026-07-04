@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1fk9N8i-3XXtOj1_zKSIJ0t6ZfvTxo9xMLXWNw8ez6y4
+https://docs.google.com/spreadsheets/d/1L4a4EA3iJ_k8PCeuzmHnhgKN884pBrsX9JBGRGvy-xI
 
 ## Current Snapshot
 
@@ -371,6 +371,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 331 ran the next five-game ranked-priority developer/account-list sweep for Mu Complex : Episode Two, Footie Fight, Medieval Cop - Dregg Me To Hell, The Gates of Heaven, and Escape Game - Computer Office Escape, then retried the single Gates of Heaven transient endpoint left by that shard. The pass sampled 61 archived developer/account captures, found 49 target links, added 83 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and cleared the transient queue. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,682 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 - Checkpoint 332 ran the next five-game ranked-priority developer/account-list sweep for Last Warrior, SpaceWarrior, The Funniest Game Ever, The Saga Of The Wind Mobiles, and as3q32@gmail.com. The pass sampled 9 archived developer/account captures, added 24 net developer/account-list probe-history observations, found 0 target links, recovered 0 new visible play-count rows, and left the transient queue clear. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,706 observations and 647 recovered count rows. The chart source remains 26,438 observed rows, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 - Checkpoint 333 ran the next five-game ranked-priority developer/account-list sweep for Make Me 10, Key to Success, Missiles Again, The Space Commando, and Run Bird Run Online. The pass sampled 24 archived developer/account captures, found 3 target links, added 26 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and left the transient queue clear. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,732 observations and 647 recovered count rows. The developer-list probe report now records skipped developers as a count plus small sample instead of rewriting the full skipped-developer list on every shard.
+- Checkpoint 334 ran the next five-game ranked-priority developer/account-list sweep for Zombie Derby 2, Football Legends 2016, LT-Breakout, Surrounded, and Bad Eggs Online 2. The pass sampled 48 archived developer/account captures, found 10 target links, added 49 net developer/account-list probe-history observations, recovered 0 new visible play-count rows, and left the transient queue clear. Aggregate as-of coverage remains 44,906 ranked rows with 5,076 gaps; count-source probe history now has 21,781 observations and 647 recovered count rows. The lifecycle catalog now carries current added/removed evidence and first-pass Facebook/social candidates, and the companion Google Sheet has been refreshed from the rebuilt workbook.
 
 ## Key Files
 

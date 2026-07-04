@@ -1,9 +1,10 @@
 {
-  "candidate_observation_rows": 63,
-  "captures_sampled": 24,
+  "candidate_observation_rows": 77,
+  "captures_sampled": 48,
   "cdx_status_counts": {
-    "cached": 26,
-    "fetched": 37
+    "cached": 36,
+    "failed": 9,
+    "fetched": 32
   },
   "developer_filters": [],
   "game_name_contains": [],
@@ -28,29 +29,21 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 26,
-    "total": 21732,
-    "updated": 37
+    "added": 49,
+    "total": 21781,
+    "updated": 28
   },
   "pre_cap_target_developers": 1376,
   "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T11:16:54Z",
+  "run_timestamp": "2026-07-04T11:26:35Z",
   "selected_games_by_developer": {
-    "Eternal_Vanguard": 1,
-    "LinhVo1611": 1,
-    "SamuelVenable": 1,
-    "mafagames": 2
+    "CoralCnora": 1,
+    "JasonNumberXIII": 1,
+    "Rob_Almighty": 1,
+    "SandmanZA": 1,
+    "brvasil": 1
   },
-  "source_cdx_lookups": 36,
-  "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 4,
-  "target_games": 5,
-  "target_links_found": 3,
-  "target_offset": 39,
-  "tiers": "",
-  "top_recovered_rows": [],
-  "unresolved_failed_endpoints_only": false,
-  "skipped_developer_count": 1372,
+  "skipped_developer_count": 1371,
   "skipped_developers_due_to_caps_sample": [
     "02378",
     "0rava",
@@ -77,5 +70,14 @@
     "AIexT",
     "ALT_Games",
     "AOSOJ"
-  ]
+  ],
+  "source_cdx_lookups": 45,
+  "stopped_after_cdx_lookup_cap": false,
+  "target_developers": 5,
+  "target_games": 5,
+  "target_links_found": 10,
+  "target_offset": 44,
+  "tiers": "",
+  "top_recovered_rows": [],
+  "unresolved_failed_endpoints_only": false
 }
