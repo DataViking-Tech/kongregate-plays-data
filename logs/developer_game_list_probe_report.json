@@ -1,13 +1,12 @@
 {
-  "candidate_observation_rows": 11,
-  "captures_sampled": 3,
+  "candidate_observation_rows": 6,
+  "captures_sampled": 0,
   "cdx_status_counts": {
-    "failed": 7,
-    "fetched": 4
+    "failed": 6
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Captain Reverso"
+    "Spell Sorter"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
@@ -30,23 +29,23 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 4,
-    "total": 22781,
-    "updated": 7
+    "added": 0,
+    "total": 22858,
+    "updated": 6
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T13:52:46Z",
+  "run_timestamp": "2026-07-04T14:01:33Z",
   "selected_games_by_developer": {
-    "PaulHTML5": 1
+    "314owen": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
-  "source_cdx_lookups": 9,
+  "source_cdx_lookups": 6,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
-  "target_links_found": 2,
+  "target_links_found": 0,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
