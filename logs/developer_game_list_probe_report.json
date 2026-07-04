@@ -1,9 +1,10 @@
 {
-  "candidate_observation_rows": 75,
-  "captures_sampled": 27,
+  "candidate_observation_rows": 51,
+  "captures_sampled": 13,
   "cdx_status_counts": {
-    "cached": 65,
-    "fetched": 10
+    "cached": 24,
+    "failed": 10,
+    "fetched": 17
   },
   "developer_filters": [],
   "game_name_contains": [],
@@ -28,19 +29,21 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 30,
-    "total": 23748,
-    "updated": 45
+    "added": 27,
+    "total": 23775,
+    "updated": 24
   },
   "pre_cap_target_developers": 1376,
   "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T16:05:23Z",
+  "run_timestamp": "2026-07-04T16:18:07Z",
   "selected_games_by_developer": {
-    "SherOnDale13": 1,
-    "mafagames": 3,
-    "natalibt": 1
+    "CoralCnora": 1,
+    "cheffplayer2": 1,
+    "mafagames": 1,
+    "rub_en02": 1,
+    "thunderstorm38": 1
   },
-  "skipped_developer_count": 1373,
+  "skipped_developer_count": 1371,
   "skipped_developers_due_to_caps_sample": [
     "02378",
     "0rava",
@@ -68,12 +71,12 @@
     "ALT_Games",
     "AOSOJ"
   ],
-  "source_cdx_lookups": 27,
+  "source_cdx_lookups": 45,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 3,
+  "target_developers": 5,
   "target_games": 5,
-  "target_links_found": 0,
-  "target_offset": 174,
+  "target_links_found": 3,
+  "target_offset": 179,
   "tiers": "",
   "top_recovered_rows": [],
   "unresolved_failed_endpoints_only": false

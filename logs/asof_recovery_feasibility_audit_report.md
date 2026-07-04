@@ -1,6 +1,6 @@
 # As-Of Recovery Feasibility Audit
 
-- Generated: 2026-07-04T16:06:07Z
+- Generated: 2026-07-04T16:18:45Z
 - Ranked as-of gap rows audited: 1982
 
 ## Exact Metrics Gap Status
