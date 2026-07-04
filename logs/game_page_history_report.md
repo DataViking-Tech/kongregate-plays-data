@@ -1,10 +1,10 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-04T09:24:05Z
-- Profile games in scope: 8
-- Selected games sample: Sift Heads World Act 4 - Cold Memories, Karoshi : Suicide Salaryman, Symphonic TD, Warlords 2: Rise of Demons, League of Angels: Pact, Random Number GOD Idle, Arsenal Online, Magirune 2
-- Selected games omitted from sample: 0
-- CDX games considered: 8
+- Run timestamp: 2026-07-04T09:34:54Z
+- Profile games in scope: 1576
+- Selected games sample: Holyday City Reloaded, Fruit Frenzy, Bullet Heaven 2, Card Hunter, Medieval Chronicles 8, Armor Mayhem, Revolution Idle 2, Factory Balls forever, Dear Edmund, Ghost Climb, EggDrop, Pair My Alphabets, Tutti - The Skater Capybara, Dead Ops, Fastest Lap, SpongeBob Save Crab, Humans vs. Golems: Soccer, TestGame5334, Wearing Flowers, A Pirate Adventure, Floof V1.00, Blobs Temple Adventure!, FPSnake, Mega Blobber, Far Away Home - Alpha gameplay, Pre-Civilization Bronze Age, Zombie Payback, Crystal Galaxia, Button Game Adventure, How To Be A Gent, Massive Singleplayer Online, Necromancer's Quest Beta, Billy jump, Interstellar Velocity. Beta 0.9, Gingerbread Men's Carnival Escape, openEtG, Football2016, Class RoomPuzzle, Quester Joe, Dacia Taxi Jigsaw, Ancient Greece: The Impossible Task, Classical Pong, Cat around the world - Alipne Lakes, Paint Box, Army Parking Mania, FunBox, For USA, WigWigWig, Harry potter Eagle eyes, ROYAL THIEF
+- Selected games omitted from sample: 1526
+- CDX games considered: 5
 - Cached CDX only: False
 - Cached HTML only: False
 - CDX timeout: 15s
@@ -15,18 +15,18 @@
 - Game-name filter: none
 - Metrics row filter: any
 - Progress status filter: not_checked
-- CDX rows: 310
-- Page jobs: 124
-- Pending before run: 124
-- Attempted this run: 60
-- Fetched this run: 36
+- CDX rows: 776
+- Page jobs: 221
+- Pending before run: 221
+- Attempted this run: 33
+- Fetched this run: 19
 - Cached HTML selected this run: 0
-- Network fetch failed this run: 24
+- Network fetch failed this run: 14
 - Parsed rows this run: 0
-- No explicit count this run: 17
-- Failed this run: 60
+- No explicit count this run: 0
+- Failed this run: 33
 - Manifest entries: 368
-- Known failures: 4198
+- Known failures: 4231
 - Combined history rows: 9119
 - Game-page history rows: 368
 - Report only: False
