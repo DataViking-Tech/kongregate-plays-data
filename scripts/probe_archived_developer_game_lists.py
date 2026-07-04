@@ -255,6 +255,8 @@ def load_targets(args) -> list[TargetGame]:
     args.skipped_developers_due_to_caps = [
         developer for developer in sorted(args.pre_cap_games_by_developer) if developer not in selected_developers
     ]
+    args.skipped_developer_count = len(args.skipped_developers_due_to_caps)
+    args.skipped_developers_due_to_caps_sample = args.skipped_developers_due_to_caps[:25]
     return targets
 
 
@@ -661,7 +663,8 @@ def run_probe(args) -> dict[str, object]:
         "pre_cap_target_games": getattr(args, "pre_cap_target_games", len(targets)),
         "pre_cap_target_developers": getattr(args, "pre_cap_target_developers", len(targets_by_developer)),
         "selected_games_by_developer": selected_games_by_developer,
-        "skipped_developers_due_to_caps": skipped_developers_due_to_caps,
+        "skipped_developer_count": len(skipped_developers_due_to_caps),
+        "skipped_developers_due_to_caps_sample": skipped_developers_due_to_caps[:25],
         "max_games": args.max_games,
         "target_offset": args.target_offset,
         "max_games_per_developer": args.max_games_per_developer,

@@ -1,55 +1,52 @@
 # Game Page Gap Progress
 
-- Generated: 2026-07-04T11:11:06Z
-- Profile games: 1731
-- High-value unresolved games: 1731
+- Generated: 2026-07-04T11:18:48Z
+- Profile games: 325
+- High-value unresolved games: 241
 
 ## Status Counts
 
-- not_checked: 1571
-- dynamic_metrics_placeholder: 134
-- no_page_cdx_rows: 26
+- dynamic_metrics_placeholder: 171
+- no_page_cdx_rows: 154
 
 ## Recommended Actions
 
-- 1571: Run a bounded page-history CDX shard for this game.
-- 69: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
-- 65: Probe exact archived metrics.json endpoints; cached HTML defers counts to JavaScript-injected metrics.
-- 26: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
+- 171: Escalate to alternate list/external sources; archived HTML defers counts to metrics.json and exact metrics endpoints have no CDX rows.
+- 154: Escalate to alternate count sources; checked page URL variants have no usable CDX rows.
 
 ## Dynamic Placeholder Evidence
 
-- Dynamic metric placeholder games: 134
-- With exact metrics.json probe history: 134
-- With exact metrics.json CDX rows: 65
-- With alternate endpoint CDX rows: 26
+- Dynamic metric placeholder games: 171
+- With exact metrics.json probe history: 171
+- With exact metrics.json CDX rows: 0
+- With alternate endpoint CDX rows: 99
 
 ## Top Unresolved Examples
 
 | Game | Best rank | Status | Cached CDX variants | Page CDX rows | Dynamic pages | metrics.json probes | metrics.json CDX rows | First seen |
 | --- | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| Wheelie Legend | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 6 | 0 | 2014-08-22 |
-| Battle Of Heroes | 1 | dynamic_metrics_placeholder | 1 | 5 | 5 | 3 | 2 | 2014-08-26 |
-| Jellydad Hero | 1 | dynamic_metrics_placeholder | 1 | 18 | 5 | 3 | 2 | 2014-08-29 |
-| The world most bugged game | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-14 |
-| Classical Snake | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-19 |
-| Robo Racing | 1 | dynamic_metrics_placeholder | 2 | 7 | 4 | 3 | 2 | 2014-09-19 |
-| Brakeless Trials Game 2014 | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-09-20 |
-| Evolve | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-09-26 |
-| The Gates of Heaven | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-09-26 |
-| Robo-Jump | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-03 |
-| Bakery French Bread | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-04 |
-| Umbrella Revolution | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 6 | 0 | 2014-10-10 |
-| Freeze Tag | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-10-13 |
-| The Adventures of Bit and Ravh | 1 | dynamic_metrics_placeholder | 3 | 2 | 2 | 6 | 0 | 2014-10-17 |
-| March | 1 | dynamic_metrics_placeholder | 3 | 3 | 3 | 8 | 0 | 2014-10-18 |
-| shieldshooting | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2014-10-29 |
-| Mu Complex : Episode One | 1 | dynamic_metrics_placeholder | 3 | 56 | 14 | 38 | 76 | 2014-11-11 |
-| Shooter Jet Crystal | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2014-12-28 |
-| Robo Jump | 1 | dynamic_metrics_placeholder | 2 | 2 | 2 | 6 | 0 | 2014-12-30 |
-| The Enchanted Cave 2 | 1 | dynamic_metrics_placeholder | 3 | 161 | 19 | 28 | 812 | 2015-02-07 |
-| Swarm Simulator | 1 | dynamic_metrics_placeholder | 3 | 304 | 36 | 28 | 420 | 2015-02-23 |
-| Mu Complex : Episode Two | 1 | dynamic_metrics_placeholder | 3 | 27 | 15 | 5 | 4 | 2015-05-12 |
-| Crusaders of the Lost Idols | 1 | dynamic_metrics_placeholder | 3 | 644 | 21 | 64 | 512 | 2015-08-09 |
-| Alien Space Blaster 0.1 | 1 | dynamic_metrics_placeholder | 2 | 3 | 3 | 8 | 0 | 2015-09-03 |
-| Monster War Zone 3 | 1 | dynamic_metrics_placeholder | 1 | 2 | 2 | 6 | 0 | 2015-09-09 |
+| Make Me 10 | 1 | dynamic_metrics_placeholder | 1 | 8 | 2 | 6 | 0 | 2017-05-16 |
+| Key to Success | 1 | dynamic_metrics_placeholder | 2 | 1 | 1 | 4 | 0 | 2017-05-25 |
+| Missiles Again | 1 | dynamic_metrics_placeholder | 6 | 1 | 1 | 4 | 0 | 2017-05-26 |
+| The Space Commando | 1 | dynamic_metrics_placeholder | 1 | 1 | 1 | 4 | 0 | 2017-08-17 |
+| Run Bird Run Online | 1 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2017-08-25 |
+| LT-Breakout | 1 | dynamic_metrics_placeholder | 1 | 55 | 11 | 8 | 0 | 2017-10-24 |
+| Surrounded | 1 | dynamic_metrics_placeholder | 2 | 7 | 3 | 4 | 0 | 2021-11-12 |
+| Last Warrior | 1 | no_page_cdx_rows | 5 | 0 | 0 | 2 | 0 | 2014-09-02 |
+| SpaceWarrior | 1 | no_page_cdx_rows | 6 | 0 | 0 | 2 | 0 | 2014-09-12 |
+| The Funniest Game Ever | 1 | no_page_cdx_rows | 2 | 0 | 0 | 2 | 0 | 2014-10-24 |
+| The Saga Of The Wind Mobiles | 1 | no_page_cdx_rows | 2 | 0 | 0 | 2 | 0 | 2016-06-29 |
+| as3q32@gmail.com | 1 | no_page_cdx_rows | 1 | 0 | 0 | 2 | 0 | 2016-07-07 |
+| Zombie Derby 2 | 1 | no_page_cdx_rows | 1 | 0 | 0 | 4 | 0 | 2017-09-13 |
+| Football Legends 2016 | 1 | no_page_cdx_rows | 2 | 0 | 0 | 2 | 0 | 2017-09-30 |
+| Kns run | 2 | dynamic_metrics_placeholder | 1 | 4 | 3 | 2 | 0 | 2014-09-20 |
+| cuube | 2 | dynamic_metrics_placeholder | 2 | 1 | 1 | 3 | 0 | 2014-09-26 |
+| Nowere Safe 3 | 2 | dynamic_metrics_placeholder | 1 | 7 | 1 | 4 | 0 | 2014-10-29 |
+| Elsa And Anna Chinese Dress Up | 2 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2015-04-01 |
+| changetype() | 2 | dynamic_metrics_placeholder | 1 | 1 | 1 | 4 | 0 | 2015-09-30 |
+| CountryBalls 4 | 2 | dynamic_metrics_placeholder | 3 | 4 | 1 | 4 | 0 | 2016-03-05 |
+| Mini Jumper | 2 | dynamic_metrics_placeholder | 2 | 1 | 1 | 5 | 0 | 2016-03-16 |
+| dat boi | 2 | dynamic_metrics_placeholder | 2 | 18 | 2 | 6 | 0 | 2016-05-15 |
+| Aston Martin Hidden Wheels | 2 | dynamic_metrics_placeholder | 1 | 3 | 1 | 2 | 0 | 2016-05-24 |
+| Chevrolet Cruze Puzzle | 2 | dynamic_metrics_placeholder | 1 | 3 | 1 | 4 | 0 | 2016-10-10 |
+| Sky Knight | 2 | dynamic_metrics_placeholder | 3 | 1 | 1 | 4 | 0 | 2017-05-16 |
