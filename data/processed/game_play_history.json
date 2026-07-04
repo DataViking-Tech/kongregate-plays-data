@@ -84536,6 +84536,21 @@
       "metrics_url": "https://www.kongregate.com/games/OlegAntipov/move-on-green/metrics.json",
       "capture_timestamp": "20240722001708",
       "capture_url": "https://web.archive.org/web/20240722001708/https://www.kongregate.com/games/OlegAntipov/move-on-green/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240722001708_https_www.kongregate.com_games_OlegAntipov_move-on-green_metrics.json_7efef77de8b2e0ed.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-07-22",
+      "game_name": "Move on Green",
+      "game_url": "http://www.kongregate.com/games/OlegAntipov/move-on-green",
+      "plays_count_observed": 5890,
+      "favorites_count_observed": 11,
+      "plays_text": "5,890",
+      "favorites_text": "11",
+      "metrics_url": "https://www.kongregate.com/games/OlegAntipov/move-on-green/metrics.json",
+      "capture_timestamp": "20240722001708",
+      "capture_url": "https://web.archive.org/web/20240722001708/https://www.kongregate.com/games/OlegAntipov/move-on-green/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240722001708_https_www.kongregate.com_games_OlegAntipov_move-on-green_metrics.json_7efef77de8b2e0ed.json"
