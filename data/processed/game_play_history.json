@@ -6611,6 +6611,21 @@
       "metrics_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
       "capture_timestamp": "20150804224021",
       "capture_url": "https://web.archive.org/web/20150804224021/http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20150804224021_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bd029662f926394e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2015-08-04",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 469514,
+      "favorites_count_observed": 3265,
+      "plays_text": "469,514",
+      "favorites_text": "3,265",
+      "metrics_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20150804224021",
+      "capture_url": "https://web.archive.org/web/20150804224021/http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20150804224021_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_bd029662f926394e.json"
@@ -6944,6 +6959,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20151105221112_http_www.kongregate.com_games_IriySoft_cursed-treasure-dont-touch-my-gems_metrics.json_8e34df0663c8602f.json"
+    },
+    {
+      "date": "2015-11-20",
+      "game_name": "Idle Online Universe",
+      "game_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe",
+      "plays_count_observed": 1797285,
+      "favorites_count_observed": 6529,
+      "plays_text": "1,797,285",
+      "favorites_text": "6,529",
+      "metrics_url": "http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "capture_timestamp": "20151120153512",
+      "capture_url": "https://web.archive.org/web/20151120153512/http://www.kongregate.com/games/iouRPG/idle-online-universe/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20151120153512_http_www.kongregate.com_games_iouRPG_idle-online-universe_metrics.json_078f68519cc3acfb.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2015-11-20",
@@ -68039,6 +68069,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20231002151241_https_www.kongregate.com_games_Oninou_wami_metrics.json_db2ab93aeea6e040.json"
+    },
+    {
+      "date": "2023-10-03",
+      "game_name": "2048 Halloween",
+      "game_url": "http://www.kongregate.com/games/abyssgames/2048-halloween",
+      "plays_count_observed": 4127,
+      "favorites_count_observed": 12,
+      "plays_text": "4,127",
+      "favorites_text": "12",
+      "metrics_url": "https://www.kongregate.com/games/abyssgames/2048-halloween/metrics.json",
+      "capture_timestamp": "20231003222834",
+      "capture_url": "https://web.archive.org/web/20231003222834/https://www.kongregate.com/games/abyssgames/2048-halloween/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20231003222834_https_www.kongregate.com_games_abyssgames_2048-halloween_metrics.json_461d9d8191a21b3e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-10-03",
