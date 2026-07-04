@@ -2,11 +2,12 @@
   "candidate_observation_rows": 3,
   "captures_sampled": 0,
   "cdx_status_counts": {
-    "fetched": 3
+    "failed": 2,
+    "fetched": 1
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Drift Race in the open world"
+    "The Gates of Heaven"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/count_source_probe_game_status.csv",
@@ -29,15 +30,15 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 21599,
-    "updated": 0
+    "added": 1,
+    "total": 21682,
+    "updated": 2
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T10:50:48Z",
+  "run_timestamp": "2026-07-04T11:00:24Z",
   "selected_games_by_developer": {
-    "roman8": 1
+    "EmperorMason": 1
   },
   "skipped_developers_due_to_caps": [],
   "source_cdx_lookups": 3,
