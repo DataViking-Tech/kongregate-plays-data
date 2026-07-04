@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
     "cached": 7105,
-    "failed": 5806,
-    "fetched": 10141,
+    "failed": 5838,
+    "fetched": 10182,
     "missing_html_cache_skipped": 1
   },
   "history_games": 2080,
-  "history_observation_rows": 23053,
+  "history_observation_rows": 23126,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -16,27 +16,44 @@
   },
   "profile_games": 325,
   "recovered_count_rows": 647,
-  "run_timestamp": "2026-07-04T14:22:39Z",
+  "run_timestamp": "2026-07-04T14:33:22Z",
   "source_type_counts": {
     "chat_achievements": 1538,
     "chat_js": 1635,
-    "developer_game_list": 6878,
+    "developer_game_list": 6951,
     "game_path_prefix": 127,
     "holodeck": 1705,
     "metrics_json": 8841,
     "recommended_games": 2329
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 199,
-    "no_archived_endpoint_rows_observed": 1583,
+    "archived_endpoint_hit_no_count": 201,
+    "no_archived_endpoint_rows_observed": 1580,
     "recovered_count": 297,
-    "transient_failures_remaining": 1
+    "transient_failures_remaining": 2
   },
   "tier1_status_counts": {
     "archived_endpoint_hit_no_count": 115,
     "no_archived_endpoint_rows_observed": 126
   },
   "top_transient_failures": [
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 2,
+      "canonical_game_key": "www.kongregate.com/games/asaber33/calculator",
+      "endpoint_observations": 13,
+      "failed_observations": 9,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "calculator",
+      "game_url": "http://www.kongregate.com/games/asaber33/calculator",
+      "latest_probe_run_timestamp": "2026-07-04T14:33:14Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "developer_game_list;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
+    },
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
@@ -56,5 +73,5 @@
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 111
+  "unresolved_failed_endpoint_groups": 113
 }
