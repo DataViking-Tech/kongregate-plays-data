@@ -6,7 +6,7 @@
     "exact_metrics_overlap_sampled_no_count_signal": 1,
     "exact_metrics_starts_after_missing_window": 297
   },
-  "generated_at": "2026-07-04T13:00:31Z",
+  "generated_at": "2026-07-04T13:09:21Z",
   "outputs": {
     "csv": "data/processed/asof_recovery_feasibility_audit.csv",
     "report_json": "logs/asof_recovery_feasibility_audit_report.json",
