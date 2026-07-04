@@ -1,12 +1,12 @@
 {
-  "run_timestamp": "2026-07-04T06:05:58Z",
+  "run_timestamp": "2026-07-04T06:20:33Z",
   "ranked_rows": 49982,
-  "missing_rank_rows_without_aggregate_asof_count": 5088,
-  "games_with_missing_asof_rank_rows": 1986,
-  "games_with_later_or_other_observed_counts": 1743,
+  "missing_rank_rows_without_aggregate_asof_count": 5082,
+  "games_with_missing_asof_rank_rows": 1983,
+  "games_with_later_or_other_observed_counts": 1740,
   "games_with_no_observed_play_count_anywhere": 243,
   "recovery_class_counts": {
-    "earlier_history_needed": 1743,
+    "earlier_history_needed": 1740,
     "no_count_dynamic_placeholder": 135,
     "no_count_no_page_cdx": 106,
     "outside_mini_catalog_scope_no_count": 2

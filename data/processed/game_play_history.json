@@ -10336,6 +10336,21 @@
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171010215949_http_www.kongregate.com_games_Mentor31_castle-woodwarf_metrics.json_ba393b2da8e15740.json"
     },
     {
+      "date": "2017-10-29",
+      "game_name": "Colony",
+      "game_url": "https://www.kongregate.com/en/games/ArmorGames/colony",
+      "plays_count_observed": 564532,
+      "favorites_count_observed": 6864,
+      "plays_text": "564,532",
+      "favorites_text": "6,864",
+      "metrics_url": "http://www.kongregate.com:80/games/ArmorGames/colony/metrics.json",
+      "capture_timestamp": "20171029072144",
+      "capture_url": "https://web.archive.org/web/20171029072144/http://www.kongregate.com:80/games/ArmorGames/colony/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171029072144_http_www.kongregate.com_80_games_ArmorGames_colony_metrics.json_e9f9e2bf6695aced.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
       "date": "2017-10-31",
       "game_name": "SUPERHOTline Miami Deluxe",
       "game_url": "https://www.kongregate.com/games/Albatr/superhotline-miami",
@@ -10379,6 +10394,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20171116130055_http_www.kongregate.com_games_arcan3artist_the-very-organized-thief_metrics.json_98680e11dae0dfee.json"
+    },
+    {
+      "date": "2017-11-17",
+      "game_name": "Battalion: Nemesis",
+      "game_url": "https://www.kongregate.com/en/games/urbansquall/battalion-nemesis",
+      "plays_count_observed": 4592303,
+      "favorites_count_observed": 21219,
+      "plays_text": "4,592,303",
+      "favorites_text": "21,219",
+      "metrics_url": "http://www.kongregate.com/games/urbansquall/battalion-nemesis/metrics.json",
+      "capture_timestamp": "20171117155142",
+      "capture_url": "https://web.archive.org/web/20171117155142/http://www.kongregate.com/games/urbansquall/battalion-nemesis/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20171117155142_http_www.kongregate.com_games_urbansquall_battalion-nemesis_metrics.json_1522b4588880227c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2017-11-24",
@@ -14264,6 +14294,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190702072652_https_www.kongregate.com_games_bontegames_whats-inside-the-box_metrics.json_2e5962531103a512.json"
+    },
+    {
+      "date": "2019-07-30",
+      "game_name": "Steambirds: Survival",
+      "game_url": "https://www.kongregate.com/en/games/spryfox/steambirds-survival",
+      "plays_count_observed": 499064,
+      "favorites_count_observed": 5345,
+      "plays_text": "499,064",
+      "favorites_text": "5,345",
+      "metrics_url": "http://www.kongregate.com/games/spryfox/steambirds-survival/metrics.json",
+      "capture_timestamp": "20190730203820",
+      "capture_url": "https://web.archive.org/web/20190730203820/http://www.kongregate.com/games/spryfox/steambirds-survival/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190730203820_http_www.kongregate.com_games_spryfox_steambirds-survival_metrics.json_a91a175e7ed64b88.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-08-11",
@@ -23864,6 +23909,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200622071946_https_www.kongregate.com_games_masasgames_escape-game-computer-office-escape_metrics.json_0ae31ef053fcb94c.json"
+    },
+    {
+      "date": "2020-06-22",
+      "game_name": "Maptroid",
+      "game_url": "https://www.kongregate.com/games/lozzajp/maptroid",
+      "plays_count_observed": 67260,
+      "favorites_count_observed": 496,
+      "plays_text": "67,260",
+      "favorites_text": "496",
+      "metrics_url": "https://www.kongregate.com/games/lozzajp/maptroid/metrics.json",
+      "capture_timestamp": "20200622071904",
+      "capture_url": "https://web.archive.org/web/20200622071904/https://www.kongregate.com/games/lozzajp/maptroid/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200622071904_https_www.kongregate.com_games_lozzajp_maptroid_metrics.json_8bf93ead84bc2426.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-06-22",
@@ -38024,6 +38084,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210617222639_https_www.kongregate.com_games_RogueSword_dungeoneers_metrics.json_004a417115295e17.json"
+    },
+    {
+      "date": "2021-06-17",
+      "game_name": "Maptroid",
+      "game_url": "https://www.kongregate.com/games/lozzajp/maptroid",
+      "plays_count_observed": 124376,
+      "favorites_count_observed": 853,
+      "plays_text": "124,376",
+      "favorites_text": "853",
+      "metrics_url": "https://www.kongregate.com/games/lozzajp/maptroid/metrics.json",
+      "capture_timestamp": "20210617204935",
+      "capture_url": "https://web.archive.org/web/20210617204935/https://www.kongregate.com/games/lozzajp/maptroid/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210617204935_https_www.kongregate.com_games_lozzajp_maptroid_metrics.json_eaa17ab2ce4c3ea6.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2021-06-17",
@@ -55019,6 +55094,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221124181718_http_www.kongregate.com_games_Djugan_hands-of-war-tower-defense_metrics.json_14a56e9baccbdfaf.json"
+    },
+    {
+      "date": "2022-11-29",
+      "game_name": "Battalion: Nemesis",
+      "game_url": "https://www.kongregate.com/en/games/urbansquall/battalion-nemesis",
+      "plays_count_observed": 4777767,
+      "favorites_count_observed": 21615,
+      "plays_text": "4,777,767",
+      "favorites_text": "21,615",
+      "metrics_url": "http://www.kongregate.com/games/urbansquall/battalion-nemesis/metrics.json",
+      "capture_timestamp": "20221129053758",
+      "capture_url": "https://web.archive.org/web/20221129053758/http://www.kongregate.com/games/urbansquall/battalion-nemesis/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221129053758_http_www.kongregate.com_games_urbansquall_battalion-nemesis_metrics.json_4844670a4d646832.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-11-29",
