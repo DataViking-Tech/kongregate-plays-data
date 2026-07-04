@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
     "cached": 7121,
-    "failed": 5892,
-    "fetched": 10281,
+    "failed": 5924,
+    "fetched": 10320,
     "missing_html_cache_skipped": 1
   },
   "history_games": 2080,
-  "history_observation_rows": 23295,
+  "history_observation_rows": 23366,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -16,21 +16,21 @@
   },
   "profile_games": 325,
   "recovered_count_rows": 647,
-  "run_timestamp": "2026-07-04T14:55:30Z",
+  "run_timestamp": "2026-07-04T15:04:19Z",
   "source_type_counts": {
     "chat_achievements": 1538,
     "chat_js": 1635,
-    "developer_game_list": 7120,
+    "developer_game_list": 7191,
     "game_path_prefix": 127,
     "holodeck": 1705,
     "metrics_json": 8841,
     "recommended_games": 2329
   },
   "status_counts": {
-    "archived_endpoint_hit_no_count": 207,
-    "no_archived_endpoint_rows_observed": 1574,
+    "archived_endpoint_hit_no_count": 208,
+    "no_archived_endpoint_rows_observed": 1571,
     "recovered_count": 297,
-    "transient_failures_remaining": 2
+    "transient_failures_remaining": 4
   },
   "tier1_status_counts": {
     "archived_endpoint_hit_no_count": 115,
@@ -57,6 +57,23 @@
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/devheronatio/scp-079",
+      "endpoint_observations": 18,
+      "failed_observations": 11,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "SCP 079",
+      "game_url": "https://www.kongregate.com/games/DevHeroNatio/scp-079",
+      "latest_probe_run_timestamp": "2026-07-04T15:04:03Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "developer_game_list;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
       "canonical_game_key": "www.kongregate.com/games/314owen/spell-sorter",
       "endpoint_observations": 16,
       "failed_observations": 9,
@@ -70,8 +87,25 @@
       "source_types_seen": "developer_game_list;metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 2
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 4,
+      "canonical_game_key": "www.kongregate.com/games/eyewars/test",
+      "endpoint_observations": 18,
+      "failed_observations": 10,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "test",
+      "game_url": "https://www.kongregate.com/games/eyewars/test",
+      "latest_probe_run_timestamp": "2026-07-04T15:04:03Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "developer_game_list;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 117
+  "unresolved_failed_endpoint_groups": 120
 }
