@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-04T07:20:57Z
-- Profile games in scope: 2
-- Selected games sample: Supermechs, Bloons Monkey City
+- Run timestamp: 2026-07-04T07:31:31Z
+- Profile games in scope: 4
+- Selected games sample: N Step Steve: Part 1, Trader of Stories - Chapter 3, Drift Race in the open world, Footie Fight
 - Selected games omitted from sample: 0
-- CDX games considered: 2
-- Cached CDX only: True
-- Cached HTML only: True
-- CDX timeout: 25s
-- CDX wall-clock cap: none
-- CDX date-window days: 90
-- Page timeout: 25s
-- Page wall-clock cap: 10.0
-- Game-name filter: Supermechs,Bloons Monkey City
+- CDX games considered: 4
+- Cached CDX only: False
+- Cached HTML only: False
+- CDX timeout: 10s
+- CDX wall-clock cap: 12.0
+- CDX date-window days: 240
+- Page timeout: 10s
+- Page wall-clock cap: 12.0
+- Game-name filter: N Step Steve: Part 1,Trader of Stories - Chapter 3,Drift Race in the open world,Footie Fight
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 1564
-- Page jobs: 590
-- Pending before run: 590
-- Attempted this run: 40
-- Fetched this run: 0
-- Cached HTML selected this run: 40
+- CDX rows: 53
+- Page jobs: 23
+- Pending before run: 2
+- Attempted this run: 2
+- Fetched this run: 2
+- Cached HTML selected this run: 0
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 40
+- Failed this run: 2
 - Manifest entries: 368
-- Known failures: 4016
-- Combined history rows: 9118
+- Known failures: 4018
+- Combined history rows: 9119
 - Game-page history rows: 368
 - Report only: False
