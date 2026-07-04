@@ -18078,6 +18078,21 @@
     {
       "date": "2019-12-15",
       "game_name": "Cursed Treasure 2 Remastered",
+      "game_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered",
+      "plays_count_observed": 226536,
+      "favorites_count_observed": 1307,
+      "plays_text": "226,536",
+      "favorites_text": "1,307",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "capture_timestamp": "20191215034649",
+      "capture_url": "https://web.archive.org/web/20191215034649/https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215034649_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_0dc335f2d674fb38.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Cursed Treasure 2 Remastered",
       "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure-2-remastered",
       "plays_count_observed": 226536,
       "favorites_count_observed": 1307,
@@ -18149,6 +18164,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191215034649_https_www.kongregate.com_games_jetspice_grindcraft_metrics.json_fa4d178a8140a8fe.json"
+    },
+    {
+      "date": "2019-12-15",
+      "game_name": "Idle Ants",
+      "game_url": "http://www.kongregate.com/games/scorzy88/idle-ants",
+      "plays_count_observed": 409332,
+      "favorites_count_observed": 2059,
+      "plays_text": "409,332",
+      "favorites_text": "2,059",
+      "metrics_url": "http://www.kongregate.com/games/scorzy88/idle-ants/metrics.json",
+      "capture_timestamp": "20191215035554",
+      "capture_url": "https://web.archive.org/web/20191215035554/http://www.kongregate.com/games/scorzy88/idle-ants/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191215035554_http_www.kongregate.com_games_scorzy88_idle-ants_metrics.json_ea30f3f2f19557dc.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-15",
@@ -30296,6 +30326,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
       "capture_timestamp": "20201208040903",
       "capture_url": "https://web.archive.org/web/20201208040903/https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201208040903_https_www.kongregate.com_games_VasantJ_medieval-shorts-2_metrics.json_047aa6aa026fb73c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-12-08",
+      "game_name": "Medieval Shorts 2",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-shorts-2",
+      "plays_count_observed": 96000,
+      "favorites_count_observed": 1041,
+      "plays_text": "96,000",
+      "favorites_text": "1,041",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
+      "capture_timestamp": "20201208040903",
+      "capture_url": "https://web.archive.org/web/20201208040903/https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201208040903_https_www.kongregate.com_games_VasantJ_medieval-shorts-2_metrics.json_047aa6aa026fb73c.json"
@@ -30359,6 +30404,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201209190457_https_www.kongregate.com_games_VasantJ_medieval-chronicles-8_metrics.json_6b5337df6f4f4cfb.json"
+    },
+    {
+      "date": "2020-12-09",
+      "game_name": "Medieval Shorts 2",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-shorts-2",
+      "plays_count_observed": 96858,
+      "favorites_count_observed": 1045,
+      "plays_text": "96,858",
+      "favorites_text": "1,045",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
+      "capture_timestamp": "20201209022736",
+      "capture_url": "https://web.archive.org/web/20201209022736/https://www.kongregate.com/games/VasantJ/medieval-shorts-2/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201209022736_https_www.kongregate.com_games_VasantJ_medieval-shorts-2_metrics.json_70ce19c81fefc5ad.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-12-09",
@@ -49218,6 +49278,21 @@
     {
       "date": "2022-04-28",
       "game_name": "Cursed Treasure 2 Remastered",
+      "game_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered",
+      "plays_count_observed": 1113054,
+      "favorites_count_observed": 3958,
+      "plays_text": "1,113,054",
+      "favorites_text": "3,958",
+      "metrics_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "capture_timestamp": "20220428053703",
+      "capture_url": "https://web.archive.org/web/20220428053703/https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220428053703_https_www.kongregate.com_games_IriySoft_cursed-treasure-2-remastered_metrics.json_5aa4652e0037d36d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-04-28",
+      "game_name": "Cursed Treasure 2 Remastered",
       "game_url": "https://www.kongregate.com/en/games/IriySoft/cursed-treasure-2-remastered",
       "plays_count_observed": 1113054,
       "favorites_count_observed": 3958,
@@ -65609,6 +65684,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230829124451_https_www.kongregate.com_games_HolydayStudios_firestone_metrics.json_8b6f1d6e95c0e753.json"
+    },
+    {
+      "date": "2023-08-29",
+      "game_name": "Mr.Vengeance: Upgrade",
+      "game_url": "http://www.kongregate.com/games/tmifx/mr-vengeance-upgrade",
+      "plays_count_observed": 43109,
+      "favorites_count_observed": 259,
+      "plays_text": "43,109",
+      "favorites_text": "259",
+      "metrics_url": "https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "capture_timestamp": "20230829182654",
+      "capture_url": "https://web.archive.org/web/20230829182654/https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230829182654_https_www.kongregate.com_games_tmifx_mr-vengeance-upgrade_metrics.json_23ca9c73355f6e7e.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-08-29",

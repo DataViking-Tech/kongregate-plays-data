@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 1,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 1,
-  "cdx_rows_found": 0,
+  "candidate_observation_rows": 7,
+  "candidates_with_cdx": 1,
+  "cdx_lookups": 7,
+  "cdx_rows_found": 1,
   "cdx_status_counts": {
-    "fetched": 1
+    "fetched": 7
   },
-  "cdx_wall_timeout": 45.0,
+  "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 1,
+  "games_direct_probed": 7,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_301.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_302.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
-  "max_cdx_lookups": 4,
+  "max_cdx_lookups": 12,
   "max_pages_per_game": 1,
   "max_payload_bytes": 2000000,
   "outputs": {
@@ -26,294 +26,296 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 25.0,
-  "payloads_with_count_signal": 0,
+  "parsed_play_count_rows": 1,
+  "payload_wall_timeout": 20.0,
+  "payloads_with_count_signal": 1,
   "per_game": {
-    "\"PacDude Hero IV 110% Turbo\" Alpha3 Final": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/JeZxLee/pacdude-hero-iv-110-turbo-alpha3-final",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "\"Rodeo": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/foacore/rodeo",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Adventures of J 10": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/adventures-of-j-10",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Ball Keeper": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/R_Zita/ball-keeper",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Black and White": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/PixSelStudios/black-and-white",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Elsa Mropia Doctor": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/k25507891/elsa-mropia-doctor",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Escape This Place - Chapter 1": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/sphinx27/escape-this-place-chapter-1",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Escape from afc": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/ajazgames/escape-from-afc",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Gasoline": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/gameallblack/gasoline",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Gym Dressing Room Escape": {
+    "A Special Day": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/yolkgamez/gym-dressing-room-escape",
+      "game_url": "http://www.kongregate.com/games/SandraKim/a-special-day",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "HIJAB UP": {
+    "Bean and Boy": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/giuliagushikem/hijab-up",
+      "game_url": "http://www.kongregate.com/games/game4joy1/bean-and-boy",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Hiro And Baymax Lab Adventure": {
+    "Catch the Rain": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/k25507891/hiro-and-baymax-lab-adventure",
+      "game_url": "http://www.kongregate.com/games/javi10jedf/catch-the-rain",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "HitCar.io": {
+    "City bird": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/orndotio/hitcar-io",
+      "game_url": "http://www.kongregate.com/games/oscarkim/city-bird",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "KillTown": {
+    "Cursed Treasure 2 Remastered": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Wolfire_Dev/killtown",
+      "game_url": "https://www.kongregate.com/games/IriySoft/cursed-treasure-2-remastered",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Killer Shapes": {
+    "Fishing Tactics": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/KTC_Gimli/killer-shapes",
+      "game_url": "https://www.kongregate.com/games/dslevis/luck-by-chance-hotsheet-multiplayer",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Knf Hotel Escape 2": {
+    "Frozen Magic Remove": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/knfescapegame/knf-hotel-escape-2",
+      "game_url": "http://www.kongregate.com/games/game4joy1/frozen-magic-remove",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Kohinoor Diamond Recovery": {
+    "GUNZ.IO Multiplayer RTS Arena": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/kohinoor-diamond-recovery",
+      "game_url": "http://www.kongregate.com/games/squirrelsquare/gunz-io-multiplayer-rts-arena",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "LOGANS COPY ONLY": {
+    "Gold of Knights": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/dkdev/logans-copy-only",
+      "game_url": "http://www.kongregate.com/games/jewelsgames/gold-of-knights",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Mecha Metaverse": {
+    "Hoop N Line": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/VictoryAwaits/mecha-metaverse",
+      "game_url": "http://www.kongregate.com/games/kaizen101/hoop-n-line",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Meena Golden Treasure Hunting Game": {
+    "Idle Ants": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/meenagame/meena-golden-treasure-hunting-game",
+      "game_url": "http://www.kongregate.com/games/scorzy88/idle-ants",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Monkey GO Happy Planet Escape": {
+    "Jigsaw Puzzle: Beauty Views": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Pencilkids/monkey-go-happy-planet-escape",
+      "game_url": "http://www.kongregate.com/games/vladetam/jigsaw-puzzle-beauty-views",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Move on Green": {
+    "LORED": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/OlegAntipov/move-on-green",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "https://www.kongregate.com/games/Drillur/lored",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Nsr Trapped Key": {
+    "Land Of Darkness": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Nsrgames/nsr-trapped-key",
+      "game_url": "http://www.kongregate.com/games/clockworkmonster/land-of-darkness",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Parents Save Halloween": {
+    "Marbles": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/edenicholas/parents-save-halloween",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/Lokarunith/marbles",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Parkour School": {
+    "Medieval Shorts 2": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/P0K3M0NG0/parkour-school",
+      "game_url": "http://www.kongregate.com/games/VasantJ/medieval-shorts-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "RPG_demo_20170624_0830": {
+    "Mr.Vengeance: Upgrade": {
+      "candidates_with_cdx": 1,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/tmifx/mr-vengeance-upgrade",
+      "pages_checked": 0,
+      "parsed_play_counts": [
+        43109
+      ],
+      "payloads_with_count_signal": 1
+    },
+    "Ninja In Box": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/1CHAAAIN/rpg-demo-20170624-0830",
+      "game_url": "http://www.kongregate.com/games/gamesdevelopers/ninja-in-box",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Recon Earth": {
+    "Parkour City!": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/EffigyMedia/recon-earth",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/dararan/parkour-city",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Toxic Tunnel Escape": {
+    "Piggy Love Story": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/CrazyEscapeGames/toxic-tunnel-escape",
+      "game_url": "http://www.kongregate.com/games/kai3114/piggy-love-story",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Toy N Toy": {
+    "Pizza House App": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Gamesdeveloper/toy-n-toy",
+      "game_url": "http://www.kongregate.com/games/MrJesusKrabs/pizza-house-app",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Tucan Bird": {
+    "Podium Beauty": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/jborguero/tucan-bird",
+      "game_url": "http://www.kongregate.com/games/BombikOyun/podium-beauty",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Vorsteiner Lamborghini": {
+    "Rise of the Kal-Rul": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/newgamess/vorsteiner-lamborghini",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/Zamol/rise-of-the-kal-rul",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "watergames": {
+    "SillyWorld": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/rajeshstp/watergames",
+      "game_url": "http://www.kongregate.com/games/AbodUX/sillyworld",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Spiders Arena 2": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/brvasil/spiders-arena-2",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Forgotten Soul": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/SandraKim/the-forgotten-soul",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Sketch Project Concept": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/littlerockplanet/the-sketch-project-concept",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Toaster Factory": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/lunardoor/toaster-factory",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Undiscovered Paradise": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/SandraKim/undiscovered-paradise",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Water Apocalypse": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/Sebbedan/water-apocalypse",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Yamb Dice": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/algogames/yamb-dice",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "the fort": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/nrsgames/the-fort",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -321,14 +323,14 @@
   },
   "persisted_play_counts": {
     "added": 0,
-    "total": 779
+    "total": 785
   },
   "persisted_probe_history": {
-    "added": 1,
-    "total": 18073,
+    "added": 7,
+    "total": 18185,
     "updated": 0
   },
-  "run_timestamp": "2026-07-04T01:49:57Z",
+  "run_timestamp": "2026-07-04T02:04:58Z",
   "source_types": [
     "metrics_json"
   ],
@@ -340,7 +342,43 @@
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [],
-  "top_count_signals": [],
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "game_name": "Mr.Vengeance: Upgrade",
+      "game_url": "http://www.kongregate.com/games/tmifx/mr-vengeance-upgrade",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 43109,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20230829182654_https_www.kongregate.com_games_tmifx_mr-vengeance-upgrade_metrics.json_23ca9c73355f6e7e.txt",
+      "sample_timestamp": "20230829182654",
+      "source_page_path": "",
+      "source_page_timestamp": "20140822000000",
+      "source_type": "metrics_json"
+    }
+  ],
+  "top_count_signals": [
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "game_name": "Mr.Vengeance: Upgrade",
+      "game_url": "http://www.kongregate.com/games/tmifx/mr-vengeance-upgrade",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 43109,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20230829182654_https_www.kongregate.com_games_tmifx_mr-vengeance-upgrade_metrics.json_23ca9c73355f6e7e.txt",
+      "sample_timestamp": "20230829182654",
+      "source_page_path": "",
+      "source_page_timestamp": "20140822000000",
+      "source_type": "metrics_json"
+    }
+  ],
   "unresolved_failed_endpoints_only": true
 }
