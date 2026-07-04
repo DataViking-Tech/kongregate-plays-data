@@ -13,10 +13,21 @@
     "2007-01-20",
     "2026-07-03"
   ],
-  "generated_at": "2026-07-04T07:52:56Z",
+  "generated_at": "2026-07-04T08:02:12Z",
   "last_observed_date_range": [
     "2007-03-24",
     "2026-07-04"
+  ],
+  "likely_added_date_confidence_counts": {
+    "left_censored_at_first_archive_capture": 12,
+    "observed_first_seen_not_launch_date": 2623,
+    "published_date_after_first_observed_conflict": 4,
+    "published_date_from_archived_game_page": 50,
+    "published_date_from_structured_json_ld": 309
+  },
+  "likely_added_date_range": [
+    "2006-10-21",
+    "2026-07-01"
   ],
   "live_metric_status_counts": {
     "live_metrics_available": 2654,
@@ -28,12 +39,22 @@
     "report_json": "logs/game_lifecycle_catalog_report.json",
     "report_md": "logs/game_lifecycle_catalog_report.md"
   },
+  "published_date_after_first_observed_conflicts": 4,
+  "published_date_confidence_counts": {
+    "published_date_from_archived_game_page": 54,
+    "published_date_from_structured_json_ld": 309
+  },
+  "published_date_range": [
+    "2006-10-21",
+    "2026-07-01"
+  ],
   "removal_evidence_status_counts": {
     "live_metrics_available": 2654,
     "live_metrics_unavailable": 343,
     "stale_live_metrics_failure_older_than_last_observation": 1
   },
   "rows_with_observed_categories": 580,
+  "rows_with_published_dates": 363,
   "top_social_candidates": [
     {
       "best_rank": 1,

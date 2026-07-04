@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import html
 import json
 import re
 from collections import Counter, defaultdict
@@ -17,6 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 PROCESSED = ROOT / "data" / "processed"
 LOGS = ROOT / "logs"
 RAW_METRICS = ROOT / "data" / "raw" / "game_metrics"
+RAW_HTML = ROOT / "data" / "raw" / "html"
+RAW_GAME_PAGES = ROOT / "data" / "raw" / "game_pages"
 
 MINI_CATALOG_CSV = PROCESSED / "mini_catalog.csv"
 RANKED_CSV = PROCESSED / "ranked_games.csv"
@@ -37,6 +40,7 @@ DATE_COLUMNS = {
     "first_ranked_date",
     "first_play_history_date",
     "first_live_metric_date",
+    "published_date",
     "likely_added_date",
     "last_observed_date",
     "last_ranked_date",
@@ -67,6 +71,9 @@ OUTPUT_COLUMNS = [
     "first_ranked_date",
     "first_play_history_date",
     "first_live_metric_date",
+    "published_date",
+    "published_date_source",
+    "published_date_confidence",
     "likely_added_date",
     "likely_added_date_confidence",
     "last_observed_date",
@@ -118,6 +125,21 @@ GENRE_RULES = [
     ("racing_sports", re.compile(r"\b(racing|race|football|soccer|sports|tennis|basketball)\b", re.IGNORECASE)),
 ]
 
+GAME_URL_RE = re.compile(r"https?://www\.kongregate\.com/(?:en/)?games/[^\"'<>\s?#]+/[^\"'<>\s?#&]+", re.IGNORECASE)
+DATE_RE = re.compile(r"\b(20\d{2}|19\d{2})-(\d{2})-(\d{2})(?!\d)")
+JSON_LD_RE = re.compile(
+    r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>",
+    re.IGNORECASE | re.DOTALL,
+)
+PUBLISHED_TEXT_RE = re.compile(
+    r"Game\s+(published|uploaded)\s+on\s+(\d{4}-\d{2}-\d{2})",
+    re.IGNORECASE,
+)
+PUBLISHED_BLOCK_RE = re.compile(
+    r"<div[^>]+id=[\"']game_published[\"'][^>]*>.*?(\d{4}-\d{2}-\d{2}).*?</div>",
+    re.IGNORECASE | re.DOTALL,
+)
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -161,6 +183,20 @@ def iso_date_from_timestamp(value: str) -> str:
     return date_from_timestamp(value)
 
 
+def normalize_iso_date(value: str) -> str:
+    match = DATE_RE.search(value or "")
+    if not match:
+        return ""
+    candidate = "-".join(match.groups())
+    try:
+        parsed = datetime.strptime(candidate, "%Y-%m-%d").date()
+    except ValueError:
+        return ""
+    if parsed.isoformat() < "2006-01-01" or parsed.isoformat() > datetime.now(timezone.utc).date().isoformat():
+        return ""
+    return parsed.isoformat()
+
+
 def split_semicolon(value: str) -> list[str]:
     return [part.strip() for part in (value or "").split(";") if part.strip()]
 
@@ -199,6 +235,137 @@ def build_lookup(rows: list[dict[str, str]], status_field: str = "status") -> di
         if key:
             lookup[key] = row
     return lookup
+
+
+def is_video_game_node(node: dict) -> bool:
+    node_type = node.get("@type")
+    if isinstance(node_type, list):
+        return any(str(value).lower() == "videogame" for value in node_type)
+    return str(node_type).lower() == "videogame"
+
+
+def iter_json_nodes(value):
+    if isinstance(value, dict):
+        yield value
+        for child in value.values():
+            yield from iter_json_nodes(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from iter_json_nodes(child)
+
+
+def extract_json_ld_documents(markup: str) -> list:
+    documents = []
+    for match in JSON_LD_RE.finditer(markup):
+        payload = html.unescape(match.group(1)).strip()
+        if not payload:
+            continue
+        try:
+            documents.append(json.loads(payload))
+        except json.JSONDecodeError:
+            continue
+    return documents
+
+
+def extract_structured_published_dates(markup: str) -> list[tuple[str, str]]:
+    found = []
+    for document in extract_json_ld_documents(markup):
+        for node in iter_json_nodes(document):
+            if not is_video_game_node(node):
+                continue
+            game_url = node.get("url") or node.get("@id", "")
+            published_date = normalize_iso_date(str(node.get("datePublished", "")))
+            key = canonical_game_url(str(game_url))
+            if key and published_date:
+                found.append((key, published_date))
+    return found
+
+
+def extract_page_game_url(markup: str) -> str:
+    meta_patterns = [
+        r"<meta[^>]+property=[\"']og:url[\"'][^>]+content=[\"']([^\"']+)[\"']",
+        r"<link[^>]+rel=[\"']canonical[\"'][^>]+href=[\"']([^\"']+)[\"']",
+        r"<link[^>]+href=[\"']([^\"']+)[\"'][^>]+rel=[\"']canonical[\"']",
+    ]
+    for pattern in meta_patterns:
+        match = re.search(pattern, markup, re.IGNORECASE)
+        if match:
+            key = canonical_game_url(html.unescape(match.group(1)))
+            if key:
+                return key
+
+    game_url_match = re.search(r"[\"']game_url[\"']\s*:\s*[\"']([^\"']+)[\"']", markup, re.IGNORECASE)
+    if game_url_match:
+        from urllib.parse import unquote
+
+        key = canonical_game_url(unquote(game_url_match.group(1)))
+        if key:
+            return key
+
+    candidates = Counter(canonical_game_url(html.unescape(match.group(0))) for match in GAME_URL_RE.finditer(markup))
+    candidates = Counter({key: count for key, count in candidates.items() if key})
+    if candidates:
+        return candidates.most_common(1)[0][0]
+    return ""
+
+
+def add_published_evidence(
+    evidence: dict[str, dict[str, object]],
+    key: str,
+    published_date: str,
+    source_type: str,
+    path: Path,
+) -> None:
+    if not key or not published_date:
+        return
+    bucket = evidence[key]
+    bucket["dates"][published_date] += 1
+    bucket["source_types"][source_type] += 1
+    if len(bucket["sample_paths"]) < 5:
+        bucket["sample_paths"].add(str(path.relative_to(ROOT)))
+
+
+def collect_published_dates() -> dict[str, dict[str, object]]:
+    evidence: dict[str, dict[str, object]] = defaultdict(lambda: {
+        "dates": Counter(),
+        "source_types": Counter(),
+        "sample_paths": set(),
+    })
+    html_roots = [RAW_GAME_PAGES / "html", RAW_GAME_PAGES / "probe", RAW_HTML]
+    for html_root in html_roots:
+        if not html_root.exists():
+            continue
+        for path in sorted(html_root.glob("*.html")):
+            markup = path.read_text(encoding="utf-8", errors="replace")
+
+            for key, published_date in extract_structured_published_dates(markup):
+                add_published_evidence(evidence, key, published_date, "json_ld_datePublished", path)
+
+            page_key = extract_page_game_url(markup)
+            if not page_key:
+                continue
+            for match in PUBLISHED_TEXT_RE.finditer(markup):
+                source_type = f"html_game_{match.group(1).lower()}_text"
+                add_published_evidence(evidence, page_key, normalize_iso_date(match.group(2)), source_type, path)
+            for match in PUBLISHED_BLOCK_RE.finditer(markup):
+                add_published_evidence(evidence, page_key, normalize_iso_date(match.group(1)), "html_game_published_block", path)
+    return evidence
+
+
+def choose_published_date(evidence: dict[str, object] | None) -> tuple[str, str, str]:
+    if not evidence:
+        return "", "", ""
+    dates: Counter = evidence.get("dates", Counter())
+    if not dates:
+        return "", "", ""
+    max_count = max(dates.values())
+    published_date = sorted(date for date, count in dates.items() if count == max_count)[0]
+    source_types: Counter = evidence.get("source_types", Counter())
+    source = "; ".join(f"{source}:{count}" for source, count in sorted(source_types.items()))
+    confidence = "published_date_from_archived_game_page"
+    if source_types and set(source_types) == {"json_ld_datePublished"}:
+        confidence = "published_date_from_structured_json_ld"
+    return published_date, source, confidence
 
 
 def collect_observations() -> tuple[dict[str, dict[str, object]], dict[str, dict[str, str]]]:
@@ -336,6 +503,7 @@ def lifecycle_row(
     catalog_row: dict[str, str],
     observations: dict[str, dict[str, object]],
     live_by_key: dict[str, dict[str, str]],
+    published_by_key: dict[str, dict[str, object]],
     audit_by_key: dict[str, dict[str, str]],
     page_gap_by_key: dict[str, dict[str, str]],
     count_source_by_key: dict[str, dict[str, str]],
@@ -356,6 +524,7 @@ def lifecycle_row(
     last_live = max_date(live_dates)
     first_observed = min_date([first_ranked, first_history, first_live])
     last_observed = max_date([last_ranked, last_history, last_live])
+    published_date, published_source, published_confidence = choose_published_date(published_by_key.get(key))
 
     removal_status = "no_removal_evidence"
     removal_type = ""
@@ -378,15 +547,23 @@ def lifecycle_row(
             removed_by = attempt_date
             removal_confidence = "low_game_page_not_verified"
 
-    added_confidence = "observed_first_seen_not_launch_date"
-    if first_observed <= "2007-01-20":
+    published_conflicts_with_first_observed = bool(published_date and first_observed and published_date > first_observed)
+    likely_added_date = first_observed if published_conflicts_with_first_observed else (published_date or first_observed)
+    added_confidence = published_confidence or "observed_first_seen_not_launch_date"
+    if published_conflicts_with_first_observed:
+        added_confidence = "published_date_after_first_observed_conflict"
+    elif not published_date and first_observed <= "2007-01-20":
         added_confidence = "left_censored_at_first_archive_capture"
 
     category_tags, platform_flags, social_candidate, class_confidence, signals = classify_game(catalog_row)
     notes = []
     if removal_status == "live_metrics_unavailable":
         notes.append("Live metrics endpoint failure is removal evidence only for the metrics endpoint; game-page availability needs direct verification.")
-    if first_observed:
+    if published_conflicts_with_first_observed:
+        notes.append("Published metadata is after an observed ranking/history date, so likely added date uses the earlier observation.")
+    elif published_date:
+        notes.append("Likely added date is backed by archived published/uploaded metadata.")
+    elif first_observed:
         notes.append("Likely added date is the first observed archive/listing/history date, not a confirmed launch date.")
 
     return {
@@ -409,7 +586,10 @@ def lifecycle_row(
         "first_ranked_date": first_ranked,
         "first_play_history_date": first_history,
         "first_live_metric_date": first_live,
-        "likely_added_date": first_observed,
+        "published_date": published_date,
+        "published_date_source": published_source,
+        "published_date_confidence": published_confidence,
+        "likely_added_date": likely_added_date,
         "likely_added_date_confidence": added_confidence,
         "last_observed_date": last_observed,
         "last_observed_source": source_for_date(source_dates, last_observed, first=False),
@@ -446,12 +626,13 @@ def write_outputs(rows: list[dict[str, object]]) -> None:
 def main() -> None:
     catalog_rows = read_csv(MINI_CATALOG_CSV)
     observations, live_by_key = collect_observations()
+    published_by_key = collect_published_dates()
     audit_by_key = build_lookup(read_csv(AUDIT_CSV))
     page_gap_by_key = build_lookup(read_csv(PAGE_GAP_CSV))
     count_source_by_key = build_lookup(read_csv(COUNT_SOURCE_STATUS_CSV))
 
     rows = [
-        lifecycle_row(row, observations, live_by_key, audit_by_key, page_gap_by_key, count_source_by_key)
+        lifecycle_row(row, observations, live_by_key, published_by_key, audit_by_key, page_gap_by_key, count_source_by_key)
         for row in catalog_rows
     ]
     rows.sort(key=lambda row: (int(row.get("best_rank") or 9999), -int(row.get("top_n_appearances") or 0), row.get("game_name", "").lower()))
@@ -461,10 +642,20 @@ def main() -> None:
     live_counts = Counter(row["current_live_metric_status"] for row in rows)
     removal_counts = Counter(row["removal_evidence_status"] for row in rows)
     confidence_counts = Counter(row["classification_confidence"] for row in rows if row["classification_confidence"])
+    published_confidence_counts = Counter(row["published_date_confidence"] for row in rows if row["published_date_confidence"])
+    likely_added_confidence_counts = Counter(row["likely_added_date_confidence"] for row in rows if row["likely_added_date_confidence"])
     report = {
         "generated_at": utc_now(),
         "catalog_games": len(rows),
         "rows_with_observed_categories": sum(1 for row in rows if row["observed_categories"]),
+        "rows_with_published_dates": sum(1 for row in rows if row["published_date"]),
+        "published_date_after_first_observed_conflicts": sum(
+            1
+            for row in rows
+            if row["published_date"] and row["first_observed_date"] and row["published_date"] > row["first_observed_date"]
+        ),
+        "published_date_confidence_counts": dict(sorted(published_confidence_counts.items())),
+        "likely_added_date_confidence_counts": dict(sorted(likely_added_confidence_counts.items())),
         "facebook_social_candidate_counts": dict(sorted(social_counts.items())),
         "classification_confidence_counts": dict(sorted(confidence_counts.items())),
         "live_metric_status_counts": dict(sorted(live_counts.items())),
@@ -472,6 +663,14 @@ def main() -> None:
         "first_observed_date_range": [
             min_date([str(row["first_observed_date"]) for row in rows]),
             max_date([str(row["first_observed_date"]) for row in rows]),
+        ],
+        "published_date_range": [
+            min_date([str(row["published_date"]) for row in rows]),
+            max_date([str(row["published_date"]) for row in rows]),
+        ],
+        "likely_added_date_range": [
+            min_date([str(row["likely_added_date"]) for row in rows]),
+            max_date([str(row["likely_added_date"]) for row in rows]),
         ],
         "last_observed_date_range": [
             min_date([str(row["last_observed_date"]) for row in rows]),
@@ -504,11 +703,17 @@ def main() -> None:
                 f"- Generated at: {report['generated_at']}",
                 f"- Catalog games: {report['catalog_games']}",
                 f"- Rows with observed categories: {report['rows_with_observed_categories']}",
+                f"- Rows with archived published/uploaded dates: {report['rows_with_published_dates']}",
+                f"- Published dates after first observed date: {report['published_date_after_first_observed_conflicts']}",
+                f"- Published date confidence counts: {report['published_date_confidence_counts']}",
+                f"- Likely added date confidence counts: {report['likely_added_date_confidence_counts']}",
                 f"- Facebook/social candidate counts: {report['facebook_social_candidate_counts']}",
                 f"- Classification confidence counts: {report['classification_confidence_counts']}",
                 f"- Live metric status counts: {report['live_metric_status_counts']}",
                 f"- Removal evidence status counts: {report['removal_evidence_status_counts']}",
                 f"- First observed date range: {report['first_observed_date_range'][0]} to {report['first_observed_date_range'][1]}",
+                f"- Published date range: {report['published_date_range'][0]} to {report['published_date_range'][1]}",
+                f"- Likely added date range: {report['likely_added_date_range'][0]} to {report['likely_added_date_range'][1]}",
                 f"- Last observed date range: {report['last_observed_date_range'][0]} to {report['last_observed_date_range'][1]}",
                 "",
                 "## Outputs",

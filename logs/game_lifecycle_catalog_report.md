@@ -1,13 +1,19 @@
 # Kongregate Game Lifecycle Catalog Report
 
-- Generated at: 2026-07-04T07:52:56Z
+- Generated at: 2026-07-04T08:02:12Z
 - Catalog games: 2998
 - Rows with observed categories: 580
+- Rows with archived published/uploaded dates: 363
+- Published dates after first observed date: 4
+- Published date confidence counts: {'published_date_from_archived_game_page': 54, 'published_date_from_structured_json_ld': 309}
+- Likely added date confidence counts: {'left_censored_at_first_archive_capture': 12, 'observed_first_seen_not_launch_date': 2623, 'published_date_after_first_observed_conflict': 4, 'published_date_from_archived_game_page': 50, 'published_date_from_structured_json_ld': 309}
 - Facebook/social candidate counts: {'likely': 5, 'no': 2979, 'possible': 14}
 - Classification confidence counts: {'low': 518, 'medium': 5}
 - Live metric status counts: {'live_metrics_available': 2654, 'live_metrics_failed_http_404': 344}
 - Removal evidence status counts: {'live_metrics_available': 2654, 'live_metrics_unavailable': 343, 'stale_live_metrics_failure_older_than_last_observation': 1}
 - First observed date range: 2007-01-20 to 2026-07-03
+- Published date range: 2006-10-21 to 2026-07-01
+- Likely added date range: 2006-10-21 to 2026-07-01
 - Last observed date range: 2007-03-24 to 2026-07-04
 
 ## Outputs
