@@ -1,31 +1,23 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T02:04:58Z
+- Generated: 2026-07-04T02:18:41Z
 - Target games: 32
 - Status filter: none
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 7
-- Endpoint candidates checked: 7
-- Candidate observation rows: 7
-- CDX status counts: fetched=7
-- CDX rows found: 1
-- Candidates with CDX rows: 1
-- Payloads with count-like signals: 1
-- Parsed play-count rows: 1
+- Games direct-probed from catalog URLs: 2
+- Endpoint candidates checked: 2
+- Candidate observation rows: 2
+- CDX status counts: fetched=2
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
 - Deduped recovered play-count observations: 785 (0 new this run)
-- Accumulated probe-history rows: 18185 (7 new, 0 refreshed)
+- Accumulated probe-history rows: 18293 (2 new, 0 refreshed)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| Mr.Vengeance: Upgrade | metrics_json | `https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json` | `https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json` | gameplays_count_with_delimiter | 43109 |
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| Mr.Vengeance: Upgrade | metrics_json | `https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json` | `https://www.kongregate.com/games/tmifx/mr-vengeance-upgrade/metrics.json` | 1 |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
 ## Output Files
 
