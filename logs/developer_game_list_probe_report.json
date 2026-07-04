@@ -1,8 +1,9 @@
 {
-  "candidate_observation_rows": 15,
-  "captures_sampled": 0,
+  "candidate_observation_rows": 57,
+  "captures_sampled": 27,
   "cdx_status_counts": {
-    "failed": 15
+    "cached": 36,
+    "fetched": 21
   },
   "developer_filters": [],
   "game_name_contains": [],
@@ -27,18 +28,18 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 0,
-    "total": 23565,
-    "updated": 15
+    "added": 28,
+    "total": 23593,
+    "updated": 29
   },
   "pre_cap_target_developers": 1376,
   "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T15:31:21Z",
+  "run_timestamp": "2026-07-04T15:38:09Z",
   "selected_games_by_developer": {
-    "HundredHands": 1,
-    "Juppiomenz": 1,
-    "playman2": 1,
-    "rhminteractive": 1,
+    "dmarcy": 1,
+    "fckn": 1,
+    "hikkigamer": 1,
+    "maxwell06": 1,
     "wowsomegames": 1
   },
   "skipped_developer_count": 1371,
@@ -69,13 +70,13 @@
     "ALT_Games",
     "AOSOJ"
   ],
-  "source_cdx_lookups": 15,
+  "source_cdx_lookups": 45,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 5,
   "target_games": 5,
-  "target_links_found": 0,
-  "target_offset": 154,
+  "target_links_found": 9,
+  "target_offset": 159,
   "tiers": "",
   "top_recovered_rows": [],
-  "unresolved_failed_endpoints_only": true
+  "unresolved_failed_endpoints_only": false
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T15:31:34Z",
+  "generated_at": "2026-07-04T15:38:25Z",
   "remaining_no_history_games": 325,
   "listing_count_coverage_counts": {
     "no_listing_count_observations": 241,
@@ -333,8 +333,8 @@
       "page_gap_status": "dynamic_metrics_placeholder",
       "alternate_endpoint_cdx_rows": 3,
       "count_source_probe_status": "archived_endpoint_hit_no_count",
-      "endpoint_observations": 43,
-      "candidates_with_cdx_rows": 3,
+      "endpoint_observations": 44,
+      "candidates_with_cdx_rows": 4,
       "unresolved_failed_endpoints": 0,
       "recovered_count_rows": 0,
       "observed_categories": "",
