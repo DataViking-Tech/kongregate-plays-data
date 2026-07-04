@@ -17171,6 +17171,21 @@
       "metrics_url": "http://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
       "capture_timestamp": "20191113145803",
       "capture_url": "https://web.archive.org/web/20191113145803/http://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191113145803_http_www.kongregate.com_games_paulliam80_madness-project-nexus-party-mod_metrics.json_53727070c2c15a80.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-11-13",
+      "game_name": "Madness Project Nexus [Party Mod]",
+      "game_url": "https://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod",
+      "plays_count_observed": 694052,
+      "favorites_count_observed": 3984,
+      "plays_text": "694,052",
+      "favorites_text": "3,984",
+      "metrics_url": "http://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
+      "capture_timestamp": "20191113145803",
+      "capture_url": "https://web.archive.org/web/20191113145803/http://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191113145803_http_www.kongregate.com_games_paulliam80_madness-project-nexus-party-mod_metrics.json_53727070c2c15a80.json"
@@ -20681,6 +20696,21 @@
       "metrics_url": "https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
       "capture_timestamp": "20200306082205",
       "capture_url": "https://web.archive.org/web/20200306082205/https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200306082205_https_www.kongregate.com_games_Lu_Muja_zs-dead-detective-pumpkin-dead_metrics.json_71f8bc28ee7bf35c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-03-06",
+      "game_name": "ZS Dead Detective - Pumpkin Dead",
+      "game_url": "https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead",
+      "plays_count_observed": 27426,
+      "favorites_count_observed": 144,
+      "plays_text": "27,426",
+      "favorites_text": "144",
+      "metrics_url": "https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
+      "capture_timestamp": "20200306082205",
+      "capture_url": "https://web.archive.org/web/20200306082205/https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200306082205_https_www.kongregate.com_games_Lu_Muja_zs-dead-detective-pumpkin-dead_metrics.json_71f8bc28ee7bf35c.json"
@@ -22529,6 +22559,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200427132157_https_www.kongregate.com_games_kurechii_the-kings-league-odyssey_metrics.json_a1828a5b1cdd1596.json"
+    },
+    {
+      "date": "2020-04-27",
+      "game_name": "ZS Dead Detective - Pumpkin Dead",
+      "game_url": "https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead",
+      "plays_count_observed": 43428,
+      "favorites_count_observed": 189,
+      "plays_text": "43,428",
+      "favorites_text": "189",
+      "metrics_url": "https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
+      "capture_timestamp": "20200427132155",
+      "capture_url": "https://web.archive.org/web/20200427132155/https://www.kongregate.com/games/Lu_Muja/zs-dead-detective-pumpkin-dead/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200427132155_https_www.kongregate.com_games_Lu_Muja_zs-dead-detective-pumpkin-dead_metrics.json_9bbdc6ddb46ebc46.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-04-27",
@@ -31139,6 +31184,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20201210112810_https_www.kongregate.com_games_RoKo0_dream-car-racing-evo_metrics.json_2a36636c645700fb.json"
+    },
+    {
+      "date": "2020-12-10",
+      "game_name": "Dungeon Blitz",
+      "game_url": "https://www.kongregate.com/games/BlueMammoth/dungeon-blitz",
+      "plays_count_observed": 1165564,
+      "favorites_count_observed": 11518,
+      "plays_text": "1,165,564",
+      "favorites_text": "11,518",
+      "metrics_url": "http://www.kongregate.com/games/BlueMammoth/dungeon-blitz/metrics.json",
+      "capture_timestamp": "20201210165659",
+      "capture_url": "https://web.archive.org/web/20201210165659/http://www.kongregate.com/games/BlueMammoth/dungeon-blitz/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20201210165659_http_www.kongregate.com_games_BlueMammoth_dungeon-blitz_metrics.json_c4c08599893d2d15.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-12-10",
@@ -75839,6 +75899,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240119184318_https_www.kongregate.com_games_light_bringer777_learn-to-fly-3_metrics.json_698a8cab9fe496cb.json"
+    },
+    {
+      "date": "2024-01-19",
+      "game_name": "Madness Project Nexus [Party Mod]",
+      "game_url": "https://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod",
+      "plays_count_observed": 767412,
+      "favorites_count_observed": 3743,
+      "plays_text": "767,412",
+      "favorites_text": "3,743",
+      "metrics_url": "https://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
+      "capture_timestamp": "20240119193033",
+      "capture_url": "https://web.archive.org/web/20240119193033/https://www.kongregate.com/games/paulliam80/madness-project-nexus-party-mod/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240119193033_https_www.kongregate.com_games_paulliam80_madness-project-nexus-party-mod_metrics.json_d0be74e8e244016c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-19",
