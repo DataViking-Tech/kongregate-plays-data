@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 6262,
-    "failed": 4590,
-    "fetched": 8435,
+    "cached": 6274,
+    "failed": 4637,
+    "fetched": 8496,
     "missing_html_cache_skipped": 1
   },
-  "history_games": 1838,
-  "history_observation_rows": 19288,
+  "history_games": 1870,
+  "history_observation_rows": 19408,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -15,22 +15,22 @@
     "report_md": "logs/count_source_probe_history_report.md"
   },
   "profile_games": 325,
-  "recovered_count_rows": 824,
-  "run_timestamp": "2026-07-04T04:13:58Z",
+  "recovered_count_rows": 834,
+  "run_timestamp": "2026-07-04T04:25:57Z",
   "source_type_counts": {
     "chat_achievements": 1476,
     "chat_js": 1568,
     "developer_game_list": 4727,
     "game_path_prefix": 60,
     "holodeck": 1623,
-    "metrics_json": 7521,
+    "metrics_json": 7641,
     "recommended_games": 2313
   },
   "status_counts": {
     "archived_endpoint_hit_no_count": 148,
-    "no_archived_endpoint_rows_observed": 1412,
-    "recovered_count": 261,
-    "transient_failures_remaining": 17
+    "no_archived_endpoint_rows_observed": 1432,
+    "recovered_count": 267,
+    "transient_failures_remaining": 23
   },
   "tier1_status_counts": {
     "archived_endpoint_hit_no_count": 114,
@@ -70,6 +70,23 @@
       "source_types_seen": "metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/savageselite/discord",
+      "endpoint_observations": 2,
+      "failed_observations": 2,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "discord",
+      "game_url": "http://www.kongregate.com/games/savageselite/discord",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
     },
     {
       "best_rank": "",
@@ -210,6 +227,23 @@
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/dslevis/halloween-chunks",
+      "endpoint_observations": 3,
+      "failed_observations": 2,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Halloween Chunks",
+      "game_url": "http://www.kongregate.com/games/dslevis/halloween-chunks",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
       "canonical_game_key": "www.kongregate.com/games/yyplay/hello-kitty-defend-the-flowers",
       "endpoint_observations": 3,
       "failed_observations": 2,
@@ -218,6 +252,23 @@
       "game_name": "Hello Kitty Defend The Flowers",
       "game_url": "http://www.kongregate.com/games/yyplay/hello-kitty-defend-the-flowers",
       "latest_probe_run_timestamp": "2026-07-04T03:56:41Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/d3garcia/hide",
+      "endpoint_observations": 3,
+      "failed_observations": 2,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Hide!",
+      "game_url": "http://www.kongregate.com/games/d3garcia/hide",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
       "parsed_probe_count_rows": 0,
       "recovered_count_rows": 0,
       "source_types_seen": "metrics_json",
@@ -312,6 +363,23 @@
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/enagamess/skull-castle",
+      "endpoint_observations": 3,
+      "failed_observations": 2,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Skull Castle",
+      "game_url": "http://www.kongregate.com/games/Enagamess/skull-castle",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
       "canonical_game_key": "www.kongregate.com/games/tinrune/squares-tinrune",
       "endpoint_observations": 2,
       "failed_observations": 2,
@@ -325,8 +393,42 @@
       "source_types_seen": "metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 2
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/mrwillowb/tetrus-3d",
+      "endpoint_observations": 2,
+      "failed_observations": 1,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Tetrus 3D",
+      "game_url": "http://www.kongregate.com/games/mrwillowb/tetrus-3d",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/nsrgames/twist-escape-2",
+      "endpoint_observations": 3,
+      "failed_observations": 2,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Twist Escape 2",
+      "game_url": "http://www.kongregate.com/games/Nsrgames/twist-escape-2",
+      "latest_probe_run_timestamp": "2026-07-04T04:25:23Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 1
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 37
+  "unresolved_failed_endpoint_groups": 44
 }
