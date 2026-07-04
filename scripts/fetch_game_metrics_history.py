@@ -187,18 +187,24 @@ def load_target_game_order(
     path_text: str,
     statuses: set[str],
     min_metrics_json_cdx_rows: int,
+    offset: int,
     limit: int,
 ) -> dict[str, int]:
     if not path_text:
         return {}
     path = target_csv_path(path_text)
     order: dict[str, int] = {}
+    matched = 0
     with path.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             if statuses and row.get("status", "") not in statuses:
                 continue
             if min_metrics_json_cdx_rows and csv_int(row, "metrics_json_cdx_rows") < min_metrics_json_cdx_rows:
                 continue
+            if matched < offset:
+                matched += 1
+                continue
+            matched += 1
             key = row.get("canonical_game_key", "").strip().lower()
             if not key:
                 key = canonical_game_url(row.get("game_url", ""))
@@ -570,6 +576,7 @@ def main() -> None:
     parser.add_argument("--target-csv", default="", help="Optional CSV of target games with game_url or canonical_game_key columns.")
     parser.add_argument("--target-statuses", default="", help="Comma-separated target CSV statuses to include, e.g. dynamic_metrics_placeholder.")
     parser.add_argument("--target-min-metrics-json-cdx-rows", type=int, default=0, help="When using --target-csv, include only rows with at least this many metrics_json_cdx_rows.")
+    parser.add_argument("--target-offset", type=int, default=0, help="Skip this many target CSV rows after filters.")
     parser.add_argument("--target-limit", type=int, default=0, help="Limit target CSV rows after filters. 0 means all matched targets.")
     args = parser.parse_args()
 
@@ -586,6 +593,7 @@ def main() -> None:
         args.target_csv,
         target_statuses,
         args.target_min_metrics_json_cdx_rows,
+        args.target_offset,
         args.target_limit,
     )
     if args.target_csv:
@@ -708,6 +716,7 @@ def main() -> None:
         "target_csv": args.target_csv,
         "target_statuses": sorted(target_statuses),
         "target_min_metrics_json_cdx_rows": args.target_min_metrics_json_cdx_rows,
+        "target_offset": args.target_offset,
         "target_limit": args.target_limit,
         "target_games": len(target_order),
         "catalog_games_in_scope": len(catalog_scope),
@@ -749,6 +758,7 @@ def main() -> None:
                 f"- Target CSV: {report['target_csv'] or 'none'}",
                 f"- Target statuses: {', '.join(report['target_statuses']) or 'all'}",
                 f"- Target metrics.json CDX minimum: {report['target_min_metrics_json_cdx_rows']}",
+                f"- Target offset: {report['target_offset']}",
                 f"- Target games: {report['target_games']}",
                 f"- Schemes: {', '.join(report['schemes'])}",
                 f"- Cached CDX only: {report['cached_cdx_only']}",

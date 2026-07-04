@@ -96647,6 +96647,21 @@
     },
     {
       "date": "2025-10-07",
+      "game_name": "Idle Bouncer",
+      "game_url": "http://www.kongregate.com/games/almostidle/idle-bouncer",
+      "plays_count_observed": 2128258,
+      "favorites_count_observed": 7551,
+      "plays_text": "2,128,258",
+      "favorites_text": "7,551",
+      "metrics_url": "https://www.kongregate.com/en/games/almostidle/idle-bouncer/metrics.json",
+      "capture_timestamp": "20251007045240",
+      "capture_url": "https://web.archive.org/web/20251007045240/https://www.kongregate.com/en/games/almostidle/idle-bouncer/metrics.json",
+      "parser": "metrics_json",
+      "confidence": "high",
+      "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20251007045240_https_www.kongregate.com_en_games_almostidle_idle-bouncer_metrics.json_cd8178e0aaa9825e.json"
+    },
+    {
+      "date": "2025-10-07",
       "game_name": "Plinko Idle",
       "game_url": "https://www.kongregate.com/en/games/Zamol/the-black-box",
       "plays_count_observed": 524337,
