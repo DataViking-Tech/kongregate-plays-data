@@ -10,7 +10,7 @@ The live chart fetches `outputs/kongregate_ranked_games/play_count_bar_chart_rac
 
 Current Google Sheet workbook:
 
-https://docs.google.com/spreadsheets/d/1yk09l93ou7CtZBZ4sD_9TA76Vsz03nB4uEpkpfpP6Ws
+https://docs.google.com/spreadsheets/d/1L__1442ueE8uIPKQV-5zAtaU6p728hRTViotVwKKPUg
 
 ## Current Snapshot
 
@@ -366,6 +366,7 @@ This scrape is still being expanded. The processed files are coherent snapshots,
 - Checkpoint 326 added `fetch_game_metrics_history.py --target-offset` for paged progress-ledger retries, then ran the second targeted 20-game slice. It recovered one high-confidence Idle Bouncer metrics capture from 2025-10-07 (2,128,258 plays), fetched 33 additional metrics-route CDX caches, left aggregate as-of coverage at 44,900 ranked rows with 5,082 gaps, brought unified play-history rows to 9,121, and raised the chart source to 26,435 observed play-count rows.
 - Checkpoint 327 paged through the remaining rows of the current progress-ledger metrics retry bucket with target offsets 40 and 60. The pass fetched 52 additional metrics-route CDX caches, recovered one high-confidence Fleeing the Complex metrics capture from 2025-10-18 (1,602,311 plays), left aggregate as-of coverage at 44,900 ranked rows with 5,082 gaps, brought unified play-history rows to 9,122, and raised the chart source to 26,436 observed play-count rows.
 - Checkpoint 328 ran the corrected ranked-priority developer/account-list sweep for the next 24 as-of gap targets. The pass sampled 56 archived developer/account captures, found 50 target links, added 62 probe-history observations, and recovered 0 new visible play-count rows. Aggregate as-of coverage remains 44,900 ranked rows with 5,082 gaps, while count-source probe history now has 21,450 observations, the lifecycle catalog remains current across 2,998 games, and the companion Google Sheet has been refreshed from the rebuilt workbook.
+- Checkpoint 329 retried the remaining transient developer/account-list endpoint failures, first across six games and then with focused slower passes for N Step Steve and Trader of Stories. The pass added 65 developer/account-list probe-history observations, found 6 target links in Trader of Stories account/list captures, recovered 0 new visible play-count rows, cleared `transient_failures_remaining` from the count-source status ledger, and refreshed the companion Google Sheet from the rebuilt workbook. Aggregate as-of coverage remains 44,900 ranked rows with 5,082 gaps, and the chart source remains 26,436 observed play-count rows.
 
 ## Key Files
 

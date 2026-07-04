@@ -5,17 +5,17 @@
   "cdx_lookups": 0,
   "cdx_rows_found": 0,
   "cdx_status_counts": {},
-  "cdx_wall_timeout": 30.0,
+  "cdx_wall_timeout": 12.0,
   "collapse": "digest",
-  "game_name_contains": "n step steve,trader of stories",
+  "game_name_contains": "",
   "games_direct_probed": 0,
   "games_with_cached_pages": 2,
-  "games_without_cached_pages": 0,
+  "games_without_cached_pages": 4,
   "input_csv": "data/processed/count_source_probe_game_status.csv",
   "match_type": "exact",
   "max_candidates_per_page": 12,
-  "max_cdx_lookups": 40,
-  "max_pages_per_game": 5,
+  "max_cdx_lookups": 120,
+  "max_pages_per_game": 2,
   "max_payload_bytes": 2000000,
   "outputs": {
     "candidate_csv": "data/processed/count_source_probe_candidates.csv",
@@ -25,14 +25,50 @@
     "report_md": "logs/count_source_probe_report.md"
   },
   "parsed_play_count_rows": 0,
-  "payload_wall_timeout": 30.0,
+  "payload_wall_timeout": 12.0,
   "payloads_with_count_signal": 0,
   "per_game": {
+    "Baby Talking Tom Bathing": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/wowsomegames/baby-talking-tom-bathing",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Caralhinhos Voadores - Age Of Delicia": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/maxwell06/caralhinhos-voadores-age-of-delicia",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
     "N Step Steve: Part 1": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
       "game_url": "https://www.kongregate.com/games/EPGstudios/n-step-steve-part-1",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "StormFall": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/playman2/stormfall",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Talking Ginger Paw Caring": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/wowsomegames/talking-ginger-paw-caring",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
@@ -53,15 +89,15 @@
   },
   "persisted_probe_history": {
     "added": 0,
-    "total": 21282,
+    "total": 21450,
     "updated": 0
   },
-  "run_timestamp": "2026-07-04T09:08:09Z",
+  "run_timestamp": "2026-07-04T10:28:06Z",
   "source_types": [],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 2,
+  "target_games": 6,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
   "top_candidates_with_cdx": [],
