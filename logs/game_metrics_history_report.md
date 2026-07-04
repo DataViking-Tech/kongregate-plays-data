@@ -1,8 +1,8 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-04T09:52:16Z
+- Run timestamp: 2026-07-04T10:05:36Z
 - Catalog games: 2998
-- Catalog scope: offset 0, limit all (20 games)
+- Catalog scope: offset 0, limit all (6 games)
 - Audit statuses: all
 - Audit pending only: False
 - Audit missing CDX only: False
@@ -12,22 +12,22 @@
 - Target CSV: data/processed/ranked_asof_game_page_probe_progress.csv
 - Target statuses: dynamic_metrics_placeholder
 - Target metrics.json CDX minimum: 1
-- Target offset: 20
-- Target games: 20
+- Target offset: 60
+- Target games: 9
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 20
-- CDX rows found: 1210
+- CDX games considered: 6
+- CDX rows found: 312
 - CDX wall timeout: 15.0
 - Metrics wall timeout: 15.0
 - Missing CDX cache files skipped: 0
-- Metrics jobs: 422
+- Metrics jobs: 142
 - Pending before run: 1
 - Attempted this run: 1
 - Fetched this run: 1
 - Failed this run: 0
-- Manifest entries: 5454
-- History rows: 9121
+- Manifest entries: 5455
+- History rows: 9122
 - Games with history: 2876
 - History date range: 2007-03-24 to 2026-07-04
