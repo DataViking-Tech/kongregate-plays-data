@@ -1,32 +1,32 @@
 # Kongregate Game Page History Report
 
-- Run timestamp: 2026-07-04T07:31:31Z
-- Profile games in scope: 4
-- Selected games sample: N Step Steve: Part 1, Trader of Stories - Chapter 3, Drift Race in the open world, Footie Fight
+- Run timestamp: 2026-07-04T08:22:30Z
+- Profile games in scope: 20
+- Selected games sample: Supermechs, Bloons Monkey City, Crusaders of the Lost Idols, Mu Complex : Episode One, There is no game, Cosmos Quest, The Enchanted Cave 2, KingsRoad, Blockade3D, Superfighters, Swarm Simulator, N Step Steve: Part 1, Trimps, Sports Heads: Football Championship, Realm Grinder, Medieval Chronicles 8 (Part 2), Fleeing the Complex, Medieval Chronicles 4, Unpuzzle 2, Medieval Cop 8 -DeathWish- (Part 3)
 - Selected games omitted from sample: 0
-- CDX games considered: 4
-- Cached CDX only: False
+- CDX games considered: 20
+- Cached CDX only: True
 - Cached HTML only: False
-- CDX timeout: 10s
-- CDX wall-clock cap: 12.0
-- CDX date-window days: 240
-- Page timeout: 10s
-- Page wall-clock cap: 12.0
-- Game-name filter: N Step Steve: Part 1,Trader of Stories - Chapter 3,Drift Race in the open world,Footie Fight
+- CDX timeout: 20s
+- CDX wall-clock cap: none
+- CDX date-window days: 365
+- Page timeout: 20s
+- Page wall-clock cap: 25.0
+- Game-name filter: none
 - Metrics row filter: has_metrics
 - Progress status filter: none
-- CDX rows: 53
-- Page jobs: 23
-- Pending before run: 2
-- Attempted this run: 2
-- Fetched this run: 2
-- Cached HTML selected this run: 0
+- CDX rows: 6397
+- Page jobs: 3428
+- Pending before run: 3428
+- Attempted this run: 30
+- Fetched this run: 0
+- Cached HTML selected this run: 30
 - Network fetch failed this run: 0
 - Parsed rows this run: 0
 - No explicit count this run: 0
-- Failed this run: 2
+- Failed this run: 30
 - Manifest entries: 368
-- Known failures: 4018
+- Known failures: 4138
 - Combined history rows: 9119
 - Game-page history rows: 368
 - Report only: False
