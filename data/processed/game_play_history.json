@@ -83501,6 +83501,21 @@
       "metrics_url": "https://www.kongregate.com/games/PasKuda13/hexa-match/metrics.json",
       "capture_timestamp": "20240510150746",
       "capture_url": "https://web.archive.org/web/20240510150746/https://www.kongregate.com/games/PasKuda13/hexa-match/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240510150746_https_www.kongregate.com_games_PasKuda13_hexa-match_metrics.json_1da98a076101cc0c.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-05-10",
+      "game_name": "Hexa_Match",
+      "game_url": "http://www.kongregate.com/games/PasKuda13/hexa-match",
+      "plays_count_observed": 1017,
+      "favorites_count_observed": 3,
+      "plays_text": "1,017",
+      "favorites_text": "3",
+      "metrics_url": "https://www.kongregate.com/games/PasKuda13/hexa-match/metrics.json",
+      "capture_timestamp": "20240510150746",
+      "capture_url": "https://web.archive.org/web/20240510150746/https://www.kongregate.com/games/PasKuda13/hexa-match/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240510150746_https_www.kongregate.com_games_PasKuda13_hexa-match_metrics.json_1da98a076101cc0c.json"
