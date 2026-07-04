@@ -1,20 +1,22 @@
 {
-  "candidate_observation_rows": 3,
-  "captures_sampled": 0,
+  "candidate_observation_rows": 22,
+  "captures_sampled": 15,
   "cdx_status_counts": {
-    "fetched": 3
+    "failed": 4,
+    "fetched": 18
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Robo Jump"
+    "Funny Pets",
+    "Monster War Zone 3"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 10,
+  "max_cdx_lookups": 20,
   "max_developers": 0,
-  "max_games": 1,
+  "max_games": 2,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -29,23 +31,24 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 3,
-    "total": 22291,
-    "updated": 0
+    "added": 18,
+    "total": 22385,
+    "updated": 4
   },
-  "pre_cap_target_developers": 1,
-  "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T12:51:09Z",
+  "pre_cap_target_developers": 2,
+  "pre_cap_target_games": 2,
+  "run_timestamp": "2026-07-04T13:00:07Z",
   "selected_games_by_developer": {
-    "paulp_ws": 1
+    "ggfdev": 1,
+    "monsterplay999": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
-  "source_cdx_lookups": 3,
+  "source_cdx_lookups": 12,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 1,
-  "target_games": 1,
-  "target_links_found": 0,
+  "target_developers": 2,
+  "target_games": 2,
+  "target_links_found": 6,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
