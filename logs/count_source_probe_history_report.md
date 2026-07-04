@@ -1,21 +1,23 @@
 # Count Source Probe History
 
-- Generated: 2026-07-04T15:24:04Z
+- Generated: 2026-07-04T15:31:35Z
 - Profile games tracked: 325
-- Accumulated endpoint observations: 23509
+- Accumulated endpoint observations: 23565
 - Games with probe history: 2080
 - Recovered count rows: 647
-- Unresolved failed endpoint groups: 136
-- Status counts: archived_endpoint_hit_no_count=209, no_archived_endpoint_rows_observed=1570, recovered_count=297, transient_failures_remaining=4
+- Unresolved failed endpoint groups: 141
+- Status counts: archived_endpoint_hit_no_count=209, no_archived_endpoint_rows_observed=1568, recovered_count=297, transient_failures_remaining=6
 - Tier-1 status counts: archived_endpoint_hit_no_count=115, no_archived_endpoint_rows_observed=126
-- CDX status counts: cached=7121, failed=5987, fetched=10400, missing_html_cache_skipped=1
+- CDX status counts: cached=7134, failed=6003, fetched=10427, missing_html_cache_skipped=1
 
 ## Retry Queue
 
 | Game | Rank | Unresolved Endpoints | Failed Observations | Latest Probe |
 | --- | ---: | ---: | ---: | --- |
 | calculator | n/a | 2 | 9 | 2026-07-04T14:33:14Z |
+| Colorize | n/a | 3 | 9 | 2026-07-04T15:31:21Z |
 | SCP 079 | n/a | 1 | 11 | 2026-07-04T15:04:03Z |
+| Soccer Random | n/a | 2 | 7 | 2026-07-04T15:31:21Z |
 | Spell Sorter | n/a | 2 | 9 | 2026-07-04T14:09:31Z |
 | test | n/a | 2 | 10 | 2026-07-04T15:04:03Z |
 

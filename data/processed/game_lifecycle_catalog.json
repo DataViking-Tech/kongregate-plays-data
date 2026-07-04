@@ -15554,7 +15554,7 @@
       "max_play_count_observed": 66631,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "transient_failures_remaining",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -65656,7 +65656,7 @@
       "max_play_count_observed": 4089,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "transient_failures_remaining",
       "notes": "Likely added date is backed by archived published/uploaded metadata."
     },
     {

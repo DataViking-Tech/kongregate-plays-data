@@ -1,12 +1,12 @@
 {
   "cdx_status_counts": {
-    "cached": 7121,
-    "failed": 5987,
-    "fetched": 10400,
+    "cached": 7134,
+    "failed": 6003,
+    "fetched": 10427,
     "missing_html_cache_skipped": 1
   },
   "history_games": 2080,
-  "history_observation_rows": 23509,
+  "history_observation_rows": 23565,
   "outputs": {
     "game_status_csv": "data/processed/count_source_probe_game_status.csv",
     "history_csv": "data/processed/count_source_probe_history.csv",
@@ -16,11 +16,11 @@
   },
   "profile_games": 325,
   "recovered_count_rows": 647,
-  "run_timestamp": "2026-07-04T15:24:04Z",
+  "run_timestamp": "2026-07-04T15:31:35Z",
   "source_type_counts": {
     "chat_achievements": 1538,
     "chat_js": 1635,
-    "developer_game_list": 7334,
+    "developer_game_list": 7390,
     "game_path_prefix": 127,
     "holodeck": 1705,
     "metrics_json": 8841,
@@ -28,9 +28,9 @@
   },
   "status_counts": {
     "archived_endpoint_hit_no_count": 209,
-    "no_archived_endpoint_rows_observed": 1570,
+    "no_archived_endpoint_rows_observed": 1568,
     "recovered_count": 297,
-    "transient_failures_remaining": 4
+    "transient_failures_remaining": 6
   },
   "tier1_status_counts": {
     "archived_endpoint_hit_no_count": 115,
@@ -57,6 +57,23 @@
     {
       "best_rank": "",
       "candidates_with_cdx_rows": 0,
+      "canonical_game_key": "www.kongregate.com/games/hundredhands/colorize",
+      "endpoint_observations": 15,
+      "failed_observations": 9,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Colorize",
+      "game_url": "http://www.kongregate.com/games/HundredHands/colorize",
+      "latest_probe_run_timestamp": "2026-07-04T15:31:21Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "developer_game_list;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 3
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 0,
       "canonical_game_key": "www.kongregate.com/games/devheronatio/scp-079",
       "endpoint_observations": 18,
       "failed_observations": 11,
@@ -70,6 +87,23 @@
       "source_types_seen": "developer_game_list;metrics_json",
       "status": "transient_failures_remaining",
       "unresolved_failed_endpoints": 1
+    },
+    {
+      "best_rank": "",
+      "candidates_with_cdx_rows": 6,
+      "canonical_game_key": "www.kongregate.com/games/rhminteractive/soccer-random",
+      "endpoint_observations": 19,
+      "failed_observations": 7,
+      "first_seen_date": "",
+      "followup_tier": "",
+      "game_name": "Soccer Random",
+      "game_url": "https://www.kongregate.com/games/rhminteractive/soccer-random",
+      "latest_probe_run_timestamp": "2026-07-04T15:31:21Z",
+      "parsed_probe_count_rows": 0,
+      "recovered_count_rows": 0,
+      "source_types_seen": "developer_game_list;metrics_json",
+      "status": "transient_failures_remaining",
+      "unresolved_failed_endpoints": 2
     },
     {
       "best_rank": "",
@@ -107,5 +141,5 @@
     }
   ],
   "top_unprobed": [],
-  "unresolved_failed_endpoint_groups": 136
+  "unresolved_failed_endpoint_groups": 141
 }

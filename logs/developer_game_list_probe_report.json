@@ -1,9 +1,8 @@
 {
-  "candidate_observation_rows": 49,
-  "captures_sampled": 24,
+  "candidate_observation_rows": 15,
+  "captures_sampled": 0,
   "cdx_status_counts": {
-    "failed": 22,
-    "fetched": 27
+    "failed": 15
   },
   "developer_filters": [],
   "game_name_contains": [],
@@ -28,19 +27,19 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 27,
-    "total": 23509,
-    "updated": 22
+    "added": 0,
+    "total": 23565,
+    "updated": 15
   },
   "pre_cap_target_developers": 1376,
   "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T15:23:45Z",
+  "run_timestamp": "2026-07-04T15:31:21Z",
   "selected_games_by_developer": {
-    "Avaloid": 1,
-    "Baldurans": 1,
-    "BrineMedia": 1,
-    "FlyAnvil": 1,
-    "synapticon": 1
+    "HundredHands": 1,
+    "Juppiomenz": 1,
+    "playman2": 1,
+    "rhminteractive": 1,
+    "wowsomegames": 1
   },
   "skipped_developer_count": 1371,
   "skipped_developers_due_to_caps_sample": [
@@ -70,12 +69,12 @@
     "ALT_Games",
     "AOSOJ"
   ],
-  "source_cdx_lookups": 33,
+  "source_cdx_lookups": 15,
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 5,
   "target_games": 5,
-  "target_links_found": 24,
-  "target_offset": 149,
+  "target_links_found": 0,
+  "target_offset": 154,
   "tiers": "",
   "top_recovered_rows": [],
   "unresolved_failed_endpoints_only": true
