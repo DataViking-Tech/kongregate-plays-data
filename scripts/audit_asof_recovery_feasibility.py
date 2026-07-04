@@ -10,7 +10,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from kongregate_canonical import canonical_game_url
-from probe_archived_count_sources import cdx_cache_path, game_path_from_url, path_to_urls
+from fetch_game_metrics_history import cdx_cache_path as game_metrics_cdx_cache_path
+from probe_archived_count_sources import cdx_cache_path as count_probe_cdx_cache_path
+from probe_archived_count_sources import game_path_from_url, path_to_urls
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -128,21 +130,29 @@ def cached_exact_cdx_rows(endpoints: list[str]) -> tuple[list[dict[str, str]], i
     cached_endpoint_count = 0
     missing_cache_count = 0
     for endpoint in endpoints:
-        path = cdx_cache_path(endpoint, "exact")
-        if not path.exists():
+        cache_paths = [
+            count_probe_cdx_cache_path(endpoint, "exact"),
+            game_metrics_cdx_cache_path(endpoint),
+        ]
+        existing_paths = [path for path in cache_paths if path.exists()]
+        if not existing_paths:
             missing_cache_count += 1
             continue
         cached_endpoint_count += 1
-        try:
-            rows = json.loads(path.read_text())
-        except json.JSONDecodeError:
+        endpoint_had_readable_cache = False
+        for path in existing_paths:
+            try:
+                rows = json.loads(path.read_text())
+            except json.JSONDecodeError:
+                continue
+            endpoint_had_readable_cache = True
+            for row in rows:
+                timestamp = row.get("timestamp", "")
+                original = row.get("original", "")
+                if timestamp and original:
+                    rows_by_identity[(timestamp, original)] = row
+        if not endpoint_had_readable_cache:
             missing_cache_count += 1
-            continue
-        for row in rows:
-            timestamp = row.get("timestamp", "")
-            original = row.get("original", "")
-            if timestamp and original:
-                rows_by_identity[(timestamp, original)] = row
     return sorted(rows_by_identity.values(), key=lambda row: (row.get("timestamp", ""), row.get("original", ""))), cached_endpoint_count, missing_cache_count
 
 

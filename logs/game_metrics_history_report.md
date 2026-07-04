@@ -1,18 +1,18 @@
 # Kongregate Game Metrics History Report
 
-- Run timestamp: 2026-07-04T07:43:21Z
+- Run timestamp: 2026-07-04T07:49:19Z
 - Catalog games: 2998
-- Catalog scope: offset 0, limit all (325 games)
-- Audit statuses: no_cdx
+- Catalog scope: offset 0, limit all (1 games)
+- Audit statuses: all
 - Audit pending only: False
 - Audit missing CDX only: False
 - Audit known failures only: False
 - Needs history only: False
-- Game-name filter: none
+- Game-name filter: Terminator Jigsaw,Sift Heads World Act 4
 - Schemes: http, https
 - Cached CDX only: False
 - Expanded route variants: True
-- CDX games considered: 325
+- CDX games considered: 1
 - CDX rows found: 0
 - CDX wall timeout: 12.0
 - Metrics wall timeout: 12.0
