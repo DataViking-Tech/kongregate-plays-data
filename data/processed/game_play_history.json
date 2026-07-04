@@ -8456,6 +8456,21 @@
       "metrics_url": "http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
       "capture_timestamp": "20160402081656",
       "capture_url": "https://web.archive.org/web/20160402081656/http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20160402081656_http_www.kongregate.com_games_VasantJ_steampunk-rabbit-alpha-version_metrics.json_83f95c6d9a5d2198.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2016-04-02",
+      "game_name": "SteamPunk Rabbit Alpha Version",
+      "game_url": "http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version",
+      "plays_count_observed": 95,
+      "favorites_count_observed": 0,
+      "plays_text": "95",
+      "favorites_text": "0",
+      "metrics_url": "http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
+      "capture_timestamp": "20160402081656",
+      "capture_url": "https://web.archive.org/web/20160402081656/http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20160402081656_http_www.kongregate.com_games_VasantJ_steampunk-rabbit-alpha-version_metrics.json_83f95c6d9a5d2198.json"
@@ -12959,6 +12974,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20190205033125_https_www.kongregate.com_games_LollygagGames_squid-ink_metrics.json_8af3f5eb06b3d0fa.json"
+    },
+    {
+      "date": "2019-02-05",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 1935668,
+      "favorites_count_observed": 4657,
+      "plays_text": "1,935,668",
+      "favorites_text": "4,657",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20190205033059",
+      "capture_url": "https://web.archive.org/web/20190205033059/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-02-05",
@@ -17501,6 +17531,21 @@
       "metrics_url": "https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
       "capture_timestamp": "20191207205520",
       "capture_url": "https://web.archive.org/web/20191207205520/https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191207205520_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_309dae9c15910859.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2019-12-07",
+      "game_name": "Mighty Party",
+      "game_url": "https://www.kongregate.com/games/Panoramik/mighty-party",
+      "plays_count_observed": 3435189,
+      "favorites_count_observed": 8735,
+      "plays_text": "3,435,189",
+      "favorites_text": "8,735",
+      "metrics_url": "https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "capture_timestamp": "20191207205520",
+      "capture_url": "https://web.archive.org/web/20191207205520/https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191207205520_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_309dae9c15910859.json"
@@ -17969,6 +18014,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20191211135710_https_www.kongregate.com_games_Hamumu_robot-wants-kitty_metrics.json_ab1c77e76bb5db30.json"
+    },
+    {
+      "date": "2019-12-11",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "plays_count_observed": 2292002,
+      "favorites_count_observed": 5516,
+      "plays_text": "2,292,002",
+      "favorites_text": "5,516",
+      "metrics_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "capture_timestamp": "20191211135654",
+      "capture_url": "https://web.archive.org/web/20191211135654/https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2019-12-11",
@@ -18611,6 +18671,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
       "capture_timestamp": "20200102204220",
       "capture_url": "https://web.archive.org/web/20200102204220/https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200102204220_https_www.kongregate.com_games_VasantJ_medieval-cop-the-princess-and-the-grump_metrics.json_ba97e3d3efac98ae.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2020-01-02",
+      "game_name": "Medieval Cop - The Princess and The Grump",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
+      "plays_count_observed": 104247,
+      "favorites_count_observed": 1321,
+      "plays_text": "104,247",
+      "favorites_text": "1,321",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
+      "capture_timestamp": "20200102204220",
+      "capture_url": "https://web.archive.org/web/20200102204220/https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200102204220_https_www.kongregate.com_games_VasantJ_medieval-cop-the-princess-and-the-grump_metrics.json_ba97e3d3efac98ae.json"
@@ -18884,6 +18959,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20200108214043_https_www.kongregate.com_games_VasantJ_medieval-chronicles-7_metrics.json_a9a9d7b9a1d573eb.json"
+    },
+    {
+      "date": "2020-01-08",
+      "game_name": "Mighty Party",
+      "game_url": "https://www.kongregate.com/games/Panoramik/mighty-party",
+      "plays_count_observed": 3528058,
+      "favorites_count_observed": 8907,
+      "plays_text": "3,528,058",
+      "favorites_text": "8,907",
+      "metrics_url": "https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "capture_timestamp": "20200108214046",
+      "capture_url": "https://web.archive.org/web/20200108214046/https://www.kongregate.com/games/Panoramik/mighty-party/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20200108214046_https_www.kongregate.com_games_Panoramik_mighty-party_metrics.json_5278941dd289aba5.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2020-01-08",
@@ -49856,6 +49946,21 @@
       "metrics_url": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
       "capture_timestamp": "20220602042140",
       "capture_url": "https://web.archive.org/web/20220602042140/http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2022-06-02",
+      "game_name": "Royal Squad",
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
+      "plays_count_observed": 620055,
+      "favorites_count_observed": 6645,
+      "plays_text": "620,055",
+      "favorites_text": "6,645",
+      "metrics_url": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "capture_timestamp": "20220602042140",
+      "capture_url": "https://web.archive.org/web/20220602042140/http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.json"
@@ -54269,6 +54374,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20221121141446_https_www.kongregate.com_games_SoulGame_swords-and-souls_metrics.json_8849b75233d70f8f.json"
+    },
+    {
+      "date": "2022-11-23",
+      "game_name": "Airline Service",
+      "game_url": "http://www.kongregate.com/games/HyoungukK/airline-service",
+      "plays_count_observed": 39573,
+      "favorites_count_observed": 167,
+      "plays_text": "39,573",
+      "favorites_text": "167",
+      "metrics_url": "http://www.kongregate.com/games/HyoungukK/airline-service/metrics.json",
+      "capture_timestamp": "20221123074449",
+      "capture_url": "https://web.archive.org/web/20221123074449/http://www.kongregate.com/games/HyoungukK/airline-service/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20221123074449_http_www.kongregate.com_games_HyoungukK_airline-service_metrics.json_c4708a0471922d00.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2022-11-23",
@@ -73706,6 +73826,21 @@
       "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
       "capture_timestamp": "20240117074946",
       "capture_url": "https://web.archive.org/web/20240117074946/https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117074946_https_www.kongregate.com_games_VasantJ_medieval-cop-the-princess-and-the-grump_metrics.json_6250cfbe1635cda4.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "Medieval Cop - The Princess and The Grump",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
+      "plays_count_observed": 121674,
+      "favorites_count_observed": 1459,
+      "plays_text": "121,674",
+      "favorites_text": "1,459",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
+      "capture_timestamp": "20240117074946",
+      "capture_url": "https://web.archive.org/web/20240117074946/https://www.kongregate.com/games/VasantJ/medieval-cop-the-princess-and-the-grump/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20240117074946_https_www.kongregate.com_games_VasantJ_medieval-cop-the-princess-and-the-grump_metrics.json_6250cfbe1635cda4.json"
@@ -73964,6 +74099,21 @@
       "parser": "count_source_probe",
       "confidence": "high",
       "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117044512_https_www.kongregate.com_games_e_cha_realm-revolutions_metrics.json_62d1561ebfc47b35.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2024-01-17",
+      "game_name": "SteamPunk Rabbit Alpha Version",
+      "game_url": "http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version",
+      "plays_count_observed": 2092,
+      "favorites_count_observed": 2,
+      "plays_text": "2,092",
+      "favorites_text": "2",
+      "metrics_url": "https://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
+      "capture_timestamp": "20240117074848",
+      "capture_url": "https://web.archive.org/web/20240117074848/https://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20240117074848_https_www.kongregate.com_games_VasantJ_steampunk-rabbit-alpha-version_metrics.json_f332484490bd9614.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2024-01-17",

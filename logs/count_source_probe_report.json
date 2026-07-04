@@ -1,20 +1,20 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 23,
-  "candidates_with_cdx": 0,
-  "cdx_lookups": 23,
-  "cdx_rows_found": 0,
+  "candidate_observation_rows": 32,
+  "candidates_with_cdx": 10,
+  "cdx_lookups": 30,
+  "cdx_rows_found": 130,
   "cdx_status_counts": {
-    "failed": 3,
-    "fetched": 20
+    "failed": 2,
+    "fetched": 30
   },
   "cdx_wall_timeout": 35.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 15,
+  "games_direct_probed": 17,
   "games_with_cached_pages": 0,
   "games_without_cached_pages": 32,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_307.csv",
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_308.csv",
   "match_type": "exact",
   "max_candidates_per_page": 2,
   "max_cdx_lookups": 64,
@@ -27,309 +27,317 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 0,
+  "parsed_play_count_rows": 6,
   "payload_wall_timeout": 20.0,
-  "payloads_with_count_signal": 0,
+  "payloads_with_count_signal": 6,
   "per_game": {
-    "ADVENTURES OF J": {
+    "Airline Service": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/Enagamess/adventures-of-j",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "BACKCOLOR": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/hoqpe/backcolor",
+      "game_url": "http://www.kongregate.com/games/HyoungukK/airline-service",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
     "Baby Turtle Adventure": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
       "game_url": "http://www.kongregate.com/games/k25507891/baby-turtle-adventure",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Cafeina": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/ismaelassassin/cafeina",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Catroom Drama - CASE 2": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/HyperHippoGames/catroom-drama-case-2",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Dodgeballs.io - Multiplayer .iO Game!": {
+    "Barbie Match Up": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/orndotio/dodgeballs-io-multiplayer-io-game",
+      "game_url": "http://www.kongregate.com/games/coolappsgame/barbie-match-up",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Don't Breathe": {
+    "Chota Bheem Run Game": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/yolkgamez/dont-breathe",
+      "game_url": "http://www.kongregate.com/games/jawadsatti/chota-bheem-run-game",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dungeon Runner": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/Destructor523/dungeon-runner",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "EVO - The evolutionary journey": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/paulocosta1909/evo-the-evolutionary-journey",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Escape Rooms 2": {
+    "Duplicity": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/rahchel321/escape-rooms-2",
+      "game_url": "http://www.kongregate.com/games/AguaHervida/duplicity",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "GameMakerUnknowns Bomberplane": {
+    "EVoiders": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 1,
-      "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/GameMakerUnknown/gamemakerunknowns-bomberplane",
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/MatthewC272/evoiders",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Ghost Runner": {
+    "Flappy Rush": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mediumbradley1/ghost-runner",
+      "game_url": "http://www.kongregate.com/games/funnychasegames/flappy-rush",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Halloween Trick or Treat": {
+    "Fotis kodos": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/yolkgames/halloween-trick-or-treat",
+      "game_url": "http://www.kongregate.com/games/GiwrgosCh/fotis-kodos",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Idle War": {
+    "Hard Case": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/giulio321/idle-war",
+      "game_url": "http://www.kongregate.com/games/azad187/hard-case",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "KoGaMa: Super Mario N-64": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/CaptainJens/kogama-super-mario-n-64",
+    "Jungle Wars": {
+      "candidates_with_cdx": 2,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/tensquaregames/jungle-wars",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Laser Defender": {
+    "Long Way": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/EndoRushDev/laser-defender",
+      "game_url": "https://www.kongregate.com/en/games/meetreen_games/long-way",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Lost Clues": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/SandraKim/lost-clues",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "MarsQuest": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/mskittlez/marsquest",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Me Alone 2": {
+    "Lucas vs Crocodile": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/brvasil/me-alone-2",
+      "game_url": "http://www.kongregate.com/games/therobby3/lucas-vs-crocodile",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Missile Mayhem Mobile": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/demeko/missile-mayhem-mobile",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "PJ Masks Pac-Man": {
+    "Mambo vs Pronger": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/pjmasks/pj-masks-pac-man",
+      "game_url": "http://www.kongregate.com/games/spookymcslave/mambo-vs-pronger",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Photo Grab!": {
+    "Medieval Cop - The Princess and The Grump": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/AlexKLS/photo-grab",
+      "game_url": "https://www.kongregate.com/en/games/VasantJ/medieval-cop-the-princess-and-the-grump",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Mighty Party": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "https://www.kongregate.com/games/Panoramik/mighty-party",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Nego Bam Ao Attack": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/NormalPowerPlus/nego-bam-ao-attack",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Penta Cake": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/nukermage/penta-cake",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Pets Swap": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/ozdy/pets-swap",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
     "Royal City Clashers 2": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
       "game_url": "http://www.kongregate.com/games/RHMGames/royal-city-clashers-2",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Sweet Candy Mahjong": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/fakitaki/sweet-candy-mahjong",
+    "Royal Squad": {
+      "candidates_with_cdx": 2,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
       "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
+      "parsed_play_counts": [
+        620055,
+        620055
+      ],
+      "payloads_with_count_signal": 2
     },
-    "Temple of Impalement": {
+    "Shotfirer": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/gamescarab/temple-of-impalement",
+      "game_url": "http://www.kongregate.com/games/KirIgnatev/shotfirer",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Flying Bird": {
+    "Speed Taxi Hidden Letters": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/newgamess/speed-taxi-hidden-letters",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Splendid Fairy Dress Up": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/loogames/splendid-fairy-dress-up",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Spooky John": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/NoBodyAdam/spooky-john",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "SteamPunk Rabbit Alpha Version": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/VasantJ/steampunk-rabbit-alpha-version",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Sword Fight": {
+      "candidates_with_cdx": 4,
+      "direct_catalog_probe_candidates": 4,
+      "endpoint_candidates": 4,
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "pages_checked": 0,
+      "parsed_play_counts": [
+        2292002,
+        2292002,
+        1935668,
+        1935668
+      ],
+      "payloads_with_count_signal": 4
+    },
+    "Texas instruments calculator/clock": {
+      "candidates_with_cdx": 0,
+      "direct_catalog_probe_candidates": 0,
+      "endpoint_candidates": 0,
+      "game_url": "http://www.kongregate.com/games/JoeB59/texas-instruments-calculator-clock",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "The Escape of The Bird Beta 1": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/sherazbhatti226/the-flying-bird",
+      "game_url": "http://www.kongregate.com/games/thiagosheckler/the-escape-of-the-bird-beta-1",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Hideous Dreamer": {
+    "The Money Makers": {
+      "candidates_with_cdx": 2,
+      "direct_catalog_probe_candidates": 2,
+      "endpoint_candidates": 2,
+      "game_url": "http://www.kongregate.com/games/AlpagaGames/the-money-makers",
+      "pages_checked": 0,
+      "parsed_play_counts": [],
+      "payloads_with_count_signal": 0
+    },
+    "Troll Tale": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/BigBlingThing/the-hideous-dreamer",
+      "game_url": "http://www.kongregate.com/games/pitergames/troll-tale",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "The Last Bunker": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/HyperHippoGames/the-last-bunker",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Unmind": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 0,
-      "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/kolloldas/unmind",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "WarZone Beta .1": {
+    "XSpot": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 2,
       "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/IAmFluzzy/warzone-beta-1",
+      "game_url": "http://www.kongregate.com/games/LONDONLAD/xspot",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "battlegroup.io": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/battlegroupio/battlegroup-io",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "cube wars": {
+    "testeeee": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 0,
       "endpoint_candidates": 0,
-      "game_url": "http://www.kongregate.com/games/vitynte2/cube-wars",
+      "game_url": "https://www.kongregate.com/games/edugame12/testeeee",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     }
   },
   "persisted_play_counts": {
-    "added": 0,
-    "total": 799
+    "added": 3,
+    "total": 809
   },
   "persisted_probe_history": {
-    "added": 20,
-    "total": 18738,
-    "updated": 3
+    "added": 30,
+    "total": 18855,
+    "updated": 2
   },
-  "run_timestamp": "2026-07-04T03:01:43Z",
+  "run_timestamp": "2026-07-04T03:12:18Z",
   "source_types": [
     "metrics_json"
   ],
@@ -341,7 +349,281 @@
   "tiers": [
     1
   ],
-  "top_candidates_with_cdx": [],
-  "top_count_signals": [],
+  "top_candidates_with_cdx": [
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 2292002,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.txt",
+      "sample_timestamp": "20191211135654",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 2292002,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.txt",
+      "sample_timestamp": "20191211135654",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 1935668,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.txt",
+      "sample_timestamp": "20190205033059",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 1935668,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.txt",
+      "sample_timestamp": "20190205033059",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "game_name": "Royal Squad",
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 620055,
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.txt",
+      "sample_timestamp": "20220602042140",
+      "source_page_path": "",
+      "source_page_timestamp": "20150506000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "game_name": "Royal Squad",
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 620055,
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.txt",
+      "sample_timestamp": "20220602042140",
+      "source_page_path": "",
+      "source_page_timestamp": "20150506000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/tensquaregames/jungle-wars/metrics.json",
+      "game_name": "Jungle Wars",
+      "game_url": "http://www.kongregate.com/games/tensquaregames/jungle-wars",
+      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/tensquaregames/jungle-wars/metrics.json",
+      "sample_path": "",
+      "sample_timestamp": "20230408095530",
+      "source_page_path": "",
+      "source_page_timestamp": "20141125000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/tensquaregames/jungle-wars/metrics.json",
+      "game_name": "Jungle Wars",
+      "game_url": "http://www.kongregate.com/games/tensquaregames/jungle-wars",
+      "notes": "generated_from_catalog_game_url,failed: <urlopen error [Errno 61] Connection refused>",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/tensquaregames/jungle-wars/metrics.json",
+      "sample_path": "",
+      "sample_timestamp": "20230408095530",
+      "source_page_path": "",
+      "source_page_timestamp": "20141125000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "http://www.kongregate.com/games/AlpagaGames/the-money-makers/metrics.json",
+      "game_name": "The Money Makers",
+      "game_url": "http://www.kongregate.com/games/AlpagaGames/the-money-makers",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/AlpagaGames/the-money-makers/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20250331160347_http_www.kongregate.com_games_AlpagaGames_the-money-makers_metrics.json_fbbbb921c153a7c4.txt",
+      "sample_timestamp": "20250331160347",
+      "source_page_path": "",
+      "source_page_timestamp": "20150809000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "",
+      "endpoint_url": "https://www.kongregate.com/games/AlpagaGames/the-money-makers/metrics.json",
+      "game_name": "The Money Makers",
+      "game_url": "http://www.kongregate.com/games/AlpagaGames/the-money-makers",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": "",
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/AlpagaGames/the-money-makers/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20250331160347_http_www.kongregate.com_games_AlpagaGames_the-money-makers_metrics.json_fbbbb921c153a7c4.txt",
+      "sample_timestamp": "20250331160347",
+      "source_page_path": "",
+      "source_page_timestamp": "20150809000000",
+      "source_type": "metrics_json"
+    }
+  ],
+  "top_count_signals": [
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 2292002,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.txt",
+      "sample_timestamp": "20191211135654",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 2292002,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20191211135654_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_c44b60485e38ed11.txt",
+      "sample_timestamp": "20191211135654",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 1935668,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.txt",
+      "sample_timestamp": "20190205033059",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 31,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "game_name": "Sword Fight",
+      "game_url": "https://www.kongregate.com/en/games/tovrick/sword-fight",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 1935668,
+      "sample_mimetype": "application/json",
+      "sample_original": "https://www.kongregate.com/games/tovrick/sword-fight/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20190205033059_https_www.kongregate.com_games_tovrick_sword-fight_metrics.json_ef27e68381b1777d.txt",
+      "sample_timestamp": "20190205033059",
+      "source_page_path": "",
+      "source_page_timestamp": "20171101000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "game_name": "Royal Squad",
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
+      "notes": "generated_from_catalog_game_url,fetched",
+      "parsed_plays": 620055,
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.txt",
+      "sample_timestamp": "20220602042140",
+      "source_page_path": "",
+      "source_page_timestamp": "20150506000000",
+      "source_type": "metrics_json"
+    },
+    {
+      "cdx_rows": 1,
+      "cdx_status": "fetched",
+      "count_signal": "gameplays_count_with_delimiter",
+      "endpoint_url": "https://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "game_name": "Royal Squad",
+      "game_url": "http://www.kongregate.com/games/platon_skedow/royal-squad",
+      "notes": "generated_from_catalog_game_url,cached",
+      "parsed_plays": 620055,
+      "sample_mimetype": "application/json",
+      "sample_original": "http://www.kongregate.com/games/platon_skedow/royal-squad/metrics.json",
+      "sample_path": "data/raw/count_source_probe/payloads/20220602042140_http_www.kongregate.com_games_platon_skedow_royal-squad_metrics.json_fbd4eecda144fca0.txt",
+      "sample_timestamp": "20220602042140",
+      "source_page_path": "",
+      "source_page_timestamp": "20150506000000",
+      "source_type": "metrics_json"
+    }
+  ],
   "unresolved_failed_endpoints_only": true
 }
