@@ -1,19 +1,21 @@
 {
-  "candidate_observation_rows": 57,
-  "captures_sampled": 27,
+  "candidate_observation_rows": 8,
+  "captures_sampled": 4,
   "cdx_status_counts": {
-    "cached": 36,
-    "fetched": 21
+    "failed": 4,
+    "fetched": 4
   },
   "developer_filters": [],
-  "game_name_contains": [],
+  "game_name_contains": [
+    "CountryBalls 4"
+  ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 45,
+  "max_cdx_lookups": 20,
   "max_developers": 0,
-  "max_games": 5,
+  "max_games": 1,
   "max_games_per_developer": 0,
   "outputs": {
     "count_source_history_csv": "data/processed/count_source_probe_history.csv",
@@ -28,55 +30,25 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 28,
-    "total": 23593,
-    "updated": 29
+    "added": 4,
+    "total": 23658,
+    "updated": 4
   },
-  "pre_cap_target_developers": 1376,
-  "pre_cap_target_games": 1982,
-  "run_timestamp": "2026-07-04T15:38:09Z",
+  "pre_cap_target_developers": 1,
+  "pre_cap_target_games": 1,
+  "run_timestamp": "2026-07-04T15:48:12Z",
   "selected_games_by_developer": {
-    "dmarcy": 1,
-    "fckn": 1,
-    "hikkigamer": 1,
-    "maxwell06": 1,
-    "wowsomegames": 1
+    "NicoleWatterson": 1
   },
-  "skipped_developer_count": 1371,
-  "skipped_developers_due_to_caps_sample": [
-    "02378",
-    "0rava",
-    "1207732597",
-    "12345102",
-    "123kenny10",
-    "19392",
-    "1BluePineapple",
-    "1CHAAAIN",
-    "1ashl",
-    "2bsocial",
-    "2pgcom",
-    "305070",
-    "314owen",
-    "3rimgames",
-    "404notfound999",
-    "5xplay",
-    "67263915w",
-    "7ECHNOMANCER",
-    "8PixStudio",
-    "8bgames",
-    "9PacStudios",
-    "A72_Games",
-    "AIexT",
-    "ALT_Games",
-    "AOSOJ"
-  ],
-  "source_cdx_lookups": 45,
+  "skipped_developer_count": 0,
+  "skipped_developers_due_to_caps_sample": [],
+  "source_cdx_lookups": 6,
   "stopped_after_cdx_lookup_cap": false,
-  "target_developers": 5,
-  "target_games": 5,
-  "target_links_found": 9,
-  "target_offset": 159,
+  "target_developers": 1,
+  "target_games": 1,
+  "target_links_found": 1,
+  "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
-  "unresolved_failed_endpoints_only": false
+  "unresolved_failed_endpoints_only": true
 }
