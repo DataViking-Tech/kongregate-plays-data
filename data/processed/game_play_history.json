@@ -39281,6 +39281,21 @@
       "metrics_url": "https://www.kongregate.com/games/solomanolo/food/metrics.json",
       "capture_timestamp": "20210729042053",
       "capture_url": "https://web.archive.org/web/20210729042053/https://www.kongregate.com/games/solomanolo/food/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20210729042053_https_www.kongregate.com_games_solomanolo_food_metrics.json_bb5df4e99571681d.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2021-07-29",
+      "game_name": "food",
+      "game_url": "http://www.kongregate.com/games/solomanolo/food",
+      "plays_count_observed": 44,
+      "favorites_count_observed": 0,
+      "plays_text": "44",
+      "favorites_text": "0",
+      "metrics_url": "https://www.kongregate.com/games/solomanolo/food/metrics.json",
+      "capture_timestamp": "20210729042053",
+      "capture_url": "https://web.archive.org/web/20210729042053/https://www.kongregate.com/games/solomanolo/food/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20210729042053_https_www.kongregate.com_games_solomanolo_food_metrics.json_bb5df4e99571681d.json"
@@ -95579,6 +95594,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20250830181611_https_www.kongregate.com_games_bontegames_cat-in-japan_metrics.json_01b26f0056cf0afb.json"
+    },
+    {
+      "date": "2025-08-30",
+      "game_name": "Halloween Castle",
+      "game_url": "http://www.kongregate.com/games/yell/halloween-castle",
+      "plays_count_observed": 751,
+      "favorites_count_observed": 1,
+      "plays_text": "751",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/yell/halloween-castle/metrics.json",
+      "capture_timestamp": "20250830082438",
+      "capture_url": "https://web.archive.org/web/20250830082438/https://www.kongregate.com/games/yell/halloween-castle/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20250830082438_https_www.kongregate.com_games_yell_halloween-castle_metrics.json_9d290a329fc612c9.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2025-08-30",
