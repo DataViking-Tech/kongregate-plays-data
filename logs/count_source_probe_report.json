@@ -1,22 +1,22 @@
 {
   "cached_cdx_only": false,
-  "candidate_observation_rows": 16,
-  "candidates_with_cdx": 4,
-  "cdx_lookups": 16,
-  "cdx_rows_found": 4,
+  "candidate_observation_rows": 3,
+  "candidates_with_cdx": 0,
+  "cdx_lookups": 3,
+  "cdx_rows_found": 0,
   "cdx_status_counts": {
-    "fetched": 16
+    "fetched": 3
   },
-  "cdx_wall_timeout": 35.0,
+  "cdx_wall_timeout": 45.0,
   "collapse": "digest",
   "game_name_contains": "",
-  "games_direct_probed": 9,
+  "games_direct_probed": 3,
   "games_with_cached_pages": 0,
-  "games_without_cached_pages": 9,
-  "input_csv": "/private/tmp/asof_exact_metrics_shard_294.csv",
+  "games_without_cached_pages": 3,
+  "input_csv": "/private/tmp/asof_exact_metrics_shard_295.csv",
   "match_type": "exact",
   "max_candidates_per_page": 4,
-  "max_cdx_lookups": 100,
+  "max_cdx_lookups": 40,
   "max_pages_per_game": 4,
   "max_payload_bytes": 500000,
   "outputs": {
@@ -26,256 +26,58 @@
     "report_json": "logs/count_source_probe_report.json",
     "report_md": "logs/count_source_probe_report.md"
   },
-  "parsed_play_count_rows": 4,
-  "payload_wall_timeout": 20.0,
-  "payloads_with_count_signal": 4,
+  "parsed_play_count_rows": 0,
+  "payload_wall_timeout": 25.0,
+  "payloads_with_count_signal": 0,
   "per_game": {
-    "AFK Don't Talk To Me": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Libertyraincloud/afk-dont-talk-to-me",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Dot Dash": {
+    "BALLGAME!": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/redarx/dot-dash",
+      "game_url": "http://www.kongregate.com/games/MuzzammilS/ballgame",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Dream Adventure Escape": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Nsrgames/dream-adventure-escape",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "InvasionUnity": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/spsv/invasionunity",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "Monsterkill": {
+    "Kakele Hx": {
       "candidates_with_cdx": 0,
       "direct_catalog_probe_candidates": 1,
       "endpoint_candidates": 1,
-      "game_url": "http://www.kongregate.com/games/8PixStudio/monsterkill",
+      "game_url": "http://www.kongregate.com/games/LucasXero/kakele-hx",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
     },
-    "Obversum": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/mmongeon/obversum",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        135,
-        135
-      ],
-      "payloads_with_count_signal": 2
-    },
-    "Temple Of Morr 2": {
+    "Space Station Escape BM": {
       "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/Enagamess/temple-of-morr-2",
+      "direct_catalog_probe_candidates": 1,
+      "endpoint_candidates": 1,
+      "game_url": "http://www.kongregate.com/games/sunvoltizer/space-station-escape-bm",
       "pages_checked": 0,
       "parsed_play_counts": [],
       "payloads_with_count_signal": 0
-    },
-    "TwoLands Clickers": {
-      "candidates_with_cdx": 0,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/LudosProject/twolands-clickers",
-      "pages_checked": 0,
-      "parsed_play_counts": [],
-      "payloads_with_count_signal": 0
-    },
-    "When the Lights Go Down": {
-      "candidates_with_cdx": 2,
-      "direct_catalog_probe_candidates": 2,
-      "endpoint_candidates": 2,
-      "game_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down",
-      "pages_checked": 0,
-      "parsed_play_counts": [
-        147,
-        147
-      ],
-      "payloads_with_count_signal": 2
     }
   },
   "persisted_play_counts": {
-    "added": 2,
-    "total": 724
+    "added": 0,
+    "total": 737
   },
   "persisted_probe_history": {
-    "added": 16,
-    "total": 17349,
+    "added": 3,
+    "total": 17470,
     "updated": 0
   },
-  "run_timestamp": "2026-07-04T00:13:16Z",
+  "run_timestamp": "2026-07-04T00:25:49Z",
   "source_types": [
     "metrics_json"
   ],
   "status_csv": "data/processed/count_source_probe_game_status.csv",
   "status_filter": "transient_failures_remaining",
   "stopped_after_cdx_lookup_cap": false,
-  "target_games": 9,
+  "target_games": 3,
   "target_games_with_kongregate_ids": 0,
   "tiers": [],
-  "top_candidates_with_cdx": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "game_name": "When the Lights Go Down",
-      "game_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 147,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230901235821_https_www.kongregate.com_games_dragonlance5_when-the-lights-go-down_metrics.json_1c7d151a8bf0cbf4.txt",
-      "sample_timestamp": "20230901235821",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "game_name": "When the Lights Go Down",
-      "game_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 147,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230901235821_https_www.kongregate.com_games_dragonlance5_when-the-lights-go-down_metrics.json_1c7d151a8bf0cbf4.txt",
-      "sample_timestamp": "20230901235821",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "game_name": "Obversum",
-      "game_url": "http://www.kongregate.com/games/mmongeon/obversum",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 135,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913220844_https_www.kongregate.com_games_mmongeon_obversum_metrics.json_237744dd85041728.txt",
-      "sample_timestamp": "20230913220844",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "game_name": "Obversum",
-      "game_url": "http://www.kongregate.com/games/mmongeon/obversum",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 135,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913220844_https_www.kongregate.com_games_mmongeon_obversum_metrics.json_237744dd85041728.txt",
-      "sample_timestamp": "20230913220844",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    }
-  ],
-  "top_count_signals": [
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "game_name": "When the Lights Go Down",
-      "game_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 147,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230901235821_https_www.kongregate.com_games_dragonlance5_when-the-lights-go-down_metrics.json_1c7d151a8bf0cbf4.txt",
-      "sample_timestamp": "20230901235821",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "game_name": "When the Lights Go Down",
-      "game_url": "http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 147,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230901235821_https_www.kongregate.com_games_dragonlance5_when-the-lights-go-down_metrics.json_1c7d151a8bf0cbf4.txt",
-      "sample_timestamp": "20230901235821",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "http://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "game_name": "Obversum",
-      "game_url": "http://www.kongregate.com/games/mmongeon/obversum",
-      "notes": "generated_from_catalog_game_url,fetched",
-      "parsed_plays": 135,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913220844_https_www.kongregate.com_games_mmongeon_obversum_metrics.json_237744dd85041728.txt",
-      "sample_timestamp": "20230913220844",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    },
-    {
-      "cdx_rows": 1,
-      "cdx_status": "fetched",
-      "count_signal": "gameplays_count_with_delimiter",
-      "endpoint_url": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "game_name": "Obversum",
-      "game_url": "http://www.kongregate.com/games/mmongeon/obversum",
-      "notes": "generated_from_catalog_game_url,cached",
-      "parsed_plays": 135,
-      "sample_mimetype": "application/json",
-      "sample_original": "https://www.kongregate.com/games/mmongeon/obversum/metrics.json",
-      "sample_path": "data/raw/count_source_probe/payloads/20230913220844_https_www.kongregate.com_games_mmongeon_obversum_metrics.json_237744dd85041728.txt",
-      "sample_timestamp": "20230913220844",
-      "source_page_path": "",
-      "source_page_timestamp": "",
-      "source_type": "metrics_json"
-    }
-  ],
+  "top_candidates_with_cdx": [],
+  "top_count_signals": [],
   "unresolved_failed_endpoints_only": true
 }

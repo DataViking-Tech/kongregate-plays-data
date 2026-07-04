@@ -1,37 +1,23 @@
 # Archived Count Source Probe
 
-- Generated: 2026-07-04T00:13:16Z
-- Target games: 9
+- Generated: 2026-07-04T00:25:49Z
+- Target games: 3
 - Status filter: transient_failures_remaining
 - Games with cached archived pages: 0
-- Games direct-probed from catalog URLs: 9
-- Endpoint candidates checked: 16
-- Candidate observation rows: 16
-- CDX status counts: fetched=16
-- CDX rows found: 4
-- Candidates with CDX rows: 4
-- Payloads with count-like signals: 4
-- Parsed play-count rows: 4
-- Deduped recovered play-count observations: 724 (2 new this run)
-- Accumulated probe-history rows: 17349 (16 new, 0 refreshed)
+- Games direct-probed from catalog URLs: 3
+- Endpoint candidates checked: 3
+- Candidate observation rows: 3
+- CDX status counts: fetched=3
+- CDX rows found: 0
+- Candidates with CDX rows: 0
+- Payloads with count-like signals: 0
+- Parsed play-count rows: 0
+- Deduped recovered play-count observations: 737 (0 new this run)
+- Accumulated probe-history rows: 17470 (3 new, 0 refreshed)
 
-## Count Signals
+## Interpretation
 
-| Game | Source | Endpoint | Sample | Signal | Plays |
-| --- | --- | --- | --- | --- | --- |
-| When the Lights Go Down | metrics_json | `http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | gameplays_count_with_delimiter | 147 |
-| When the Lights Go Down | metrics_json | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | gameplays_count_with_delimiter | 147 |
-| Obversum | metrics_json | `http://www.kongregate.com/games/mmongeon/obversum/metrics.json` | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | gameplays_count_with_delimiter | 135 |
-| Obversum | metrics_json | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | gameplays_count_with_delimiter | 135 |
-
-## Archived Endpoint Hits
-
-| Game | Source | Endpoint | Sample | CDX rows |
-| --- | --- | --- | --- | ---: |
-| When the Lights Go Down | metrics_json | `http://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | 1 |
-| When the Lights Go Down | metrics_json | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | `https://www.kongregate.com/games/dragonlance5/when-the-lights-go-down/metrics.json` | 1 |
-| Obversum | metrics_json | `http://www.kongregate.com/games/mmongeon/obversum/metrics.json` | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | 1 |
-| Obversum | metrics_json | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | `https://www.kongregate.com/games/mmongeon/obversum/metrics.json` | 1 |
+No sampled alternate endpoint exposed a parseable play-count field in this run. This does not prove the source is absent everywhere; it narrows the next search toward either broader prefix CDX probes, archived JavaScript behavior, or external list pages rather than the already-tested game-page placeholders.
 
 ## Output Files
 
