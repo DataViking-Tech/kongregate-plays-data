@@ -25,9 +25,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Prepare static site
         run: |
-          mkdir -p _site/outputs/kongregate_ranked_games
+          mkdir -p _site/data _site/logs _site/outputs/kongregate_ranked_games _site/scripts
           cp index.html _site/index.html
           cp .nojekyll _site/.nojekyll
+          cp -R data/processed _site/data/processed
+          cp -R logs/. _site/logs/
+          cp -R scripts/. _site/scripts/
           cp outputs/kongregate_ranked_games/play_count_bar_chart_race.html _site/outputs/kongregate_ranked_games/play_count_bar_chart_race.html
           cp outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json _site/outputs/kongregate_ranked_games/play_count_bar_chart_race_data.json
       - name: Upload artifact
