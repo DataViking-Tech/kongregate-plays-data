@@ -1,12 +1,12 @@
 {
-  "candidate_observation_rows": 12,
-  "captures_sampled": 9,
+  "candidate_observation_rows": 6,
+  "captures_sampled": 3,
   "cdx_status_counts": {
-    "fetched": 12
+    "fetched": 6
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Pou Popper"
+    "The world most bugged game"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
@@ -29,15 +29,15 @@
     "total": 647
   },
   "persisted_probe_history": {
-    "added": 12,
-    "total": 21925,
+    "added": 6,
+    "total": 22012,
     "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T11:44:48Z",
+  "run_timestamp": "2026-07-04T11:55:48Z",
   "selected_games_by_developer": {
-    "botsgames": 1
+    "ErnaniR": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],
@@ -45,7 +45,7 @@
   "stopped_after_cdx_lookup_cap": false,
   "target_developers": 1,
   "target_games": 1,
-  "target_links_found": 0,
+  "target_links_found": 3,
   "target_offset": 0,
   "tiers": "",
   "top_recovered_rows": [],
