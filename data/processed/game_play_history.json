@@ -62726,6 +62726,21 @@
       "metrics_url": "https://www.kongregate.com/games/laFunk/volcano-idols/metrics.json",
       "capture_timestamp": "20230606174959",
       "capture_url": "https://web.archive.org/web/20230606174959/https://www.kongregate.com/games/laFunk/volcano-idols/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230606174959_https_www.kongregate.com_games_laFunk_volcano-idols_metrics.json_843759f2c026f16a.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
+    },
+    {
+      "date": "2023-06-06",
+      "game_name": "Volcano Idols",
+      "game_url": "http://www.kongregate.com/games/laFunk/volcano-idols",
+      "plays_count_observed": 746,
+      "favorites_count_observed": 1,
+      "plays_text": "746",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/laFunk/volcano-idols/metrics.json",
+      "capture_timestamp": "20230606174959",
+      "capture_url": "https://web.archive.org/web/20230606174959/https://www.kongregate.com/games/laFunk/volcano-idols/metrics.json",
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230606174959_https_www.kongregate.com_games_laFunk_volcano-idols_metrics.json_843759f2c026f16a.json"
@@ -65504,6 +65519,21 @@
       "parser": "metrics_json",
       "confidence": "high",
       "notes": "Extracted from archived game metrics JSON data/raw/game_metrics/json/20230901235821_https_www.kongregate.com_games_dragonlance5_when-the-lights-go-down_metrics.json_1c7d151a8bf0cbf4.json"
+    },
+    {
+      "date": "2023-09-01",
+      "game_name": "Wild Test RPG",
+      "game_url": "http://www.kongregate.com/games/ploo98/wild-test-rpg",
+      "plays_count_observed": 292,
+      "favorites_count_observed": 1,
+      "plays_text": "292",
+      "favorites_text": "1",
+      "metrics_url": "https://www.kongregate.com/games/ploo98/wild-test-rpg/metrics.json",
+      "capture_timestamp": "20230901235507",
+      "capture_url": "https://web.archive.org/web/20230901235507/https://www.kongregate.com/games/ploo98/wild-test-rpg/metrics.json",
+      "parser": "count_source_probe",
+      "confidence": "high",
+      "notes": "Recovered from archived count-source probe data/raw/count_source_probe/payloads/20230901235507_https_www.kongregate.com_games_ploo98_wild-test-rpg_metrics.json_cf6e432965f647d8.txt; source=metrics_json; signal=gameplays_count_with_delimiter"
     },
     {
       "date": "2023-09-01",
