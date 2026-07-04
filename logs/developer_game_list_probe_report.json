@@ -1,18 +1,18 @@
 {
   "candidate_observation_rows": 3,
-  "captures_sampled": 0,
+  "captures_sampled": 3,
   "cdx_status_counts": {
     "fetched": 3
   },
   "developer_filters": [],
   "game_name_contains": [
-    "Umbrella Revolution"
+    "Minions Bejeweled"
   ],
   "include_account_pages": true,
   "input_csv": "data/processed/ranked_asof_missing_recovery_priorities.csv",
   "match_type": "exact",
   "max_captures_per_source": 3,
-  "max_cdx_lookups": 20,
+  "max_cdx_lookups": 12,
   "max_developers": 0,
   "max_games": 1,
   "max_games_per_developer": 0,
@@ -30,14 +30,14 @@
   },
   "persisted_probe_history": {
     "added": 3,
-    "total": 22141,
+    "total": 22215,
     "updated": 0
   },
   "pre_cap_target_developers": 1,
   "pre_cap_target_games": 1,
-  "run_timestamp": "2026-07-04T12:28:44Z",
+  "run_timestamp": "2026-07-04T12:37:57Z",
   "selected_games_by_developer": {
-    "dingjun": 1
+    "wayak": 1
   },
   "skipped_developer_count": 0,
   "skipped_developers_due_to_caps_sample": [],

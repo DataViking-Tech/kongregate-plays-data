@@ -9115,7 +9115,7 @@
       "max_play_count_observed": 1612,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -9209,7 +9209,7 @@
       "max_play_count_observed": 573,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -9726,7 +9726,7 @@
       "max_play_count_observed": 3778,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -10666,7 +10666,7 @@
       "max_play_count_observed": 188,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
@@ -11935,7 +11935,7 @@
       "max_play_count_observed": 71,
       "page_gap_status": "",
       "metrics_audit_status": "has_metrics",
-      "count_source_probe_status": "no_archived_endpoint_rows_observed",
+      "count_source_probe_status": "archived_endpoint_hit_no_count",
       "notes": "Likely added date is the first observed archive/listing/history date, not a confirmed launch date."
     },
     {
