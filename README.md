@@ -29,6 +29,7 @@ This scrape is in v1 finalization. The processed files are coherent snapshots; r
 
 ## Current QA Focus
 
+- `v1_completion_audit` recommends calling the dataset complete for Kongregate/Wayback v1 after publishing the public caveat note. All 1,982 priority games with remaining aggregate as-of gaps now have a v1 finalization bucket; continuing the old five-game cadence would require about 359 more low-yield slices.
 - Ranked-list freshness is current through the newest recovered Wayback rows as of 2026-07-02, plus current live category pages captured on 2026-07-04. The latest Wayback ranked-list capture remains 2026-06-26, and no new mini-catalog games were introduced by the 2026-07-04 live refresh.
 - 0 cached HTML captures remain empty or corrupted in the ranked-page cache.
 - Ranked-page, homepage-fallback, modern-frame, and live-category recovery brought the HTML manifest to 3,393 cached entries with 7,608 known ranked-page failures and 742 known modern-frame failures still recorded.
@@ -411,6 +412,7 @@ This scrape is in v1 finalization. The processed files are coherent snapshots; r
 - `data/processed/ranked_games_observed_plays.csv.gz` - compressed ranked rows enriched with the highest observed aggregate play count on or before each rank date, plus source and lag fields. Running `scripts/build_ranked_games_observed_plays.py` also creates the raw `.csv` locally.
 - `logs/ranked_games_observed_plays_report.*` - coverage report for direct listing counts versus aggregate as-of counts.
 - `data/processed/ranked_asof_missing_recovery_priorities.csv` and `logs/ranked_asof_missing_recovery_report.*` - game-level queue for rank rows that still lack an observed play count on or before the rank date.
+- `data/processed/v1_completion_audit.csv` and `logs/v1_completion_audit_report.*` - v1 closure audit that assigns every remaining aggregate as-of gap to a finalization bucket and records the "complete from Kongregate/Wayback evidence" recommendation.
 - `data/processed/ranked_asof_game_page_probe_progress.csv` and `logs/ranked_asof_game_page_probe_progress_report.*` - page-CDX/page-HTML probe status for the as-of recovery queue.
 - `data/processed/mini_catalog.csv` - games that reached top 20 at least once, including observed Kongregate game IDs when present in ranked-list HTML.
 - `data/processed/game_play_history.csv` - per-game metrics JSON, live metrics, and archived game-page observations.
