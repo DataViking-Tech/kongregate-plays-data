@@ -1,10 +1,10 @@
 # No-History Evidence Summary
 
-- Generated: 2026-07-04T16:18:26Z
+- Generated: 2026-07-05T05:34:10Z
 - Remaining games without per-game play-count history: 325
 - Rows with observed categories: 3
-- Endpoint-hit/no-count games: 136
-- No archived endpoint rows games: 189
+- Endpoint-hit/no-count games: 137
+- No archived endpoint rows games: 188
 - Unresolved failed endpoint total: 0
 
 ## Listing Count Coverage
@@ -14,16 +14,16 @@
 
 ## Evidence Buckets
 
-- dynamic_placeholder_endpoint_archives_no_count: 90
+- dynamic_placeholder_endpoint_archives_no_count: 91
 - partial_listing_counts_no_page_metrics: 84
 - no_game_page_or_endpoint_archives: 79
-- dynamic_placeholder_no_exact_endpoint_archives: 45
+- dynamic_placeholder_no_exact_endpoint_archives: 44
 - no_game_page_cdx_alt_archives_no_count: 27
 
 ## Count Source Probe Status
 
-- no_archived_endpoint_rows_observed: 189
-- archived_endpoint_hit_no_count: 136
+- no_archived_endpoint_rows_observed: 188
+- archived_endpoint_hit_no_count: 137
 
 ## Top Recovery Examples
 
@@ -50,7 +50,7 @@
 | Britney Spears vs Child Servisous | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-07-20 |
 | Cherrie New Spring Trends | 2 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-08-25 |
 | Register Simulator | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-09-20 |
+| Pokemon Kill 4 | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2014-10-09 |
 | ATV Ride 2016 | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-08-20 |
 | SUV Car Cartoon Puzzle | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2016-10-10 |
 | Boat Rush | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-05-16 |
-| Defense Math | 3 | 0 | dynamic_metrics_placeholder | archived_endpoint_hit_no_count | 2017-06-16 |
