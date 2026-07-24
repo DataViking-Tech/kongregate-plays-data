@@ -70,3 +70,7 @@ node scripts/build_play_count_bar_chart_race.mjs
 ```
 
 The recovery tools in `scripts/` can continue targeted Wayback work, but the v1 audit should be refreshed after any data change before treating a new snapshot as published.
+
+## License
+
+The scripts and other software are available under the [MIT License](LICENSE). Original compiled data, reports, visualizations, and documentation are available under [CC BY 4.0](LICENSE-DATA.md). See [NOTICE.md](NOTICE.md) for source and attribution guidance; no rights are granted to the underlying games, trademarks, or third-party archive material.
