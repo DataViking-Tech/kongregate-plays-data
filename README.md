@@ -46,7 +46,8 @@ The most useful data files are:
 - `data/processed/ranked_games_observed_plays.csv.gz`: ranked rows enriched with the highest observed count on or before each ranking date.
 - `data/processed/game_play_history.csv`: per-game metrics, live metrics, and archived game-page observations.
 - `data/processed/mini_catalog.csv`: the canonical top-20 mini catalog and recovered game IDs.
-- `data/processed/game_lifecycle_catalog.csv`: first/last observed dates, categories, social-game flags, and cautious removal evidence.
+- `data/processed/game_lifecycle_catalog.csv`: first/last observed dates, source evidence, and cautious removal evidence.
+- `data/processed/game_taxonomy.csv`: versioned genre, engagement, social-platform review, developer-group, and series-group labels with confidence and evidence fields.
 - `outputs/kongregate_ranked_games/kongregate_ranked_games.xlsx`: workbook containing the published tables and reports.
 
 ## Reports
@@ -63,6 +64,7 @@ python3 scripts/build_mini_catalog.py --top-n 20
 python3 scripts/build_ranked_games_observed_plays.py
 python3 scripts/scan_data_quality.py --as-of 2026-07-05
 python3 scripts/build_game_lifecycle_catalog.py
+python3 scripts/build_game_taxonomy.py
 python3 scripts/summarize_no_history_evidence.py
 python3 scripts/build_v1_completion_audit.py --processed-through-priority-rank 189
 node --max-old-space-size=8192 scripts/build_ranked_games_workbook.mjs

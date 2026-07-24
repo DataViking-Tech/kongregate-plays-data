@@ -1,0 +1,145 @@
+{
+  "catalog_games": 2998,
+  "developer_groups_with_multiple_games": 1490,
+  "engagement_tag_counts": {
+    "idle_progression": 63,
+    "massively_multiplayer": 20,
+    "massively_multiplayer_title_signal": 3,
+    "online_multiplayer": 32,
+    "online_multiplayer_title_signal": 7,
+    "persistent_card_game": 20
+  },
+  "generated_at": "2026-07-24T02:46:30Z",
+  "genre_confidence_counts": {
+    "high_observed_category": 580,
+    "medium_title_signal": 195,
+    "none": 2223
+  },
+  "outputs": {
+    "csv": "data/processed/game_taxonomy.csv",
+    "json": "data/processed/game_taxonomy.json",
+    "report_json": "logs/game_taxonomy_report.json",
+    "report_md": "logs/game_taxonomy_report.md"
+  },
+  "primary_genre_counts": {
+    "action": 80,
+    "adventure": 20,
+    "card_strategy": 20,
+    "escape_room": 113,
+    "idle_incremental": 116,
+    "multiplayer": 22,
+    "other": 30,
+    "puzzle": 97,
+    "role_playing": 50,
+    "shooter": 99,
+    "sports_racing": 56,
+    "strategy": 29,
+    "tower_defense": 43,
+    "unclassified": 2223
+  },
+  "review_status_counts": {
+    "ready": 2781,
+    "review_social_platform": 13,
+    "review_title_inference": 204
+  },
+  "same_developer_series_groups": 47,
+  "social_platform_review_candidates": [
+    {
+      "best_rank": 1,
+      "developer": "5thPlanetGames",
+      "game_name": "Dawn of the Dragons",
+      "signals": "publisher_signal:5thplanetgames",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 1,
+      "developer": "synapticon",
+      "game_name": "Tyrant",
+      "signals": "publisher_signal:synapticon",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 1,
+      "developer": "KIXEYE",
+      "game_name": "Backyard Monsters",
+      "signals": "publisher_signal:kixeye",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 1,
+      "developer": "towski",
+      "game_name": "facebook example",
+      "signals": "title_signal:facebook",
+      "status": "title_reference_requires_review"
+    },
+    {
+      "best_rank": 2,
+      "developer": "synapticon",
+      "game_name": "Tyrant Unleashed",
+      "signals": "publisher_signal:synapticon",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 3,
+      "developer": "5thPlanetGames",
+      "game_name": "Clash of the Dragons",
+      "signals": "publisher_signal:5thplanetgames",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 5,
+      "developer": "5thPlanetGames",
+      "game_name": "Legacy of a Thousand Suns",
+      "signals": "publisher_signal:5thplanetgames",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 5,
+      "developer": "R2Games",
+      "game_name": "Wartune",
+      "signals": "publisher_signal:r2games",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 5,
+      "developer": "KIXEYE",
+      "game_name": "Battle Pirates",
+      "signals": "publisher_signal:kixeye",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 6,
+      "developer": "synapticon",
+      "game_name": "Spellstone",
+      "signals": "publisher_signal:synapticon",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 6,
+      "developer": "william_",
+      "game_name": "Facebook",
+      "signals": "title_signal:facebook",
+      "status": "title_reference_requires_review"
+    },
+    {
+      "best_rank": 8,
+      "developer": "kanoapps",
+      "game_name": "Mob Wars: La Cosa Nostra",
+      "signals": "publisher_signal:kanoapps",
+      "status": "publisher_portfolio_candidate"
+    },
+    {
+      "best_rank": 16,
+      "developer": "R2Games",
+      "game_name": "Heroes of The Banner",
+      "signals": "publisher_signal:r2games",
+      "status": "publisher_portfolio_candidate"
+    }
+  ],
+  "social_platform_status_counts": {
+    "not_assessed": 2985,
+    "publisher_portfolio_candidate": 11,
+    "title_reference_requires_review": 2
+  },
+  "taxonomy_version": "1.0.0"
+}

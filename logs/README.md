@@ -9,6 +9,7 @@ Start with these reports:
 - `no_history_evidence_summary_report.*`: evidence behind games that still lack a per-game play-count history.
 - `ranked_games_observed_plays_report.*`: direct-listing versus aggregate as-of coverage.
 - `game_lifecycle_catalog_report.*`: catalog categories, date evidence, and removal-status summaries.
+- `game_taxonomy_report.*`: higher-level genre, engagement, publisher-signal, developer, and series-group classifications.
 
 The remaining report families are grouped by function:
 
